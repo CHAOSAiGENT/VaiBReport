@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-05T15:28:15.854Z",
+  "generated_at": "2026-03-05T15:34:45.749Z",
   "config": {
     "default_queries": [
       "topic:saas language:TypeScript stars:>40 pushed:>2025-06-01 sort:stars",
@@ -1221,7 +1221,7 @@
       ],
       "pushed_at": "2026-03-02T09:01:55Z",
       "created_at": "2025-03-25T10:09:25Z",
-      "forks_count": 559,
+      "forks_count": 560,
       "_source": "search",
       "_query_group": "extra"
     },
@@ -2820,7 +2820,7 @@
       "full_name": "zhouxiaoka/autoclip",
       "html_url": "https://github.com/zhouxiaoka/autoclip",
       "description": "AutoClip : AI-powered video clipping and highlight generation · 一款智能高光提取与剪辑的二创工具",
-      "stargazers_count": 1686,
+      "stargazers_count": 1689,
       "language": "Python",
       "topics": [
         "ai",
@@ -3312,7 +3312,7 @@
       ],
       "pushed_at": "2026-03-05T10:10:20Z",
       "created_at": "2019-11-15T18:32:42Z",
-      "forks_count": 5231,
+      "forks_count": 5232,
       "_source": "search",
       "_query_group": "ugc_social"
     },
@@ -3376,7 +3376,7 @@
         "strapi",
         "typescript"
       ],
-      "pushed_at": "2026-03-05T15:03:03Z",
+      "pushed_at": "2026-03-05T15:32:54Z",
       "created_at": "2015-09-30T15:34:48Z",
       "forks_count": 9528,
       "_source": "search",
@@ -3522,7 +3522,7 @@
         "vision",
         "webui"
       ],
-      "pushed_at": "2026-03-05T15:18:12Z",
+      "pushed_at": "2026-03-05T15:32:53Z",
       "created_at": "2023-02-12T01:06:52Z",
       "forks_count": 6936,
       "_source": "search",
@@ -3561,7 +3561,7 @@
       "full_name": "KeygraphHQ/shannon",
       "html_url": "https://github.com/KeygraphHQ/shannon",
       "description": "Shannon Lite is a fully autonomous AI pentester for web apps and APIs. 96.15% (100/104 exploits) on a hint-free, source-aware variant of the XBOW benchmark.",
-      "stargazers_count": 31546,
+      "stargazers_count": 31551,
       "language": "TypeScript",
       "topics": [
         "penetration-testing",
@@ -3603,7 +3603,7 @@
         "workflow-automation",
         "workflow-engine"
       ],
-      "pushed_at": "2026-03-05T15:22:10Z",
+      "pushed_at": "2026-03-05T15:33:55Z",
       "created_at": "2019-06-07T11:03:41Z",
       "forks_count": 2089,
       "_source": "search",
@@ -3708,12 +3708,12 @@
       "full_name": "badlogic/pi-mono",
       "html_url": "https://github.com/badlogic/pi-mono",
       "description": "AI agent toolkit: coding agent CLI, unified LLM API, TUI & web UI libraries, Slack bot, vLLM pods",
-      "stargazers_count": 20176,
+      "stargazers_count": 20178,
       "language": "TypeScript",
       "topics": [],
       "pushed_at": "2026-03-05T06:14:20Z",
       "created_at": "2025-08-09T14:03:50Z",
-      "forks_count": 2090,
+      "forks_count": 2089,
       "_source": "search",
       "_query_group": "ugc_social"
     },
@@ -4033,7 +4033,7 @@
         "python",
         "typescript"
       ],
-      "pushed_at": "2026-03-05T15:24:15Z",
+      "pushed_at": "2026-03-05T15:32:19Z",
       "created_at": "2025-01-02T17:45:02Z",
       "forks_count": 1011,
       "_source": "search",
@@ -4132,7 +4132,7 @@
         "redux",
         "wordpress"
       ],
-      "pushed_at": "2026-03-05T15:25:21Z",
+      "pushed_at": "2026-03-05T15:31:32Z",
       "created_at": "2015-11-10T20:00:16Z",
       "forks_count": 2003,
       "_source": "search",
@@ -4523,7 +4523,7 @@
       "full_name": "public-apis/public-apis",
       "html_url": "https://github.com/public-apis/public-apis",
       "description": "A collective list of free APIs",
-      "stargazers_count": 404434,
+      "stargazers_count": 404435,
       "language": "Python",
       "topics": [
         "api",
@@ -4542,7 +4542,7 @@
       ],
       "pushed_at": "2026-02-19T15:14:35Z",
       "created_at": "2016-03-20T23:49:42Z",
-      "forks_count": 43643,
+      "forks_count": 43644,
       "_source": "search",
       "_query_group": "ugc_social"
     },
@@ -4550,7 +4550,7 @@
       "full_name": "open-webui/open-webui",
       "html_url": "https://github.com/open-webui/open-webui",
       "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
-      "stargazers_count": 125841,
+      "stargazers_count": 125843,
       "language": "Python",
       "topics": [
         "ai",
@@ -4571,7 +4571,7 @@
       ],
       "pushed_at": "2026-03-04T23:14:13Z",
       "created_at": "2023-10-06T22:08:27Z",
-      "forks_count": 17807,
+      "forks_count": 17806,
       "_source": "search",
       "_query_group": "ugc_social"
     },
@@ -4589,7 +4589,7 @@
         "pytorch",
         "stable-diffusion"
       ],
-      "pushed_at": "2026-03-05T15:23:23Z",
+      "pushed_at": "2026-03-05T15:30:40Z",
       "created_at": "2023-01-17T03:15:56Z",
       "forks_count": 12030,
       "_source": "search",
@@ -4633,7 +4633,7 @@
       "full_name": "ccxt/ccxt",
       "html_url": "https://github.com/ccxt/ccxt",
       "description": "A cryptocurrency trading API with more than 100 exchanges in JavaScript / TypeScript / Python / C# / PHP / Go ",
-      "stargazers_count": 41201,
+      "stargazers_count": 41200,
       "language": "Python",
       "topics": [
         "altcoin",
@@ -4721,7 +4721,7 @@
       ],
       "pushed_at": "2026-03-05T14:59:28Z",
       "created_at": "2023-07-27T00:09:52Z",
-      "forks_count": 6176,
+      "forks_count": 6177,
       "_source": "search",
       "_query_group": "ugc_social"
     },
@@ -4855,7 +4855,7 @@
       "full_name": "Fosowl/agenticSeek",
       "html_url": "https://github.com/Fosowl/agenticSeek",
       "description": "Fully Local Manus AI. No APIs, No $200 monthly bills. Enjoy an autonomous agent that thinks, browses the web, and code for the sole cost of electricity. 🔔 Official updates only via twitter @Martin993886460 (Beware of fake account)",
-      "stargazers_count": 25425,
+      "stargazers_count": 25426,
       "language": "Python",
       "topics": [
         "agentic-ai",
@@ -4989,7 +4989,7 @@
         "self-hosted",
         "snowflake"
       ],
-      "pushed_at": "2026-03-05T15:25:57Z",
+      "pushed_at": "2026-03-05T15:30:20Z",
       "created_at": "2020-07-27T23:55:54Z",
       "forks_count": 5074,
       "_source": "search",
@@ -5175,7 +5175,7 @@
       "topics": [],
       "pushed_at": "2026-02-05T20:47:09Z",
       "created_at": "2024-08-29T19:52:32Z",
-      "forks_count": 2527,
+      "forks_count": 2526,
       "_source": "search",
       "_query_group": "ugc_social"
     },
@@ -5183,7 +5183,7 @@
       "full_name": "cheahjs/free-llm-api-resources",
       "html_url": "https://github.com/cheahjs/free-llm-api-resources",
       "description": "A list of free LLM inference resources accessible via API.",
-      "stargazers_count": 14132,
+      "stargazers_count": 14133,
       "language": "Python",
       "topics": [
         "ai",
@@ -5222,7 +5222,7 @@
       "full_name": "JoeanAmier/TikTokDownloader",
       "html_url": "https://github.com/JoeanAmier/TikTokDownloader",
       "description": "TikTok 发布/喜欢/合辑/直播/视频/图集/音乐；抖音发布/喜欢/收藏/收藏夹/视频/图集/实况/直播/音乐/合集/评论/账号/搜索/热榜数据采集工具/下载工具",
-      "stargazers_count": 13336,
+      "stargazers_count": 13337,
       "language": "Python",
       "topics": [
         "abogus",
@@ -5275,7 +5275,7 @@
       "full_name": "FlareSolverr/FlareSolverr",
       "html_url": "https://github.com/FlareSolverr/FlareSolverr",
       "description": "Proxy server to bypass Cloudflare protection",
-      "stargazers_count": 12844,
+      "stargazers_count": 12845,
       "language": "Python",
       "topics": [
         "api",
@@ -5968,7 +5968,7 @@
       "full_name": "pydantic/pydantic",
       "html_url": "https://github.com/pydantic/pydantic",
       "description": "Data validation using Python type hints",
-      "stargazers_count": 27103,
+      "stargazers_count": 27104,
       "language": "Python",
       "topics": [],
       "pushed_at": null,
