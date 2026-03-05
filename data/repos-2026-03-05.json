@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-05T00:22:01.406Z",
+  "generated_at": "2026-03-05T14:01:12.979Z",
   "config": {
     "default_queries": [
       "topic:saas language:TypeScript stars:>40 pushed:>2025-06-01 sort:stars",
@@ -22,11 +22,11 @@
   "sources": {
     "github_search": {
       "query_count": 11,
-      "repo_count": 93
+      "repo_count": 95
     },
     "trending": {
       "method": "cheerio-scrape",
-      "repo_count": 22
+      "repo_count": 23
     }
   },
   "repos": [
@@ -34,7 +34,7 @@
       "full_name": "kriasoft/react-starter-kit",
       "html_url": "https://github.com/kriasoft/react-starter-kit",
       "description": "Modern React starter kit with Bun, TypeScript, Tailwind CSS, tRPC, Stripe, and Cloudflare Workers. Production-ready monorepo for building fast web apps.",
-      "stargazers_count": 23513,
+      "stargazers_count": 23514,
       "language": "TypeScript",
       "topics": [
         "better-auth",
@@ -68,7 +68,7 @@
       "full_name": "wasp-lang/open-saas",
       "html_url": "https://github.com/wasp-lang/open-saas",
       "description": "A 100% free modern JS SaaS boilerplate (React, NodeJS, Prisma). Full-featured: Auth (email, google, github, slack, MS), Email sending, Background jobs, Landing page, Payments (Stripe, Polar.sh), Shadcn UI, S3 file upload. AI-ready with tailored AGENTS.md, skills, and Claude Code plugin. One cmd deploy. Powered by Wasp full-stack framework.",
-      "stargazers_count": 13478,
+      "stargazers_count": 13483,
       "language": "TypeScript",
       "topics": [
         "ai",
@@ -92,7 +92,7 @@
         "typesafe",
         "typescript"
       ],
-      "pushed_at": "2026-03-04T15:11:01Z",
+      "pushed_at": "2026-03-05T13:30:57Z",
       "created_at": "2023-12-01T13:54:36Z",
       "forks_count": 1541,
       "_source": "search",
@@ -128,7 +128,7 @@
       ],
       "pushed_at": "2026-02-20T05:18:08Z",
       "created_at": "2024-03-29T19:25:52Z",
-      "forks_count": 1251,
+      "forks_count": 1252,
       "_source": "search",
       "_query_group": "default"
     },
@@ -136,7 +136,7 @@
       "full_name": "boxyhq/saas-starter-kit",
       "html_url": "https://github.com/boxyhq/saas-starter-kit",
       "description": "🔥 Enterprise SaaS Starter Kit - Kickstart your enterprise app development with the Next.js SaaS boilerplate 🚀",
-      "stargazers_count": 4715,
+      "stargazers_count": 4716,
       "language": "TypeScript",
       "topics": [
         "boilerplate",
@@ -159,7 +159,7 @@
       ],
       "pushed_at": "2026-03-02T08:28:54Z",
       "created_at": "2022-07-13T12:41:52Z",
-      "forks_count": 1181,
+      "forks_count": 1182,
       "_source": "search",
       "_query_group": "default"
     },
@@ -190,7 +190,7 @@
         "saas",
         "schema"
       ],
-      "pushed_at": "2026-03-04T23:54:25Z",
+      "pushed_at": "2026-03-05T04:54:26Z",
       "created_at": "2022-09-22T02:42:35Z",
       "forks_count": 133,
       "_source": "search",
@@ -200,7 +200,7 @@
       "full_name": "apptension/saas-boilerplate",
       "html_url": "https://github.com/apptension/saas-boilerplate",
       "description": "SaaS Boilerplate - Open Source and free SaaS stack that lets you build SaaS products faster in React, Django and AWS. Focus on essential business logic instead of coding repeatable features!",
-      "stargazers_count": 2827,
+      "stargazers_count": 2828,
       "language": "TypeScript",
       "topics": [
         "aws",
@@ -249,7 +249,7 @@
         "saas",
         "stripe"
       ],
-      "pushed_at": "2026-03-04T23:20:23Z",
+      "pushed_at": "2026-03-05T13:57:43Z",
       "created_at": "2015-12-21T17:16:49Z",
       "forks_count": 360,
       "_source": "search",
@@ -308,7 +308,7 @@
         "visual-regressions",
         "vue3"
       ],
-      "pushed_at": "2026-02-21T13:24:28Z",
+      "pushed_at": "2026-03-05T09:28:10Z",
       "created_at": "2021-12-20T21:29:32Z",
       "forks_count": 70,
       "_source": "search",
@@ -368,7 +368,7 @@
         "ui",
         "uitkit"
       ],
-      "pushed_at": "2026-03-03T21:23:28Z",
+      "pushed_at": "2026-03-05T12:55:27Z",
       "created_at": "2021-10-19T18:28:24Z",
       "forks_count": 168,
       "_source": "search",
@@ -420,7 +420,7 @@
         "salesforce",
         "sap"
       ],
-      "pushed_at": "2026-02-28T08:22:57Z",
+      "pushed_at": "2026-03-05T07:06:45Z",
       "created_at": "2019-03-04T09:31:44Z",
       "forks_count": 416,
       "_source": "search",
@@ -477,7 +477,7 @@
       "full_name": "Lissy93/domain-locker",
       "html_url": "https://github.com/Lissy93/domain-locker",
       "description": "🌐 The all-in-one tool, for keeping track of your domain name portfolio. Got domain names? Get Domain Locker!",
-      "stargazers_count": 1199,
+      "stargazers_count": 1201,
       "language": "TypeScript",
       "topics": [
         "alternative-to",
@@ -495,7 +495,7 @@
       ],
       "pushed_at": "2026-02-28T23:28:41Z",
       "created_at": "2024-10-05T17:03:06Z",
-      "forks_count": 91,
+      "forks_count": 92,
       "_source": "search",
       "_query_group": "default"
     },
@@ -667,7 +667,7 @@
       ],
       "pushed_at": "2026-03-03T14:34:34Z",
       "created_at": "2024-09-16T13:27:23Z",
-      "forks_count": 489,
+      "forks_count": 490,
       "_source": "search",
       "_query_group": "default"
     },
@@ -733,7 +733,7 @@
         "mcp-server",
         "saas"
       ],
-      "pushed_at": "2026-03-04T19:24:08Z",
+      "pushed_at": "2026-03-05T10:54:52Z",
       "created_at": "2025-05-03T17:46:38Z",
       "forks_count": 17,
       "_source": "search",
@@ -825,7 +825,7 @@
       "full_name": "gonzalochale/saas-landing-template",
       "html_url": "https://github.com/gonzalochale/saas-landing-template",
       "description": "Starter template for SaaS applications landing page using Next.js 16, ShadcnUI and Tailwind CSS v4.",
-      "stargazers_count": 148,
+      "stargazers_count": 147,
       "language": "TypeScript",
       "topics": [
         "nextjs",
@@ -861,7 +861,7 @@
         "saas",
         "sbt"
       ],
-      "pushed_at": "2026-03-03T12:35:56Z",
+      "pushed_at": "2026-03-05T01:56:55Z",
       "created_at": "2024-04-15T07:03:44Z",
       "forks_count": 35,
       "_source": "search",
@@ -909,7 +909,7 @@
       ],
       "pushed_at": "2026-02-11T17:19:25Z",
       "created_at": "2025-06-27T15:32:45Z",
-      "forks_count": 109,
+      "forks_count": 108,
       "_source": "search",
       "_query_group": "default"
     },
@@ -1052,6 +1052,27 @@
       "_query_group": "default"
     },
     {
+      "full_name": "kriasoft/better-auth",
+      "html_url": "https://github.com/kriasoft/better-auth",
+      "description": "18 enterprise plugins for Better Auth - cloud storage, security, analytics & more (work-in-progress)",
+      "stargazers_count": 46,
+      "language": "TypeScript",
+      "topics": [
+        "authentication",
+        "better-auth",
+        "better-auth-plugin",
+        "byod",
+        "membership",
+        "organization",
+        "saas"
+      ],
+      "pushed_at": "2025-09-19T21:37:35Z",
+      "created_at": "2025-08-20T11:16:02Z",
+      "forks_count": 1,
+      "_source": "search",
+      "_query_group": "default"
+    },
+    {
       "full_name": "Blankeos/solid-launch",
       "html_url": "https://github.com/Blankeos/solid-launch",
       "description": "🧊 My opinionated SolidJS+Vike+Hono starter w/ batteries-included.",
@@ -1078,27 +1099,6 @@
       "pushed_at": "2026-02-23T06:16:56Z",
       "created_at": "2024-06-06T14:59:50Z",
       "forks_count": 2,
-      "_source": "search",
-      "_query_group": "default"
-    },
-    {
-      "full_name": "kriasoft/better-auth",
-      "html_url": "https://github.com/kriasoft/better-auth",
-      "description": "18 enterprise plugins for Better Auth - cloud storage, security, analytics & more (work-in-progress)",
-      "stargazers_count": 45,
-      "language": "TypeScript",
-      "topics": [
-        "authentication",
-        "better-auth",
-        "better-auth-plugin",
-        "byod",
-        "membership",
-        "organization",
-        "saas"
-      ],
-      "pushed_at": "2025-09-19T21:37:35Z",
-      "created_at": "2025-08-20T11:16:02Z",
-      "forks_count": 1,
       "_source": "search",
       "_query_group": "default"
     },
@@ -1151,7 +1151,7 @@
       "full_name": "janhesters/react-router-saas-template",
       "html_url": "https://github.com/janhesters/react-router-saas-template",
       "description": "Create B2B and B2B SaaS apps with React Router.",
-      "stargazers_count": 41,
+      "stargazers_count": 42,
       "language": "TypeScript",
       "topics": [
         "react-router",
@@ -1168,10 +1168,50 @@
       "_query_group": "default"
     },
     {
+      "full_name": "BeyteFlow/ReadmeGenAI",
+      "html_url": "https://github.com/BeyteFlow/ReadmeGenAI",
+      "description": "AI-powered README generator for GitHub. Paste a repo URL and instantly create a professional, well-structured README.md file.",
+      "stargazers_count": 41,
+      "language": "TypeScript",
+      "topics": [
+        "ai",
+        "automation",
+        "developer-tool",
+        "github-api",
+        "markdown",
+        "open-source",
+        "react",
+        "readme-generator",
+        "saas"
+      ],
+      "pushed_at": "2026-03-04T17:10:41Z",
+      "created_at": "2026-02-08T17:07:02Z",
+      "forks_count": 3,
+      "_source": "search",
+      "_query_group": "default"
+    },
+    {
+      "full_name": "evepupil/NextDevTpl",
+      "html_url": "https://github.com/evepupil/NextDevTpl",
+      "description": "一个现代化的 SaaS 全栈开发模板，基于 Next.js 15 构建，包含认证、支付、积分、邮件、存储、工单、API 限流、日志、错误监控等完整的 SaaS 功能模块。",
+      "stargazers_count": 41,
+      "language": "TypeScript",
+      "topics": [
+        "nextjs15",
+        "saas",
+        "template-project"
+      ],
+      "pushed_at": "2026-02-27T15:35:42Z",
+      "created_at": "2026-01-23T10:38:55Z",
+      "forks_count": 4,
+      "_source": "search",
+      "_query_group": "default"
+    },
+    {
       "full_name": "ln-dev7/square-ui",
       "html_url": "https://github.com/ln-dev7/square-ui",
       "description": "Collection of beautifully crafted open-source layouts UI built with shadcn/ui.",
-      "stargazers_count": 4938,
+      "stargazers_count": 4940,
       "language": "TypeScript",
       "topics": [
         "layout",
@@ -1188,7 +1228,7 @@
       "full_name": "cruip/open-react-template",
       "html_url": "https://github.com/cruip/open-react-template",
       "description": "A free React / Next.js landing page template designed to showcase open source projects, SaaS products, online services, and more. Made by",
-      "stargazers_count": 4597,
+      "stargazers_count": 4598,
       "language": "TypeScript",
       "topics": [
         "free",
@@ -1213,7 +1253,7 @@
       "full_name": "obytes/react-native-template-obytes",
       "html_url": "https://github.com/obytes/react-native-template-obytes",
       "description": "📱 A template for your next React Native project: Expo, PNPM, TypeScript, TailwindCSS, Husky, EAS, GitHub Actions, Env Vars, expo-router, react-query, react-hook-form.",
-      "stargazers_count": 4037,
+      "stargazers_count": 4038,
       "language": "TypeScript",
       "topics": [
         "android",
@@ -1234,7 +1274,7 @@
       ],
       "pushed_at": "2026-02-24T01:50:05Z",
       "created_at": "2020-09-10T13:34:45Z",
-      "forks_count": 616,
+      "forks_count": 615,
       "_source": "search",
       "_query_group": "extra"
     },
@@ -1242,7 +1282,7 @@
       "full_name": "cawa-93/vite-electron-builder",
       "html_url": "https://github.com/cawa-93/vite-electron-builder",
       "description": "Secure boilerplate for Electron app based on Vite. TypeScript + Vue/React/Angular/Svelte/Vanilla",
-      "stargazers_count": 2948,
+      "stargazers_count": 2947,
       "language": "TypeScript",
       "topics": [
         "best-practices",
@@ -1270,7 +1310,7 @@
       "full_name": "chibat/chrome-extension-typescript-starter",
       "html_url": "https://github.com/chibat/chrome-extension-typescript-starter",
       "description": "Chrome Extension TypeScript Starter",
-      "stargazers_count": 2822,
+      "stargazers_count": 2823,
       "language": "TypeScript",
       "topics": [
         "boilerplate",
@@ -1282,7 +1322,7 @@
       ],
       "pushed_at": "2026-03-03T13:06:07Z",
       "created_at": "2016-11-23T13:11:41Z",
-      "forks_count": 465,
+      "forks_count": 464,
       "_source": "search",
       "_query_group": "extra"
     },
@@ -1361,7 +1401,7 @@
       "full_name": "zce/caz",
       "html_url": "https://github.com/zce/caz",
       "description": "A simple yet powerful template-based Scaffolding tools.",
-      "stargazers_count": 2481,
+      "stargazers_count": 2482,
       "language": "TypeScript",
       "topics": [
         "boilerplate",
@@ -1376,7 +1416,7 @@
       ],
       "pushed_at": "2026-02-23T08:45:18Z",
       "created_at": "2016-09-23T19:24:33Z",
-      "forks_count": 786,
+      "forks_count": 785,
       "_source": "search",
       "_query_group": "extra"
     },
@@ -1401,7 +1441,7 @@
       "full_name": "actions/typescript-action",
       "html_url": "https://github.com/actions/typescript-action",
       "description": "Create a TypeScript Action with tests, linting, workflow, publishing, and versioning",
-      "stargazers_count": 2383,
+      "stargazers_count": 2385,
       "language": "TypeScript",
       "topics": [
         "github-actions",
@@ -1418,7 +1458,7 @@
       "full_name": "arifszn/gitprofile",
       "html_url": "https://github.com/arifszn/gitprofile",
       "description": "🚀 Create and publish a dynamic portfolio by just providing your GitHub username.",
-      "stargazers_count": 2207,
+      "stargazers_count": 2208,
       "language": "TypeScript",
       "topics": [
         "academic",
@@ -1443,7 +1483,7 @@
       ],
       "pushed_at": "2026-02-01T08:15:16Z",
       "created_at": "2021-08-21T05:08:30Z",
-      "forks_count": 2092,
+      "forks_count": 2091,
       "_source": "search",
       "_query_group": "extra"
     },
@@ -1474,7 +1514,7 @@
       "full_name": "feige996/unibest",
       "html_url": "https://github.com/feige996/unibest",
       "description": "【这是新仓库，codercup那个进不去不维护了。】unibest - 最好用的 uniapp 开发框架。unibest 是由 uniapp + Vue3 + Ts + Vite5 + UnoCss + WotUI 驱动的跨端快速启动模板，使用 VS Code 开发，具有代码提示、自动格式化、统一配置、代码片段等功能，同时内置了大量平时开发常用的基本组件，开箱即用，让你编写 uniapp 拥有 best 体验。",
-      "stargazers_count": 1909,
+      "stargazers_count": 1912,
       "language": "TypeScript",
       "topics": [
         "template",
@@ -1493,7 +1533,7 @@
       "full_name": "BearStudio/start-ui-web",
       "html_url": "https://github.com/BearStudio/start-ui-web",
       "description": "🚀 Start UI [web] is an opinionated UI starter from the 🐻 BearStudio Team with ⚙️ Node.js, 🟦 TypeScript, ⚛️ React, 📦 TanStack Start, 💨 Tailwind CSS, 🧩 shadcn/ui, 📋 React Hook Form, 🔌 oRPC, 🛠 Prisma, 🔐 Better Auth, 📚 Storybook, 🧪 Vitest, 🎭 Playwright",
-      "stargazers_count": 1688,
+      "stargazers_count": 1689,
       "language": "TypeScript",
       "topics": [
         "boilerplate",
@@ -1516,7 +1556,7 @@
         "typescript",
         "web"
       ],
-      "pushed_at": "2026-03-04T12:28:52Z",
+      "pushed_at": "2026-03-05T08:53:29Z",
       "created_at": "2019-12-12T15:18:26Z",
       "forks_count": 153,
       "_source": "search",
@@ -1594,7 +1634,7 @@
       "full_name": "shadcn-ui/next-template",
       "html_url": "https://github.com/shadcn-ui/next-template",
       "description": "A Next.js 13 template for building apps with Radix UI and Tailwind CSS.",
-      "stargazers_count": 1497,
+      "stargazers_count": 1496,
       "language": "TypeScript",
       "topics": [
         "nextjs",
@@ -1677,7 +1717,7 @@
       ],
       "pushed_at": "2025-11-10T04:07:15Z",
       "created_at": "2022-04-19T22:30:54Z",
-      "forks_count": 153,
+      "forks_count": 154,
       "_source": "search",
       "_query_group": "extra"
     },
@@ -1705,7 +1745,7 @@
       "full_name": "dishait/tov-template",
       "html_url": "https://github.com/dishait/tov-template",
       "description": "vite + vue3 + ts 开箱即用现代开发模板 | vite + vue3 + ts out-of-the-box modern development template",
-      "stargazers_count": 975,
+      "stargazers_count": 976,
       "language": "TypeScript",
       "topics": [
         "modern",
@@ -1827,7 +1867,7 @@
       ],
       "pushed_at": "2026-02-25T04:59:24Z",
       "created_at": "2022-08-19T18:42:12Z",
-      "forks_count": 168,
+      "forks_count": 169,
       "_source": "search",
       "_query_group": "extra"
     },
@@ -1846,7 +1886,7 @@
         "scaffold",
         "template"
       ],
-      "pushed_at": "2026-03-04T21:58:24Z",
+      "pushed_at": "2026-03-05T06:06:50Z",
       "created_at": "2019-01-06T08:36:18Z",
       "forks_count": 29,
       "_source": "search",
@@ -1856,7 +1896,7 @@
       "full_name": "suren-atoyan/react-pwa",
       "html_url": "https://github.com/suren-atoyan/react-pwa",
       "description": "Starter kit for modern web applications",
-      "stargazers_count": 695,
+      "stargazers_count": 696,
       "language": "TypeScript",
       "topics": [
         "boilerplate",
@@ -1874,7 +1914,7 @@
       "full_name": "zhangyao1990/elegant-admin",
       "html_url": "https://github.com/zhangyao1990/elegant-admin",
       "description": "vue admin vue3 vue3admin vueadmin vue3.0-admin elegant-admin element element-plus template.vue3,vite,typescript,vue后台管理,vue3后台管理",
-      "stargazers_count": 688,
+      "stargazers_count": 687,
       "language": "TypeScript",
       "topics": [
         "admin",
@@ -2085,7 +2125,7 @@
         "react",
         "template"
       ],
-      "pushed_at": "2026-03-03T17:13:05Z",
+      "pushed_at": "2026-03-05T08:50:09Z",
       "created_at": "2021-06-23T18:00:36Z",
       "forks_count": 139,
       "_source": "search",
@@ -2282,7 +2322,7 @@
       "full_name": "aquasecurity/trivy",
       "html_url": "https://github.com/aquasecurity/trivy",
       "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
-      "stargazers_count": 850,
+      "stargazers_count": 32798,
       "language": "Go",
       "topics": [],
       "pushed_at": null,
@@ -2294,7 +2334,7 @@
       "full_name": "nautechsystems/nautilus_trader",
       "html_url": "https://github.com/nautechsystems/nautilus_trader",
       "description": "A high-performance algorithmic trading platform and event-driven backtester",
-      "stargazers_count": 20718,
+      "stargazers_count": 20923,
       "language": "Rust",
       "topics": [],
       "pushed_at": null,
@@ -2306,7 +2346,7 @@
       "full_name": "ripienaar/free-for-dev",
       "html_url": "https://github.com/ripienaar/free-for-dev",
       "description": "A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev",
-      "stargazers_count": 118604,
+      "stargazers_count": 118648,
       "language": "HTML",
       "topics": [],
       "pushed_at": null,
@@ -2315,11 +2355,11 @@
       "_source": "trending"
     },
     {
-      "full_name": "codecrafters-io/build-your-own-x",
-      "html_url": "https://github.com/codecrafters-io/build-your-own-x",
-      "description": "Master programming by recreating your favorite technologies from scratch.",
-      "stargazers_count": 472218,
-      "language": "Markdown",
+      "full_name": "khoj-ai/khoj",
+      "html_url": "https://github.com/khoj-ai/khoj",
+      "description": "Your AI second brain. Self-hostable. Get answers from the web or your docs. Build custom agents, schedule automations, do deep research. Turn any online or local LLM into your personal, autonomous AI (gpt, claude, gemini, llama, qwen, mistral). Get started - free.",
+      "stargazers_count": 33109,
+      "language": "Python",
       "topics": [],
       "pushed_at": null,
       "created_at": null,
@@ -2327,11 +2367,11 @@
       "_source": "trending"
     },
     {
-      "full_name": "NationalSecurityAgency/ghidra",
-      "html_url": "https://github.com/NationalSecurityAgency/ghidra",
-      "description": "Ghidra is a software reverse engineering (SRE) framework",
-      "stargazers_count": 65342,
-      "language": "Java",
+      "full_name": "hoppscotch/hoppscotch",
+      "html_url": "https://github.com/hoppscotch/hoppscotch",
+      "description": "Open-Source API Development Ecosystem • https://hoppscotch.io • Offline, On-Prem & Cloud • Web, Desktop & CLI • Open-Source Alternative to Postman, Insomnia",
+      "stargazers_count": 78143,
+      "language": "TypeScript",
       "topics": [],
       "pushed_at": null,
       "created_at": null,
@@ -2339,11 +2379,131 @@
       "_source": "trending"
     },
     {
-      "full_name": "servo/servo",
-      "html_url": "https://github.com/servo/servo",
-      "description": "Servo aims to empower developers with a lightweight, high-performance alternative for embedding web technologies in applications.",
-      "stargazers_count": 35878,
+      "full_name": "baserow/baserow",
+      "html_url": "https://github.com/baserow/baserow",
+      "description": "Build databases, automations, apps & agents with AI — no code. Open source platform available on cloud and self-hosted. GDPR, HIPAA, SOC 2 compliant. Best Airtable alternative.",
+      "stargazers_count": 4294,
+      "language": "Python",
+      "topics": [],
+      "pushed_at": null,
+      "created_at": null,
+      "forks_count": 0,
+      "_source": "trending"
+    },
+    {
+      "full_name": "vinta/awesome-python",
+      "html_url": "https://github.com/vinta/awesome-python",
+      "description": "An opinionated list of awesome Python frameworks, libraries, software and resources.",
+      "stargazers_count": 285692,
+      "language": "Python",
+      "topics": [],
+      "pushed_at": null,
+      "created_at": null,
+      "forks_count": 0,
+      "_source": "trending"
+    },
+    {
+      "full_name": "evershopcommerce/evershop",
+      "html_url": "https://github.com/evershopcommerce/evershop",
+      "description": "🛍️ Typescript E-commerce Platform",
+      "stargazers_count": 9800,
+      "language": "TypeScript",
+      "topics": [],
+      "pushed_at": null,
+      "created_at": null,
+      "forks_count": 0,
+      "_source": "trending"
+    },
+    {
+      "full_name": "gristlabs/grist-core",
+      "html_url": "https://github.com/gristlabs/grist-core",
+      "description": "Grist is the evolution of spreadsheets.",
+      "stargazers_count": 10735,
+      "language": "TypeScript",
+      "topics": [],
+      "pushed_at": null,
+      "created_at": null,
+      "forks_count": 0,
+      "_source": "trending"
+    },
+    {
+      "full_name": "Flow-Launcher/Flow.Launcher",
+      "html_url": "https://github.com/Flow-Launcher/Flow.Launcher",
+      "description": "🔍 Quick file search & app launcher for Windows with community-made plugins",
+      "stargazers_count": 14066,
+      "language": "C#",
+      "topics": [],
+      "pushed_at": null,
+      "created_at": null,
+      "forks_count": 0,
+      "_source": "trending"
+    },
+    {
+      "full_name": "tokio-rs/tokio",
+      "html_url": "https://github.com/tokio-rs/tokio",
+      "description": "A runtime for writing reliable asynchronous applications with Rust. Provides I/O, networking, scheduling, timers, ...",
+      "stargazers_count": 31361,
       "language": "Rust",
+      "topics": [],
+      "pushed_at": null,
+      "created_at": null,
+      "forks_count": 0,
+      "_source": "trending"
+    },
+    {
+      "full_name": "vitejs/vite",
+      "html_url": "https://github.com/vitejs/vite",
+      "description": "Next generation frontend tooling. It's fast!",
+      "stargazers_count": 78605,
+      "language": "TypeScript",
+      "topics": [],
+      "pushed_at": null,
+      "created_at": null,
+      "forks_count": 0,
+      "_source": "trending"
+    },
+    {
+      "full_name": "chalk/chalk",
+      "html_url": "https://github.com/chalk/chalk",
+      "description": "🖍 Terminal string styling done right",
+      "stargazers_count": 23014,
+      "language": "JavaScript",
+      "topics": [],
+      "pushed_at": null,
+      "created_at": null,
+      "forks_count": 0,
+      "_source": "trending"
+    },
+    {
+      "full_name": "jgraph/drawio-desktop",
+      "html_url": "https://github.com/jgraph/drawio-desktop",
+      "description": "Official electron build of draw.io",
+      "stargazers_count": 59670,
+      "language": "JavaScript",
+      "topics": [],
+      "pushed_at": null,
+      "created_at": null,
+      "forks_count": 0,
+      "_source": "trending"
+    },
+    {
+      "full_name": "projectdiscovery/katana",
+      "html_url": "https://github.com/projectdiscovery/katana",
+      "description": "A next-generation crawling and spidering framework.",
+      "stargazers_count": 15654,
+      "language": "Go",
+      "topics": [],
+      "pushed_at": null,
+      "created_at": null,
+      "forks_count": 0,
+      "_source": "trending"
+    },
+    {
+      "full_name": "huggingface/transformers",
+      "html_url": "https://github.com/huggingface/transformers",
+      "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training.",
+      "stargazers_count": 157431,
+      "language": "Python",
       "topics": [],
       "pushed_at": null,
       "created_at": null,
@@ -2354,7 +2514,67 @@
       "full_name": "nlohmann/json",
       "html_url": "https://github.com/nlohmann/json",
       "description": "JSON for Modern C++",
-      "stargazers_count": 49022,
+      "stargazers_count": 49025,
+      "language": "C++",
+      "topics": [],
+      "pushed_at": null,
+      "created_at": null,
+      "forks_count": 0,
+      "_source": "trending"
+    },
+    {
+      "full_name": "ClickHouse/ClickHouse",
+      "html_url": "https://github.com/ClickHouse/ClickHouse",
+      "description": "ClickHouse® is a real-time analytics database management system",
+      "stargazers_count": 46190,
+      "language": "C++",
+      "topics": [],
+      "pushed_at": null,
+      "created_at": null,
+      "forks_count": 0,
+      "_source": "trending"
+    },
+    {
+      "full_name": "PostHog/posthog",
+      "html_url": "https://github.com/PostHog/posthog",
+      "description": "🦔 PostHog is an all-in-one developer platform for building successful products. We offer product analytics, web analytics, session replay, error tracking, feature flags, experimentation, surveys, data warehouse, a CDP, and an AI product assistant to help debug your code, ship features faster, and keep all your usage and customer data in one stack.",
+      "stargazers_count": 31888,
+      "language": "Python",
+      "topics": [],
+      "pushed_at": null,
+      "created_at": null,
+      "forks_count": 0,
+      "_source": "trending"
+    },
+    {
+      "full_name": "pydantic/pydantic",
+      "html_url": "https://github.com/pydantic/pydantic",
+      "description": "Data validation using Python type hints",
+      "stargazers_count": 27103,
+      "language": "Python",
+      "topics": [],
+      "pushed_at": null,
+      "created_at": null,
+      "forks_count": 0,
+      "_source": "trending"
+    },
+    {
+      "full_name": "apache/airflow",
+      "html_url": "https://github.com/apache/airflow",
+      "description": "Apache Airflow - A platform to programmatically author, schedule, and monitor workflows",
+      "stargazers_count": 44493,
+      "language": "Python",
+      "topics": [],
+      "pushed_at": null,
+      "created_at": null,
+      "forks_count": 0,
+      "_source": "trending"
+    },
+    {
+      "full_name": "openxla/xla",
+      "html_url": "https://github.com/openxla/xla",
+      "description": "A machine learning compiler for GPUs, CPUs, and ML accelerators",
+      "stargazers_count": 4033,
       "language": "C++",
       "topics": [],
       "pushed_at": null,
@@ -2366,176 +2586,8 @@
       "full_name": "directus/directus",
       "html_url": "https://github.com/directus/directus",
       "description": "The flexible backend for all your projects 🐰 Turn your DB into a headless CMS, admin panels, or apps with a custom UI, instant APIs, auth & more.",
-      "stargazers_count": 34373,
+      "stargazers_count": 34378,
       "language": "TypeScript",
-      "topics": [],
-      "pushed_at": null,
-      "created_at": null,
-      "forks_count": 0,
-      "_source": "trending"
-    },
-    {
-      "full_name": "mnfst/manifest",
-      "html_url": "https://github.com/mnfst/manifest",
-      "description": "Smart LLM Routing for OpenClaw. Cut Costs up to 70%",
-      "stargazers_count": 3592,
-      "language": "TypeScript",
-      "topics": [],
-      "pushed_at": null,
-      "created_at": null,
-      "forks_count": 0,
-      "_source": "trending"
-    },
-    {
-      "full_name": "Mbed-TLS/mbedtls",
-      "html_url": "https://github.com/Mbed-TLS/mbedtls",
-      "description": "An open source, portable, easy to use, readable and flexible TLS library, and reference implementation of the PSA Cryptography API. Releases are on a varying cadence, typically around 3 - 6 months between releases.",
-      "stargazers_count": 6513,
-      "language": "C",
-      "topics": [],
-      "pushed_at": null,
-      "created_at": null,
-      "forks_count": 0,
-      "_source": "trending"
-    },
-    {
-      "full_name": "Sanster/IOPaint",
-      "html_url": "https://github.com/Sanster/IOPaint",
-      "description": "Image inpainting tool powered by SOTA AI Model. Remove any unwanted object, defect, people from your pictures or erase and replace(powered by stable diffusion) any thing on your pictures.",
-      "stargazers_count": 22828,
-      "language": "Python",
-      "topics": [],
-      "pushed_at": null,
-      "created_at": null,
-      "forks_count": 0,
-      "_source": "trending"
-    },
-    {
-      "full_name": "khoj-ai/khoj",
-      "html_url": "https://github.com/khoj-ai/khoj",
-      "description": "Your AI second brain. Self-hostable. Get answers from the web or your docs. Build custom agents, schedule automations, do deep research. Turn any online or local LLM into your personal, autonomous AI (gpt, claude, gemini, llama, qwen, mistral). Get started - free.",
-      "stargazers_count": 33031,
-      "language": "Python",
-      "topics": [],
-      "pushed_at": null,
-      "created_at": null,
-      "forks_count": 0,
-      "_source": "trending"
-    },
-    {
-      "full_name": "makeplane/plane",
-      "html_url": "https://github.com/makeplane/plane",
-      "description": "🔥🔥🔥 Open-source Jira, Linear, Monday, and ClickUp alternative. Plane is a modern project management platform to manage tasks, sprints, docs, and triage.",
-      "stargazers_count": 46215,
-      "language": "TypeScript",
-      "topics": [],
-      "pushed_at": null,
-      "created_at": null,
-      "forks_count": 0,
-      "_source": "trending"
-    },
-    {
-      "full_name": "evershopcommerce/evershop",
-      "html_url": "https://github.com/evershopcommerce/evershop",
-      "description": "🛍️ Typescript E-commerce Platform",
-      "stargazers_count": 9792,
-      "language": "TypeScript",
-      "topics": [],
-      "pushed_at": null,
-      "created_at": null,
-      "forks_count": 0,
-      "_source": "trending"
-    },
-    {
-      "full_name": "PostHog/posthog",
-      "html_url": "https://github.com/PostHog/posthog",
-      "description": "🦔 PostHog is an all-in-one developer platform for building successful products. We offer product analytics, web analytics, session replay, error tracking, feature flags, experimentation, surveys, data warehouse, a CDP, and an AI product assistant to help debug your code, ship features faster, and keep all your usage and customer data in one stack.",
-      "stargazers_count": 31881,
-      "language": "Python",
-      "topics": [],
-      "pushed_at": null,
-      "created_at": null,
-      "forks_count": 0,
-      "_source": "trending"
-    },
-    {
-      "full_name": "inngest/inngest",
-      "html_url": "https://github.com/inngest/inngest",
-      "description": "The leading workflow orchestration platform. Run stateful step functions and AI workflows on serverless, servers, or the edge.",
-      "stargazers_count": 4977,
-      "language": "Go",
-      "topics": [],
-      "pushed_at": null,
-      "created_at": null,
-      "forks_count": 0,
-      "_source": "trending"
-    },
-    {
-      "full_name": "Dao-AILab/flash-attention",
-      "html_url": "https://github.com/Dao-AILab/flash-attention",
-      "description": "Fast and memory-efficient exact attention",
-      "stargazers_count": 22468,
-      "language": "Python",
-      "topics": [],
-      "pushed_at": null,
-      "created_at": null,
-      "forks_count": 0,
-      "_source": "trending"
-    },
-    {
-      "full_name": "OpenAPITools/openapi-generator",
-      "html_url": "https://github.com/OpenAPITools/openapi-generator",
-      "description": "OpenAPI Generator allows generation of API client libraries (SDK generation), server stubs, documentation and configuration automatically given an OpenAPI Spec (v2, v3)",
-      "stargazers_count": 25901,
-      "language": "Java",
-      "topics": [],
-      "pushed_at": null,
-      "created_at": null,
-      "forks_count": 0,
-      "_source": "trending"
-    },
-    {
-      "full_name": "HackTricks-wiki/hacktricks",
-      "html_url": "https://github.com/HackTricks-wiki/hacktricks",
-      "description": "Welcome to the page where you will find each trick/technique/whatever I have learnt in CTFs, real life apps, and reading researches and news.",
-      "stargazers_count": 10990,
-      "language": "CSS",
-      "topics": [],
-      "pushed_at": null,
-      "created_at": null,
-      "forks_count": 0,
-      "_source": "trending"
-    },
-    {
-      "full_name": "MudBlazor/MudBlazor",
-      "html_url": "https://github.com/MudBlazor/MudBlazor",
-      "description": "Blazor Component Library based on Material Design principles with an emphasis on ease of use and extensibility",
-      "stargazers_count": 10197,
-      "language": "C#",
-      "topics": [],
-      "pushed_at": null,
-      "created_at": null,
-      "forks_count": 0,
-      "_source": "trending"
-    },
-    {
-      "full_name": "huggingface/pytorch-image-models",
-      "html_url": "https://github.com/huggingface/pytorch-image-models",
-      "description": "The largest collection of PyTorch image encoders / backbones. Including train, eval, inference, export scripts, and pretrained weights -- ResNet, ResNeXT, EfficientNet, NFNet, Vision Transformer (ViT), MobileNetV4, MobileNet-V3 & V2, RegNet, DPN, CSPNet, Swin Transformer, MaxViT, CoAtNet, ConvNeXt, and more",
-      "stargazers_count": 36437,
-      "language": "Python",
-      "topics": [],
-      "pushed_at": null,
-      "created_at": null,
-      "forks_count": 0,
-      "_source": "trending"
-    },
-    {
-      "full_name": "skypilot-org/skypilot",
-      "html_url": "https://github.com/skypilot-org/skypilot",
-      "description": "Run, manage, and scale AI workloads on any AI infrastructure. Use one system to access & manage all AI compute (Kubernetes, 20+ clouds, or on-prem).",
-      "stargazers_count": 9534,
-      "language": "Python",
       "topics": [],
       "pushed_at": null,
       "created_at": null,
