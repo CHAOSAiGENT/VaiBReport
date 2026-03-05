@@ -1,3 +1,18 @@
 {
-  "featured": {}
+  "featured": {
+    "wasp-lang/open-saas": { "last_featured": "2026-03-05", "times_featured": 1 },
+    "ixartz/SaaS-Boilerplate": { "last_featured": "2026-03-05", "times_featured": 1 },
+    "boxyhq/saas-starter-kit": { "last_featured": "2026-03-05", "times_featured": 1 },
+    "ln-dev7/square-ui": { "last_featured": "2026-03-05", "times_featured": 1 },
+    "khoj-ai/khoj": { "last_featured": "2026-03-05", "times_featured": 1 },
+    "zenstackhq/zenstack": { "last_featured": "2026-03-05", "times_featured": 1 },
+    "alan345/AI-Fullstack-SaaS-Boilerplate": { "last_featured": "2026-03-05", "times_featured": 1 },
+    "makeplane/plane": { "last_featured": "2026-03-05", "times_featured": 1 },
+    "PostHog/posthog": { "last_featured": "2026-03-05", "times_featured": 1 },
+    "Lissy93/domain-locker": { "last_featured": "2026-03-05", "times_featured": 1 },
+    "cruip/open-react-template": { "last_featured": "2026-03-05", "times_featured": 1 },
+    "Blazity/next-saas-starter": { "last_featured": "2026-03-05", "times_featured": 1 },
+    "inngest/inngest": { "last_featured": "2026-03-05", "times_featured": 1 },
+    "evershopcommerce/evershop": { "last_featured": "2026-03-05", "times_featured": 1 }
+  }
 }
