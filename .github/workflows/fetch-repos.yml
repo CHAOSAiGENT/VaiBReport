@@ -1,0 +1,228 @@
+name: Fetch GitHub repos for digest
+
+on:
+  schedule:
+    - cron: "0 13 * * *"   # daily at 13:00 UTC
+  workflow_dispatch:
+
+jobs:
+  fetch-and-commit:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install deps
+        run: npm install cheerio@1
+
+      - name: Fetch repos
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          node --input-type=module << 'SCRIPT'
+          import fs from 'fs';
+          import { load } from 'cheerio';
+
+          const delay = (ms) => new Promise(r => setTimeout(r, ms));
+
+          // ── Read config ──────────────────────────────────
+          function readQueries() {
+            const raw = fs.readFileSync('config/queries.json', 'utf8');
+            const parsed = JSON.parse(raw);
+            return {
+              default_queries: parsed.default_queries || [],
+              extra_queries: parsed.extra_queries || [],
+              ugc_social_queries: parsed.ugc_social_queries || []
+            };
+          }
+
+          // ── GitHub Search API ────────────────────────────
+          async function searchGithub(q) {
+            const url = new URL('https://api.github.com/search/repositories');
+            url.searchParams.set('q', q);
+            url.searchParams.set('sort', 'stars');
+            url.searchParams.set('order', 'desc');
+            url.searchParams.set('per_page', '50');
+
+            const res = await fetch(url, {
+              headers: {
+                'Accept': 'application/vnd.github+json',
+                'Authorization': `Bearer ${process.env.GH_TOKEN}`,
+                'X-GitHub-Api-Version': '2022-11-28'
+              }
+            });
+
+            if (!res.ok) {
+              console.error(`Search failed for "${q}": ${res.status}`);
+              return [];
+            }
+            const json = await res.json();
+            return json.items || [];
+          }
+
+          // ── Scrape GitHub Trending ───────────────────────
+          async function scrapeTrending() {
+            try {
+              const res = await fetch(
+                'https://github.com/trending?since=daily&spoken_language_code=en'
+              );
+              if (!res.ok) {
+                console.error(`Trending scrape failed: ${res.status}`);
+                return [];
+              }
+              const html = await res.text();
+              const $ = load(html);
+              const repos = [];
+
+              $('article.Box-row').each((_, el) => {
+                const titleEl = $(el).find('h2 a');
+                const slug = titleEl.attr('href')?.replace(/^\//, '') || '';
+                if (!slug.includes('/')) return;
+
+                const desc = $(el).find('p.col-9').text().trim() || null;
+                const lang = $(el).find('[itemprop="programmingLanguage"]')
+                  .text().trim() || null;
+                const starsText = $(el).find('a[href$="/stargazers"]')
+                  .text().trim().replace(/,/g, '');
+                const stars = parseInt(starsText, 10) || 0;
+
+                repos.push({
+                  full_name: slug,
+                  html_url: `https://github.com/${slug}`,
+                  description: desc,
+                  stargazers_count: stars,
+                  language: lang,
+                  topics: [],
+                  pushed_at: null,
+                  created_at: null,
+                  forks_count: 0,
+                  _source: 'trending'
+                });
+              });
+
+              return repos;
+            } catch (e) {
+              console.error('Trending scrape error:', e.message);
+              return [];
+            }
+          }
+
+          // ── Slim helper ──────────────────────────────────
+          function slimRepo(r, source = 'search', queryGroup = 'default') {
+            return {
+              full_name: r.full_name,
+              html_url: r.html_url,
+              description: r.description,
+              stargazers_count: r.stargazers_count,
+              language: r.language,
+              topics: r.topics || [],
+              pushed_at: r.pushed_at,
+              created_at: r.created_at,
+              forks_count: r.forks_count,
+              _source: source,
+              _query_group: queryGroup
+            };
+          }
+
+          // ── Main ─────────────────────────────────────────
+          (async () => {
+            const config = readQueries();
+            const allRepos = [];
+
+            // Run each query group with tagging
+            const groups = [
+              ['default', config.default_queries],
+              ['extra', config.extra_queries],
+              ['ugc_social', config.ugc_social_queries]
+            ];
+
+            for (const [groupName, queries] of groups) {
+              for (const q of queries) {
+                const items = await searchGithub(q);
+                allRepos.push(
+                  ...items.map(r => slimRepo(r, 'search', groupName))
+                );
+                await delay(2000);  // rate-limit courtesy
+              }
+            }
+
+            // Trending (best-effort)
+            const trending = await scrapeTrending();
+            allRepos.push(...trending);
+
+            // Deduplicate by full_name, keep higher-star entry
+            const map = {};
+            for (const r of allRepos) {
+              const existing = map[r.full_name];
+              if (!existing ||
+                  (r.stargazers_count || 0) > (existing.stargazers_count || 0)) {
+                // Merge _query_group if both exist
+                if (existing && existing._query_group !== r._query_group) {
+                  r._query_group = `${existing._query_group},${r._query_group}`;
+                }
+                map[r.full_name] = r;
+              }
+            }
+            const deduped = Object.values(map);
+
+            // Write output
+            const date = new Date().toISOString().slice(0, 10);
+            const payload = {
+              generated_at: new Date().toISOString(),
+              config: {
+                default_queries: config.default_queries,
+                extra_queries: config.extra_queries,
+                ugc_social_queries: config.ugc_social_queries
+              },
+              sources: {
+                github_search: {
+                  query_count:
+                    config.default_queries.length +
+                    config.extra_queries.length +
+                    config.ugc_social_queries.length,
+                  repo_count: allRepos.filter(
+                    r => r._source === 'search'
+                  ).length
+                },
+                trending: {
+                  method: 'cheerio-scrape',
+                  repo_count: trending.length
+                }
+              },
+              repos: deduped
+            };
+
+            if (!fs.existsSync('data')) {
+              fs.mkdirSync('data', { recursive: true });
+            }
+            fs.writeFileSync(
+              `data/repos-${date}.json`,
+              JSON.stringify(payload, null, 2)
+            );
+
+            console.log(
+              `Wrote ${deduped.length} repos ` +
+              `(${allRepos.filter(r => r._source === 'search').length} search, ` +
+              `${trending.length} trending)`
+            );
+          })().catch(err => {
+            console.error(err);
+            process.exit(1);
+          });
+          SCRIPT
+
+      - name: Commit and push
+        run: |
+          date=$(date -u +"%Y-%m-%d")
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/
+          git commit -m "Add repos snapshot for ${date}" || echo "No changes"
+          git push

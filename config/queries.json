@@ -1,0 +1,19 @@
+{
+  "default_queries": [
+    "topic:saas language:TypeScript stars:>40 pushed:>2025-06-01 sort:stars",
+    "topic:llm OR topic:agents stars:>80 pushed:>2025-06-01 sort:stars",
+    "topic:crm OR topic:marketing-automation stars:>40 pushed:>2025-06-01 sort:stars"
+  ],
+  "extra_queries": [
+    "topic:billing OR topic:subscriptions stars:>30 pushed:>2025-06-01 sort:stars",
+    "topic:analytics OR topic:business-intelligence stars:>40 pushed:>2025-06-01 sort:stars",
+    "language:typescript stars:>80 pushed:>2025-06-01 topic:template sort:stars"
+  ],
+  "ugc_social_queries": [
+    "topic:social-media-management stars:>50 pushed:>2025-01-01 sort:stars",
+    "topic:content-creation OR topic:ai-content-creation stars:>80 pushed:>2025-01-01 sort:stars",
+    "(topic:instagram-api OR topic:tiktok-api OR topic:youtube-api) stars:>30 pushed:>2024-06-01 sort:stars",
+    "topic:video-generation OR topic:ai-video-generation stars:>200 pushed:>2025-01-01 sort:stars",
+    "(topic:social-scheduling OR topic:social-media-automation) stars:>30 pushed:>2025-01-01 sort:stars"
+  ]
+}
