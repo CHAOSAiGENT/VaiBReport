@@ -17,6 +17,12 @@ exclude:
   - static/
   - README.md
   - CONTEXT.md
+  - VaiBReport-SPEC.md
+  - CLAUDE-CODE-SETUP-PROMPT.md
+  - COWORK-DIGEST-PROMPT.md
+  - CLAUDE-CODE-V1-FINALIZE.md
+  - "*.pdf"
   - node_modules/
   - package.json
   - package-lock.json
+  - .gitignore
