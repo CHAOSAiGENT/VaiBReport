@@ -1,0 +1,10 @@
+# Planning / session files
+CLAUDE-CODE-SETUP-PROMPT.md
+CLAUDE-CODE-V1-FINALIZE.md
+COWORK-DIGEST-PROMPT.md
+CHAOSAiGENT_VaiBReport*.pdf
+trackers for interesting github repos*.md
+
+# Dependencies
+node_modules/
+package-lock.json

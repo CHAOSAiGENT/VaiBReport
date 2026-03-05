@@ -10,10 +10,11 @@
     "language:typescript stars:>80 pushed:>2025-06-01 topic:template sort:stars"
   ],
   "ugc_social_queries": [
-    "topic:social-media-management stars:>50 pushed:>2025-01-01 sort:stars",
-    "topic:content-creation OR topic:ai-content-creation stars:>80 pushed:>2025-01-01 sort:stars",
-    "(topic:instagram-api OR topic:tiktok-api OR topic:youtube-api) stars:>30 pushed:>2024-06-01 sort:stars",
-    "topic:video-generation OR topic:ai-video-generation stars:>200 pushed:>2025-01-01 sort:stars",
-    "(topic:social-scheduling OR topic:social-media-automation) stars:>30 pushed:>2025-01-01 sort:stars"
+    "social media management stars:>30 pushed:>2025-01-01 sort:stars",
+    "social media scheduling stars:>30 pushed:>2025-01-01 sort:stars",
+    "content creation tool stars:>50 pushed:>2025-01-01 sort:stars",
+    "video generation ai stars:>100 pushed:>2025-01-01 sort:stars",
+    "instagram OR tiktok OR youtube api stars:>50 pushed:>2025-01-01 language:TypeScript sort:stars",
+    "instagram OR tiktok OR youtube api stars:>50 pushed:>2025-01-01 language:Python sort:stars"
   ]
 }
