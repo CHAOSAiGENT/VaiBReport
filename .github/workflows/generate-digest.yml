@@ -1,0 +1,292 @@
+name: Generate daily digest
+
+on:
+  workflow_run:
+    workflows: ["Fetch GitHub repos for digest"]
+    types: [completed]
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    if: ${{ github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success' }}
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Generate digest post
+        run: |
+          node --input-type=module << 'SCRIPT'
+          import fs from 'fs';
+
+          // ── Helpers ────────────────────────────────────────
+          function formatStars(n) {
+            if (n >= 1000) return `${(n / 1000).toFixed(1).replace(/\.0$/, '')}k★`;
+            return `${n}★`;
+          }
+
+          function monthsAgo(dateStr, months) {
+            if (!dateStr) return true; // no date = skip recency check
+            const d = new Date(dateStr);
+            const cutoff = new Date();
+            cutoff.setMonth(cutoff.getMonth() - months);
+            return d >= cutoff;
+          }
+
+          // ── Category assignment ────────────────────────────
+          function assignCategory(repo) {
+            const t = (repo.topics || []).join(' ').toLowerCase();
+            const d = (repo.description || '').toLowerCase();
+            const g = (repo._query_group || '').toLowerCase();
+            const all = `${t} ${d} ${g}`;
+
+            if (g.includes('ugc_social') ||
+                all.match(/social.media|content.creat|tiktok|instagram|youtube.api|video.generat|ugc|creator/))
+              return 'UGC, social media and creator tools';
+            if (all.match(/llm|agent|rag|vector|mlops|ai.infra|lm.studio|openai|anthropic|langchain|embedding/))
+              return 'AI agents, LLM infra and RAG';
+            if (all.match(/saas.*(boilerplate|starter|template|kit)|boilerplate.*saas|starter.*saas/))
+              return 'SaaS starters and templates';
+            if (all.match(/billing|subscription|analytics|dashboard|project.manage|workflow|automation|ops|monitoring|devtool/))
+              return 'Ops, analytics and automation';
+            if (all.match(/marketing|landing.page|email|crm|sales|seo|gtm|outreach|newsletter/))
+              return 'Marketing, sales and GTM tools';
+            if (all.match(/template|boilerplate|starter|scaffold|ui.component|design.system/))
+              return 'SaaS starters and templates';
+            return null; // doesn't fit cleanly
+          }
+
+          function writeOneLiner(repo) {
+            let desc = repo.description || 'No description provided.';
+            // Trim to ~120 chars for the one-liner
+            if (desc.length > 140) desc = desc.slice(0, 137) + '...';
+            const lang = repo.language || 'Multi';
+            return `- [${repo.full_name}](${repo.html_url}) – ${desc} (${lang}, ${formatStars(repo.stargazers_count)})`;
+          }
+
+          // ── Main ───────────────────────────────────────────
+          // Find latest data file
+          const dataFiles = fs.readdirSync('data')
+            .filter(f => f.match(/^repos-\d{4}-\d{2}-\d{2}\.json$/))
+            .sort()
+            .reverse();
+
+          if (dataFiles.length === 0) {
+            console.log('No data files found. Exiting.');
+            process.exit(0);
+          }
+
+          const latestFile = `data/${dataFiles[0]}`;
+          const dateMatch = dataFiles[0].match(/repos-(\d{4}-\d{2}-\d{2})\.json/);
+          const digestDate = dateMatch[1];
+
+          // Check if digest already exists
+          const postPath = `_posts/${digestDate}-github-digest.md`;
+          if (fs.existsSync(postPath)) {
+            console.log(`Digest for ${digestDate} already exists. Skipping.`);
+            process.exit(0);
+          }
+
+          const data = JSON.parse(fs.readFileSync(latestFile, 'utf8'));
+          const prefs = JSON.parse(fs.readFileSync('config/preferences.json', 'utf8'));
+
+          // Load seen.json
+          let seen = { featured: {} };
+          try {
+            seen = JSON.parse(fs.readFileSync('data/seen.json', 'utf8'));
+          } catch (e) { /* fresh start */ }
+
+          // Load spotlight
+          let spotlight = { repos: [] };
+          try {
+            spotlight = JSON.parse(fs.readFileSync('config/spotlight.json', 'utf8'));
+          } catch (e) { /* no spotlights */ }
+
+          const today = new Date(digestDate);
+
+          // ── Filter ─────────────────────────────────────────
+          function isOnCooldown(fullName) {
+            const entry = seen.featured[fullName];
+            if (!entry) return false;
+            const lastDate = new Date(entry.last_featured);
+            const diff = (today - lastDate) / (1000 * 60 * 60 * 24);
+            return diff < prefs.cooldown_days;
+          }
+
+          const candidates = data.repos.filter(r => {
+            if (isOnCooldown(r.full_name)) return false;
+            const minStars = r._source === 'trending'
+              ? prefs.min_stars_trending
+              : prefs.min_stars;
+            if ((r.stargazers_count || 0) < minStars) return false;
+            if (!monthsAgo(r.pushed_at, prefs.recent_months)) return false;
+            return true;
+          });
+
+          // Add spotlight repos
+          for (const sr of spotlight.repos) {
+            if (!isOnCooldown(sr.full_name)) {
+              candidates.push({
+                ...sr,
+                stargazers_count: sr.stargazers_count || 0,
+                language: sr.language || null,
+                topics: sr.topics || [],
+                _source: 'spotlight',
+                _query_group: 'spotlight'
+              });
+            }
+          }
+
+          if (candidates.length === 0) {
+            console.log('No interesting repos after filtering. No digest today.');
+            process.exit(0);
+          }
+
+          // ── Categorize ─────────────────────────────────────
+          const sections = {
+            'SaaS starters and templates': [],
+            'AI agents, LLM infra and RAG': [],
+            'Ops, analytics and automation': [],
+            'Marketing, sales and GTM tools': [],
+            'UGC, social media and creator tools': [],
+          };
+          const trendingPool = [];
+          const uncategorized = [];
+
+          for (const r of candidates) {
+            if (r._source === 'trending') {
+              trendingPool.push(r);
+              continue;
+            }
+            const cat = assignCategory(r);
+            if (cat && sections[cat]) {
+              sections[cat].push(r);
+            } else {
+              uncategorized.push(r);
+            }
+          }
+
+          // Sort each section by stars desc, cap at max_repos_per_section
+          for (const key of Object.keys(sections)) {
+            sections[key].sort((a, b) => b.stargazers_count - a.stargazers_count);
+            sections[key] = sections[key].slice(0, prefs.max_repos_per_section);
+          }
+
+          // Handle trending: pick top N, feature top 3, brief-mention rest
+          trendingPool.sort((a, b) => b.stargazers_count - a.stargazers_count);
+          const trendingCandidates = trendingPool.slice(0, prefs.max_trending_candidates);
+          const trendingFeatured = trendingCandidates.slice(0, prefs.max_trending_featured);
+          const trendingAlso = trendingCandidates.slice(
+            prefs.max_trending_featured,
+            prefs.max_trending_featured + prefs.max_trending_also
+          );
+
+          // Try to slot featured trending into best-fit sections
+          const trendingOddballs = [];
+          for (const r of trendingFeatured) {
+            const cat = assignCategory(r);
+            if (cat && sections[cat] && sections[cat].length < prefs.max_repos_per_section) {
+              sections[cat].push(r);
+            } else {
+              trendingOddballs.push(r);
+            }
+          }
+
+          // ── Count total picks ──────────────────────────────
+          let totalPicks = trendingOddballs.length + trendingAlso.length;
+          for (const key of Object.keys(sections)) {
+            totalPicks += sections[key].length;
+          }
+
+          // ── Build Markdown ─────────────────────────────────
+          let md = `---
+layout: post
+title: "GitHub Digest – ${digestDate}"
+date: ${digestDate}
+tags: [github, digest, ai, saas, solopreneur, ugc]
+---
+
+Daily curated repos for solo founders, AI/B2B SaaS builders, and small business tools. ${candidates.length} repos evaluated, ${totalPicks} made the cut.\n\n`;
+
+          const sectionOrder = [
+            'SaaS starters and templates',
+            'AI agents, LLM infra and RAG',
+            'Ops, analytics and automation',
+            'Marketing, sales and GTM tools',
+            'UGC, social media and creator tools',
+          ];
+
+          const featured = [];
+
+          for (const name of sectionOrder) {
+            if (sections[name].length === 0) continue;
+            md += `## ${name}\n\n`;
+            for (const r of sections[name]) {
+              md += writeOneLiner(r) + '\n\n';
+              featured.push(r.full_name);
+            }
+          }
+
+          if (trendingOddballs.length > 0) {
+            md += `## Trending oddballs worth a look\n\n`;
+            for (const r of trendingOddballs) {
+              md += writeOneLiner(r) + '\n\n';
+              featured.push(r.full_name);
+            }
+          }
+
+          if (trendingAlso.length > 0) {
+            md += `### Also trending today\n\n`;
+            for (const r of trendingAlso) {
+              const lang = r.language || 'Multi';
+              const desc = (r.description || '').slice(0, 60);
+              md += `- [${r.full_name}](${r.html_url}) – ${desc} (${lang}, ${formatStars(r.stargazers_count)})\n`;
+              featured.push(r.full_name);
+            }
+            md += '\n';
+          }
+
+          // ── Write post ─────────────────────────────────────
+          if (!fs.existsSync('_posts')) fs.mkdirSync('_posts', { recursive: true });
+          fs.writeFileSync(postPath, md);
+          console.log(`Created ${postPath} with ${featured.length} repos`);
+
+          // ── Update seen.json ───────────────────────────────
+          for (const name of featured) {
+            const entry = seen.featured[name] || { times_featured: 0 };
+            entry.last_featured = digestDate;
+            entry.times_featured = (entry.times_featured || 0) + 1;
+            seen.featured[name] = entry;
+          }
+          fs.writeFileSync('data/seen.json', JSON.stringify(seen, null, 2));
+
+          // ── Clean spotlight ────────────────────────────────
+          if (spotlight.repos.length > 0) {
+            spotlight.repos = spotlight.repos.filter(
+              sr => !featured.includes(sr.full_name)
+            );
+            fs.writeFileSync(
+              'config/spotlight.json',
+              JSON.stringify(spotlight, null, 2)
+            );
+          }
+
+          console.log(`Updated seen.json (${Object.keys(seen.featured).length} total)`);
+          SCRIPT
+
+      - name: Commit and push
+        run: |
+          date=$(date -u +"%Y-%m-%d")
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add _posts/ data/seen.json config/spotlight.json
+          git diff --cached --quiet && echo "No new digest" && exit 0
+          git commit -m "Add digest for ${date}"
+          git push
