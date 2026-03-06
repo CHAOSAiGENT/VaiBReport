@@ -1,18 +1,172 @@
 {
   "featured": {
-    "wasp-lang/open-saas": { "last_featured": "2026-03-05", "times_featured": 1 },
-    "ixartz/SaaS-Boilerplate": { "last_featured": "2026-03-05", "times_featured": 1 },
-    "boxyhq/saas-starter-kit": { "last_featured": "2026-03-05", "times_featured": 1 },
-    "ln-dev7/square-ui": { "last_featured": "2026-03-05", "times_featured": 1 },
-    "khoj-ai/khoj": { "last_featured": "2026-03-05", "times_featured": 1 },
-    "zenstackhq/zenstack": { "last_featured": "2026-03-05", "times_featured": 1 },
-    "alan345/AI-Fullstack-SaaS-Boilerplate": { "last_featured": "2026-03-05", "times_featured": 1 },
-    "makeplane/plane": { "last_featured": "2026-03-05", "times_featured": 1 },
-    "PostHog/posthog": { "last_featured": "2026-03-05", "times_featured": 1 },
-    "Lissy93/domain-locker": { "last_featured": "2026-03-05", "times_featured": 1 },
-    "cruip/open-react-template": { "last_featured": "2026-03-05", "times_featured": 1 },
-    "Blazity/next-saas-starter": { "last_featured": "2026-03-05", "times_featured": 1 },
-    "inngest/inngest": { "last_featured": "2026-03-05", "times_featured": 1 },
-    "evershopcommerce/evershop": { "last_featured": "2026-03-05", "times_featured": 1 }
+    "wasp-lang/open-saas": {
+      "last_featured": "2026-03-05",
+      "times_featured": 1
+    },
+    "ixartz/SaaS-Boilerplate": {
+      "last_featured": "2026-03-05",
+      "times_featured": 1
+    },
+    "boxyhq/saas-starter-kit": {
+      "last_featured": "2026-03-05",
+      "times_featured": 1
+    },
+    "ln-dev7/square-ui": {
+      "last_featured": "2026-03-05",
+      "times_featured": 1
+    },
+    "khoj-ai/khoj": {
+      "last_featured": "2026-03-05",
+      "times_featured": 1
+    },
+    "zenstackhq/zenstack": {
+      "last_featured": "2026-03-05",
+      "times_featured": 1
+    },
+    "alan345/AI-Fullstack-SaaS-Boilerplate": {
+      "last_featured": "2026-03-05",
+      "times_featured": 1
+    },
+    "makeplane/plane": {
+      "last_featured": "2026-03-05",
+      "times_featured": 1
+    },
+    "PostHog/posthog": {
+      "last_featured": "2026-03-05",
+      "times_featured": 1
+    },
+    "Lissy93/domain-locker": {
+      "last_featured": "2026-03-05",
+      "times_featured": 1
+    },
+    "cruip/open-react-template": {
+      "last_featured": "2026-03-05",
+      "times_featured": 1
+    },
+    "Blazity/next-saas-starter": {
+      "last_featured": "2026-03-05",
+      "times_featured": 1
+    },
+    "inngest/inngest": {
+      "last_featured": "2026-03-05",
+      "times_featured": 1
+    },
+    "evershopcommerce/evershop": {
+      "last_featured": "2026-03-05",
+      "times_featured": 1
+    },
+    "kriasoft/react-starter-kit": {
+      "times_featured": 1,
+      "last_featured": "2026-03-06"
+    },
+    "obytes/react-native-template-obytes": {
+      "times_featured": 1,
+      "last_featured": "2026-03-06"
+    },
+    "cawa-93/vite-electron-builder": {
+      "times_featured": 1,
+      "last_featured": "2026-03-06"
+    },
+    "apptension/saas-boilerplate": {
+      "times_featured": 1,
+      "last_featured": "2026-03-06"
+    },
+    "chibat/chrome-extension-typescript-starter": {
+      "times_featured": 1,
+      "last_featured": "2026-03-06"
+    },
+    "metorial/metorial-platform": {
+      "times_featured": 1,
+      "last_featured": "2026-03-06"
+    },
+    "digitalocean/sea-notes-saas-starter-kit": {
+      "times_featured": 1,
+      "last_featured": "2026-03-06"
+    },
+    "SAP-samples/btp-cap-genai-rag": {
+      "times_featured": 1,
+      "last_featured": "2026-03-06"
+    },
+    "kriasoft/better-auth": {
+      "times_featured": 1,
+      "last_featured": "2026-03-06"
+    },
+    "ln-dev7/circle": {
+      "times_featured": 1,
+      "last_featured": "2026-03-06"
+    },
+    "actions/typescript-action": {
+      "times_featured": 1,
+      "last_featured": "2026-03-06"
+    },
+    "lost-pixel/lost-pixel": {
+      "times_featured": 1,
+      "last_featured": "2026-03-06"
+    },
+    "keyshade-xyz/keyshade": {
+      "times_featured": 1,
+      "last_featured": "2026-03-06"
+    },
+    "tremorlabs/template-dashboard-oss": {
+      "times_featured": 1,
+      "last_featured": "2026-03-06"
+    },
+    "BearStudio/start-ui-web": {
+      "times_featured": 1,
+      "last_featured": "2026-03-06"
+    },
+    "steedos/steedos-platform": {
+      "times_featured": 1,
+      "last_featured": "2026-03-06"
+    },
+    "flaviuse/mern-authentication": {
+      "times_featured": 1,
+      "last_featured": "2026-03-06"
+    },
+    "MarsX-dev/seobot-nextjs-blog": {
+      "times_featured": 1,
+      "last_featured": "2026-03-06"
+    },
+    "public-apis/public-apis": {
+      "times_featured": 1,
+      "last_featured": "2026-03-06"
+    },
+    "open-webui/open-webui": {
+      "times_featured": 1,
+      "last_featured": "2026-03-06"
+    },
+    "Comfy-Org/ComfyUI": {
+      "times_featured": 1,
+      "last_featured": "2026-03-06"
+    },
+    "fastapi/fastapi": {
+      "times_featured": 1,
+      "last_featured": "2026-03-06"
+    },
+    "puppeteer/puppeteer": {
+      "times_featured": 1,
+      "last_featured": "2026-03-06"
+    },
+    "microsoft/PowerToys": {
+      "times_featured": 1,
+      "last_featured": "2026-03-06"
+    },
+    "rustdesk/rustdesk": {
+      "times_featured": 1,
+      "last_featured": "2026-03-06"
+    },
+    "nlohmann/json": {
+      "times_featured": 1,
+      "last_featured": "2026-03-06"
+    },
+    "apache/airflow": {
+      "times_featured": 1,
+      "last_featured": "2026-03-06"
+    },
+    "microsoft/qlib": {
+      "times_featured": 1,
+      "last_featured": "2026-03-06"
+    }
   }
 }
