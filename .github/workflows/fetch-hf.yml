@@ -1,0 +1,191 @@
+name: Fetch HuggingFace content
+
+on:
+  schedule:
+    - cron: "10 13 * * *"   # daily at 13:10 UTC (10 min after GitHub fetch)
+  workflow_dispatch:
+
+jobs:
+  fetch-hf:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Fetch HuggingFace content
+        env:
+          HF_TOKEN: ${{ secrets.HF_API_TOKEN }}
+        run: |
+          node --input-type=module << 'SCRIPT'
+          import fs from 'fs';
+
+          const delay = (ms) => new Promise(r => setTimeout(r, ms));
+          const headers = {};
+          if (process.env.HF_TOKEN) {
+            headers['Authorization'] = `Bearer ${process.env.HF_TOKEN}`;
+          }
+
+          // ── Fetch Spaces ────────────────────────────────
+          async function fetchSpaces() {
+            const spaces = [];
+            try {
+              const res = await fetch(
+                'https://huggingface.co/api/spaces?sort=likes&direction=-1&limit=50',
+                { headers }
+              );
+              if (res.ok) {
+                const data = await res.json();
+                spaces.push(...data.map(s => ({
+                  id: s.id,
+                  url: `https://huggingface.co/spaces/${s.id}`,
+                  description: s.cardData?.short_description || s.id.split('/')[1] || '',
+                  likes: s.likes || 0,
+                  created_at: s.createdAt,
+                  last_modified: s.lastModified,
+                  sdk: s.sdk || null,
+                  tags: s.tags || [],
+                  _source: 'huggingface',
+                  _hf_type: 'space'
+                })));
+              } else {
+                console.error(`Spaces fetch failed: ${res.status}`);
+              }
+            } catch (e) {
+              console.error('Spaces fetch error:', e.message);
+            }
+            await delay(1000);
+            return spaces;
+          }
+
+          // ── Fetch Models ────────────────────────────────
+          async function fetchModels() {
+            const pipelines = [
+              'text-generation', 'text-to-image', 'image-to-text',
+              'text-to-video', 'text-to-audio', 'feature-extraction',
+              'automatic-speech-recognition', 'image-classification'
+            ];
+            const models = [];
+
+            for (const pipeline of pipelines) {
+              try {
+                const res = await fetch(
+                  `https://huggingface.co/api/models?pipeline_tag=${pipeline}&sort=downloads&direction=-1&limit=20`,
+                  { headers }
+                );
+                if (res.ok) {
+                  const data = await res.json();
+                  models.push(...data.map(m => ({
+                    id: m.id,
+                    url: `https://huggingface.co/${m.id}`,
+                    description: m.cardData?.short_description || m.id.split('/').pop() || '',
+                    downloads: m.downloads || 0,
+                    likes: m.likes || 0,
+                    pipeline_tag: m.pipeline_tag || pipeline,
+                    created_at: m.createdAt,
+                    last_modified: m.lastModified,
+                    tags: m.tags || [],
+                    _source: 'huggingface',
+                    _hf_type: 'model'
+                  })));
+                } else {
+                  console.error(`Models fetch failed (${pipeline}): ${res.status}`);
+                }
+              } catch (e) {
+                console.error(`Models fetch error (${pipeline}):`, e.message);
+              }
+              await delay(1000);
+            }
+
+            // Dedup by id
+            const seen = new Set();
+            return models.filter(m => {
+              if (seen.has(m.id)) return false;
+              seen.add(m.id);
+              return true;
+            });
+          }
+
+          // ── Fetch Datasets ──────────────────────────────
+          async function fetchDatasets() {
+            const datasets = [];
+            try {
+              const res = await fetch(
+                'https://huggingface.co/api/datasets?sort=downloads&direction=-1&limit=50',
+                { headers }
+              );
+              if (res.ok) {
+                const data = await res.json();
+                datasets.push(...data.map(d => ({
+                  id: d.id,
+                  url: `https://huggingface.co/datasets/${d.id}`,
+                  description: d.cardData?.short_description || d.id.split('/').pop() || '',
+                  downloads: d.downloads || 0,
+                  likes: d.likes || 0,
+                  created_at: d.createdAt,
+                  last_modified: d.lastModified,
+                  tags: d.tags || [],
+                  _source: 'huggingface',
+                  _hf_type: 'dataset'
+                })));
+              } else {
+                console.error(`Datasets fetch failed: ${res.status}`);
+              }
+            } catch (e) {
+              console.error('Datasets fetch error:', e.message);
+            }
+            return datasets;
+          }
+
+          // ── Main ────────────────────────────────────────
+          (async () => {
+            const spaces = await fetchSpaces();
+            const models = await fetchModels();
+            const datasets = await fetchDatasets();
+
+            const date = new Date().toISOString().slice(0, 10);
+            const payload = {
+              generated_at: new Date().toISOString(),
+              source: 'huggingface',
+              counts: {
+                spaces: spaces.length,
+                models: models.length,
+                datasets: datasets.length
+              },
+              spaces,
+              models,
+              datasets
+            };
+
+            if (!fs.existsSync('data')) {
+              fs.mkdirSync('data', { recursive: true });
+            }
+            fs.writeFileSync(
+              `data/hf-${date}.json`,
+              JSON.stringify(payload, null, 2)
+            );
+
+            console.log(
+              `Wrote ${spaces.length} spaces, ${models.length} models, ${datasets.length} datasets`
+            );
+          })().catch(err => {
+            console.error(err);
+            process.exit(1);
+          });
+          SCRIPT
+
+      - name: Commit and push
+        run: |
+          date=$(date -u +"%Y-%m-%d")
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/
+          git diff --cached --quiet && echo "No changes" && exit 0
+          git commit -m "Add HuggingFace snapshot for ${date}"
+          git push
