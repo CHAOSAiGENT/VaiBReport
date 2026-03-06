@@ -196,6 +196,27 @@ jobs:
                 entry.streak = 1;
               }
               entry.last_seen_prev = todayStr;
+
+              // Star velocity tracking
+              if (!entry.star_snapshots) entry.star_snapshots = [];
+              entry.star_snapshots.push({ date: todayStr, stars: r.stargazers_count });
+              if (entry.star_snapshots.length > 30) {
+                entry.star_snapshots = entry.star_snapshots.slice(-30);
+              }
+              const recent = entry.star_snapshots.filter(s => {
+                const d = new Date(s.date);
+                const week = new Date();
+                week.setDate(week.getDate() - 7);
+                return d >= week;
+              });
+              if (recent.length >= 2) {
+                const first = recent[0];
+                const last = recent[recent.length - 1];
+                const daysDiff = (new Date(last.date) - new Date(first.date)) / (1000 * 60 * 60 * 24);
+                entry.star_velocity = daysDiff > 0 ? Math.round((last.stars - first.stars) / daysDiff) : 0;
+              } else {
+                entry.star_velocity = 0;
+              }
             }
 
             // Decay streaks for repos NOT in today's results

@@ -28,6 +28,7 @@ defaults:
 # Navigation
 header_pages:
   - repos.md
+  - leaderboard.md
   - about.md
 
 # Excludes

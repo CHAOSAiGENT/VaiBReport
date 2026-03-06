@@ -365,10 +365,12 @@ If needed later: split `fetch-repos.yml` into multiple workflows or use a matrix
 - Item 3 Phase 1: Screenshots — DONE (OG images in catalog cards)
 - Item 4: Sort/search/tagging — DONE (client-side search, 6 sort options, source + category filter chips)
 
-**Phase 3-4 — Remaining:**
-- Item 6: Leaderboard view (depends on hotness data accumulation)
+**Phase 4 — Leaderboard + enhanced trending: DONE**
+- Item 6: Leaderboard view — DONE (5-section leaderboard at /leaderboard/)
+- Item 12: Enhanced trending detection — DONE (star velocity tracking + velocity-boosted trending)
+
+**Remaining:**
 - Item 10j: Product Hunt
-- Item 12: Enhanced trending detection
 - Item 7: Owned platform migration
 - Item 8: Email digest delivery
 - Item 11: Staggered runs (only if rate-limited)

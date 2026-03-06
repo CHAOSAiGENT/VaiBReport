@@ -491,6 +491,65 @@ Product Hunt demoted to Phase 3 (below the above platforms).
 - CLAUDE-CODE-V2-PHASE3-SITE.md — Claude Code prompt for site experience upgrade
 
 **What Peter needs to do:**
-1. Run CLAUDE-CODE-V2-PHASE3-SITE.md in Claude Code
+1. Run CLAUDE-CODE-V2-PHASE3-SITE.md in Claude Code — DONE ✅
 2. After commit lands, manually trigger generate-digest.yml to populate `_repos/` with existing data
 3. Verify catalog page renders at /repos/
+
+---
+
+## Session: 2026-03-06 (Claude Code — V2 Phase 3 COMPLETE)
+
+**What happened:**
+- Claude Code executed all 8 tasks from CLAUDE-CODE-V2-PHASE3-SITE.md
+- All site experience features deployed in one commit
+
+**What was created/modified:**
+- `_layouts/repo.html` — Individual repo page layout with source badges, stats, hotness indicators
+- `_repos/.gitkeep` — Collection directory initialized
+- `repos.md` — Catalog browse page with bento card grid, search, sort (6 options), filter chips (source + category)
+- `generate-digest.yml` — Extended with `createRepoEntry()` function that creates/updates `_repos/` entries for all 9 platforms; git add now includes `_repos/`
+- `_config.yml` — Collections config, updated description, header_pages (already applied by Peter)
+- `about.md` — Rewritten for 9 platforms (already applied by Peter)
+- `index.md` — Hero intro with catalog link (already applied by Peter)
+- `V2-PUNCHLIST.md` — Items 1-5, 9, 10a-10i marked done
+
+**Notable implementation detail:** Front matter field renamed from `url` to `item_url` to avoid collision with Jekyll's built-in `url` property on collection items.
+
+**Current status: V2 Phase 3 site experience COMPLETE.**
+
+**What's next:**
+- Manually trigger generate-digest.yml to populate `_repos/` with today's data
+- March 7: First full 9-source automated digest + catalog population
+- Remaining: Leaderboard (Item 6), Product Hunt (Item 10j), owned platform migration (Item 7), email digest (Item 8), enhanced trending (Item 12)
+
+---
+
+## Session: 2026-03-06 (Cowork — V2 Phase 4 prompt: leaderboard + trending)
+
+**What happened:**
+- Created CLAUDE-CODE-V2-PHASE4-LEADERBOARD.md — 8-task prompt covering leaderboard page and enhanced trending detection
+
+**What the prompt covers:**
+- Task 1: Add star velocity tracking to `fetch-repos.yml` (star_snapshots array, 7-day velocity computation, 30-snapshot retention)
+- Task 2: Velocity-boosted trending in `generate-digest.yml` (supplements scraped trending with repos gaining 50+★/day)
+- Task 3: `leaderboard.md` page with 5 sections: Hottest Right Now, Rising Fast, Most Featured, Most Appearances, Latest Discoveries
+- Task 4: Add `star_velocity` to `_repos/` front matter entries
+- Task 5: Navigation link (Catalog, Leaderboard, About)
+- Task 6: ⚡ velocity badges on trending items in daily digests
+- Task 7: Update V2-PUNCHLIST.md (items 6 + 12 done)
+- Task 8: Verify
+
+**Key design decisions:**
+- Star velocity = average stars/day over last 7 days of observations. Only meaningful after 2+ days of data.
+- Velocity threshold for trending supplement: 50★/day
+- star_snapshots array capped at 30 entries per repo to bound hotness.json growth
+- Leaderboard uses same Liquid → JSON → JS pattern as catalog (no server dependencies)
+- Only GitHub repos get velocity tracking (they're the only platform with star counts in fetch data)
+
+**Files created:**
+- CLAUDE-CODE-V2-PHASE4-LEADERBOARD.md — Claude Code prompt
+
+**What Peter needs to do:**
+1. Run CLAUDE-CODE-V2-PHASE4-LEADERBOARD.md in Claude Code
+2. Velocity data starts accumulating after 2+ days of fetch-repos runs
+3. Leaderboard "Rising Fast" section will show data after that

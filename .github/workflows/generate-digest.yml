@@ -280,8 +280,11 @@ jobs:
                 break;
             }
 
-            const streak = (hotness && hotness[item.full_name || id]) ? hotness[item.full_name || id].streak || 0 : 0;
-            const appearances = (hotness && hotness[item.full_name || id]) ? hotness[item.full_name || id].appearances || 0 : 0;
+            const hKey = item.full_name || id;
+            const hEntry = (hotness && hotness[hKey]) || {};
+            const streak = hEntry.streak || 0;
+            const appearances = hEntry.appearances || 0;
+            const starVelocity = hEntry.star_velocity || 0;
 
             if (fs.existsSync(filePath)) {
               // Update existing entry
@@ -307,6 +310,7 @@ jobs:
                 `times_featured: ${timesFeatured}`,
                 `streak: ${streak}`,
                 `appearances: ${appearances}`,
+                `star_velocity: ${starVelocity}`,
                 `tags: [${tags.join(', ')}]`,
                 '---'
               ].join('\n');
@@ -331,6 +335,7 @@ jobs:
                 `times_featured: 1`,
                 `streak: ${streak}`,
                 `appearances: ${appearances}`,
+                `star_velocity: ${starVelocity}`,
                 `tags: [${tags.join(', ')}]`,
                 '---'
               ].join('\n');
@@ -491,6 +496,40 @@ jobs:
             if (cat && sections[cat] && sections[cat].length < prefs.max_repos_per_section) {
               sections[cat].push(r);
             } else {
+              trendingOddballs.push(r);
+            }
+          }
+
+          // ── Velocity-boosted trending ─────────────────────
+          const hotness = (() => {
+            try { return JSON.parse(fs.readFileSync('data/hotness.json', 'utf8')); }
+            catch (e) { return {}; }
+          })();
+
+          const alreadyAssigned = new Set();
+          for (const items of Object.values(sections)) {
+            for (const r of items) alreadyAssigned.add(r.full_name);
+          }
+          for (const r of trendingOddballs) alreadyAssigned.add(r.full_name);
+          for (const r of trendingAlso) alreadyAssigned.add(r.full_name);
+
+          const velocityTrending = candidates
+            .filter(r => {
+              const h = hotness[r.full_name];
+              return h && h.star_velocity && h.star_velocity >= 50;
+            })
+            .filter(r => !alreadyAssigned.has(r.full_name))
+            .filter(r => !isOnCooldown(seen, r.full_name, today, prefs.cooldown_days))
+            .sort((a, b) => {
+              const va = (hotness[a.full_name] || {}).star_velocity || 0;
+              const vb = (hotness[b.full_name] || {}).star_velocity || 0;
+              return vb - va;
+            })
+            .slice(0, 3);
+
+          const trendingNames = new Set(trendingOddballs.map(r => r.full_name));
+          for (const r of velocityTrending) {
+            if (!trendingNames.has(r.full_name)) {
               trendingOddballs.push(r);
             }
           }
@@ -670,7 +709,14 @@ jobs:
           if (trendingOddballs.length > 0) {
             md += `## Trending oddballs worth a look\n\n`;
             for (const r of trendingOddballs) {
-              md += writeOneLiner(r, blurbs) + '\n\n';
+              const h = hotness[r.full_name];
+              const velocityNote = (h && h.star_velocity > 0) ? ` ⚡${h.star_velocity}★/day` : '';
+              const lang = r.language || 'Multi';
+              const stars = formatStars(r.stargazers_count);
+              const blurb = (blurbs && blurbs[r.full_name])
+                ? blurbs[r.full_name]
+                : (r.description || 'No description provided.');
+              md += `- [${r.full_name}](${r.html_url}) – ${blurb} (${lang}, ${stars}${velocityNote})\n\n`;
               featured.push(r.full_name);
             }
           }
@@ -679,10 +725,12 @@ jobs:
             md += `### Also trending today\n\n`;
             for (const r of trendingAlso) {
               const lang = r.language || 'Multi';
+              const h = hotness[r.full_name];
+              const velocityNote = (h && h.star_velocity > 0) ? ` ⚡${h.star_velocity}★/day` : '';
               const blurb = (blurbs && blurbs[r.full_name])
                 ? blurbs[r.full_name]
                 : (r.description || '').slice(0, 60);
-              md += `- [${r.full_name}](${r.html_url}) – ${blurb} (${lang}, ${formatStars(r.stargazers_count)})\n`;
+              md += `- [${r.full_name}](${r.html_url}) – ${blurb} (${lang}, ${formatStars(r.stargazers_count)}${velocityNote})\n`;
               featured.push(r.full_name);
             }
             md += '\n';
