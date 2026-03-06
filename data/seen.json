@@ -263,6 +263,66 @@
     "gitleaks/gitleaks": {
       "times_featured": 1,
       "last_featured": "2026-03-06"
+    },
+    "arifszn/gitprofile": {
+      "times_featured": 1,
+      "last_featured": "2026-03-06"
+    },
+    "PaulRBerg/hardhat-template": {
+      "times_featured": 1,
+      "last_featured": "2026-03-06"
+    },
+    "feige996/unibest": {
+      "times_featured": 1,
+      "last_featured": "2026-03-06"
+    },
+    "graphile/starter": {
+      "times_featured": 1,
+      "last_featured": "2026-03-06"
+    },
+    "NextJSTemplates/startup-nextjs": {
+      "times_featured": 1,
+      "last_featured": "2026-03-06"
+    },
+    "PicoTrex/Awesome-Nano-Banana-images": {
+      "times_featured": 1,
+      "last_featured": "2026-03-06"
+    },
+    "KlingAIResearch/LivePortrait": {
+      "times_featured": 1,
+      "last_featured": "2026-03-06"
+    },
+    "camenduru/stable-diffusion-webui-colab": {
+      "times_featured": 1,
+      "last_featured": "2026-03-06"
+    },
+    "Wan-Video/Wan2.2": {
+      "times_featured": 1,
+      "last_featured": "2026-03-06"
+    },
+    "zai-org/CogVideo": {
+      "times_featured": 1,
+      "last_featured": "2026-03-06"
+    },
+    "Dao-AILab/flash-attention": {
+      "times_featured": 1,
+      "last_featured": "2026-03-06"
+    },
+    "nautechsystems/nautilus_trader": {
+      "times_featured": 1,
+      "last_featured": "2026-03-06"
+    },
+    "containerd/containerd": {
+      "times_featured": 1,
+      "last_featured": "2026-03-06"
+    },
+    "termux/termux-packages": {
+      "times_featured": 1,
+      "last_featured": "2026-03-06"
+    },
+    "projectdiscovery/katana": {
+      "times_featured": 1,
+      "last_featured": "2026-03-06"
     }
   }
 }

@@ -51,6 +51,58 @@
     "NTU-NLP-sg/xCodeEval": {
       "times_featured": 1,
       "last_featured": "2026-03-06"
+    },
+    "mteb/leaderboard": {
+      "times_featured": 1,
+      "last_featured": "2026-03-06"
+    },
+    "dalle-mini/dalle-mini": {
+      "times_featured": 1,
+      "last_featured": "2026-03-06"
+    },
+    "AP123/IllusionDiffusion": {
+      "times_featured": 1,
+      "last_featured": "2026-03-06"
+    },
+    "facebook/MusicGen": {
+      "times_featured": 1,
+      "last_featured": "2026-03-06"
+    },
+    "black-forest-labs/FLUX.1-schnell": {
+      "times_featured": 1,
+      "last_featured": "2026-03-06"
+    },
+    "Qwen/Qwen3-0.6B": {
+      "times_featured": 1,
+      "last_featured": "2026-03-06"
+    },
+    "openai-community/gpt2": {
+      "times_featured": 1,
+      "last_featured": "2026-03-06"
+    },
+    "Qwen/Qwen2.5-1.5B-Instruct": {
+      "times_featured": 1,
+      "last_featured": "2026-03-06"
+    },
+    "timm/convnextv2_nano.fcmae_ft_in22k_in1k": {
+      "times_featured": 1,
+      "last_featured": "2026-03-06"
+    },
+    "dima806/fairface_age_image_detection": {
+      "times_featured": 1,
+      "last_featured": "2026-03-06"
+    },
+    "hf-doc-build/doc-build": {
+      "times_featured": 1,
+      "last_featured": "2026-03-06"
+    },
+    "m-a-p/FineFineWeb": {
+      "times_featured": 1,
+      "last_featured": "2026-03-06"
+    },
+    "opendatalab/AICC": {
+      "times_featured": 1,
+      "last_featured": "2026-03-06"
     }
   }
 }
