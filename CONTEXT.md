@@ -119,3 +119,111 @@ This file tracks project state across chat sessions. Read this + VaiBReport-SPEC
    - Or via terminal
 2. The new workflow will auto-run tomorrow after the daily fetch completes
 3. Can also trigger manually via workflow_dispatch to test
+
+---
+
+## Session: 2026-03-05 (Claude Code — V1 finalization)
+
+**What happened:**
+- Claude Code completed all 9 tasks from CLAUDE-CODE-V1-FINALIZE.md
+- All 3 workflows verified operational (fetch-repos, generate-digest, deploy-blog)
+- Blog live at https://chaosaigent.github.io/VaiBReport/
+- UGC queries fixed: 0 → 142 repos returned
+- Full automation chain verified: fetch → digest → deploy, all chained via workflow_run and push triggers
+- Planning files added to .gitignore
+- V1 is fully operational and hands-off
+
+---
+
+## Session: 2026-03-05 (Cowork — V2 punchlist)
+
+**What happened:**
+- Created V2-PUNCHLIST.md consolidating all scattered V2 ideas from across multiple sessions
+- 12 features documented with implementation approaches and priority ordering
+
+**V2 features cataloged:**
+1. Claude API writeups (replace algorithmic templating with AI editorial voice)
+2. Running results page (individual repo entries as a browsable catalog)
+3. Screenshots and video previews (OpenGraph images, README media extraction)
+4. Sort/search/tagging (Lunr.js, tag filters, sort options)
+5. Hotness streak (track repo appearance frequency as a relevancy signal)
+6. Leaderboard view (hall of fame by streak, appearances, times featured)
+7. Owned platform migration (Umami, PostHog, Resend on own domain)
+8. Email digest delivery (Resend integration)
+9. RSS feed verification and promotion
+10. Hugging Face as additional data source
+11. Staggered category runs (spread fetches across morning hours)
+12. Enhanced trending detection (filter out evergreen mega-repos)
+
+**Files created:**
+- V2-PUNCHLIST.md — comprehensive V2 feature punchlist with implementation notes
+
+**Next steps:**
+- Start with quick wins: RSS verification, Claude API writeups, hotness data collection
+- Then core V2: running results page → sort/search → leaderboard → screenshots
+- Platform migration can proceed in parallel as a separate track
+
+---
+
+## Session: 2026-03-05 (Cowork — V2 prerequisites + test session + V1.5 patch)
+
+**What happened:**
+- Peter furnished Quick Wins prereqs: Anthropic API key (stored as GitHub secret, NOT in files), model choice (Claude Sonnet 4.6), tone (casual dry humor, JPW'26 style preferred but not accessible this session)
+- Peter furnished Core V2 prereqs: card/bento grid layout, default card contents approved, default URL structure approved, no custom tags yet
+- Created V2-SCREENSHOTS-RESEARCH.md — detailed comparison of 4 screenshot approaches (OG images, README extraction, screenshot services, AI-generated cards) with pricing, effort, pros/cons
+- Created V2-PREREQUISITES.md (updated) with Peter's answers checked off
+
+**Test session findings (simulated digest from 2026-03-05 data):**
+- Data pipeline healthy: 253 repos (238 search, 23 trending, 12 queries)
+- Automation chain verified from workflow screenshot: all 3 workflows green, cron firing, chain triggers working
+- Atom feed confirmed working
+- Blog rendering confirmed
+
+**5 issues identified:**
+1. **UGC queries too broad** (CRITICAL) — pulling public-apis, fastapi, puppeteer, playwright as "UGC tools." Free-text search overcorrected from the topic: fix. Would produce embarrassing digest.
+2. **UGC category regex too broad** — `content.creat` and `creator` match too many non-UGC repos
+3. **Trending pulls mega-repos** — awesome-python (285K★), transformers (157K★) aren't "trending today"
+4. **Global repo cap not enforced** — preferences says 15, simulation produced 28. Changed to 30 with trim logic.
+5. **V2 planning files not excluded from Jekyll** — would generate unwanted pages
+
+**Peter's UGC direction:** Focus on automation, art/design generation, digital twins, social scheduling — tools that make UGC easier for creators and small businesses. NOT generic API frameworks or web scraping tools.
+
+**Files created:**
+- V2-SCREENSHOTS-RESEARCH.md — screenshot service comparison and phased recommendation
+- V2-PREREQUISITES.md — updated with Peter's answers
+- CLAUDE-CODE-V1.5-PATCH.md — prompt for Claude Code to fix all 5 issues
+
+**Decisions made:**
+- Model for API writeups: Claude Sonnet 4.6 (`claude-sonnet-4-6-*`)
+- Screenshots Phase 1: OG images + AI-generated cards (free, 100% coverage)
+- Card grid layout: bento grid for running results page
+- max_repos_total: 30 (up from 15, with trim logic)
+- RSS: feed exists, NOT promoted in nav header
+
+**Next steps:**
+- ~~Run CLAUDE-CODE-V1.5-PATCH.md via Claude Code (before next cron at 1pm UTC)~~ DONE
+- After V1.5 patch: add `ANTHROPIC_API_KEY` secret and wire Claude API into generate-digest.yml
+- Then start Core V2: bento grid running results page
+
+---
+
+## Session: 2026-03-05 (Claude Code — V1.5 patch)
+
+**What happened:**
+- Executed all 6 tasks from CLAUDE-CODE-V1.5-PATCH.md
+- Tested 19 UGC queries across 4 experiment sets against GitHub Search API
+- Kept 7 queries scoring 6+/10 relevance, discarded 12 that returned junk or zero results
+- Updated `pushed:>` dates to rolling 12-month window (2025-03-05) across ALL query groups
+
+**Changes made:**
+1. `config/queries.json` — Replaced 6 broad UGC queries with 7 tested, specific queries covering video gen, AI art, digital twins, image gen, social automation, social media tools. Updated all date filters to 2025-03-05.
+2. `.github/workflows/generate-digest.yml` — Tightened UGC category regex (compound phrases only), added UGC_EXCLUSIONS negative filter, added mega-repo trending filter (>80K stars + >2yr old = skip), added global trim step (trims largest section first when over max_repos_total)
+3. `config/preferences.json` — max_repos_total: 15 → 30
+4. `_config.yml` — Added `V2-*.md` and `CLAUDE-CODE-*.md` glob excludes for Jekyll build
+
+**UGC query test results (top repos from final set):**
+- LivePortrait (17.9K★), Wan2.2 (14.5K★), CogVideo (12.5K★) — video generation
+- AUTOMATIC1111/stable-diffusion-webui (161K★), InvokeAI (26.8K★) — AI art
+- Duix-Avatar (12.4K★), Linly-Talker (3.2K★) — digital twins/avatars
+- hey/Lens Protocol (29.5K★), postiz-app (27K★), growchief (3.3K★) — social media tools
+- diffusers (32.9K★), Qwen-Image (7.5K★) — image generation

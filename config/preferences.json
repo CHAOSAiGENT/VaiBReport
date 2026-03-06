@@ -2,7 +2,7 @@
   "min_stars": 40,
   "min_stars_trending": 10,
   "recent_months": 12,
-  "max_repos_total": 15,
+  "max_repos_total": 30,
   "max_repos_per_section": 5,
   "max_trending_candidates": 5,
   "max_trending_featured": 3,

@@ -41,14 +41,17 @@ jobs:
           }
 
           // ── Category assignment ────────────────────────────
+          const UGC_EXCLUSIONS = /public.apis|awesome-|free-for-dev|fastapi|playwright|puppeteer|firecrawl|web.scraping|headless.browser|http.client|api.framework|web.framework/i;
+
           function assignCategory(repo) {
             const t = (repo.topics || []).join(' ').toLowerCase();
             const d = (repo.description || '').toLowerCase();
             const g = (repo._query_group || '').toLowerCase();
             const all = `${t} ${d} ${g}`;
 
-            if (g.includes('ugc_social') ||
-                all.match(/social.media|content.creat|tiktok|instagram|youtube.api|video.generat|ugc|creator/))
+            if (!UGC_EXCLUSIONS.test(all) &&
+                (g.includes('ugc_social') ||
+                 all.match(/social.media.(?:schedul|manag|post|automat)|content.creat(?:ion|or).tool|video.generat|video.edit|ai.art|ai.image|image.generat|digital.twin|avatar.generat|ugc.platform|creator.econom|tiktok.(?:bot|tool|schedul)|instagram.(?:bot|tool|schedul)/)))
               return 'UGC, social media and creator tools';
             if (all.match(/llm|agent|rag|vector|mlops|ai.infra|lm.studio|openai|anthropic|langchain|embedding/))
               return 'AI agents, LLM infra and RAG';
@@ -179,9 +182,22 @@ jobs:
             sections[key] = sections[key].slice(0, prefs.max_repos_per_section);
           }
 
+          // Filter out perennial mega-repos from trending
+          const TWO_YEARS_MS = 2 * 365 * 24 * 60 * 60 * 1000;
+          const trendingFiltered = trendingPool.filter(r => {
+            if (r.stargazers_count > 80000) {
+              const created = r.created_at ? new Date(r.created_at) : null;
+              if (!created || (today - created) > TWO_YEARS_MS) {
+                console.log(`Skipping perennial mega-repo from trending: ${r.full_name} (${r.stargazers_count}★)`);
+                return false;
+              }
+            }
+            return true;
+          });
+
           // Handle trending: pick top N, feature top 3, brief-mention rest
-          trendingPool.sort((a, b) => b.stargazers_count - a.stargazers_count);
-          const trendingCandidates = trendingPool.slice(0, prefs.max_trending_candidates);
+          trendingFiltered.sort((a, b) => b.stargazers_count - a.stargazers_count);
+          const trendingCandidates = trendingFiltered.slice(0, prefs.max_trending_candidates);
           const trendingFeatured = trendingCandidates.slice(0, prefs.max_trending_featured);
           const trendingAlso = trendingCandidates.slice(
             prefs.max_trending_featured,
@@ -199,10 +215,24 @@ jobs:
             }
           }
 
-          // ── Count total picks ──────────────────────────────
+          // ── Trim to global max ────────────────────────────
           let totalPicks = trendingOddballs.length + trendingAlso.length;
           for (const key of Object.keys(sections)) {
             totalPicks += sections[key].length;
+          }
+
+          while (totalPicks > prefs.max_repos_total) {
+            let largestSection = null;
+            let largestCount = 0;
+            for (const key of Object.keys(sections)) {
+              if (sections[key].length > largestCount) {
+                largestCount = sections[key].length;
+                largestSection = key;
+              }
+            }
+            if (!largestSection || largestCount <= 1) break;
+            sections[largestSection].pop();
+            totalPicks--;
           }
 
           // ── Build Markdown ─────────────────────────────────

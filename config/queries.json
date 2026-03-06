@@ -1,20 +1,21 @@
 {
   "default_queries": [
-    "topic:saas language:TypeScript stars:>40 pushed:>2025-06-01 sort:stars",
-    "topic:llm OR topic:agents stars:>80 pushed:>2025-06-01 sort:stars",
-    "topic:crm OR topic:marketing-automation stars:>40 pushed:>2025-06-01 sort:stars"
+    "topic:saas language:TypeScript stars:>40 pushed:>2025-03-05 sort:stars",
+    "topic:llm OR topic:agents stars:>80 pushed:>2025-03-05 sort:stars",
+    "topic:crm OR topic:marketing-automation stars:>40 pushed:>2025-03-05 sort:stars"
   ],
   "extra_queries": [
-    "topic:billing OR topic:subscriptions stars:>30 pushed:>2025-06-01 sort:stars",
-    "topic:analytics OR topic:business-intelligence stars:>40 pushed:>2025-06-01 sort:stars",
-    "language:typescript stars:>80 pushed:>2025-06-01 topic:template sort:stars"
+    "topic:billing OR topic:subscriptions stars:>30 pushed:>2025-03-05 sort:stars",
+    "topic:analytics OR topic:business-intelligence stars:>40 pushed:>2025-03-05 sort:stars",
+    "language:typescript stars:>80 pushed:>2025-03-05 topic:template sort:stars"
   ],
   "ugc_social_queries": [
-    "social media management stars:>30 pushed:>2025-01-01 sort:stars",
-    "social media scheduling stars:>30 pushed:>2025-01-01 sort:stars",
-    "content creation tool stars:>50 pushed:>2025-01-01 sort:stars",
-    "video generation ai stars:>100 pushed:>2025-01-01 sort:stars",
-    "instagram OR tiktok OR youtube api stars:>50 pushed:>2025-01-01 language:TypeScript sort:stars",
-    "instagram OR tiktok OR youtube api stars:>50 pushed:>2025-01-01 language:Python sort:stars"
+    "topic:video-generation stars:>50 pushed:>2025-03-05 sort:stars",
+    "topic:ai-art stars:>50 pushed:>2025-03-05 sort:stars",
+    "digital twin OR avatar generation stars:>30 pushed:>2025-03-05 sort:stars",
+    "AI image generation open source stars:>100 pushed:>2025-03-05 sort:stars",
+    "instagram automation OR tiktok automation stars:>30 pushed:>2025-03-05 sort:stars",
+    "social media in:name,description stars:>200 pushed:>2025-03-05 language:TypeScript sort:stars",
+    "image generation in:name,description stars:>200 pushed:>2025-03-05 sort:stars"
   ]
 }
