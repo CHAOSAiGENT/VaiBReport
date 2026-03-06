@@ -167,6 +167,102 @@
     "microsoft/qlib": {
       "times_featured": 1,
       "last_featured": "2026-03-06"
+    },
+    "async-labs/saas": {
+      "times_featured": 1,
+      "last_featured": "2026-03-06"
+    },
+    "codercup/unibest": {
+      "times_featured": 1,
+      "last_featured": "2026-03-06"
+    },
+    "spliit-app/spliit": {
+      "times_featured": 1,
+      "last_featured": "2026-03-06"
+    },
+    "roninoss/create-expo-stack": {
+      "times_featured": 1,
+      "last_featured": "2026-03-06"
+    },
+    "zce/caz": {
+      "times_featured": 1,
+      "last_featured": "2026-03-06"
+    },
+    "jamez-bondos/awesome-gpt4o-images": {
+      "times_featured": 1,
+      "last_featured": "2026-03-06"
+    },
+    "filipecalegario/awesome-generative-ai": {
+      "times_featured": 1,
+      "last_featured": "2026-03-06"
+    },
+    "zhaochen0110/Awesome_Think_With_Images": {
+      "times_featured": 1,
+      "last_featured": "2026-03-06"
+    },
+    "apocas/restai": {
+      "times_featured": 1,
+      "last_featured": "2026-03-06"
+    },
+    "wataru-maeda/react-native-boilerplate": {
+      "times_featured": 1,
+      "last_featured": "2026-03-06"
+    },
+    "build-canaries/nevergreen": {
+      "times_featured": 1,
+      "last_featured": "2026-03-06"
+    },
+    "argus-sight/refund-swatter-lite": {
+      "times_featured": 1,
+      "last_featured": "2026-03-06"
+    },
+    "updatedotdev/js": {
+      "times_featured": 1,
+      "last_featured": "2026-03-06"
+    },
+    "Somafet/onboardjs": {
+      "times_featured": 1,
+      "last_featured": "2026-03-06"
+    },
+    "AUTOMATIC1111/stable-diffusion-webui": {
+      "times_featured": 1,
+      "last_featured": "2026-03-06"
+    },
+    "huggingface/diffusers": {
+      "times_featured": 1,
+      "last_featured": "2026-03-06"
+    },
+    "bigint/hey": {
+      "times_featured": 1,
+      "last_featured": "2026-03-06"
+    },
+    "gitroomhq/postiz-app": {
+      "times_featured": 1,
+      "last_featured": "2026-03-06"
+    },
+    "invoke-ai/InvokeAI": {
+      "times_featured": 1,
+      "last_featured": "2026-03-06"
+    },
+    "hoppscotch/hoppscotch": {
+      "times_featured": 1,
+      "last_featured": "2026-03-06"
+    },
+    "fastify/fastify": {
+      "times_featured": 1,
+      "last_featured": "2026-03-06"
+    },
+    "aquasecurity/trivy": {
+      "times_featured": 1,
+      "last_featured": "2026-03-06"
+    },
+    "OpenAPITools/openapi-generator": {
+      "times_featured": 1,
+      "last_featured": "2026-03-06"
+    },
+    "gitleaks/gitleaks": {
+      "times_featured": 1,
+      "last_featured": "2026-03-06"
     }
   }
 }

@@ -1,1 +1,56 @@
-{"featured": {}}
+{
+  "featured": {
+    "enzostvs/deepsite": {
+      "times_featured": 1,
+      "last_featured": "2026-03-06"
+    },
+    "open-llm-leaderboard/open_llm_leaderboard": {
+      "times_featured": 1,
+      "last_featured": "2026-03-06"
+    },
+    "jbilcke-hf/ai-comic-factory": {
+      "times_featured": 1,
+      "last_featured": "2026-03-06"
+    },
+    "Kwai-Kolors/Kolors-Virtual-Try-On": {
+      "times_featured": 1,
+      "last_featured": "2026-03-06"
+    },
+    "black-forest-labs/FLUX.1-dev": {
+      "times_featured": 1,
+      "last_featured": "2026-03-06"
+    },
+    "Falconsai/nsfw_image_detection": {
+      "times_featured": 1,
+      "last_featured": "2026-03-06"
+    },
+    "timm/mobilenetv3_small_100.lamb_in1k": {
+      "times_featured": 1,
+      "last_featured": "2026-03-06"
+    },
+    "Qwen/Qwen2.5-7B-Instruct": {
+      "times_featured": 1,
+      "last_featured": "2026-03-06"
+    },
+    "pyannote/speaker-diarization-3.1": {
+      "times_featured": 1,
+      "last_featured": "2026-03-06"
+    },
+    "Xenova/paraphrase-multilingual-MiniLM-L12-v2": {
+      "times_featured": 1,
+      "last_featured": "2026-03-06"
+    },
+    "KakologArchives/KakologArchives": {
+      "times_featured": 1,
+      "last_featured": "2026-03-06"
+    },
+    "huggingface/documentation-images": {
+      "times_featured": 1,
+      "last_featured": "2026-03-06"
+    },
+    "NTU-NLP-sg/xCodeEval": {
+      "times_featured": 1,
+      "last_featured": "2026-03-06"
+    }
+  }
+}
