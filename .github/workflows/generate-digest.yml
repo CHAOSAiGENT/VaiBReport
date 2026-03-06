@@ -189,6 +189,34 @@ Return format:
 
           const today = new Date(digestDate);
 
+          // ── Load HuggingFace data ─────────────────────────
+          let hfData = { spaces: [], models: [], datasets: [] };
+          try {
+            const hfFiles = fs.readdirSync('data')
+              .filter(f => f.match(/^hf-\d{4}-\d{2}-\d{2}\.json$/))
+              .sort()
+              .reverse();
+            if (hfFiles.length > 0) {
+              hfData = JSON.parse(fs.readFileSync(`data/${hfFiles[0]}`, 'utf8'));
+              console.log(`Loaded HuggingFace data from ${hfFiles[0]}`);
+            }
+          } catch (e) {
+            console.log('No HuggingFace data available');
+          }
+
+          let seenHf = { featured: {} };
+          try {
+            seenHf = JSON.parse(fs.readFileSync('data/seen-hf.json', 'utf8'));
+          } catch (e) { /* fresh start */ }
+
+          function isHfOnCooldown(id) {
+            const entry = seenHf.featured[id];
+            if (!entry) return false;
+            const lastDate = new Date(entry.last_featured);
+            const diff = (today - lastDate) / (1000 * 60 * 60 * 24);
+            return diff < prefs.cooldown_days;
+          }
+
           // ── Filter ─────────────────────────────────────────
           function isOnCooldown(fullName) {
             const entry = seen.featured[fullName];
@@ -310,15 +338,48 @@ Return format:
             totalPicks--;
           }
 
+          // ── Filter HuggingFace items ──────────────────────
+          const hfSpaces = (hfData.spaces || [])
+            .filter(s => !isHfOnCooldown(s.id) && s.likes >= 10)
+            .sort((a, b) => b.likes - a.likes)
+            .slice(0, 5);
+
+          const hfModels = (hfData.models || [])
+            .filter(m => !isHfOnCooldown(m.id) && m.downloads >= 1000)
+            .sort((a, b) => b.downloads - a.downloads)
+            .slice(0, 5);
+
+          const hfDatasets = (hfData.datasets || [])
+            .filter(d => !isHfOnCooldown(d.id) && d.downloads >= 500)
+            .sort((a, b) => b.downloads - a.downloads)
+            .slice(0, 3);
+
+          console.log(`HuggingFace: ${hfSpaces.length} spaces, ${hfModels.length} models, ${hfDatasets.length} datasets`);
+
           // ── Generate Claude editorial blurbs ─────────────────
           const allSectioned = { ...sections };
           if (trendingOddballs.length > 0) allSectioned['Trending oddballs'] = trendingOddballs;
           if (trendingAlso.length > 0) allSectioned['Also trending'] = trendingAlso;
+          // Include HF items for blurb generation
+          if (hfSpaces.length > 0) allSectioned['HuggingFace Spaces'] = hfSpaces.map(s => ({
+            full_name: s.id, description: s.description, language: s.sdk || 'Space',
+            stargazers_count: s.likes, topics: s.tags
+          }));
+          if (hfModels.length > 0) allSectioned['HuggingFace Models'] = hfModels.map(m => ({
+            full_name: m.id, description: m.description, language: m.pipeline_tag,
+            stargazers_count: m.downloads, topics: m.tags
+          }));
+          if (hfDatasets.length > 0) allSectioned['HuggingFace Datasets'] = hfDatasets.map(d => ({
+            full_name: d.id, description: d.description, language: 'Dataset',
+            stargazers_count: d.downloads, topics: d.tags
+          }));
           const blurbs = await generateEditorialBlurbs(candidates, allSectioned);
 
           // ── Build Markdown ─────────────────────────────────
           const sep = '---';
-          let md = `${sep}\nlayout: post\ntitle: "GitHub Digest – ${digestDate}"\ndate: ${digestDate}\ntags: [github, digest, ai, saas, solopreneur, ugc]\n${sep}\n\nDaily curated repos for solo founders, AI/B2B SaaS builders, and small business tools. ${candidates.length} repos evaluated, ${totalPicks} made the cut.\n\n`;
+          const hfCount = hfSpaces.length + hfModels.length + hfDatasets.length;
+          const hfNote = hfCount > 0 ? ` Plus ${hfCount} HuggingFace picks.` : '';
+          let md = `${sep}\nlayout: post\ntitle: "Daily Digest – ${digestDate}"\ndate: ${digestDate}\ntags: [github, huggingface, digest, ai, saas, solopreneur, ugc]\n${sep}\n\nDaily curated repos for solo founders, AI/B2B SaaS builders, and small business tools. ${candidates.length} repos evaluated, ${totalPicks} made the cut.${hfNote}\n\n`;
 
           const sectionOrder = [
             'SaaS starters and templates',
@@ -360,10 +421,46 @@ Return format:
             md += '\n';
           }
 
+          // ── HuggingFace sections ──────────────────────────
+          const hfFeatured = [];
+
+          function formatDownloads(n) {
+            if (n >= 1000000) return `${(n / 1000000).toFixed(1)}M`;
+            if (n >= 1000) return `${(n / 1000).toFixed(0)}K`;
+            return `${n}`;
+          }
+
+          if (hfSpaces.length > 0) {
+            md += `## HuggingFace Spaces\n\n`;
+            for (const s of hfSpaces) {
+              const blurb = (blurbs && blurbs[s.id]) ? blurbs[s.id] : (s.description || s.id);
+              md += `- [${s.id}](${s.url}) – ${blurb} (${s.sdk || 'Space'}, ${s.likes} likes)\n\n`;
+              hfFeatured.push(s.id);
+            }
+          }
+
+          if (hfModels.length > 0) {
+            md += `## HuggingFace Models\n\n`;
+            for (const m of hfModels) {
+              const blurb = (blurbs && blurbs[m.id]) ? blurbs[m.id] : (m.description || m.id);
+              md += `- [${m.id}](${m.url}) – ${blurb} (${m.pipeline_tag}, ${formatDownloads(m.downloads)} downloads)\n\n`;
+              hfFeatured.push(m.id);
+            }
+          }
+
+          if (hfDatasets.length > 0) {
+            md += `## HuggingFace Datasets\n\n`;
+            for (const d of hfDatasets) {
+              const blurb = (blurbs && blurbs[d.id]) ? blurbs[d.id] : (d.description || d.id);
+              md += `- [${d.id}](${d.url}) – ${blurb} (${formatDownloads(d.downloads)} downloads)\n\n`;
+              hfFeatured.push(d.id);
+            }
+          }
+
           // ── Write post ─────────────────────────────────────
           if (!fs.existsSync('_posts')) fs.mkdirSync('_posts', { recursive: true });
           fs.writeFileSync(postPath, md);
-          console.log(`Created ${postPath} with ${featured.length} repos`);
+          console.log(`Created ${postPath} with ${featured.length} repos + ${hfFeatured.length} HF items`);
 
           // ── Update seen.json ───────────────────────────────
           for (const name of featured) {
@@ -373,6 +470,15 @@ Return format:
             seen.featured[name] = entry;
           }
           fs.writeFileSync('data/seen.json', JSON.stringify(seen, null, 2));
+
+          // ── Update seen-hf.json ─────────────────────────────
+          for (const id of hfFeatured) {
+            const entry = seenHf.featured[id] || { times_featured: 0 };
+            entry.last_featured = digestDate;
+            entry.times_featured = (entry.times_featured || 0) + 1;
+            seenHf.featured[id] = entry;
+          }
+          fs.writeFileSync('data/seen-hf.json', JSON.stringify(seenHf, null, 2));
 
           // ── Clean spotlight ────────────────────────────────
           if (spotlight.repos.length > 0) {
@@ -397,7 +503,7 @@ Return format:
           date=$(date -u +"%Y-%m-%d")
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add _posts/ data/seen.json config/spotlight.json
+          git add _posts/ data/seen.json data/seen-hf.json config/spotlight.json
           git diff --cached --quiet && echo "No new digest" && exit 0
           git commit -m "Add digest for ${date}"
           git push
