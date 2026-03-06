@@ -23,7 +23,7 @@ jobs:
 
       - name: Generate digest post
         env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: |
           node --input-type=module << 'SCRIPT'
           import fs from 'fs';
@@ -68,11 +68,11 @@ jobs:
             return null; // doesn't fit cleanly
           }
 
-          // ── Claude API editorial blurbs ────────────────────
+          // ── Gemini API editorial blurbs ────────────────────
           async function generateEditorialBlurbs(repos, sections) {
-            const apiKey = process.env.ANTHROPIC_API_KEY;
+            const apiKey = process.env.GEMINI_API_KEY;
             if (!apiKey) {
-              console.log('No ANTHROPIC_API_KEY — falling back to template blurbs');
+              console.log('No GEMINI_API_KEY — falling back to template blurbs');
               return null;
             }
 
@@ -102,40 +102,41 @@ jobs:
               '{"owner/repo": "Your one-liner blurb here.", ...}'
             ].join('\n');
 
-            const models = ['claude-sonnet-4-6-20250514', 'claude-sonnet-4-5-20250929'];
+            const models = ['gemini-2.5-flash', 'gemini-2.0-flash'];
             for (const model of models) {
               try {
-                console.log(`Trying Claude model: ${model}`);
-                const res = await fetch('https://api.anthropic.com/v1/messages', {
-                  method: 'POST',
-                  headers: {
-                    'Content-Type': 'application/json',
-                    'x-api-key': apiKey,
-                    'anthropic-version': '2023-06-01'
-                  },
-                  body: JSON.stringify({
-                    model,
-                    max_tokens: 4096,
-                    messages: [{ role: 'user', content: prompt }]
-                  })
-                });
+                console.log(`Trying Gemini model: ${model}`);
+                const res = await fetch(
+                  `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${apiKey}`,
+                  {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                      contents: [{ parts: [{ text: prompt }] }],
+                      generationConfig: {
+                        temperature: 0.7,
+                        maxOutputTokens: 4096
+                      }
+                    })
+                  }
+                );
 
                 if (!res.ok) {
                   const body = await res.text();
-                  console.error(`Claude API error (${model}): ${res.status} ${res.statusText}`);
+                  console.error(`Gemini API error (${model}): ${res.status} ${res.statusText}`);
                   console.error(body);
-                  if (res.status === 404) continue; // try next model
+                  if (res.status === 404) continue; // model not available, try next
                   return null;
                 }
 
                 const data = await res.json();
-                const text = data.content[0].text;
+                const text = data.candidates[0].content.parts[0].text;
                 const cleaned = text.replace(/```json\n?/g, '').replace(/```\n?/g, '').trim();
                 const blurbs = JSON.parse(cleaned);
-                console.log(`Got ${Object.keys(blurbs).length} editorial blurbs from Claude (${model})`);
+                console.log(`Got ${Object.keys(blurbs).length} editorial blurbs from Gemini (${model})`);
                 return blurbs;
               } catch (e) {
-                console.error(`Claude API call failed (${model}):`, e.message);
+                console.error(`Gemini API call failed (${model}):`, e.message);
               }
             }
             return null;
@@ -358,7 +359,7 @@ jobs:
 
           console.log(`HuggingFace: ${hfSpaces.length} spaces, ${hfModels.length} models, ${hfDatasets.length} datasets`);
 
-          // ── Generate Claude editorial blurbs ─────────────────
+          // ── Generate Gemini editorial blurbs ─────────────────
           const allSectioned = { ...sections };
           if (trendingOddballs.length > 0) allSectioned['Trending oddballs'] = trendingOddballs;
           if (trendingAlso.length > 0) allSectioned['Also trending'] = trendingAlso;
