@@ -172,6 +172,44 @@ jobs:
             }
             const deduped = Object.values(map);
 
+            // ── Hotness tracking ──────────────────────────────
+            let hotness = {};
+            try {
+              hotness = JSON.parse(fs.readFileSync('data/hotness.json', 'utf8'));
+            } catch (e) { /* fresh start */ }
+
+            const todayStr = new Date().toISOString().slice(0, 10);
+            const yesterdayStr = hotness._last_run || null;
+
+            for (const r of deduped) {
+              const name = r.full_name;
+              if (!hotness[name]) {
+                hotness[name] = { appearances: 0, streak: 0, last_seen: null, first_seen: todayStr };
+              }
+              const entry = hotness[name];
+              entry.appearances++;
+              entry.last_seen = todayStr;
+
+              if (yesterdayStr && entry.last_seen_prev === yesterdayStr) {
+                entry.streak++;
+              } else {
+                entry.streak = 1;
+              }
+              entry.last_seen_prev = todayStr;
+            }
+
+            // Decay streaks for repos NOT in today's results
+            for (const [name, entry] of Object.entries(hotness)) {
+              if (name.startsWith('_')) continue;
+              if (typeof entry === 'object' && entry.last_seen !== todayStr) {
+                entry.streak = 0;
+              }
+            }
+
+            hotness._last_run = todayStr;
+            fs.writeFileSync('data/hotness.json', JSON.stringify(hotness, null, 2));
+            console.log(`Updated hotness.json (${Object.keys(hotness).length - 1} repos tracked)`);
+
             // Write output
             const date = new Date().toISOString().slice(0, 10);
             const payload = {
