@@ -89,16 +89,18 @@ jobs:
               }
             }
 
-            const prompt = `You are writing one-liner editorial blurbs for a daily GitHub digest blog called VaiBReport. The audience is solo founders, AI/B2B SaaS builders, small business tool seekers, and content creators.
-
-Your voice: casual, dry humor, opinionated. You're a fellow builder who's seen a lot of repos and knows what matters. Think "the friend who texts you 'hey check this out' with actually good stuff." Be concise — each blurb is ONE sentence, max two. No fluff, no hype words like "revolutionary" or "game-changing." Say what it actually does and why someone building a product would care.
-
-Here are the repos grouped by section. Write a blurb for each one. Return ONLY a JSON object mapping full_name to blurb string. No markdown, no explanation.
-
-${repoList}
-
-Return format:
-{"owner/repo": "Your one-liner blurb here.", ...}`;
+            const prompt = [
+              'You are writing one-liner editorial blurbs for a daily GitHub digest blog called VaiBReport. The audience is solo founders, AI/B2B SaaS builders, small business tool seekers, and content creators.',
+              '',
+              'Your voice: casual, dry humor, opinionated. You are a fellow builder who has seen a lot of repos and knows what matters. Think "the friend who texts you hey check this out with actually good stuff." Be concise - each blurb is ONE sentence, max two. No fluff, no hype words like "revolutionary" or "game-changing." Say what it actually does and why someone building a product would care.',
+              '',
+              'Here are the repos grouped by section. Write a blurb for each one. Return ONLY a JSON object mapping full_name to blurb string. No markdown, no explanation.',
+              '',
+              repoList,
+              '',
+              'Return format:',
+              '{"owner/repo": "Your one-liner blurb here.", ...}'
+            ].join('\n');
 
             const models = ['claude-sonnet-4-6-20250514', 'claude-sonnet-4-5-20250929'];
             for (const model of models) {
