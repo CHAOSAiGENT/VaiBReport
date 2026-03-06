@@ -1,1 +1,2047 @@
-{}
+{
+  "kriasoft/react-starter-kit": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "wasp-lang/open-saas": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "ixartz/SaaS-Boilerplate": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "boxyhq/saas-starter-kit": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "async-labs/saas": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "zenstackhq/zenstack": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "apptension/saas-boilerplate": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "ParabolInc/parabol": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "graphile/starter": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "getstation/desktop-app": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "lost-pixel/lost-pixel": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "NextJSTemplates/startup-nextjs": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "saas-js/saas-ui": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "revokslab/ShipFree": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "steedos/steedos-platform": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "alan345/AI-Fullstack-SaaS-Boilerplate": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "denoland/saaskit": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "Lissy93/domain-locker": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "mugnavo/tanstarter": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "keyshade-xyz/keyshade": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "devrsi0n/chirpy": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "NextJSTemplates/play-nextjs": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "weicanie/prisma-ai": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "get-convex/convex-saas": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "PaddleHQ/paddle-nextjs-starter-kit": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "NextJSTemplates/solid-nextjs": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "wrsrsh/startstack": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "build-canaries/nevergreen": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "metorial/metorial-platform": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "auth0-developer-hub/auth0-b2b-saas-starter": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "SaaSBold/saasbold-lite": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "argus-sight/refund-swatter-lite": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "gonzalochale/saas-landing-template": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "aws-samples/saas-reference-architecture-ecs": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "LimeJourney/limeJourney": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "digitalocean/sea-notes-saas-starter-kit": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "SAP-samples/btp-cap-genai-rag": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "codebucks27/Pictoria-AI-Starter-Code": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "updatedotdev/js": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "sanidhyy/genius-ai": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "AayushBharti/ai-saas-landing-starter": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "MinightDev/Autoshorts": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "aws-samples/aws-saas-factory-saas-microservices-workshop": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "MarsX-dev/seobot-nextjs-blog": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "deepsingh132/aionair": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "rcrdk/nextjs-fastify-saas-rbac": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "Somafet/onboardjs": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "kriasoft/better-auth": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "Blankeos/solid-launch": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "saas-js/saas-js": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "ln-dev7/square-ui": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "cruip/open-react-template": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "obytes/react-native-template-obytes": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "cawa-93/vite-electron-builder": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "chibat/chrome-extension-typescript-starter": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "codercup/unibest": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "spliit-app/spliit": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "roninoss/create-expo-stack": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "zce/caz": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "ln-dev7/circle": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "actions/typescript-action": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "arifszn/gitprofile": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "PaulRBerg/hardhat-template": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "feige996/unibest": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "BearStudio/start-ui-web": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "Blazity/next-saas-starter": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "reliverse/relivator": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "shadcn-ui/next-template": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "JoshuaKGoldberg/create-typescript-app": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "emonney/QuickApp": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "JohnBra/vite-web-extension": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "guigrpa/docx-templates": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "dishait/tov-template": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "Skolaczk/next-starter": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "agustinusnathaniel/nextarter-chakra": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "daltonmenezes/electron-app": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "windingwind/zotero-plugin-template": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "scaffdog/scaffdog": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "suren-atoyan/react-pwa": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "zhangyao1990/elegant-admin": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "kvnxiao/tauri-nextjs-template": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "KevinNovak/Discord-Bot-TypeScript-Template": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "mvllow/next-pwa-template": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "expo-starter/expo-local-first-template": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "uni-helper/vitesse-uni-app": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "un-pany/mobvue": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "thisismydesign/next-nest": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "mantinedev/next-pages-template": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "flaviuse/mern-authentication": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "tremorlabs/template-dashboard-oss": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "wataru-maeda/react-native-boilerplate": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "AlbertHernandez/nestjs-service-template": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "bot-base/telegram-bot-template": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "sankeyangshu/lemon-mobile-react": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "taiga-family/polymorpheus": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "KlingAIResearch/LivePortrait": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "Wan-Video/Wan2.2": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "zai-org/CogVideo": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "duixcom/Duix-Avatar": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "Tencent-Hunyuan/HunyuanVideo": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "waoowaooAI/waoowaoo": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "showlab/Awesome-Video-Diffusion": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "AILab-CVC/VideoCrafter": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "Tencent-Hunyuan/HunyuanVideo-1.5": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "antgroup/echomimic_v2": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "ali-vilab/VACE": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "SandAI-org/MAGI-1": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "thu-ml/TurboDiffusion": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "thu-ml/SageAttention": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "hao-ai-lab/FastVideo": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "SamurAIGPT/AI-Youtube-Shorts-Generator": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "Robbyant/lingbot-world": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "vllm-project/vllm-omni": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "SamurAIGPT/Generative-Media-Skills": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "AIDC-AI/Pixelle-Video": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "Tencent/MimicMotion": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "GVCLab/PersonaLive": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "HKUDS/ViMax": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "ModelTC/LightX2V": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "SkyworkAI/Matrix-Game": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "KlingAIResearch/ReCamMaster": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "showlab/Code2Video": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "menyifang/MIMO": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "Vchitect/VBench": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "Phantom-video/Phantom": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "PKU-YuanGroup/MagicTime": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "MiniMax-AI/MiniMax-MCP": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "ali-vilab/TeaCache": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "snap-research/articulated-animation": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "Francis-Rings/StableAvatar": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "Tencent-Hunyuan/HunyuanCustom": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "ali-vilab/UniAnimate": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "cure-lab/MagicDrive": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "wladradchenko/wunjo.wladradchenko.ru": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "gyoridavid/short-video-maker": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "SamurAIGPT/muapi-cli": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "thu-ml/SpargeAttn": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "360CVGroup/FancyVideo": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "mayuelala/FollowYourClick": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "nvidia-cosmos/cosmos-predict2.5": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "cuixing158/Awesome-CV-MasterHub": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "zai-org/SCAIL": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "OpenDriveLab/Vista": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "worldbench/awesome-3d-4d-world-models": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "ali-vilab/UniAnimate-DiT": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "AUTOMATIC1111/stable-diffusion-webui": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "invoke-ai/InvokeAI": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "camenduru/stable-diffusion-webui-colab": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "willwulfken/MidJourney-Styles-and-Keywords-Reference": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "jamez-bondos/awesome-gpt4o-images": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "vladmandic/sdnext": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "philz1337x/clarity-upscaler": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "nateraw/stable-diffusion-videos": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "filipecalegario/awesome-generative-ai": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "FurkanGozukara/Stable-Diffusion": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "Stability-AI/stability-sdk": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "pydn/ComfyUI-to-Python-Extension": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "Capsize-Games/airunner": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "bacalhau-project/bacalhau": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "lum3on/comfyui_HiDream-Sampler": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "rockbenben/img-prompt": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "ssube/onnx-web": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "bentoml/comfy-pack": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "daveschumaker/artbot-for-stable-diffusion": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "ThetaCursed/Anima-Style-Explorer": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "Super-Maker-AI/awesome-nano-banana": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "jezs00/pycasso": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "Onion99/KMP-MineStableDiffusion": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "shellus/mj-studio": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "Kedreamix/Linly-Talker": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "weihaox/awesome-digital-human": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "andremichelle/openDAW": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "onflow/flow-go": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "Yuan-ManX/audio-development-tools": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "onflow/flow": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "taoofagi/easegen-front": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "muzishen/IMAGGarment": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "RahulAutade2288/payments-modernization-hub": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "atrocore/atrodam": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "YezQiu/Tiemu": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "ASUCICREPO/PDF_Accessibility": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "XYFrank103/StegoShark": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "phishdestroy/Nigerian-dignity": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "ndrwmlnk/Awesome-Digital-Twins": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "signalspec/signalspec": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "VAZlabs/cyber-find": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "OpenSenseNova/SekoTalk": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "Lmyxxn/XL-MIMO-LAE": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "0rlych1kk4/quantum_identity_system": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "sonnhfit/SonAgent": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "YouMind-OpenLab/awesome-nano-banana-pro-prompts": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "mylxsw/aidea": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "Anil-matcha/Open-Higgsfield-AI": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "apocas/restai": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "Bria-AI/FIBO": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "ammaarreshi/openjourney": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "mifi/instauto": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "gitcoffee-os/postbot": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "Useful-Scripts-Extension/useful-script": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "new92/igfi": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "new92/instatools": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "ChetanXpro/short-video-automation": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "somiibo/instagram-bot": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "vishalgojha/social-flow": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "M3rcuryLake/Cassette": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "anniedotexe/Instagram-Like-Comment-Bot": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "TnYtCoder/InstaPilot": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "ranahaani/autogram": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "SashenJayathilaka/SAAS-Instagram-DM-Automations": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "Z786ZA/instagram-scraper": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "itallonardi/rapidclip-generator": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "Z786ZA/instagram-scraper-api": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "Z786ZA/instagram-api-documentation": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "nelsonmis/instablaster": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "Z786ZA/instagram-scraper-tool": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "bigint/hey": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "gitroomhq/postiz-app": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "growchief/growchief": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "langchain-ai/social-media-agent": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "leaperone/MultiPost-Extension": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "iszhouhua/social-media-copilot": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "apify/apify-mcp-server": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "feeddeck/feeddeck": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "leandronorcio/munia": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "gabboman/wafrn": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "neplexlabs/canvacord": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "danilobatson/ai-trading-agent-gemini": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "boqingren/tiktok-emojis": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "huggingface/diffusers": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "PicoTrex/Awesome-Nano-Banana-images": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "FoundationVision/VAR": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "brycedrennan/imaginAIry": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "QwenLM/Qwen-Image": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "salesforce/BLIP": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "xxlong0/Wonder3D": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "MeiGen-AI/InfiniteTalk": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "VectorSpaceLab/OmniGen": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "Hunyuan-PromptEnhancer/PromptEnhancer": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "AiuniAI/Unique3D": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "open-xml-templating/docxtemplater": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "Tencent-Hunyuan/Hunyuan3D-1": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "DLR-RM/BlenderProc": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "symfony/asset": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "elegantapp/pwa-asset-generator": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "Tencent-Hunyuan/HunyuanImage-3.0": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "Yutong-Zhou-cv/Awesome-Text-to-Image": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "antirez/iris.c": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "Kav-K/GPTDiscord": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "szczyglis-dev/py-gpt": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "franciszzj/Leffa": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "zai-org/ImageReward": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "guochengqian/Magic123": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "yincongcyincong/MuseBot": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "ArthurHub/HTML-Renderer": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "zhaochen0110/Awesome_Think_With_Images": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "muzishen/IMAGDressing": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "huanngzh/MV-Adapter": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "unum-cloud/UForm": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "owasp-dep-scan/dep-scan": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "KaihuaTang/Scene-Graph-Benchmark.pytorch": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "jtydhr88/ComfyUI-qwenmultiangle": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "Dreamy-rain/gemini-business2api": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "FoundationVision/Waver": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "VAST-AI-Research/MIDI-3D": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "ZiyuGuo99/Image-Generation-CoT": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "GAIR-NLP/anole": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "caiyuanhao1998/Open-DiffusionGS": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "rksm/org-ai": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "zai-org/GLM-Image": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "aquasecurity/trivy": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "apache/airflow": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "nautechsystems/nautilus_trader": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "Dao-AILab/flash-attention": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "khoj-ai/khoj": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "containerd/containerd": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "sympy/sympy": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "microsoft/qlib": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "hoppscotch/hoppscotch": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "nlohmann/json": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "PostHog/posthog": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "MudBlazor/MudBlazor": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "rustdesk/rustdesk": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "microsoft/PowerToys": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "OpenAPITools/openapi-generator": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "bufbuild/buf": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "shopware/shopware": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "sqlfluff/sqlfluff": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "projectdiscovery/katana": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "fastify/fastify": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "jomjol/AI-on-the-edge-device": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "termux/termux-packages": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "gitleaks/gitleaks": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-06",
+    "first_seen": "2026-03-06",
+    "last_seen_prev": "2026-03-06"
+  },
+  "_last_run": "2026-03-06"
+}
