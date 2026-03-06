@@ -1,0 +1,128 @@
+name: Fetch Papers with Code
+
+on:
+  schedule:
+    - cron: "20 13 * * *"
+  workflow_dispatch:
+
+jobs:
+  fetch-pwc:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Fetch Papers with Code
+        run: |
+          node --input-type=module << 'SCRIPT'
+          import fs from 'fs';
+
+          const delay = (ms) => new Promise(r => setTimeout(r, ms));
+
+          const RELEVANT_TASKS = [
+            'text-generation', 'image-generation', 'video-generation',
+            'object-detection', 'question-answering', 'summarization',
+            'text-to-image', 'image-to-text', 'text-to-video',
+            'language-modelling', 'code-generation', 'sentiment-analysis',
+            'named-entity-recognition', 'machine-translation'
+          ];
+
+          async function fetchPapers() {
+            const papers = [];
+            try {
+              const res = await fetch(
+                'https://paperswithcode.com/api/v1/papers/?ordering=-proceeding&items_per_page=50'
+              );
+              if (!res.ok) {
+                console.error(`PwC papers API error: ${res.status}`);
+                return [];
+              }
+              const data = await res.json();
+              papers.push(...(data.results || []));
+            } catch (e) {
+              console.error('PwC papers fetch error:', e.message);
+            }
+            return papers;
+          }
+
+          async function getRepos(paperId) {
+            try {
+              await delay(1000);
+              const res = await fetch(
+                `https://paperswithcode.com/api/v1/papers/${paperId}/repositories/`
+              );
+              if (!res.ok) return [];
+              const data = await res.json();
+              return data.results || data || [];
+            } catch (e) {
+              return [];
+            }
+          }
+
+          (async () => {
+            const rawPapers = await fetchPapers();
+            console.log(`Fetched ${rawPapers.length} papers from PwC`);
+
+            const results = [];
+            for (const paper of rawPapers) {
+              const repos = await getRepos(paper.id);
+              const bestRepo = repos
+                .filter(r => r.url && r.url.includes('github.com'))
+                .sort((a, b) => (b.stars || 0) - (a.stars || 0))[0];
+
+              if (!bestRepo || (bestRepo.stars || 0) < 50) continue;
+
+              const tasks = (paper.tasks || []).map(t =>
+                typeof t === 'string' ? t : (t.name || t.slug || '')
+              ).map(t => t.toLowerCase());
+
+              const isRelevant = tasks.length === 0 ||
+                tasks.some(t => RELEVANT_TASKS.some(rt => t.includes(rt)));
+              if (!isRelevant) continue;
+
+              results.push({
+                id: paper.id,
+                title: paper.title,
+                url: paper.url_abs || `https://paperswithcode.com/paper/${paper.id}`,
+                abstract: (paper.abstract || '').slice(0, 300),
+                github_url: bestRepo.url,
+                github_stars: bestRepo.stars || 0,
+                published: paper.published,
+                tasks,
+                _source: 'paperswithcode',
+                _platform: 'paperswithcode'
+              });
+
+              if (results.length >= 20) break;
+            }
+
+            const date = new Date().toISOString().slice(0, 10);
+            const payload = {
+              generated_at: new Date().toISOString(),
+              source: 'paperswithcode',
+              counts: { papers: results.length },
+              papers: results
+            };
+
+            if (!fs.existsSync('data')) fs.mkdirSync('data', { recursive: true });
+            fs.writeFileSync(`data/paperswithcode-${date}.json`, JSON.stringify(payload, null, 2));
+            console.log(`Wrote ${results.length} papers with linked repos`);
+          })().catch(err => { console.error(err); process.exit(1); });
+          SCRIPT
+
+      - name: Commit and push
+        run: |
+          date=$(date -u +"%Y-%m-%d")
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/
+          git diff --cached --quiet && echo "No changes" && exit 0
+          git commit -m "Add Papers with Code snapshot for ${date}"
+          git push

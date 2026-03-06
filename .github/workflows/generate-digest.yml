@@ -1,15 +1,13 @@
 name: Generate daily digest
 
 on:
-  workflow_run:
-    workflows: ["Fetch GitHub repos for digest"]
-    types: [completed]
+  schedule:
+    - cron: "0 14 * * *"
   workflow_dispatch:
 
 jobs:
   generate:
     runs-on: ubuntu-latest
-    if: ${{ github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success' }}
     permissions:
       contents: write
     steps:
@@ -34,12 +32,58 @@ jobs:
             return `${n}★`;
           }
 
+          function formatDownloads(n) {
+            if (n >= 1000000) return `${(n / 1000000).toFixed(1)}M`;
+            if (n >= 1000) return `${(n / 1000).toFixed(0)}K`;
+            return `${n}`;
+          }
+
           function monthsAgo(dateStr, months) {
-            if (!dateStr) return true; // no date = skip recency check
+            if (!dateStr) return true;
             const d = new Date(dateStr);
             const cutoff = new Date();
             cutoff.setMonth(cutoff.getMonth() - months);
             return d >= cutoff;
+          }
+
+          function loadLatestDataFile(prefix) {
+            try {
+              const files = fs.readdirSync('data')
+                .filter(f => f.match(new RegExp(`^${prefix}-\\d{4}-\\d{2}-\\d{2}\\.json$`)))
+                .sort()
+                .reverse();
+              if (files.length > 0) {
+                const data = JSON.parse(fs.readFileSync(`data/${files[0]}`, 'utf8'));
+                console.log(`Loaded ${prefix} data from ${files[0]}`);
+                return data;
+              }
+            } catch (e) {
+              console.log(`No ${prefix} data available`);
+            }
+            return null;
+          }
+
+          function loadSeenLedger(filename) {
+            try {
+              return JSON.parse(fs.readFileSync(`data/${filename}`, 'utf8'));
+            } catch (e) {
+              return { featured: {} };
+            }
+          }
+
+          function isOnCooldown(seenLedger, id, today, cooldownDays) {
+            const entry = seenLedger.featured[id];
+            if (!entry) return false;
+            const lastDate = new Date(entry.last_featured);
+            const diff = (today - lastDate) / (1000 * 60 * 60 * 24);
+            return diff < cooldownDays;
+          }
+
+          function markSeen(seenLedger, id, digestDate) {
+            const entry = seenLedger.featured[id] || { times_featured: 0 };
+            entry.last_featured = digestDate;
+            entry.times_featured = (entry.times_featured || 0) + 1;
+            seenLedger.featured[id] = entry;
           }
 
           // ── Category assignment ────────────────────────────
@@ -65,7 +109,7 @@ jobs:
               return 'Marketing, sales and GTM tools';
             if (all.match(/template|boilerplate|starter|scaffold|ui.component|design.system/))
               return 'SaaS starters and templates';
-            return null; // doesn't fit cleanly
+            return null;
           }
 
           // ── Gemini API editorial blurbs ────────────────────
@@ -76,7 +120,6 @@ jobs:
               return null;
             }
 
-            // Build the prompt with all repos grouped by section
             let repoList = '';
             for (const [section, items] of Object.entries(sections)) {
               if (items.length === 0) continue;
@@ -94,7 +137,7 @@ jobs:
               '',
               'Your voice: casual, dry humor, opinionated. You are a fellow builder who has seen a lot of repos and knows what matters. Think "the friend who texts you hey check this out with actually good stuff." Be concise - each blurb is ONE sentence, max two. No fluff, no hype words like "revolutionary" or "game-changing." Say what it actually does and why someone building a product would care.',
               '',
-              'Here are the repos grouped by section. Write a blurb for each one. Return ONLY a JSON object mapping full_name to blurb string. No markdown, no explanation.',
+              'Here are the items grouped by section. Write a blurb for each one. Return ONLY a JSON object mapping the item identifier to blurb string. No markdown, no explanation.',
               '',
               repoList,
               '',
@@ -125,7 +168,7 @@ jobs:
                   const body = await res.text();
                   console.error(`Gemini API error (${model}): ${res.status} ${res.statusText}`);
                   console.error(body);
-                  if (res.status === 404) continue; // model not available, try next
+                  if (res.status === 404) continue;
                   return null;
                 }
 
@@ -153,7 +196,7 @@ jobs:
 
           // ── Main ───────────────────────────────────────────
           (async () => {
-          // Find latest data file
+          // Find latest GitHub repos data file
           const dataFiles = fs.readdirSync('data')
             .filter(f => f.match(/^repos-\d{4}-\d{2}-\d{2}\.json$/))
             .sort()
@@ -168,7 +211,6 @@ jobs:
           const dateMatch = dataFiles[0].match(/repos-(\d{4}-\d{2}-\d{2})\.json/);
           const digestDate = dateMatch[1];
 
-          // Check if digest already exists
           const postPath = `_posts/${digestDate}-github-digest.md`;
           if (fs.existsSync(postPath)) {
             console.log(`Digest for ${digestDate} already exists. Skipping.`);
@@ -178,13 +220,16 @@ jobs:
           const data = JSON.parse(fs.readFileSync(latestFile, 'utf8'));
           const prefs = JSON.parse(fs.readFileSync('config/preferences.json', 'utf8'));
 
-          // Load seen.json
-          let seen = { featured: {} };
-          try {
-            seen = JSON.parse(fs.readFileSync('data/seen.json', 'utf8'));
-          } catch (e) { /* fresh start */ }
+          // ── Load all seen ledgers ───────────────────────────
+          const seen = loadSeenLedger('seen.json');
+          const seenHf = loadSeenLedger('seen-hf.json');
+          const seenReplicate = loadSeenLedger('seen-replicate.json');
+          const seenPwc = loadSeenLedger('seen-paperswithcode.json');
+          const seenNpmPypi = loadSeenLedger('seen-npm-pypi.json');
+          const seenGitlab = loadSeenLedger('seen-gitlab.json');
+          const seenOllama = loadSeenLedger('seen-ollama.json');
+          const seenLaunches = loadSeenLedger('seen-launches.json');
 
-          // Load spotlight
           let spotlight = { repos: [] };
           try {
             spotlight = JSON.parse(fs.readFileSync('config/spotlight.json', 'utf8'));
@@ -192,45 +237,34 @@ jobs:
 
           const today = new Date(digestDate);
 
-          // ── Load HuggingFace data ─────────────────────────
-          let hfData = { spaces: [], models: [], datasets: [] };
-          try {
-            const hfFiles = fs.readdirSync('data')
-              .filter(f => f.match(/^hf-\d{4}-\d{2}-\d{2}\.json$/))
-              .sort()
-              .reverse();
-            if (hfFiles.length > 0) {
-              hfData = JSON.parse(fs.readFileSync(`data/${hfFiles[0]}`, 'utf8'));
-              console.log(`Loaded HuggingFace data from ${hfFiles[0]}`);
+          // ── Load all platform data ──────────────────────────
+          const hfData = loadLatestDataFile('hf') || { spaces: [], models: [], datasets: [] };
+          const replicateData = loadLatestDataFile('replicate') || { models: [] };
+          const pwcData = loadLatestDataFile('paperswithcode') || { papers: [] };
+          const npmPypiData = loadLatestDataFile('npm-pypi') || { npm: [], pypi: [] };
+          const gitlabData = loadLatestDataFile('gitlab') || { repos: [] };
+          const ollamaData = loadLatestDataFile('ollama') || { models: [] };
+          const launchesData = loadLatestDataFile('launches') || { launches: [] };
+
+          // ── Health check ────────────────────────────────────
+          const health = {
+            date: digestDate,
+            sources: {
+              github: { loaded: data.repos?.length || 0 },
+              huggingface: { loaded: (hfData.spaces?.length || 0) + (hfData.models?.length || 0) + (hfData.datasets?.length || 0) },
+              replicate: { loaded: replicateData.models?.length || 0 },
+              paperswithcode: { loaded: pwcData.papers?.length || 0 },
+              npm: { loaded: npmPypiData.npm?.length || 0 },
+              pypi: { loaded: npmPypiData.pypi?.length || 0 },
+              gitlab: { loaded: gitlabData.repos?.length || 0 },
+              ollama: { loaded: ollamaData.models?.length || 0 },
+              launches: { loaded: launchesData.launches?.length || 0 }
             }
-          } catch (e) {
-            console.log('No HuggingFace data available');
-          }
+          };
 
-          let seenHf = { featured: {} };
-          try {
-            seenHf = JSON.parse(fs.readFileSync('data/seen-hf.json', 'utf8'));
-          } catch (e) { /* fresh start */ }
-
-          function isHfOnCooldown(id) {
-            const entry = seenHf.featured[id];
-            if (!entry) return false;
-            const lastDate = new Date(entry.last_featured);
-            const diff = (today - lastDate) / (1000 * 60 * 60 * 24);
-            return diff < prefs.cooldown_days;
-          }
-
-          // ── Filter ─────────────────────────────────────────
-          function isOnCooldown(fullName) {
-            const entry = seen.featured[fullName];
-            if (!entry) return false;
-            const lastDate = new Date(entry.last_featured);
-            const diff = (today - lastDate) / (1000 * 60 * 60 * 24);
-            return diff < prefs.cooldown_days;
-          }
-
+          // ── Filter GitHub repos ─────────────────────────────
           const candidates = data.repos.filter(r => {
-            if (isOnCooldown(r.full_name)) return false;
+            if (isOnCooldown(seen, r.full_name, today, prefs.cooldown_days)) return false;
             const minStars = r._source === 'trending'
               ? prefs.min_stars_trending
               : prefs.min_stars;
@@ -239,9 +273,8 @@ jobs:
             return true;
           });
 
-          // Add spotlight repos
           for (const sr of spotlight.repos) {
-            if (!isOnCooldown(sr.full_name)) {
+            if (!isOnCooldown(seen, sr.full_name, today, prefs.cooldown_days)) {
               candidates.push({
                 ...sr,
                 stargazers_count: sr.stargazers_count || 0,
@@ -258,7 +291,7 @@ jobs:
             process.exit(0);
           }
 
-          // ── Categorize ─────────────────────────────────────
+          // ── Categorize GitHub repos ─────────────────────────
           const sections = {
             'SaaS starters and templates': [],
             'AI agents, LLM infra and RAG': [],
@@ -282,13 +315,11 @@ jobs:
             }
           }
 
-          // Sort each section by stars desc, cap at max_repos_per_section
           for (const key of Object.keys(sections)) {
             sections[key].sort((a, b) => b.stargazers_count - a.stargazers_count);
             sections[key] = sections[key].slice(0, prefs.max_repos_per_section);
           }
 
-          // Filter out perennial mega-repos from trending
           const TWO_YEARS_MS = 2 * 365 * 24 * 60 * 60 * 1000;
           const trendingFiltered = trendingPool.filter(r => {
             if (r.stargazers_count > 80000) {
@@ -301,7 +332,6 @@ jobs:
             return true;
           });
 
-          // Handle trending: pick top N, feature top 3, brief-mention rest
           trendingFiltered.sort((a, b) => b.stargazers_count - a.stargazers_count);
           const trendingCandidates = trendingFiltered.slice(0, prefs.max_trending_candidates);
           const trendingFeatured = trendingCandidates.slice(0, prefs.max_trending_featured);
@@ -310,7 +340,6 @@ jobs:
             prefs.max_trending_featured + prefs.max_trending_also
           );
 
-          // Try to slot featured trending into best-fit sections
           const trendingOddballs = [];
           for (const r of trendingFeatured) {
             const cat = assignCategory(r);
@@ -321,7 +350,7 @@ jobs:
             }
           }
 
-          // ── Trim to global max ────────────────────────────
+          // ── Trim to global max ──────────────────────────────
           let totalPicks = trendingOddballs.length + trendingAlso.length;
           for (const key of Object.keys(sections)) {
             totalPicks += sections[key].length;
@@ -341,29 +370,82 @@ jobs:
             totalPicks--;
           }
 
-          // ── Filter HuggingFace items ──────────────────────
+          // ── Filter HuggingFace items ────────────────────────
           const hfSpaces = (hfData.spaces || [])
-            .filter(s => !isHfOnCooldown(s.id) && s.likes >= 10)
+            .filter(s => !isOnCooldown(seenHf, s.id, today, prefs.cooldown_days) && s.likes >= 10)
             .sort((a, b) => b.likes - a.likes)
-            .slice(0, 5);
+            .slice(0, prefs.max_hf_spaces);
 
           const hfModels = (hfData.models || [])
-            .filter(m => !isHfOnCooldown(m.id) && m.downloads >= 1000)
+            .filter(m => !isOnCooldown(seenHf, m.id, today, prefs.cooldown_days) && m.downloads >= 1000)
             .sort((a, b) => b.downloads - a.downloads)
-            .slice(0, 5);
+            .slice(0, prefs.max_hf_models);
 
           const hfDatasets = (hfData.datasets || [])
-            .filter(d => !isHfOnCooldown(d.id) && d.downloads >= 500)
+            .filter(d => !isOnCooldown(seenHf, d.id, today, prefs.cooldown_days) && d.downloads >= 500)
             .sort((a, b) => b.downloads - a.downloads)
-            .slice(0, 3);
+            .slice(0, prefs.max_hf_datasets);
 
           console.log(`HuggingFace: ${hfSpaces.length} spaces, ${hfModels.length} models, ${hfDatasets.length} datasets`);
 
-          // ── Generate Gemini editorial blurbs ─────────────────
+          // ── Filter Replicate models ─────────────────────────
+          const replicateModels = (replicateData.models || [])
+            .filter(m => !isOnCooldown(seenReplicate, m.id, today, prefs.cooldown_days))
+            .sort((a, b) => (b.run_count || 0) - (a.run_count || 0))
+            .slice(0, prefs.max_replicate_models);
+          console.log(`Replicate: ${replicateModels.length} models`);
+
+          // ── Filter Papers with Code ─────────────────────────
+          const papers = (pwcData.papers || [])
+            .filter(p => !isOnCooldown(seenPwc, p.id, today, prefs.cooldown_days))
+            .sort((a, b) => (b.github_stars || 0) - (a.github_stars || 0))
+            .slice(0, prefs.max_papers);
+          console.log(`Papers with Code: ${papers.length} papers`);
+
+          // ── Filter npm packages ─────────────────────────────
+          const npmPkgs = (npmPypiData.npm || [])
+            .filter(p => !isOnCooldown(seenNpmPypi, `npm-${p.id}`, today, prefs.cooldown_days))
+            .sort((a, b) => (b.weekly_downloads || 0) - (a.weekly_downloads || 0))
+            .slice(0, prefs.max_npm);
+          console.log(`npm: ${npmPkgs.length} packages`);
+
+          // ── Filter PyPI packages ────────────────────────────
+          const pypiPkgs = (npmPypiData.pypi || [])
+            .filter(p => !isOnCooldown(seenNpmPypi, `pypi-${p.id}`, today, prefs.cooldown_days))
+            .sort((a, b) => (b.recent_downloads || 0) - (a.recent_downloads || 0))
+            .slice(0, prefs.max_pypi);
+          console.log(`PyPI: ${pypiPkgs.length} packages`);
+
+          // ── Filter GitLab repos ─────────────────────────────
+          const gitlabRepos = (gitlabData.repos || [])
+            .filter(r => !isOnCooldown(seenGitlab, r.id, today, prefs.cooldown_days))
+            .sort((a, b) => (b.star_count || 0) - (a.star_count || 0))
+            .slice(0, prefs.max_gitlab);
+          console.log(`GitLab: ${gitlabRepos.length} repos`);
+
+          // ── Filter Ollama models ────────────────────────────
+          const ollamaModels = (ollamaData.models || [])
+            .filter(m => !isOnCooldown(seenOllama, m.id, today, prefs.cooldown_days))
+            .sort((a, b) => {
+              const pa = (a.pull_count || '').replace(/[+,]/g, '');
+              const pb = (b.pull_count || '').replace(/[+,]/g, '');
+              return (parseFloat(pb) || 0) - (parseFloat(pa) || 0);
+            })
+            .slice(0, prefs.max_ollama);
+          console.log(`Ollama: ${ollamaModels.length} models`);
+
+          // ── Filter Launches ─────────────────────────────────
+          const launches = (launchesData.launches || [])
+            .filter(l => !isOnCooldown(seenLaunches, l.id, today, prefs.cooldown_days))
+            .sort((a, b) => (b.upvotes || 0) - (a.upvotes || 0))
+            .slice(0, prefs.max_launches);
+          console.log(`Launches: ${launches.length} items`);
+
+          // ── Generate Gemini editorial blurbs ────────────────
           const allSectioned = { ...sections };
           if (trendingOddballs.length > 0) allSectioned['Trending oddballs'] = trendingOddballs;
           if (trendingAlso.length > 0) allSectioned['Also trending'] = trendingAlso;
-          // Include HF items for blurb generation
+
           if (hfSpaces.length > 0) allSectioned['HuggingFace Spaces'] = hfSpaces.map(s => ({
             full_name: s.id, description: s.description, language: s.sdk || 'Space',
             stargazers_count: s.likes, topics: s.tags
@@ -376,13 +458,50 @@ jobs:
             full_name: d.id, description: d.description, language: 'Dataset',
             stargazers_count: d.downloads, topics: d.tags
           }));
+
+          if (replicateModels.length > 0) allSectioned['Replicate Models'] = replicateModels.map(m => ({
+            full_name: m.id, description: m.description, language: 'Model',
+            stargazers_count: m.run_count || 0, topics: []
+          }));
+          if (papers.length > 0) allSectioned['Papers to Code'] = papers.map(p => ({
+            full_name: p.id, description: p.title + ': ' + (p.abstract || '').slice(0, 100),
+            language: 'Paper', stargazers_count: p.github_stars || 0, topics: p.tasks || []
+          }));
+          if (npmPkgs.length > 0) allSectioned['npm Packages'] = npmPkgs.map(p => ({
+            full_name: p.id, description: p.description, language: 'JavaScript',
+            stargazers_count: p.weekly_downloads || 0, topics: p.keywords || []
+          }));
+          if (pypiPkgs.length > 0) allSectioned['PyPI Packages'] = pypiPkgs.map(p => ({
+            full_name: p.id, description: p.description, language: 'Python',
+            stargazers_count: p.recent_downloads || 0, topics: p.keywords || []
+          }));
+          if (gitlabRepos.length > 0) allSectioned['GitLab Repos'] = gitlabRepos.map(r => ({
+            full_name: r.full_name, description: r.description, language: r.language || 'Multi',
+            stargazers_count: r.star_count || 0, topics: r.topics || []
+          }));
+          if (ollamaModels.length > 0) allSectioned['Ollama Models'] = ollamaModels.map(m => ({
+            full_name: m.id, description: m.description, language: 'Model',
+            stargazers_count: 0, topics: m.tags || []
+          }));
+          if (launches.length > 0) allSectioned['New Launches'] = launches.map(l => ({
+            full_name: l.id, description: l.description || l.name,
+            language: l._source, stargazers_count: l.upvotes || 0, topics: []
+          }));
+
           const blurbs = await generateEditorialBlurbs(candidates, allSectioned);
 
-          // ── Build Markdown ─────────────────────────────────
+          // ── Build Markdown ──────────────────────────────────
           const sep = '---';
           const hfCount = hfSpaces.length + hfModels.length + hfDatasets.length;
-          const hfNote = hfCount > 0 ? ` Plus ${hfCount} HuggingFace picks.` : '';
-          let md = `${sep}\nlayout: post\ntitle: "Daily Digest – ${digestDate}"\ndate: ${digestDate}\ntags: [github, huggingface, digest, ai, saas, solopreneur, ugc]\n${sep}\n\nDaily curated repos for solo founders, AI/B2B SaaS builders, and small business tools. ${candidates.length} repos evaluated, ${totalPicks} made the cut.${hfNote}\n\n`;
+          const platformCount = replicateModels.length + papers.length + npmPkgs.length +
+            pypiPkgs.length + gitlabRepos.length + ollamaModels.length + launches.length;
+          const extraNote = (hfCount + platformCount) > 0
+            ? ` Plus ${hfCount + platformCount} picks from HuggingFace, Replicate, Papers with Code, npm, PyPI, GitLab, Ollama, and launch platforms.`
+            : '';
+
+          const allTags = ['github', 'huggingface', 'replicate', 'paperswithcode', 'npm', 'pypi', 'gitlab', 'ollama', 'launches', 'digest', 'ai', 'saas', 'solopreneur', 'ugc'];
+
+          let md = `${sep}\nlayout: post\ntitle: "Daily Digest – ${digestDate}"\ndate: ${digestDate}\ntags: [${allTags.join(', ')}]\n${sep}\n\nDaily curated repos and tools for solo founders, AI/B2B SaaS builders, and small business tools. ${candidates.length} repos evaluated, ${totalPicks} made the cut.${extraNote}\n\n`;
 
           const sectionOrder = [
             'SaaS starters and templates',
@@ -424,14 +543,76 @@ jobs:
             md += '\n';
           }
 
-          // ── HuggingFace sections ──────────────────────────
-          const hfFeatured = [];
-
-          function formatDownloads(n) {
-            if (n >= 1000000) return `${(n / 1000000).toFixed(1)}M`;
-            if (n >= 1000) return `${(n / 1000).toFixed(0)}K`;
-            return `${n}`;
+          // ── GitLab Repos section ────────────────────────────
+          const gitlabFeatured = [];
+          if (gitlabRepos.length > 0) {
+            md += `## GitLab Repos\n\n`;
+            for (const r of gitlabRepos) {
+              const blurb = (blurbs && blurbs[r.full_name]) ? blurbs[r.full_name] : (r.description || r.full_name);
+              md += `- [${r.full_name}](${r.url}) – ${blurb} (${r.language || 'Multi'}, ${formatStars(r.star_count || 0)})\n\n`;
+              gitlabFeatured.push(r.id);
+            }
           }
+
+          // ── Papers to Code section ──────────────────────────
+          const papersFeatured = [];
+          if (papers.length > 0) {
+            md += `## Papers to Code\n\n`;
+            for (const p of papers) {
+              const blurb = (blurbs && blurbs[p.id]) ? blurbs[p.id] : (p.title || p.id);
+              md += `- [${p.title}](${p.url}) – ${blurb} ([code](${p.github_url}), ${formatStars(p.github_stars || 0)})\n\n`;
+              papersFeatured.push(p.id);
+            }
+          }
+
+          // ── Replicate Models section ────────────────────────
+          const replicateFeatured = [];
+          if (replicateModels.length > 0) {
+            md += `## Replicate Models\n\n`;
+            for (const m of replicateModels) {
+              const blurb = (blurbs && blurbs[m.id]) ? blurbs[m.id] : (m.description || m.id);
+              const runs = m.run_count ? `${formatDownloads(m.run_count)} runs` : '';
+              md += `- [${m.id}](${m.url}) – ${blurb}${runs ? ` (${runs})` : ''}\n\n`;
+              replicateFeatured.push(m.id);
+            }
+          }
+
+          // ── Ollama Models section ───────────────────────────
+          const ollamaFeatured = [];
+          if (ollamaModels.length > 0) {
+            md += `## Ollama Models\n\n`;
+            for (const m of ollamaModels) {
+              const blurb = (blurbs && blurbs[m.id]) ? blurbs[m.id] : (m.description || m.id);
+              const pulls = m.pull_count ? `${m.pull_count} pulls` : '';
+              md += `- [${m.id}](${m.url}) – ${blurb}${pulls ? ` (${pulls})` : ''}\n\n`;
+              ollamaFeatured.push(m.id);
+            }
+          }
+
+          // ── npm Packages section ────────────────────────────
+          const npmFeatured = [];
+          if (npmPkgs.length > 0) {
+            md += `## npm Packages\n\n`;
+            for (const p of npmPkgs) {
+              const blurb = (blurbs && blurbs[p.id]) ? blurbs[p.id] : (p.description || p.id);
+              md += `- [${p.id}](${p.url}) – ${blurb} (${formatDownloads(p.weekly_downloads || 0)}/wk)\n\n`;
+              npmFeatured.push(`npm-${p.id}`);
+            }
+          }
+
+          // ── PyPI Packages section ───────────────────────────
+          const pypiFeatured = [];
+          if (pypiPkgs.length > 0) {
+            md += `## PyPI Packages\n\n`;
+            for (const p of pypiPkgs) {
+              const blurb = (blurbs && blurbs[p.id]) ? blurbs[p.id] : (p.description || p.id);
+              md += `- [${p.id}](${p.url}) – ${blurb} (${formatDownloads(p.recent_downloads || 0)} recent downloads)\n\n`;
+              pypiFeatured.push(`pypi-${p.id}`);
+            }
+          }
+
+          // ── HuggingFace sections ────────────────────────────
+          const hfFeatured = [];
 
           if (hfSpaces.length > 0) {
             md += `## HuggingFace Spaces\n\n`;
@@ -460,30 +641,50 @@ jobs:
             }
           }
 
-          // ── Write post ─────────────────────────────────────
+          // ── New Launches section ────────────────────────────
+          const launchesFeatured = [];
+          if (launches.length > 0) {
+            md += `## New Launches\n\n`;
+            for (const l of launches) {
+              const blurb = (blurbs && blurbs[l.id]) ? blurbs[l.id] : (l.description || l.name);
+              const votes = l.upvotes ? ` (${l.upvotes} upvotes)` : '';
+              const src = l._source ? ` [${l._source}]` : '';
+              md += `- [${l.name}](${l.url}) – ${blurb}${votes}${src}\n\n`;
+              launchesFeatured.push(l.id);
+            }
+          }
+
+          // ── Write post ──────────────────────────────────────
           if (!fs.existsSync('_posts')) fs.mkdirSync('_posts', { recursive: true });
           fs.writeFileSync(postPath, md);
-          console.log(`Created ${postPath} with ${featured.length} repos + ${hfFeatured.length} HF items`);
+          console.log(`Created ${postPath} with ${featured.length} repos + ${hfFeatured.length} HF + ${platformCount} platform items`);
 
-          // ── Update seen.json ───────────────────────────────
-          for (const name of featured) {
-            const entry = seen.featured[name] || { times_featured: 0 };
-            entry.last_featured = digestDate;
-            entry.times_featured = (entry.times_featured || 0) + 1;
-            seen.featured[name] = entry;
-          }
+          // ── Update all seen ledgers ─────────────────────────
+          for (const name of featured) { markSeen(seen, name, digestDate); }
           fs.writeFileSync('data/seen.json', JSON.stringify(seen, null, 2));
 
-          // ── Update seen-hf.json ─────────────────────────────
-          for (const id of hfFeatured) {
-            const entry = seenHf.featured[id] || { times_featured: 0 };
-            entry.last_featured = digestDate;
-            entry.times_featured = (entry.times_featured || 0) + 1;
-            seenHf.featured[id] = entry;
-          }
+          for (const id of hfFeatured) { markSeen(seenHf, id, digestDate); }
           fs.writeFileSync('data/seen-hf.json', JSON.stringify(seenHf, null, 2));
 
-          // ── Clean spotlight ────────────────────────────────
+          for (const id of replicateFeatured) { markSeen(seenReplicate, id, digestDate); }
+          fs.writeFileSync('data/seen-replicate.json', JSON.stringify(seenReplicate, null, 2));
+
+          for (const id of papersFeatured) { markSeen(seenPwc, id, digestDate); }
+          fs.writeFileSync('data/seen-paperswithcode.json', JSON.stringify(seenPwc, null, 2));
+
+          for (const id of [...npmFeatured, ...pypiFeatured]) { markSeen(seenNpmPypi, id, digestDate); }
+          fs.writeFileSync('data/seen-npm-pypi.json', JSON.stringify(seenNpmPypi, null, 2));
+
+          for (const id of gitlabFeatured) { markSeen(seenGitlab, id, digestDate); }
+          fs.writeFileSync('data/seen-gitlab.json', JSON.stringify(seenGitlab, null, 2));
+
+          for (const id of ollamaFeatured) { markSeen(seenOllama, id, digestDate); }
+          fs.writeFileSync('data/seen-ollama.json', JSON.stringify(seenOllama, null, 2));
+
+          for (const id of launchesFeatured) { markSeen(seenLaunches, id, digestDate); }
+          fs.writeFileSync('data/seen-launches.json', JSON.stringify(seenLaunches, null, 2));
+
+          // ── Clean spotlight ──────────────────────────────────
           if (spotlight.repos.length > 0) {
             spotlight.repos = spotlight.repos.filter(
               sr => !featured.includes(sr.full_name)
@@ -494,7 +695,25 @@ jobs:
             );
           }
 
-          console.log(`Updated seen.json (${Object.keys(seen.featured).length} total)`);
+          // ── Write health check ──────────────────────────────
+          health.sources.github.featured = featured.length;
+          health.sources.huggingface.featured = hfFeatured.length;
+          health.sources.replicate.featured = replicateFeatured.length;
+          health.sources.paperswithcode.featured = papersFeatured.length;
+          health.sources.npm.featured = npmFeatured.length;
+          health.sources.pypi.featured = pypiFeatured.length;
+          health.sources.gitlab.featured = gitlabFeatured.length;
+          health.sources.ollama.featured = ollamaFeatured.length;
+          health.sources.launches.featured = launchesFeatured.length;
+          health.total_featured = featured.length + hfFeatured.length + replicateFeatured.length +
+            papersFeatured.length + npmFeatured.length + pypiFeatured.length +
+            gitlabFeatured.length + ollamaFeatured.length + launchesFeatured.length;
+          health.gemini_blurbs = blurbs ? Object.keys(blurbs).length : 0;
+
+          fs.writeFileSync(`data/health-${digestDate}.json`, JSON.stringify(health, null, 2));
+          console.log(`Health check: ${JSON.stringify(health.sources)}`);
+
+          console.log(`Updated seen ledgers. Total entries: GH=${Object.keys(seen.featured).length} HF=${Object.keys(seenHf.featured).length} Replicate=${Object.keys(seenReplicate.featured).length} PwC=${Object.keys(seenPwc.featured).length} npm/PyPI=${Object.keys(seenNpmPypi.featured).length} GitLab=${Object.keys(seenGitlab.featured).length} Ollama=${Object.keys(seenOllama.featured).length} Launches=${Object.keys(seenLaunches.featured).length}`);
           })().catch(err => {
             console.error(err);
             process.exit(1);
@@ -506,7 +725,7 @@ jobs:
           date=$(date -u +"%Y-%m-%d")
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add _posts/ data/seen.json data/seen-hf.json config/spotlight.json
+          git add _posts/ data/seen*.json data/health-*.json config/spotlight.json
           git diff --cached --quiet && echo "No new digest" && exit 0
           git commit -m "Add digest for ${date}"
           git push

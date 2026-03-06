@@ -1,0 +1,105 @@
+name: Fetch Ollama models
+
+on:
+  schedule:
+    - cron: "35 13 * * *"
+  workflow_dispatch:
+
+jobs:
+  fetch-ollama:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install deps
+        run: npm install cheerio@1
+
+      - name: Fetch Ollama models
+        run: |
+          node --input-type=module << 'SCRIPT'
+          import fs from 'fs';
+          import { load } from 'cheerio';
+
+          const delay = (ms) => new Promise(r => setTimeout(r, ms));
+
+          async function fetchLibrary() {
+            const models = [];
+            try {
+              const res = await fetch('https://ollama.com/library', {
+                headers: { 'User-Agent': 'VaiBReport-digest/1.0' }
+              });
+              if (!res.ok) {
+                console.error(`Ollama library fetch failed: ${res.status}`);
+                return [];
+              }
+              const html = await res.text();
+              const $ = load(html);
+
+              $('li a[href^="/library/"]').each((_, el) => {
+                const href = $(el).attr('href') || '';
+                const name = href.replace('/library/', '').split('/')[0];
+                if (!name) return;
+
+                const desc = $(el).find('p').first().text().trim() || '';
+                const metaText = $(el).text();
+                const pullMatch = metaText.match(/([\d.]+[KMB]?\+?)\s*Pull/i);
+                const pullCount = pullMatch ? pullMatch[1] : '';
+                const tagEls = $(el).find('span');
+                const tags = [];
+                tagEls.each((_, t) => {
+                  const text = $(t).text().trim();
+                  if (text && text !== name && text.length < 30) tags.push(text);
+                });
+                const updateMatch = metaText.match(/Updated\s+(.+?)(?:\s|$)/i);
+                const updated = updateMatch ? updateMatch[1].trim() : '';
+
+                models.push({
+                  id: name,
+                  url: `https://ollama.com/library/${name}`,
+                  description: desc,
+                  pull_count: pullCount,
+                  tags: tags.slice(0, 10),
+                  updated,
+                  _source: 'ollama',
+                  _platform: 'ollama'
+                });
+              });
+            } catch (e) {
+              console.error('Ollama scrape error:', e.message);
+            }
+            return models;
+          }
+
+          (async () => {
+            const models = await fetchLibrary();
+            const date = new Date().toISOString().slice(0, 10);
+            const payload = {
+              generated_at: new Date().toISOString(),
+              source: 'ollama',
+              counts: { models: models.length },
+              models
+            };
+
+            if (!fs.existsSync('data')) fs.mkdirSync('data', { recursive: true });
+            fs.writeFileSync(`data/ollama-${date}.json`, JSON.stringify(payload, null, 2));
+            console.log(`Wrote ${models.length} Ollama models`);
+          })().catch(err => { console.error(err); process.exit(1); });
+          SCRIPT
+
+      - name: Commit and push
+        run: |
+          date=$(date -u +"%Y-%m-%d")
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/
+          git diff --cached --quiet && echo "No changes" && exit 0
+          git commit -m "Add Ollama snapshot for ${date}"
+          git push

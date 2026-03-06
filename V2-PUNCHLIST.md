@@ -179,71 +179,194 @@ Jekyll with the `minima` theme already includes `jekyll-feed`, so an RSS feed li
 
 ---
 
-### 10. Hugging Face as a Data Source
+### 10. Multi-Platform Data Sources
 
-Add Hugging Face model/space search alongside GitHub search and trending scrape. HF has relevant AI models, spaces, and datasets for the audience.
+Expand beyond GitHub to catalog tools, models, and products from multiple platforms. Each platform gets its own independent limits — GitHub doesn't eat into HuggingFace's budget and vice versa. The digest layout shifts to subcategorize by platform.
+
+#### 10a. Hugging Face (Priority: HIGH — API key available)
+
+Scope: Spaces, Models, AND Datasets. All three.
 
 **Implementation:**
-- Use the HF API (`huggingface_hub` Python library or their REST API) to search for trending models and spaces
-- Filter by relevance: text generation, image generation, video generation, embeddings, RAG-related
-- Tag results with `_source: "huggingface"` in the daily JSON
-- The digest generator would need a new section or integrate HF finds into "AI agents, LLM infra and RAG"
+- Use the HF API (REST: `https://huggingface.co/api/models`, `/api/spaces`, `/api/datasets`) with `HF_API_TOKEN` secret
+- Fetch trending/popular across all three types, filtered by relevance to the audience
+- Tag results with `_source: "huggingface"`, `_hf_type: "space|model|dataset"`
+- Different quality metrics per type: Spaces = likes + runs, Models = downloads + likes, Datasets = downloads
+- Apply same quality standards as GitHub (minimum thresholds, recency filters, dedup/cooldown) but tracked independently in a separate `data/seen-hf.json`
 
-**Considerations:**
-- HF items aren't GitHub repos — they need different metadata (model card, pipeline type, downloads vs. stars)
-- May want a separate "Models & Spaces" section in the digest
-- Start with HF Spaces (more product-like) before adding models (more research-oriented)
+**Digest layout — new sections:**
+```
+### HuggingFace Spaces
+(deployed apps/tools relevant to the audience)
+
+### HuggingFace Models
+(models solo founders and AI builders would actually use)
+
+### HuggingFace Datasets
+(training data, benchmarks, domain-specific datasets)
+```
+
+**Filtering approach:**
+- Spaces: filter to categories like "text-generation," "image-generation," "audio," "computer-vision" — skip research-only demos
+- Models: filter by pipeline type (text-generation, image-to-text, text-to-image, etc.) and min downloads
+- Datasets: filter by task type and min downloads, focus on practically useful (not academic benchmark-only)
+
+#### 10b. Uneed / OpenHunts (Priority: HIGH)
+
+**Why:** Curated product discovery for indie makers. More relevant to the solo founder audience than Product Hunt (less marketing noise, more genuine tools). Uneed gets 200K+ monthly visits; OpenHunts has 14.3% conversion rates.
+
+**Implementation:**
+- Scrape daily/trending feeds from both sites
+- Filter by tech/AI/SaaS categories
+- Tag with `_source: "uneed"` or `_source: "openhunts"`
+- Independent cooldown in `data/seen-launches.json`
+
+#### 10c. Papers with Code (Priority: HIGH)
+
+**Why:** Links academic papers to their open-source implementations. The "what's coming next in AI" signal. Filter to papers with working, starred GitHub repos to keep it practical, not academic.
+
+**Implementation:**
+- REST API: `https://paperswithcode.com/api/v1/papers/` and `/api/v1/repositories/`
+- Filter: papers with GitHub repos that have >50 stars, recent (last 6 months)
+- Focus on: text generation, image generation, video, agents, RAG, embeddings
+- Tag with `_source: "paperswithcode"`
+
+#### 10d. npm / PyPI Trending (Priority: HIGH)
+
+**Why:** Package adoption signals — "what libraries are people actually installing this week." Different angle from repo discovery. Surfaces tools at the moment they hit critical mass.
+
+**Implementation:**
+- npm: `https://api.npmjs.org/downloads/point/last-week/{package}` + registry search
+- PyPI: `https://pypistats.org/api/` for download stats + `https://pypi.org/search/`
+- Filter: weekly downloads spike, relevant categories (ai, saas, cli, automation)
+- Tag with `_source: "npm"` or `_source: "pypi"`
+
+#### 10e. DevHunt (Priority: HIGH)
+
+**Why:** Product Hunt specifically for developer tools. 50K+ GitHub-verified engineers. Exact audience overlap with VaiBReport readers. Higher signal-to-noise than PH.
+
+**Implementation:**
+- Scrape daily/trending feed from devhunt.org
+- All listings are dev tools by definition — light filtering needed
+- Tag with `_source: "devhunt"`
+
+#### 10f. Ollama Library (Priority: HIGH)
+
+**Why:** "What can I run on my laptop" — directly relevant to solo founders experimenting with local AI. The local-first AI movement is huge.
+
+**Implementation:**
+- Scrape `https://ollama.com/library` and `/search`
+- Track: model name, parameter count, quantization, pull count, last updated
+- Filter: recently updated, popular pulls, relevant model types
+- Tag with `_source: "ollama"`, different metadata schema (parameters, quant, pulls vs. stars)
+
+#### 10g. Replicate (Priority: HIGH)
+
+**Why:** "Deploy AI models via API without MLOps." Solo founders use Replicate to add AI features to their products. The trending models signal what people are actually building with.
+
+**Implementation:**
+- REST API: `https://api.replicate.com/v1/models` (requires API token)
+- Track: model name, run count, owner, description, cover image
+- Filter: trending/popular, recently created, relevant categories
+- Tag with `_source: "replicate"`
+
+#### 10h. GitLab Explore (Priority: HIGH)
+
+**Why:** Some significant projects live exclusively on GitLab (GNOME, KDE, Inkscape, etc.). Small effort for incremental repo coverage.
+
+**Implementation:**
+- GitLab REST API: `https://gitlab.com/api/v4/projects?order_by=stars&sort=desc`
+- Filter similarly to GitHub (stars, recency, topics)
+- Tag with `_source: "gitlab"`
+- Can piggyback on the existing GitHub fetch workflow
+
+#### 10i. Startup / Beta Launch Platforms (Priority: MEDIUM)
+
+Aggregate new product launches from multiple startup discovery sites. These surface tools at the earliest stage — before they hit GitHub trending or Product Hunt.
+
+**Platforms to scrape:**
+
+| Platform | What it is | Scale | Access |
+|----------|-----------|-------|--------|
+| **BetaList** | Pre-launch/beta products, curated | 387-1K visitors/listing, newsletter | RSS feed + scrape |
+| **BetaPage** | Any-stage products, lenient listing | 57-65K monthly, 40K+ products | Scrape |
+| **Launching Next** | Startup directory | 44K+ startups | Scrape |
+| **Microlaunch** | Month-long launch cycles | Newer, growing | Scrape |
+| **Peerlist Launchpad** | Weekly Monday launches | Community-driven | Scrape |
+| **Hacker News Show HN** | The OG launch venue | Massive reach | Firebase API (real-time) |
+| **Indie Hackers** | Community + product directory | Massive | Scrape |
+
+**Implementation:**
+- Unified scraper workflow (`fetch-launches.yml`) that hits all platforms
+- Normalize to common schema: product name, URL, description, category, upvotes/engagement, launch date
+- Tag each with `_source: "betalist"`, `_source: "hackernews_showhn"`, etc.
+- Independent cooldown in `data/seen-launches.json`
+- Hacker News Show HN gets special treatment: use the Firebase API (`https://hacker-news.firebaseio.com/v0/showstories.json`) for real-time data
+
+#### 10j. Product Hunt (Priority: MEDIUM — lower priority than above)
+
+**Why:** Still the biggest launch platform but more marketing-heavy. Good for catching mainstream tool launches.
+
+**Implementation:**
+- Product Hunt GraphQL API (requires API key from producthunt.com/v2/oauth/applications)
+- Fetch daily top posts, filter by tech/developer/AI categories
+- Quality filter: min upvotes threshold, skip obvious marketing-only launches
+- Tag with `_source: "producthunt"`
+
+#### 10k. Future Platforms (Priority: WATCH LIST)
+
+| Platform | What it adds | API? | Audience fit |
+|----------|-------------|------|-------------|
+| **Awesome Lists** | Meta-curation signals | GitHub diffs | "Just added to awesome-selfhosted" as social proof |
+| **Docker Hub** | Containerized self-hosted tools | Yes (REST) | Medium — overlaps with GitHub |
+| **Vercel Templates** | Next.js/React templates | Scrape | Medium — overlaps with SaaS starters |
 
 ---
 
 ### 11. Staggered Category Runs
 
-Instead of one big daily fetch that grabs everything, run category-specific fetches at different times throughout the day. This spreads API load and lets each category get its own freshness window.
+**Status: DEFERRED** — Only implement if rate limiting becomes a problem. Current single-batch approach handles 12 queries + trending scrape in under a minute with 2-second delays. GitHub's rate limit is 30 requests/minute for authenticated search, and we're well under that.
 
-**Proposed schedule (all ET):**
-- 7:00 AM — SaaS starters and templates
-- 8:00 AM — AI agents, LLM infra and RAG
-- 9:00 AM — Ops, analytics and automation
-- 10:00 AM — Marketing, sales and GTM tools
-- 11:00 AM — UGC, social media and creator tools
-- 12:00 PM — Trending scrape + digest generation
-
-**Why:** Each category runs with fresh rate-limit budget. If one fails, the others still succeed. Also allows category-specific scheduling (e.g., run UGC queries twice daily since that space moves fast).
-
-**Implementation:** Split `fetch-repos.yml` into multiple workflows or use a matrix strategy with scheduled cron entries. Each writes to the same daily JSON (append mode) or separate per-category JSONs that get merged before digest generation.
+If needed later: split `fetch-repos.yml` into multiple workflows or use a matrix strategy with scheduled cron entries spread across 7am–noon ET.
 
 ---
 
 ### 12. Enhanced Trending Detection
 
-The current Cheerio scraper captures whatever GitHub puts on the trending page, which sometimes includes massive established repos (build-your-own-x at 472K★) that aren't genuinely "trending today" in any meaningful sense.
+**Partially addressed in V1.5 patch** — mega-repo filter (>80K★ + >2 years old = skip) is now in generate-digest.yml.
 
-**Improvements:**
-- Filter trending results by repo age: if created more than 2 years ago AND has >100K stars, it's not "trending" in a useful sense — it's just popular
+**Remaining improvements:**
 - Track daily star velocity: store yesterday's star count, compare to today's, surface repos with the biggest percentage gains
-- Weight by recency of last push: a trending repo that was last pushed 6 months ago is less interesting than one pushed yesterday
+- Weight by recency of last push: a trending repo last pushed 6 months ago is less interesting than one pushed yesterday
 - Cross-reference with GitHub's "stars received today" data if available
 
 ---
 
-## Priority Order (Suggested)
+## Priority Order (Updated 2026-03-06, revised)
 
-The features above are listed by topic, not priority. Here's a suggested execution order based on impact and dependency:
+**Phase 1 — Quick wins (now):**
+- Item 9: RSS feed — DONE
+- Item 1: Claude API writeups (biggest quality impact, API key furnished)
+- Item 5: Hotness streak data collection (start accumulating data now)
 
-**Quick wins (do first):**
-- Item 9: RSS feed verification and promotion
-- Item 1: Claude API writeups (biggest quality impact, relatively simple)
-- Item 5: Hotness streak data collection (start accumulating data now, display later)
-
-**Core V2 features:**
-- Item 2: Running results page (individual repo entries)
-- Item 4: Sort/search/tagging (depends on item 2)
-- Item 6: Leaderboard (depends on item 5 data accumulation)
-- Item 3: Screenshots/previews (enhances items 2 and 6)
-
-**Platform evolution:**
-- Item 7: Owned platform migration (Phase 1: custom domain first)
-- Item 8: Email digest delivery
-- Item 10: Hugging Face data source
-- Item 11: Staggered category runs
+**Phase 2 — Multi-platform expansion + core V2 features:**
+- Item 10a: HuggingFace (Spaces + Models + Datasets) — API key available
+- Item 10b: Uneed / OpenHunts
+- Item 10c: Papers with Code
+- Item 10d: npm / PyPI trending
+- Item 10e: DevHunt
+- Item 10f: Ollama Library
+- Item 10g: Replicate
+- Item 10h: GitLab
+- Item 10i: Startup/beta launch platforms (BetaList, BetaPage, Launching Next, HN Show HN, Indie Hackers, etc.)
+- Item 2: Running results page — bento/card grid, individual entries
+- Item 4: Sort/search/tagging
+- Item 3: Screenshots/previews — Phase 1: OG images + AI-generated cards
 - Item 12: Enhanced trending detection
+
+**Phase 3-4 — Platform evolution:**
+- Item 6: Leaderboard (depends on hotness data accumulation)
+- Item 10j: Product Hunt
+- Item 7: Owned platform migration
+- Item 8: Email digest delivery
+- Item 11: Staggered runs (only if rate-limited)

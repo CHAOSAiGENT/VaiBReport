@@ -1,0 +1,179 @@
+name: Fetch npm and PyPI packages
+
+on:
+  schedule:
+    - cron: "25 13 * * *"
+  workflow_dispatch:
+
+jobs:
+  fetch-packages:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Fetch npm and PyPI packages
+        run: |
+          node --input-type=module << 'SCRIPT'
+          import fs from 'fs';
+
+          const delay = (ms) => new Promise(r => setTimeout(r, ms));
+
+          const SIX_MONTHS_AGO = new Date();
+          SIX_MONTHS_AGO.setMonth(SIX_MONTHS_AGO.getMonth() - 6);
+
+          // ── npm ─────────────────────────────────────────
+          async function fetchNpm() {
+            const keywords = ['ai', 'llm', 'agent', 'generative-ai', 'saas', 'cli', 'automation'];
+            const seen = new Set();
+            const results = [];
+
+            for (const kw of keywords) {
+              try {
+                const res = await fetch(
+                  `https://registry.npmjs.org/-/v1/search?text=keywords:${kw}&size=30&popularity=1.0`
+                );
+                if (!res.ok) {
+                  console.error(`npm search error (${kw}): ${res.status}`);
+                  continue;
+                }
+                const data = await res.json();
+                for (const obj of (data.objects || [])) {
+                  const pkg = obj.package;
+                  if (seen.has(pkg.name)) continue;
+                  seen.add(pkg.name);
+
+                  const modified = pkg.date ? new Date(pkg.date) : null;
+                  if (modified && modified < SIX_MONTHS_AGO) continue;
+
+                  results.push({
+                    id: pkg.name,
+                    url: `https://www.npmjs.com/package/${pkg.name}`,
+                    description: (pkg.description || '').slice(0, 200),
+                    weekly_downloads: 0,
+                    version: pkg.version || '',
+                    published: pkg.date || '',
+                    keywords: pkg.keywords || [],
+                    _source: 'npm',
+                    _platform: 'npm',
+                    _score: obj.score?.final || 0
+                  });
+                }
+              } catch (e) {
+                console.error(`npm fetch error (${kw}):`, e.message);
+              }
+              await delay(1000);
+            }
+
+            // Fetch download counts for top candidates (by score)
+            const top = results.sort((a, b) => b._score - a._score).slice(0, 50);
+            for (const pkg of top) {
+              try {
+                const res = await fetch(
+                  `https://api.npmjs.org/downloads/point/last-week/${pkg.id}`
+                );
+                if (res.ok) {
+                  const data = await res.json();
+                  pkg.weekly_downloads = data.downloads || 0;
+                }
+              } catch (e) { /* skip */ }
+              await delay(200);
+            }
+
+            return top
+              .filter(p => p.weekly_downloads >= 1000)
+              .sort((a, b) => b.weekly_downloads - a.weekly_downloads);
+          }
+
+          // ── PyPI ────────────────────────────────────────
+          async function fetchPypi() {
+            const packages = [
+              'langchain', 'openai', 'anthropic', 'transformers', 'diffusers',
+              'gradio', 'streamlit', 'fastapi', 'pydantic', 'instructor',
+              'crewai', 'autogen', 'llama-index', 'chromadb', 'pinecone-client',
+              'qdrant-client', 'weaviate-client', 'ollama', 'litellm', 'guidance',
+              'dspy-ai', 'marvin', 'lmql', 'outlines', 'vllm',
+              'sentence-transformers', 'tokenizers', 'datasets', 'accelerate',
+              'unstructured', 'docling', 'crawl4ai', 'firecrawl', 'playwright',
+              'replicate', 'together', 'groq', 'cohere', 'mistralai',
+              'smolagents', 'pocketgroq', 'agno', 'phidata', 'swarm'
+            ];
+            const results = [];
+
+            for (const name of packages) {
+              try {
+                const res = await fetch(`https://pypi.org/pypi/${name}/json`);
+                if (!res.ok) continue;
+                const data = await res.json();
+                const info = data.info;
+
+                results.push({
+                  id: info.name,
+                  url: info.project_url || `https://pypi.org/project/${info.name}/`,
+                  description: (info.summary || '').slice(0, 200),
+                  recent_downloads: 0,
+                  version: info.version || '',
+                  published: info.requires_dist ? '' : '',
+                  keywords: (info.keywords || '').split(/[,\s]+/).filter(Boolean).slice(0, 10),
+                  _source: 'pypi',
+                  _platform: 'pypi'
+                });
+              } catch (e) { /* skip */ }
+              await delay(300);
+            }
+
+            // Fetch download stats
+            for (const pkg of results) {
+              try {
+                const res = await fetch(
+                  `https://pypistats.org/api/packages/${pkg.id.toLowerCase()}/recent`
+                );
+                if (res.ok) {
+                  const data = await res.json();
+                  pkg.recent_downloads = data.data?.last_week || data.data?.last_month || 0;
+                }
+              } catch (e) { /* skip */ }
+              await delay(300);
+            }
+
+            return results
+              .filter(p => p.recent_downloads >= 500)
+              .sort((a, b) => b.recent_downloads - a.recent_downloads);
+          }
+
+          // ── Main ────────────────────────────────────────
+          (async () => {
+            const npm = await fetchNpm();
+            const pypi = await fetchPypi();
+
+            const date = new Date().toISOString().slice(0, 10);
+            const payload = {
+              generated_at: new Date().toISOString(),
+              source: 'npm-pypi',
+              counts: { npm: npm.length, pypi: pypi.length },
+              npm,
+              pypi
+            };
+
+            if (!fs.existsSync('data')) fs.mkdirSync('data', { recursive: true });
+            fs.writeFileSync(`data/npm-pypi-${date}.json`, JSON.stringify(payload, null, 2));
+            console.log(`Wrote ${npm.length} npm + ${pypi.length} pypi packages`);
+          })().catch(err => { console.error(err); process.exit(1); });
+          SCRIPT
+
+      - name: Commit and push
+        run: |
+          date=$(date -u +"%Y-%m-%d")
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/
+          git diff --cached --quiet && echo "No changes" && exit 0
+          git commit -m "Add npm/PyPI snapshot for ${date}"
+          git push

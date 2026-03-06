@@ -7,5 +7,15 @@
   "max_trending_candidates": 5,
   "max_trending_featured": 3,
   "max_trending_also": 2,
-  "cooldown_days": 14
+  "cooldown_days": 14,
+  "max_hf_spaces": 5,
+  "max_hf_models": 5,
+  "max_hf_datasets": 3,
+  "max_replicate_models": 5,
+  "max_papers": 5,
+  "max_npm": 5,
+  "max_pypi": 5,
+  "max_gitlab": 5,
+  "max_ollama": 5,
+  "max_launches": 8
 }

@@ -1,0 +1,246 @@
+name: Fetch product launches
+
+on:
+  schedule:
+    - cron: "40 13 * * *"
+  workflow_dispatch:
+
+jobs:
+  fetch-launches:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install deps
+        run: npm install cheerio@1
+
+      - name: Fetch product launches
+        run: |
+          node --input-type=module << 'SCRIPT'
+          import fs from 'fs';
+          import { load } from 'cheerio';
+
+          const delay = (ms) => new Promise(r => setTimeout(r, ms));
+          const today = new Date().toISOString().slice(0, 10);
+
+          // ── Hacker News Show HN ─────────────────────────
+          async function fetchShowHN() {
+            const results = [];
+            try {
+              const res = await fetch('https://hacker-news.firebaseio.com/v0/showstories.json');
+              if (!res.ok) {
+                console.error(`HN API error: ${res.status}`);
+                return [];
+              }
+              const ids = await res.json();
+              const top = ids.slice(0, 30);
+
+              for (const id of top) {
+                try {
+                  const itemRes = await fetch(
+                    `https://hacker-news.firebaseio.com/v0/item/${id}.json`
+                  );
+                  if (!itemRes.ok) continue;
+                  const item = await itemRes.json();
+                  if (!item || (item.score || 0) < 10) continue;
+                  if (!item.url && !item.title) continue;
+
+                  results.push({
+                    id: `showhn-${item.id}`,
+                    name: (item.title || '').replace(/^Show HN:\s*/i, ''),
+                    url: item.url || `https://news.ycombinator.com/item?id=${item.id}`,
+                    description: item.title || '',
+                    upvotes: item.score || 0,
+                    launch_date: today,
+                    platform_url: `https://news.ycombinator.com/item?id=${item.id}`,
+                    _source: 'hackernews_showhn',
+                    _platform: 'launches'
+                  });
+                } catch (e) { /* skip item */ }
+                await delay(200);
+              }
+            } catch (e) {
+              console.error('HN Show HN error:', e.message);
+            }
+            return results;
+          }
+
+          // ── DevHunt ─────────────────────────────────────
+          async function fetchDevHunt() {
+            const results = [];
+            try {
+              const res = await fetch('https://devhunt.org', {
+                headers: { 'User-Agent': 'VaiBReport-digest/1.0' }
+              });
+              if (!res.ok) {
+                console.error(`DevHunt fetch failed: ${res.status}`);
+                return [];
+              }
+              const html = await res.text();
+              const $ = load(html);
+
+              $('a[href*="/tool/"]').each((_, el) => {
+                const href = $(el).attr('href') || '';
+                const slug = href.split('/tool/')[1]?.split(/[?#/]/)[0];
+                if (!slug) return;
+                const name = $(el).find('h3, h2, [class*="name"], [class*="title"]')
+                  .first().text().trim() ||
+                  slug.replace(/-/g, ' ');
+                const desc = $(el).find('p').first().text().trim() || '';
+                const voteText = $(el).text().match(/(\d+)\s*(?:vote|upvote|point)/i);
+                const upvotes = voteText ? parseInt(voteText[1], 10) : 0;
+
+                if (results.some(r => r.id === `devhunt-${slug}`)) return;
+                results.push({
+                  id: `devhunt-${slug}`,
+                  name,
+                  url: `https://devhunt.org/tool/${slug}`,
+                  description: desc,
+                  upvotes,
+                  launch_date: today,
+                  platform_url: `https://devhunt.org/tool/${slug}`,
+                  _source: 'devhunt',
+                  _platform: 'launches'
+                });
+              });
+            } catch (e) {
+              console.error('DevHunt scrape error:', e.message);
+            }
+            return results;
+          }
+
+          // ── BetaList (RSS) ──────────────────────────────
+          async function fetchBetaList() {
+            const results = [];
+            try {
+              const res = await fetch('https://betalist.com/feed', {
+                headers: { 'User-Agent': 'VaiBReport-digest/1.0' }
+              });
+              if (!res.ok) {
+                console.error(`BetaList RSS failed: ${res.status}`);
+                return [];
+              }
+              const xml = await res.text();
+              const $ = load(xml, { xmlMode: true });
+
+              $('item').each((i, el) => {
+                if (i >= 20) return false;
+                const title = $(el).find('title').text().trim();
+                const link = $(el).find('link').text().trim();
+                const desc = $(el).find('description').text().trim()
+                  .replace(/<[^>]+>/g, '').slice(0, 200);
+                const slug = link.split('/').pop() || title.toLowerCase().replace(/\s+/g, '-');
+
+                results.push({
+                  id: `betalist-${slug}`,
+                  name: title,
+                  url: link,
+                  description: desc,
+                  upvotes: 0,
+                  launch_date: today,
+                  platform_url: link,
+                  _source: 'betalist',
+                  _platform: 'launches'
+                });
+              });
+            } catch (e) {
+              console.error('BetaList RSS error:', e.message);
+            }
+            return results;
+          }
+
+          // ── Uneed ───────────────────────────────────────
+          async function fetchUneed() {
+            const results = [];
+            try {
+              const res = await fetch('https://www.uneed.best', {
+                headers: { 'User-Agent': 'VaiBReport-digest/1.0' }
+              });
+              if (!res.ok) {
+                console.error(`Uneed fetch failed: ${res.status}`);
+                return [];
+              }
+              const html = await res.text();
+              const $ = load(html);
+
+              $('a[href*="/tool/"]').each((i, el) => {
+                if (i >= 20) return false;
+                const href = $(el).attr('href') || '';
+                const slug = href.split('/tool/')[1]?.split(/[?#/]/)[0];
+                if (!slug) return;
+                const name = $(el).find('h3, h2, [class*="name"]')
+                  .first().text().trim() ||
+                  slug.replace(/-/g, ' ');
+                const desc = $(el).find('p').first().text().trim() || '';
+
+                if (results.some(r => r.id === `uneed-${slug}`)) return;
+                results.push({
+                  id: `uneed-${slug}`,
+                  name,
+                  url: `https://www.uneed.best/tool/${slug}`,
+                  description: desc,
+                  upvotes: 0,
+                  launch_date: today,
+                  platform_url: `https://www.uneed.best/tool/${slug}`,
+                  _source: 'uneed',
+                  _platform: 'launches'
+                });
+              });
+            } catch (e) {
+              console.error('Uneed scrape error:', e.message);
+            }
+            return results;
+          }
+
+          // ── Main ────────────────────────────────────────
+          (async () => {
+            const showhn = await fetchShowHN();
+            console.log(`Show HN: ${showhn.length}`);
+            await delay(1000);
+            const devhunt = await fetchDevHunt();
+            console.log(`DevHunt: ${devhunt.length}`);
+            await delay(1000);
+            const betalist = await fetchBetaList();
+            console.log(`BetaList: ${betalist.length}`);
+            await delay(1000);
+            const uneed = await fetchUneed();
+            console.log(`Uneed: ${uneed.length}`);
+
+            const all = [...showhn, ...devhunt, ...betalist, ...uneed];
+            const date = new Date().toISOString().slice(0, 10);
+            const payload = {
+              generated_at: new Date().toISOString(),
+              source: 'launches',
+              counts: {
+                hackernews_showhn: showhn.length,
+                devhunt: devhunt.length,
+                betalist: betalist.length,
+                uneed: uneed.length,
+                total: all.length
+              },
+              launches: all
+            };
+
+            if (!fs.existsSync('data')) fs.mkdirSync('data', { recursive: true });
+            fs.writeFileSync(`data/launches-${date}.json`, JSON.stringify(payload, null, 2));
+            console.log(`Wrote ${all.length} total launches`);
+          })().catch(err => { console.error(err); process.exit(1); });
+          SCRIPT
+
+      - name: Commit and push
+        run: |
+          date=$(date -u +"%Y-%m-%d")
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/
+          git diff --cached --quiet && echo "No changes" && exit 0
+          git commit -m "Add product launches snapshot for ${date}"
+          git push

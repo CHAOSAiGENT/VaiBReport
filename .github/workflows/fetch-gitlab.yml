@@ -1,0 +1,113 @@
+name: Fetch GitLab repos
+
+on:
+  schedule:
+    - cron: "30 13 * * *"
+  workflow_dispatch:
+
+jobs:
+  fetch-gitlab:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Fetch GitLab repos
+        run: |
+          node --input-type=module << 'SCRIPT'
+          import fs from 'fs';
+
+          const delay = (ms) => new Promise(r => setTimeout(r, ms));
+
+          const SIX_MONTHS_AGO = new Date();
+          SIX_MONTHS_AGO.setMonth(SIX_MONTHS_AGO.getMonth() - 6);
+          const sinceDate = SIX_MONTHS_AGO.toISOString().slice(0, 10);
+
+          async function fetchGitlab() {
+            const allRepos = [];
+            const seen = new Set();
+
+            // Top starred repos with recent activity
+            const queries = [
+              `https://gitlab.com/api/v4/projects?order_by=stars&sort=desc&per_page=50&last_activity_after=${sinceDate}`,
+              `https://gitlab.com/api/v4/projects?topic=ai&order_by=stars&sort=desc&per_page=30`,
+              `https://gitlab.com/api/v4/projects?topic=machine-learning&order_by=stars&sort=desc&per_page=30`,
+              `https://gitlab.com/api/v4/projects?topic=saas&order_by=stars&sort=desc&per_page=20`,
+              `https://gitlab.com/api/v4/projects?topic=automation&order_by=stars&sort=desc&per_page=20`,
+              `https://gitlab.com/api/v4/projects?topic=devops&order_by=stars&sort=desc&per_page=20`
+            ];
+
+            for (const url of queries) {
+              try {
+                const res = await fetch(url);
+                if (!res.ok) {
+                  console.error(`GitLab API error: ${res.status} for ${url}`);
+                  continue;
+                }
+                const data = await res.json();
+                for (const p of data) {
+                  const name = p.path_with_namespace;
+                  if (seen.has(name)) continue;
+                  seen.add(name);
+
+                  if ((p.star_count || 0) < 20) continue;
+
+                  const lastActivity = p.last_activity_at ? new Date(p.last_activity_at) : null;
+                  if (lastActivity && lastActivity < SIX_MONTHS_AGO) continue;
+
+                  allRepos.push({
+                    id: name,
+                    full_name: name,
+                    url: p.web_url || `https://gitlab.com/${name}`,
+                    description: (p.description || '').slice(0, 300),
+                    star_count: p.star_count || 0,
+                    forks_count: p.forks_count || 0,
+                    language: null,
+                    topics: p.topics || p.tag_list || [],
+                    created_at: p.created_at,
+                    last_activity_at: p.last_activity_at,
+                    _source: 'gitlab',
+                    _platform: 'gitlab'
+                  });
+                }
+              } catch (e) {
+                console.error('GitLab fetch error:', e.message);
+              }
+              await delay(1000);
+            }
+
+            return allRepos.sort((a, b) => b.star_count - a.star_count);
+          }
+
+          (async () => {
+            const repos = await fetchGitlab();
+            const date = new Date().toISOString().slice(0, 10);
+            const payload = {
+              generated_at: new Date().toISOString(),
+              source: 'gitlab',
+              counts: { repos: repos.length },
+              repos
+            };
+
+            if (!fs.existsSync('data')) fs.mkdirSync('data', { recursive: true });
+            fs.writeFileSync(`data/gitlab-${date}.json`, JSON.stringify(payload, null, 2));
+            console.log(`Wrote ${repos.length} GitLab repos`);
+          })().catch(err => { console.error(err); process.exit(1); });
+          SCRIPT
+
+      - name: Commit and push
+        run: |
+          date=$(date -u +"%Y-%m-%d")
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/
+          git diff --cached --quiet && echo "No changes" && exit 0
+          git commit -m "Add GitLab snapshot for ${date}"
+          git push
