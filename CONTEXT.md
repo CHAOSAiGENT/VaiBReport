@@ -409,3 +409,88 @@ Product Hunt demoted to Phase 3 (below the above platforms).
 - Platform-specific limits in preferences.json
 - All seen ledger scaffolding
 - APM deferred — GitHub Actions UI is sufficient monitoring for now; health-check summary in logs covers daily status
+
+---
+
+## Session: 2026-03-06 (Claude Code — V2 Phase 2 COMPLETE)
+
+**What happened:**
+- Claude Code executed all 13 tasks from CLAUDE-CODE-V2-PHASE2-PLATFORMS.md
+- 16 files changed, 1,568 lines added, committed and pushed (commit 0645795)
+- All 10 workflows present, all 8 seen ledgers present
+
+**New fetch workflows created (with cron schedules):**
+- fetch-replicate.yml — 13:15 UTC (Replicate API, uses REPLICATE_API_TOKEN)
+- fetch-paperswithcode.yml — 13:20 UTC (Papers with Code REST API, public)
+- fetch-npm-pypi.yml — 13:25 UTC (npm registry + PyPI, public APIs)
+- fetch-gitlab.yml — 13:30 UTC (GitLab v4 API, public)
+- fetch-ollama.yml — 13:35 UTC (Ollama library scraping with cheerio)
+- fetch-launches.yml — 13:40 UTC (DevHunt, HN Show HN, BetaList, Uneed scraping)
+
+**generate-digest.yml rewritten:**
+- Changed trigger from workflow_run to cron at 14:00 UTC + workflow_dispatch
+- Now loads 9 data sources (GitHub, HF, Replicate, PwC, npm/PyPI, GitLab, Ollama, Launches)
+- 8 seen ledgers loaded and updated per run
+- 12+ digest sections (5 GitHub categories + trending + GitLab + Papers + Replicate + Ollama + npm + PyPI + HF Spaces/Models/Datasets + Launches)
+- Gemini editorial blurbs for all platforms
+- Health check JSON written to data/health-{date}.json per run
+- Graceful degradation: every source wraps in try/catch, returns empty on failure
+
+**New seen ledgers initialized:**
+- seen-replicate.json, seen-paperswithcode.json, seen-npm-pypi.json, seen-gitlab.json, seen-ollama.json, seen-launches.json
+
+**preferences.json updated with platform limits:**
+- max_replicate_models: 5, max_papers: 5, max_npm: 5, max_pypi: 5, max_gitlab: 5, max_ollama: 5, max_launches: 8
+
+**Full cron schedule (all UTC):**
+- 13:00 — fetch-repos.yml (GitHub)
+- 13:10 — fetch-hf.yml (HuggingFace)
+- 13:15 — fetch-replicate.yml
+- 13:20 — fetch-paperswithcode.yml
+- 13:25 — fetch-npm-pypi.yml
+- 13:30 — fetch-gitlab.yml
+- 13:35 — fetch-ollama.yml
+- 13:40 — fetch-launches.yml
+- 14:00 — generate-digest.yml (loads all data, generates post)
+- deploy-blog.yml triggers on push to main (from digest commit)
+
+**Current status: V2 Phase 2 multi-platform expansion COMPLETE.**
+
+**What's next:**
+- March 7: First full 9-source digest fires automatically. Verify output quality.
+- Remaining V2 punchlist (site features): bento card grid, sort/search/tagging, screenshots, enhanced trending
+- Phase 3-4 (deferred): owned platform migration, email digest, leaderboard
+
+---
+
+## Session: 2026-03-06 (Cowork — V2 Phase 3 prompt: site experience)
+
+**What happened:**
+- Created CLAUDE-CODE-V2-PHASE3-SITE.md — 8-task prompt covering ALL remaining core V2 site features
+- This converts VaiBReport from "a blog with daily posts" into "a searchable, filterable tool catalog with daily digests"
+
+**What the prompt covers:**
+- Task 1: `_repos/` Jekyll collection + `repo.html` layout + `_config.yml` updates
+- Task 2: Extend `generate-digest.yml` to create/update `_repos/` entries for every featured item (all 9 platforms)
+- Task 3: `repos.md` catalog browse page with bento card grid (responsive 3/2/1 column)
+- Task 4: Client-side search, sort dropdown (6 options), filter chips (source + category)
+- Task 5: Updated site description (all 9 platforms), about page rewrite, index hero intro
+- Task 6: Navigation links (Catalog + About in header)
+- Task 7: Update V2-PUNCHLIST.md to mark completed items
+- Task 8: Verify everything
+
+**Key architectural decisions:**
+- `_repos/` entries created by digest generator, not manually — they accumulate automatically
+- Front matter contains all metadata (source, stats, hotness, dates) — Liquid templating reads it
+- Card data embedded as JSON in the catalog page, filtered/sorted with vanilla JS (no Lunr.js needed at this scale)
+- OG images for GitHub repos via `opengraph.githubassets.com` URL pattern (free, no API needed)
+- All CSS/JS inline in page files (no separate assets — works cleanly with minima theme)
+- Simple regex front matter parser in the workflow (no YAML library dependency)
+
+**Files created:**
+- CLAUDE-CODE-V2-PHASE3-SITE.md — Claude Code prompt for site experience upgrade
+
+**What Peter needs to do:**
+1. Run CLAUDE-CODE-V2-PHASE3-SITE.md in Claude Code
+2. After commit lands, manually trigger generate-digest.yml to populate `_repos/` with existing data
+3. Verify catalog page renders at /repos/

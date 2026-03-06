@@ -1,0 +1,113 @@
+---
+layout: default
+---
+<style>
+  .repo-header { margin-bottom: 1.5rem; }
+  .repo-header h1 { margin-bottom: 0.5rem; }
+  .source-badge {
+    display: inline-block;
+    padding: 2px 10px;
+    border-radius: 12px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  .source-github { background: #6e7681; }
+  .source-huggingface-space, .source-huggingface-model, .source-huggingface-dataset { background: #f5a623; color: #333; }
+  .source-replicate { background: #3b82f6; }
+  .source-gitlab { background: #e24329; }
+  .source-npm { background: #cb3837; }
+  .source-pypi { background: #3572a5; }
+  .source-ollama { background: #22c55e; }
+  .source-paperswithcode { background: #14b8a6; }
+  .source-launch { background: #8b5cf6; }
+  .repo-stats {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin: 1rem 0;
+    padding: 0.75rem 1rem;
+    background: #f6f8fa;
+    border-radius: 8px;
+    font-size: 0.9rem;
+  }
+  .repo-stats .stat { display: flex; align-items: center; gap: 0.25rem; }
+  .repo-description {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin: 1.5rem 0;
+    color: #333;
+  }
+  .repo-og-image {
+    max-width: 100%;
+    border-radius: 8px;
+    margin: 1rem 0;
+    border: 1px solid #e1e4e8;
+  }
+  .hotness-badge {
+    display: inline-block;
+    padding: 2px 8px;
+    background: #fff3cd;
+    border-radius: 8px;
+    font-size: 0.85rem;
+  }
+  .repo-meta {
+    margin-top: 2rem;
+    padding-top: 1rem;
+    border-top: 1px solid #e1e4e8;
+    font-size: 0.85rem;
+    color: #666;
+  }
+  .repo-cta {
+    display: inline-block;
+    margin: 1rem 0;
+    padding: 0.5rem 1.25rem;
+    background: #24292f;
+    color: #fff;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  .repo-cta:hover { background: #444d56; color: #fff; }
+  .back-link { margin-top: 2rem; display: block; }
+</style>
+
+<div class="repo-header">
+  <h1>{{ page.name }}</h1>
+  <span class="source-badge source-{{ page.source }}">{{ page.source | replace: "-", " " }}</span>
+  {% if page.streak > 3 %}
+    <span class="hotness-badge">🔥 {{ page.streak }}-day streak</span>
+  {% endif %}
+  {% if page.category and page.category != "" %}
+    <span style="display:inline-block;padding:2px 8px;background:#e1e4e8;border-radius:8px;font-size:0.8rem;margin-left:4px;">{{ page.category }}</span>
+  {% endif %}
+</div>
+
+{% if page.og_image and page.og_image != "" %}
+<img src="{{ page.og_image }}" alt="{{ page.name }}" class="repo-og-image" loading="lazy">
+{% endif %}
+
+<div class="repo-description">
+  {{ content | default: page.description }}
+</div>
+
+<div class="repo-stats">
+  {% if page.stars > 0 %}<div class="stat">⭐ {{ page.stars }} stars</div>{% endif %}
+  {% if page.downloads > 0 %}<div class="stat">📦 {{ page.downloads }} downloads</div>{% endif %}
+  {% if page.likes > 0 %}<div class="stat">❤️ {{ page.likes }} likes</div>{% endif %}
+  {% if page.language and page.language != "" %}<div class="stat">💻 {{ page.language }}</div>{% endif %}
+  {% if page.appearances > 0 %}<div class="stat">📊 {{ page.appearances }} appearances</div>{% endif %}
+</div>
+
+<a href="{{ page.item_url }}" class="repo-cta" target="_blank" rel="noopener">View on {{ page.source | replace: "-", " " | capitalize }} →</a>
+
+<div class="repo-meta">
+  <p>First featured: {{ page.first_featured }} · Last featured: {{ page.last_featured }} · Featured {{ page.times_featured }} time{% if page.times_featured != 1 %}s{% endif %}</p>
+  {% if page.tags.size > 0 %}
+  <p>Tags: {% for tag in page.tags %}{{ tag }}{% unless forloop.last %}, {% endunless %}{% endfor %}</p>
+  {% endif %}
+</div>
+
+<a href="{{ '/repos/' | relative_url }}" class="back-link">← Back to catalog</a>

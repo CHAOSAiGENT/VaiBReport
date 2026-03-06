@@ -1,7 +1,9 @@
 title: VaiBReport
 description: >-
-  Daily GitHub repo picks for solo founders, AI/B2B SaaS builders,
-  and small business tools.
+  Daily curated tools, repos, models, and launches from GitHub,
+  HuggingFace, Replicate, GitLab, npm, PyPI, Ollama, Papers with Code,
+  and indie launch platforms. Built for solo founders, AI builders,
+  and small business tool seekers.
 url: "https://chaosagent.github.io"
 baseurl: "/VaiBReport"
 
@@ -9,6 +11,24 @@ baseurl: "/VaiBReport"
 markdown: kramdown
 theme: minima
 permalink: /:year/:month/:day/:title/
+
+# Collections
+collections:
+  repos:
+    output: true
+    permalink: /repos/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: "repos"
+    values:
+      layout: "repo"
+
+# Navigation
+header_pages:
+  - repos.md
+  - about.md
 
 # Excludes
 exclude:

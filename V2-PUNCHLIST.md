@@ -1,7 +1,7 @@
 # VaiBReport V2 — Punchlist
 
-**Last updated:** 2026-03-05
-**Status:** V1 operational. This document captures all V2 ideas discussed across sessions.
+**Last updated:** 2026-03-06
+**Status:** V2 Phase 3 complete. Multi-platform expansion + site experience upgrade shipped.
 
 ---
 
@@ -342,31 +342,33 @@ If needed later: split `fetch-repos.yml` into multiple workflows or use a matrix
 
 ---
 
-## Priority Order (Updated 2026-03-06, revised)
+## Priority Order (Updated 2026-03-06)
 
-**Phase 1 — Quick wins (now):**
-- Item 9: RSS feed — DONE
-- Item 1: Claude API writeups (biggest quality impact, API key furnished)
-- Item 5: Hotness streak data collection (start accumulating data now)
+**Phase 1 — Quick wins: DONE**
+- Item 9: RSS feed — DONE (jekyll-feed built-in)
+- Item 1: AI-quality writeups — DONE (Gemini editorial blurbs)
+- Item 5: Hotness streak — DONE (data collection in fetch-repos + badges in catalog cards)
 
-**Phase 2 — Multi-platform expansion + core V2 features:**
-- Item 10a: HuggingFace (Spaces + Models + Datasets) — API key available
-- Item 10b: Uneed / OpenHunts
-- Item 10c: Papers with Code
-- Item 10d: npm / PyPI trending
-- Item 10e: DevHunt
-- Item 10f: Ollama Library
-- Item 10g: Replicate
-- Item 10h: GitLab
-- Item 10i: Startup/beta launch platforms (BetaList, BetaPage, Launching Next, HN Show HN, Indie Hackers, etc.)
-- Item 2: Running results page — bento/card grid, individual entries
-- Item 4: Sort/search/tagging
-- Item 3: Screenshots/previews — Phase 1: OG images + AI-generated cards
-- Item 12: Enhanced trending detection
+**Phase 2 — Multi-platform expansion: DONE**
+- Item 10a: HuggingFace — DONE (Spaces, Models, Datasets)
+- Item 10b: Uneed — DONE (via fetch-launches.yml)
+- Item 10c: Papers with Code — DONE
+- Item 10d: npm / PyPI — DONE
+- Item 10e: DevHunt — DONE (via fetch-launches.yml)
+- Item 10f: Ollama — DONE
+- Item 10g: Replicate — DONE
+- Item 10h: GitLab — DONE
+- Item 10i: Startup/beta launches — DONE (HN Show HN, BetaList, DevHunt, Uneed)
 
-**Phase 3-4 — Platform evolution:**
-- Item 6: Leaderboard (depends on hotness data accumulation)
+**Phase 3 — Site experience upgrade: DONE**
+- Item 2: Running results page — DONE (bento card grid catalog at /repos/)
+- Item 3 Phase 1: Screenshots — DONE (OG images in catalog cards)
+- Item 4: Sort/search/tagging — DONE (client-side search, 6 sort options, source + category filter chips)
+
+**Phase 3-4 — Remaining:**
+- Item 6: Leaderboard view (depends on hotness data accumulation)
 - Item 10j: Product Hunt
+- Item 12: Enhanced trending detection
 - Item 7: Owned platform migration
 - Item 8: Email digest delivery
 - Item 11: Staggered runs (only if rate-limited)

@@ -194,6 +194,151 @@ jobs:
             return `- [${repo.full_name}](${repo.html_url}) – ${blurb} (${lang}, ${stars})`;
           }
 
+          // ── Repo catalog entry creator ─────────────────────
+          function toSlug(id) {
+            return id.toLowerCase().replace(/\//g, '--').replace(/[^a-z0-9-]/g, '');
+          }
+
+          function parseFrontMatter(content) {
+            const match = content.match(/^---\n([\s\S]*?)\n---/);
+            if (!match) return {};
+            const fm = {};
+            for (const line of match[1].split('\n')) {
+              const m = line.match(/^(\w[\w_]*)\s*:\s*(.+)$/);
+              if (m) {
+                let val = m[2].trim();
+                if (val.startsWith('"') && val.endsWith('"')) val = val.slice(1, -1);
+                if (/^\d+$/.test(val)) val = parseInt(val, 10);
+                fm[m[1]] = val;
+              }
+            }
+            return fm;
+          }
+
+          function createRepoEntry(item, source, category, blurbs, hotness) {
+            const id = item.id || item.full_name || item.name || '';
+            const slug = toSlug(id);
+            if (!slug) return null;
+
+            const filePath = `_repos/${slug}.md`;
+            const blurb = (blurbs && blurbs[id]) || item.description || item.name || id;
+            const safeBlurb = blurb.replace(/"/g, '\\"');
+            const safeName = (item.name || item.full_name || id).replace(/"/g, '\\"');
+
+            // Platform-specific field mapping
+            let url = '', stars = 0, downloads = 0, likes = 0, og_image = '';
+            const lang = item.language || '';
+            const tags = (item.topics || item.tags || item.keywords || []).slice(0, 8);
+            tags.unshift(source.split('-')[0]);
+
+            switch (source) {
+              case 'github':
+                url = item.html_url || `https://github.com/${item.full_name}`;
+                stars = item.stargazers_count || 0;
+                og_image = `https://opengraph.githubassets.com/1/${item.full_name}`;
+                break;
+              case 'huggingface-space':
+                url = item.url || `https://huggingface.co/spaces/${id}`;
+                likes = item.likes || 0;
+                og_image = `https://huggingface.co/api/spaces/${id}/screenshot`;
+                break;
+              case 'huggingface-model':
+                url = item.url || `https://huggingface.co/${id}`;
+                downloads = item.downloads || 0;
+                likes = item.likes || 0;
+                break;
+              case 'huggingface-dataset':
+                url = item.url || `https://huggingface.co/datasets/${id}`;
+                downloads = item.downloads || 0;
+                break;
+              case 'replicate':
+                url = item.url || '';
+                og_image = item.cover_image_url || '';
+                break;
+              case 'paperswithcode':
+                url = item.url || '';
+                stars = item.github_stars || 0;
+                break;
+              case 'npm':
+                url = item.url || `https://www.npmjs.com/package/${id}`;
+                downloads = item.weekly_downloads || 0;
+                break;
+              case 'pypi':
+                url = item.url || `https://pypi.org/project/${id}/`;
+                downloads = item.recent_downloads || 0;
+                break;
+              case 'gitlab':
+                url = item.url || '';
+                stars = item.star_count || 0;
+                break;
+              case 'ollama':
+                url = item.url || `https://ollama.com/library/${id}`;
+                break;
+              case 'launch':
+                url = item.url || '';
+                likes = item.upvotes || 0;
+                break;
+            }
+
+            const streak = (hotness && hotness[item.full_name || id]) ? hotness[item.full_name || id].streak || 0 : 0;
+            const appearances = (hotness && hotness[item.full_name || id]) ? hotness[item.full_name || id].appearances || 0 : 0;
+
+            if (fs.existsSync(filePath)) {
+              // Update existing entry
+              const existing = fs.readFileSync(filePath, 'utf8');
+              const fm = parseFrontMatter(existing);
+              const firstFeatured = fm.first_featured || digestDate;
+              const timesFeatured = (parseInt(fm.times_featured) || 0) + 1;
+              const updatedFm = [
+                '---',
+                'layout: repo',
+                `name: "${safeName}"`,
+                `source: ${source}`,
+                `item_url: "${url}"`,
+                `description: "${safeBlurb}"`,
+                `category: "${category || fm.category || ''}"`,
+                `language: "${lang || fm.language || ''}"`,
+                `stars: ${stars || parseInt(fm.stars) || 0}`,
+                `downloads: ${downloads || parseInt(fm.downloads) || 0}`,
+                `likes: ${likes || parseInt(fm.likes) || 0}`,
+                `og_image: "${og_image || fm.og_image || ''}"`,
+                `first_featured: "${firstFeatured}"`,
+                `last_featured: "${digestDate}"`,
+                `times_featured: ${timesFeatured}`,
+                `streak: ${streak}`,
+                `appearances: ${appearances}`,
+                `tags: [${tags.join(', ')}]`,
+                '---'
+              ].join('\n');
+              fs.writeFileSync(filePath, updatedFm + '\n\n' + blurb + '\n');
+            } else {
+              // Create new entry
+              const newEntry = [
+                '---',
+                'layout: repo',
+                `name: "${safeName}"`,
+                `source: ${source}`,
+                `item_url: "${url}"`,
+                `description: "${safeBlurb}"`,
+                `category: "${category || ''}"`,
+                `language: "${lang}"`,
+                `stars: ${stars}`,
+                `downloads: ${downloads}`,
+                `likes: ${likes}`,
+                `og_image: "${og_image}"`,
+                `first_featured: "${digestDate}"`,
+                `last_featured: "${digestDate}"`,
+                `times_featured: 1`,
+                `streak: ${streak}`,
+                `appearances: ${appearances}`,
+                `tags: [${tags.join(', ')}]`,
+                '---'
+              ].join('\n');
+              fs.writeFileSync(filePath, newEntry + '\n\n' + blurb + '\n');
+            }
+            return slug;
+          }
+
           // ── Main ───────────────────────────────────────────
           (async () => {
           // Find latest GitHub repos data file
@@ -695,6 +840,67 @@ jobs:
             );
           }
 
+          // ── Create _repos/ catalog entries ─────────────────
+          if (!fs.existsSync('_repos')) fs.mkdirSync('_repos', { recursive: true });
+
+          let hotnessData = {};
+          try {
+            hotnessData = JSON.parse(fs.readFileSync('data/hotness.json', 'utf8'));
+          } catch (e) { /* no hotness data */ }
+
+          let repoSlugs = 0;
+          // GitHub repos (from sections + trending)
+          for (const sectionName of Object.keys(sections)) {
+            for (const r of sections[sectionName]) {
+              if (createRepoEntry(r, 'github', sectionName, blurbs, hotnessData)) repoSlugs++;
+            }
+          }
+          for (const r of trendingOddballs) {
+            if (createRepoEntry(r, 'github', 'Trending', blurbs, hotnessData)) repoSlugs++;
+          }
+          for (const r of trendingAlso) {
+            if (createRepoEntry(r, 'github', 'Trending', blurbs, hotnessData)) repoSlugs++;
+          }
+          // GitLab
+          for (const r of gitlabRepos) {
+            if (createRepoEntry({ ...r, full_name: r.full_name, id: r.id }, 'gitlab', 'GitLab Repos', blurbs, hotnessData)) repoSlugs++;
+          }
+          // Papers
+          for (const p of papers) {
+            if (createRepoEntry(p, 'paperswithcode', 'Papers to Code', blurbs, hotnessData)) repoSlugs++;
+          }
+          // Replicate
+          for (const m of replicateModels) {
+            if (createRepoEntry(m, 'replicate', 'Replicate Models', blurbs, hotnessData)) repoSlugs++;
+          }
+          // Ollama
+          for (const m of ollamaModels) {
+            if (createRepoEntry(m, 'ollama', 'Ollama Models', blurbs, hotnessData)) repoSlugs++;
+          }
+          // npm
+          for (const p of npmPkgs) {
+            if (createRepoEntry({ ...p, id: p.id }, 'npm', 'npm Packages', blurbs, hotnessData)) repoSlugs++;
+          }
+          // PyPI
+          for (const p of pypiPkgs) {
+            if (createRepoEntry({ ...p, id: p.id }, 'pypi', 'PyPI Packages', blurbs, hotnessData)) repoSlugs++;
+          }
+          // HuggingFace
+          for (const s of hfSpaces) {
+            if (createRepoEntry({ ...s, name: s.id }, 'huggingface-space', 'HuggingFace Spaces', blurbs, hotnessData)) repoSlugs++;
+          }
+          for (const m of hfModels) {
+            if (createRepoEntry({ ...m, name: m.id }, 'huggingface-model', 'HuggingFace Models', blurbs, hotnessData)) repoSlugs++;
+          }
+          for (const d of hfDatasets) {
+            if (createRepoEntry({ ...d, name: d.id }, 'huggingface-dataset', 'HuggingFace Datasets', blurbs, hotnessData)) repoSlugs++;
+          }
+          // Launches
+          for (const l of launches) {
+            if (createRepoEntry(l, 'launch', 'New Launches', blurbs, hotnessData)) repoSlugs++;
+          }
+          console.log(`Created/updated ${repoSlugs} _repos/ catalog entries`);
+
           // ── Write health check ──────────────────────────────
           health.sources.github.featured = featured.length;
           health.sources.huggingface.featured = hfFeatured.length;
@@ -725,7 +931,7 @@ jobs:
           date=$(date -u +"%Y-%m-%d")
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add _posts/ data/seen*.json data/health-*.json config/spotlight.json
+          git add _posts/ _repos/ data/seen*.json data/health-*.json config/spotlight.json
           git diff --cached --quiet && echo "No new digest" && exit 0
           git commit -m "Add digest for ${date}"
           git push
