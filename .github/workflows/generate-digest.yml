@@ -22,6 +22,8 @@ jobs:
           node-version: "20"
 
       - name: Generate digest post
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
           node --input-type=module << 'SCRIPT'
           import fs from 'fs';
@@ -66,15 +68,88 @@ jobs:
             return null; // doesn't fit cleanly
           }
 
-          function writeOneLiner(repo) {
-            let desc = repo.description || 'No description provided.';
-            // Trim to ~120 chars for the one-liner
-            if (desc.length > 140) desc = desc.slice(0, 137) + '...';
+          // ── Claude API editorial blurbs ────────────────────
+          async function generateEditorialBlurbs(repos, sections) {
+            const apiKey = process.env.ANTHROPIC_API_KEY;
+            if (!apiKey) {
+              console.log('No ANTHROPIC_API_KEY — falling back to template blurbs');
+              return null;
+            }
+
+            // Build the prompt with all repos grouped by section
+            let repoList = '';
+            for (const [section, items] of Object.entries(sections)) {
+              if (items.length === 0) continue;
+              repoList += `\n## ${section}\n`;
+              for (const r of items) {
+                repoList += `- ${r.full_name} (${r.language || 'Multi'}, ${r.stargazers_count}★): ${r.description || 'No description'}\n`;
+                if (r.topics && r.topics.length > 0) {
+                  repoList += `  Topics: ${r.topics.slice(0, 8).join(', ')}\n`;
+                }
+              }
+            }
+
+            const prompt = `You are writing one-liner editorial blurbs for a daily GitHub digest blog called VaiBReport. The audience is solo founders, AI/B2B SaaS builders, small business tool seekers, and content creators.
+
+Your voice: casual, dry humor, opinionated. You're a fellow builder who's seen a lot of repos and knows what matters. Think "the friend who texts you 'hey check this out' with actually good stuff." Be concise — each blurb is ONE sentence, max two. No fluff, no hype words like "revolutionary" or "game-changing." Say what it actually does and why someone building a product would care.
+
+Here are the repos grouped by section. Write a blurb for each one. Return ONLY a JSON object mapping full_name to blurb string. No markdown, no explanation.
+
+${repoList}
+
+Return format:
+{"owner/repo": "Your one-liner blurb here.", ...}`;
+
+            const models = ['claude-sonnet-4-6-20250514', 'claude-sonnet-4-5-20250929'];
+            for (const model of models) {
+              try {
+                console.log(`Trying Claude model: ${model}`);
+                const res = await fetch('https://api.anthropic.com/v1/messages', {
+                  method: 'POST',
+                  headers: {
+                    'Content-Type': 'application/json',
+                    'x-api-key': apiKey,
+                    'anthropic-version': '2023-06-01'
+                  },
+                  body: JSON.stringify({
+                    model,
+                    max_tokens: 4096,
+                    messages: [{ role: 'user', content: prompt }]
+                  })
+                });
+
+                if (!res.ok) {
+                  const body = await res.text();
+                  console.error(`Claude API error (${model}): ${res.status} ${res.statusText}`);
+                  console.error(body);
+                  if (res.status === 404) continue; // try next model
+                  return null;
+                }
+
+                const data = await res.json();
+                const text = data.content[0].text;
+                const cleaned = text.replace(/```json\n?/g, '').replace(/```\n?/g, '').trim();
+                const blurbs = JSON.parse(cleaned);
+                console.log(`Got ${Object.keys(blurbs).length} editorial blurbs from Claude (${model})`);
+                return blurbs;
+              } catch (e) {
+                console.error(`Claude API call failed (${model}):`, e.message);
+              }
+            }
+            return null;
+          }
+
+          function writeOneLiner(repo, blurbs) {
             const lang = repo.language || 'Multi';
-            return `- [${repo.full_name}](${repo.html_url}) – ${desc} (${lang}, ${formatStars(repo.stargazers_count)})`;
+            const stars = formatStars(repo.stargazers_count);
+            const blurb = (blurbs && blurbs[repo.full_name])
+              ? blurbs[repo.full_name]
+              : (repo.description || 'No description provided.');
+            return `- [${repo.full_name}](${repo.html_url}) – ${blurb} (${lang}, ${stars})`;
           }
 
           // ── Main ───────────────────────────────────────────
+          (async () => {
           // Find latest data file
           const dataFiles = fs.readdirSync('data')
             .filter(f => f.match(/^repos-\d{4}-\d{2}-\d{2}\.json$/))
@@ -235,6 +310,12 @@ jobs:
             totalPicks--;
           }
 
+          // ── Generate Claude editorial blurbs ─────────────────
+          const allSectioned = { ...sections };
+          if (trendingOddballs.length > 0) allSectioned['Trending oddballs'] = trendingOddballs;
+          if (trendingAlso.length > 0) allSectioned['Also trending'] = trendingAlso;
+          const blurbs = await generateEditorialBlurbs(candidates, allSectioned);
+
           // ── Build Markdown ─────────────────────────────────
           const sep = '---';
           let md = `${sep}\nlayout: post\ntitle: "GitHub Digest – ${digestDate}"\ndate: ${digestDate}\ntags: [github, digest, ai, saas, solopreneur, ugc]\n${sep}\n\nDaily curated repos for solo founders, AI/B2B SaaS builders, and small business tools. ${candidates.length} repos evaluated, ${totalPicks} made the cut.\n\n`;
@@ -253,7 +334,7 @@ jobs:
             if (sections[name].length === 0) continue;
             md += `## ${name}\n\n`;
             for (const r of sections[name]) {
-              md += writeOneLiner(r) + '\n\n';
+              md += writeOneLiner(r, blurbs) + '\n\n';
               featured.push(r.full_name);
             }
           }
@@ -261,7 +342,7 @@ jobs:
           if (trendingOddballs.length > 0) {
             md += `## Trending oddballs worth a look\n\n`;
             for (const r of trendingOddballs) {
-              md += writeOneLiner(r) + '\n\n';
+              md += writeOneLiner(r, blurbs) + '\n\n';
               featured.push(r.full_name);
             }
           }
@@ -270,8 +351,10 @@ jobs:
             md += `### Also trending today\n\n`;
             for (const r of trendingAlso) {
               const lang = r.language || 'Multi';
-              const desc = (r.description || '').slice(0, 60);
-              md += `- [${r.full_name}](${r.html_url}) – ${desc} (${lang}, ${formatStars(r.stargazers_count)})\n`;
+              const blurb = (blurbs && blurbs[r.full_name])
+                ? blurbs[r.full_name]
+                : (r.description || '').slice(0, 60);
+              md += `- [${r.full_name}](${r.html_url}) – ${blurb} (${lang}, ${formatStars(r.stargazers_count)})\n`;
               featured.push(r.full_name);
             }
             md += '\n';
@@ -303,6 +386,10 @@ jobs:
           }
 
           console.log(`Updated seen.json (${Object.keys(seen.featured).length} total)`);
+          })().catch(err => {
+            console.error(err);
+            process.exit(1);
+          });
           SCRIPT
 
       - name: Commit and push
