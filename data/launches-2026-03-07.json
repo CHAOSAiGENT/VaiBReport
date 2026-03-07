@@ -1,0 +1,156 @@
+{
+  "generated_at": "2026-03-07T13:58:53.737Z",
+  "source": "launches",
+  "counts": {
+    "hackernews_showhn": 13,
+    "devhunt": 0,
+    "betalist": 0,
+    "uneed": 0,
+    "total": 13
+  },
+  "launches": [
+    {
+      "id": "showhn-47275236",
+      "name": "Moongate – Ultima Online server emulator in .NET 10 with Lua scripting",
+      "url": "https://github.com/moongate-community/moongatev2",
+      "description": "Show HN: Moongate – Ultima Online server emulator in .NET 10 with Lua scripting",
+      "upvotes": 263,
+      "launch_date": "2026-03-07",
+      "platform_url": "https://news.ycombinator.com/item?id=47275236",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47282807",
+      "name": "Kula – Lightweight, self-contained Linux server monitoring tool",
+      "url": "https://github.com/c0m4r/kula",
+      "description": "Show HN: Kula – Lightweight, self-contained Linux server monitoring tool",
+      "upvotes": 66,
+      "launch_date": "2026-03-07",
+      "platform_url": "https://news.ycombinator.com/item?id=47282807",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47271751",
+      "name": "1v1 coding game that LLMs struggle with",
+      "url": "https://yare.io",
+      "description": "Show HN: 1v1 coding game that LLMs struggle with",
+      "upvotes": 22,
+      "launch_date": "2026-03-07",
+      "platform_url": "https://news.ycombinator.com/item?id=47271751",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47276604",
+      "name": "Claude-replay – A video-like player for Claude Code sessions",
+      "url": "https://github.com/es617/claude-replay",
+      "description": "Show HN: Claude-replay – A video-like player for Claude Code sessions",
+      "upvotes": 88,
+      "launch_date": "2026-03-07",
+      "platform_url": "https://news.ycombinator.com/item?id=47276604",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47282225",
+      "name": "I open-sourced my Steam game, 100% written in Lua, engine is also open",
+      "url": "https://github.com/willtobyte/reprobate",
+      "description": "Show HN: I open-sourced my Steam game, 100% written in Lua, engine is also open",
+      "upvotes": 24,
+      "launch_date": "2026-03-07",
+      "platform_url": "https://news.ycombinator.com/item?id=47282225",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47232339",
+      "name": "Reconstruct any image using primitive shapes, runs in-browser via WASM",
+      "url": "https://github.com/taiseiue/primitive-playground",
+      "description": "Show HN: Reconstruct any image using primitive shapes, runs in-browser via WASM",
+      "upvotes": 36,
+      "launch_date": "2026-03-07",
+      "platform_url": "https://news.ycombinator.com/item?id=47232339",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47234907",
+      "name": "A trainable, modular electronic nose for industrial use",
+      "url": "https://sniphi.com/",
+      "description": "Show HN: A trainable, modular electronic nose for industrial use",
+      "upvotes": 32,
+      "launch_date": "2026-03-07",
+      "platform_url": "https://news.ycombinator.com/item?id=47234907",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47270807",
+      "name": "Swarm – Program a colony of 200 ants using a custom assembly language",
+      "url": "https://dev.moment.com/",
+      "description": "Show HN: Swarm – Program a colony of 200 ants using a custom assembly language",
+      "upvotes": 186,
+      "launch_date": "2026-03-07",
+      "platform_url": "https://news.ycombinator.com/item?id=47270807",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47275121",
+      "name": "Interactive 3D globe of EU shipping emissions",
+      "url": "https://seafloor.pages.dev",
+      "description": "Show HN: Interactive 3D globe of EU shipping emissions",
+      "upvotes": 19,
+      "launch_date": "2026-03-07",
+      "platform_url": "https://news.ycombinator.com/item?id=47275121",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47263036",
+      "name": "Jido 2.0, Elixir Agent Framework",
+      "url": "https://jido.run/blog/jido-2-0-is-here",
+      "description": "Show HN: Jido 2.0, Elixir Agent Framework",
+      "upvotes": 319,
+      "launch_date": "2026-03-07",
+      "platform_url": "https://news.ycombinator.com/item?id=47263036",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47264138",
+      "name": "PageAgent, A GUI agent that lives inside your web app",
+      "url": "https://alibaba.github.io/page-agent/",
+      "description": "Show HN: PageAgent, A GUI agent that lives inside your web app",
+      "upvotes": 143,
+      "launch_date": "2026-03-07",
+      "platform_url": "https://news.ycombinator.com/item?id=47264138",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47275692",
+      "name": "Modembin – A pastebin that encodes your text into real FSK modem audio",
+      "url": "https://www.modembin.com",
+      "description": "Show HN: Modembin – A pastebin that encodes your text into real FSK modem audio",
+      "upvotes": 25,
+      "launch_date": "2026-03-07",
+      "platform_url": "https://news.ycombinator.com/item?id=47275692",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47257352",
+      "name": "Poppy – A simple app to stay intentional with relationships",
+      "url": "https://poppy-connection-keeper.netlify.app/",
+      "description": "Show HN: Poppy – A simple app to stay intentional with relationships",
+      "upvotes": 177,
+      "launch_date": "2026-03-07",
+      "platform_url": "https://news.ycombinator.com/item?id=47257352",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    }
+  ]
+}
