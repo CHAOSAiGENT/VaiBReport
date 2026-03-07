@@ -1,2047 +1,4224 @@
 {
   "kriasoft/react-starter-kit": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 23518
+      }
+    ],
+    "star_velocity": 0
   },
   "wasp-lang/open-saas": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 13489
+      }
+    ],
+    "star_velocity": 0
   },
   "ixartz/SaaS-Boilerplate": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 6877
+      }
+    ],
+    "star_velocity": 0
   },
   "boxyhq/saas-starter-kit": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 4719
+      }
+    ],
+    "star_velocity": 0
   },
   "async-labs/saas": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 4439
+      }
+    ],
+    "star_velocity": 0
   },
   "zenstackhq/zenstack": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 2833
+      }
+    ],
+    "star_velocity": 0
   },
   "apptension/saas-boilerplate": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 2830
+      }
+    ],
+    "star_velocity": 0
   },
   "ParabolInc/parabol": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 1998
+      }
+    ],
+    "star_velocity": 0
   },
   "graphile/starter": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 1820
+      }
+    ],
+    "star_velocity": 0
   },
   "getstation/desktop-app": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 1680
+      }
+    ],
+    "star_velocity": 0
   },
   "lost-pixel/lost-pixel": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 1642
+      }
+    ],
+    "star_velocity": 0
   },
   "NextJSTemplates/startup-nextjs": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 1629
+      }
+    ],
+    "star_velocity": 0
   },
   "saas-js/saas-ui": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 1621
+      }
+    ],
+    "star_velocity": 0
   },
   "revokslab/ShipFree": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 1610
+      }
+    ],
+    "star_velocity": 0
   },
   "steedos/steedos-platform": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 1544
+      }
+    ],
+    "star_velocity": 0
   },
   "alan345/AI-Fullstack-SaaS-Boilerplate": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 1368
+      }
+    ],
+    "star_velocity": 0
   },
   "denoland/saaskit": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 1326
+      }
+    ],
+    "star_velocity": 0
   },
   "Lissy93/domain-locker": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 1203
+      }
+    ],
+    "star_velocity": 0
   },
   "mugnavo/tanstarter": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 1027
+      }
+    ],
+    "star_velocity": 0
   },
   "keyshade-xyz/keyshade": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 747
+      }
+    ],
+    "star_velocity": 0
   },
   "devrsi0n/chirpy": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 598
+      }
+    ],
+    "star_velocity": 0
   },
   "NextJSTemplates/play-nextjs": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 585
+      }
+    ],
+    "star_velocity": 0
   },
   "weicanie/prisma-ai": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 357
+      }
+    ],
+    "star_velocity": 0
   },
   "get-convex/convex-saas": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 341
+      }
+    ],
+    "star_velocity": 0
   },
   "PaddleHQ/paddle-nextjs-starter-kit": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 331
+      }
+    ],
+    "star_velocity": 0
   },
   "NextJSTemplates/solid-nextjs": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 258
+      }
+    ],
+    "star_velocity": 0
   },
   "wrsrsh/startstack": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 230
+      }
+    ],
+    "star_velocity": 0
   },
   "build-canaries/nevergreen": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 229
+      }
+    ],
+    "star_velocity": 0
   },
   "metorial/metorial-platform": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 203
+      }
+    ],
+    "star_velocity": 0
   },
   "auth0-developer-hub/auth0-b2b-saas-starter": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 194
+      }
+    ],
+    "star_velocity": 0
   },
   "SaaSBold/saasbold-lite": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 170
+      }
+    ],
+    "star_velocity": 0
   },
   "argus-sight/refund-swatter-lite": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 166
+      }
+    ],
+    "star_velocity": 0
   },
   "gonzalochale/saas-landing-template": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 147
+      }
+    ],
+    "star_velocity": 0
   },
   "aws-samples/saas-reference-architecture-ecs": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 133
+      }
+    ],
+    "star_velocity": 0
   },
   "LimeJourney/limeJourney": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 127
+      }
+    ],
+    "star_velocity": 0
   },
   "digitalocean/sea-notes-saas-starter-kit": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 127
+      }
+    ],
+    "star_velocity": 0
   },
   "SAP-samples/btp-cap-genai-rag": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 119
+      }
+    ],
+    "star_velocity": 0
   },
   "codebucks27/Pictoria-AI-Starter-Code": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 94
+      }
+    ],
+    "star_velocity": 0
   },
   "updatedotdev/js": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 89
+      }
+    ],
+    "star_velocity": 0
   },
   "sanidhyy/genius-ai": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 79
+      }
+    ],
+    "star_velocity": 0
   },
   "AayushBharti/ai-saas-landing-starter": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 72
+      }
+    ],
+    "star_velocity": 0
   },
   "MinightDev/Autoshorts": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 60
+      }
+    ],
+    "star_velocity": 0
   },
   "aws-samples/aws-saas-factory-saas-microservices-workshop": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 55
+      }
+    ],
+    "star_velocity": 0
   },
   "MarsX-dev/seobot-nextjs-blog": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 53
+      }
+    ],
+    "star_velocity": 0
   },
   "deepsingh132/aionair": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 50
+      }
+    ],
+    "star_velocity": 0
   },
   "rcrdk/nextjs-fastify-saas-rbac": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 49
+      }
+    ],
+    "star_velocity": 0
   },
   "Somafet/onboardjs": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 48
+      }
+    ],
+    "star_velocity": 0
   },
   "kriasoft/better-auth": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 46
+      }
+    ],
+    "star_velocity": 0
   },
   "Blankeos/solid-launch": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 46
+      }
+    ],
+    "star_velocity": 0
   },
   "saas-js/saas-js": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 44
+      }
+    ],
+    "star_velocity": 0
   },
   "ln-dev7/square-ui": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 4942
+      }
+    ],
+    "star_velocity": 0
   },
   "cruip/open-react-template": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 4598
+      }
+    ],
+    "star_velocity": 0
   },
   "obytes/react-native-template-obytes": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 4043
+      }
+    ],
+    "star_velocity": 0
   },
   "cawa-93/vite-electron-builder": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 2948
+      }
+    ],
+    "star_velocity": 0
   },
   "chibat/chrome-extension-typescript-starter": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 2823
+      }
+    ],
+    "star_velocity": 0
   },
   "codercup/unibest": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 2794
+      }
+    ],
+    "star_velocity": 0
   },
   "spliit-app/spliit": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 2562
+      }
+    ],
+    "star_velocity": 0
   },
   "roninoss/create-expo-stack": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 2514
+      }
+    ],
+    "star_velocity": 0
   },
   "zce/caz": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 2482
+      }
+    ],
+    "star_velocity": 0
   },
   "ln-dev7/circle": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 2418
+      }
+    ],
+    "star_velocity": 0
   },
   "actions/typescript-action": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 2386
+      }
+    ],
+    "star_velocity": 0
   },
   "arifszn/gitprofile": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 2207
+      }
+    ],
+    "star_velocity": 0
   },
   "PaulRBerg/hardhat-template": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 1976
+      }
+    ],
+    "star_velocity": 0
   },
   "feige996/unibest": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 1917
+      }
+    ],
+    "star_velocity": 0
   },
   "BearStudio/start-ui-web": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 1689
+      }
+    ],
+    "star_velocity": 0
   },
   "Blazity/next-saas-starter": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 1661
+      }
+    ],
+    "star_velocity": 0
   },
   "reliverse/relivator": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 1543
+      }
+    ],
+    "star_velocity": 0
   },
   "shadcn-ui/next-template": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 1496
+      }
+    ],
+    "star_velocity": 0
   },
   "JoshuaKGoldberg/create-typescript-app": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 1370
+      }
+    ],
+    "star_velocity": 0
   },
   "emonney/QuickApp": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 1336
+      }
+    ],
+    "star_velocity": 0
   },
   "JohnBra/vite-web-extension": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 1154
+      }
+    ],
+    "star_velocity": 0
   },
   "guigrpa/docx-templates": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 1066
+      }
+    ],
+    "star_velocity": 0
   },
   "dishait/tov-template": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 976
+      }
+    ],
+    "star_velocity": 0
   },
   "Skolaczk/next-starter": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 970
+      }
+    ],
+    "star_velocity": 0
   },
   "agustinusnathaniel/nextarter-chakra": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 840
+      }
+    ],
+    "star_velocity": 0
   },
   "daltonmenezes/electron-app": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 790
+      }
+    ],
+    "star_velocity": 0
   },
   "windingwind/zotero-plugin-template": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 788
+      }
+    ],
+    "star_velocity": 0
   },
   "scaffdog/scaffdog": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 761
+      }
+    ],
+    "star_velocity": 0
   },
   "suren-atoyan/react-pwa": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 696
+      }
+    ],
+    "star_velocity": 0
   },
   "zhangyao1990/elegant-admin": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 687
+      }
+    ],
+    "star_velocity": 0
   },
   "kvnxiao/tauri-nextjs-template": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 671
+      }
+    ],
+    "star_velocity": 0
   },
   "KevinNovak/Discord-Bot-TypeScript-Template": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 622
+      }
+    ],
+    "star_velocity": 0
   },
   "mvllow/next-pwa-template": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 565
+      }
+    ],
+    "star_velocity": 0
   },
   "expo-starter/expo-local-first-template": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 553
+      }
+    ],
+    "star_velocity": 0
   },
   "uni-helper/vitesse-uni-app": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 546
+      }
+    ],
+    "star_velocity": 0
   },
   "un-pany/mobvue": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 541
+      }
+    ],
+    "star_velocity": 0
   },
   "thisismydesign/next-nest": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 513
+      }
+    ],
+    "star_velocity": 0
   },
   "mantinedev/next-pages-template": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 509
+      }
+    ],
+    "star_velocity": 0
   },
   "flaviuse/mern-authentication": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 507
+      }
+    ],
+    "star_velocity": 0
   },
   "tremorlabs/template-dashboard-oss": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 501
+      }
+    ],
+    "star_velocity": 0
   },
   "wataru-maeda/react-native-boilerplate": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 484
+      }
+    ],
+    "star_velocity": 0
   },
   "AlbertHernandez/nestjs-service-template": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 479
+      }
+    ],
+    "star_velocity": 0
   },
   "bot-base/telegram-bot-template": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 440
+      }
+    ],
+    "star_velocity": 0
   },
   "sankeyangshu/lemon-mobile-react": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 432
+      }
+    ],
+    "star_velocity": 0
   },
   "taiga-family/polymorpheus": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 408
+      }
+    ],
+    "star_velocity": 0
   },
   "KlingAIResearch/LivePortrait": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 17902
+      }
+    ],
+    "star_velocity": 0
   },
   "Wan-Video/Wan2.2": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 14529
+      }
+    ],
+    "star_velocity": 0
   },
   "zai-org/CogVideo": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 12490
+      }
+    ],
+    "star_velocity": 0
   },
   "duixcom/Duix-Avatar": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 12463
+      }
+    ],
+    "star_velocity": 0
   },
   "Tencent-Hunyuan/HunyuanVideo": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 11807
+      }
+    ],
+    "star_velocity": 0
   },
   "waoowaooAI/waoowaoo": {
     "appearances": 1,
-    "streak": 1,
+    "streak": 0,
     "last_seen": "2026-03-06",
     "first_seen": "2026-03-06",
     "last_seen_prev": "2026-03-06"
   },
   "showlab/Awesome-Video-Diffusion": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 5500
+      }
+    ],
+    "star_velocity": 0
   },
   "AILab-CVC/VideoCrafter": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 5036
+      }
+    ],
+    "star_velocity": 0
   },
   "Tencent-Hunyuan/HunyuanVideo-1.5": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 4591
+      }
+    ],
+    "star_velocity": 0
   },
   "antgroup/echomimic_v2": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 4497
+      }
+    ],
+    "star_velocity": 0
   },
   "ali-vilab/VACE": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 3671
+      }
+    ],
+    "star_velocity": 0
   },
   "SandAI-org/MAGI-1": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 3649
+      }
+    ],
+    "star_velocity": 0
   },
   "thu-ml/TurboDiffusion": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 3386
+      }
+    ],
+    "star_velocity": 0
   },
   "thu-ml/SageAttention": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 3195
+      }
+    ],
+    "star_velocity": 0
   },
   "hao-ai-lab/FastVideo": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 3127
+      }
+    ],
+    "star_velocity": 0
   },
   "SamurAIGPT/AI-Youtube-Shorts-Generator": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 3081
+      }
+    ],
+    "star_velocity": 0
   },
   "Robbyant/lingbot-world": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 3071
+      }
+    ],
+    "star_velocity": 0
   },
   "vllm-project/vllm-omni": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 2946
+      }
+    ],
+    "star_velocity": 0
   },
   "SamurAIGPT/Generative-Media-Skills": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 2861
+      }
+    ],
+    "star_velocity": 0
   },
   "AIDC-AI/Pixelle-Video": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 2904
+      }
+    ],
+    "star_velocity": 0
   },
   "Tencent/MimicMotion": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 2540
+      }
+    ],
+    "star_velocity": 0
   },
   "GVCLab/PersonaLive": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 2407
+      }
+    ],
+    "star_velocity": 0
   },
   "HKUDS/ViMax": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 2396
+      }
+    ],
+    "star_velocity": 0
   },
   "ModelTC/LightX2V": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 2032
+      }
+    ],
+    "star_velocity": 0
   },
   "SkyworkAI/Matrix-Game": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 1858
+      }
+    ],
+    "star_velocity": 0
   },
   "KlingAIResearch/ReCamMaster": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 1757
+      }
+    ],
+    "star_velocity": 0
   },
   "showlab/Code2Video": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 1579
+      }
+    ],
+    "star_velocity": 0
   },
   "menyifang/MIMO": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 1574
+      }
+    ],
+    "star_velocity": 0
   },
   "Vchitect/VBench": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 1514
+      }
+    ],
+    "star_velocity": 0
   },
   "Phantom-video/Phantom": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 1490
+      }
+    ],
+    "star_velocity": 0
   },
   "PKU-YuanGroup/MagicTime": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 1344
+      }
+    ],
+    "star_velocity": 0
   },
   "MiniMax-AI/MiniMax-MCP": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 1298
+      }
+    ],
+    "star_velocity": 0
   },
   "ali-vilab/TeaCache": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 1281
+      }
+    ],
+    "star_velocity": 0
   },
   "snap-research/articulated-animation": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 1276
+      }
+    ],
+    "star_velocity": 0
   },
   "Francis-Rings/StableAvatar": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 1211
+      }
+    ],
+    "star_velocity": 0
   },
   "Tencent-Hunyuan/HunyuanCustom": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 1209
+      }
+    ],
+    "star_velocity": 0
   },
   "ali-vilab/UniAnimate": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 1189
+      }
+    ],
+    "star_velocity": 0
   },
   "cure-lab/MagicDrive": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 1163
+      }
+    ],
+    "star_velocity": 0
   },
   "wladradchenko/wunjo.wladradchenko.ru": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 1127
+      }
+    ],
+    "star_velocity": 0
   },
   "gyoridavid/short-video-maker": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 1003
+      }
+    ],
+    "star_velocity": 0
   },
   "SamurAIGPT/muapi-cli": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 970
+      }
+    ],
+    "star_velocity": 0
   },
   "thu-ml/SpargeAttn": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 953
+      }
+    ],
+    "star_velocity": 0
   },
   "360CVGroup/FancyVideo": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 920
+      }
+    ],
+    "star_velocity": 0
   },
   "mayuelala/FollowYourClick": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 912
+      }
+    ],
+    "star_velocity": 0
   },
   "nvidia-cosmos/cosmos-predict2.5": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 890
+      }
+    ],
+    "star_velocity": 0
   },
   "cuixing158/Awesome-CV-MasterHub": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 879
+      }
+    ],
+    "star_velocity": 0
   },
   "zai-org/SCAIL": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 876
+      }
+    ],
+    "star_velocity": 0
   },
   "OpenDriveLab/Vista": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 859
+      }
+    ],
+    "star_velocity": 0
   },
   "worldbench/awesome-3d-4d-world-models": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 841
+      }
+    ],
+    "star_velocity": 0
   },
   "ali-vilab/UniAnimate-DiT": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 837
+      }
+    ],
+    "star_velocity": 0
   },
   "AUTOMATIC1111/stable-diffusion-webui": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 161539
+      }
+    ],
+    "star_velocity": 0
   },
   "invoke-ai/InvokeAI": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 26850
+      }
+    ],
+    "star_velocity": 0
   },
   "camenduru/stable-diffusion-webui-colab": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 15957
+      }
+    ],
+    "star_velocity": 0
   },
   "willwulfken/MidJourney-Styles-and-Keywords-Reference": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 12289
+      }
+    ],
+    "star_velocity": 0
   },
   "jamez-bondos/awesome-gpt4o-images": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 7858
+      }
+    ],
+    "star_velocity": 0
   },
   "vladmandic/sdnext": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 6981
+      }
+    ],
+    "star_velocity": 0
   },
   "philz1337x/clarity-upscaler": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 4995
+      }
+    ],
+    "star_velocity": 0
   },
   "nateraw/stable-diffusion-videos": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 4666
+      }
+    ],
+    "star_velocity": 0
   },
   "filipecalegario/awesome-generative-ai": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 3383
+      }
+    ],
+    "star_velocity": 0
   },
   "FurkanGozukara/Stable-Diffusion": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 2644
+      }
+    ],
+    "star_velocity": 0
   },
   "Stability-AI/stability-sdk": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 2439
+      }
+    ],
+    "star_velocity": 0
   },
   "pydn/ComfyUI-to-Python-Extension": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 2262
+      }
+    ],
+    "star_velocity": 0
   },
   "Capsize-Games/airunner": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 1309
+      }
+    ],
+    "star_velocity": 0
   },
   "bacalhau-project/bacalhau": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 851
+      }
+    ],
+    "star_velocity": 0
   },
   "lum3on/comfyui_HiDream-Sampler": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 483
+      }
+    ],
+    "star_velocity": 0
   },
   "rockbenben/img-prompt": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 291
+      }
+    ],
+    "star_velocity": 0
   },
   "ssube/onnx-web": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 234
+      }
+    ],
+    "star_velocity": 0
   },
   "bentoml/comfy-pack": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 208
+      }
+    ],
+    "star_velocity": 0
   },
   "daveschumaker/artbot-for-stable-diffusion": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 185
+      }
+    ],
+    "star_velocity": 0
   },
   "ThetaCursed/Anima-Style-Explorer": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 118
+      }
+    ],
+    "star_velocity": 0
   },
   "Super-Maker-AI/awesome-nano-banana": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 99
+      }
+    ],
+    "star_velocity": 0
   },
   "jezs00/pycasso": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 88
+      }
+    ],
+    "star_velocity": 0
   },
   "Onion99/KMP-MineStableDiffusion": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 72
+      }
+    ],
+    "star_velocity": 0
   },
   "shellus/mj-studio": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 66
+      }
+    ],
+    "star_velocity": 0
   },
   "Kedreamix/Linly-Talker": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 3163
+      }
+    ],
+    "star_velocity": 0
   },
   "weihaox/awesome-digital-human": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 1910
+      }
+    ],
+    "star_velocity": 0
   },
   "andremichelle/openDAW": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 1285
+      }
+    ],
+    "star_velocity": 0
   },
   "onflow/flow-go": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 563
+      }
+    ],
+    "star_velocity": 0
   },
   "Yuan-ManX/audio-development-tools": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 438
+      }
+    ],
+    "star_velocity": 0
   },
   "onflow/flow": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 357
+      }
+    ],
+    "star_velocity": 0
   },
   "taoofagi/easegen-front": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 253
+      }
+    ],
+    "star_velocity": 0
   },
   "muzishen/IMAGGarment": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 249
+      }
+    ],
+    "star_velocity": 0
   },
   "RahulAutade2288/payments-modernization-hub": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 220
+      }
+    ],
+    "star_velocity": 0
   },
   "atrocore/atrodam": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 122
+      }
+    ],
+    "star_velocity": 0
   },
   "YezQiu/Tiemu": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 114
+      }
+    ],
+    "star_velocity": 0
   },
   "ASUCICREPO/PDF_Accessibility": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 105
+      }
+    ],
+    "star_velocity": 0
   },
   "XYFrank103/StegoShark": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 81
+      }
+    ],
+    "star_velocity": 0
   },
   "phishdestroy/Nigerian-dignity": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 79
+      }
+    ],
+    "star_velocity": 0
   },
   "ndrwmlnk/Awesome-Digital-Twins": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 74
+      }
+    ],
+    "star_velocity": 0
   },
   "signalspec/signalspec": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 59
+      }
+    ],
+    "star_velocity": 0
   },
   "VAZlabs/cyber-find": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 58
+      }
+    ],
+    "star_velocity": 0
   },
   "OpenSenseNova/SekoTalk": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 42
+      }
+    ],
+    "star_velocity": 0
   },
   "Lmyxxn/XL-MIMO-LAE": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 39
+      }
+    ],
+    "star_velocity": 0
   },
   "0rlych1kk4/quantum_identity_system": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 38
+      }
+    ],
+    "star_velocity": 0
   },
   "sonnhfit/SonAgent": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 36
+      }
+    ],
+    "star_velocity": 0
   },
   "YouMind-OpenLab/awesome-nano-banana-pro-prompts": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 8546
+      }
+    ],
+    "star_velocity": 0
   },
   "mylxsw/aidea": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 6931
+      }
+    ],
+    "star_velocity": 0
   },
   "Anil-matcha/Open-Higgsfield-AI": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 2455
+      }
+    ],
+    "star_velocity": 0
   },
   "apocas/restai": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 479
+      }
+    ],
+    "star_velocity": 0
   },
   "Bria-AI/FIBO": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 304
+      }
+    ],
+    "star_velocity": 0
   },
   "ammaarreshi/openjourney": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 229
+      }
+    ],
+    "star_velocity": 0
   },
   "mifi/instauto": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 838
+      }
+    ],
+    "star_velocity": 0
   },
   "gitcoffee-os/postbot": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 665
+      }
+    ],
+    "star_velocity": 0
   },
   "Useful-Scripts-Extension/useful-script": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 428
+      }
+    ],
+    "star_velocity": 0
   },
   "new92/igfi": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 292
+      }
+    ],
+    "star_velocity": 0
   },
   "new92/instatools": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 275
+      }
+    ],
+    "star_velocity": 0
   },
   "ChetanXpro/short-video-automation": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 167
+      }
+    ],
+    "star_velocity": 0
   },
   "somiibo/instagram-bot": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 126
+      }
+    ],
+    "star_velocity": 0
   },
   "vishalgojha/social-flow": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 113
+      }
+    ],
+    "star_velocity": 0
   },
   "M3rcuryLake/Cassette": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 67
+      }
+    ],
+    "star_velocity": 0
   },
   "anniedotexe/Instagram-Like-Comment-Bot": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 66
+      }
+    ],
+    "star_velocity": 0
   },
   "TnYtCoder/InstaPilot": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 59
+      }
+    ],
+    "star_velocity": 0
   },
   "ranahaani/autogram": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 59
+      }
+    ],
+    "star_velocity": 0
   },
   "SashenJayathilaka/SAAS-Instagram-DM-Automations": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 41
+      }
+    ],
+    "star_velocity": 0
   },
   "Z786ZA/instagram-scraper": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 38
+      }
+    ],
+    "star_velocity": 0
   },
   "itallonardi/rapidclip-generator": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 37
+      }
+    ],
+    "star_velocity": 0
   },
   "Z786ZA/instagram-scraper-api": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 32
+      }
+    ],
+    "star_velocity": 0
   },
   "Z786ZA/instagram-api-documentation": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 33
+      }
+    ],
+    "star_velocity": 0
   },
   "nelsonmis/instablaster": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 31
+      }
+    ],
+    "star_velocity": 0
   },
   "Z786ZA/instagram-scraper-tool": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 31
+      }
+    ],
+    "star_velocity": 0
   },
   "bigint/hey": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 29498
+      }
+    ],
+    "star_velocity": 0
   },
   "gitroomhq/postiz-app": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 27050
+      }
+    ],
+    "star_velocity": 0
   },
   "growchief/growchief": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 3283
+      }
+    ],
+    "star_velocity": 0
   },
   "langchain-ai/social-media-agent": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 2333
+      }
+    ],
+    "star_velocity": 0
   },
   "leaperone/MultiPost-Extension": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 2118
+      }
+    ],
+    "star_velocity": 0
   },
   "iszhouhua/social-media-copilot": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 950
+      }
+    ],
+    "star_velocity": 0
   },
   "apify/apify-mcp-server": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 864
+      }
+    ],
+    "star_velocity": 0
   },
   "feeddeck/feeddeck": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 300
+      }
+    ],
+    "star_velocity": 0
   },
   "leandronorcio/munia": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 293
+      }
+    ],
+    "star_velocity": 0
   },
   "gabboman/wafrn": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 288
+      }
+    ],
+    "star_velocity": 0
   },
   "neplexlabs/canvacord": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 260
+      }
+    ],
+    "star_velocity": 0
   },
   "danilobatson/ai-trading-agent-gemini": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 209
+      }
+    ],
+    "star_velocity": 0
   },
   "boqingren/tiktok-emojis": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 202
+      }
+    ],
+    "star_velocity": 0
   },
   "huggingface/diffusers": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 32944
+      }
+    ],
+    "star_velocity": 0
   },
   "PicoTrex/Awesome-Nano-Banana-images": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 21182
+      }
+    ],
+    "star_velocity": 0
   },
   "FoundationVision/VAR": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 8630
+      }
+    ],
+    "star_velocity": 0
   },
   "brycedrennan/imaginAIry": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 8142
+      }
+    ],
+    "star_velocity": 0
   },
   "QwenLM/Qwen-Image": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 7497
+      }
+    ],
+    "star_velocity": 0
   },
   "salesforce/BLIP": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 5689
+      }
+    ],
+    "star_velocity": 0
   },
   "xxlong0/Wonder3D": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 5337
+      }
+    ],
+    "star_velocity": 0
   },
   "MeiGen-AI/InfiniteTalk": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 4951
+      }
+    ],
+    "star_velocity": 0
   },
   "VectorSpaceLab/OmniGen": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 4311
+      }
+    ],
+    "star_velocity": 0
   },
   "Hunyuan-PromptEnhancer/PromptEnhancer": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 3626
+      }
+    ],
+    "star_velocity": 0
   },
   "AiuniAI/Unique3D": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 3543
+      }
+    ],
+    "star_velocity": 0
   },
   "open-xml-templating/docxtemplater": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 3524
+      }
+    ],
+    "star_velocity": 0
   },
   "Tencent-Hunyuan/Hunyuan3D-1": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 3474
+      }
+    ],
+    "star_velocity": 0
   },
   "DLR-RM/BlenderProc": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 3429
+      }
+    ],
+    "star_velocity": 0
   },
   "symfony/asset": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 3163
+      }
+    ],
+    "star_velocity": 0
   },
   "elegantapp/pwa-asset-generator": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 2995
+      }
+    ],
+    "star_velocity": 0
   },
   "Tencent-Hunyuan/HunyuanImage-3.0": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 2899
+      }
+    ],
+    "star_velocity": 0
   },
   "Yutong-Zhou-cv/Awesome-Text-to-Image": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 2427
+      }
+    ],
+    "star_velocity": 0
   },
   "antirez/iris.c": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 1878
+      }
+    ],
+    "star_velocity": 0
   },
   "Kav-K/GPTDiscord": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 1850
+      }
+    ],
+    "star_velocity": 0
   },
   "szczyglis-dev/py-gpt": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 1666
+      }
+    ],
+    "star_velocity": 0
   },
   "franciszzj/Leffa": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 1650
+      }
+    ],
+    "star_velocity": 0
   },
   "zai-org/ImageReward": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 1642
+      }
+    ],
+    "star_velocity": 0
   },
   "guochengqian/Magic123": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 1618
+      }
+    ],
+    "star_velocity": 0
   },
   "yincongcyincong/MuseBot": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 1569
+      }
+    ],
+    "star_velocity": 0
   },
   "ArthurHub/HTML-Renderer": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 1357
+      }
+    ],
+    "star_velocity": 0
   },
   "zhaochen0110/Awesome_Think_With_Images": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 1349
+      }
+    ],
+    "star_velocity": 0
   },
   "muzishen/IMAGDressing": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 1328
+      }
+    ],
+    "star_velocity": 0
   },
   "huanngzh/MV-Adapter": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 1239
+      }
+    ],
+    "star_velocity": 0
   },
   "unum-cloud/UForm": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 1221
+      }
+    ],
+    "star_velocity": 0
   },
   "owasp-dep-scan/dep-scan": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 1211
+      }
+    ],
+    "star_velocity": 0
   },
   "KaihuaTang/Scene-Graph-Benchmark.pytorch": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 1186
+      }
+    ],
+    "star_velocity": 0
   },
   "jtydhr88/ComfyUI-qwenmultiangle": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 982
+      }
+    ],
+    "star_velocity": 0
   },
   "Dreamy-rain/gemini-business2api": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 970
+      }
+    ],
+    "star_velocity": 0
   },
   "FoundationVision/Waver": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 904
+      }
+    ],
+    "star_velocity": 0
   },
   "VAST-AI-Research/MIDI-3D": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 890
+      }
+    ],
+    "star_velocity": 0
   },
   "ZiyuGuo99/Image-Generation-CoT": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 858
+      }
+    ],
+    "star_velocity": 0
   },
   "GAIR-NLP/anole": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 827
+      }
+    ],
+    "star_velocity": 0
   },
   "caiyuanhao1998/Open-DiffusionGS": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 818
+      }
+    ],
+    "star_velocity": 0
   },
   "rksm/org-ai": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 810
+      }
+    ],
+    "star_velocity": 0
   },
   "zai-org/GLM-Image": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 809
+      }
+    ],
+    "star_velocity": 0
   },
   "aquasecurity/trivy": {
     "appearances": 1,
-    "streak": 1,
+    "streak": 0,
     "last_seen": "2026-03-06",
     "first_seen": "2026-03-06",
     "last_seen_prev": "2026-03-06"
   },
   "apache/airflow": {
     "appearances": 1,
-    "streak": 1,
+    "streak": 0,
     "last_seen": "2026-03-06",
     "first_seen": "2026-03-06",
     "last_seen_prev": "2026-03-06"
   },
   "nautechsystems/nautilus_trader": {
     "appearances": 1,
-    "streak": 1,
+    "streak": 0,
     "last_seen": "2026-03-06",
     "first_seen": "2026-03-06",
     "last_seen_prev": "2026-03-06"
   },
   "Dao-AILab/flash-attention": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 22592
+      }
+    ],
+    "star_velocity": 0
   },
   "khoj-ai/khoj": {
     "appearances": 1,
-    "streak": 1,
+    "streak": 0,
     "last_seen": "2026-03-06",
     "first_seen": "2026-03-06",
     "last_seen_prev": "2026-03-06"
   },
   "containerd/containerd": {
     "appearances": 1,
-    "streak": 1,
+    "streak": 0,
     "last_seen": "2026-03-06",
     "first_seen": "2026-03-06",
     "last_seen_prev": "2026-03-06"
   },
   "sympy/sympy": {
     "appearances": 1,
-    "streak": 1,
+    "streak": 0,
     "last_seen": "2026-03-06",
     "first_seen": "2026-03-06",
     "last_seen_prev": "2026-03-06"
   },
   "microsoft/qlib": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 38379
+      }
+    ],
+    "star_velocity": 0
   },
   "hoppscotch/hoppscotch": {
     "appearances": 1,
-    "streak": 1,
+    "streak": 0,
     "last_seen": "2026-03-06",
     "first_seen": "2026-03-06",
     "last_seen_prev": "2026-03-06"
   },
   "nlohmann/json": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-03-06",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-03-07",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-06"
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 49049
+      }
+    ],
+    "star_velocity": 0
   },
   "PostHog/posthog": {
     "appearances": 1,
-    "streak": 1,
+    "streak": 0,
     "last_seen": "2026-03-06",
     "first_seen": "2026-03-06",
     "last_seen_prev": "2026-03-06"
   },
   "MudBlazor/MudBlazor": {
     "appearances": 1,
-    "streak": 1,
+    "streak": 0,
     "last_seen": "2026-03-06",
     "first_seen": "2026-03-06",
     "last_seen_prev": "2026-03-06"
   },
   "rustdesk/rustdesk": {
     "appearances": 1,
-    "streak": 1,
+    "streak": 0,
     "last_seen": "2026-03-06",
     "first_seen": "2026-03-06",
     "last_seen_prev": "2026-03-06"
   },
   "microsoft/PowerToys": {
     "appearances": 1,
-    "streak": 1,
+    "streak": 0,
     "last_seen": "2026-03-06",
     "first_seen": "2026-03-06",
     "last_seen_prev": "2026-03-06"
   },
   "OpenAPITools/openapi-generator": {
     "appearances": 1,
-    "streak": 1,
+    "streak": 0,
     "last_seen": "2026-03-06",
     "first_seen": "2026-03-06",
     "last_seen_prev": "2026-03-06"
   },
   "bufbuild/buf": {
     "appearances": 1,
-    "streak": 1,
+    "streak": 0,
     "last_seen": "2026-03-06",
     "first_seen": "2026-03-06",
     "last_seen_prev": "2026-03-06"
   },
   "shopware/shopware": {
     "appearances": 1,
-    "streak": 1,
+    "streak": 0,
     "last_seen": "2026-03-06",
     "first_seen": "2026-03-06",
     "last_seen_prev": "2026-03-06"
   },
   "sqlfluff/sqlfluff": {
     "appearances": 1,
-    "streak": 1,
+    "streak": 0,
     "last_seen": "2026-03-06",
     "first_seen": "2026-03-06",
     "last_seen_prev": "2026-03-06"
   },
   "projectdiscovery/katana": {
     "appearances": 1,
-    "streak": 1,
+    "streak": 0,
     "last_seen": "2026-03-06",
     "first_seen": "2026-03-06",
     "last_seen_prev": "2026-03-06"
   },
   "fastify/fastify": {
     "appearances": 1,
-    "streak": 1,
+    "streak": 0,
     "last_seen": "2026-03-06",
     "first_seen": "2026-03-06",
     "last_seen_prev": "2026-03-06"
   },
   "jomjol/AI-on-the-edge-device": {
     "appearances": 1,
-    "streak": 1,
+    "streak": 0,
     "last_seen": "2026-03-06",
     "first_seen": "2026-03-06",
     "last_seen_prev": "2026-03-06"
   },
   "termux/termux-packages": {
     "appearances": 1,
-    "streak": 1,
+    "streak": 0,
     "last_seen": "2026-03-06",
     "first_seen": "2026-03-06",
     "last_seen_prev": "2026-03-06"
   },
   "gitleaks/gitleaks": {
     "appearances": 1,
-    "streak": 1,
+    "streak": 0,
     "last_seen": "2026-03-06",
     "first_seen": "2026-03-06",
     "last_seen_prev": "2026-03-06"
   },
-  "_last_run": "2026-03-06"
+  "_last_run": "2026-03-07",
+  "saturndec/waoowaoo": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-07",
+    "first_seen": "2026-03-07",
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 8620
+      }
+    ],
+    "star_velocity": 0
+  },
+  "aplaceforallmystuff/claude-art-skill": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-07",
+    "first_seen": "2026-03-07",
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 52
+      }
+    ],
+    "star_velocity": 0
+  },
+  "GopeedLab/gopeed": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-07",
+    "first_seen": "2026-03-07",
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 23027
+      }
+    ],
+    "star_velocity": 0
+  },
+  "donnemartin/system-design-primer": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-07",
+    "first_seen": "2026-03-07",
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 337788
+      }
+    ],
+    "star_velocity": 0
+  },
+  "google/flatbuffers": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-07",
+    "first_seen": "2026-03-07",
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 25618
+      }
+    ],
+    "star_velocity": 0
+  },
+  "binhnguyennus/awesome-scalability": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-07",
+    "first_seen": "2026-03-07",
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 69140
+      }
+    ],
+    "star_velocity": 0
+  },
+  "juce-framework/JUCE": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-07",
+    "first_seen": "2026-03-07",
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 8133
+      }
+    ],
+    "star_velocity": 0
+  },
+  "psf/black": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-07",
+    "first_seen": "2026-03-07",
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 41420
+      }
+    ],
+    "star_velocity": 0
+  },
+  "weaviate/weaviate": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-07",
+    "first_seen": "2026-03-07",
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 15751
+      }
+    ],
+    "star_velocity": 0
+  },
+  "ixartz/Next-js-Boilerplate": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-07",
+    "first_seen": "2026-03-07",
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 12707
+      }
+    ],
+    "star_velocity": 0
+  },
+  "google/osv-scanner": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-07",
+    "first_seen": "2026-03-07",
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 8520
+      }
+    ],
+    "star_velocity": 0
+  },
+  "toeverything/blocksuite": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-07",
+    "first_seen": "2026-03-07",
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 5634
+      }
+    ],
+    "star_velocity": 0
+  },
+  "baserow/baserow": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-07",
+    "first_seen": "2026-03-07",
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 4336
+      }
+    ],
+    "star_velocity": 0
+  },
+  "meshery/meshery": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-07",
+    "first_seen": "2026-03-07",
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 10029
+      }
+    ],
+    "star_velocity": 0
+  },
+  "FreeRTOS/FreeRTOS-Kernel": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-07",
+    "first_seen": "2026-03-07",
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 3897
+      }
+    ],
+    "star_velocity": 0
+  },
+  "microsoft/onnxruntime": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-07",
+    "first_seen": "2026-03-07",
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 19459
+      }
+    ],
+    "star_velocity": 0
+  },
+  "sudheerj/reactjs-interview-questions": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-07",
+    "first_seen": "2026-03-07",
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 44325
+      }
+    ],
+    "star_velocity": 0
+  },
+  "pyg-team/pytorch_geometric": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-07",
+    "first_seen": "2026-03-07",
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 23537
+      }
+    ],
+    "star_velocity": 0
+  },
+  "sdmg15/Best-websites-a-programmer-should-visit": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-07",
+    "first_seen": "2026-03-07",
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 75796
+      }
+    ],
+    "star_velocity": 0
+  },
+  "NVIDIA/cutlass": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-03-07",
+    "first_seen": "2026-03-07",
+    "last_seen_prev": "2026-03-07",
+    "star_snapshots": [
+      {
+        "date": "2026-03-07",
+        "stars": 9366
+      }
+    ],
+    "star_velocity": 0
+  }
 }
