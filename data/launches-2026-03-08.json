@@ -1,0 +1,112 @@
+{
+  "generated_at": "2026-03-08T14:00:12.093Z",
+  "source": "launches",
+  "counts": {
+    "hackernews_showhn": 9,
+    "devhunt": 0,
+    "betalist": 0,
+    "uneed": 0,
+    "total": 9
+  },
+  "launches": [
+    {
+      "id": "showhn-47296355",
+      "name": "Eyot, A programming language where the GPU is just another thread",
+      "url": "https://cowleyforniastudios.com/2026/03/08/announcing-eyot/",
+      "description": "Show HN: Eyot, A programming language where the GPU is just another thread",
+      "upvotes": 25,
+      "launch_date": "2026-03-08",
+      "platform_url": "https://news.ycombinator.com/item?id=47296355",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47295279",
+      "name": "Curiosity – DIY 6\" Newtonian Reflector Telescope",
+      "url": "https://curiosity-telescope.vercel.app/",
+      "description": "Show HN: Curiosity – DIY 6\" Newtonian Reflector Telescope",
+      "upvotes": 50,
+      "launch_date": "2026-03-08",
+      "platform_url": "https://news.ycombinator.com/item?id=47295279",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47247762",
+      "name": "A weird thing that detects your pulse from the browser video",
+      "url": "https://pulsefeedback.io/",
+      "description": "Show HN: A weird thing that detects your pulse from the browser video",
+      "upvotes": 100,
+      "launch_date": "2026-03-08",
+      "platform_url": "https://news.ycombinator.com/item?id=47247762",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47288007",
+      "name": "ANSI-Saver – A macOS Screensaver",
+      "url": "https://github.com/lardissone/ansi-saver",
+      "description": "Show HN: ANSI-Saver – A macOS Screensaver",
+      "upvotes": 99,
+      "launch_date": "2026-03-08",
+      "platform_url": "https://news.ycombinator.com/item?id=47288007",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47285876",
+      "name": "µJS, a 5KB alternative to Htmx and Turbo with zero dependencies",
+      "url": "https://mujs.org",
+      "description": "Show HN: µJS, a 5KB alternative to Htmx and Turbo with zero dependencies",
+      "upvotes": 141,
+      "launch_date": "2026-03-08",
+      "platform_url": "https://news.ycombinator.com/item?id=47285876",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47282807",
+      "name": "Kula – Lightweight, self-contained Linux server monitoring tool",
+      "url": "https://github.com/c0m4r/kula",
+      "description": "Show HN: Kula – Lightweight, self-contained Linux server monitoring tool",
+      "upvotes": 84,
+      "launch_date": "2026-03-08",
+      "platform_url": "https://news.ycombinator.com/item?id=47282807",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47282225",
+      "name": "I open-sourced my Steam game, 100% written in Lua, engine is also open",
+      "url": "https://github.com/willtobyte/reprobate",
+      "description": "Show HN: I open-sourced my Steam game, 100% written in Lua, engine is also open",
+      "upvotes": 54,
+      "launch_date": "2026-03-08",
+      "platform_url": "https://news.ycombinator.com/item?id=47282225",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47275236",
+      "name": "Moongate – Ultima Online server emulator in .NET 10 with Lua scripting",
+      "url": "https://github.com/moongate-community/moongatev2",
+      "description": "Show HN: Moongate – Ultima Online server emulator in .NET 10 with Lua scripting",
+      "upvotes": 282,
+      "launch_date": "2026-03-08",
+      "platform_url": "https://news.ycombinator.com/item?id=47275236",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47276604",
+      "name": "Claude-replay – A video-like player for Claude Code sessions",
+      "url": "https://github.com/es617/claude-replay",
+      "description": "Show HN: Claude-replay – A video-like player for Claude Code sessions",
+      "upvotes": 100,
+      "launch_date": "2026-03-08",
+      "platform_url": "https://news.ycombinator.com/item?id=47276604",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    }
+  ]
+}
