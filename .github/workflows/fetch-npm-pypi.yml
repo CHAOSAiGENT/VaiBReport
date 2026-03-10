@@ -176,4 +176,8 @@ jobs:
           git add data/
           git diff --cached --quiet && echo "No changes" && exit 0
           git commit -m "Add npm/PyPI snapshot for ${date}"
-          git push
+          for i in 1 2 3 4 5; do
+            git pull --rebase origin main && git push && break
+            echo "Push attempt $i failed, retrying in 10s..."
+            sleep 10
+          done

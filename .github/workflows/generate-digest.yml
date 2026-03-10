@@ -496,8 +496,10 @@ jobs:
           }
 
           const latestFile = `data/${dataFiles[0]}`;
-          const dateMatch = dataFiles[0].match(/repos-(\d{4}-\d{2}-\d{2})\.json/);
-          const digestDate = dateMatch[1];
+
+          // Always use today's UTC date for the digest post — never derive it
+          // from the data filename, or stale data files will block generation.
+          const digestDate = new Date().toISOString().slice(0, 10);
 
           const postPath = `_posts/${digestDate}-github-digest.md`;
           if (fs.existsSync(postPath)) {
@@ -1175,4 +1177,8 @@ jobs:
           git add _posts/ _repos/ data/seen*.json data/health-*.json config/spotlight.json
           git diff --cached --quiet && echo "No new digest" && exit 0
           git commit -m "Add digest for ${date}"
-          git push
+          for i in 1 2 3 4 5; do
+            git pull --rebase origin main && git push && break
+            echo "Push attempt $i failed, retrying in 10s..."
+            sleep 10
+          done
