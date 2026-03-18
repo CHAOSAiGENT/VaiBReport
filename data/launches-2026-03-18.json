@@ -1,0 +1,200 @@
+{
+  "generated_at": "2026-03-18T14:49:13.461Z",
+  "source": "launches",
+  "counts": {
+    "hackernews_showhn": 17,
+    "devhunt": 0,
+    "betalist": 0,
+    "uneed": 0,
+    "total": 17
+  },
+  "launches": [
+    {
+      "id": "showhn-47409222",
+      "name": "Pgit – A Git-like CLI backed by PostgreSQL",
+      "url": "https://oseifert.ch/blog/building-pgit",
+      "description": "Show HN: Pgit – A Git-like CLI backed by PostgreSQL",
+      "upvotes": 84,
+      "launch_date": "2026-03-18",
+      "platform_url": "https://news.ycombinator.com/item?id=47409222",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47412569",
+      "name": "Sub-millisecond VM sandboxes using CoW memory forking",
+      "url": "https://github.com/adammiribyan/zeroboot",
+      "description": "Show HN: Sub-millisecond VM sandboxes using CoW memory forking",
+      "upvotes": 222,
+      "launch_date": "2026-03-18",
+      "platform_url": "https://news.ycombinator.com/item?id=47412569",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47371785",
+      "name": "Fatal Core Dump – A debugging murder mystery played with GDB",
+      "url": "https://www.robopenguins.com/fatal_core_dump/",
+      "description": "Show HN: Fatal Core Dump – A debugging murder mystery played with GDB",
+      "upvotes": 62,
+      "launch_date": "2026-03-18",
+      "platform_url": "https://news.ycombinator.com/item?id=47371785",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47408727",
+      "name": "Crust – A CLI framework for TypeScript and Bun",
+      "url": "https://github.com/chenxin-yan/crust",
+      "description": "Show HN: Crust – A CLI framework for TypeScript and Bun",
+      "upvotes": 87,
+      "launch_date": "2026-03-18",
+      "platform_url": "https://news.ycombinator.com/item?id=47408727",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47372020",
+      "name": "I built an interactive 3D three-body problem simulator in the browser",
+      "url": "https://structuredlabs.github.io/threebodyproblem/",
+      "description": "Show HN: I built an interactive 3D three-body problem simulator in the browser",
+      "upvotes": 59,
+      "launch_date": "2026-03-18",
+      "platform_url": "https://news.ycombinator.com/item?id=47372020",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47416227",
+      "name": "Horizon – GPU-accelerated infinite-canvas terminal in Rust",
+      "url": "https://github.com/peters/horizon",
+      "description": "Show HN: Horizon – GPU-accelerated infinite-canvas terminal in Rust",
+      "upvotes": 70,
+      "launch_date": "2026-03-18",
+      "platform_url": "https://news.ycombinator.com/item?id=47416227",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47400868",
+      "name": "Claude Code skills that build complete Godot games",
+      "url": "https://github.com/htdt/godogen",
+      "description": "Show HN: Claude Code skills that build complete Godot games",
+      "upvotes": 315,
+      "launch_date": "2026-03-18",
+      "platform_url": "https://news.ycombinator.com/item?id=47400868",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47414291",
+      "name": "Antfly: Distributed, Multimodal Search and Memory and Graphs in Go",
+      "url": "https://github.com/antflydb/antfly",
+      "description": "Show HN: Antfly: Distributed, Multimodal Search and Memory and Graphs in Go",
+      "upvotes": 97,
+      "launch_date": "2026-03-18",
+      "platform_url": "https://news.ycombinator.com/item?id=47414291",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47366766",
+      "name": "Thermal Receipt Printers – Markdown and Web UI",
+      "url": "https://github.com/sadreck/ThermalMarky",
+      "description": "Show HN: Thermal Receipt Printers – Markdown and Web UI",
+      "upvotes": 115,
+      "launch_date": "2026-03-18",
+      "platform_url": "https://news.ycombinator.com/item?id=47366766",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47411547",
+      "name": "I built a message board where you pay to be the homepage",
+      "url": "https://saythat.sh",
+      "description": "Show HN: I built a message board where you pay to be the homepage",
+      "upvotes": 17,
+      "launch_date": "2026-03-18",
+      "platform_url": "https://news.ycombinator.com/item?id=47411547",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47412015",
+      "name": "March Madness Bracket Challenge for AI Agents Only",
+      "url": "https://www.Bracketmadness.ai",
+      "description": "Show HN: March Madness Bracket Challenge for AI Agents Only",
+      "upvotes": 66,
+      "launch_date": "2026-03-18",
+      "platform_url": "https://news.ycombinator.com/item?id=47412015",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47386581",
+      "name": "Signet – Autonomous wildfire tracking from satellite and weather data",
+      "url": "https://signet.watch",
+      "description": "Show HN: Signet – Autonomous wildfire tracking from satellite and weather data",
+      "upvotes": 123,
+      "launch_date": "2026-03-18",
+      "platform_url": "https://news.ycombinator.com/item?id=47386581",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47388479",
+      "name": "GDSL – 800 line kernel: Lisp subset in 500, C subset in 1300",
+      "url": "https://firthemouse.github.io/",
+      "description": "Show HN: GDSL – 800 line kernel: Lisp subset in 500, C subset in 1300",
+      "upvotes": 89,
+      "launch_date": "2026-03-18",
+      "platform_url": "https://news.ycombinator.com/item?id=47388479",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47410653",
+      "name": "M68k assembly emulator that runs in the browser",
+      "url": "https://github.com/gianlucarea/m68k-interpreter",
+      "description": "Show HN: M68k assembly emulator that runs in the browser",
+      "upvotes": 16,
+      "launch_date": "2026-03-18",
+      "platform_url": "https://news.ycombinator.com/item?id=47410653",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47398441",
+      "name": "Hackerbrief – Top posts on Hacker News summarized daily",
+      "url": "https://hackerbrief.vercel.app/",
+      "description": "Show HN: Hackerbrief – Top posts on Hacker News summarized daily",
+      "upvotes": 81,
+      "launch_date": "2026-03-18",
+      "platform_url": "https://news.ycombinator.com/item?id=47398441",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47386983",
+      "name": "What if your synthesizer was powered by APL (or a dumb K clone)?",
+      "url": "https://octetta.github.io/k-synth/",
+      "description": "Show HN: What if your synthesizer was powered by APL (or a dumb K clone)?",
+      "upvotes": 92,
+      "launch_date": "2026-03-18",
+      "platform_url": "https://news.ycombinator.com/item?id=47386983",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47399689",
+      "name": "Hecate – Call an AI from Signal",
+      "url": "https://github.com/rhodey/hecate",
+      "description": "Show HN: Hecate – Call an AI from Signal",
+      "upvotes": 26,
+      "launch_date": "2026-03-18",
+      "platform_url": "https://news.ycombinator.com/item?id=47399689",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    }
+  ]
+}
