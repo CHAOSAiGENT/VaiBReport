@@ -1,1 +1,24 @@
-{"featured": {}}
+{
+  "featured": {
+    "prunaai/p-image-edit": {
+      "times_featured": 1,
+      "last_featured": "2026-03-23"
+    },
+    "black-forest-labs/flux-2-pro": {
+      "times_featured": 1,
+      "last_featured": "2026-03-23"
+    },
+    "recraft-ai/recraft-crisp-upscale": {
+      "times_featured": 1,
+      "last_featured": "2026-03-23"
+    },
+    "black-forest-labs/flux-2-max": {
+      "times_featured": 1,
+      "last_featured": "2026-03-23"
+    },
+    "kwaivgi/kling-v2.6-motion-control": {
+      "times_featured": 1,
+      "last_featured": "2026-03-23"
+    }
+  }
+}

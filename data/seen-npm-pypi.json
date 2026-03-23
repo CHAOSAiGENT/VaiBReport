@@ -1,1 +1,44 @@
-{"featured": {}}
+{
+  "featured": {
+    "npm-agent-base": {
+      "times_featured": 1,
+      "last_featured": "2026-03-23"
+    },
+    "npm-https-proxy-agent": {
+      "times_featured": 1,
+      "last_featured": "2026-03-23"
+    },
+    "npm-telecom-mas-agent": {
+      "times_featured": 1,
+      "last_featured": "2026-03-23"
+    },
+    "npm-http-proxy-agent": {
+      "times_featured": 1,
+      "last_featured": "2026-03-23"
+    },
+    "npm-socks-proxy-agent": {
+      "times_featured": 1,
+      "last_featured": "2026-03-23"
+    },
+    "pypi-pydantic": {
+      "times_featured": 1,
+      "last_featured": "2026-03-23"
+    },
+    "pypi-fastapi": {
+      "times_featured": 1,
+      "last_featured": "2026-03-23"
+    },
+    "pypi-langchain": {
+      "times_featured": 1,
+      "last_featured": "2026-03-23"
+    },
+    "pypi-openai": {
+      "times_featured": 1,
+      "last_featured": "2026-03-23"
+    },
+    "pypi-tokenizers": {
+      "times_featured": 1,
+      "last_featured": "2026-03-23"
+    }
+  }
+}

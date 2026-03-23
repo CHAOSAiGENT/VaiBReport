@@ -1,20 +1,20 @@
 {
   "featured": {
     "wasp-lang/open-saas": {
-      "last_featured": "2026-03-05",
-      "times_featured": 1
+      "last_featured": "2026-03-23",
+      "times_featured": 2
     },
     "ixartz/SaaS-Boilerplate": {
-      "last_featured": "2026-03-05",
-      "times_featured": 1
+      "last_featured": "2026-03-23",
+      "times_featured": 2
     },
     "boxyhq/saas-starter-kit": {
-      "last_featured": "2026-03-05",
-      "times_featured": 1
+      "last_featured": "2026-03-23",
+      "times_featured": 2
     },
     "ln-dev7/square-ui": {
-      "last_featured": "2026-03-05",
-      "times_featured": 1
+      "last_featured": "2026-03-23",
+      "times_featured": 2
     },
     "khoj-ai/khoj": {
       "last_featured": "2026-03-05",
@@ -37,12 +37,12 @@
       "times_featured": 1
     },
     "Lissy93/domain-locker": {
-      "last_featured": "2026-03-05",
-      "times_featured": 1
+      "last_featured": "2026-03-23",
+      "times_featured": 2
     },
     "cruip/open-react-template": {
-      "last_featured": "2026-03-05",
-      "times_featured": 1
+      "last_featured": "2026-03-23",
+      "times_featured": 2
     },
     "Blazity/next-saas-starter": {
       "last_featured": "2026-03-05",
@@ -57,8 +57,8 @@
       "times_featured": 1
     },
     "kriasoft/react-starter-kit": {
-      "times_featured": 1,
-      "last_featured": "2026-03-06"
+      "times_featured": 2,
+      "last_featured": "2026-03-23"
     },
     "obytes/react-native-template-obytes": {
       "times_featured": 1,
@@ -93,16 +93,16 @@
       "last_featured": "2026-03-06"
     },
     "ln-dev7/circle": {
-      "times_featured": 1,
-      "last_featured": "2026-03-06"
+      "times_featured": 2,
+      "last_featured": "2026-03-23"
     },
     "actions/typescript-action": {
-      "times_featured": 1,
-      "last_featured": "2026-03-06"
+      "times_featured": 2,
+      "last_featured": "2026-03-23"
     },
     "lost-pixel/lost-pixel": {
-      "times_featured": 1,
-      "last_featured": "2026-03-06"
+      "times_featured": 2,
+      "last_featured": "2026-03-23"
     },
     "keyshade-xyz/keyshade": {
       "times_featured": 1,
@@ -113,20 +113,20 @@
       "last_featured": "2026-03-06"
     },
     "BearStudio/start-ui-web": {
-      "times_featured": 1,
-      "last_featured": "2026-03-06"
+      "times_featured": 2,
+      "last_featured": "2026-03-23"
     },
     "steedos/steedos-platform": {
-      "times_featured": 1,
-      "last_featured": "2026-03-06"
+      "times_featured": 2,
+      "last_featured": "2026-03-23"
     },
     "flaviuse/mern-authentication": {
-      "times_featured": 1,
-      "last_featured": "2026-03-06"
+      "times_featured": 2,
+      "last_featured": "2026-03-23"
     },
     "MarsX-dev/seobot-nextjs-blog": {
-      "times_featured": 1,
-      "last_featured": "2026-03-06"
+      "times_featured": 2,
+      "last_featured": "2026-03-23"
     },
     "public-apis/public-apis": {
       "times_featured": 1,
@@ -189,12 +189,12 @@
       "last_featured": "2026-03-06"
     },
     "jamez-bondos/awesome-gpt4o-images": {
-      "times_featured": 1,
-      "last_featured": "2026-03-06"
+      "times_featured": 2,
+      "last_featured": "2026-03-23"
     },
     "filipecalegario/awesome-generative-ai": {
-      "times_featured": 1,
-      "last_featured": "2026-03-06"
+      "times_featured": 2,
+      "last_featured": "2026-03-23"
     },
     "zhaochen0110/Awesome_Think_With_Images": {
       "times_featured": 1,
@@ -225,24 +225,24 @@
       "last_featured": "2026-03-06"
     },
     "AUTOMATIC1111/stable-diffusion-webui": {
-      "times_featured": 1,
-      "last_featured": "2026-03-06"
+      "times_featured": 2,
+      "last_featured": "2026-03-23"
     },
     "huggingface/diffusers": {
-      "times_featured": 1,
-      "last_featured": "2026-03-06"
+      "times_featured": 2,
+      "last_featured": "2026-03-23"
     },
     "bigint/hey": {
-      "times_featured": 1,
-      "last_featured": "2026-03-06"
+      "times_featured": 2,
+      "last_featured": "2026-03-23"
     },
     "gitroomhq/postiz-app": {
-      "times_featured": 1,
-      "last_featured": "2026-03-06"
+      "times_featured": 2,
+      "last_featured": "2026-03-23"
     },
     "invoke-ai/InvokeAI": {
-      "times_featured": 1,
-      "last_featured": "2026-03-06"
+      "times_featured": 2,
+      "last_featured": "2026-03-23"
     },
     "hoppscotch/hoppscotch": {
       "times_featured": 1,
@@ -253,8 +253,8 @@
       "last_featured": "2026-03-06"
     },
     "aquasecurity/trivy": {
-      "times_featured": 1,
-      "last_featured": "2026-03-06"
+      "times_featured": 2,
+      "last_featured": "2026-03-23"
     },
     "OpenAPITools/openapi-generator": {
       "times_featured": 1,
@@ -323,6 +323,38 @@
     "projectdiscovery/katana": {
       "times_featured": 1,
       "last_featured": "2026-03-06"
+    },
+    "unlayer/react-email-editor": {
+      "times_featured": 1,
+      "last_featured": "2026-03-23"
+    },
+    "laurent22/joplin": {
+      "times_featured": 1,
+      "last_featured": "2026-03-23"
+    },
+    "PowerShell/PowerShell": {
+      "times_featured": 1,
+      "last_featured": "2026-03-23"
+    },
+    "hyprwm/Hyprland": {
+      "times_featured": 1,
+      "last_featured": "2026-03-23"
+    },
+    "sindresorhus/awesome": {
+      "times_featured": 1,
+      "last_featured": "2026-03-23"
+    },
+    "yt-dlp/yt-dlp": {
+      "times_featured": 1,
+      "last_featured": "2026-03-23"
+    },
+    "systemd/systemd": {
+      "times_featured": 1,
+      "last_featured": "2026-03-23"
+    },
+    "GyulyVGC/sniffnet": {
+      "times_featured": 1,
+      "last_featured": "2026-03-23"
     }
   }
 }

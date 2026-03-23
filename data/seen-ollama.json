@@ -1,1 +1,24 @@
-{"featured": {}}
+{
+  "featured": {
+    "codestral": {
+      "times_featured": 1,
+      "last_featured": "2026-03-23"
+    },
+    "phi4-mini": {
+      "times_featured": 1,
+      "last_featured": "2026-03-23"
+    },
+    "lfm2": {
+      "times_featured": 1,
+      "last_featured": "2026-03-23"
+    },
+    "command-r": {
+      "times_featured": 1,
+      "last_featured": "2026-03-23"
+    },
+    "granite3.3": {
+      "times_featured": 1,
+      "last_featured": "2026-03-23"
+    }
+  }
+}
