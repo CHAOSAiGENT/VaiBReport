@@ -8,3 +8,20 @@ trackers for interesting github repos*.md
 # Dependencies
 node_modules/
 package-lock.json
+
+# ───────────────────────────────────────────
+# OS & system junk (Mac + Windows)
+# ───────────────────────────────────────────
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd/
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
