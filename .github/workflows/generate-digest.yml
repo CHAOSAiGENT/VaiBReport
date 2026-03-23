@@ -215,7 +215,7 @@ jobs:
             return fm;
           }
 
-          function createRepoEntry(item, source, category, blurbs, hotness) {
+          function createRepoEntry(item, source, category, blurbs, hotness, digestDate) {
             const id = item.id || item.full_name || item.name || '';
             const slug = toSlug(id);
             if (!slug) return null;
@@ -900,52 +900,52 @@ jobs:
           // GitHub repos (from sections + trending)
           for (const sectionName of Object.keys(sections)) {
             for (const r of sections[sectionName]) {
-              if (createRepoEntry(r, 'github', sectionName, blurbs, hotnessData)) repoSlugs++;
+              if (createRepoEntry(r, 'github', sectionName, blurbs, hotnessData, digestDate)) repoSlugs++;
             }
           }
           for (const r of trendingOddballs) {
-            if (createRepoEntry(r, 'github', 'Trending', blurbs, hotnessData)) repoSlugs++;
+            if (createRepoEntry(r, 'github', 'Trending', blurbs, hotnessData, digestDate)) repoSlugs++;
           }
           for (const r of trendingAlso) {
-            if (createRepoEntry(r, 'github', 'Trending', blurbs, hotnessData)) repoSlugs++;
+            if (createRepoEntry(r, 'github', 'Trending', blurbs, hotnessData, digestDate)) repoSlugs++;
           }
           // GitLab
           for (const r of gitlabRepos) {
-            if (createRepoEntry({ ...r, full_name: r.full_name, id: r.id }, 'gitlab', 'GitLab Repos', blurbs, hotnessData)) repoSlugs++;
+            if (createRepoEntry({ ...r, full_name: r.full_name, id: r.id }, 'gitlab', 'GitLab Repos', blurbs, hotnessData, digestDate)) repoSlugs++;
           }
           // Papers
           for (const p of papers) {
-            if (createRepoEntry(p, 'paperswithcode', 'Papers to Code', blurbs, hotnessData)) repoSlugs++;
+            if (createRepoEntry(p, 'paperswithcode', 'Papers to Code', blurbs, hotnessData, digestDate)) repoSlugs++;
           }
           // Replicate
           for (const m of replicateModels) {
-            if (createRepoEntry(m, 'replicate', 'Replicate Models', blurbs, hotnessData)) repoSlugs++;
+            if (createRepoEntry(m, 'replicate', 'Replicate Models', blurbs, hotnessData, digestDate)) repoSlugs++;
           }
           // Ollama
           for (const m of ollamaModels) {
-            if (createRepoEntry(m, 'ollama', 'Ollama Models', blurbs, hotnessData)) repoSlugs++;
+            if (createRepoEntry(m, 'ollama', 'Ollama Models', blurbs, hotnessData, digestDate)) repoSlugs++;
           }
           // npm
           for (const p of npmPkgs) {
-            if (createRepoEntry({ ...p, id: p.id }, 'npm', 'npm Packages', blurbs, hotnessData)) repoSlugs++;
+            if (createRepoEntry({ ...p, id: p.id }, 'npm', 'npm Packages', blurbs, hotnessData, digestDate)) repoSlugs++;
           }
           // PyPI
           for (const p of pypiPkgs) {
-            if (createRepoEntry({ ...p, id: p.id }, 'pypi', 'PyPI Packages', blurbs, hotnessData)) repoSlugs++;
+            if (createRepoEntry({ ...p, id: p.id }, 'pypi', 'PyPI Packages', blurbs, hotnessData, digestDate)) repoSlugs++;
           }
           // HuggingFace
           for (const s of hfSpaces) {
-            if (createRepoEntry({ ...s, name: s.id }, 'huggingface-space', 'HuggingFace Spaces', blurbs, hotnessData)) repoSlugs++;
+            if (createRepoEntry({ ...s, name: s.id }, 'huggingface-space', 'HuggingFace Spaces', blurbs, hotnessData, digestDate)) repoSlugs++;
           }
           for (const m of hfModels) {
-            if (createRepoEntry({ ...m, name: m.id }, 'huggingface-model', 'HuggingFace Models', blurbs, hotnessData)) repoSlugs++;
+            if (createRepoEntry({ ...m, name: m.id }, 'huggingface-model', 'HuggingFace Models', blurbs, hotnessData, digestDate)) repoSlugs++;
           }
           for (const d of hfDatasets) {
-            if (createRepoEntry({ ...d, name: d.id }, 'huggingface-dataset', 'HuggingFace Datasets', blurbs, hotnessData)) repoSlugs++;
+            if (createRepoEntry({ ...d, name: d.id }, 'huggingface-dataset', 'HuggingFace Datasets', blurbs, hotnessData, digestDate)) repoSlugs++;
           }
           // Launches
           for (const l of launches) {
-            if (createRepoEntry(l, 'launch', 'New Launches', blurbs, hotnessData)) repoSlugs++;
+            if (createRepoEntry(l, 'launch', 'New Launches', blurbs, hotnessData, digestDate)) repoSlugs++;
           }
           console.log(`Created/updated ${repoSlugs} _repos/ catalog entries`);
 
