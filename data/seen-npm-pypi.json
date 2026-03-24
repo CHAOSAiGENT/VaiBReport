@@ -39,6 +39,46 @@
     "pypi-tokenizers": {
       "times_featured": 1,
       "last_featured": "2026-03-23"
+    },
+    "npm-proxy-agent": {
+      "times_featured": 1,
+      "last_featured": "2026-03-24"
+    },
+    "npm-pac-proxy-agent": {
+      "times_featured": 1,
+      "last_featured": "2026-03-24"
+    },
+    "npm-superagent": {
+      "times_featured": 1,
+      "last_featured": "2026-03-24"
+    },
+    "npm-puppeteer-core": {
+      "times_featured": 1,
+      "last_featured": "2026-03-24"
+    },
+    "npm-puppeteer": {
+      "times_featured": 1,
+      "last_featured": "2026-03-24"
+    },
+    "pypi-transformers": {
+      "times_featured": 1,
+      "last_featured": "2026-03-24"
+    },
+    "pypi-anthropic": {
+      "times_featured": 1,
+      "last_featured": "2026-03-24"
+    },
+    "pypi-datasets": {
+      "times_featured": 1,
+      "last_featured": "2026-03-24"
+    },
+    "pypi-playwright": {
+      "times_featured": 1,
+      "last_featured": "2026-03-24"
+    },
+    "pypi-weaviate-client": {
+      "times_featured": 1,
+      "last_featured": "2026-03-24"
     }
   }
 }

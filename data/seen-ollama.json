@@ -19,6 +19,26 @@
     "granite3.3": {
       "times_featured": 1,
       "last_featured": "2026-03-23"
+    },
+    "granite4": {
+      "times_featured": 1,
+      "last_featured": "2026-03-24"
+    },
+    "granite-code": {
+      "times_featured": 1,
+      "last_featured": "2026-03-24"
+    },
+    "openthinker": {
+      "times_featured": 1,
+      "last_featured": "2026-03-24"
+    },
+    "hermes3": {
+      "times_featured": 1,
+      "last_featured": "2026-03-24"
+    },
+    "qwen3-coder-next": {
+      "times_featured": 1,
+      "last_featured": "2026-03-24"
     }
   }
 }

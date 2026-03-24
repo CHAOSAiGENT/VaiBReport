@@ -49,40 +49,40 @@
       "last_featured": "2026-03-23"
     },
     "NTU-NLP-sg/xCodeEval": {
-      "times_featured": 1,
-      "last_featured": "2026-03-06"
+      "times_featured": 2,
+      "last_featured": "2026-03-24"
     },
     "mteb/leaderboard": {
       "times_featured": 2,
       "last_featured": "2026-03-23"
     },
     "dalle-mini/dalle-mini": {
-      "times_featured": 1,
-      "last_featured": "2026-03-06"
+      "times_featured": 2,
+      "last_featured": "2026-03-24"
     },
     "AP123/IllusionDiffusion": {
-      "times_featured": 1,
-      "last_featured": "2026-03-06"
+      "times_featured": 2,
+      "last_featured": "2026-03-24"
     },
     "facebook/MusicGen": {
-      "times_featured": 1,
-      "last_featured": "2026-03-06"
+      "times_featured": 2,
+      "last_featured": "2026-03-24"
     },
     "black-forest-labs/FLUX.1-schnell": {
-      "times_featured": 1,
-      "last_featured": "2026-03-06"
+      "times_featured": 2,
+      "last_featured": "2026-03-24"
     },
     "Qwen/Qwen3-0.6B": {
       "times_featured": 2,
       "last_featured": "2026-03-23"
     },
     "openai-community/gpt2": {
-      "times_featured": 1,
-      "last_featured": "2026-03-06"
+      "times_featured": 2,
+      "last_featured": "2026-03-24"
     },
     "Qwen/Qwen2.5-1.5B-Instruct": {
-      "times_featured": 1,
-      "last_featured": "2026-03-06"
+      "times_featured": 2,
+      "last_featured": "2026-03-24"
     },
     "timm/convnextv2_nano.fcmae_ft_in22k_in1k": {
       "times_featured": 1,
@@ -93,8 +93,8 @@
       "last_featured": "2026-03-06"
     },
     "hf-doc-build/doc-build": {
-      "times_featured": 1,
-      "last_featured": "2026-03-06"
+      "times_featured": 2,
+      "last_featured": "2026-03-24"
     },
     "m-a-p/FineFineWeb": {
       "times_featured": 2,
@@ -103,6 +103,26 @@
     "opendatalab/AICC": {
       "times_featured": 1,
       "last_featured": "2026-03-06"
+    },
+    "Wan-AI/Wan2.2-Animate": {
+      "times_featured": 1,
+      "last_featured": "2026-03-24"
+    },
+    "BAAI/bge-small-en-v1.5": {
+      "times_featured": 1,
+      "last_featured": "2026-03-24"
+    },
+    "Qwen/Qwen3-8B": {
+      "times_featured": 1,
+      "last_featured": "2026-03-24"
+    },
+    "Qwen/Qwen2.5-3B-Instruct": {
+      "times_featured": 1,
+      "last_featured": "2026-03-24"
+    },
+    "banned-historical-archives/banned-historical-archives": {
+      "times_featured": 1,
+      "last_featured": "2026-03-24"
     }
   }
 }
