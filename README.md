@@ -18,4 +18,4 @@ Quality over volume. No filler posts.
 
 ## Live blog
 
-[https://chaosagent.github.io/VaiBReport](https://chaosagent.github.io/VaiBReport)
+[https://chaosaigent.github.io/VaiBReport](https://chaosaigent.github.io/VaiBReport)
