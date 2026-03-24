@@ -49,3 +49,4 @@ exclude:
   - .gitignore
   - "V2-*.md"
   - "CLAUDE-CODE-*.md"
+  - postmvp/

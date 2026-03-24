@@ -87,7 +87,8 @@ const repoData = [
     first_featured: {{ repo.first_featured | jsonify }},
     last_featured: {{ repo.last_featured | jsonify }},
     star_velocity: {{ repo.star_velocity | default: 0 }},
-    slug: {{ repo.slug | jsonify }}
+    slug: {{ repo.slug | jsonify }},
+    url: "{{ repo.url }}"
   }{% unless forloop.last %},{% endunless %}
   {% endfor %}
 ];
@@ -98,7 +99,8 @@ function badge(source) {
 }
 
 function link(item) {
-  return `<a href="{{ '/repos/' | relative_url }}${item.slug}/">${item.name}</a>${badge(item.source)}`;
+  const href = item.url || `{{ '/repos/' | relative_url }}${item.slug}/`;
+  return `<a href="${href}">${item.name}</a>${badge(item.source)}`;
 }
 
 function renderTable(containerId, items, columns) {
