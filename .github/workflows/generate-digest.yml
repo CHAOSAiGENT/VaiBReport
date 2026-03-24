@@ -687,6 +687,39 @@ jobs:
 
           let md = `${sep}\nlayout: post\ntitle: "Daily Digest – ${digestDate}"\ndate: ${digestDate}\ntags: [${allTags.join(', ')}]\n${sep}\n\nDaily curated repos and tools for solo founders, AI/B2B SaaS builders, and small business tools. ${candidates.length} repos evaluated, ${totalPicks} made the cut.${extraNote}\n\n`;
 
+          // ── Peter's Picks (new since last digest) ──────────────
+          try {
+            // Find the date of the most recent previous digest
+            const prevPosts = fs.readdirSync('_posts')
+              .filter(f => f.match(/^\d{4}-\d{2}-\d{2}-github-digest\.md$/))
+              .sort();
+            const lastDigestDate = prevPosts.length > 0
+              ? prevPosts[prevPosts.length - 1].match(/^(\d{4}-\d{2}-\d{2})/)[1]
+              : null;
+
+            if (fs.existsSync('_tools')) {
+              const newPicks = fs.readdirSync('_tools')
+                .filter(f => f.endsWith('.md'))
+                .map(f => parseFrontMatter(fs.readFileSync(`_tools/${f}`, 'utf8')))
+                .filter(fm => fm.name && fm.date_added && (!lastDigestDate || fm.date_added > lastDigestDate));
+
+              if (newPicks.length > 0) {
+                md += `## Peter's Picks\n\n`;
+                for (const pick of newPicks) {
+                  const hook = pick.hook || pick.one_liner || pick.description || '';
+                  const icp = pick.primary_icp ? ` *(${pick.primary_icp})*` : '';
+                  const picksUrl = pick.url || '';
+                  md += `- [${pick.name}](${picksUrl}) – ${hook}${icp} → [full review](/VaiBReport/picks/${pick.name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '')}/)\n\n`;
+                }
+                console.log(`Added ${newPicks.length} Peter's Pick(s) to digest`);
+              } else {
+                console.log(`No new Peter's Picks since ${lastDigestDate || 'ever'}`);
+              }
+            }
+          } catch (e) {
+            console.log('Peter\'s Picks check skipped:', e.message);
+          }
+
           const sectionOrder = [
             'SaaS starters and templates',
             'AI agents, LLM infra and RAG',
