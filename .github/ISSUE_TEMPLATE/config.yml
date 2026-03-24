@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: VaiBReport live site
+    url: https://chaosaigent.github.io/VaiBReport/
+    about: Browse the public digest and catalog

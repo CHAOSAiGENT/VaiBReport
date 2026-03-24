@@ -1,0 +1,88 @@
+name: "🛠 Peter's Pick — Submit a Tool"
+description: Submit a repo or tool to the Peter's Picks private library
+title: "[PICK] "
+labels: ["peters-pick"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Fill this out and submit. A workflow will automatically create the tool entry, capture screenshots, and generate video scripts.
+
+  - type: input
+    id: url
+    attributes:
+      label: Tool URL
+      description: Product homepage, GitHub repo, or demo — wherever you'd send someone first
+      placeholder: "https://..."
+    validations:
+      required: true
+
+  - type: input
+    id: name
+    attributes:
+      label: Tool Name
+      placeholder: "e.g. Coolify"
+    validations:
+      required: true
+
+  - type: textarea
+    id: hook
+    attributes:
+      label: Your Hook
+      description: One sentence — why you found this interesting, or the pain it solves
+      placeholder: "Found this while looking for a self-hosted Vercel alternative that doesn't cost $20/mo per project..."
+    validations:
+      required: true
+
+  - type: dropdown
+    id: primary_icp
+    attributes:
+      label: Primary ICP
+      description: Who is this most useful for?
+      options:
+        - founding-team
+        - solopreneur
+        - small-business
+        - pre-mvp
+        - entreprecurious
+        - non-technical
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: secondary_icps
+    attributes:
+      label: Also relevant for
+      description: Check all that apply
+      options:
+        - label: Small Founding Teams
+        - label: Solopreneurs
+        - label: Small Business Owners
+        - label: Pre-MVP Orgs
+        - label: Entreprecurious
+        - label: Non-Technical Investigators
+
+  - type: input
+    id: compare_to
+    attributes:
+      label: Compare to (optional)
+      description: What does this compete with or replace?
+      placeholder: "vs. Vercel, vs. Netlify"
+
+  - type: textarea
+    id: honest_take
+    attributes:
+      label: Honest take (optional)
+      description: What doesn't it do well? Who should NOT use it?
+      placeholder: "Great for self-hosters, overkill if you just need a simple static site..."
+
+  - type: dropdown
+    id: make_public
+    attributes:
+      label: Add to Peter's Picks public page?
+      options:
+        - "yes — publish to /picks/"
+        - "no — private library only"
+        - "later — draft for now"
+    validations:
+      required: true

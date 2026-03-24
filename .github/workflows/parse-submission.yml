@@ -1,0 +1,169 @@
+name: Parse Peter's Pick submission
+
+on:
+  issues:
+    types: [labeled]
+
+jobs:
+  parse:
+    if: contains(github.event.issue.labels.*.name, 'peters-pick')
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      issues: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Parse issue and create tool entry
+        env:
+          ISSUE_BODY: ${{ github.event.issue.body }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+          ISSUE_TITLE: ${{ github.event.issue.title }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          node --input-type=module << 'SCRIPT'
+          import fs from 'fs';
+
+          const body = process.env.ISSUE_BODY || '';
+          const issueNumber = process.env.ISSUE_NUMBER;
+
+          // ── Parse GitHub issue form fields ──────────────────────
+          function parseField(body, label) {
+            const regex = new RegExp(`###\\s+${label}\\s*\\n+([\\s\\S]*?)(?=\\n###|$)`, 'i');
+            const match = body.match(regex);
+            return match ? match[1].trim() : '';
+          }
+
+          function parseCheckboxes(body, label) {
+            const regex = new RegExp(`###\\s+${label}\\s*\\n+([\\s\\S]*?)(?=\\n###|$)`, 'i');
+            const match = body.match(regex);
+            if (!match) return [];
+            return match[1]
+              .split('\n')
+              .filter(l => l.trim().startsWith('- [x]'))
+              .map(l => l.replace(/- \[x\]\s*/i, '').trim().toLowerCase().replace(/\s+/g, '-'));
+          }
+
+          const url        = parseField(body, 'Tool URL');
+          const name       = parseField(body, 'Tool Name');
+          const hook       = parseField(body, 'Your Hook');
+          const primaryIcp = parseField(body, 'Primary ICP');
+          const compareTo  = parseField(body, 'Compare to \\(optional\\)');
+          const honestTake = parseField(body, 'Honest take \\(optional\\)');
+          const makePublic = parseField(body, 'Add to Peter\'s Picks public page\\?');
+          const secondaryIcps = parseCheckboxes(body, 'Also relevant for');
+
+          if (!url || !name) {
+            console.error('Missing required fields (URL or Name). Aborting.');
+            process.exit(1);
+          }
+
+          // ── Generate slug ────────────────────────────────────────
+          function toSlug(str) {
+            return str.toLowerCase()
+              .replace(/https?:\/\/(www\.)?/g, '')
+              .replace(/[^a-z0-9]+/g, '-')
+              .replace(/^-+|-+$/g, '')
+              .slice(0, 60);
+          }
+
+          const slug = toSlug(name);
+          const today = new Date().toISOString().slice(0, 10);
+          const isPublic = makePublic.startsWith('yes');
+
+          // ── Build frontmatter ────────────────────────────────────
+          const icpTagsAll = [primaryIcp, ...secondaryIcps]
+            .filter(Boolean)
+            .filter((v, i, a) => a.indexOf(v) === i);
+
+          const frontmatter = [
+            '---',
+            'layout: tool',
+            `name: "${name.replace(/"/g, '\\"')}"`,
+            `url: "${url}"`,
+            `source: submitted`,
+            `submitted_date: "${today}"`,
+            `issue: ${issueNumber}`,
+            `public: ${isPublic}`,
+            '',
+            '# Metadata (to be enriched)',
+            `category: ""`,
+            `language: ""`,
+            `license: ""`,
+            `pricing: ""`,
+            `github_url: ""`,
+            `demo_url: ""`,
+            '',
+            '# Visuals (populated by capture-tool-screenshots workflow)',
+            `screenshot_desktop: ""`,
+            `screenshot_mobile: ""`,
+            `readme_image: ""`,
+            `og_image: ""`,
+            '',
+            '# ICP targeting',
+            `primary_icp: "${primaryIcp}"`,
+            `icp_tags: [${icpTagsAll.map(t => `"${t}"`).join(', ')}]`,
+            '',
+            '# Content',
+            `hook: "${hook.replace(/"/g, '\\"')}"`,
+            `one_liner: ""`,
+            `compare_to: "${compareTo.replace(/"/g, '\\"')}"`,
+            `honest_take: "${honestTake.replace(/"/g, '\\"')}"`,
+            '',
+            '# Video scripts (populated by generate-tool-page workflow)',
+            `script_faceless: ""`,
+            `script_ugc: ""`,
+            '',
+            '# Tracking',
+            `times_featured: 0`,
+            `date_added: "${today}"`,
+            '---',
+          ].join('\n');
+
+          const content = `${frontmatter}\n\n${hook}\n`;
+
+          // ── Write file ───────────────────────────────────────────
+          fs.mkdirSync('_tools', { recursive: true });
+          const filePath = `_tools/${slug}.md`;
+          fs.writeFileSync(filePath, content);
+          console.log(`Created: ${filePath}`);
+
+          // ── Write output for next steps ──────────────────────────
+          fs.writeFileSync('/tmp/pick-slug.txt', slug);
+          fs.writeFileSync('/tmp/pick-path.txt', filePath);
+          SCRIPT
+
+      - name: Commit tool entry
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add _tools/
+          git diff --staged --quiet && echo "Nothing to commit" || \
+            git commit -m "feat: add Peter's Pick — $(cat /tmp/pick-slug.txt) [issue #${{ github.event.issue.number }}]"
+          git push
+
+      - name: Comment on issue
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          SLUG=$(cat /tmp/pick-slug.txt)
+          FILEPATH=$(cat /tmp/pick-path.txt)
+          gh issue comment ${{ github.event.issue.number }} \
+            --repo ${{ github.repository }} \
+            --body "✅ **Tool entry created:** \`${FILEPATH}\`
+
+          Next steps queued:
+          - 📸 Screenshot capture (run \`capture-tool-screenshots\` workflow with slug: \`${SLUG}\`)
+          - 🤖 Script generation (run \`generate-tool-page\` workflow with slug: \`${SLUG}\`)
+
+          [View file on GitHub](https://github.com/${{ github.repository }}/blob/main/${FILEPATH})"
+          gh issue close ${{ github.event.issue.number }} \
+            --repo ${{ github.repository }} \
+            --comment "Closing — entry created. Reopen if you need to edit the submission."

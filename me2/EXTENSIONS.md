@@ -12,7 +12,8 @@ They build the private tool library Peter uses for consulting content and UGC cr
 
 ## E-01 — Submission mechanism: GitHub Issue → tool entry
 
-**Status:** Ready to design — awaiting Peter's decision on method
+**Status:** ✅ Built 2026-03-24 — GitHub Issue template live
+**Decision:** Option A (GitHub Issue template) — confirmed by Peter
 **Priority:** Critical — all other extensions depend on this
 **Effort:** ~2 hours
 
@@ -269,20 +270,14 @@ Return as JSON array. Only include personas where this tool is genuinely relevan
 
 ---
 
-## E-06 — Private/public toggle and selective publishing
+## E-06 — Private/public toggle and Peter's Picks page
 
-**Status:** Design decision needed from Peter
+**Status:** Decision made 2026-03-24 — build queued
+**Decision:** Option B — separate `/picks/` page branded "Peter's Picks", distinct from auto-digest
 **Priority:** Medium
 **Effort:** ~1 hour
 
-**What:** Me2 tools default to `public: false` in `_tools/` frontmatter. Peter can flip individual items to `public: true` to include them in the public catalog or a curated "Peter's Picks" section on the blog.
-
-**Options for public visibility:**
-- Option A: `public: true` items appear in the existing `/repos/` catalog (same card, richer data)
-- Option B: Separate `/picks/` page — "Peter's Reviewed Tools" — distinct from the auto-digest
-- Option C: Both — public items feed both catalogs
-
-**Decision needed from Peter:** Which option? Mark `[TBD-PETER]`.
+**What:** Me2 tools default to `public: false` in `_tools/` frontmatter. Peter sets `public: true` on individual items to feature them on a dedicated `/picks/` page — separate from the automated digest, branded as Peter's personal curation.
 
 **Implementation regardless of option:**
 - `_config.yml`: add `tools` collection with `output: true`
@@ -361,8 +356,8 @@ E-01 (submission mechanism)
 
 | # | Question | Blocks |
 |---|----------|--------|
-| Q-01 | Submission method: GitHub Issue template, JSON file, or web form? | E-01 |
-| Q-02 | Public visibility: `/repos/` integration, separate `/picks/` page, or both? | E-06 |
+| ~~Q-01~~ | ~~Submission method~~ | ✅ GitHub Issue template |
+| ~~Q-02~~ | ~~Public visibility~~ | ✅ Separate `/picks/` page — "Peter's Picks" |
 | Q-03 | ICP priority order for content targeting — which persona comes first? | E-04, E-05 |
 | Q-04 | Consulting notes scope — what fields do you actually need for client work? | E-08 |
 | Q-05 | Video script review workflow — edit in the `.md` file directly, or do you want a separate draft file? | E-04 |
