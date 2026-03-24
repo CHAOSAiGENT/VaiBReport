@@ -1,0 +1,167 @@
+{
+  "generated_at": "2026-03-24T14:43:15.627Z",
+  "source": "launches",
+  "counts": {
+    "hackernews_showhn": 14,
+    "devhunt": 0,
+    "betalist": 0,
+    "uneed": 0,
+    "total": 14
+  },
+  "launches": [
+    {
+      "id": "showhn-47491466",
+      "name": "Cq – Stack Overflow for AI coding agents",
+      "url": "https://blog.mozilla.ai/cq-stack-overflow-for-agents/",
+      "description": "Show HN: Cq – Stack Overflow for AI coding agents",
+      "upvotes": 179,
+      "launch_date": "2026-03-24",
+      "platform_url": "https://news.ycombinator.com/item?id=47491466",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47486680",
+      "name": "The King Wen Permutation: [52, 10, 2]",
+      "url": "https://gzw1987-bit.github.io/iching-math/",
+      "description": "Show HN: The King Wen Permutation: [52, 10, 2]",
+      "upvotes": 61,
+      "launch_date": "2026-03-24",
+      "platform_url": "https://news.ycombinator.com/item?id=47486680",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47499672",
+      "name": "ProofShot – Give AI coding agents eyes to verify the UI they build",
+      "url": "https://proofshot.argil.io/",
+      "description": "Show HN: ProofShot – Give AI coding agents eyes to verify the UI they build",
+      "upvotes": 64,
+      "launch_date": "2026-03-24",
+      "platform_url": "https://news.ycombinator.com/item?id=47499672",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47492649",
+      "name": "Littlebird – Screenreading is the missing link in AI",
+      "url": "https://littlebird.ai/",
+      "description": "Show HN: Littlebird – Screenreading is the missing link in AI",
+      "upvotes": 43,
+      "launch_date": "2026-03-24",
+      "platform_url": "https://news.ycombinator.com/item?id=47492649",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47477339",
+      "name": "Revise – An AI Editor for Documents",
+      "url": "https://revise.io",
+      "description": "Show HN: Revise – An AI Editor for Documents",
+      "upvotes": 80,
+      "launch_date": "2026-03-24",
+      "platform_url": "https://news.ycombinator.com/item?id=47477339",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47495046",
+      "name": "WhyThere.life – Compare cities side-by-side to decide where to move",
+      "url": "https://whythere.life",
+      "description": "Show HN: WhyThere.life – Compare cities side-by-side to decide where to move",
+      "upvotes": 14,
+      "launch_date": "2026-03-24",
+      "platform_url": "https://news.ycombinator.com/item?id=47495046",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47470433",
+      "name": "Atomic – Self-hosted, semantically-connected personal knowledge base",
+      "url": "https://github.com/kenforthewin/atomic",
+      "description": "Show HN: Atomic – Self-hosted, semantically-connected personal knowledge base",
+      "upvotes": 147,
+      "launch_date": "2026-03-24",
+      "platform_url": "https://news.ycombinator.com/item?id=47470433",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47486287",
+      "name": "Agent Kernel – Three Markdown files that make any AI agent stateful",
+      "url": "https://github.com/oguzbilgic/agent-kernel",
+      "description": "Show HN: Agent Kernel – Three Markdown files that make any AI agent stateful",
+      "upvotes": 41,
+      "launch_date": "2026-03-24",
+      "platform_url": "https://news.ycombinator.com/item?id=47486287",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47461321",
+      "name": "We built a terminal-only Bluesky / AT Proto client written in Fortran",
+      "url": "https://github.com/FormerLab/fortransky",
+      "description": "Show HN: We built a terminal-only Bluesky / AT Proto client written in Fortran",
+      "upvotes": 145,
+      "launch_date": "2026-03-24",
+      "platform_url": "https://news.ycombinator.com/item?id=47461321",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47452515",
+      "name": "Sonar – A tiny CLI to see and kill whatever's running on localhost",
+      "url": "https://github.com/RasKrebs/sonar",
+      "description": "Show HN: Sonar – A tiny CLI to see and kill whatever's running on localhost",
+      "upvotes": 202,
+      "launch_date": "2026-03-24",
+      "platform_url": "https://news.ycombinator.com/item?id=47452515",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47431671",
+      "name": "Duplicate 3 layers in a 24B LLM, logical deduction .22→.76. No training",
+      "url": "https://github.com/alainnothere/llm-circuit-finder",
+      "description": "Show HN: Duplicate 3 layers in a 24B LLM, logical deduction .22→.76. No training",
+      "upvotes": 264,
+      "launch_date": "2026-03-24",
+      "platform_url": "https://news.ycombinator.com/item?id=47431671",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47441546",
+      "name": "Three new Kitten TTS models – smallest less than 25MB",
+      "url": "https://github.com/KittenML/KittenTTS",
+      "description": "Show HN: Three new Kitten TTS models – smallest less than 25MB",
+      "upvotes": 558,
+      "launch_date": "2026-03-24",
+      "platform_url": "https://news.ycombinator.com/item?id=47441546",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47445433",
+      "name": "Time Keep – Location timezones, timers, alarms, countdowns in one place",
+      "url": "https://news.ycombinator.com/item?id=47445433",
+      "description": "Show HN: Time Keep – Location timezones, timers, alarms, countdowns in one place",
+      "upvotes": 25,
+      "launch_date": "2026-03-24",
+      "platform_url": "https://news.ycombinator.com/item?id=47445433",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47469949",
+      "name": "Termcraft – Terminal-first 2D sandbox survival in Rust",
+      "url": "https://github.com/pagel-s/termcraft",
+      "description": "Show HN: Termcraft – Terminal-first 2D sandbox survival in Rust",
+      "upvotes": 135,
+      "launch_date": "2026-03-24",
+      "platform_url": "https://news.ycombinator.com/item?id=47469949",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    }
+  ]
+}
