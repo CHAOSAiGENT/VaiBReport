@@ -50,3 +50,4 @@ exclude:
   - "V2-*.md"
   - "CLAUDE-CODE-*.md"
   - postmvp/
+  - me2/
