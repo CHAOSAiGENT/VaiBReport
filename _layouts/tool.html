@@ -1,0 +1,182 @@
+---
+layout: default
+---
+<style>
+  .tool-header { margin-bottom: 1.25rem; }
+  .tool-header h1 { margin-bottom: 0.5rem; }
+  .tool-status {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin: 0.75rem 0 1.25rem;
+  }
+  .status-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    padding: 3px 10px;
+    border-radius: 12px;
+    font-size: 0.78rem;
+    font-weight: 600;
+    border: 1.5px solid;
+  }
+  .status-on  { background: #dafbe1; border-color: #2da44e; color: #1a7f37; }
+  .status-off { background: #f6f8fa; border-color: #d0d7de; color: #888; }
+  .icp-badge {
+    display: inline-block;
+    padding: 2px 9px;
+    border-radius: 10px;
+    font-size: 0.72rem;
+    font-weight: 600;
+    background: #ddf4ff;
+    border: 1px solid #54aeff;
+    color: #0550ae;
+    margin-right: 0.3rem;
+  }
+  .tool-hook {
+    font-size: 1.15rem;
+    font-style: italic;
+    color: #444;
+    border-left: 3px solid #2da44e;
+    padding-left: 1rem;
+    margin: 1.25rem 0;
+    line-height: 1.6;
+  }
+  .tool-screenshot {
+    max-width: 100%;
+    border-radius: 8px;
+    border: 1px solid #e1e4e8;
+    margin: 1rem 0;
+  }
+  .tool-section {
+    margin: 1.5rem 0;
+    padding: 1rem;
+    background: #f6f8fa;
+    border-radius: 8px;
+  }
+  .tool-section h3 {
+    margin: 0 0 0.5rem;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: #666;
+  }
+  .tool-cta {
+    display: inline-block;
+    margin: 0.5rem 0.5rem 0.5rem 0;
+    padding: 0.5rem 1.25rem;
+    background: #24292f;
+    color: #fff;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 0.9rem;
+  }
+  .tool-cta:hover { background: #444d56; color: #fff; }
+  .tool-cta.secondary {
+    background: #fff;
+    color: #24292f;
+    border: 1.5px solid #d0d7de;
+  }
+  .tool-cta.secondary:hover { background: #f6f8fa; }
+  .script-block {
+    white-space: pre-wrap;
+    font-family: inherit;
+    font-size: 0.9rem;
+    line-height: 1.6;
+    color: #333;
+    background: #fff;
+    padding: 1rem;
+    border-radius: 6px;
+    border: 1px solid #e1e4e8;
+    margin: 0;
+  }
+  .tool-meta {
+    margin-top: 2rem;
+    padding-top: 1rem;
+    border-top: 1px solid #e1e4e8;
+    font-size: 0.82rem;
+    color: #888;
+  }
+  .back-link { margin-top: 1.5rem; display: block; font-size: 0.9rem; }
+</style>
+
+<div class="tool-header">
+  <h1>{{ page.name }}</h1>
+  {% if page.primary_icp and page.primary_icp != "" %}
+    <span class="icp-badge">{{ page.primary_icp }}</span>
+  {% endif %}
+  {% for icp in page.icp_tags %}
+    {% unless icp == page.primary_icp %}
+      <span class="icp-badge" style="background:#f6f8fa;border-color:#d0d7de;color:#555;">{{ icp }}</span>
+    {% endunless %}
+  {% endfor %}
+</div>
+
+<div class="tool-status">
+  <span class="status-chip {% if page.peters_pick %}status-on{% else %}status-off{% endif %}">
+    {% if page.peters_pick %}☑{% else %}☐{% endif %} Peter's Pick
+  </span>
+  <span class="status-chip {% if page.create_content %}status-on{% else %}status-off{% endif %}">
+    {% if page.create_content %}☑{% else %}☐{% endif %} Create Content
+  </span>
+  <span class="status-chip {% if page.content_created %}status-on{% else %}status-off{% endif %}">
+    {% if page.content_created %}☑{% else %}☐{% endif %} Content Created
+  </span>
+</div>
+
+{% if page.hook and page.hook != "" %}
+<div class="tool-hook">"{{ page.hook }}"</div>
+{% endif %}
+
+{% if page.screenshot_desktop and page.screenshot_desktop != "" %}
+<img src="{{ page.screenshot_desktop | relative_url }}" alt="{{ page.name }} screenshot" class="tool-screenshot" loading="lazy">
+{% elsif page.og_image and page.og_image != "" %}
+<img src="{{ page.og_image }}" alt="{{ page.name }}" class="tool-screenshot" loading="lazy">
+{% endif %}
+
+{% if page.one_liner and page.one_liner != "" %}
+<p style="font-size:1.05rem;line-height:1.6;color:#333;">{{ page.one_liner }}</p>
+{% endif %}
+
+<a href="{{ page.url }}" class="tool-cta" target="_blank" rel="noopener">Visit {{ page.name }} →</a>
+{% if page.github_url and page.github_url != "" %}
+<a href="{{ page.github_url }}" class="tool-cta secondary" target="_blank" rel="noopener">GitHub →</a>
+{% endif %}
+
+{% if page.compare_to and page.compare_to != "" %}
+<div class="tool-section">
+  <h3>Compare to</h3>
+  <p style="margin:0;">{{ page.compare_to }}</p>
+</div>
+{% endif %}
+
+{% if page.honest_take and page.honest_take != "" %}
+<div class="tool-section">
+  <h3>Honest take</h3>
+  <p style="margin:0;">{{ page.honest_take }}</p>
+</div>
+{% endif %}
+
+{% if page.script_faceless and page.script_faceless != "" %}
+<div class="tool-section">
+  <h3>📹 Faceless script</h3>
+  <pre class="script-block">{{ page.script_faceless }}</pre>
+</div>
+{% endif %}
+
+{% if page.script_ugc and page.script_ugc != "" %}
+<div class="tool-section">
+  <h3>🎙 UGC script (on camera)</h3>
+  <pre class="script-block">{{ page.script_ugc }}</pre>
+</div>
+{% endif %}
+
+<div class="tool-meta">
+  Submitted: {{ page.date_added }}
+  {% if page.compare_to and page.compare_to != "" %} · vs. {{ page.compare_to }}{% endif %}
+  {% if page.pricing and page.pricing != "" %} · {{ page.pricing }}{% endif %}
+  {% if page.license and page.license != "" %} · {{ page.license }}{% endif %}
+</div>
+
+<a href="{{ '/picks/' | relative_url }}" class="back-link">← Back to Peter's Picks</a>

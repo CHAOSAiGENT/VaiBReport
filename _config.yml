@@ -17,6 +17,9 @@ collections:
   repos:
     output: true
     permalink: /repos/:name/
+  tools:
+    output: true
+    permalink: /picks/:name/
 
 defaults:
   - scope:
@@ -24,10 +27,20 @@ defaults:
       type: "repos"
     values:
       layout: "repo"
+  - scope:
+      path: ""
+      type: "tools"
+    values:
+      layout: "tool"
+      peters_pick: true
+      create_content: true
+      content_created: false
+      public: false
 
 # Navigation
 header_pages:
   - repos.md
+  - picks.md
   - leaderboard.md
   - about.md
 
