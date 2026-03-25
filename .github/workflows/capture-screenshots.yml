@@ -1,0 +1,166 @@
+name: Capture screenshots for public catalog (U-03)
+
+on:
+  schedule:
+    - cron: "0 5 * * 0"   # Sundays at 05:00 UTC
+  workflow_dispatch:
+
+jobs:
+  capture:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install Playwright chromium
+        run: npx playwright install chromium --with-deps
+
+      - name: Capture screenshots
+        run: |
+          node --input-type=module << 'SCRIPT'
+          import fs from 'fs';
+          import path from 'path';
+          import { chromium } from 'playwright';
+
+          const REPOS_DIR = '_repos';
+          const SCREENSHOTS_DIR = 'static/screenshots';
+          const BATCH_LIMIT = 20;
+
+          // Cookie banner selectors to try dismissing
+          const COOKIE_SELECTORS = [
+            '#onetrust-accept-btn-handler',
+            '[aria-label="Accept cookies"]',
+            '[aria-label="Accept all cookies"]',
+            '.cc-btn.cc-allow',
+            '#accept-cookies',
+          ];
+
+          // ── Parse frontmatter from a .md file ──────────────────────
+          function parseFrontmatter(content) {
+            const match = content.match(/^---\n([\s\S]*?)\n---/);
+            if (!match) return {};
+            const fm = {};
+            for (const line of match[1].split('\n')) {
+              const m = line.match(/^(\w[\w_]*):\s*"?([^"]*)"?\s*$/);
+              if (m) fm[m[1]] = m[2].trim();
+            }
+            return fm;
+          }
+
+          // ── Check if a URL should be screenshotted ─────────────────
+          function isScreenshottable(url) {
+            if (!url) return false;
+            const lower = url.toLowerCase();
+            return (
+              !lower.includes('github.com') &&
+              !lower.includes('gitlab.com') &&
+              !lower.includes('huggingface.co')
+            );
+          }
+
+          // ── Update a frontmatter field in a .md file ───────────────
+          function setFrontmatterField(filePath, field, value) {
+            let content = fs.readFileSync(filePath, 'utf8');
+            const fieldRegex = new RegExp(`^(${field}:\\s*).*$`, 'm');
+            if (fieldRegex.test(content)) {
+              content = content.replace(fieldRegex, `$1"${value}"`);
+            } else {
+              // Field not present — insert before closing ---
+              content = content.replace(/^(---\n[\s\S]*?)\n---/, `$1\n${field}: "${value}"\n---`);
+            }
+            fs.writeFileSync(filePath, content, 'utf8');
+          }
+
+          // ── Main ───────────────────────────────────────────────────
+          fs.mkdirSync(SCREENSHOTS_DIR, { recursive: true });
+
+          const files = fs.readdirSync(REPOS_DIR).filter(f => f.endsWith('.md'));
+
+          // Collect candidates
+          const candidates = [];
+          for (const file of files) {
+            const slug = file.replace(/\.md$/, '');
+            const filePath = path.join(REPOS_DIR, file);
+            const content = fs.readFileSync(filePath, 'utf8');
+            const fm = parseFrontmatter(content);
+
+            const itemUrl = fm['item_url'] || '';
+            const screenshotDesktop = fm['screenshot_desktop'] || '';
+
+            if (isScreenshottable(itemUrl) && screenshotDesktop === '') {
+              candidates.push({ slug, filePath, itemUrl });
+            }
+          }
+
+          console.log(`Found ${candidates.length} candidate(s) — capping at ${BATCH_LIMIT} per run`);
+          const batch = candidates.slice(0, BATCH_LIMIT);
+
+          const browser = await chromium.launch();
+          const successfulSlugs = [];
+
+          for (const { slug, filePath, itemUrl } of batch) {
+            const destPath = path.join(SCREENSHOTS_DIR, `${slug}-desktop.png`);
+            console.log(`Capturing ${slug} → ${itemUrl}`);
+
+            try {
+              const context = await browser.newContext({
+                viewport: { width: 1280, height: 800 },
+              });
+              const page = await context.newPage();
+
+              await page.goto(itemUrl, { timeout: 15000, waitUntil: 'networkidle' });
+
+              // Dismiss cookie banners
+              for (const sel of COOKIE_SELECTORS) {
+                try {
+                  const el = await page.$(sel);
+                  if (el) {
+                    await el.click();
+                    await page.waitForTimeout(500);
+                    break;
+                  }
+                } catch (_) {
+                  // Ignore — selector not found or click failed
+                }
+              }
+
+              await page.screenshot({ path: destPath, fullPage: false });
+              await context.close();
+
+              successfulSlugs.push({ slug, filePath, destPath });
+              console.log(`  ✓ ${destPath}`);
+            } catch (err) {
+              console.warn(`  ⚠ Skipping ${slug}: ${err.message}`);
+            }
+          }
+
+          await browser.close();
+
+          // Update frontmatter for successful captures
+          for (const { slug, filePath, destPath } of successfulSlugs) {
+            setFrontmatterField(filePath, 'screenshot_desktop', destPath);
+            console.log(`Updated frontmatter: ${filePath}`);
+          }
+
+          console.log(`Done. ${successfulSlugs.length}/${batch.length} screenshots captured.`);
+          SCRIPT
+
+      - name: Commit screenshots and frontmatter updates
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add static/screenshots/ _repos/
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "chore: add public catalog screenshots (U-03 batch)"
+            git push
+          fi
