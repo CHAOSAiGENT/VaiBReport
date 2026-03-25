@@ -21,7 +21,8 @@ jobs:
 
       - name: Generate digest post
         env:
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           node --input-type=module << 'SCRIPT'
           import fs from 'fs';
@@ -112,11 +113,11 @@ jobs:
             return null;
           }
 
-          // ── Gemini API editorial blurbs ────────────────────
+          // ── Claude API editorial blurbs ────────────────────
           async function generateEditorialBlurbs(repos, sections) {
-            const apiKey = process.env.GEMINI_API_KEY;
+            const apiKey = process.env.ANTHROPIC_API_KEY;
             if (!apiKey) {
-              console.log('No GEMINI_API_KEY — falling back to template blurbs');
+              console.log('No ANTHROPIC_API_KEY — falling back to template blurbs');
               return null;
             }
 
@@ -125,7 +126,8 @@ jobs:
               if (items.length === 0) continue;
               repoList += `\n## ${section}\n`;
               for (const r of items) {
-                repoList += `- ${r.full_name} (${r.language || 'Multi'}, ${r.stargazers_count}★): ${r.description || 'No description'}\n`;
+                const id = r.full_name || r.id || r.name || '';
+                repoList += `- ${id} (${r.language || r._source || 'Multi'}, ${r.stargazers_count || r.likes || r.downloads || 0}): ${r.description || 'No description'}\n`;
                 if (r.topics && r.topics.length > 0) {
                   repoList += `  Topics: ${r.topics.slice(0, 8).join(', ')}\n`;
                 }
@@ -133,56 +135,50 @@ jobs:
             }
 
             const prompt = [
-              'You are writing one-liner editorial blurbs for a daily GitHub digest blog called VaiBReport. The audience is solo founders, AI/B2B SaaS builders, small business tool seekers, and content creators.',
+              'You are writing one-liner editorial blurbs for a daily digest blog called VaiBReport. The audience is solo founders, AI/B2B SaaS builders, small business owners, and content creators.',
               '',
-              'Your voice: casual, dry humor, opinionated. You are a fellow builder who has seen a lot of repos and knows what matters. Think "the friend who texts you hey check this out with actually good stuff." Be concise - each blurb is ONE sentence, max two. No fluff, no hype words like "revolutionary" or "game-changing." Say what it actually does and why someone building a product would care.',
+              'Voice: casual, dry humor, opinionated. You are a fellow builder who has seen a lot of tools and knows what actually matters. Think "the friend who texts you \'hey check this out\' with actually good stuff." Each blurb is ONE sentence, max 20 words. No fluff. No hype words (no "revolutionary", "game-changing", "incredible", "powerful"). Say what it does and why a builder would care.',
               '',
-              'Here are the items grouped by section. Write a blurb for each one. Return ONLY a JSON object mapping the item identifier to blurb string. No markdown, no explanation.',
+              'Write a blurb for each item below. Return ONLY valid JSON mapping each identifier to its blurb. No markdown, no explanation, no trailing commas.',
               '',
               repoList,
               '',
-              'Return format:',
-              '{"owner/repo": "Your one-liner blurb here.", ...}'
+              'Return format: {"owner/repo": "One-liner blurb here.", ...}'
             ].join('\n');
 
-            const models = ['gemini-2.5-flash', 'gemini-2.0-flash'];
-            for (const model of models) {
-              try {
-                console.log(`Trying Gemini model: ${model}`);
-                const res = await fetch(
-                  `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${apiKey}`,
-                  {
-                    method: 'POST',
-                    headers: { 'Content-Type': 'application/json' },
-                    body: JSON.stringify({
-                      contents: [{ parts: [{ text: prompt }] }],
-                      generationConfig: {
-                        temperature: 0.7,
-                        maxOutputTokens: 4096
-                      }
-                    })
-                  }
-                );
+            try {
+              console.log('Calling Claude API for editorial blurbs...');
+              const res = await fetch('https://api.anthropic.com/v1/messages', {
+                method: 'POST',
+                headers: {
+                  'Content-Type': 'application/json',
+                  'x-api-key': apiKey,
+                  'anthropic-version': '2023-06-01'
+                },
+                body: JSON.stringify({
+                  model: 'claude-sonnet-4-6',
+                  max_tokens: 4096,
+                  messages: [{ role: 'user', content: prompt }]
+                })
+              });
 
-                if (!res.ok) {
-                  const body = await res.text();
-                  console.error(`Gemini API error (${model}): ${res.status} ${res.statusText}`);
-                  console.error(body);
-                  if (res.status === 404) continue;
-                  return null;
-                }
-
-                const data = await res.json();
-                const text = data.candidates[0].content.parts[0].text;
-                const cleaned = text.replace(/```json\n?/g, '').replace(/```\n?/g, '').trim();
-                const blurbs = JSON.parse(cleaned);
-                console.log(`Got ${Object.keys(blurbs).length} editorial blurbs from Gemini (${model})`);
-                return blurbs;
-              } catch (e) {
-                console.error(`Gemini API call failed (${model}):`, e.message);
+              if (!res.ok) {
+                const body = await res.text();
+                console.error(`Claude API error: ${res.status} ${res.statusText}`);
+                console.error(body);
+                return null;
               }
+
+              const data = await res.json();
+              const text = data.content[0].text;
+              const cleaned = text.replace(/```json\n?/g, '').replace(/```\n?/g, '').trim();
+              const blurbs = JSON.parse(cleaned);
+              console.log(`Got ${Object.keys(blurbs).length} editorial blurbs from Claude`);
+              return blurbs;
+            } catch (e) {
+              console.error('Claude API call failed:', e.message);
+              return null;
             }
-            return null;
           }
 
           function writeOneLiner(repo, blurbs) {
@@ -192,6 +188,34 @@ jobs:
               ? blurbs[repo.full_name]
               : (repo.description || 'No description provided.');
             return `- [${repo.full_name}](${repo.html_url}) – ${blurb} (${lang}, ${stars})`;
+          }
+
+          // ── README media extraction ─────────────────────────
+          const BADGE_PATTERNS = [
+            /shields\.io/, /img\.shields\.io/, /badge\.fury\.io/,
+            /github\.com\/.*\/workflows\//, /actions\/workflows/,
+            /travis-ci/, /circleci/, /codecov/, /snyk\.io/,
+            /badge\.svg/, /badgen\.net/, /flat\.badge/
+          ];
+
+          async function fetchReadmeImage(fullName) {
+            try {
+              const res = await fetch(
+                `https://api.github.com/repos/${fullName}/readme`,
+                { headers: { 'Authorization': `token ${process.env.GITHUB_TOKEN}`, 'Accept': 'application/vnd.github.v3+json' } }
+              );
+              if (!res.ok) return null;
+              const data = await res.json();
+              const content = Buffer.from(data.content, 'base64').toString('utf8');
+              // Extract markdown images: ![alt](url) and HTML <img src="url">
+              const mdImages = [...content.matchAll(/!\[.*?\]\((https?:\/\/[^\s)]+)\)/g)].map(m => m[1]);
+              const htmlImages = [...content.matchAll(/<img[^>]+src=["'](https?:\/\/[^"']+)["']/gi)].map(m => m[1]);
+              const all = [...mdImages, ...htmlImages];
+              const hero = all.find(url => !BADGE_PATTERNS.some(p => p.test(url)));
+              return hero || null;
+            } catch (e) {
+              return null;
+            }
           }
 
           // ── Repo catalog entry creator ─────────────────────
@@ -981,6 +1005,28 @@ jobs:
             if (createRepoEntry(l, 'launch', 'New Launches', blurbs, hotnessData, digestDate)) repoSlugs++;
           }
           console.log(`Created/updated ${repoSlugs} _repos/ catalog entries`);
+
+          // ── README media enrichment ─────────────────────────
+          // For newly featured GitHub repos, try to extract a real
+          // product screenshot or demo GIF from the README.
+          let readmeUpdates = 0;
+          for (const fullName of featured.slice(0, 15)) {
+            const slug = toSlug(fullName);
+            const filePath = `_repos/${slug}.md`;
+            if (!fs.existsSync(filePath)) continue;
+            const content = fs.readFileSync(filePath, 'utf8');
+            if (content.includes('readme_image:')) continue; // already enriched
+            const readmeImg = await fetchReadmeImage(fullName);
+            if (readmeImg) {
+              const updated = content.replace(
+                /^(og_image:)/m,
+                `readme_image: "${readmeImg}"\n$1`
+              );
+              fs.writeFileSync(filePath, updated);
+              readmeUpdates++;
+            }
+          }
+          if (readmeUpdates > 0) console.log(`README enrichment: ${readmeUpdates} images added`);
 
           // ── Write health check ──────────────────────────────
           health.sources.github.featured = featured.length;
