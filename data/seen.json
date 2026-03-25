@@ -81,16 +81,16 @@
       "last_featured": "2026-03-24"
     },
     "digitalocean/sea-notes-saas-starter-kit": {
-      "times_featured": 1,
-      "last_featured": "2026-03-06"
+      "times_featured": 2,
+      "last_featured": "2026-03-25"
     },
     "SAP-samples/btp-cap-genai-rag": {
-      "times_featured": 1,
-      "last_featured": "2026-03-06"
+      "times_featured": 2,
+      "last_featured": "2026-03-25"
     },
     "kriasoft/better-auth": {
-      "times_featured": 1,
-      "last_featured": "2026-03-06"
+      "times_featured": 2,
+      "last_featured": "2026-03-25"
     },
     "ln-dev7/circle": {
       "times_featured": 2,
@@ -177,16 +177,16 @@
       "last_featured": "2026-03-24"
     },
     "spliit-app/spliit": {
-      "times_featured": 1,
-      "last_featured": "2026-03-06"
+      "times_featured": 2,
+      "last_featured": "2026-03-25"
     },
     "roninoss/create-expo-stack": {
-      "times_featured": 1,
-      "last_featured": "2026-03-06"
+      "times_featured": 2,
+      "last_featured": "2026-03-25"
     },
     "zce/caz": {
-      "times_featured": 1,
-      "last_featured": "2026-03-06"
+      "times_featured": 2,
+      "last_featured": "2026-03-25"
     },
     "jamez-bondos/awesome-gpt4o-images": {
       "times_featured": 2,
@@ -217,12 +217,12 @@
       "last_featured": "2026-03-24"
     },
     "updatedotdev/js": {
-      "times_featured": 1,
-      "last_featured": "2026-03-06"
+      "times_featured": 2,
+      "last_featured": "2026-03-25"
     },
     "Somafet/onboardjs": {
-      "times_featured": 1,
-      "last_featured": "2026-03-06"
+      "times_featured": 2,
+      "last_featured": "2026-03-25"
     },
     "AUTOMATIC1111/stable-diffusion-webui": {
       "times_featured": 2,
@@ -257,20 +257,20 @@
       "last_featured": "2026-03-23"
     },
     "OpenAPITools/openapi-generator": {
-      "times_featured": 1,
-      "last_featured": "2026-03-06"
+      "times_featured": 2,
+      "last_featured": "2026-03-25"
     },
     "gitleaks/gitleaks": {
       "times_featured": 1,
       "last_featured": "2026-03-06"
     },
     "arifszn/gitprofile": {
-      "times_featured": 1,
-      "last_featured": "2026-03-06"
+      "times_featured": 2,
+      "last_featured": "2026-03-25"
     },
     "PaulRBerg/hardhat-template": {
-      "times_featured": 1,
-      "last_featured": "2026-03-06"
+      "times_featured": 2,
+      "last_featured": "2026-03-25"
     },
     "feige996/unibest": {
       "times_featured": 1,
@@ -301,8 +301,8 @@
       "last_featured": "2026-03-24"
     },
     "zai-org/CogVideo": {
-      "times_featured": 1,
-      "last_featured": "2026-03-06"
+      "times_featured": 2,
+      "last_featured": "2026-03-25"
     },
     "Dao-AILab/flash-attention": {
       "times_featured": 1,
@@ -391,6 +391,42 @@
     "k3s-io/k3s": {
       "times_featured": 1,
       "last_featured": "2026-03-24"
+    },
+    "BeyteFlow/ReadmeGenAI": {
+      "times_featured": 1,
+      "last_featured": "2026-03-25"
+    },
+    "willwulfken/MidJourney-Styles-and-Keywords-Reference": {
+      "times_featured": 1,
+      "last_featured": "2026-03-25"
+    },
+    "Tencent-Hunyuan/HunyuanVideo": {
+      "times_featured": 1,
+      "last_featured": "2026-03-25"
+    },
+    "FoundationVision/VAR": {
+      "times_featured": 1,
+      "last_featured": "2026-03-25"
+    },
+    "brycedrennan/imaginAIry": {
+      "times_featured": 1,
+      "last_featured": "2026-03-25"
+    },
+    "sudheerj/javascript-interview-questions": {
+      "times_featured": 1,
+      "last_featured": "2026-03-25"
+    },
+    "posquit0/Awesome-CV": {
+      "times_featured": 1,
+      "last_featured": "2026-03-25"
+    },
+    "gorilla/websocket": {
+      "times_featured": 1,
+      "last_featured": "2026-03-25"
+    },
+    "lima-vm/lima": {
+      "times_featured": 1,
+      "last_featured": "2026-03-25"
     }
   }
 }

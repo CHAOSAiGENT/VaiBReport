@@ -89,8 +89,8 @@
       "last_featured": "2026-03-06"
     },
     "dima806/fairface_age_image_detection": {
-      "times_featured": 1,
-      "last_featured": "2026-03-06"
+      "times_featured": 2,
+      "last_featured": "2026-03-25"
     },
     "hf-doc-build/doc-build": {
       "times_featured": 2,
@@ -123,6 +123,54 @@
     "banned-historical-archives/banned-historical-archives": {
       "times_featured": 1,
       "last_featured": "2026-03-24"
+    },
+    "lmarena-ai/arena-leaderboard": {
+      "times_featured": 1,
+      "last_featured": "2026-03-25"
+    },
+    "microsoft/TRELLIS": {
+      "times_featured": 1,
+      "last_featured": "2026-03-25"
+    },
+    "KingNish/OpenGPT-4o": {
+      "times_featured": 1,
+      "last_featured": "2026-03-25"
+    },
+    "nanotron/ultrascale-playbook": {
+      "times_featured": 1,
+      "last_featured": "2026-03-25"
+    },
+    "KlingTeam/LivePortrait": {
+      "times_featured": 1,
+      "last_featured": "2026-03-25"
+    },
+    "meta-llama/Llama-3.1-8B-Instruct": {
+      "times_featured": 1,
+      "last_featured": "2026-03-25"
+    },
+    "facebook/opt-125m": {
+      "times_featured": 1,
+      "last_featured": "2026-03-25"
+    },
+    "openai/gpt-oss-20b": {
+      "times_featured": 1,
+      "last_featured": "2026-03-25"
+    },
+    "Qwen/Qwen3-1.7B": {
+      "times_featured": 1,
+      "last_featured": "2026-03-25"
+    },
+    "ropedia-ai/xperience-10m": {
+      "times_featured": 1,
+      "last_featured": "2026-03-25"
+    },
+    "Salesforce/wikitext": {
+      "times_featured": 1,
+      "last_featured": "2026-03-25"
+    },
+    "tasl-lab/uniocc": {
+      "times_featured": 1,
+      "last_featured": "2026-03-25"
     }
   }
 }

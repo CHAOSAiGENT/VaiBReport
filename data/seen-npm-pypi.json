@@ -79,6 +79,46 @@
     "pypi-weaviate-client": {
       "times_featured": 1,
       "last_featured": "2026-03-24"
+    },
+    "npm-cypress": {
+      "times_featured": 1,
+      "last_featured": "2026-03-25"
+    },
+    "npm-global-agent": {
+      "times_featured": 1,
+      "last_featured": "2026-03-25"
+    },
+    "npm-@opentelemetry/instrumentation-openai": {
+      "times_featured": 1,
+      "last_featured": "2026-03-25"
+    },
+    "npm-selenium-webdriver": {
+      "times_featured": 1,
+      "last_featured": "2026-03-25"
+    },
+    "npm-@appium/support": {
+      "times_featured": 1,
+      "last_featured": "2026-03-25"
+    },
+    "pypi-litellm": {
+      "times_featured": 1,
+      "last_featured": "2026-03-25"
+    },
+    "pypi-sentence-transformers": {
+      "times_featured": 1,
+      "last_featured": "2026-03-25"
+    },
+    "pypi-streamlit": {
+      "times_featured": 1,
+      "last_featured": "2026-03-25"
+    },
+    "pypi-accelerate": {
+      "times_featured": 1,
+      "last_featured": "2026-03-25"
+    },
+    "pypi-cohere": {
+      "times_featured": 1,
+      "last_featured": "2026-03-25"
     }
   }
 }

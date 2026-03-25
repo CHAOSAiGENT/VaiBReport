@@ -39,6 +39,26 @@
     "lightricks/ltx-2-pro": {
       "times_featured": 1,
       "last_featured": "2026-03-24"
+    },
+    "recraft-ai/recraft-creative-upscale": {
+      "times_featured": 1,
+      "last_featured": "2026-03-25"
+    },
+    "inworld/tts-1.5-max": {
+      "times_featured": 1,
+      "last_featured": "2026-03-25"
+    },
+    "vufinder/vggt-1b": {
+      "times_featured": 1,
+      "last_featured": "2026-03-25"
+    },
+    "inworld/tts-1.5-mini": {
+      "times_featured": 1,
+      "last_featured": "2026-03-25"
+    },
+    "vidu/q3-pro": {
+      "times_featured": 1,
+      "last_featured": "2026-03-25"
     }
   }
 }
