@@ -1,0 +1,302 @@
+name: Generate tool page content (E-04 + E-05)
+
+on:
+  workflow_dispatch:
+    inputs:
+      slug:
+        description: "Tool slug (filename without .md from _tools/)"
+        required: true
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    env:
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      SLUG: ${{ github.event.inputs.slug }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Generate scripts and use cases
+        run: |
+          node --input-type=module << 'SCRIPT'
+          import fs from 'fs';
+
+          const slug = process.env.SLUG;
+          const toolPath = `_tools/${slug}.md`;
+
+          // ── A. Read the tool file ────────────────────────────────
+          if (!fs.existsSync(toolPath)) {
+            console.log(`Tool file not found: ${toolPath} — skipping.`);
+            process.exit(0);
+          }
+
+          const raw = fs.readFileSync(toolPath, 'utf8');
+
+          // Parse frontmatter using regex
+          const fmMatch = raw.match(/^---\n([\s\S]*?)\n---/);
+          if (!fmMatch) {
+            console.log('No frontmatter found — skipping.');
+            process.exit(0);
+          }
+
+          const fmLines = fmMatch[1].split('\n');
+          const fm = {};
+
+          for (const line of fmLines) {
+            // key: "value" or key: value
+            const m = line.match(/^(\w[\w_]*?):\s*"(.*)"\s*$/) ||
+                      line.match(/^(\w[\w_]*?):\s*(.+?)\s*$/);
+            if (m) fm[m[1]] = m[2];
+          }
+
+          // Parse icp_tags array: icp_tags: ["a", "b"]
+          const icpMatch = fmMatch[1].match(/^icp_tags:\s*\[([^\]]*)\]/m);
+          const icpTags = icpMatch
+            ? icpMatch[1].split(',').map(s => s.trim().replace(/^"|"$/g, '')).filter(Boolean)
+            : [];
+
+          const name        = fm.name        || slug;
+          const url         = fm.url         || '';
+          const hook        = fm.hook        || '';
+          const primary_icp = fm.primary_icp || '';
+          const compare_to  = fm.compare_to  || '';
+          const honest_take = fm.honest_take || '';
+          const description = fm.description || hook;
+
+          console.log(`Processing: ${name} (${slug})`);
+
+          // ── Claude API helper ────────────────────────────────────
+          async function callClaude(prompt, maxTokens = 1024) {
+            const res = await fetch('https://api.anthropic.com/v1/messages', {
+              method: 'POST',
+              headers: {
+                'Content-Type': 'application/json',
+                'x-api-key': process.env.ANTHROPIC_API_KEY,
+                'anthropic-version': '2023-06-01'
+              },
+              body: JSON.stringify({
+                model: 'claude-sonnet-4-6',
+                max_tokens: maxTokens,
+                messages: [{ role: 'user', content: prompt }]
+              })
+            });
+            if (!res.ok) throw new Error(`Claude API error: ${res.status} ${await res.text()}`);
+            const data = await res.json();
+            return data.content[0].text.trim();
+          }
+
+          // ── B. one_liner prompt ──────────────────────────────────
+          const promptOneLiner = `Write a one-liner description for a developer tool. Maximum 20 words. Plain text only, no quotes.
+
+Tool: ${name}
+Hook: ${hook}
+Primary audience: ${primary_icp}
+
+Return only the one-liner, nothing else.`;
+
+          // ── C. script_faceless prompt (Format A) ────────────────
+          const promptFaceless = `You write short video scripts for a faceless YouTube/TikTok/Reels/Shorts channel about developer tools and software for solo founders and small business owners.
+
+Tool: ${name}
+URL: ${url}
+Why interesting: ${hook}
+Primary audience: ${primary_icp}
+Compare to: ${compare_to}
+Honest limitations: ${honest_take}
+
+Write a 60-90 second narration script in this exact structure:
+HOOK (5s): One punchy sentence. Start with what it DOES or what problem it solves. Never start with "today we're looking at" or "in this video".
+WHAT IT IS (15s): Explain in plain language.
+USE CASE (25s): Specific scenario for ${primary_icp}. Name the task, name the outcome.
+HONEST TAKE (15s): What it doesn't do well. Who should NOT use it.
+CTA (10s): Simple call to action.
+
+Voice: casual, dry humor, direct. No hype words (no "game-changing", "revolutionary", "incredible").
+Return the script as plain text with section labels on their own lines.`;
+
+          // ── D. script_ugc prompt (Format B) ─────────────────────
+          const promptUgc = `You write short on-camera video scripts for Peter, a consultant who advises small founding teams, solopreneurs, and small business owners on tools that help them move faster.
+
+Peter's voice: casual, dry humor, direct, opinionated. Honest about what doesn't work. Never hype.
+
+Tool: ${name}
+URL: ${url}
+Why interesting: ${hook}
+Primary audience: ${primary_icp}
+Compare to: ${compare_to} — ${honest_take}
+
+Write an 80-120 second on-camera script in this exact structure:
+HOOK (5s): Personal angle — "I found this while..." or a relatable pain point. Start speaking immediately.
+QUICK SHOW (25s): Peter describes what's on screen while demoing. Conversational.
+MY TAKE (30s): Who Peter specifically recommends this to. Name the ICP. Real use case.
+VS THE ALTERNATIVE (20s): One honest comparison. Real trade-off.
+SIGN OFF (15s): CTA + Peter's sign-off.
+
+Format: camera action notes in [brackets], spoken words in plain text.
+Return plain text with section labels.`;
+
+          // ── E. ICP use cases prompt (E-05) ──────────────────────
+          const promptUseCases = `For the tool below, write 2-4 specific use cases targeting different audience personas.
+
+Tool: ${name}
+URL: ${url}
+Description: ${hook}
+Primary ICP: ${primary_icp}
+
+Personas to consider: founding-team, solopreneur, small-business, pre-mvp, entreprecurious, non-technical
+
+For each relevant persona write:
+- icp: [persona tag]
+- scenario: One sentence — the specific situation this person is in
+- outcome: What they get / what problem it solves
+- effort: low / medium / high (how hard to adopt for a non-technical person)
+
+Only include personas where this tool is genuinely relevant.
+Return as a JSON array: [{"icp":"...","scenario":"...","outcome":"...","effort":"..."}]`;
+
+          // ── F. Make the Claude API calls ─────────────────────────
+          let oneLiner = '';
+          let scriptFaceless = '';
+          let scriptUgc = '';
+          let useCases = [];
+
+          try {
+            console.log('Calling Claude for one_liner...');
+            oneLiner = await callClaude(promptOneLiner, 100);
+            console.log(`one_liner: ${oneLiner}`);
+          } catch (e) {
+            console.error(`one_liner call failed: ${e.message}`);
+          }
+
+          try {
+            console.log('Calling Claude for script_faceless...');
+            scriptFaceless = await callClaude(promptFaceless, 800);
+            console.log(`script_faceless: ${scriptFaceless.split(/\s+/).length} words`);
+          } catch (e) {
+            console.error(`script_faceless call failed: ${e.message}`);
+          }
+
+          try {
+            console.log('Calling Claude for script_ugc...');
+            scriptUgc = await callClaude(promptUgc, 1000);
+            console.log(`script_ugc: ${scriptUgc.split(/\s+/).length} words`);
+          } catch (e) {
+            console.error(`script_ugc call failed: ${e.message}`);
+          }
+
+          try {
+            console.log('Calling Claude for use_cases...');
+            const useCasesRaw = await callClaude(promptUseCases, 600);
+            // Extract JSON array from response (may be wrapped in markdown)
+            const jsonMatch = useCasesRaw.match(/\[[\s\S]*\]/);
+            if (jsonMatch) {
+              useCases = JSON.parse(jsonMatch[0]);
+              console.log(`use_cases: ${useCases.length} entries`);
+            } else {
+              console.error('Could not extract JSON array from use_cases response');
+            }
+          } catch (e) {
+            console.error(`use_cases call failed: ${e.message}`);
+          }
+
+          // ── G. Update the _tools/{slug}.md file ─────────────────
+          let content = raw;
+
+          // Helper: escape double quotes for YAML single-line strings
+          function escapeYaml(str) {
+            return str.replace(/\\/g, '\\\\').replace(/"/g, '\\"');
+          }
+
+          // Helper: indent every line of a multi-line value by 2 spaces
+          function indentBlock(str) {
+            return str.split('\n').map(l => '  ' + l).join('\n');
+          }
+
+          // Update one_liner (single-line field)
+          if (oneLiner) {
+            content = content.replace(
+              /^one_liner:\s*".*"$/m,
+              `one_liner: "${escapeYaml(oneLiner)}"`
+            );
+          }
+
+          // Update script_faceless as YAML block scalar
+          if (scriptFaceless) {
+            content = content.replace(
+              /^script_faceless:\s*".*"$/m,
+              `script_faceless: |\n${indentBlock(scriptFaceless)}`
+            );
+          }
+
+          // Update script_ugc as YAML block scalar
+          if (scriptUgc) {
+            content = content.replace(
+              /^script_ugc:\s*".*"$/m,
+              `script_ugc: |\n${indentBlock(scriptUgc)}`
+            );
+          }
+
+          // Insert use_cases after the honest_take line
+          if (useCases.length > 0) {
+            const useCaseYaml = [
+              'use_cases:',
+              ...useCases.map(uc => [
+                `  - icp: "${uc.icp}"`,
+                `    scenario: "${escapeYaml(uc.scenario)}"`,
+                `    outcome: "${escapeYaml(uc.outcome)}"`,
+                `    effort: ${uc.effort}`
+              ].join('\n'))
+            ].join('\n');
+
+            // Replace placeholder empty array or existing use_cases block
+            if (/^use_cases:\s*\[\]/m.test(content)) {
+              content = content.replace(/^use_cases:\s*\[\]$/m, useCaseYaml);
+            } else if (/^use_cases:/m.test(content)) {
+              // Replace multi-line use_cases block
+              content = content.replace(
+                /^use_cases:[\s\S]*?(?=\n\w|\n---)/m,
+                useCaseYaml + '\n'
+              );
+            } else {
+              // Insert after honest_take line
+              content = content.replace(
+                /^(honest_take:.*)/m,
+                `$1\n${useCaseYaml}`
+              );
+            }
+          }
+
+          fs.writeFileSync(toolPath, content);
+          console.log(`Updated: ${toolPath}`);
+
+          // ── I. Summary ───────────────────────────────────────────
+          console.log('\n── Generation Summary ──────────────────────────────');
+          console.log(`Tool:          ${name} (${slug})`);
+          console.log(`one_liner:     ${oneLiner || '(not generated)'}`);
+          console.log(`script_faceless: ${scriptFaceless ? scriptFaceless.split(/\s+/).length + ' words' : '(not generated)'}`);
+          console.log(`script_ugc:    ${scriptUgc ? scriptUgc.split(/\s+/).length + ' words' : '(not generated)'}`);
+          console.log(`use_cases:     ${useCases.length} ICP entries`);
+          if (useCases.length > 0) {
+            useCases.forEach(uc => console.log(`  - ${uc.icp}: ${uc.scenario.slice(0, 60)}...`));
+          }
+          SCRIPT
+
+      - name: Commit generated content
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add _tools/
+          git diff --staged --quiet && echo "Nothing to commit" || \
+            git commit -m "feat: generate tool page content for ${{ github.event.inputs.slug }} [automated]"
+          git push
