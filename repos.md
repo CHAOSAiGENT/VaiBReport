@@ -229,6 +229,16 @@ permalink: /repos/
     <span class="chip" data-filter="category" data-value="UGC, social media and creator tools">UGC/creator</span>
     <span class="chip" data-filter="category" data-value="Trending">Trending</span>
   </div>
+  <div class="catalog-row">
+    <label>For:</label>
+    <span class="chip active" data-filter="icp" data-value="all">All</span>
+    <span class="chip" data-filter="icp" data-value="founding-team">Founding team</span>
+    <span class="chip" data-filter="icp" data-value="solopreneur">Solopreneur</span>
+    <span class="chip" data-filter="icp" data-value="small-business">Small business</span>
+    <span class="chip" data-filter="icp" data-value="pre-mvp">Pre-MVP</span>
+    <span class="chip" data-filter="icp" data-value="entreprecurious">Entreprecurious</span>
+    <span class="chip" data-filter="icp" data-value="non-technical">Non-technical</span>
+  </div>
 </div>
 
 <div class="result-count" id="resultCount"></div>
@@ -255,6 +265,7 @@ const repoData = [
     streak: {{ repo.streak | default: 0 }},
     appearances: {{ repo.appearances | default: 0 }},
     tags: {{ repo.tags | jsonify }},
+    icp_tags: {{ repo.icp_tags | jsonify }},
     page_url: "{{ repo.url }}"
   }{% unless forloop.last %},{% endunless %}
   {% endfor %}
@@ -276,6 +287,7 @@ const sourceIcons = {
 
 let activeSource = 'all';
 let activeCategory = 'all';
+let activeIcp = 'all';
 let searchQuery = '';
 let sortBy = 'last_featured';
 
@@ -286,7 +298,7 @@ function matchesSource(item, filter) {
 }
 
 function getSearchText(item) {
-  return [item.name, item.description, item.category, item.language, item.source, ...(item.tags || [])].join(' ').toLowerCase();
+  return [item.name, item.description, item.category, item.language, item.source, ...(item.tags || []), ...(item.icp_tags || [])].join(' ').toLowerCase();
 }
 
 function sortItems(items) {
@@ -305,6 +317,7 @@ function renderCards() {
   let filtered = repoData.filter(item => {
     if (!matchesSource(item, activeSource)) return false;
     if (activeCategory !== 'all' && item.category !== activeCategory) return false;
+    if (activeIcp !== 'all' && !(item.icp_tags || []).includes(activeIcp)) return false;
     if (searchQuery && !getSearchText(item).includes(searchQuery)) return false;
     return true;
   });
@@ -370,6 +383,7 @@ document.querySelectorAll('.chip').forEach(chip => {
     const value = this.dataset.value;
     if (filterType === 'source') activeSource = value;
     if (filterType === 'category') activeCategory = value;
+    if (filterType === 'icp') activeIcp = value;
     document.querySelectorAll(`.chip[data-filter="${filterType}"]`).forEach(c => c.classList.remove('active'));
     this.classList.add('active');
     renderCards();

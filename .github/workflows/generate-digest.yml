@@ -239,6 +239,25 @@ jobs:
             return fm;
           }
 
+          const SECTION_ICP = {
+            'SaaS starters and templates':        ['founding-team', 'solopreneur', 'pre-mvp'],
+            'AI agents, LLM infra and RAG':       ['founding-team', 'pre-mvp', 'entreprecurious'],
+            'Ops, analytics and automation':       ['solopreneur', 'small-business', 'founding-team'],
+            'Marketing, sales and GTM tools':     ['solopreneur', 'small-business', 'non-technical'],
+            'UGC, social media and creator tools':['solopreneur', 'non-technical', 'entreprecurious'],
+            'Trending':                            ['founding-team', 'entreprecurious'],
+            'HuggingFace Spaces':                 ['non-technical', 'solopreneur', 'entreprecurious'],
+            'HuggingFace Models':                 ['founding-team', 'pre-mvp'],
+            'HuggingFace Datasets':               ['founding-team', 'pre-mvp'],
+            'Replicate Models':                   ['non-technical', 'solopreneur'],
+            'Papers to Code':                     ['founding-team', 'entreprecurious'],
+            'npm Packages':                       ['founding-team', 'solopreneur'],
+            'PyPI Packages':                      ['founding-team', 'solopreneur'],
+            'GitLab Repos':                       ['founding-team', 'solopreneur'],
+            'Ollama Models':                      ['non-technical', 'pre-mvp', 'entreprecurious'],
+            'New Launches':                       ['solopreneur', 'small-business', 'non-technical'],
+          };
+
           function createRepoEntry(item, source, category, blurbs, hotness, digestDate) {
             const id = item.id || item.full_name || item.name || '';
             const slug = toSlug(id);
@@ -254,6 +273,7 @@ jobs:
             const lang = item.language || '';
             const tags = (item.topics || item.tags || item.keywords || []).slice(0, 8);
             tags.unshift(source.split('-')[0]);
+            const icpTags = SECTION_ICP[category] || [];
 
             switch (source) {
               case 'github':
@@ -336,6 +356,7 @@ jobs:
                 `appearances: ${appearances}`,
                 `star_velocity: ${starVelocity}`,
                 `tags: [${tags.join(', ')}]`,
+                `icp_tags: [${icpTags.map(t => JSON.stringify(t)).join(', ')}]`,
                 '---'
               ].join('\n');
               fs.writeFileSync(filePath, updatedFm + '\n\n' + blurb + '\n');
@@ -361,6 +382,7 @@ jobs:
                 `appearances: ${appearances}`,
                 `star_velocity: ${starVelocity}`,
                 `tags: [${tags.join(', ')}]`,
+                `icp_tags: [${icpTags.map(t => JSON.stringify(t)).join(', ')}]`,
                 '---'
               ].join('\n');
               fs.writeFileSync(filePath, newEntry + '\n\n' + blurb + '\n');
