@@ -1,0 +1,200 @@
+{
+  "generated_at": "2026-03-26T14:50:13.785Z",
+  "source": "launches",
+  "counts": {
+    "hackernews_showhn": 17,
+    "devhunt": 0,
+    "betalist": 0,
+    "uneed": 0,
+    "total": 17
+  },
+  "launches": [
+    {
+      "id": "showhn-47520220",
+      "name": "Optio – Orchestrate AI coding agents in K8s to go from ticket to PR",
+      "url": "https://github.com/jonwiggins/optio",
+      "description": "Show HN: Optio – Orchestrate AI coding agents in K8s to go from ticket to PR",
+      "upvotes": 69,
+      "launch_date": "2026-03-26",
+      "platform_url": "https://news.ycombinator.com/item?id=47520220",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47526486",
+      "name": "Robust LLM Extractor for Websites in TypeScript",
+      "url": "https://github.com/lightfeed/extractor",
+      "description": "Show HN: Robust LLM Extractor for Websites in TypeScript",
+      "upvotes": 61,
+      "launch_date": "2026-03-26",
+      "platform_url": "https://news.ycombinator.com/item?id=47526486",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47524704",
+      "name": "A plain-text cognitive architecture for Claude Code",
+      "url": "https://lab.puga.com.br/cog/",
+      "description": "Show HN: A plain-text cognitive architecture for Claude Code",
+      "upvotes": 118,
+      "launch_date": "2026-03-26",
+      "platform_url": "https://news.ycombinator.com/item?id=47524704",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47506713",
+      "name": "I took back Video.js after 16 years and we rewrote it to be 88% smaller",
+      "url": "https://videojs.org/blog/videojs-v10-beta-hello-world-again",
+      "description": "Show HN: I took back Video.js after 16 years and we rewrote it to be 88% smaller",
+      "upvotes": 628,
+      "launch_date": "2026-03-26",
+      "platform_url": "https://news.ycombinator.com/item?id=47506713",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47521910",
+      "name": "Yoink – Spotify to lossless with full metadata, self-hostable, ad-free",
+      "url": "https://yoinkify.com",
+      "description": "Show HN: Yoink – Spotify to lossless with full metadata, self-hostable, ad-free",
+      "upvotes": 46,
+      "launch_date": "2026-03-26",
+      "platform_url": "https://news.ycombinator.com/item?id=47521910",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47507666",
+      "name": "AI Roundtable – Let 200 models debate your question",
+      "url": "https://opper.ai/ai-roundtable/",
+      "description": "Show HN: AI Roundtable – Let 200 models debate your question",
+      "upvotes": 107,
+      "launch_date": "2026-03-26",
+      "platform_url": "https://news.ycombinator.com/item?id=47507666",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47512891",
+      "name": "DuckDB community extension for prefiltered HNSW using ACORN-1",
+      "url": "https://github.com/cigrainger/duckdb-hnsw-acorn",
+      "description": "Show HN: DuckDB community extension for prefiltered HNSW using ACORN-1",
+      "upvotes": 88,
+      "launch_date": "2026-03-26",
+      "platform_url": "https://news.ycombinator.com/item?id=47512891",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47499672",
+      "name": "ProofShot – Give AI coding agents eyes to verify the UI they build",
+      "url": "https://github.com/AmElmo/proofshot",
+      "description": "Show HN: ProofShot – Give AI coding agents eyes to verify the UI they build",
+      "upvotes": 152,
+      "launch_date": "2026-03-26",
+      "platform_url": "https://news.ycombinator.com/item?id=47499672",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47505144",
+      "name": "Email.md – Markdown to responsive, email-safe HTML",
+      "url": "https://www.emailmd.dev/",
+      "description": "Show HN: Email.md – Markdown to responsive, email-safe HTML",
+      "upvotes": 369,
+      "launch_date": "2026-03-26",
+      "platform_url": "https://news.ycombinator.com/item?id=47505144",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47521443",
+      "name": "Pgsemantic – Point at your Postgres DB, get vector search instantly",
+      "url": "https://github.com/varmabudharaju/pgsemantic",
+      "description": "Show HN: Pgsemantic – Point at your Postgres DB, get vector search instantly",
+      "upvotes": 11,
+      "launch_date": "2026-03-26",
+      "platform_url": "https://news.ycombinator.com/item?id=47521443",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47503617",
+      "name": "Gemini can now natively embed video, so I built sub-second video search",
+      "url": "https://github.com/ssrajadh/sentrysearch",
+      "description": "Show HN: Gemini can now natively embed video, so I built sub-second video search",
+      "upvotes": 425,
+      "launch_date": "2026-03-26",
+      "platform_url": "https://news.ycombinator.com/item?id=47503617",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47523645",
+      "name": "Automate your workflow in plain English",
+      "url": "https://www.operator23.com/",
+      "description": "Show HN: Automate your workflow in plain English",
+      "upvotes": 10,
+      "launch_date": "2026-03-26",
+      "platform_url": "https://news.ycombinator.com/item?id=47523645",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47491466",
+      "name": "Cq – Stack Overflow for AI coding agents",
+      "url": "https://blog.mozilla.ai/cq-stack-overflow-for-agents/",
+      "description": "Show HN: Cq – Stack Overflow for AI coding agents",
+      "upvotes": 221,
+      "launch_date": "2026-03-26",
+      "platform_url": "https://news.ycombinator.com/item?id=47491466",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47505731",
+      "name": "Gridland: make terminal apps that also run in the browser",
+      "url": "https://www.gridland.io/",
+      "description": "Show HN: Gridland: make terminal apps that also run in the browser",
+      "upvotes": 104,
+      "launch_date": "2026-03-26",
+      "platform_url": "https://news.ycombinator.com/item?id=47505731",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47493567",
+      "name": "I built a site that maps the web from a bounty hunter's perspective",
+      "url": "https://www.neobotnet.com/",
+      "description": "Show HN: I built a site that maps the web from a bounty hunter's perspective",
+      "upvotes": 46,
+      "launch_date": "2026-03-26",
+      "platform_url": "https://news.ycombinator.com/item?id=47493567",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47470405",
+      "name": "I ran a language model on a PS2",
+      "url": "https://github.com/xaskasdf/ps2-llm",
+      "description": "Show HN: I ran a language model on a PS2",
+      "upvotes": 46,
+      "launch_date": "2026-03-26",
+      "platform_url": "https://news.ycombinator.com/item?id=47470405",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47486680",
+      "name": "The King Wen Permutation: [52, 10, 2]",
+      "url": "https://gzw1987-bit.github.io/iching-math/",
+      "description": "Show HN: The King Wen Permutation: [52, 10, 2]",
+      "upvotes": 62,
+      "launch_date": "2026-03-26",
+      "platform_url": "https://news.ycombinator.com/item?id=47486680",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    }
+  ]
+}
