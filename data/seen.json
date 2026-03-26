@@ -33,8 +33,8 @@
       "times_featured": 1
     },
     "PostHog/posthog": {
-      "last_featured": "2026-03-05",
-      "times_featured": 1
+      "last_featured": "2026-03-26",
+      "times_featured": 2
     },
     "Lissy93/domain-locker": {
       "last_featured": "2026-03-23",
@@ -45,8 +45,8 @@
       "times_featured": 2
     },
     "Blazity/next-saas-starter": {
-      "last_featured": "2026-03-05",
-      "times_featured": 1
+      "last_featured": "2026-03-26",
+      "times_featured": 2
     },
     "inngest/inngest": {
       "last_featured": "2026-03-05",
@@ -273,16 +273,16 @@
       "last_featured": "2026-03-25"
     },
     "feige996/unibest": {
-      "times_featured": 1,
-      "last_featured": "2026-03-06"
+      "times_featured": 2,
+      "last_featured": "2026-03-26"
     },
     "graphile/starter": {
-      "times_featured": 1,
-      "last_featured": "2026-03-06"
+      "times_featured": 2,
+      "last_featured": "2026-03-26"
     },
     "NextJSTemplates/startup-nextjs": {
-      "times_featured": 1,
-      "last_featured": "2026-03-06"
+      "times_featured": 2,
+      "last_featured": "2026-03-26"
     },
     "PicoTrex/Awesome-Nano-Banana-images": {
       "times_featured": 2,
@@ -427,6 +427,50 @@
     "lima-vm/lima": {
       "times_featured": 1,
       "last_featured": "2026-03-25"
+    },
+    "saas-js/saas-ui": {
+      "times_featured": 1,
+      "last_featured": "2026-03-26"
+    },
+    "QwenLM/Qwen-Image": {
+      "times_featured": 1,
+      "last_featured": "2026-03-26"
+    },
+    "vladmandic/sdnext": {
+      "times_featured": 1,
+      "last_featured": "2026-03-26"
+    },
+    "mylxsw/aidea": {
+      "times_featured": 1,
+      "last_featured": "2026-03-26"
+    },
+    "salesforce/BLIP": {
+      "times_featured": 1,
+      "last_featured": "2026-03-26"
+    },
+    "showlab/Awesome-Video-Diffusion": {
+      "times_featured": 1,
+      "last_featured": "2026-03-26"
+    },
+    "nestjs/nest": {
+      "times_featured": 1,
+      "last_featured": "2026-03-26"
+    },
+    "ossrs/srs": {
+      "times_featured": 1,
+      "last_featured": "2026-03-26"
+    },
+    "n8n-io/n8n": {
+      "times_featured": 1,
+      "last_featured": "2026-03-26"
+    },
+    "Infisical/infisical": {
+      "times_featured": 1,
+      "last_featured": "2026-03-26"
+    },
+    "ente-io/ente": {
+      "times_featured": 1,
+      "last_featured": "2026-03-26"
     }
   }
 }

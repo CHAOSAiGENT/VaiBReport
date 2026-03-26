@@ -59,6 +59,26 @@
     "moondream": {
       "times_featured": 1,
       "last_featured": "2026-03-25"
+    },
+    "zephyr": {
+      "times_featured": 1,
+      "last_featured": "2026-03-26"
+    },
+    "mistral-large": {
+      "times_featured": 1,
+      "last_featured": "2026-03-26"
+    },
+    "granite3.2-vision": {
+      "times_featured": 1,
+      "last_featured": "2026-03-26"
+    },
+    "wizard-vicuna-uncensored": {
+      "times_featured": 1,
+      "last_featured": "2026-03-26"
+    },
+    "translategemma": {
+      "times_featured": 1,
+      "last_featured": "2026-03-26"
     }
   }
 }

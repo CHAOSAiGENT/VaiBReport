@@ -171,6 +171,58 @@
     "tasl-lab/uniocc": {
       "times_featured": 1,
       "last_featured": "2026-03-25"
+    },
+    "InstantX/InstantID": {
+      "times_featured": 1,
+      "last_featured": "2026-03-26"
+    },
+    "tencent/Hunyuan3D-2": {
+      "times_featured": 1,
+      "last_featured": "2026-03-26"
+    },
+    "hexgrad/Kokoro-TTS": {
+      "times_featured": 1,
+      "last_featured": "2026-03-26"
+    },
+    "akhaliq/anycoder": {
+      "times_featured": 1,
+      "last_featured": "2026-03-26"
+    },
+    "HuggingFaceTB/smol-training-playbook": {
+      "times_featured": 1,
+      "last_featured": "2026-03-26"
+    },
+    "meta-llama/Llama-3.2-3B-Instruct": {
+      "times_featured": 1,
+      "last_featured": "2026-03-26"
+    },
+    "trl-internal-testing/tiny-Qwen2ForCausalLM-2.5": {
+      "times_featured": 1,
+      "last_featured": "2026-03-26"
+    },
+    "Qwen/Qwen3-4B": {
+      "times_featured": 1,
+      "last_featured": "2026-03-26"
+    },
+    "jonatasgrosman/wav2vec2-large-xlsr-53-russian": {
+      "times_featured": 1,
+      "last_featured": "2026-03-26"
+    },
+    "Qwen/Qwen2.5-0.5B-Instruct": {
+      "times_featured": 1,
+      "last_featured": "2026-03-26"
+    },
+    "nvidia/PhysicalAI-Autonomous-Vehicles": {
+      "times_featured": 1,
+      "last_featured": "2026-03-26"
+    },
+    "openai/gsm8k": {
+      "times_featured": 1,
+      "last_featured": "2026-03-26"
+    },
+    "princeton-nlp/SWE-bench_Verified": {
+      "times_featured": 1,
+      "last_featured": "2026-03-26"
     }
   }
 }
