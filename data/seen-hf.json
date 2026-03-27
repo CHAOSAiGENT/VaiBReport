@@ -223,6 +223,58 @@
     "princeton-nlp/SWE-bench_Verified": {
       "times_featured": 1,
       "last_featured": "2026-03-26"
+    },
+    "mukaist/Midjourney": {
+      "times_featured": 1,
+      "last_featured": "2026-03-27"
+    },
+    "pharmapsychotic/CLIP-Interrogator": {
+      "times_featured": 1,
+      "last_featured": "2026-03-27"
+    },
+    "zerogpu-aoti/wan2-2-fp8da-aoti-faster": {
+      "times_featured": 1,
+      "last_featured": "2026-03-27"
+    },
+    "mrfakename/E2-F5-TTS": {
+      "times_featured": 1,
+      "last_featured": "2026-03-27"
+    },
+    "sanchit-gandhi/whisper-jax": {
+      "times_featured": 1,
+      "last_featured": "2026-03-27"
+    },
+    "BAAI/bge-large-en-v1.5": {
+      "times_featured": 1,
+      "last_featured": "2026-03-27"
+    },
+    "Qwen/Qwen3-4B-Instruct-2507": {
+      "times_featured": 1,
+      "last_featured": "2026-03-27"
+    },
+    "jonatasgrosman/wav2vec2-large-xlsr-53-portuguese": {
+      "times_featured": 1,
+      "last_featured": "2026-03-27"
+    },
+    "argmaxinc/whisperkit-coreml": {
+      "times_featured": 1,
+      "last_featured": "2026-03-27"
+    },
+    "Marqo/nsfw-image-detection-384": {
+      "times_featured": 1,
+      "last_featured": "2026-03-27"
+    },
+    "ScaleAI/SWE-bench_Pro": {
+      "times_featured": 1,
+      "last_featured": "2026-03-27"
+    },
+    "epfml/FineWeb-HQ": {
+      "times_featured": 1,
+      "last_featured": "2026-03-27"
+    },
+    "allenai/MADLAD-400": {
+      "times_featured": 1,
+      "last_featured": "2026-03-27"
     }
   }
 }

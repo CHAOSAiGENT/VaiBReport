@@ -79,6 +79,26 @@
     "translategemma": {
       "times_featured": 1,
       "last_featured": "2026-03-26"
+    },
+    "starcoder": {
+      "times_featured": 1,
+      "last_featured": "2026-03-27"
+    },
+    "nous-hermes": {
+      "times_featured": 1,
+      "last_featured": "2026-03-27"
+    },
+    "deepseek-llm": {
+      "times_featured": 1,
+      "last_featured": "2026-03-27"
+    },
+    "deepseek-v2": {
+      "times_featured": 1,
+      "last_featured": "2026-03-27"
+    },
+    "embeddinggemma": {
+      "times_featured": 1,
+      "last_featured": "2026-03-27"
     }
   }
 }

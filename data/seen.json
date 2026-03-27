@@ -471,6 +471,66 @@
     "ente-io/ente": {
       "times_featured": 1,
       "last_featured": "2026-03-26"
+    },
+    "revokslab/ShipFree": {
+      "times_featured": 1,
+      "last_featured": "2026-03-27"
+    },
+    "reliverse/relivator": {
+      "times_featured": 1,
+      "last_featured": "2026-03-27"
+    },
+    "shadcn-ui/next-template": {
+      "times_featured": 1,
+      "last_featured": "2026-03-27"
+    },
+    "JoshuaKGoldberg/create-typescript-app": {
+      "times_featured": 1,
+      "last_featured": "2026-03-27"
+    },
+    "emonney/QuickApp": {
+      "times_featured": 1,
+      "last_featured": "2026-03-27"
+    },
+    "MeiGen-AI/InfiniteTalk": {
+      "times_featured": 1,
+      "last_featured": "2026-03-27"
+    },
+    "AILab-CVC/VideoCrafter": {
+      "times_featured": 1,
+      "last_featured": "2026-03-27"
+    },
+    "NVlabs/Sana": {
+      "times_featured": 1,
+      "last_featured": "2026-03-27"
+    },
+    "Tencent-Hunyuan/HunyuanVideo-1.5": {
+      "times_featured": 1,
+      "last_featured": "2026-03-27"
+    },
+    "nateraw/stable-diffusion-videos": {
+      "times_featured": 1,
+      "last_featured": "2026-03-27"
+    },
+    "vitejs/vite": {
+      "times_featured": 1,
+      "last_featured": "2026-03-27"
+    },
+    "apache/superset": {
+      "times_featured": 1,
+      "last_featured": "2026-03-27"
+    },
+    "redisson/redisson": {
+      "times_featured": 1,
+      "last_featured": "2026-03-27"
+    },
+    "microsoft/fluentui": {
+      "times_featured": 1,
+      "last_featured": "2026-03-27"
+    },
+    "plotly/plotly.js": {
+      "times_featured": 1,
+      "last_featured": "2026-03-27"
     }
   }
 }

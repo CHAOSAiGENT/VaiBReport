@@ -159,6 +159,46 @@
     "pypi-chromadb": {
       "times_featured": 1,
       "last_featured": "2026-03-26"
+    },
+    "npm-genkit": {
+      "times_featured": 1,
+      "last_featured": "2026-03-27"
+    },
+    "npm-@genkit-ai/firebase": {
+      "times_featured": 1,
+      "last_featured": "2026-03-27"
+    },
+    "npm-@genkit-ai/google-cloud": {
+      "times_featured": 1,
+      "last_featured": "2026-03-27"
+    },
+    "npm-@genkit-ai/google-genai": {
+      "times_featured": 1,
+      "last_featured": "2026-03-27"
+    },
+    "npm-genkit-cli": {
+      "times_featured": 1,
+      "last_featured": "2026-03-27"
+    },
+    "pypi-qdrant-client": {
+      "times_featured": 1,
+      "last_featured": "2026-03-27"
+    },
+    "pypi-llama-index": {
+      "times_featured": 1,
+      "last_featured": "2026-03-27"
+    },
+    "pypi-instructor": {
+      "times_featured": 1,
+      "last_featured": "2026-03-27"
+    },
+    "pypi-vllm": {
+      "times_featured": 1,
+      "last_featured": "2026-03-27"
+    },
+    "pypi-diffusers": {
+      "times_featured": 1,
+      "last_featured": "2026-03-27"
     }
   }
 }
