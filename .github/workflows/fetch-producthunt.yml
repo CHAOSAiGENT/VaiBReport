@@ -26,7 +26,11 @@ jobs:
           node --input-type=module << 'SCRIPT'
           import fs from 'fs';
 
-          const today = new Date().toISOString().slice(0, 10);
+          const now = new Date();
+          const today = now.toISOString().slice(0, 10);
+          // Look back 30 hours so we always catch yesterday's top PH posts
+          // (PH resets at midnight Pacific = 07-08 UTC; running at 07 UTC may miss today's)
+          const lookbackDate = new Date(now - 30 * 60 * 60 * 1000).toISOString().slice(0, 10);
 
           const RELEVANT_TOPICS = [
             'developer tools',
@@ -48,7 +52,7 @@ jobs:
 
             const query = `
               query {
-                posts(order: VOTES, postedAfter: "${today}T00:00:00Z") {
+                posts(order: VOTES, postedAfter: "${lookbackDate}T00:00:00Z", first: 50) {
                   edges {
                     node {
                       id
@@ -96,16 +100,24 @@ jobs:
             }
 
             const edges = data?.data?.posts?.edges || [];
+            console.log(`PH raw posts returned: ${edges.length}`);
             const results = [];
 
             for (const { node } of edges) {
-              if ((node.votesCount || 0) < MIN_UPVOTES) continue;
-
               const postTopics = (node.topics?.edges || [])
                 .map(e => (e.node?.name || '').toLowerCase());
+              // Debug: log first 5 posts with their topics
+              if (results.length === 0 && edges.indexOf({ node }) < 5) {
+                console.log(`  sample: "${node.name}" votes=${node.votesCount} topics=[${postTopics.join(', ')}]`);
+              }
+
+              if ((node.votesCount || 0) < MIN_UPVOTES) continue;
 
               const isRelevant = RELEVANT_TOPICS.some(t => postTopics.includes(t));
-              if (!isRelevant) continue;
+              if (!isRelevant) {
+                if (edges.length <= 10) console.log(`  skipped (topic): "${node.name}" [${postTopics.join(', ')}]`);
+                continue;
+              }
 
               results.push({
                 id: `ph-${node.id}`,
