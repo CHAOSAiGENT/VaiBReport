@@ -22,6 +22,9 @@ jobs:
       - name: Generate digest post
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           node --input-type=module << 'SCRIPT'
@@ -113,11 +116,87 @@ jobs:
             return null;
           }
 
-          // ── Claude API editorial blurbs ────────────────────
+          // ── LLM cascade (blurbs: Gemini Flash → OpenRouter → Groq → Haiku) ─
+          async function tryCascadeBlurb(prompt) {
+            const providers = [];
+            if (process.env.GEMINI_API_KEY) {
+              providers.push({
+                name: 'gemini-flash',
+                call: async () => {
+                  const body = { contents: [{ role: 'user', parts: [{ text: prompt }] }] };
+                  const res = await fetch(
+                    `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${process.env.GEMINI_API_KEY}`,
+                    { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(body) }
+                  );
+                  if (!res.ok) throw new Error(`Gemini ${res.status}: ${await res.text()}`);
+                  const d = await res.json();
+                  return d.candidates?.[0]?.content?.parts?.[0]?.text ?? '';
+                },
+              });
+            }
+            if (process.env.OPENROUTER_API_KEY) {
+              providers.push({
+                name: 'openrouter-llama-70b',
+                call: async () => {
+                  const res = await fetch('https://openrouter.ai/api/v1/chat/completions', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${process.env.OPENROUTER_API_KEY}` },
+                    body: JSON.stringify({ model: 'meta-llama/llama-3.3-70b-instruct:free', messages: [{ role: 'user', content: prompt }] }),
+                  });
+                  if (!res.ok) throw new Error(`OpenRouter ${res.status}`);
+                  const d = await res.json();
+                  return d.choices?.[0]?.message?.content ?? '';
+                },
+              });
+            }
+            if (process.env.GROQ_API_KEY) {
+              providers.push({
+                name: 'groq-llama-70b',
+                call: async () => {
+                  const res = await fetch('https://api.groq.com/openai/v1/chat/completions', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${process.env.GROQ_API_KEY}` },
+                    body: JSON.stringify({ model: 'llama-3.3-70b-versatile', messages: [{ role: 'user', content: prompt }] }),
+                  });
+                  if (!res.ok) throw new Error(`Groq ${res.status}`);
+                  const d = await res.json();
+                  return d.choices?.[0]?.message?.content ?? '';
+                },
+              });
+            }
+            if (process.env.ANTHROPIC_API_KEY) {
+              providers.push({
+                name: 'claude-haiku',
+                call: async () => {
+                  const res = await fetch('https://api.anthropic.com/v1/messages', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json', 'x-api-key': process.env.ANTHROPIC_API_KEY, 'anthropic-version': '2023-06-01' },
+                    body: JSON.stringify({ model: 'claude-haiku-4-5-20251001', max_tokens: 4096, messages: [{ role: 'user', content: prompt }] }),
+                  });
+                  if (!res.ok) throw new Error(`Claude ${res.status}: ${await res.text()}`);
+                  const d = await res.json();
+                  return d.content[0].text;
+                },
+              });
+            }
+            for (const p of providers) {
+              try {
+                const text = await p.call();
+                console.log(`[LLM blurbs] Used ${p.name}`);
+                return text;
+              } catch (err) {
+                console.warn(`[LLM blurbs] ${p.name} failed: ${err.message}`);
+              }
+            }
+            throw new Error('All LLM providers exhausted for blurbs');
+          }
+
+          // ── Editorial blurbs ────────────────────────────────────────
           async function generateEditorialBlurbs(repos, sections) {
-            const apiKey = process.env.ANTHROPIC_API_KEY;
-            if (!apiKey) {
-              console.log('No ANTHROPIC_API_KEY — falling back to template blurbs');
+            const hasAnyKey = process.env.GEMINI_API_KEY || process.env.OPENROUTER_API_KEY ||
+              process.env.GROQ_API_KEY || process.env.ANTHROPIC_API_KEY;
+            if (!hasAnyKey) {
+              console.log('No LLM keys configured — falling back to template blurbs');
               return null;
             }
 
@@ -147,36 +226,13 @@ jobs:
             ].join('\n');
 
             try {
-              console.log('Calling Claude API for editorial blurbs...');
-              const res = await fetch('https://api.anthropic.com/v1/messages', {
-                method: 'POST',
-                headers: {
-                  'Content-Type': 'application/json',
-                  'x-api-key': apiKey,
-                  'anthropic-version': '2023-06-01'
-                },
-                body: JSON.stringify({
-                  model: 'claude-haiku-4-5-20251001',
-                  max_tokens: 4096,
-                  messages: [{ role: 'user', content: prompt }]
-                })
-              });
-
-              if (!res.ok) {
-                const body = await res.text();
-                console.error(`Claude API error: ${res.status} ${res.statusText}`);
-                console.error(body);
-                return null;
-              }
-
-              const data = await res.json();
-              const text = data.content[0].text;
+              const text = await tryCascadeBlurb(prompt);
               const cleaned = text.replace(/```json\n?/g, '').replace(/```\n?/g, '').trim();
               const blurbs = JSON.parse(cleaned);
-              console.log(`Got ${Object.keys(blurbs).length} editorial blurbs from Claude`);
+              console.log(`Got ${Object.keys(blurbs).length} editorial blurbs`);
               return blurbs;
             } catch (e) {
-              console.error('Claude API call failed:', e.message);
+              console.error('LLM blurb generation failed:', e.message);
               return null;
             }
           }

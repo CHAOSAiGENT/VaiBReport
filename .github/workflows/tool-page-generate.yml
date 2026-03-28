@@ -25,6 +25,7 @@ jobs:
       - name: Generate scripts and use cases
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           SLUG: ${{ github.event.inputs.slug }}
         run: |
           node --input-type=module << 'SCRIPT'
@@ -74,24 +75,49 @@ jobs:
 
           console.log(`Processing: ${name} (${slug})`);
 
-          // ── Claude API helper ────────────────────────────────────
+          // ── LLM cascade (tool pages: Gemini Pro → Sonnet) ───────────────
           async function callClaude(prompt, maxTokens = 1024) {
-            const res = await fetch('https://api.anthropic.com/v1/messages', {
-              method: 'POST',
-              headers: {
-                'Content-Type': 'application/json',
-                'x-api-key': process.env.ANTHROPIC_API_KEY,
-                'anthropic-version': '2023-06-01'
-              },
-              body: JSON.stringify({
-                model: 'claude-sonnet-4-6',
-                max_tokens: maxTokens,
-                messages: [{ role: 'user', content: prompt }]
-              })
-            });
-            if (!res.ok) throw new Error(`Claude API error: ${res.status} ${await res.text()}`);
-            const data = await res.json();
-            return data.content[0].text.trim();
+            const providers = [];
+            if (process.env.GEMINI_API_KEY) {
+              providers.push({
+                name: 'gemini-pro',
+                call: async () => {
+                  const body = { contents: [{ role: 'user', parts: [{ text: prompt }] }] };
+                  const res = await fetch(
+                    `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent?key=${process.env.GEMINI_API_KEY}`,
+                    { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(body) }
+                  );
+                  if (!res.ok) throw new Error(`Gemini Pro ${res.status}: ${await res.text()}`);
+                  const d = await res.json();
+                  return (d.candidates?.[0]?.content?.parts?.[0]?.text ?? '').trim();
+                },
+              });
+            }
+            if (process.env.ANTHROPIC_API_KEY) {
+              providers.push({
+                name: 'claude-sonnet',
+                call: async () => {
+                  const res = await fetch('https://api.anthropic.com/v1/messages', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json', 'x-api-key': process.env.ANTHROPIC_API_KEY, 'anthropic-version': '2023-06-01' },
+                    body: JSON.stringify({ model: 'claude-sonnet-4-6', max_tokens: maxTokens, messages: [{ role: 'user', content: prompt }] }),
+                  });
+                  if (!res.ok) throw new Error(`Claude API error: ${res.status} ${await res.text()}`);
+                  const data = await res.json();
+                  return data.content[0].text.trim();
+                },
+              });
+            }
+            for (const p of providers) {
+              try {
+                const text = await p.call();
+                console.log(`[LLM tool-page] Used ${p.name}`);
+                return text;
+              } catch (err) {
+                console.warn(`[LLM tool-page] ${p.name} failed: ${err.message}`);
+              }
+            }
+            throw new Error('All LLM providers exhausted for tool page');
           }
 
           // ── B. one_liner prompt ──────────────────────────────────
