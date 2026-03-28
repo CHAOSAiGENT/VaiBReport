@@ -7,12 +7,11 @@ on:
         description: "Tool slug (filename without .md from _tools/)"
         required: true
 
-permissions:
-  contents: write
-
 jobs:
   generate:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
 
     env:
       ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
