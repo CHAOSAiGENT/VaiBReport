@@ -99,6 +99,26 @@
     "embeddinggemma": {
       "times_featured": 1,
       "last_featured": "2026-03-27"
+    },
+    "openchat": {
+      "times_featured": 1,
+      "last_featured": "2026-03-28"
+    },
+    "falcon": {
+      "times_featured": 1,
+      "last_featured": "2026-03-28"
+    },
+    "glm4": {
+      "times_featured": 1,
+      "last_featured": "2026-03-28"
+    },
+    "vicuna": {
+      "times_featured": 1,
+      "last_featured": "2026-03-28"
+    },
+    "deepcoder": {
+      "times_featured": 1,
+      "last_featured": "2026-03-28"
     }
   }
 }

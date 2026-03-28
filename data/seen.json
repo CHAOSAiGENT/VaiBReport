@@ -245,8 +245,8 @@
       "last_featured": "2026-03-23"
     },
     "hoppscotch/hoppscotch": {
-      "times_featured": 1,
-      "last_featured": "2026-03-06"
+      "times_featured": 2,
+      "last_featured": "2026-03-28"
     },
     "fastify/fastify": {
       "times_featured": 1,
@@ -531,6 +531,62 @@
     "plotly/plotly.js": {
       "times_featured": 1,
       "last_featured": "2026-03-27"
+    },
+    "denoland/saaskit": {
+      "times_featured": 1,
+      "last_featured": "2026-03-28"
+    },
+    "JohnBra/vite-web-extension": {
+      "times_featured": 1,
+      "last_featured": "2026-03-28"
+    },
+    "mugnavo/tanstarter": {
+      "times_featured": 1,
+      "last_featured": "2026-03-28"
+    },
+    "guigrpa/docx-templates": {
+      "times_featured": 1,
+      "last_featured": "2026-03-28"
+    },
+    "dishait/tov-template": {
+      "times_featured": 1,
+      "last_featured": "2026-03-28"
+    },
+    "antgroup/echomimic_v2": {
+      "times_featured": 1,
+      "last_featured": "2026-03-28"
+    },
+    "VectorSpaceLab/OmniGen": {
+      "times_featured": 1,
+      "last_featured": "2026-03-28"
+    },
+    "ali-vilab/VACE": {
+      "times_featured": 1,
+      "last_featured": "2026-03-28"
+    },
+    "SandAI-org/MAGI-1": {
+      "times_featured": 1,
+      "last_featured": "2026-03-28"
+    },
+    "Hunyuan-PromptEnhancer/PromptEnhancer": {
+      "times_featured": 1,
+      "last_featured": "2026-03-28"
+    },
+    "NationalSecurityAgency/ghidra": {
+      "times_featured": 1,
+      "last_featured": "2026-03-28"
+    },
+    "ultralytics/yolov5": {
+      "times_featured": 1,
+      "last_featured": "2026-03-28"
+    },
+    "run-llama/llama_index": {
+      "times_featured": 1,
+      "last_featured": "2026-03-28"
+    },
+    "9001/copyparty": {
+      "times_featured": 1,
+      "last_featured": "2026-03-28"
     }
   }
 }

@@ -199,6 +199,46 @@
     "pypi-diffusers": {
       "times_featured": 1,
       "last_featured": "2026-03-27"
+    },
+    "npm-@genkit-ai/telemetry-server": {
+      "times_featured": 1,
+      "last_featured": "2026-03-28"
+    },
+    "npm-repomix": {
+      "times_featured": 1,
+      "last_featured": "2026-03-28"
+    },
+    "npm-@genkit-ai/next": {
+      "times_featured": 1,
+      "last_featured": "2026-03-28"
+    },
+    "npm-@genkit-ai/vertexai": {
+      "times_featured": 1,
+      "last_featured": "2026-03-28"
+    },
+    "npm-@google/stitch-sdk": {
+      "times_featured": 1,
+      "last_featured": "2026-03-28"
+    },
+    "pypi-crewai": {
+      "times_featured": 1,
+      "last_featured": "2026-03-28"
+    },
+    "pypi-docling": {
+      "times_featured": 1,
+      "last_featured": "2026-03-28"
+    },
+    "pypi-together": {
+      "times_featured": 1,
+      "last_featured": "2026-03-28"
+    },
+    "pypi-unstructured": {
+      "times_featured": 1,
+      "last_featured": "2026-03-28"
+    },
+    "pypi-agno": {
+      "times_featured": 1,
+      "last_featured": "2026-03-28"
     }
   }
 }
