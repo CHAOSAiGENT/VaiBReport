@@ -99,6 +99,14 @@ layout: default
     color: #888;
   }
   .back-link { margin-top: 1.5rem; display: block; font-size: 0.9rem; }
+  .more-like-this {
+    display: inline-flex; align-items: center; gap: 0.4rem;
+    margin-top: 1.5rem; padding: 0.5rem 1rem;
+    background: #f6f8fa; border: 1.5px solid #d0d7de; border-radius: 8px;
+    font-size: 0.85rem; color: #24292f; text-decoration: none;
+    transition: border-color 0.15s; margin-right: 0.75rem;
+  }
+  .more-like-this:hover { border-color: #0550ae; color: #0550ae; text-decoration: none; }
   .cn-section {
     margin: 1.5rem 0;
     padding: 1rem;
@@ -271,4 +279,7 @@ layout: default
   {% if page.license and page.license != "" %} · {{ page.license }}{% endif %}
 </div>
 
+<a class="more-like-this"
+   href="https://github.com/CHAOSAiGENT/VaiBReport/issues/new?template=research-request.yml&title=More+like+{{ page.name | url_encode }}&body=%23%23%23+Context+and+constraints%0A%0ASaw+{{ page.name | url_encode }}+and+want+to+find+similar+tools.%0A%0AReference%3A+{{ page.url | url_encode }}"
+   target="_blank">+ More like this</a>
 <a href="{{ '/picks/' | relative_url }}" class="back-link">← Back to Peter's Picks</a>

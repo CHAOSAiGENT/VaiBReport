@@ -1,0 +1,77 @@
+name: Research Request
+description: Request a deep-dive research report on a topic, category, or tool space
+title: "[Research] "
+labels: ["research-request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        A research report will be generated using Perplexity (live web search) + Claude (structured analysis).
+        You'll get a `/research/` page with a comparison table, top picks, ICP use cases, and consulting notes.
+
+  - type: input
+    id: topic
+    attributes:
+      label: Topic / what you're looking for
+      description: Be specific. Name the capability, not just the category.
+      placeholder: "AI avatar / talking head tools for short-form video beyond HeyGen and Captions"
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Context and constraints
+      description: Tools you already use, what they do well/poorly, budget constraints, technical level of end users.
+      placeholder: |
+        Already using: HeyGen (expensive, great quality), Captions (mobile-first, good auto-captions)
+        Need: something open-source or lower cost, ideally self-hostable
+        Users: non-technical solopreneurs and small teams
+    validations:
+      required: false
+
+  - type: input
+    id: reference_url
+    attributes:
+      label: Reference tool (optional)
+      description: A specific tool you spotted that looks promising — will be included in the comparison.
+      placeholder: "https://github.com/antgroup/echomimic_v2"
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: icps
+    attributes:
+      label: ICPs to focus on
+      description: Which audiences should the use cases target?
+      options:
+        - label: Founding team
+        - label: Solopreneur
+        - label: Small business
+        - label: Pre-MVP
+        - label: Entreprecurious
+        - label: Non-technical
+
+  - type: dropdown
+    id: depth
+    attributes:
+      label: Report depth
+      options:
+        - Quick list (top 5, minimal detail)
+        - Standard (top 8-10, comparison table, ICP notes)
+        - Deep dive (full landscape, consulting notes, "what I'd actually recommend")
+      default: 1
+    validations:
+      required: true
+
+  - type: dropdown
+    id: public
+    attributes:
+      label: Make report public?
+      description: Publish at /research/{slug}/ on the site
+      options:
+        - "No — private only"
+        - "Yes — publish publicly"
+      default: 0
+    validations:
+      required: true

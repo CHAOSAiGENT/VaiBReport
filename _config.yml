@@ -20,6 +20,9 @@ collections:
   tools:
     output: true
     permalink: /picks/:name/
+  research:
+    output: true
+    permalink: /research/:name/
 
 defaults:
   - scope:
@@ -35,6 +38,12 @@ defaults:
       peters_pick: true
       create_content: true
       content_created: false
+      public: false
+  - scope:
+      path: ""
+      type: "research"
+    values:
+      layout: "research"
       public: false
 
 # Navigation
