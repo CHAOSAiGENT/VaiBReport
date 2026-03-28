@@ -143,6 +143,45 @@ jobs:
             return data.content[0].text;
           }
 
+          // ── Pre-flight: Check Anthropic balance ─────────────────────
+          async function checkAnthropicBalance() {
+            const res = await fetch('https://api.anthropic.com/v1/messages', {
+              method: 'POST',
+              headers: {
+                'Content-Type': 'application/json',
+                'x-api-key': ANTHROPIC_KEY,
+                'anthropic-version': '2023-06-01',
+              },
+              body: JSON.stringify({
+                model: 'claude-haiku-4-5-20251001',
+                max_tokens: 5,
+                messages: [{ role: 'user', content: 'ping' }],
+              }),
+            });
+            if (res.status === 402) {
+              const commentRes = await fetch(
+                `https://api.github.com/repos/CHAOSAiGENT/VaiBReport/issues/${ISSUE_NUMBER}/comments`,
+                {
+                  method: 'POST',
+                  headers: {
+                    'Authorization': `token ${GITHUB_TOKEN}`,
+                    'Content-Type': 'application/json',
+                  },
+                  body: JSON.stringify({ body: '⚠️ **Research report could not run**: Anthropic API credit balance is too low. Top up the account and re-label this issue `research-request` to retry.' }),
+                }
+              );
+              console.error('Anthropic balance too low — commented on issue and exiting');
+              process.exit(1);
+            }
+            if (!res.ok) {
+              console.warn(`Anthropic pre-flight returned ${res.status} — proceeding anyway`);
+            } else {
+              console.log('Anthropic pre-flight OK');
+            }
+          }
+
+          await checkAnthropicBalance();
+
           // ── Step 1: Web search ──────────────────────────────────────
           const searchQuery = [
             `Best tools for: ${topic}.`,
