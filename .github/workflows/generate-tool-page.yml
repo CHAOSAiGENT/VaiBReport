@@ -1,4 +1,4 @@
-name: Generate tool page content (E-04 + E-05)
+name: Generate tool page content (E-04, E-05, E-08)
 
 on:
   workflow_dispatch:
