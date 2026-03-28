@@ -22,9 +22,20 @@ jobs:
       - name: Fetch Product Hunt launches
         env:
           PH_DEV_TOKEN: ${{ secrets.PH_DEV_TOKEN }}
+          PH_DEV_BU: ${{ secrets.PH_DEV_BU }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
           node --input-type=module << 'SCRIPT'
           import fs from 'fs';
+
+          // ── Secret diagnostics (lengths only — never prints values) ──
+          const tok1 = process.env.PH_DEV_TOKEN   || '';
+          const tok2 = process.env.PH_DEV_BU      || '';
+          const tok3 = process.env.ANTHROPIC_API_KEY || '';
+          console.log(`PH_DEV_TOKEN length:    ${tok1.length}`);
+          console.log(`PH_DEV_BU length:       ${tok2.length}`);
+          console.log(`ANTHROPIC_API_KEY length: ${tok3.length}`);
+          const token = tok1 || tok2;
 
           const now = new Date();
           const today = now.toISOString().slice(0, 10);
@@ -44,7 +55,6 @@ jobs:
 
           // ── Product Hunt ────────────────────────────────
           async function fetchProductHunt() {
-            const token = process.env.PH_DEV_TOKEN;
             if (!token) {
               console.warn('PH_DEV_TOKEN not set — skipping Product Hunt fetch');
               return [];
