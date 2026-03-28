@@ -1,0 +1,214 @@
+name: Fetch Product Hunt Launches
+
+on:
+  schedule:
+    - cron: "0 7 * * *"   # 7am UTC daily, after main fetch
+  workflow_dispatch:
+
+jobs:
+  fetch-producthunt:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Fetch Product Hunt launches
+        env:
+          PH_DEV_TOKEN: ${{ secrets.PH_DEV_TOKEN }}
+        run: |
+          node --input-type=module << 'SCRIPT'
+          import fs from 'fs';
+
+          const today = new Date().toISOString().slice(0, 10);
+
+          const RELEVANT_TOPICS = [
+            'developer tools',
+            'artificial intelligence',
+            'saas',
+            'productivity',
+            'maker tools',
+            'open source'
+          ];
+          const MIN_UPVOTES = 20;
+
+          // ── Product Hunt ────────────────────────────────
+          async function fetchProductHunt() {
+            const token = process.env.PH_DEV_TOKEN;
+            if (!token) {
+              console.warn('PH_DEV_TOKEN not set — skipping Product Hunt fetch');
+              return [];
+            }
+
+            const query = `
+              query {
+                posts(order: VOTES, postedAfter: "${today}T00:00:00Z") {
+                  edges {
+                    node {
+                      id
+                      name
+                      tagline
+                      votesCount
+                      website
+                      topics {
+                        edges {
+                          node { name }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            `;
+
+            let data;
+            try {
+              const res = await fetch('https://api.producthunt.com/v2/api/graphql', {
+                method: 'POST',
+                headers: {
+                  'Content-Type': 'application/json',
+                  'Authorization': `Bearer ${token}`,
+                  'User-Agent': 'VaiBReport-digest/1.0'
+                },
+                body: JSON.stringify({ query })
+              });
+
+              if (!res.ok) {
+                console.warn(`Product Hunt API returned ${res.status} — skipping`);
+                return [];
+              }
+
+              data = await res.json();
+            } catch (e) {
+              console.warn('Product Hunt fetch error:', e.message, '— skipping');
+              return [];
+            }
+
+            if (data.errors) {
+              console.warn('Product Hunt GraphQL errors:', JSON.stringify(data.errors), '— skipping');
+              return [];
+            }
+
+            const edges = data?.data?.posts?.edges || [];
+            const results = [];
+
+            for (const { node } of edges) {
+              if ((node.votesCount || 0) < MIN_UPVOTES) continue;
+
+              const postTopics = (node.topics?.edges || [])
+                .map(e => (e.node?.name || '').toLowerCase());
+
+              const isRelevant = RELEVANT_TOPICS.some(t => postTopics.includes(t));
+              if (!isRelevant) continue;
+
+              results.push({
+                id: `ph-${node.id}`,
+                name: node.name || '',
+                description: node.tagline || '',
+                url: node.website || `https://www.producthunt.com/posts/${node.id}`,
+                upvotes: node.votesCount || 0,
+                _source: 'producthunt'
+              });
+            }
+
+            return results;
+          }
+
+          // ── Main ────────────────────────────────────────
+          (async () => {
+            const phItems = await fetchProductHunt();
+            console.log(`Product Hunt: ${phItems.length} relevant items`);
+
+            if (phItems.length === 0) {
+              console.log('No Product Hunt items — nothing to write');
+              process.exit(0);
+            }
+
+            // Load seen-producthunt.json
+            const seenPath = 'data/seen-producthunt.json';
+            let seen = {};
+            if (fs.existsSync(seenPath)) {
+              try {
+                seen = JSON.parse(fs.readFileSync(seenPath, 'utf8'));
+              } catch (e) {
+                console.warn('Could not parse seen-producthunt.json — starting fresh');
+                seen = {};
+              }
+            }
+
+            // Dedup: skip items seen within last 7 days
+            const sevenDaysAgo = new Date();
+            sevenDaysAgo.setDate(sevenDaysAgo.getDate() - 7);
+
+            const newItems = phItems.filter(item => {
+              const seenDate = seen[item.id];
+              if (!seenDate) return true;
+              return new Date(seenDate) < sevenDaysAgo;
+            });
+
+            console.log(`After dedup: ${newItems.length} new items`);
+
+            // Load existing launches file and strip old PH entries
+            const launchesPath = `data/launches-${today}.json`;
+            let payload = {
+              generated_at: new Date().toISOString(),
+              source: 'launches',
+              counts: {},
+              launches: []
+            };
+
+            if (fs.existsSync(launchesPath)) {
+              try {
+                payload = JSON.parse(fs.readFileSync(launchesPath, 'utf8'));
+              } catch (e) {
+                console.warn('Could not parse existing launches file — starting fresh');
+              }
+              // Remove stale PH entries so we replace with fresh data
+              payload.launches = (payload.launches || []).filter(
+                item => item._source !== 'producthunt'
+              );
+            }
+
+            // Append new PH items
+            payload.launches = [...(payload.launches || []), ...newItems];
+            payload.generated_at = new Date().toISOString();
+
+            // Rebuild counts
+            const countsBySrc = {};
+            for (const item of payload.launches) {
+              const src = item._source || 'unknown';
+              countsBySrc[src] = (countsBySrc[src] || 0) + 1;
+            }
+            payload.counts = {
+              ...countsBySrc,
+              total: payload.launches.length
+            };
+
+            if (!fs.existsSync('data')) fs.mkdirSync('data', { recursive: true });
+            fs.writeFileSync(launchesPath, JSON.stringify(payload, null, 2));
+            console.log(`Wrote ${payload.launches.length} total launches to ${launchesPath}`);
+
+            // Update seen-producthunt.json
+            for (const item of newItems) {
+              seen[item.id] = today;
+            }
+            fs.writeFileSync(seenPath, JSON.stringify(seen, null, 2));
+            console.log(`Updated ${seenPath} with ${newItems.length} new entries`);
+          })().catch(err => { console.error(err); process.exit(1); });
+          SCRIPT
+
+      - name: Commit and push
+        run: |
+          date=$(date -u +"%Y-%m-%d")
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/
+          git diff --cached --quiet && echo "No changes" && exit 0
+          git commit -m "chore: fetch Product Hunt launches ${date}"
+          git push
