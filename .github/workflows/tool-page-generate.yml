@@ -97,92 +97,92 @@ jobs:
           // ── B. one_liner prompt ──────────────────────────────────
           const promptOneLiner = `Write a one-liner description for a developer tool. Maximum 20 words. Plain text only, no quotes.
 
-Tool: ${name}
-Hook: ${hook}
-Primary audience: ${primary_icp}
+          Tool: ${name}
+          Hook: ${hook}
+          Primary audience: ${primary_icp}
 
-Return only the one-liner, nothing else.`;
+          Return only the one-liner, nothing else.`;
 
           // ── C. script_faceless prompt (Format A) ────────────────
           const promptFaceless = `You write short video scripts for a faceless YouTube/TikTok/Reels/Shorts channel about developer tools and software for solo founders and small business owners.
 
-Tool: ${name}
-URL: ${url}
-Why interesting: ${hook}
-Primary audience: ${primary_icp}
-Compare to: ${compare_to}
-Honest limitations: ${honest_take}
+          Tool: ${name}
+          URL: ${url}
+          Why interesting: ${hook}
+          Primary audience: ${primary_icp}
+          Compare to: ${compare_to}
+          Honest limitations: ${honest_take}
 
-Write a 60-90 second narration script in this exact structure:
-HOOK (5s): One punchy sentence. Start with what it DOES or what problem it solves. Never start with "today we're looking at" or "in this video".
-WHAT IT IS (15s): Explain in plain language.
-USE CASE (25s): Specific scenario for ${primary_icp}. Name the task, name the outcome.
-HONEST TAKE (15s): What it doesn't do well. Who should NOT use it.
-CTA (10s): Simple call to action.
+          Write a 60-90 second narration script in this exact structure:
+          HOOK (5s): One punchy sentence. Start with what it DOES or what problem it solves. Never start with "today we're looking at" or "in this video".
+          WHAT IT IS (15s): Explain in plain language.
+          USE CASE (25s): Specific scenario for ${primary_icp}. Name the task, name the outcome.
+          HONEST TAKE (15s): What it doesn't do well. Who should NOT use it.
+          CTA (10s): Simple call to action.
 
-Voice: casual, dry humor, direct. No hype words (no "game-changing", "revolutionary", "incredible").
-Return the script as plain text with section labels on their own lines.`;
+          Voice: casual, dry humor, direct. No hype words (no "game-changing", "revolutionary", "incredible").
+          Return the script as plain text with section labels on their own lines.`;
 
           // ── D. script_ugc prompt (Format B) ─────────────────────
           const promptUgc = `You write short on-camera video scripts for Peter, a consultant who advises small founding teams, solopreneurs, and small business owners on tools that help them move faster.
 
-Peter's voice: casual, dry humor, direct, opinionated. Honest about what doesn't work. Never hype.
+          Peter's voice: casual, dry humor, direct, opinionated. Honest about what doesn't work. Never hype.
 
-Tool: ${name}
-URL: ${url}
-Why interesting: ${hook}
-Primary audience: ${primary_icp}
-Compare to: ${compare_to} — ${honest_take}
+          Tool: ${name}
+          URL: ${url}
+          Why interesting: ${hook}
+          Primary audience: ${primary_icp}
+          Compare to: ${compare_to} — ${honest_take}
 
-Write an 80-120 second on-camera script in this exact structure:
-HOOK (5s): Personal angle — "I found this while..." or a relatable pain point. Start speaking immediately.
-QUICK SHOW (25s): Peter describes what's on screen while demoing. Conversational.
-MY TAKE (30s): Who Peter specifically recommends this to. Name the ICP. Real use case.
-VS THE ALTERNATIVE (20s): One honest comparison. Real trade-off.
-SIGN OFF (15s): CTA + Peter's sign-off.
+          Write an 80-120 second on-camera script in this exact structure:
+          HOOK (5s): Personal angle — "I found this while..." or a relatable pain point. Start speaking immediately.
+          QUICK SHOW (25s): Peter describes what's on screen while demoing. Conversational.
+          MY TAKE (30s): Who Peter specifically recommends this to. Name the ICP. Real use case.
+          VS THE ALTERNATIVE (20s): One honest comparison. Real trade-off.
+          SIGN OFF (15s): CTA + Peter's sign-off.
 
-Format: camera action notes in [brackets], spoken words in plain text.
-Return plain text with section labels.`;
+          Format: camera action notes in [brackets], spoken words in plain text.
+          Return plain text with section labels.`;
 
           // ── E. Consulting notes prompt (E-08) ───────────────────
           const promptConsulting = `You are helping a consultant prepare notes for client meetings. Based on the tool below, write concise prep notes as JSON.
 
-Tool: ${name}
-URL: ${url}
-Description: ${hook}
-Primary audience: ${primary_icp}
-Compare to: ${compare_to}
-Honest limitations: ${honest_take}
+          Tool: ${name}
+          URL: ${url}
+          Description: ${hook}
+          Primary audience: ${primary_icp}
+          Compare to: ${compare_to}
+          Honest limitations: ${honest_take}
 
-Return only this JSON object — no prose, no markdown:
-{
-  "who_best_for": "Specific client situation where you would recommend this. 1-2 sentences.",
-  "pitch": "How to introduce this to a skeptical client. Lead with the outcome, not the feature. 2-3 sentences.",
-  "red_flags": "Client situations where you would NOT recommend this. 1-2 sentences.",
-  "integration_notes": "What it works well with, and any known conflicts or gaps. 1-2 sentences.",
-  "pricing_reality": "Honest take on pricing — is the free tier genuinely useful or is it bait? 1-2 sentences.",
-  "client_readiness": "low or medium or high — how hard is it for a typical non-technical client to adopt",
-  "typical_objections": "Most common client pushback and a brief response. 2-3 sentences."
-}`;
+          Return only this JSON object — no prose, no markdown:
+          {
+            "who_best_for": "Specific client situation where you would recommend this. 1-2 sentences.",
+            "pitch": "How to introduce this to a skeptical client. Lead with the outcome, not the feature. 2-3 sentences.",
+            "red_flags": "Client situations where you would NOT recommend this. 1-2 sentences.",
+            "integration_notes": "What it works well with, and any known conflicts or gaps. 1-2 sentences.",
+            "pricing_reality": "Honest take on pricing — is the free tier genuinely useful or is it bait? 1-2 sentences.",
+            "client_readiness": "low or medium or high — how hard is it for a typical non-technical client to adopt",
+            "typical_objections": "Most common client pushback and a brief response. 2-3 sentences."
+          }`;
 
           // ── F. ICP use cases prompt (E-05) ──────────────────────
           const promptUseCases = `For the tool below, write 2-4 specific use cases targeting different audience personas.
 
-Tool: ${name}
-URL: ${url}
-Description: ${hook}
-Primary ICP: ${primary_icp}
+          Tool: ${name}
+          URL: ${url}
+          Description: ${hook}
+          Primary ICP: ${primary_icp}
 
-Personas to consider: founding-team, solopreneur, small-business, pre-mvp, entreprecurious, non-technical
+          Personas to consider: founding-team, solopreneur, small-business, pre-mvp, entreprecurious, non-technical
 
-For each relevant persona write:
-- icp: [persona tag]
-- scenario: One sentence — the specific situation this person is in
-- outcome: What they get / what problem it solves
-- effort: low / medium / high (how hard to adopt for a non-technical person)
+          For each relevant persona write:
+          - icp: [persona tag]
+          - scenario: One sentence — the specific situation this person is in
+          - outcome: What they get / what problem it solves
+          - effort: low / medium / high (how hard to adopt for a non-technical person)
 
-Only include personas where this tool is genuinely relevant.
-Return as a JSON array: [{"icp":"...","scenario":"...","outcome":"...","effort":"..."}]`;
+          Only include personas where this tool is genuinely relevant.
+          Return as a JSON array: [{"icp":"...","scenario":"...","outcome":"...","effort":"..."}]`;
 
           // ── F. Make the Claude API calls ─────────────────────────
           let oneLiner = '';
@@ -357,8 +357,8 @@ Return as a JSON array: [{"icp":"...","scenario":"...","outcome":"...","effort":
           }
           SCRIPT
 
-      - name: Commit generated content
-        run: |
+                - name: Commit generated content
+                  run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add _tools/
