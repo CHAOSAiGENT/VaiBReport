@@ -1,12 +1,10 @@
 {
-  "generated_at": "2026-03-28T14:06:49.887Z",
+  "generated_at": "2026-03-28T14:37:59.261Z",
   "source": "launches",
   "counts": {
     "hackernews_showhn": 22,
-    "devhunt": 0,
-    "betalist": 0,
-    "uneed": 0,
-    "total": 22
+    "producthunt": 15,
+    "total": 37
   },
   "launches": [
     {
@@ -250,6 +248,126 @@
       "platform_url": "https://news.ycombinator.com/item?id=47505731",
       "_source": "hackernews_showhn",
       "_platform": "launches"
+    },
+    {
+      "id": "ph-1107886",
+      "name": "Agentation",
+      "description": "The visual feedback tool for AI agents",
+      "url": "https://www.producthunt.com/r/UBMKYT2Z76KGDI?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 409,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1108278",
+      "name": "Claude Code auto-fix ",
+      "description": "Auto-fix PRs in the cloud while you stay hands-off",
+      "url": "https://www.producthunt.com/r/ZD7UARQER7Q65Z?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 349,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1108159",
+      "name": "Gemini 3.1 Flash Live",
+      "description": "Making audio AI more natural and reliable",
+      "url": "https://www.producthunt.com/r/5EGR7NSXB6V7QK?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 328,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1102741",
+      "name": "Cockpit AI",
+      "description": "Run revenue agents across every channel",
+      "url": "https://www.producthunt.com/r/ZSATDD5TGHHICH?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 307,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1108523",
+      "name": "Codex Plugins",
+      "description": "Package Codex skills and app integrations as plugins",
+      "url": "https://www.producthunt.com/r/MXXCFXKHV6GFJT?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 193,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1092967",
+      "name": "Crossnode",
+      "description": "Vibe code AI agents and put them behind a payment wall",
+      "url": "https://www.producthunt.com/r/37A2GEWBOXLPGI?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 193,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1108656",
+      "name": "Suno v5.5",
+      "description": "Create with your voice, tune models to your sound",
+      "url": "https://www.producthunt.com/r/S25VKIT6BZUNGW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 193,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1108224",
+      "name": "Stripe Projects",
+      "description": "Production-ready dev stack from your terminal",
+      "url": "https://www.producthunt.com/r/CNUQWRUNOD3BAQ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 182,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1108231",
+      "name": "Voxtral TTS by Mistral AI",
+      "description": "Multilingual TTS model with realistic and expressive speech",
+      "url": "https://www.producthunt.com/r/627BPOH5ZBLWMR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 163,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1108164",
+      "name": "Audos Publishing House",
+      "description": "Build an AI business, get up to $100K. No equity taken",
+      "url": "https://www.producthunt.com/r/PJFD3R55EDQXRH?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 156,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1108611",
+      "name": "Universal CLI by Composio",
+      "description": "Connect AI agents to 1000+ apps directly from your terminal",
+      "url": "https://www.producthunt.com/r/NHYZG542W5KE2U?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 153,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1108380",
+      "name": "Google Gemini Memory Import",
+      "description": "Switch to Gemini without losing your AI memories ",
+      "url": "https://www.producthunt.com/r/APZSOK6TBYSX3F?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 137,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1108508",
+      "name": "Aera Browser",
+      "description": "The browser built for automation",
+      "url": "https://www.producthunt.com/r/45ASS7UPWHFNKV?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 133,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1105969",
+      "name": "CrabTalk",
+      "description": "The agent daemon that hides nothing. 8MB. Open Source",
+      "url": "https://www.producthunt.com/r/ZAAIAYTYC43FIJ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 123,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1108574",
+      "name": "Oli",
+      "description": "Scan any product to know it's safe during pregnancy",
+      "url": "https://www.producthunt.com/r/ELWNBZSLWJFLG3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 123,
+      "_source": "producthunt"
     }
   ]
 }
