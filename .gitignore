@@ -1,4 +1,5 @@
-# Planning / session files
+# Planning / session files — local only, never push
+.notes_peter
 CLAUDE-CODE-SETUP-PROMPT.md
 CLAUDE-CODE-V1-FINALIZE.md
 COWORK-DIGEST-PROMPT.md
