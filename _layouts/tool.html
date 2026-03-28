@@ -99,6 +99,43 @@ layout: default
     color: #888;
   }
   .back-link { margin-top: 1.5rem; display: block; font-size: 0.9rem; }
+  .cn-section {
+    margin: 1.5rem 0;
+    padding: 1rem;
+    background: #fffbeb;
+    border-radius: 8px;
+    border: 1px solid #e0c04a;
+  }
+  .cn-section h3 {
+    margin: 0 0 0.75rem;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: #7a5700;
+  }
+  .cn-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.75rem;
+  }
+  @media (max-width: 640px) { .cn-grid { grid-template-columns: 1fr; } }
+  .cn-field { font-size: 0.85rem; }
+  .cn-label {
+    font-size: 0.7rem; font-weight: 700; text-transform: uppercase;
+    letter-spacing: 0.4px; color: #7a5700; margin-bottom: 0.2rem;
+  }
+  .cn-value { color: #333; line-height: 1.5; }
+  .cn-readiness {
+    display: inline-block; padding: 2px 9px; border-radius: 8px;
+    font-size: 0.75rem; font-weight: 700;
+  }
+  .cn-readiness-low    { background: #dafbe1; color: #1a7f37; }
+  .cn-readiness-medium { background: #fff3cd; color: #7a5700; }
+  .cn-readiness-high   { background: #ffeef0; color: #cf222e; }
+  .cn-public-badge {
+    float: right; font-size: 0.7rem; padding: 1px 7px; border-radius: 6px;
+    background: #ddf4ff; border: 1px solid #54aeff; color: #0550ae; font-weight: 600;
+  }
 </style>
 
 <div class="tool-header">
@@ -169,6 +206,61 @@ layout: default
 <div class="tool-section">
   <h3>🎙 UGC script (on camera)</h3>
   <pre class="script-block">{{ page.script_ugc }}</pre>
+</div>
+{% endif %}
+
+{% if page.consulting_notes.who_best_for and page.consulting_notes.who_best_for != "" %}
+<div class="cn-section">
+  <h3>
+    🗂 Consulting notes
+    {% if page.consulting_notes.consulting_public %}
+      <span class="cn-public-badge">visible publicly</span>
+    {% endif %}
+  </h3>
+  <div class="cn-grid">
+    {% if page.consulting_notes.who_best_for != "" %}
+    <div class="cn-field">
+      <div class="cn-label">Who it's best for</div>
+      <div class="cn-value">{{ page.consulting_notes.who_best_for }}</div>
+    </div>
+    {% endif %}
+    {% if page.consulting_notes.pitch != "" %}
+    <div class="cn-field">
+      <div class="cn-label">Pitch angle</div>
+      <div class="cn-value">{{ page.consulting_notes.pitch }}</div>
+    </div>
+    {% endif %}
+    {% if page.consulting_notes.red_flags != "" %}
+    <div class="cn-field">
+      <div class="cn-label">Red flags</div>
+      <div class="cn-value">{{ page.consulting_notes.red_flags }}</div>
+    </div>
+    {% endif %}
+    {% if page.consulting_notes.typical_objections != "" %}
+    <div class="cn-field">
+      <div class="cn-label">Typical objections</div>
+      <div class="cn-value">{{ page.consulting_notes.typical_objections }}</div>
+    </div>
+    {% endif %}
+    {% if page.consulting_notes.pricing_reality != "" %}
+    <div class="cn-field">
+      <div class="cn-label">Pricing reality</div>
+      <div class="cn-value">{{ page.consulting_notes.pricing_reality }}</div>
+    </div>
+    {% endif %}
+    {% if page.consulting_notes.integration_notes != "" %}
+    <div class="cn-field">
+      <div class="cn-label">Integrations</div>
+      <div class="cn-value">{{ page.consulting_notes.integration_notes }}</div>
+    </div>
+    {% endif %}
+  </div>
+  {% if page.consulting_notes.client_readiness and page.consulting_notes.client_readiness != "" %}
+  <div style="margin-top:0.75rem;">
+    <span class="cn-label">Client readiness: </span>
+    <span class="cn-readiness cn-readiness-{{ page.consulting_notes.client_readiness }}">{{ page.consulting_notes.client_readiness }}</span>
+  </div>
+  {% endif %}
 </div>
 {% endif %}
 

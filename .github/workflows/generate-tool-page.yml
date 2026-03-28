@@ -146,7 +146,28 @@ SIGN OFF (15s): CTA + Peter's sign-off.
 Format: camera action notes in [brackets], spoken words in plain text.
 Return plain text with section labels.`;
 
-          // ── E. ICP use cases prompt (E-05) ──────────────────────
+          // ── E. Consulting notes prompt (E-08) ───────────────────
+          const promptConsulting = `You are helping a consultant prepare notes for client meetings. Based on the tool below, write concise prep notes as JSON.
+
+Tool: ${name}
+URL: ${url}
+Description: ${hook}
+Primary audience: ${primary_icp}
+Compare to: ${compare_to}
+Honest limitations: ${honest_take}
+
+Return only this JSON object — no prose, no markdown:
+{
+  "who_best_for": "Specific client situation where you would recommend this. 1-2 sentences.",
+  "pitch": "How to introduce this to a skeptical client. Lead with the outcome, not the feature. 2-3 sentences.",
+  "red_flags": "Client situations where you would NOT recommend this. 1-2 sentences.",
+  "integration_notes": "What it works well with, and any known conflicts or gaps. 1-2 sentences.",
+  "pricing_reality": "Honest take on pricing — is the free tier genuinely useful or is it bait? 1-2 sentences.",
+  "client_readiness": "low or medium or high — how hard is it for a typical non-technical client to adopt",
+  "typical_objections": "Most common client pushback and a brief response. 2-3 sentences."
+}`;
+
+          // ── F. ICP use cases prompt (E-05) ──────────────────────
           const promptUseCases = `For the tool below, write 2-4 specific use cases targeting different audience personas.
 
 Tool: ${name}
@@ -170,6 +191,7 @@ Return as a JSON array: [{"icp":"...","scenario":"...","outcome":"...","effort":
           let scriptFaceless = '';
           let scriptUgc = '';
           let useCases = [];
+          let consultingNotes = null;
 
           try {
             console.log('Calling Claude for one_liner...');
@@ -208,6 +230,20 @@ Return as a JSON array: [{"icp":"...","scenario":"...","outcome":"...","effort":
             }
           } catch (e) {
             console.error(`use_cases call failed: ${e.message}`);
+          }
+
+          try {
+            console.log('Calling Claude for consulting_notes...');
+            const cnRaw = await callClaude(promptConsulting, 800);
+            const cnMatch = cnRaw.match(/\{[\s\S]*\}/);
+            if (cnMatch) {
+              consultingNotes = JSON.parse(cnMatch[0]);
+              console.log(`consulting_notes: generated (client_readiness: ${consultingNotes.client_readiness})`);
+            } else {
+              console.error('Could not extract JSON object from consulting_notes response');
+            }
+          } catch (e) {
+            console.error(`consulting_notes call failed: ${e.message}`);
           }
 
           // ── G. Update the _tools/{slug}.md file ─────────────────
@@ -277,6 +313,33 @@ Return as a JSON array: [{"icp":"...","scenario":"...","outcome":"...","effort":
             }
           }
 
+          // Update consulting_notes block
+          if (consultingNotes) {
+            const cn = consultingNotes;
+            const cnYaml = [
+              'consulting_notes:',
+              `  who_best_for: "${escapeYaml(cn.who_best_for || '')}"`,
+              `  pitch: "${escapeYaml(cn.pitch || '')}"`,
+              `  red_flags: "${escapeYaml(cn.red_flags || '')}"`,
+              `  integration_notes: "${escapeYaml(cn.integration_notes || '')}"`,
+              `  pricing_reality: "${escapeYaml(cn.pricing_reality || '')}"`,
+              `  client_readiness: ${cn.client_readiness || 'medium'}`,
+              `  typical_objections: "${escapeYaml(cn.typical_objections || '')}"`,
+              `  consulting_public: false`,
+            ].join('\n');
+
+            if (/^consulting_notes:/m.test(content)) {
+              // Replace existing block (everything from consulting_notes: up to next top-level key or ---)
+              content = content.replace(
+                /^consulting_notes:[\s\S]*?(?=\n\w|\n---)/m,
+                cnYaml + '\n'
+              );
+            } else {
+              // Insert before closing ---
+              content = content.replace(/\n---\n/, `\n${cnYaml}\n---\n`);
+            }
+          }
+
           fs.writeFileSync(toolPath, content);
           console.log(`Updated: ${toolPath}`);
 
@@ -289,6 +352,10 @@ Return as a JSON array: [{"icp":"...","scenario":"...","outcome":"...","effort":
           console.log(`use_cases:     ${useCases.length} ICP entries`);
           if (useCases.length > 0) {
             useCases.forEach(uc => console.log(`  - ${uc.icp}: ${uc.scenario.slice(0, 60)}...`));
+          }
+          console.log(`consulting:    ${consultingNotes ? `generated (readiness: ${consultingNotes.client_readiness})` : '(not generated)'}`);
+          if (consultingNotes) {
+            console.log(`  who: ${(consultingNotes.who_best_for || '').slice(0, 70)}...`);
           }
           SCRIPT
 
