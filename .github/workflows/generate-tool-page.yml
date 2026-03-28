@@ -13,10 +13,6 @@ jobs:
     permissions:
       contents: write
 
-    env:
-      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-      SLUG: ${{ github.event.inputs.slug }}
-
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -27,6 +23,9 @@ jobs:
           node-version: "20"
 
       - name: Generate scripts and use cases
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          SLUG: ${{ github.event.inputs.slug }}
         run: |
           node --input-type=module << 'SCRIPT'
           import fs from 'fs';
