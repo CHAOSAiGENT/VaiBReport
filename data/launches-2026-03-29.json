@@ -1,0 +1,106 @@
+{
+  "generated_at": "2026-03-29T07:45:37.511Z",
+  "source": "launches",
+  "counts": {
+    "producthunt": 12,
+    "total": 12
+  },
+  "launches": [
+    {
+      "id": "ph-1108068",
+      "name": "Cohere Transcribe",
+      "description": "New state-of-the-art in open source speech recognition",
+      "url": "https://www.producthunt.com/r/ZOGEDIIJJKRU5L?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 130,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1109276",
+      "name": "RepoLens",
+      "description": "Know what changed and what matters across your codebase",
+      "url": "https://www.producthunt.com/r/QWK26XU6MFBQF5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 112,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1107925",
+      "name": "Expect",
+      "description": "Let agents test your code in a real browser",
+      "url": "https://www.producthunt.com/r/6SIAEH7XH5JINV?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 109,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1109188",
+      "name": "Lexaclaw",
+      "description": "Startup legal compliance built on OpenClaw",
+      "url": "https://www.producthunt.com/r/OBMSRIA7BCEITG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 108,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1098489",
+      "name": "BNA",
+      "description": "AI agent that builds full-stack iOS & Android apps with auth",
+      "url": "https://www.producthunt.com/r/TSM3DBD6HQOYR5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 91,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1109509",
+      "name": "Domscribe",
+      "description": "Give your AI coding agent eyes on your running frontend",
+      "url": "https://www.producthunt.com/r/WRCVVDHNIUPO5D?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 90,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1107733",
+      "name": "Spokk",
+      "description": "Feedback, reviews, loyalty & referrals for SMB",
+      "url": "https://www.producthunt.com/r/SPQQ4IGNBQXHPA?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 86,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1109439",
+      "name": "Glance ",
+      "description": "Real browser for Claude Code Test, Screenshot, Automate     ",
+      "url": "https://www.producthunt.com/r/KXA5GJKREA5M7E?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 85,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1101732",
+      "name": "Able",
+      "description": "One-click WCAG & ADA accessibility audits for any webpage",
+      "url": "https://www.producthunt.com/r/O4C4S7VUDOZW3F?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 84,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1109587",
+      "name": "DwellRecord",
+      "description": "Keep your home records all together",
+      "url": "https://www.producthunt.com/r/KDIPCYG2FHGAAK?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 84,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1109114",
+      "name": "Bulk Exporter for Sora",
+      "description": "1-click backup for your Sora videos, images & prompts.",
+      "url": "https://www.producthunt.com/r/KZEXIEBGXACBJ2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 83,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1109115",
+      "name": "Santana by Deep Softworks",
+      "description": "Performant, real-time data visualization in your terminal",
+      "url": "https://www.producthunt.com/r/MADSGMJM4X5G7M?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 80,
+      "_source": "producthunt"
+    }
+  ]
+}
