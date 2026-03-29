@@ -239,6 +239,46 @@
     "pypi-agno": {
       "times_featured": 1,
       "last_featured": "2026-03-28"
+    },
+    "npm-scrivito": {
+      "times_featured": 1,
+      "last_featured": "2026-03-29"
+    },
+    "npm-@m2d/core": {
+      "times_featured": 1,
+      "last_featured": "2026-03-29"
+    },
+    "npm-@genkit-ai/compat-oai": {
+      "times_featured": 1,
+      "last_featured": "2026-03-29"
+    },
+    "npm-@m2d/html": {
+      "times_featured": 1,
+      "last_featured": "2026-03-29"
+    },
+    "npm-mdast2docx": {
+      "times_featured": 1,
+      "last_featured": "2026-03-29"
+    },
+    "pypi-dspy-ai": {
+      "times_featured": 1,
+      "last_featured": "2026-03-29"
+    },
+    "pypi-Crawl4AI": {
+      "times_featured": 1,
+      "last_featured": "2026-03-29"
+    },
+    "pypi-outlines": {
+      "times_featured": 1,
+      "last_featured": "2026-03-29"
+    },
+    "pypi-pinecone-client": {
+      "times_featured": 1,
+      "last_featured": "2026-03-29"
+    },
+    "pypi-replicate": {
+      "times_featured": 1,
+      "last_featured": "2026-03-29"
     }
   }
 }

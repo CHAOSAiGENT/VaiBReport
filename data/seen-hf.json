@@ -85,8 +85,8 @@
       "last_featured": "2026-03-24"
     },
     "timm/convnextv2_nano.fcmae_ft_in22k_in1k": {
-      "times_featured": 1,
-      "last_featured": "2026-03-06"
+      "times_featured": 2,
+      "last_featured": "2026-03-29"
     },
     "dima806/fairface_age_image_detection": {
       "times_featured": 2,
@@ -327,6 +327,54 @@
     "allenai/dolma3_mix-6T-1025-7B": {
       "times_featured": 1,
       "last_featured": "2026-03-28"
+    },
+    "tonyassi/voice-clone": {
+      "times_featured": 1,
+      "last_featured": "2026-03-29"
+    },
+    "fffiloni/diffusers-image-outpaint": {
+      "times_featured": 1,
+      "last_featured": "2026-03-29"
+    },
+    "suno/bark": {
+      "times_featured": 1,
+      "last_featured": "2026-03-29"
+    },
+    "sczhou/CodeFormer": {
+      "times_featured": 1,
+      "last_featured": "2026-03-29"
+    },
+    "microsoft/HuggingGPT": {
+      "times_featured": 1,
+      "last_featured": "2026-03-29"
+    },
+    "intfloat/multilingual-e5-large": {
+      "times_featured": 1,
+      "last_featured": "2026-03-29"
+    },
+    "dphn/dolphin-2.9.1-yi-1.5-34b": {
+      "times_featured": 1,
+      "last_featured": "2026-03-29"
+    },
+    "MahmoudAshraf/mms-300m-1130-forced-aligner": {
+      "times_featured": 1,
+      "last_featured": "2026-03-29"
+    },
+    "openai/gpt-oss-120b": {
+      "times_featured": 1,
+      "last_featured": "2026-03-29"
+    },
+    "Kthera/pesoz": {
+      "times_featured": 1,
+      "last_featured": "2026-03-29"
+    },
+    "lavita/medical-qa-shared-task-v1-toy": {
+      "times_featured": 1,
+      "last_featured": "2026-03-29"
+    },
+    "AquaV/genshin-voices-separated": {
+      "times_featured": 1,
+      "last_featured": "2026-03-29"
     }
   }
 }

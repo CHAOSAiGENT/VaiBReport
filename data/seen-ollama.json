@@ -119,6 +119,26 @@
     "deepcoder": {
       "times_featured": 1,
       "last_featured": "2026-03-28"
+    },
+    "ministral-3": {
+      "times_featured": 1,
+      "last_featured": "2026-03-29"
+    },
+    "codeqwen": {
+      "times_featured": 1,
+      "last_featured": "2026-03-29"
+    },
+    "openhermes": {
+      "times_featured": 1,
+      "last_featured": "2026-03-29"
+    },
+    "qwen2-math": {
+      "times_featured": 1,
+      "last_featured": "2026-03-29"
+    },
+    "phi3.5": {
+      "times_featured": 1,
+      "last_featured": "2026-03-29"
     }
   }
 }
