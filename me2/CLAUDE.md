@@ -1,25 +1,33 @@
 # VaiBReport Me2 — Session Context & Memory
 
 **Read this at the start of every session touching Me2 work.**
-**Last updated:** 2026-03-24
+**Last updated:** 2026-03-29
 **Companion files:** `me2/UPGRADES.md`, `me2/EXTENSIONS.md`, `postmvp/BACKLOG.md`
 
 ---
 
 ## What VaiBReport Is (Current State)
 
-A fully automated daily digest pipeline:
+A fully automated daily digest pipeline + private Me2 enrichment layer:
 
 ```
-GitHub Actions fetch (8 sources) → generate-digest.yml (Node.js inline script)
+GitHub Actions fetch (9 sources) → generate-digest.yml (Node.js inline script)
 → commits _posts/*.md + _repos/*.md → deploy-blog.yml → Jekyll → GitHub Pages
+
+Peter submits issue → parse-submission.yml → _tools/{slug}.md
+→ tool-page-generate.yml (Gemini Pro → Sonnet, 5 calls) → enriched tool page
+→ research-report.yml (Brave Search → Gemini Pro → Sonnet) → _research/{slug}.md
 ```
 
 **Live site:** https://chaosaigent.github.io/VaiBReport/
 **Repo:** https://github.com/CHAOSAiGENT/VaiBReport
-**Stack:** Jekyll + GitHub Pages, GitHub Actions (Node.js 20 inline scripts), Gemini API (editorial blurbs)
+**Stack:** Jekyll + GitHub Pages, GitHub Actions (Node.js 20 inline scripts), LLM cascade (Gemini → OpenRouter → Groq → Claude)
 
-**Data sources active:** GitHub, HuggingFace (Spaces/Models/Datasets), Replicate, GitLab, npm/PyPI, Ollama, Papers with Code, product launches (HN Show HN, BetaList, DevHunt, Uneed)
+**LLM provider order (all workflows):** Gemini Flash/Pro (free, default) → OpenRouter free tier → Groq free tier → Claude Haiku/Sonnet (paid, last resort). Any missing key is skipped gracefully.
+
+**Search provider order (research):** Brave Search (primary, $5/mo) → Perplexity (fallback)
+
+**Data sources active:** GitHub, HuggingFace (Spaces/Models/Datasets), Replicate, GitLab, npm/PyPI, Ollama, Papers with Code, product launches (HN Show HN, BetaList, DevHunt, Uneed), Product Hunt
 
 **Key config files:**
 - `config/preferences.json` — star thresholds, cooldown days, section limits
@@ -220,3 +228,5 @@ Peter submits (GitHub Issue) →
 | Date | Summary |
 |------|---------|
 | 2026-03-24 | me2/ folder created. CLAUDE.md, UPGRADES.md, EXTENSIONS.md written. Me2 vision captured from Peter's description. ICP profiles defined. Screenshot approach decided (Playwright). Video script formats A and B defined. |
+| 2026-03-28 | E-07, E-08, research system shipped. Both `generate-tool-page.yml` and `research-report.yml` confirmed broken since creation (YAML block scalar bug) — both fixed. |
+| 2026-03-29 | LLM cascade implemented across all three workflows. Gemini primary, free fallbacks, Claude last resort. Brave Search replaces Perplexity as primary research search. Pre-flight balance check added to research workflow. Stack updated to 9 data sources (Product Hunt added). Session docs created in `.notes/`. |

@@ -2,14 +2,32 @@
 
 **File:** `docs/CHANGELOG.md`
 **Repo:** `github.com/CHAOSAiGENT/VaiBReport`
-**Last updated:** 2026-03-28
+**Last updated:** 2026-03-29
 
 Derived from `git log` history and current code. Grouped by logical feature areas.
 Individual daily data snapshot commits (`Add repos snapshot for YYYY-MM-DD`, etc.) are omitted — they are automated pipeline output, not stack changes.
 
 ---
 
-## [Current] — 2026-03-28
+## [Current] — 2026-03-29
+
+### Added
+- **LLM cascade across all three workflows:** Gemini first, free fallbacks second, paid Claude last. Provider order: Gemini Flash/Pro → OpenRouter (Llama 70B / Nemotron 253B :free) → Groq Llama 70B → Claude Haiku/Sonnet. Implemented as `tryCascadeBlurb()` in `generate-digest.yml`, `callLLM()` in `research-report.yml`, and updated `callClaude()` in `tool-page-generate.yml`. All providers skip gracefully if key is absent.
+- **Brave Search as primary web search:** `research-report.yml` now uses Brave Search API (`freshness=pw`, 15 results) as primary search provider. Perplexity retained as fallback. Two-step pattern: Brave results → LLM synthesis. Brave attribution added to `_layouts/research.html` footer (required by Brave API terms).
+- **Pre-flight balance check:** `research-report.yml` pings Claude Haiku (5 tokens) before doing any real work. On 402, comments on the GitHub issue with retry instructions and exits cleanly. Non-402 errors proceed.
+- **Session documentation (.notes/):** Three sibling documents created in `~/CHAOS/CHAOSAiGENT/.notes/`: `VaiBReport-stack.md` (full stack reference, 11 categories), `VaiBReport-pm-retro.md` (PM retrospective with bugs, decisions, opinion), `VaiBReport-tech-log.md` (technical anecdote log, gotchas, non-obvious decisions).
+
+### Changed
+- **Editorial blurbs model:** `generate-digest.yml` blurbs now use `claude-haiku-4-5-20251001` as last-resort Claude model (previously `claude-sonnet-4-6`). Primary is Gemini Flash (free).
+- **New GitHub Actions secrets required:** `GEMINI_API_KEY`, `OPENROUTER_API_KEY`, `GROQ_API_KEY`, `BRAVE_SEARCH_API_KEY` — all added to repository secrets.
+
+### Fixed
+- **`research-report.yml` (B-05) never fired since creation (2026-03-28):** Root cause same as B-04 — 35 lines of multiline template literal content at 0-space indentation inside `run: |` block scalar terminated YAML parsing before the workflow trigger registered. Fixed by padding all affected lines to 10-space indentation. Also fixed: `GITHUB_TOKEN` → `GH_TOKEN` env alias (reserved name constraint).
+- **`generate-tool-page.yml` (B-04) never fired since creation (2026-03-24):** Same YAML block scalar bug. 62 affected lines. File renamed to `tool-page-generate.yml` to force new GitHub workflow ID. Also fixed: `permissions:` moved to job level, `env:` moved to step level, workflow name special character removed.
+
+---
+
+## [2026-03-28] — Consulting notes, Me2 dashboard, Product Hunt
 
 ### Added
 - **Consulting notes layer (E-08):** `generate-tool-page.yml` now makes a fifth Claude API call to produce structured consulting prep notes (`who_best_for`, `pitch`, `red_flags`, `integration_notes`, `pricing_reality`, `client_readiness`, `typical_objections`). Stored in `consulting_notes:` YAML mapping in `_tools/{slug}.md`. `_layouts/tool.html` renders a gold consulting notes panel visible only when `consulting_notes.who_best_for` is populated.
