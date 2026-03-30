@@ -2,112 +2,185 @@
 layout: default
 ---
 <style>
-  .repo-header { margin-bottom: 1.5rem; }
-  .repo-header h1 { margin-bottom: 0.5rem; }
-  .source-badge {
-    display: inline-block;
-    padding: 2px 10px;
-    border-radius: 12px;
-    font-size: 0.75rem;
-    font-weight: 600;
-    color: #fff;
+  /* ── REPO LAYOUT ───────────────────────────────────────── */
+  .repo-page { max-width: 820px; }
+
+  .repo-title {
+    font-family: var(--font-disp);
+    font-size: clamp(1.4rem, 4vw, 2rem);
+    letter-spacing: 0.06em;
     text-transform: uppercase;
-    letter-spacing: 0.5px;
+    font-weight: 400;
+    line-height: 1.2;
+    margin-bottom: 0.75rem;
   }
-  .source-github { background: #6e7681; }
-  .source-huggingface-space, .source-huggingface-model, .source-huggingface-dataset { background: #f5a623; color: #333; }
-  .source-replicate { background: #3b82f6; }
-  .source-gitlab { background: #e24329; }
-  .source-npm { background: #cb3837; }
-  .source-pypi { background: #3572a5; }
-  .source-ollama { background: #22c55e; }
-  .source-paperswithcode { background: #14b8a6; }
-  .source-launch { background: #8b5cf6; }
+
+  .repo-badge-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    align-items: center;
+    margin: 0.5rem 0 1.25rem;
+  }
+
+  .source-badge {
+    font-size: 0.62rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    padding: 2px 8px;
+    font-family: var(--font-mono);
+    border: 1px solid var(--border);
+    color: var(--ink-dim);
+    background: var(--bg-raised);
+  }
+  .source-github          { border-color: #6e7681; }
+  .source-huggingface-space,
+  .source-huggingface-model,
+  .source-huggingface-dataset { border-color: #f5a623; color: #f5a623; }
+  .source-replicate       { border-color: #3b82f6; color: #3b82f6; }
+  .source-gitlab          { border-color: #e24329; color: #e24329; }
+  .source-npm             { border-color: #cb3837; color: #cb3837; }
+  .source-pypi            { border-color: #3572a5; color: #3572a5; }
+  .source-ollama          { border-color: #22c55e; color: #22c55e; }
+  .source-paperswithcode  { border-color: #14b8a6; color: #14b8a6; }
+  .source-launch          { border-color: #8b5cf6; color: #8b5cf6; }
+
+  .hotness-badge {
+    font-size: 0.62rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    padding: 2px 8px;
+    border: 1px solid #92400e;
+    color: #fbbf24;
+    background: #2a1f0a;
+    font-family: var(--font-mono);
+  }
+  .cat-badge {
+    font-size: 0.62rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    padding: 2px 8px;
+    border: 1px solid var(--border);
+    color: var(--ink-muted);
+    font-family: var(--font-mono);
+  }
+
+  .repo-og-image {
+    width: 100%;
+    max-width: 100%;
+    border: 1px solid var(--border);
+    display: block;
+    margin: 1rem 0;
+  }
+
+  .repo-description {
+    font-size: 0.95rem;
+    line-height: 1.75;
+    margin: 1.25rem 0 1.5rem;
+    color: var(--ink-dim);
+  }
+
   .repo-stats {
     display: flex;
     flex-wrap: wrap;
-    gap: 1rem;
-    margin: 1rem 0;
+    gap: 0.5rem;
+    margin: 1rem 0 1.5rem;
+    background: var(--bg-raised);
+    border: 1px solid var(--border);
     padding: 0.75rem 1rem;
-    background: #f6f8fa;
-    border-radius: 8px;
-    font-size: 0.9rem;
   }
-  .repo-stats .stat { display: flex; align-items: center; gap: 0.25rem; }
-  .repo-description {
-    font-size: 1.1rem;
-    line-height: 1.6;
-    margin: 1.5rem 0;
-    color: #333;
+  .stat-item {
+    font-size: 0.72rem;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--ink-dim);
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
   }
-  .repo-og-image {
-    max-width: 100%;
-    border-radius: 8px;
-    margin: 1rem 0;
-    border: 1px solid #e1e4e8;
-  }
-  .hotness-badge {
-    display: inline-block;
-    padding: 2px 8px;
-    background: #fff3cd;
-    border-radius: 8px;
-    font-size: 0.85rem;
-  }
+  .stat-item .stat-val { color: var(--ink); }
+
   .repo-meta {
     margin-top: 2rem;
     padding-top: 1rem;
-    border-top: 1px solid #e1e4e8;
-    font-size: 0.85rem;
-    color: #666;
+    border-top: 1px solid var(--border);
+    font-size: 0.72rem;
+    color: var(--ink-muted);
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem 1.5rem;
   }
-  .repo-cta {
-    display: inline-block;
-    margin: 1rem 0;
-    padding: 0.5rem 1.25rem;
-    background: #24292f;
-    color: #fff;
-    border-radius: 6px;
-    text-decoration: none;
-    font-weight: 500;
+
+  .repo-footer-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 1.5rem;
   }
-  .repo-cta:hover { background: #444d56; color: #fff; }
-  .back-link { margin-top: 2rem; display: block; }
 </style>
 
-<div class="repo-header">
-  <h1>{{ page.name }}</h1>
-  <span class="source-badge source-{{ page.source }}">{{ page.source | replace: "-", " " }}</span>
-  {% if page.streak > 3 %}
-    <span class="hotness-badge">🔥 {{ page.streak }}-day streak</span>
+<div class="repo-page">
+
+  <div class="repo-title">{{ page.name }}</div>
+
+  <div class="repo-badge-row">
+    <span class="source-badge source-{{ page.source }}">{{ page.source | replace: "-", " " }}</span>
+    {% if page.streak > 3 %}
+      <span class="hotness-badge">{{ page.streak }}-day streak</span>
+    {% endif %}
+    {% if page.category and page.category != "" %}
+      <span class="cat-badge">{{ page.category }}</span>
+    {% endif %}
+    {% for icp in page.icp_tags %}
+      <span class="cat-badge" style="border-color:var(--ink-muted);color:var(--ink-dim);">{{ icp }}</span>
+    {% endfor %}
+  </div>
+
+  {% if page.og_image and page.og_image != "" %}
+  <img src="{{ page.og_image }}" alt="{{ page.name }}" class="repo-og-image" loading="lazy">
   {% endif %}
-  {% if page.category and page.category != "" %}
-    <span style="display:inline-block;padding:2px 8px;background:#e1e4e8;border-radius:8px;font-size:0.8rem;margin-left:4px;">{{ page.category }}</span>
-  {% endif %}
+
+  <div class="repo-description">
+    {{ content | default: page.description }}
+  </div>
+
+  <div class="repo-stats">
+    {% if page.stars > 0 %}
+      <div class="stat-item">⭐ <span class="stat-val">{{ page.stars }}</span> stars</div>
+    {% endif %}
+    {% if page.downloads > 0 %}
+      <div class="stat-item">↓ <span class="stat-val">{{ page.downloads }}</span> downloads</div>
+    {% endif %}
+    {% if page.likes > 0 %}
+      <div class="stat-item">♥ <span class="stat-val">{{ page.likes }}</span> likes</div>
+    {% endif %}
+    {% if page.language and page.language != "" %}
+      <div class="stat-item">⌥ <span class="stat-val">{{ page.language }}</span></div>
+    {% endif %}
+    {% if page.appearances > 0 %}
+      <div class="stat-item">◎ <span class="stat-val">{{ page.appearances }}</span> appearances</div>
+    {% endif %}
+  </div>
+
+  <div class="repo-footer-actions">
+    <a href="{{ page.item_url }}" class="btn-primary" target="_blank" rel="noopener">
+      View on {{ page.source | replace: "-", " " | capitalize }} →
+    </a>
+  </div>
+
+  <div class="repo-meta">
+    <span>First: {{ page.first_featured }}</span>
+    <span>Last: {{ page.last_featured }}</span>
+    <span>Featured {{ page.times_featured }}×</span>
+    {% if page.tags.size > 0 %}
+      <span>{% for tag in page.tags %}{{ tag }}{% unless forloop.last %}, {% endunless %}{% endfor %}</span>
+    {% endif %}
+  </div>
+
+  <div style="margin-top:1.5rem;">
+    <a href="{{ '/repos/' | relative_url }}" class="btn-primary dim">← Catalog</a>
+  </div>
+
 </div>
-
-{% if page.og_image and page.og_image != "" %}
-<img src="{{ page.og_image }}" alt="{{ page.name }}" class="repo-og-image" loading="lazy">
-{% endif %}
-
-<div class="repo-description">
-  {{ content | default: page.description }}
-</div>
-
-<div class="repo-stats">
-  {% if page.stars > 0 %}<div class="stat">⭐ {{ page.stars }} stars</div>{% endif %}
-  {% if page.downloads > 0 %}<div class="stat">📦 {{ page.downloads }} downloads</div>{% endif %}
-  {% if page.likes > 0 %}<div class="stat">❤️ {{ page.likes }} likes</div>{% endif %}
-  {% if page.language and page.language != "" %}<div class="stat">💻 {{ page.language }}</div>{% endif %}
-  {% if page.appearances > 0 %}<div class="stat">📊 {{ page.appearances }} appearances</div>{% endif %}
-</div>
-
-<a href="{{ page.item_url }}" class="repo-cta" target="_blank" rel="noopener">View on {{ page.source | replace: "-", " " | capitalize }} →</a>
-
-<div class="repo-meta">
-  <p>First featured: {{ page.first_featured }} · Last featured: {{ page.last_featured }} · Featured {{ page.times_featured }} time{% if page.times_featured != 1 %}s{% endif %}</p>
-  {% if page.tags.size > 0 %}
-  <p>Tags: {% for tag in page.tags %}{{ tag }}{% unless forloop.last %}, {% endunless %}{% endfor %}</p>
-  {% endif %}
-</div>
-
-<a href="{{ '/repos/' | relative_url }}" class="back-link">← Back to catalog</a>
