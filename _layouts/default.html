@@ -50,33 +50,32 @@
     /* ─── NOISE OVERLAY ─────────────────────────────────────────── */
     #noise-canvas {
       position: fixed;
-      inset: 0;
+      top: 0;
+      left: 0;
       width: 100%;
       height: 100%;
       pointer-events: none;
-      z-index: 9998;
+      z-index: 9999;
       mix-blend-mode: overlay;
-      opacity: 0.045;
+      opacity: 0.05;
     }
 
-    /* ─── SCANLINE OVERLAY ──────────────────────────────────────── */
+    /* ─── SCANLINE — single bar sweeping top → bottom ───────────── */
     #scanline {
       position: fixed;
-      inset: 0;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 2px;
+      background: var(--ink);
+      opacity: 0.05;
       pointer-events: none;
-      z-index: 9999;
-      background: linear-gradient(
-        to bottom,
-        transparent 50%,
-        rgba(0, 0, 0, 0.04) 50%
-      );
-      background-size: 100% 4px;
-      animation: scanline-sweep 10s linear infinite;
-      opacity: 0.35;
+      z-index: 9998;
+      animation: scan 8s linear infinite;
     }
-    @keyframes scanline-sweep {
-      0%   { background-position: 0 0; }
-      100% { background-position: 0 100vh; }
+    @keyframes scan {
+      0%   { transform: translateY(-100%); }
+      100% { transform: translateY(100vh); }
     }
 
     /* ─── HEADER ────────────────────────────────────────────────── */
@@ -359,6 +358,181 @@
     .prose tr:hover td { background: var(--bg-raised); }
     .prose hr { border: none; border-top: 1px solid var(--border); margin: 2rem 0; }
 
+    /* ─── BLINK cursor ─────────────────────────────────────────── */
+    .blink {
+      animation: blink 1s step-end infinite;
+    }
+    @keyframes blink {
+      50% { opacity: 0; }
+    }
+
+    /* ─── GLITCH — subtle horizontal jitter ────────────────────── */
+    .glitch-text {
+      animation: glitch 4s infinite;
+    }
+    @keyframes glitch {
+      0%   { opacity: 1; }
+      95%  { opacity: 1; transform: translateX(0); }
+      96%  { opacity: 0.8; transform: translateX(-2px); }
+      97%  { opacity: 1; transform: translateX(2px); }
+      99%  { opacity: 1; transform: translateX(0); }
+    }
+
+    /* ─── CAPSULE — filter chip (invert on hover/active) ────────── */
+    .capsule {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      border: 1px solid var(--ink-muted);
+      padding: 0.2rem 0.6rem;
+      font-size: 0.6rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      font-family: var(--font-mono);
+      cursor: pointer;
+      transition: background 0.1s, color 0.1s, border-color 0.1s;
+    }
+    .capsule:hover, .capsule.active {
+      background: var(--ink);
+      color: var(--bg);
+      border-color: var(--ink);
+    }
+
+    /* ─── STAT BOX — left-border stat block ────────────────────── */
+    .stat-box {
+      border-left: 2px solid var(--ink);
+      padding-left: 1rem;
+    }
+    .stat-box .stat-label {
+      font-size: 0.62rem;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: var(--ink-muted);
+      margin-bottom: 0.2rem;
+    }
+    .stat-box .stat-value {
+      font-family: var(--font-disp);
+      font-size: 1.4rem;
+      letter-spacing: 0.02em;
+      line-height: 1;
+    }
+
+    /* ─── DATA ROW — list item with hover ──────────────────────── */
+    .data-row {
+      font-size: 0.72rem;
+      padding: 6px 12px;
+      border-bottom: 1px solid rgba(224, 228, 239, 0.06);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      opacity: 0.8;
+      transition: background 0.1s, opacity 0.1s;
+    }
+    .data-row:hover {
+      background: rgba(224, 228, 239, 0.05);
+      opacity: 1;
+    }
+
+    /* ─── TERMINAL ROW — nav list item ─────────────────────────── */
+    .terminal-row {
+      border-bottom: 1px solid rgba(224, 228, 239, 0.15);
+      padding: 12px 16px;
+      cursor: pointer;
+      transition: background 0.1s;
+      display: flex;
+      align-items: flex-start;
+      gap: 1rem;
+    }
+    .terminal-row:hover, .terminal-row.active {
+      background: rgba(224, 228, 239, 0.06);
+    }
+    .terminal-row.active {
+      border-left: 3px solid var(--ink);
+      padding-left: 13px;
+    }
+
+    /* ─── STEP INDICATOR ────────────────────────────────────────── */
+    .step-indicator {
+      width: 8px;
+      height: 8px;
+      border: 1px solid var(--ink);
+      flex-shrink: 0;
+    }
+    .step-indicator.active {
+      background: var(--ink);
+    }
+
+    /* ─── MODULE TAB ────────────────────────────────────────────── */
+    .module-tab {
+      border: 1px solid rgba(224, 228, 239, 0.2);
+      padding: 1.25rem;
+      cursor: pointer;
+      transition: border-color 0.2s, background 0.2s;
+      flex: 1;
+    }
+    .module-tab:hover, .module-tab.selected {
+      border-color: var(--ink);
+      background: rgba(224, 228, 239, 0.04);
+    }
+    .module-tab.active-tab {
+      border-bottom: 3px solid var(--ink);
+      background: rgba(224, 228, 239, 0.06);
+    }
+
+    /* ─── KEY REVEAL — blur until hover ────────────────────────── */
+    .key-reveal {
+      filter: blur(4px);
+      transition: filter 0.3s ease;
+      cursor: pointer;
+    }
+    .key-reveal:hover { filter: blur(0); }
+
+    /* ─── PANEL / ARCHIVE CARD ──────────────────────────────────── */
+    .panel-border {
+      border: 1px solid rgba(224, 228, 239, 0.15);
+      background: rgba(224, 228, 239, 0.02);
+      position: relative;
+    }
+    .panel-header {
+      font-size: 10px;
+      padding: 6px 12px;
+      border-bottom: 1px solid rgba(224, 228, 239, 0.15);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: rgba(224, 228, 239, 0.04);
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+    }
+    .archive-card {
+      border: 1px solid rgba(224, 228, 239, 0.15);
+      background: rgba(224, 228, 239, 0.02);
+      position: relative;
+      transition: border-color 0.2s, background 0.2s, transform 0.2s cubic-bezier(0.4,0,0.2,1);
+    }
+    .archive-card:hover {
+      border-color: var(--ink-muted);
+      background: rgba(224, 228, 239, 0.05);
+      transform: translateY(-2px);
+    }
+
+    /* ─── THUMB PATTERN (card placeholder) ─────────────────────── */
+    .thumb-pattern {
+      position: absolute;
+      inset: 0;
+      opacity: 0.08;
+      background-image: radial-gradient(var(--ink) 0.5px, transparent 0.5px);
+      background-size: 8px 8px;
+    }
+
+    /* ─── LIVE CLOCK ────────────────────────────────────────────── */
+    #live-clock {
+      font-size: 0.65rem;
+      letter-spacing: 0.08em;
+      color: var(--ink-muted);
+      font-variant-numeric: tabular-nums;
+    }
+
     /* ─── RESPONSIVE ────────────────────────────────────────────── */
     @media (max-width: 640px) {
       .header-inner { height: auto; padding: 0.75rem 0; flex-direction: column; align-items: flex-start; }
@@ -391,6 +565,7 @@
           </a>
         {% endfor %}
         <a href="{{ '/feed.xml' | relative_url }}" title="RSS">RSS</a>
+        <span id="live-clock" aria-live="polite"></span>
       </nav>
     </div>
   </header>
@@ -415,69 +590,71 @@
     </div>
   </footer>
 
-  <!-- WebGL noise shader -->
+  <!-- WebGL noise + live clock -->
   <script>
+    // ── Noise grain ─────────────────────────────────────────────
     (function () {
       const canvas = document.getElementById('noise-canvas');
       const gl = canvas.getContext('webgl');
       if (!gl) return;
 
-      function resize() {
+      const resize = () => {
         canvas.width  = window.innerWidth;
         canvas.height = window.innerHeight;
         gl.viewport(0, 0, canvas.width, canvas.height);
-      }
-      resize();
+      };
       window.addEventListener('resize', resize);
+      resize();
 
       const vs = gl.createShader(gl.VERTEX_SHADER);
       gl.shaderSource(vs, `attribute vec2 p; void main(){gl_Position=vec4(p,0,1);}`);
       gl.compileShader(vs);
 
       const fs = gl.createShader(gl.FRAGMENT_SHADER);
-      gl.shaderSource(fs, `
-        precision lowp float;
-        uniform vec2 r;
-        uniform float t;
-        float rnd(vec2 s){return fract(sin(dot(s,vec2(12.9898,78.233)))*43758.5453);}
-        void main(){
-          vec2 s = gl_FragCoord.xy / r * 2.0;
-          gl_FragColor = vec4(vec3(rnd(s + t * 0.011)), 1.0);
-        }
-      `);
+      gl.shaderSource(fs, `precision lowp float; uniform vec2 r; uniform float t; float rnd(vec2 s){return fract(sin(dot(s,vec2(12.9,78.2)))*43758.5);} void main(){vec2 s=gl_FragCoord.xy/r*2.0; gl_FragColor=vec4(vec3(rnd(s+t*0.01)),1.0);}`);
       gl.compileShader(fs);
 
-      const prog = gl.createProgram();
-      gl.attachShader(prog, vs);
-      gl.attachShader(prog, fs);
-      gl.linkProgram(prog);
-      gl.useProgram(prog);
+      const prg = gl.createProgram();
+      gl.attachShader(prg, vs);
+      gl.attachShader(prg, fs);
+      gl.linkProgram(prg);
+      gl.useProgram(prg);
 
-      const buf = gl.createBuffer();
-      gl.bindBuffer(gl.ARRAY_BUFFER, buf);
-      gl.bufferData(gl.ARRAY_BUFFER, new Float32Array([-1,-1, 1,-1, -1,1, 1,1]), gl.STATIC_DRAW);
+      const b = gl.createBuffer();
+      gl.bindBuffer(gl.ARRAY_BUFFER, b);
+      gl.bufferData(gl.ARRAY_BUFFER, new Float32Array([-1,-1,1,-1,-1,1,-1,1,1,-1,1,1]), gl.STATIC_DRAW);
 
-      const pLoc = gl.getAttribLocation(prog, 'p');
-      gl.enableVertexAttribArray(pLoc);
-      gl.vertexAttribPointer(pLoc, 2, gl.FLOAT, false, 0, 0);
+      const pL = gl.getAttribLocation(prg, 'p');
+      gl.enableVertexAttribArray(pL);
+      gl.vertexAttribPointer(pL, 2, gl.FLOAT, false, 0, 0);
 
-      const rLoc = gl.getUniformLocation(prog, 'r');
-      const tLoc = gl.getUniformLocation(prog, 't');
+      const rL = gl.getUniformLocation(prg, 'r');
+      const tL = gl.getUniformLocation(prg, 't');
 
       let frame;
-      function render(ts) {
-        gl.uniform2f(rLoc, canvas.width, canvas.height);
-        gl.uniform1f(tLoc, ts * 0.001);
-        gl.drawArrays(gl.TRIANGLE_STRIP, 0, 4);
-        frame = requestAnimationFrame(render);
-      }
-      frame = requestAnimationFrame(render);
+      const loop = (t) => {
+        gl.uniform2f(rL, canvas.width, canvas.height);
+        gl.uniform1f(tL, t);
+        gl.drawArrays(gl.TRIANGLES, 0, 6);
+        frame = requestAnimationFrame(loop);
+      };
+      frame = requestAnimationFrame(loop);
 
-      // Pause when tab hidden to save CPU
-      document.addEventListener('visibilitychange', function() {
+      document.addEventListener('visibilitychange', () => {
         if (document.hidden) cancelAnimationFrame(frame);
-        else frame = requestAnimationFrame(render);
+        else frame = requestAnimationFrame(loop);
       });
+    })();
+
+    // ── Live clock ───────────────────────────────────────────────
+    (function () {
+      const el = document.getElementById('live-clock');
+      if (!el) return;
+      const tick = () => {
+        el.textContent = new Date().toTimeString().split(' ')[0];
+      };
+      tick();
+      setInterval(tick, 1000);
     })();
   </script>
 
