@@ -1,0 +1,236 @@
+<html lang="en" vid="0"><head vid="1">
+    <meta charset="UTF-8" vid="2">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" vid="3">
+    <title vid="4">VAIBREPORT // TERMINAL_BOOT_SEQUENCE</title>
+    <script src="https://cdn.tailwindcss.com/3.4.17" vid="5"></script>
+    <style vid="6">
+        @import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+
+        :root {
+            --bg: #12131a; 
+            --ink: #e0e4ef; 
+            --font-display: 'Impact', 'Arial Black', sans-serif;
+            --font-mono: 'Space Mono', monospace;
+            --border-fine: 1px solid var(--ink);
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: var(--bg);
+            color: var(--ink);
+            font-family: var(--font-mono);
+            overflow-y: auto;
+            text-transform: uppercase;
+            width: 1280px;
+            height: 800px;
+        }
+
+        #noise-canvas {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 9999;
+            pointer-events: none;
+            mix-blend-mode: overlay; 
+            opacity: 0.05; 
+        }
+
+        .display-text {
+            font-family: var(--font-display);
+            letter-spacing: 0.05em;
+        }
+
+        .sys-label {
+            font-size: 0.65rem;
+            letter-spacing: 0.15em;
+            background: var(--ink);
+            color: var(--bg);
+            padding: 2px 6px;
+            font-weight: bold;
+            display: inline-block;
+        }
+
+        .scanline {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 2px;
+            background: var(--ink);
+            opacity: 0.05;
+            animation: scan 8s linear infinite;
+            pointer-events: none;
+            z-index: 50;
+        }
+
+        @keyframes scan {
+            0% { transform: translateY(-100%); }
+            100% { transform: translateY(800px); }
+        }
+
+        .terminal-scroll {
+            mask-image: linear-gradient(to bottom, transparent, black 15%, black 85%, transparent);
+            height: 120px;
+            overflow: hidden;
+        }
+
+        .scroll-content {
+            animation: scroll-up 10s linear infinite;
+        }
+
+        @keyframes scroll-up {
+            0% { transform: translateY(0); }
+            100% { transform: translateY(-50%); }
+        }
+
+        .blinking-cursor::after {
+            content: "_";
+            animation: blink 1s step-end infinite;
+        }
+
+        @keyframes blink {
+            from, to { opacity: 1; }
+            50% { opacity: 0; }
+        }
+
+        .selection-box {
+            border: 1px solid rgba(224, 228, 239, 0.2);
+            padding: 1.5rem;
+            transition: 0.2s;
+            width: 100%;
+            max-width: 600px;
+        }
+        .selection-box:hover {
+            border-color: var(--ink);
+            background: rgba(224, 228, 239, 0.05);
+        }
+
+        .btn-primary {
+            border: var(--border-fine);
+            padding: 1rem 3rem;
+            font-size: 0.8rem;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+        .btn-primary:hover {
+            background: var(--ink);
+            color: var(--bg);
+        }
+    </style>
+</head>
+<body class="relative flex flex-col items-center" vid="7">
+
+    <canvas id="noise-canvas" vid="8"></canvas>
+    <div class="scanline" vid="9"></div>
+
+    <div class="w-full max-w-4xl py-16 px-12 flex flex-col items-center text-center space-y-12" vid="10">
+        
+        <header class="flex flex-col items-center border-b border-[#e0e4ef] pb-10 w-full" vid="11">
+            <h1 class="display-text text-6xl leading-none mb-4" vid="12">VAIB_REPORT</h1>
+            <div class="flex gap-4" vid="13">
+                <div class="text-[10px] opacity-60" vid="14">TTY_1 // 2026-03-29</div>
+                <div class="sys-label" vid="15">SYSTEM_INITIALIZATION_v1.0.4</div>
+            </div>
+        </header>
+
+        <div class="w-full max-w-md border border-[rgba(224,228,239,0.1)] p-4 relative" vid="16">
+            <div class="terminal-scroll text-[10px] font-mono leading-relaxed opacity-80" vid="17">
+                <div class="scroll-content space-y-1" vid="18">
+                    <div class="flex justify-between" vid="19"><span vid="20">CATALOG_INDEX</span> <span vid="21">[OK]</span></div>
+                    <div class="flex justify-between" vid="22"><span vid="23">PETER_PICKS_ENGINE</span> <span vid="24">[OK]</span></div>
+                    <div class="flex justify-between" vid="25"><span vid="26">LEADERBOARD_SYNC</span> <span vid="27">[OK]</span></div>
+                    <div class="flex justify-between" vid="28"><span vid="29">USER_IDENTITY_BUFFER</span> <span class="underline" vid="30">[PENDING]</span></div>
+                    <div class="flex justify-between" vid="31"><span vid="32">SECURE_ENCLAVE_INIT</span> <span vid="33">[OK]</span></div>
+                    <div class="flex justify-between" vid="34"><span vid="35">NEURAL_MAP_LOADED</span> <span vid="36">[OK]</span></div>
+                    <div class="flex justify-between" vid="37"><span vid="38">DATA_STREAM_HANDSHAKE</span> <span vid="39">[OK]</span></div>
+                    <div class="flex justify-between" vid="40"><span vid="41">CATALOG_INDEX</span> <span vid="42">[OK]</span></div>
+                    <div class="flex justify-between" vid="43"><span vid="44">PETER_PICKS_ENGINE</span> <span vid="45">[OK]</span></div>
+                    <div class="flex justify-between" vid="46"><span vid="47">LEADERBOARD_SYNC</span> <span vid="48">[OK]</span></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="space-y-6 w-full flex flex-col items-center" vid="49">
+            <h2 class="display-text text-5xl" vid="50">WELCOME_TO_THE_CORE</h2>
+            <p class="text-sm opacity-70 max-w-xl lowercase leading-relaxed" vid="51">
+                VAIBREPORT is your centralized intelligence node for the emerging autonomous landscape. 
+                Parsing thousands of signals for high-signal updates.
+            </p>
+
+            <div class="w-full flex flex-col items-center gap-4 pt-8" vid="52">
+                <div class="selection-box" vid="53">
+                    <div class="text-xs font-bold mb-1" vid="54">01_THE_CATALOG</div>
+                    <p class="text-[10px] opacity-50 lowercase" vid="55">Full index of detected objects and repositories.</p>
+                </div>
+                <div class="selection-box" vid="56">
+                    <div class="flex items-center gap-2 mb-1" vid="57">
+                        <div class="text-xs font-bold" vid="58">02_PETER'S_PICKS</div>
+                        <div class="sys-label scale-75" vid="59">CURATED</div>
+                    </div>
+                    <p class="text-[10px] opacity-50 lowercase" vid="60">Human-filtered high-impact developments.</p>
+                </div>
+                <div class="selection-box" vid="61">
+                    <div class="text-xs font-bold mb-1" vid="62">03_LEADERBOARD</div>
+                    <p class="text-[10px] opacity-50 lowercase" vid="63">Real-time performance rankings of AI models.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="pt-12 pb-24 flex flex-col items-center gap-8 w-full" vid="64">
+            <div class="text-lg blinking-cursor tracking-widest font-bold" vid="65">AWAITING_INPUT</div>
+            <button class="btn-primary" vid="66">
+                PROCEED_TO_DATA_STREAMS // EXECUTE
+            </button>
+            <div class="text-[10px] opacity-30 mt-4" vid="67">
+                PROTOCOL: V.102 // © 2026 VAIB_CORP
+            </div>
+        </div>
+    </div>
+
+    <script vid="68">
+        const canvas = document.getElementById('noise-canvas');
+        const gl = canvas.getContext('webgl');
+        if (gl) {
+            const resize = () => { 
+                canvas.width = 1280; 
+                canvas.height = 800; 
+                gl.viewport(0, 0, canvas.width, canvas.height); 
+            };
+            resize();
+            const vs = gl.createShader(gl.VERTEX_SHADER);
+            gl.shaderSource(vs, `attribute vec2 p; void main(){gl_Position=vec4(p,0,1);}`);
+            gl.compileShader(vs);
+            const fs = gl.createShader(gl.FRAGMENT_SHADER);
+            gl.shaderSource(fs, `precision lowp float; uniform vec2 r; uniform float t; float rnd(vec2 s){return fract(sin(dot(s,vec2(12.9,78.2)))*43758.5);} void main(){vec2 s=gl_FragCoord.xy/r*2.0; gl_FragColor=vec4(vec3(rnd(s+t*0.01)),1.0);}`);
+            gl.compileShader(fs);
+            const prg = gl.createProgram(); 
+            gl.attachShader(prg, vs); 
+            gl.attachShader(prg, fs); 
+            gl.linkProgram(prg); 
+            gl.useProgram(prg);
+            const b = gl.createBuffer(); 
+            gl.bindBuffer(gl.ARRAY_BUFFER, b); 
+            gl.bufferData(gl.ARRAY_BUFFER, new Float32Array([-1,-1,1,-1,-1,1,-1,1,1,-1,1,1]), gl.STATIC_DRAW);
+            const pL = gl.getAttribLocation(prg, "p"); 
+            gl.enableVertexAttribArray(pL); 
+            gl.vertexAttribPointer(pL, 2, gl.FLOAT, false, 0, 0);
+            const rL = gl.getUniformLocation(prg, "r"); 
+            const tL = gl.getUniformLocation(prg, "t");
+            const loop = (t) => { 
+                gl.uniform2f(rL, canvas.width, canvas.height); 
+                gl.uniform1f(tL, t); 
+                gl.drawArrays(gl.TRIANGLES, 0, 6); 
+                requestAnimationFrame(loop); 
+            };
+            requestAnimationFrame(loop);
+        }
+    </script>
+
+</body></html>

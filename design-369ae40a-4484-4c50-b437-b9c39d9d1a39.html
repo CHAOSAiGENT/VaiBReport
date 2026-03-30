@@ -1,0 +1,236 @@
+<html lang="en" vid="0"><head vid="1">
+    <meta charset="UTF-8" vid="2">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" vid="3">
+    <title vid="4">VAIBREPORT // CORE_OVERLAY_v1.0.4</title>
+    <script src="https://cdn.tailwindcss.com/3.4.17" vid="5"></script>
+    <style vid="6">
+        @import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+
+        :root {
+            --bg: #0a0b10; 
+            --ink: #e0e4ef; 
+            --font-display: 'Impact', 'Arial Black', sans-serif;
+            --font-mono: 'Space Mono', monospace;
+            --border-fine: 1px solid rgba(224, 228, 239, 0.3);
+        }
+
+        body {
+            background-color: var(--bg);
+            color: var(--ink);
+            font-family: var(--font-mono);
+            overflow: hidden;
+            text-transform: uppercase;
+            width: 1280px;
+            height: 800px;
+            margin: 0;
+            position: relative;
+        }
+
+        #noise-canvas {
+            position: fixed;
+            top: 0; left: 0; width: 100%; height: 100%;
+            z-index: 100; pointer-events: none; mix-blend-mode: overlay; opacity: 0.08; 
+        }
+
+        .display-text {
+            font-family: var(--font-display);
+            letter-spacing: -0.02em;
+        }
+
+        .sys-label {
+            font-size: 0.6rem;
+            letter-spacing: 0.15em;
+            background: var(--ink);
+            color: var(--bg);
+            padding: 2px 6px;
+            font-weight: bold;
+            display: inline-block;
+        }
+
+        .hud-panel {
+            background: rgba(18, 19, 26, 0.8);
+            backdrop-filter: blur(10px);
+            border: var(--border-fine);
+            position: absolute;
+            z-index: 50;
+        }
+
+        .crosshair-corner {
+            position: absolute; width: 8px; height: 8px; border-color: var(--ink); border-style: solid; border-width: 0;
+        }
+        .cc-tl { top: -1px; left: -1px; border-top-width: 1px; border-left-width: 1px; }
+        .cc-tr { top: -1px; right: -1px; border-top-width: 1px; border-right-width: 1px; }
+        .cc-bl { bottom: -1px; left: -1px; border-bottom-width: 1px; border-left-width: 1px; }
+        .cc-br { bottom: -1px; right: -1px; border-bottom-width: 1px; border-right-width: 1px; }
+
+        .module-strip {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            border-top: var(--border-fine);
+            background: rgba(10, 11, 16, 0.9);
+            z-index: 60;
+        }
+
+        .module-card {
+            padding: 1.5rem;
+            border-right: var(--border-fine);
+            transition: 0.3s;
+            cursor: pointer;
+        }
+        .module-card:hover {
+            background: rgba(224, 228, 239, 0.05);
+        }
+
+        .btn-primary {
+            border: var(--border-fine);
+            padding: 0.75rem 1.5rem;
+            font-size: 0.7rem;
+            background: var(--bg);
+            transition: 0.2s;
+        }
+        .btn-primary:hover {
+            background: var(--ink);
+            color: var(--bg);
+        }
+
+        .step-indicator { width: 6px; height: 6px; border: 1px solid var(--ink); }
+        .step-indicator.active { background: var(--ink); }
+
+        .hero-text-mask {
+            font-size: 14vw;
+            line-height: 0.85;
+            white-space: nowrap;
+            color: transparent;
+            -webkit-text-stroke: 1px rgba(224, 228, 239, 0.2);
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -55%);
+            width: 100%;
+            text-align: center;
+            z-index: 10;
+            pointer-events: none;
+        }
+
+        .scanline {
+            position: absolute; top: 0; left: 0; width: 100%; height: 2px;
+            background: var(--ink); opacity: 0.03; animation: scan 6s linear infinite;
+            pointer-events: none; z-index: 110;
+        }
+        @keyframes scan { 0% { transform: translateY(-100%); } 100% { transform: translateY(800px); } }
+    </style>
+</head>
+<body vid="7">
+
+    <canvas id="noise-canvas" vid="8"></canvas>
+    <div class="scanline" vid="9"></div>
+
+    
+    <div class="hero-text-mask display-text" vid="10">
+        WELCOME_TO_THE_CORE
+    </div>
+
+    
+    <div class="absolute top-8 left-8 z-50" vid="11">
+        <h1 class="display-text text-3xl leading-none" vid="12">VAIB<br vid="13">REPORT</h1>
+        <div class="sys-label mt-2" vid="14">INIT_SEQUENCE // USER_001</div>
+    </div>
+
+    
+    <div class="hud-panel top-8 right-8 p-4 w-64" vid="15">
+        <div class="cc-tl crosshair-corner" vid="16"></div><div class="cc-tr crosshair-corner" vid="17"></div>
+        <div class="cc-bl crosshair-corner" vid="18"></div><div class="cc-br crosshair-corner" vid="19"></div>
+        <div class="flex justify-between items-center mb-3" vid="20">
+            <span class="text-[9px] font-bold" vid="21">SYSTEM_STATUS</span>
+            <span class="text-[8px] opacity-40" vid="22">TTY_1</span>
+        </div>
+        <div class="text-[9px] space-y-1" vid="23">
+            <div class="flex justify-between" vid="24"><span vid="25">CATALOG_INDEX</span> <span vid="26">[OK]</span></div>
+            <div class="flex justify-between" vid="27"><span vid="28">PETER_PICKS</span> <span vid="29">[OK]</span></div>
+            <div class="flex justify-between opacity-50" vid="30"><span vid="31">ID_BUFFER</span> <span vid="32">[PENDING]</span></div>
+        </div>
+    </div>
+
+    
+    <div class="absolute left-8 top-1/2 -translate-y-1/2 flex flex-col gap-6 z-50" vid="33">
+        <div class="flex items-center gap-3" vid="34">
+            <div class="step-indicator active" vid="35"></div>
+            <div class="text-[10px] tracking-widest" vid="36">01 // ID_LINK</div>
+        </div>
+        <div class="flex items-center gap-3 opacity-40" vid="37">
+            <div class="step-indicator" vid="38"></div>
+            <div class="text-[10px] tracking-widest" vid="39">02 // STREAMS</div>
+        </div>
+        <div class="flex items-center gap-3 opacity-40" vid="40">
+            <div class="step-indicator" vid="41"></div>
+            <div class="text-[10px] tracking-widest" vid="42">03 // AUTH</div>
+        </div>
+    </div>
+
+    
+    <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full max-w-xl text-center z-20 pointer-events-none" vid="43">
+        <p class="text-sm opacity-90 leading-relaxed tracking-wider bg-black/40 backdrop-blur-sm p-4" vid="44">
+            CENTRALIZED INTELLIGENCE NODE FOR THE EMERGING AUTONOMOUS LANDSCAPE. PARSING DAILY SIGNALS ON AI MODELS, REPOSITORIES, AND BREAKTHROUGHS.
+        </p>
+    </div>
+
+    
+    <div class="absolute bottom-40 left-8 right-8 flex justify-between items-end z-50" vid="45">
+        <div class="text-[9px] opacity-40" vid="46">
+            PROTOCOL: V.102 // SECURE_HANDSHAKE<br vid="47">
+            © 2026 VAIB_CORP // DECENTRALIZED
+        </div>
+        <div class="flex flex-col items-end gap-4" vid="48">
+            <div class="text-[9px] opacity-40" vid="49">PRESS [ESC] TO SKIP</div>
+            <button class="btn-primary" vid="50">PROCEED_TO_DATA_STREAMS //</button>
+        </div>
+    </div>
+
+    
+    <div class="module-strip" vid="51">
+        <div class="module-card" vid="52">
+            <div class="text-[10px] font-bold mb-1" vid="53">01_THE_CATALOG</div>
+            <div class="text-[9px] opacity-40 leading-tight" vid="54">INDEX OF DETECTED OBJECTS AND REPOSITORIES.</div>
+        </div>
+        <div class="module-card" vid="55">
+            <div class="flex items-center gap-2 mb-1" vid="56">
+                <div class="text-[10px] font-bold" vid="57">02_PETER'S_PICKS</div>
+                <span class="bg-white text-black text-[7px] px-1 font-bold" vid="58">CURATED</span>
+            </div>
+            <div class="text-[9px] opacity-40 leading-tight" vid="59">HUMAN-FILTERED HIGH-IMPACT DEVELOPMENTS.</div>
+        </div>
+        <div class="module-card" vid="60">
+            <div class="text-[10px] font-bold mb-1" vid="61">03_LEADERBOARD</div>
+            <div class="text-[9px] opacity-40 leading-tight" vid="62">REAL-TIME PERFORMANCE RANKINGS.</div>
+        </div>
+        <div class="module-card border-r-0 bg-white/5" vid="63">
+            <div class="text-[10px] font-bold mb-1" vid="64">04_PERSONALIZATION</div>
+            <div class="text-[9px] opacity-60 leading-tight" vid="65">NOTIFICATION PARAMETERS AND PRIORITY.</div>
+        </div>
+    </div>
+
+    <script vid="66">
+        const canvas = document.getElementById('noise-canvas');
+        const gl = canvas.getContext('webgl');
+        if (gl) {
+            canvas.width = 1280; canvas.height = 800;
+            const vs = gl.createShader(gl.VERTEX_SHADER);
+            gl.shaderSource(vs, `attribute vec2 p; void main(){gl_Position=vec4(p,0,1);}`);
+            gl.compileShader(vs);
+            const fs = gl.createShader(gl.FRAGMENT_SHADER);
+            gl.shaderSource(fs, `precision lowp float; uniform vec2 r; uniform float t; float rnd(vec2 s){return fract(sin(dot(s,vec2(12.9,78.2)))*43758.5);} void main(){vec2 s=gl_FragCoord.xy/r; gl_FragColor=vec4(vec3(rnd(s+t*0.01)),1.0);}`);
+            gl.compileShader(fs);
+            const prg = gl.createProgram(); gl.attachShader(prg, vs); gl.attachShader(prg, fs); gl.linkProgram(prg); gl.useProgram(prg);
+            const b = gl.createBuffer(); gl.bindBuffer(gl.ARRAY_BUFFER, b); gl.bufferData(gl.ARRAY_BUFFER, new Float32Array([-1,-1,1,-1,-1,1,-1,1,1,-1,1,1]), gl.STATIC_DRAW);
+            const pL = gl.getAttribLocation(prg, "p"); gl.enableVertexAttribArray(pL); gl.vertexAttribPointer(pL, 2, gl.FLOAT, false, 0, 0);
+            const rL = gl.getUniformLocation(prg, "r"); const tL = gl.getUniformLocation(prg, "t");
+            const loop = (t) => { gl.uniform2f(rL, 1280, 800); gl.uniform1f(tL, t); gl.drawArrays(gl.TRIANGLES, 0, 6); requestAnimationFrame(loop); };
+            requestAnimationFrame(loop);
+        }
+    </script>
+
+</body></html>

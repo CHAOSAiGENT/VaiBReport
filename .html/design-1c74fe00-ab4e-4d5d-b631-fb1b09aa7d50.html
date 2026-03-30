@@ -1,0 +1,283 @@
+<html lang="en" vid="0"><head vid="1">
+    <meta charset="UTF-8" vid="2">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" vid="3">
+    <title vid="4">VAIBREPORT // DASHBOARD_v4.0.1</title>
+    <script src="https://cdn.tailwindcss.com/3.4.17" vid="5"></script>
+    <style vid="6">
+        @import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+
+        :root {
+            --bg: #0d0e12; 
+            --ink: #e0e4ef; 
+            --accent: #4a4d5a;
+            --font-mono: 'Space Mono', monospace;
+        }
+
+        body {
+            background-color: var(--bg);
+            color: var(--ink);
+            font-family: var(--font-mono);
+            overflow: hidden;
+            text-transform: uppercase;
+            width: 1280px;
+            height: 800px;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+        }
+
+        #noise-canvas {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 9999;
+            pointer-events: none;
+            mix-blend-mode: overlay; 
+            opacity: 0.04; 
+        }
+
+        .scanline {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 1px;
+            background: var(--ink);
+            opacity: 0.03;
+            animation: scan 10s linear infinite;
+            pointer-events: none;
+            z-index: 50;
+        }
+
+        @keyframes scan {
+            0% { transform: translateY(0); }
+            100% { transform: translateY(800px); }
+        }
+
+        .panel-border {
+            border: 1px solid rgba(224, 228, 239, 0.15);
+            background: rgba(224, 228, 239, 0.02);
+            position: relative;
+        }
+
+        .panel-header {
+            font-size: 10px;
+            padding: 6px 12px;
+            border-bottom: 1px solid rgba(224, 228, 239, 0.15);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: rgba(224, 228, 239, 0.05);
+        }
+
+        .sys-label-sm {
+            font-size: 9px;
+            background: var(--ink);
+            color: var(--bg);
+            padding: 1px 6px;
+            font-weight: bold;
+        }
+
+        .data-row {
+            font-size: 11px;
+            padding: 4px 12px;
+            border-bottom: 1px solid rgba(224, 228, 239, 0.05);
+            display: flex;
+            justify-content: space-between;
+            opacity: 0.8;
+        }
+
+        .data-row:hover {
+            background: rgba(224, 228, 239, 0.05);
+            opacity: 1;
+        }
+
+        .scroll-v {
+            overflow-y: auto;
+            scrollbar-width: none;
+        }
+        .scroll-v::-webkit-scrollbar { display: none; }
+
+        .terminal-text {
+            color: #8c92a5;
+        }
+
+        .blink {
+            animation: blink 1s step-end infinite;
+        }
+        @keyframes blink { 50% { opacity: 0; } }
+
+        .header-meta {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            padding: 12px 24px;
+            font-size: 10px;
+            opacity: 0.6;
+            border-bottom: 1px solid rgba(224, 228, 239, 0.1);
+        }
+    </style>
+</head>
+<body vid="7">
+    <canvas id="noise-canvas" vid="8"></canvas>
+    <div class="scanline" vid="9"></div>
+
+    
+    <div class="header-meta" vid="10">
+        <div vid="11">VAIB_OS_CORE // STREAM_ACTIVE</div>
+        <div class="flex gap-8" vid="12">
+            <div vid="13">NET_STATUS: STABLE</div>
+            <div vid="14">NODE_001 // SECURE_HANDSHAKE_V1.02</div>
+            <div vid="15" id="clock">09:12:44</div>
+        </div>
+    </div>
+
+    
+    <div class="flex-grow grid grid-cols-12 grid-rows-6 gap-4 p-6 overflow-hidden" vid="16">
+        
+        
+        <div class="col-span-3 row-span-4 panel-border flex flex-col" vid="17">
+            <div class="panel-header" vid="18">
+                <span vid="19">VAIB_LEADERBOARD_STREAMS</span>
+                <span class="sys-label-sm" vid="20">LIVE</span>
+            </div>
+            <div class="scroll-v flex-grow" vid="21">
+                <div class="data-row" vid="22"><span vid="23">01. NODE_ALPHA</span> <span class="text-white" vid="24">99.2%</span></div>
+                <div class="data-row" vid="25"><span vid="26">02. SIGNAL_X</span> <span class="text-white" vid="27">98.5%</span></div>
+                <div class="data-row" vid="28"><span vid="29">03. PROTOCOL_7</span> <span class="text-white" vid="30">97.1%</span></div>
+                <div class="data-row" vid="31"><span vid="32">04. CORE_USER_01</span> <span class="text-white" vid="33">94.8%</span></div>
+                <div class="data-row" vid="34"><span vid="35">05. DATA_SYNTH</span> <span class="text-white" vid="36">92.0%</span></div>
+                <div class="data-row" vid="37"><span vid="38">06. NULL_POINTER</span> <span class="text-white" vid="39">88.3%</span></div>
+                <div class="data-row" vid="40"><span vid="41">07. GHOST_SHELL</span> <span class="text-white" vid="42">87.5%</span></div>
+                <div class="data-row" vid="43"><span vid="44">08. SYSTEM_INIT</span> <span class="text-white" vid="45">84.1%</span></div>
+                <div class="data-row" vid="46"><span vid="47">09. VOID_NODE</span> <span class="text-white" vid="48">81.9%</span></div>
+                <div class="data-row" vid="49"><span vid="50">10. BYTES_FLOW</span> <span class="text-white" vid="51">79.4%</span></div>
+                <div class="data-row" vid="52"><span vid="53">11. LOGIC_GATE</span> <span class="text-white" vid="54">76.2%</span></div>
+                <div class="data-row" vid="55"><span vid="56">12. VECTOR_01</span> <span class="text-white" vid="57">72.0%</span></div>
+            </div>
+        </div>
+
+        
+        <div class="col-span-6 row-span-4 panel-border flex flex-col" vid="58">
+            <div class="panel-header" vid="59">
+                <span vid="60">PETER_PICKS_ENGINE // ANALYSIS_OUTPUT</span>
+                <span class="opacity-50" vid="61">SENSITIVITY: 0.94</span>
+            </div>
+            <div class="flex-grow flex flex-col p-6 font-mono text-xs leading-relaxed" vid="62">
+                <div class="terminal-text mb-4" vid="63">
+                    &gt; INITIATING NEURAL WEIGHT SCAN...<br vid="64">
+                    &gt; DETECTING ANOMALIES IN DAILY_SIGNALS_STREAM...<br vid="65">
+                    &gt; PETER_PICKS SELECTION CRITERIA MET.
+                </div>
+                <div class="border-l-2 border-white pl-4 my-2" vid="66">
+                    <div class="text-lg font-bold mb-1" vid="67">SELECTED_ASSET: SIGMA_DELTA_09</div>
+                    <div class="flex gap-4 opacity-70" vid="68">
+                        <div vid="69">CONFIDENCE: 88.42%</div>
+                        <div vid="70">VOLATILITY: LOW</div>
+                        <div vid="71">RISK_LEVEL: 0.12</div>
+                    </div>
+                </div>
+                <div class="mt-auto h-32 w-full flex items-end gap-1 overflow-hidden" vid="72">
+                    
+                    <div class="bg-white/20 w-full" style="height: 40%" vid="73"></div>
+                    <div class="bg-white/30 w-full" style="height: 60%" vid="74"></div>
+                    <div class="bg-white/10 w-full" style="height: 30%" vid="75"></div>
+                    <div class="bg-white/40 w-full" style="height: 80%" vid="76"></div>
+                    <div class="bg-white/20 w-full" style="height: 50%" vid="77"></div>
+                    <div class="bg-white/50 w-full" style="height: 90%" vid="78"></div>
+                    <div class="bg-white/20 w-full" style="height: 40%" vid="79"></div>
+                    <div class="bg-white/60 w-full" style="height: 70%" vid="80"></div>
+                    <div class="bg-white/10 w-full" style="height: 20%" vid="81"></div>
+                    <div class="bg-white/30 w-full" style="height: 50%" vid="82"></div>
+                    <div class="bg-white/80 w-full" style="height: 100%" vid="83"></div>
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="col-span-3 row-span-4 panel-border flex flex-col" vid="84">
+            <div class="panel-header" vid="85">
+                <span vid="86">SIGNAL_FEEDS</span>
+                <span class="opacity-50" vid="87">BUFFER: 100%</span>
+            </div>
+            <div class="scroll-v flex-grow p-4 font-mono text-[10px]" vid="88">
+                <div class="mb-4" vid="89">
+                    <span class="opacity-40" vid="90">[09:12:01]</span> INCOMING_SIG:<br vid="91">
+                    TX_ID: 0x82...f2A <span class="text-white" vid="92">[CONFIRMED]</span>
+                </div>
+                <div class="mb-4" vid="93">
+                    <span class="opacity-40" vid="94">[09:12:15]</span> INCOMING_SIG:<br vid="95">
+                    TX_ID: 0x11...c4B <span class="text-white" vid="96">[PENDING]</span>
+                </div>
+                <div class="mb-4" vid="97">
+                    <span class="opacity-40" vid="98">[09:12:28]</span> ALARM_TRIGGERED:<br vid="99">
+                    THRESHOLD_EXCEEDED: +4.2%
+                </div>
+                <div class="mb-4" vid="100">
+                    <span class="opacity-40" vid="101">[09:12:40]</span> CACHE_CLEARED:<br vid="102">
+                    L2_DATA_PURGED_SUCCESSFULLY
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="col-span-12 row-span-2 panel-border flex flex-col" vid="103">
+            <div class="panel-header" vid="104">
+                <span vid="105">SYSTEM_CONSOLE // USER@VAIB_REPORT</span>
+            </div>
+            <div class="flex-grow p-4 overflow-hidden" vid="106">
+                <div class="text-[11px] leading-relaxed opacity-70" vid="107">
+                    [SYSTEM] :: HANDSHAKE_PROTOCOL STABILIZED. ALL SYSTEMS NOMINAL.<br vid="108">
+                    [KERNEL] :: MEMORY_PAGE_FAULT REPAIRED AT ADDRESS 0x004F3B.<br vid="109">
+                    [NETWORK] :: UPLINK LATENCY: 14MS. DOWNLINK: 1.2GBPS.<br vid="110">
+                    [USER] :: REQUESTING DATA_STREAM ACCESS... GRANTED.<br vid="111">
+                    <span class="opacity-100 mt-2 block" vid="112">
+                        USER@VAIB_REPORT:~$ <span class="text-white underline" vid="113">_RUN_ANALYTICS --MODE=AGGRESSIVE</span><span class="blink" vid="114">_</span>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <div class="w-full flex justify-between text-[10px] opacity-40 px-6 py-4 border-t border-white/10" vid="115">
+        <div vid="116">OS_VERSION: 4.0.1 // KERNEL_ARCH: x86_64</div>
+        <div vid="117">CTRL+C TO ABORT // ESC TO MENU</div>
+    </div>
+
+    <script vid="118">
+        
+        const canvas = document.getElementById('noise-canvas');
+        const gl = canvas.getContext('webgl');
+        if (gl) {
+            const vs = gl.createShader(gl.VERTEX_SHADER);
+            gl.shaderSource(vs, `attribute vec2 p; void main(){gl_Position=vec4(p,0,1);}`);
+            gl.compileShader(vs);
+            const fs = gl.createShader(gl.FRAGMENT_SHADER);
+            gl.shaderSource(fs, `precision lowp float; uniform vec2 r; uniform float t; float rnd(vec2 s){return fract(sin(dot(s,vec2(12.9,78.2)))*43758.5);} void main(){vec2 s=gl_FragCoord.xy/r*2.0; gl_FragColor=vec4(vec3(rnd(s+t*0.01)),1.0);}`);
+            gl.compileShader(fs);
+            const prg = gl.createProgram(); 
+            gl.attachShader(prg, vs); gl.attachShader(prg, fs); gl.linkProgram(prg); gl.useProgram(prg);
+            const b = gl.createBuffer(); gl.bindBuffer(gl.ARRAY_BUFFER, b); 
+            gl.bufferData(gl.ARRAY_BUFFER, new Float32Array([-1,-1,1,-1,-1,1,-1,1,1,-1,1,1]), gl.STATIC_DRAW);
+            const pL = gl.getAttribLocation(prg, "p"); gl.enableVertexAttribArray(pL); 
+            gl.vertexAttribPointer(pL, 2, gl.FLOAT, false, 0, 0);
+            const rL = gl.getUniformLocation(prg, "r"); const tL = gl.getUniformLocation(prg, "t");
+            const loop = (t) => { 
+                canvas.width = 1280; canvas.height = 800;
+                gl.viewport(0, 0, 1280, 800);
+                gl.uniform2f(rL, 1280, 800); gl.uniform1f(tL, t); 
+                gl.drawArrays(gl.TRIANGLES, 0, 6); requestAnimationFrame(loop); 
+            };
+            requestAnimationFrame(loop);
+        }
+
+        
+        setInterval(() => {
+            const now = new Date();
+            document.getElementById('clock').innerText = now.toTimeString().split(' ')[0];
+        }, 1000);
+    </script>
+</body></html>
