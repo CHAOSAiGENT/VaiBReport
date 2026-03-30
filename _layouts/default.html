@@ -2,6 +2,10 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
+  <!-- Anti-FOUC: apply theme before paint -->
+  <script>
+    (function(){var t=localStorage.getItem('vaib-theme')||(window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light');document.documentElement.setAttribute('data-theme',t);})();
+  </script>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="{{ page.description | default: site.description }}">
   <title>{% if page.title %}{{ page.title }} — {% endif %}{{ site.title }}</title>
@@ -25,6 +29,100 @@
       --border-hot: #e0e4ef;
       --font-mono:  'Space Mono', 'Courier New', monospace;
       --font-disp:  'Impact', 'Arial Black', sans-serif;
+    }
+
+    /* ─── LIGHT / ACCESSIBLE THEME (WCAG AA) ────────────────────── */
+    /* Off-white warm bg from amber palette; ink ~17:1 contrast      */
+    [data-theme="light"] {
+      --bg:         #f5f5ef;
+      --bg-raised:  #eeeee8;
+      --bg-dim:     #e9eae3;
+      --ink:        #12131a;
+      --ink-dim:    #3d4557;    /* ~7.5:1 on --bg  ✓ WCAG AA */
+      --ink-muted:  #5e6780;    /* ~4.7:1 on --bg  ✓ WCAG AA */
+      --accent:     #12131a;
+      --accent-glow:#12131a10;
+      --border:     #c4c6d0;
+      --border-hot: #12131a;
+    }
+    [data-theme="light"] body {
+      background-image: radial-gradient(circle, #b8bac6 1px, transparent 1px);
+    }
+    [data-theme="light"] #noise-canvas {
+      mix-blend-mode: multiply;
+      opacity: 0.025;
+    }
+    [data-theme="light"] #scanline {
+      opacity: 0.04;
+    }
+    [data-theme="light"] a:hover { color: #000; }
+    [data-theme="light"] .sys-label.ok   { background: #dcfce7; color: #166534; border-color: #bbf7d0; }
+    [data-theme="light"] .sys-label.warn { background: #fef9c3; color: #92400e; border-color: #fde68a; }
+    [data-theme="light"] .sys-label.err  { background: #fee2e2; color: #991b1b; border-color: #fecaca; }
+    [data-theme="light"] .data-row {
+      border-bottom-color: rgba(18, 19, 26, 0.08);
+    }
+    [data-theme="light"] .data-row:hover {
+      background: rgba(18, 19, 26, 0.04);
+    }
+    [data-theme="light"] .terminal-row {
+      border-bottom-color: rgba(18, 19, 26, 0.12);
+    }
+    [data-theme="light"] .terminal-row:hover,
+    [data-theme="light"] .terminal-row.active {
+      background: rgba(18, 19, 26, 0.05);
+    }
+    [data-theme="light"] .module-tab {
+      border-color: rgba(18, 19, 26, 0.18);
+    }
+    [data-theme="light"] .module-tab:hover,
+    [data-theme="light"] .module-tab.selected {
+      background: rgba(18, 19, 26, 0.04);
+    }
+    [data-theme="light"] .panel-border {
+      border-color: rgba(18, 19, 26, 0.15);
+      background: rgba(18, 19, 26, 0.02);
+    }
+    [data-theme="light"] .panel-header {
+      border-bottom-color: rgba(18, 19, 26, 0.12);
+      background: rgba(18, 19, 26, 0.03);
+    }
+    [data-theme="light"] .archive-card {
+      border-color: rgba(18, 19, 26, 0.15);
+      background: rgba(18, 19, 26, 0.02);
+    }
+    [data-theme="light"] .archive-card:hover {
+      background: rgba(18, 19, 26, 0.05);
+    }
+    [data-theme="light"] .terminal-input {
+      background: rgba(18, 19, 26, 0.04);
+      border-color: rgba(18, 19, 26, 0.25);
+    }
+    [data-theme="light"] .terminal-input:focus {
+      border-color: var(--ink);
+    }
+
+    /* ─── THEME TOGGLE BUTTON ───────────────────────────────────── */
+    .theme-toggle {
+      background: none;
+      border: 1px solid var(--border);
+      color: var(--ink-muted);
+      font-size: 0.8rem;
+      width: 28px;
+      height: 28px;
+      cursor: pointer;
+      padding: 0;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      transition: border-color 0.15s, color 0.15s;
+      flex-shrink: 0;
+      font-family: inherit;
+      line-height: 1;
+    }
+    .theme-toggle:hover {
+      border-color: var(--ink);
+      color: var(--ink);
     }
 
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -525,6 +623,101 @@
       background-size: 8px 8px;
     }
 
+    /* ─── ENTRY CARD — article with left metadata strip ────────── */
+    /* From amber variants: two-column layout, date/source on left  */
+    .entry-card {
+      display: grid;
+      grid-template-columns: 72px 1fr;
+      border: 1px solid var(--border);
+      transition: border-color 0.15s;
+      text-decoration: none;
+      color: var(--ink);
+    }
+    .entry-card:hover {
+      border-color: var(--ink-dim);
+      text-decoration: none;
+      color: var(--ink);
+    }
+    .entry-card-meta {
+      border-right: 1px solid var(--border);
+      padding: 0.75rem 0.6rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.35rem;
+      font-size: 0.58rem;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: var(--ink-muted);
+      background: var(--bg-raised);
+    }
+    .entry-card-body {
+      padding: 0.75rem 1rem;
+      background: var(--bg);
+    }
+    .entry-card:hover .entry-card-body {
+      background: var(--bg-raised);
+    }
+    .entry-card-title {
+      font-family: var(--font-disp);
+      font-size: 0.82rem;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: var(--ink);
+      margin-bottom: 0.3rem;
+      line-height: 1.2;
+    }
+    .entry-card-desc {
+      font-size: 0.7rem;
+      color: var(--ink-dim);
+      line-height: 1.5;
+    }
+
+    /* ─── LINK ACTION — bottom-border link, inverts on hover ────── */
+    /* From amber variants: sharp CTA link with invert effect        */
+    .link-action {
+      display: inline-block;
+      font-size: 0.68rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      font-family: var(--font-mono);
+      text-decoration: none;
+      color: var(--ink);
+      border-bottom: 1px solid var(--ink);
+      padding-bottom: 1px;
+      transition: background 0.1s, color 0.1s, padding 0.1s, border-color 0.1s;
+    }
+    .link-action:hover {
+      background: var(--ink);
+      color: var(--bg);
+      padding: 1px 5px;
+      border-bottom-color: transparent;
+      text-decoration: none;
+    }
+
+    /* ─── TERMINAL INPUT ────────────────────────────────────────── */
+    /* From amber variants: translucent bg, amber-border focus       */
+    .terminal-input {
+      background: rgba(224, 228, 239, 0.05);
+      border: 1px solid rgba(224, 228, 239, 0.3);
+      color: var(--ink);
+      padding: 0.5rem 0.75rem;
+      font-family: var(--font-mono);
+      font-size: 0.75rem;
+      letter-spacing: 0.04em;
+      width: 100%;
+      outline: none;
+      transition: border-color 0.2s;
+    }
+    .terminal-input:focus {
+      border-color: var(--ink);
+    }
+    .terminal-input::placeholder {
+      color: var(--ink-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      font-size: 0.68rem;
+    }
+
     /* ─── LIVE CLOCK ────────────────────────────────────────────── */
     #live-clock {
       font-size: 0.65rem;
@@ -566,6 +759,7 @@
         {% endfor %}
         <a href="{{ '/feed.xml' | relative_url }}" title="RSS">RSS</a>
         <span id="live-clock" aria-live="polite"></span>
+        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle light/dark theme" title="Toggle theme">◑</button>
       </nav>
     </div>
   </header>
@@ -655,6 +849,18 @@
       };
       tick();
       setInterval(tick, 1000);
+    })();
+
+    // ── Theme toggle ─────────────────────────────────────────────
+    (function () {
+      const btn = document.getElementById('theme-toggle');
+      if (!btn) return;
+      btn.addEventListener('click', () => {
+        const html = document.documentElement;
+        const next = html.getAttribute('data-theme') === 'light' ? 'dark' : 'light';
+        html.setAttribute('data-theme', next);
+        localStorage.setItem('vaib-theme', next);
+      });
     })();
   </script>
 
