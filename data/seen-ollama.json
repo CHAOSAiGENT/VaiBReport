@@ -139,6 +139,26 @@
     "phi3.5": {
       "times_featured": 1,
       "last_featured": "2026-03-29"
+    },
+    "aya": {
+      "times_featured": 1,
+      "last_featured": "2026-03-30"
+    },
+    "llama2-chinese": {
+      "times_featured": 1,
+      "last_featured": "2026-03-30"
+    },
+    "neural-chat": {
+      "times_featured": 1,
+      "last_featured": "2026-03-30"
+    },
+    "stable-code": {
+      "times_featured": 1,
+      "last_featured": "2026-03-30"
+    },
+    "nous-hermes2": {
+      "times_featured": 1,
+      "last_featured": "2026-03-30"
     }
   }
 }

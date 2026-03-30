@@ -165,8 +165,8 @@
       "last_featured": "2026-03-06"
     },
     "microsoft/qlib": {
-      "times_featured": 1,
-      "last_featured": "2026-03-06"
+      "times_featured": 2,
+      "last_featured": "2026-03-30"
     },
     "async-labs/saas": {
       "times_featured": 1,
@@ -651,6 +651,74 @@
     "upscayl/upscayl": {
       "times_featured": 1,
       "last_featured": "2026-03-29"
+    },
+    "suren-atoyan/react-pwa": {
+      "times_featured": 1,
+      "last_featured": "2026-03-30"
+    },
+    "kvnxiao/tauri-nextjs-template": {
+      "times_featured": 1,
+      "last_featured": "2026-03-30"
+    },
+    "zhangyao1990/elegant-admin": {
+      "times_featured": 1,
+      "last_featured": "2026-03-30"
+    },
+    "radishzzz/astro-theme-retypeset": {
+      "times_featured": 1,
+      "last_featured": "2026-03-30"
+    },
+    "KevinNovak/Discord-Bot-TypeScript-Template": {
+      "times_featured": 1,
+      "last_featured": "2026-03-30"
+    },
+    "getpaykit/paykit": {
+      "times_featured": 1,
+      "last_featured": "2026-03-30"
+    },
+    "AIDC-AI/Pixelle-Video": {
+      "times_featured": 1,
+      "last_featured": "2026-03-30"
+    },
+    "hao-ai-lab/FastVideo": {
+      "times_featured": 1,
+      "last_featured": "2026-03-30"
+    },
+    "growchief/growchief": {
+      "times_featured": 1,
+      "last_featured": "2026-03-30"
+    },
+    "Robbyant/lingbot-world": {
+      "times_featured": 1,
+      "last_featured": "2026-03-30"
+    },
+    "thu-ml/SageAttention": {
+      "times_featured": 1,
+      "last_featured": "2026-03-30"
+    },
+    "lukasz-madon/awesome-remote-job": {
+      "times_featured": 1,
+      "last_featured": "2026-03-30"
+    },
+    "calcom/cal.com": {
+      "times_featured": 1,
+      "last_featured": "2026-03-30"
+    },
+    "freeCodeCamp/freeCodeCamp": {
+      "times_featured": 1,
+      "last_featured": "2026-03-30"
+    },
+    "neovim/neovim": {
+      "times_featured": 1,
+      "last_featured": "2026-03-30"
+    },
+    "paperless-ngx/paperless-ngx": {
+      "times_featured": 1,
+      "last_featured": "2026-03-30"
+    },
+    "fastfetch-cli/fastfetch": {
+      "times_featured": 1,
+      "last_featured": "2026-03-30"
     }
   }
 }
