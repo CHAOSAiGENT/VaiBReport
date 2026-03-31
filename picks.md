@@ -4,65 +4,79 @@ title: Peter's Picks
 permalink: /picks/
 ---
 
-<p style="color:#555;margin-bottom:1.5rem;">Tools I've personally reviewed, tested, and think are worth your time — curated for solo founders, small teams, and non-technical builders.</p>
+<p style="font-size:0.78rem;color:var(--ink-dim);margin-bottom:1.5rem;line-height:1.55;">Tools I've personally reviewed, tested, and think are worth your time — curated for solo founders, small teams, and non-technical builders.</p>
 
 <style>
   .picks-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 1.25rem;
-    margin-top: 1.5rem;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1px;
+    background: var(--border);
+    border: 1px solid var(--border);
+    margin-top: 1.25rem;
   }
   .pick-card {
-    border: 1px solid #e1e4e8;
-    border-radius: 10px;
-    padding: 1.1rem 1.2rem;
-    background: #fff;
-    transition: box-shadow 0.15s;
+    padding: 1rem 1.1rem 1.1rem;
+    background: var(--bg);
+    transition: background 0.15s;
   }
-  .pick-card:hover { box-shadow: 0 4px 12px rgba(0,0,0,0.08); }
-  .pick-card h3 { margin: 0 0 0.4rem; font-size: 1rem; }
-  .pick-card h3 a { color: #24292f; text-decoration: none; }
-  .pick-card h3 a:hover { color: #0969da; }
-  .pick-hook {
+  .pick-card:hover { background: var(--bg-raised); }
+  .pick-card h3 {
+    margin: 0 0 0.35rem;
+    font-family: var(--font-disp);
     font-size: 0.88rem;
-    color: #555;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+  .pick-card h3 a { color: var(--ink); text-decoration: none; }
+  .pick-card h3 a:hover { color: var(--ink-dim); }
+  .pick-hook {
+    font-size: 0.72rem;
+    color: var(--ink-dim);
     line-height: 1.5;
-    margin: 0.4rem 0 0.75rem;
+    margin: 0.35rem 0 0.65rem;
   }
   .pick-status {
     display: flex;
     flex-wrap: wrap;
-    gap: 0.35rem;
-    margin-top: 0.75rem;
+    gap: 0.3rem;
+    margin-top: 0.65rem;
   }
   .status-chip {
     display: inline-flex;
     align-items: center;
-    gap: 0.25rem;
-    padding: 2px 8px;
-    border-radius: 10px;
-    font-size: 0.7rem;
-    font-weight: 600;
-    border: 1.5px solid;
+    gap: 0.2rem;
+    padding: 1px 7px;
+    font-size: 0.6rem;
+    font-family: var(--font-mono);
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    border: 1px solid;
   }
-  .status-on  { background: #dafbe1; border-color: #2da44e; color: #1a7f37; }
-  .status-off { background: #f6f8fa; border-color: #d0d7de; color: #aaa; }
+  .status-on  { border-color: var(--ink); color: var(--ink); background: var(--accent-glow); }
+  .status-off { border-color: var(--border); color: var(--ink-muted); background: transparent; }
   .icp-chip {
     display: inline-block;
-    padding: 1px 7px;
-    border-radius: 8px;
-    font-size: 0.68rem;
-    font-weight: 500;
-    background: #ddf4ff;
-    border: 1px solid #54aeff;
-    color: #0550ae;
-    margin-right: 0.25rem;
+    padding: 1px 6px;
+    font-size: 0.6rem;
+    font-family: var(--font-mono);
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    border: 1px solid var(--border);
+    color: var(--ink-muted);
+    background: var(--bg-raised);
+    margin-right: 0.2rem;
+    margin-bottom: 0.3rem;
   }
   .picks-empty {
-    color: #888;
-    font-style: italic;
+    font-size: 0.7rem;
+    color: var(--ink-muted);
     padding: 2rem 0;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    font-family: var(--font-mono);
   }
 </style>
 
@@ -71,7 +85,7 @@ permalink: /picks/
 {% if public_picks.size == 0 %}
 <p class="picks-empty">Nothing here yet — check back soon.</p>
 {% else %}
-<p style="font-size:0.85rem;color:#888;margin-bottom:0.5rem;">{{ public_picks.size }} tool{% if public_picks.size != 1 %}s{% endif %} reviewed</p>
+<p style="font-size:0.6rem;letter-spacing:0.1em;text-transform:uppercase;color:var(--ink-muted);font-family:var(--font-mono);margin-bottom:0.5rem;">{{ public_picks.size }} tool{% if public_picks.size != 1 %}s{% endif %} reviewed</p>
 <div class="picks-grid">
 {% for tool in public_picks %}
   <div class="pick-card">

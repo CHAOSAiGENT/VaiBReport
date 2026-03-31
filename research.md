@@ -5,19 +5,81 @@ permalink: /research/
 ---
 
 <style>
-  .research-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 1rem; margin-top: 1rem; }
-  .research-card {
-    border: 1px solid #d0d7de; border-radius: 8px; padding: 1rem;
-    text-decoration: none; color: inherit; display: block;
-    transition: box-shadow 0.15s;
+  .research-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1px;
+    background: var(--border);
+    border: 1px solid var(--border);
+    margin-top: 1rem;
   }
-  .research-card:hover { box-shadow: 0 2px 8px rgba(0,0,0,0.1); text-decoration: none; }
-  .rc-title { font-weight: 600; font-size: 0.95rem; margin-bottom: 0.4rem; color: #24292f; }
-  .rc-meta { font-size: 0.75rem; color: #888; display: flex; gap: 0.4rem; flex-wrap: wrap; align-items: center; }
-  .depth-badge { display: inline-block; padding: 1px 7px; border-radius: 7px; font-size: 0.68rem; font-weight: 600; background: #ddf4ff; border: 1px solid #54aeff; color: #0550ae; }
-  .icp-chip { display: inline-block; padding: 1px 6px; border-radius: 7px; font-size: 0.65rem; font-weight: 500; background: #fff3cd; border: 1px solid #e0c04a; color: #7a5700; }
-  .new-btn { display: inline-block; margin-bottom: 1.25rem; padding: 0.45rem 1rem; background: #2da44e; color: #fff; border-radius: 7px; font-size: 0.88rem; font-weight: 600; text-decoration: none; }
-  .new-btn:hover { background: #218838; text-decoration: none; color: #fff; }
+  .research-card {
+    padding: 1rem;
+    text-decoration: none;
+    color: var(--ink);
+    display: block;
+    background: var(--bg);
+    transition: background 0.15s;
+  }
+  .research-card:hover { background: var(--bg-raised); text-decoration: none; }
+  .rc-title {
+    font-family: var(--font-disp);
+    font-size: 0.85rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--ink);
+    margin-bottom: 0.4rem;
+  }
+  .rc-meta {
+    font-size: 0.65rem;
+    font-family: var(--font-mono);
+    color: var(--ink-muted);
+    display: flex;
+    gap: 0.4rem;
+    flex-wrap: wrap;
+    align-items: center;
+    letter-spacing: 0.04em;
+  }
+  .depth-badge {
+    display: inline-block;
+    padding: 1px 6px;
+    font-size: 0.6rem;
+    font-family: var(--font-mono);
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    border: 1px solid var(--border);
+    border-left: 2px solid var(--ink);
+    color: var(--ink-dim);
+    background: var(--bg-raised);
+  }
+  .icp-chip {
+    display: inline-block;
+    padding: 1px 6px;
+    font-size: 0.6rem;
+    font-family: var(--font-mono);
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    border: 1px solid var(--border);
+    color: var(--ink-muted);
+    background: var(--bg-raised);
+  }
+  .new-btn {
+    display: inline-block;
+    margin-bottom: 1.25rem;
+    padding: 0.4rem 1rem;
+    background: none;
+    border: 1px solid var(--ink);
+    color: var(--ink);
+    font-family: var(--font-mono);
+    font-size: 0.72rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: background 0.1s, color 0.1s;
+  }
+  .new-btn:hover { background: var(--ink); color: var(--bg); text-decoration: none; }
 </style>
 
 <a class="new-btn" href="https://github.com/CHAOSAiGENT/VaiBReport/issues/new?template=research-request.yml">+ New research request</a>

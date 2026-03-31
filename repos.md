@@ -5,101 +5,126 @@ permalink: /repos/
 ---
 
 <style>
-  .catalog-controls {
-    margin-bottom: 1.5rem;
-  }
+  .catalog-controls { margin-bottom: 1.5rem; }
+
   .catalog-search {
     width: 100%;
-    padding: 0.6rem 1rem;
-    border: 1px solid #d0d7de;
-    border-radius: 8px;
-    font-size: 1rem;
+    padding: 0.5rem 0.75rem;
+    border: 1px solid var(--border);
+    font-size: 0.75rem;
+    font-family: var(--font-mono);
+    letter-spacing: 0.04em;
+    background: rgba(224, 228, 239, 0.04);
+    color: var(--ink);
     margin-bottom: 0.75rem;
     box-sizing: border-box;
-  }
-  .catalog-search:focus {
     outline: none;
-    border-color: #0969da;
-    box-shadow: 0 0 0 3px rgba(9,105,218,0.15);
+    transition: border-color 0.2s;
   }
+  .catalog-search:focus { border-color: var(--ink); }
+  .catalog-search::placeholder { color: var(--ink-muted); text-transform: uppercase; font-size: 0.65rem; letter-spacing: 0.08em; }
+  [data-theme="light"] .catalog-search { background: rgba(18, 19, 26, 0.04); }
+
   .catalog-row {
     display: flex;
     flex-wrap: wrap;
-    gap: 0.5rem;
+    gap: 0.4rem;
     align-items: center;
     margin-bottom: 0.5rem;
   }
   .catalog-row label {
-    font-size: 0.8rem;
-    font-weight: 600;
-    color: #666;
-    margin-right: 0.25rem;
+    font-size: 0.58rem;
+    font-weight: 700;
+    font-family: var(--font-mono);
+    letter-spacing: 0.12em;
+    color: var(--ink-muted);
+    text-transform: uppercase;
+    margin-right: 0.2rem;
   }
+
   .catalog-sort {
-    padding: 0.4rem 0.6rem;
-    border: 1px solid #d0d7de;
-    border-radius: 6px;
-    font-size: 0.85rem;
-    background: #fff;
+    padding: 0.3rem 0.5rem;
+    border: 1px solid var(--border);
+    font-size: 0.68rem;
+    font-family: var(--font-mono);
+    letter-spacing: 0.04em;
+    background: var(--bg);
+    color: var(--ink);
+    text-transform: uppercase;
+    outline: none;
+    cursor: pointer;
+    transition: border-color 0.15s;
   }
+  .catalog-sort:hover { border-color: var(--ink); }
+
   .chip {
     display: inline-block;
-    padding: 3px 10px;
-    border-radius: 12px;
-    font-size: 0.75rem;
-    font-weight: 500;
+    padding: 2px 8px;
+    font-size: 0.58rem;
+    font-family: var(--font-mono);
+    font-weight: 700;
+    letter-spacing: 0.08em;
     cursor: pointer;
-    border: 1px solid #d0d7de;
-    background: #fff;
-    color: #333;
-    transition: all 0.15s;
+    border: 1px solid var(--border);
+    background: var(--bg);
+    color: var(--ink-muted);
+    text-transform: uppercase;
+    transition: all 0.1s;
   }
-  .chip:hover { background: #f3f4f6; }
-  .chip.active { background: #24292f; color: #fff; border-color: #24292f; }
+  .chip:hover { border-color: var(--ink-dim); color: var(--ink); }
+  .chip.active { background: var(--ink); color: var(--bg); border-color: var(--ink); }
+
   .result-count {
-    font-size: 0.85rem;
-    color: #666;
+    font-size: 0.6rem;
+    letter-spacing: 0.1em;
+    color: var(--ink-muted);
+    text-transform: uppercase;
+    font-family: var(--font-mono);
     margin-bottom: 0.75rem;
   }
+
   .card-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 1.25rem;
+    gap: 1px;
+    background: var(--border);
+    border: 1px solid var(--border);
   }
   @media (max-width: 900px) { .card-grid { grid-template-columns: repeat(2, 1fr); } }
   @media (max-width: 560px) { .card-grid { grid-template-columns: 1fr; } }
+
   .card {
-    background: #fff;
-    border: 1px solid #e1e4e8;
-    border-radius: 10px;
+    background: var(--bg);
     overflow: hidden;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.06);
-    transition: transform 0.15s, box-shadow 0.15s;
     display: flex;
     flex-direction: column;
+    transition: background 0.15s;
   }
-  .card:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-  }
+  .card:hover { background: var(--bg-raised); }
+
   .card-img {
     width: 100%;
-    height: 140px;
+    height: 120px;
     object-fit: cover;
-    background: #f6f8fa;
+    opacity: 0.65;
+    filter: grayscale(25%);
+    border-bottom: 1px solid var(--border);
   }
   .card-placeholder {
     width: 100%;
-    height: 140px;
+    height: 120px;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 2rem;
-    font-weight: 700;
-    color: #fff;
+    font-size: 1.4rem;
+    border-bottom: 1px solid var(--border);
+    background: var(--bg-dim);
+    background-image: radial-gradient(circle, var(--border) 1px, transparent 1px);
+    background-size: 12px 12px;
   }
+
   .card-body {
-    padding: 0.75rem 1rem 1rem;
+    padding: 0.75rem 0.9rem 0.9rem;
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -108,33 +133,50 @@ permalink: /repos/
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    margin-bottom: 0.35rem;
+    margin-bottom: 0.3rem;
+    gap: 0.5rem;
   }
   .card-name {
-    font-weight: 600;
-    font-size: 0.9rem;
-    color: #24292f;
+    font-family: var(--font-disp);
+    font-size: 0.82rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--ink);
     text-decoration: none;
-    line-height: 1.3;
+    line-height: 1.2;
     flex: 1;
-    margin-right: 0.5rem;
   }
-  .card-name:hover { color: #0969da; }
+  .card-name:hover { color: var(--ink-dim); }
+
   .card-source {
     display: inline-block;
-    padding: 1px 7px;
-    border-radius: 10px;
-    font-size: 0.65rem;
-    font-weight: 600;
-    color: #fff;
+    padding: 1px 5px;
+    font-size: 0.55rem;
+    font-family: var(--font-mono);
+    font-weight: 700;
+    letter-spacing: 0.08em;
     text-transform: uppercase;
     white-space: nowrap;
     flex-shrink: 0;
+    border: 1px solid var(--border);
+    color: var(--ink-muted);
+    background: var(--bg-raised);
   }
+  /* Source accent: left border keeps brand identity */
+  .src-github         { border-left: 2px solid #6e7681; }
+  .src-huggingface-space, .src-huggingface-model, .src-huggingface-dataset { border-left: 2px solid #f5a623; }
+  .src-replicate      { border-left: 2px solid #3b82f6; }
+  .src-gitlab         { border-left: 2px solid #e24329; }
+  .src-npm            { border-left: 2px solid #cb3837; }
+  .src-pypi           { border-left: 2px solid #3572a5; }
+  .src-ollama         { border-left: 2px solid #22c55e; }
+  .src-paperswithcode { border-left: 2px solid #14b8a6; }
+  .src-launch         { border-left: 2px solid #8b5cf6; }
+
   .card-desc {
-    font-size: 0.8rem;
-    color: #555;
-    line-height: 1.4;
+    font-size: 0.72rem;
+    color: var(--ink-dim);
+    line-height: 1.45;
     margin-bottom: 0.5rem;
     display: -webkit-box;
     -webkit-line-clamp: 2;
@@ -145,52 +187,34 @@ permalink: /repos/
   .card-stats {
     display: flex;
     flex-wrap: wrap;
-    gap: 0.5rem;
-    font-size: 0.72rem;
-    color: #666;
+    gap: 0.4rem;
+    font-size: 0.62rem;
+    font-family: var(--font-mono);
+    color: var(--ink-muted);
     align-items: center;
   }
-  .card-stats .lang-pill {
-    background: #e1e4e8;
-    padding: 1px 6px;
-    border-radius: 6px;
-    font-weight: 500;
-  }
-  .card-stats .cat-pill {
-    background: #dbeafe;
-    padding: 1px 6px;
-    border-radius: 6px;
-    color: #1e40af;
-  }
-  .card-stats .streak-badge {
-    background: #fef3c7;
-    padding: 1px 6px;
-    border-radius: 6px;
-  }
+  .card-stats .lang-pill  { border: 1px solid var(--border); padding: 0 5px; }
+  .card-stats .cat-pill   { border: 1px solid var(--border); padding: 0 5px; color: var(--ink-dim); }
+  .card-stats .streak-badge { border: 1px solid var(--border); padding: 0 5px; color: var(--ink); }
+
   .card-date {
-    font-size: 0.68rem;
-    color: #999;
+    font-size: 0.58rem;
+    letter-spacing: 0.06em;
+    color: var(--ink-muted);
+    text-transform: uppercase;
+    font-family: var(--font-mono);
     margin-top: 0.35rem;
   }
-  .src-github { background: #6e7681; }
-  .src-huggingface-space, .src-huggingface-model, .src-huggingface-dataset { background: #f5a623; color: #333; }
-  .src-replicate { background: #3b82f6; }
-  .src-gitlab { background: #e24329; }
-  .src-npm { background: #cb3837; }
-  .src-pypi { background: #3572a5; }
-  .src-ollama { background: #22c55e; }
-  .src-paperswithcode { background: #14b8a6; }
-  .src-launch { background: #8b5cf6; }
 
-  .placeholder-github { background: linear-gradient(135deg, #24292f, #6e7681); }
-  .placeholder-huggingface-space, .placeholder-huggingface-model, .placeholder-huggingface-dataset { background: linear-gradient(135deg, #f5a623, #fcd34d); }
-  .placeholder-replicate { background: linear-gradient(135deg, #2563eb, #60a5fa); }
-  .placeholder-gitlab { background: linear-gradient(135deg, #e24329, #fca326); }
-  .placeholder-npm { background: linear-gradient(135deg, #cb3837, #fb7185); }
-  .placeholder-pypi { background: linear-gradient(135deg, #3572a5, #60a5fa); }
-  .placeholder-ollama { background: linear-gradient(135deg, #16a34a, #86efac); }
-  .placeholder-paperswithcode { background: linear-gradient(135deg, #0d9488, #5eead4); }
-  .placeholder-launch { background: linear-gradient(135deg, #7c3aed, #c4b5fd); }
+  /* All placeholder types use the same terminal dot-pattern */
+  .placeholder-github, .placeholder-huggingface-space, .placeholder-huggingface-model,
+  .placeholder-huggingface-dataset, .placeholder-replicate, .placeholder-gitlab,
+  .placeholder-npm, .placeholder-pypi, .placeholder-ollama,
+  .placeholder-paperswithcode, .placeholder-launch {
+    background: var(--bg-dim);
+    background-image: radial-gradient(circle, var(--border) 1px, transparent 1px);
+    background-size: 12px 12px;
+  }
 </style>
 
 <div class="catalog-controls">

@@ -6,65 +6,97 @@ permalink: /leaderboard/
 
 <style>
   .lb-section { margin-bottom: 2.5rem; }
-  .lb-section h2 { margin-bottom: 0.75rem; }
+  .lb-section h2 {
+    font-family: var(--font-disp);
+    font-size: 1rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--ink);
+    margin-bottom: 0.5rem;
+    padding-bottom: 0.4rem;
+    border-bottom: 1px solid var(--border);
+  }
+  .lb-section > p {
+    font-size: 0.72rem;
+    color: var(--ink-muted);
+    margin-bottom: 0.75rem;
+    letter-spacing: 0.02em;
+    font-family: var(--font-mono);
+  }
   .lb-table {
     width: 100%;
     border-collapse: collapse;
-    font-size: 0.88rem;
+    font-size: 0.75rem;
+    font-family: var(--font-mono);
   }
   .lb-table th {
     text-align: left;
-    padding: 0.5rem 0.6rem;
-    border-bottom: 2px solid #d0d7de;
-    font-weight: 600;
-    color: #555;
-    font-size: 0.78rem;
+    padding: 0.4rem 0.6rem;
+    border-bottom: 1px solid var(--ink);
+    font-size: 0.6rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
     text-transform: uppercase;
-    letter-spacing: 0.3px;
+    color: var(--ink-muted);
   }
   .lb-table td {
-    padding: 0.45rem 0.6rem;
-    border-bottom: 1px solid #eee;
+    padding: 0.4rem 0.6rem;
+    border-bottom: 1px solid var(--border);
     vertical-align: middle;
   }
-  .lb-table tr:hover td { background: #f6f8fa; }
+  .lb-table tr:hover td { background: var(--bg-raised); }
   .lb-rank {
     font-weight: 700;
-    color: #999;
-    width: 2rem;
+    color: var(--ink-muted);
+    width: 2.5rem;
     text-align: center;
+    letter-spacing: 0.06em;
   }
   .lb-name a {
-    font-weight: 600;
-    color: #24292f;
+    font-family: var(--font-disp);
+    font-size: 0.82rem;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--ink);
     text-decoration: none;
   }
-  .lb-name a:hover { color: #0969da; }
+  .lb-name a:hover { color: var(--ink-dim); }
   .lb-badge {
     display: inline-block;
-    padding: 1px 7px;
-    border-radius: 10px;
-    font-size: 0.65rem;
-    font-weight: 600;
-    color: #fff;
+    padding: 1px 5px;
+    font-size: 0.55rem;
+    font-family: var(--font-mono);
+    font-weight: 700;
+    letter-spacing: 0.08em;
     text-transform: uppercase;
+    border: 1px solid var(--border);
+    color: var(--ink-muted);
+    background: var(--bg-raised);
     margin-left: 0.4rem;
     vertical-align: middle;
   }
-  .bg-github { background: #6e7681; }
-  .bg-huggingface-space, .bg-huggingface-model, .bg-huggingface-dataset { background: #f5a623; color: #333; }
-  .bg-replicate { background: #3b82f6; }
-  .bg-gitlab { background: #e24329; }
-  .bg-npm { background: #cb3837; }
-  .bg-pypi { background: #3572a5; }
-  .bg-ollama { background: #22c55e; }
-  .bg-paperswithcode { background: #14b8a6; }
-  .bg-launch { background: #8b5cf6; }
-  .lb-stat { font-variant-numeric: tabular-nums; }
+  /* Source accent: left border keeps brand identity */
+  .bg-github         { border-left: 2px solid #6e7681; }
+  .bg-huggingface-space, .bg-huggingface-model, .bg-huggingface-dataset { border-left: 2px solid #f5a623; }
+  .bg-replicate      { border-left: 2px solid #3b82f6; }
+  .bg-gitlab         { border-left: 2px solid #e24329; }
+  .bg-npm            { border-left: 2px solid #cb3837; }
+  .bg-pypi           { border-left: 2px solid #3572a5; }
+  .bg-ollama         { border-left: 2px solid #22c55e; }
+  .bg-paperswithcode { border-left: 2px solid #14b8a6; }
+  .bg-launch         { border-left: 2px solid #8b5cf6; }
+  .lb-stat {
+    font-variant-numeric: tabular-nums;
+    letter-spacing: 0.04em;
+    color: var(--ink-dim);
+  }
   .lb-empty {
-    color: #999;
-    font-style: italic;
-    padding: 1rem 0;
+    font-size: 0.7rem;
+    color: var(--ink-muted);
+    padding: 1.5rem 0;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    font-family: var(--font-mono);
   }
   @media (max-width: 600px) {
     .lb-table-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; }
