@@ -19,6 +19,24 @@ jobs:
         with:
           node-version: "20"
 
+      - name: Connect Tailscale
+        uses: tailscale/github-action@v3
+        with:
+          oauth-client-id: ${{ secrets.TAILSCALE_OAUTH_CLIENT_ID }}
+          oauth-secret: ${{ secrets.TAILSCALE_OAUTH_SECRET }}
+          tags: tag:github-actions
+
+      - name: Check local LLM availability
+        id: local_check
+        run: |
+          if curl --silent --max-time 5 \
+              -H "Authorization: Bearer ${{ secrets.LITELLM_MASTER_KEY }}" \
+              http://100.96.142.54:4000/health > /dev/null 2>&1; then
+            echo "local_available=true" >> $GITHUB_OUTPUT
+          else
+            echo "local_available=false" >> $GITHUB_OUTPUT
+          fi
+
       - name: Generate digest post
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
@@ -26,6 +44,8 @@ jobs:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          LITELLM_MASTER_KEY: ${{ secrets.LITELLM_MASTER_KEY }}
+          LOCAL_LLM_AVAILABLE: ${{ steps.local_check.outputs.local_available }}
         run: |
           node --input-type=module << 'SCRIPT'
           import fs from 'fs';
@@ -116,9 +136,24 @@ jobs:
             return null;
           }
 
-          // ── LLM cascade (blurbs: Gemini Flash → OpenRouter → Groq → Haiku) ─
+          // ── LLM cascade (blurbs: Local → Gemini Flash → OpenRouter → Groq → Haiku) ─
           async function tryCascadeBlurb(prompt) {
             const providers = [];
+            if (process.env.LOCAL_LLM_AVAILABLE === 'true' && process.env.LITELLM_MASTER_KEY) {
+              providers.push({
+                name: 'local-qwen3-14b',
+                call: async () => {
+                  const res = await fetch('http://100.96.142.54:4000/v1/chat/completions', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${process.env.LITELLM_MASTER_KEY}` },
+                    body: JSON.stringify({ model: 'local/qwen3-14b', messages: [{ role: 'system', content: '/no_think' }, { role: 'user', content: prompt }] }),
+                  });
+                  if (!res.ok) throw new Error(`LiteLLM ${res.status}: ${await res.text()}`);
+                  const d = await res.json();
+                  return d.choices?.[0]?.message?.content ?? '';
+                },
+              });
+            }
             if (process.env.GEMINI_API_KEY) {
               providers.push({
                 name: 'gemini-flash',
@@ -193,7 +228,8 @@ jobs:
 
           // ── Editorial blurbs ────────────────────────────────────────
           async function generateEditorialBlurbs(repos, sections) {
-            const hasAnyKey = process.env.GEMINI_API_KEY || process.env.OPENROUTER_API_KEY ||
+            const hasAnyKey = (process.env.LOCAL_LLM_AVAILABLE === 'true' && process.env.LITELLM_MASTER_KEY) ||
+              process.env.GEMINI_API_KEY || process.env.OPENROUTER_API_KEY ||
               process.env.GROQ_API_KEY || process.env.ANTHROPIC_API_KEY;
             if (!hasAnyKey) {
               console.log('No LLM keys configured — falling back to template blurbs');
