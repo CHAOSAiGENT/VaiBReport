@@ -1,0 +1,382 @@
+﻿2026-03-10T14:27:53.3635406Z Current runner version: '2.332.0'
+2026-03-10T14:27:53.3682842Z ##[group]Runner Image Provisioner
+2026-03-10T14:27:53.3683940Z Hosted Compute Agent
+2026-03-10T14:27:53.3684779Z Version: 20260213.493
+2026-03-10T14:27:53.3685541Z Commit: 5c115507f6dd24b8de37d8bbe0bb4509d0cc0fa3
+2026-03-10T14:27:53.3686487Z Build Date: 2026-02-13T00:28:41Z
+2026-03-10T14:27:53.3687371Z Worker ID: {35a3946f-6865-45e1-92a0-021b5f5dbb50}
+2026-03-10T14:27:53.3688194Z Azure Region: eastus2
+2026-03-10T14:27:53.3689239Z ##[endgroup]
+2026-03-10T14:27:53.3691597Z ##[group]Operating System
+2026-03-10T14:27:53.3692623Z Ubuntu
+2026-03-10T14:27:53.3693335Z 24.04.3
+2026-03-10T14:27:53.3694360Z LTS
+2026-03-10T14:27:53.3695137Z ##[endgroup]
+2026-03-10T14:27:53.3695913Z ##[group]Runner Image
+2026-03-10T14:27:53.3697091Z Image: ubuntu-24.04
+2026-03-10T14:27:53.3697898Z Version: 20260302.42.1
+2026-03-10T14:27:53.3700131Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20260302.42/images/ubuntu/Ubuntu2404-Readme.md
+2026-03-10T14:27:53.3701916Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20260302.42
+2026-03-10T14:27:53.3702938Z ##[endgroup]
+2026-03-10T14:27:53.3703953Z ##[group]GITHUB_TOKEN Permissions
+2026-03-10T14:27:53.3706061Z Contents: write
+2026-03-10T14:27:53.3706768Z Metadata: read
+2026-03-10T14:27:53.3707243Z ##[endgroup]
+2026-03-10T14:27:53.3709742Z Secret source: Actions
+2026-03-10T14:27:53.3710747Z Prepare workflow directory
+2026-03-10T14:27:53.4034049Z Prepare all required actions
+2026-03-10T14:27:53.4072518Z Getting action download info
+2026-03-10T14:27:53.7431386Z Download action repository 'actions/checkout@v4' (SHA:34e114876b0b11c390a56381ad16ebd13914f8d5)
+2026-03-10T14:27:53.8963149Z Download action repository 'actions/setup-node@v4' (SHA:49933ea5288caeca8642d1e84afbd3f7d6820020)
+2026-03-10T14:27:54.0899652Z Complete job name: fetch-launches
+2026-03-10T14:27:54.1607642Z ##[group]Run actions/checkout@v4
+2026-03-10T14:27:54.1608461Z with:
+2026-03-10T14:27:54.1608874Z   repository: CHAOSAiGENT/VaiBReport
+2026-03-10T14:27:54.1609722Z   token: ***
+2026-03-10T14:27:54.1610106Z   ssh-strict: true
+2026-03-10T14:27:54.1610498Z   ssh-user: git
+2026-03-10T14:27:54.1610918Z   persist-credentials: true
+2026-03-10T14:27:54.1611356Z   clean: true
+2026-03-10T14:27:54.1611755Z   sparse-checkout-cone-mode: true
+2026-03-10T14:27:54.1612227Z   fetch-depth: 1
+2026-03-10T14:27:54.1612615Z   fetch-tags: false
+2026-03-10T14:27:54.1613002Z   show-progress: true
+2026-03-10T14:27:54.1613409Z   lfs: false
+2026-03-10T14:27:54.1613771Z   submodules: false
+2026-03-10T14:27:54.1614172Z   set-safe-directory: true
+2026-03-10T14:27:54.1614849Z ##[endgroup]
+2026-03-10T14:27:54.2691699Z Syncing repository: CHAOSAiGENT/VaiBReport
+2026-03-10T14:27:54.2693422Z ##[group]Getting Git version info
+2026-03-10T14:27:54.2694123Z Working directory is '/home/runner/work/VaiBReport/VaiBReport'
+2026-03-10T14:27:54.2695127Z [command]/usr/bin/git version
+2026-03-10T14:27:54.2778487Z git version 2.53.0
+2026-03-10T14:27:54.2804481Z ##[endgroup]
+2026-03-10T14:27:54.2818886Z Temporarily overriding HOME='/home/runner/work/_temp/971f1326-d470-4461-90aa-2359215e17a0' before making global git config changes
+2026-03-10T14:27:54.2820488Z Adding repository directory to the temporary git global config as a safe directory
+2026-03-10T14:27:54.2831334Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/VaiBReport/VaiBReport
+2026-03-10T14:27:54.2872473Z Deleting the contents of '/home/runner/work/VaiBReport/VaiBReport'
+2026-03-10T14:27:54.2875980Z ##[group]Initializing the repository
+2026-03-10T14:27:54.2880082Z [command]/usr/bin/git init /home/runner/work/VaiBReport/VaiBReport
+2026-03-10T14:27:54.3008208Z hint: Using 'master' as the name for the initial branch. This default branch name
+2026-03-10T14:27:54.3009726Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+2026-03-10T14:27:54.3010687Z hint: to use in all of your new repositories, which will suppress this warning,
+2026-03-10T14:27:54.3011424Z hint: call:
+2026-03-10T14:27:54.3012426Z hint:
+2026-03-10T14:27:54.3013261Z hint: 	git config --global init.defaultBranch <name>
+2026-03-10T14:27:54.3014068Z hint:
+2026-03-10T14:27:54.3014628Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+2026-03-10T14:27:54.3015561Z hint: 'development'. The just-created branch can be renamed via this command:
+2026-03-10T14:27:54.3016305Z hint:
+2026-03-10T14:27:54.3016680Z hint: 	git branch -m <name>
+2026-03-10T14:27:54.3017123Z hint:
+2026-03-10T14:27:54.3017819Z hint: Disable this message with "git config set advice.defaultBranchName false"
+2026-03-10T14:27:54.3019247Z Initialized empty Git repository in /home/runner/work/VaiBReport/VaiBReport/.git/
+2026-03-10T14:27:54.3024462Z [command]/usr/bin/git remote add origin https://github.com/CHAOSAiGENT/VaiBReport
+2026-03-10T14:27:54.3060256Z ##[endgroup]
+2026-03-10T14:27:54.3061452Z ##[group]Disabling automatic garbage collection
+2026-03-10T14:27:54.3065287Z [command]/usr/bin/git config --local gc.auto 0
+2026-03-10T14:27:54.3096199Z ##[endgroup]
+2026-03-10T14:27:54.3097373Z ##[group]Setting up auth
+2026-03-10T14:27:54.3103874Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-03-10T14:27:54.3136315Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-03-10T14:27:54.3510997Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-03-10T14:27:54.3543959Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-03-10T14:27:54.3792692Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-03-10T14:27:54.3829452Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-03-10T14:27:54.4100253Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+2026-03-10T14:27:54.4138417Z ##[endgroup]
+2026-03-10T14:27:54.4140197Z ##[group]Fetching the repository
+2026-03-10T14:27:54.4148177Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +83ae07d27a8b2da205df1d53aef3f6eb0b0a6637:refs/remotes/origin/main
+2026-03-10T14:27:54.6952092Z From https://github.com/CHAOSAiGENT/VaiBReport
+2026-03-10T14:27:54.6952911Z  * [new ref]         83ae07d27a8b2da205df1d53aef3f6eb0b0a6637 -> origin/main
+2026-03-10T14:27:54.6987822Z ##[endgroup]
+2026-03-10T14:27:54.6989254Z ##[group]Determining the checkout info
+2026-03-10T14:27:54.6991462Z ##[endgroup]
+2026-03-10T14:27:54.6996964Z [command]/usr/bin/git sparse-checkout disable
+2026-03-10T14:27:54.7039754Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+2026-03-10T14:27:54.7067104Z ##[group]Checking out the ref
+2026-03-10T14:27:54.7071951Z [command]/usr/bin/git checkout --progress --force -B main refs/remotes/origin/main
+2026-03-10T14:27:54.7266291Z Switched to a new branch 'main'
+2026-03-10T14:27:54.7269359Z branch 'main' set up to track 'origin/main'.
+2026-03-10T14:27:54.7276186Z ##[endgroup]
+2026-03-10T14:27:54.7312525Z [command]/usr/bin/git log -1 --format=%H
+2026-03-10T14:27:54.7335925Z 83ae07d27a8b2da205df1d53aef3f6eb0b0a6637
+2026-03-10T14:27:54.7574591Z ##[group]Run actions/setup-node@v4
+2026-03-10T14:27:54.7575091Z with:
+2026-03-10T14:27:54.7575438Z   node-version: 20
+2026-03-10T14:27:54.7575812Z   always-auth: false
+2026-03-10T14:27:54.7576201Z   check-latest: false
+2026-03-10T14:27:54.7576735Z   token: ***
+2026-03-10T14:27:54.7577083Z ##[endgroup]
+2026-03-10T14:27:54.9350026Z Found in cache @ /opt/hostedtoolcache/node/20.20.0/x64
+2026-03-10T14:27:54.9351900Z ##[group]Environment details
+2026-03-10T14:27:55.2930787Z node: v20.20.0
+2026-03-10T14:27:55.2931889Z npm: 10.8.2
+2026-03-10T14:27:55.2933124Z yarn: 1.22.22
+2026-03-10T14:27:55.2934123Z ##[endgroup]
+2026-03-10T14:27:55.3041211Z ##[group]Run npm install cheerio@1
+2026-03-10T14:27:55.3041625Z [36;1mnpm install cheerio@1[0m
+2026-03-10T14:27:55.3102855Z shell: /usr/bin/bash -e {0}
+2026-03-10T14:27:55.3103173Z ##[endgroup]
+2026-03-10T14:27:56.7414055Z npm warn deprecated whatwg-encoding@3.1.1: Use @exodus/bytes instead for a more spec-conformant and faster implementation
+2026-03-10T14:27:57.0920256Z 
+2026-03-10T14:27:57.0920968Z added 23 packages in 2s
+2026-03-10T14:27:57.0921569Z 
+2026-03-10T14:27:57.0921976Z 17 packages are looking for funding
+2026-03-10T14:27:57.0928801Z   run `npm fund` for details
+2026-03-10T14:27:57.1097042Z ##[group]Run node --input-type=module << 'SCRIPT'
+2026-03-10T14:27:57.1097815Z [36;1mnode --input-type=module << 'SCRIPT'[0m
+2026-03-10T14:27:57.1098145Z [36;1mimport fs from 'fs';[0m
+2026-03-10T14:27:57.1098430Z [36;1mimport { load } from 'cheerio';[0m
+2026-03-10T14:27:57.1098720Z [36;1m[0m
+2026-03-10T14:27:57.1099287Z [36;1mconst delay = (ms) => new Promise(r => setTimeout(r, ms));[0m
+2026-03-10T14:27:57.1099735Z [36;1mconst today = new Date().toISOString().slice(0, 10);[0m
+2026-03-10T14:27:57.1100061Z [36;1m[0m
+2026-03-10T14:27:57.1100325Z [36;1m// ── Hacker News Show HN ─────────────────────────[0m
+2026-03-10T14:27:57.1100676Z [36;1masync function fetchShowHN() {[0m
+2026-03-10T14:27:57.1100975Z [36;1m  const results = [];[0m
+2026-03-10T14:27:57.1101214Z [36;1m  try {[0m
+2026-03-10T14:27:57.1101620Z [36;1m    const res = await fetch('https://hacker-news.firebaseio.com/v0/showstories.json');[0m
+2026-03-10T14:27:57.1102102Z [36;1m    if (!res.ok) {[0m
+2026-03-10T14:27:57.1102459Z [36;1m      console.error(`HN API error: ${res.status}`);[0m
+2026-03-10T14:27:57.1102795Z [36;1m      return [];[0m
+2026-03-10T14:27:57.1103051Z [36;1m    }[0m
+2026-03-10T14:27:57.1103283Z [36;1m    const ids = await res.json();[0m
+2026-03-10T14:27:57.1103586Z [36;1m    const top = ids.slice(0, 30);[0m
+2026-03-10T14:27:57.1103891Z [36;1m[0m
+2026-03-10T14:27:57.1104098Z [36;1m    for (const id of top) {[0m
+2026-03-10T14:27:57.1104366Z [36;1m      try {[0m
+2026-03-10T14:27:57.1104607Z [36;1m        const itemRes = await fetch([0m
+2026-03-10T14:27:57.1104990Z [36;1m          `https://hacker-news.firebaseio.com/v0/item/${id}.json`[0m
+2026-03-10T14:27:57.1105353Z [36;1m        );[0m
+2026-03-10T14:27:57.1105597Z [36;1m        if (!itemRes.ok) continue;[0m
+2026-03-10T14:27:57.1105909Z [36;1m        const item = await itemRes.json();[0m
+2026-03-10T14:27:57.1106258Z [36;1m        if (!item || (item.score || 0) < 10) continue;[0m
+2026-03-10T14:27:57.1106619Z [36;1m        if (!item.url && !item.title) continue;[0m
+2026-03-10T14:27:57.1106954Z [36;1m[0m
+2026-03-10T14:27:57.1107166Z [36;1m        results.push({[0m
+2026-03-10T14:27:57.1107435Z [36;1m          id: `showhn-${item.id}`,[0m
+2026-03-10T14:27:57.1107805Z [36;1m          name: (item.title || '').replace(/^Show HN:\s*/i, ''),[0m
+2026-03-10T14:27:57.1108282Z [36;1m          url: item.url || `https://news.ycombinator.com/item?id=${item.id}`,[0m
+2026-03-10T14:27:57.1108711Z [36;1m          description: item.title || '',[0m
+2026-03-10T14:27:57.1111379Z [36;1m          upvotes: item.score || 0,[0m
+2026-03-10T14:27:57.1111727Z [36;1m          launch_date: today,[0m
+2026-03-10T14:27:57.1112412Z [36;1m          platform_url: `https://news.ycombinator.com/item?id=${item.id}`,[0m
+2026-03-10T14:27:57.1112862Z [36;1m          _source: 'hackernews_showhn',[0m
+2026-03-10T14:27:57.1113175Z [36;1m          _platform: 'launches'[0m
+2026-03-10T14:27:57.1113656Z [36;1m        });[0m
+2026-03-10T14:27:57.1113925Z [36;1m      } catch (e) { /* skip item */ }[0m
+2026-03-10T14:27:57.1114423Z [36;1m      await delay(200);[0m
+2026-03-10T14:27:57.1114737Z [36;1m    }[0m
+2026-03-10T14:27:57.1115083Z [36;1m  } catch (e) {[0m
+2026-03-10T14:27:57.1115387Z [36;1m    console.error('HN Show HN error:', e.message);[0m
+2026-03-10T14:27:57.1115968Z [36;1m  }[0m
+2026-03-10T14:27:57.1116181Z [36;1m  return results;[0m
+2026-03-10T14:27:57.1116418Z [36;1m}[0m
+2026-03-10T14:27:57.1116601Z [36;1m[0m
+2026-03-10T14:27:57.1116851Z [36;1m// ── DevHunt ─────────────────────────────────────[0m
+2026-03-10T14:27:57.1117199Z [36;1masync function fetchDevHunt() {[0m
+2026-03-10T14:27:57.1117734Z [36;1m  const results = [];[0m
+2026-03-10T14:27:57.1117988Z [36;1m  try {[0m
+2026-03-10T14:27:57.1118266Z [36;1m    const res = await fetch('https://devhunt.org', {[0m
+2026-03-10T14:27:57.1118676Z [36;1m      headers: { 'User-Agent': 'VaiBReport-digest/1.0' }[0m
+2026-03-10T14:27:57.1119232Z [36;1m    });[0m
+2026-03-10T14:27:57.1119780Z [36;1m    if (!res.ok) {[0m
+2026-03-10T14:27:57.1120217Z [36;1m      console.error(`DevHunt fetch failed: ${res.status}`);[0m
+2026-03-10T14:27:57.1120799Z [36;1m      return [];[0m
+2026-03-10T14:27:57.1121038Z [36;1m    }[0m
+2026-03-10T14:27:57.1121264Z [36;1m    const html = await res.text();[0m
+2026-03-10T14:27:57.1121580Z [36;1m    const $ = load(html);[0m
+2026-03-10T14:27:57.1121828Z [36;1m[0m
+2026-03-10T14:27:57.1122054Z [36;1m    $('a[href*="/tool/"]').each((_, el) => {[0m
+2026-03-10T14:27:57.1122599Z [36;1m      const href = $(el).attr('href') || '';[0m
+2026-03-10T14:27:57.1122977Z [36;1m      const slug = href.split('/tool/')[1]?.split(/[?#/]/)[0];[0m
+2026-03-10T14:27:57.1123337Z [36;1m      if (!slug) return;[0m
+2026-03-10T14:27:57.1123685Z [36;1m      const name = $(el).find('h3, h2, [class*="name"], [class*="title"]')[0m
+2026-03-10T14:27:57.1124084Z [36;1m        .first().text().trim() ||[0m
+2026-03-10T14:27:57.1124387Z [36;1m        slug.replace(/-/g, ' ');[0m
+2026-03-10T14:27:57.1124910Z [36;1m      const desc = $(el).find('p').first().text().trim() || '';[0m
+2026-03-10T14:27:57.1125393Z [36;1m      const voteText = $(el).text().match(/(\d+)\s*(?:vote|upvote|point)/i);[0m
+2026-03-10T14:27:57.1125866Z [36;1m      const upvotes = voteText ? parseInt(voteText[1], 10) : 0;[0m
+2026-03-10T14:27:57.1126224Z [36;1m[0m
+2026-03-10T14:27:57.1126502Z [36;1m      if (results.some(r => r.id === `devhunt-${slug}`)) return;[0m
+2026-03-10T14:27:57.1126859Z [36;1m      results.push({[0m
+2026-03-10T14:27:57.1127120Z [36;1m        id: `devhunt-${slug}`,[0m
+2026-03-10T14:27:57.1127383Z [36;1m        name,[0m
+2026-03-10T14:27:57.1127669Z [36;1m        url: `https://devhunt.org/tool/${slug}`,[0m
+2026-03-10T14:27:57.1127990Z [36;1m        description: desc,[0m
+2026-03-10T14:27:57.1128252Z [36;1m        upvotes,[0m
+2026-03-10T14:27:57.1128489Z [36;1m        launch_date: today,[0m
+2026-03-10T14:27:57.1128831Z [36;1m        platform_url: `https://devhunt.org/tool/${slug}`,[0m
+2026-03-10T14:27:57.1129374Z [36;1m        _source: 'devhunt',[0m
+2026-03-10T14:27:57.1129644Z [36;1m        _platform: 'launches'[0m
+2026-03-10T14:27:57.1129906Z [36;1m      });[0m
+2026-03-10T14:27:57.1130112Z [36;1m    });[0m
+2026-03-10T14:27:57.1130319Z [36;1m  } catch (e) {[0m
+2026-03-10T14:27:57.1130623Z [36;1m    console.error('DevHunt scrape error:', e.message);[0m
+2026-03-10T14:27:57.1130954Z [36;1m  }[0m
+2026-03-10T14:27:57.1131207Z [36;1m  return results;[0m
+2026-03-10T14:27:57.1131440Z [36;1m}[0m
+2026-03-10T14:27:57.1131627Z [36;1m[0m
+2026-03-10T14:27:57.1131870Z [36;1m// ── BetaList (RSS) ──────────────────────────────[0m
+2026-03-10T14:27:57.1132202Z [36;1masync function fetchBetaList() {[0m
+2026-03-10T14:27:57.1132482Z [36;1m  const results = [];[0m
+2026-03-10T14:27:57.1132727Z [36;1m  try {[0m
+2026-03-10T14:27:57.1133010Z [36;1m    const res = await fetch('https://betalist.com/feed', {[0m
+2026-03-10T14:27:57.1133453Z [36;1m      headers: { 'User-Agent': 'VaiBReport-digest/1.0' }[0m
+2026-03-10T14:27:57.1201204Z [36;1m    });[0m
+2026-03-10T14:27:57.1201447Z [36;1m    if (!res.ok) {[0m
+2026-03-10T14:27:57.1201831Z [36;1m      console.error(`BetaList RSS failed: ${res.status}`);[0m
+2026-03-10T14:27:57.1202246Z [36;1m      return [];[0m
+2026-03-10T14:27:57.1202511Z [36;1m    }[0m
+2026-03-10T14:27:57.1203055Z [36;1m    const xml = await res.text();[0m
+2026-03-10T14:27:57.1203378Z [36;1m    const $ = load(xml, { xmlMode: true });[0m
+2026-03-10T14:27:57.1203677Z [36;1m[0m
+2026-03-10T14:27:57.1203881Z [36;1m    $('item').each((i, el) => {[0m
+2026-03-10T14:27:57.1204167Z [36;1m      if (i >= 20) return false;[0m
+2026-03-10T14:27:57.1204502Z [36;1m      const title = $(el).find('title').text().trim();[0m
+2026-03-10T14:27:57.1204890Z [36;1m      const link = $(el).find('link').text().trim();[0m
+2026-03-10T14:27:57.1205289Z [36;1m      const desc = $(el).find('description').text().trim()[0m
+2026-03-10T14:27:57.1205811Z [36;1m        .replace(/<[^>]+>/g, '').slice(0, 200);[0m
+2026-03-10T14:27:57.1206277Z [36;1m      const slug = link.split('/').pop() || title.toLowerCase().replace(/\s+/g, '-');[0m
+2026-03-10T14:27:57.1206703Z [36;1m[0m
+2026-03-10T14:27:57.1206904Z [36;1m      results.push({[0m
+2026-03-10T14:27:57.1207175Z [36;1m        id: `betalist-${slug}`,[0m
+2026-03-10T14:27:57.1207456Z [36;1m        name: title,[0m
+2026-03-10T14:27:57.1207707Z [36;1m        url: link,[0m
+2026-03-10T14:27:57.1207950Z [36;1m        description: desc,[0m
+2026-03-10T14:27:57.1208220Z [36;1m        upvotes: 0,[0m
+2026-03-10T14:27:57.1208467Z [36;1m        launch_date: today,[0m
+2026-03-10T14:27:57.1208739Z [36;1m        platform_url: link,[0m
+2026-03-10T14:27:57.1209283Z [36;1m        _source: 'betalist',[0m
+2026-03-10T14:27:57.1209580Z [36;1m        _platform: 'launches'[0m
+2026-03-10T14:27:57.1209843Z [36;1m      });[0m
+2026-03-10T14:27:57.1210044Z [36;1m    });[0m
+2026-03-10T14:27:57.1210252Z [36;1m  } catch (e) {[0m
+2026-03-10T14:27:57.1210554Z [36;1m    console.error('BetaList RSS error:', e.message);[0m
+2026-03-10T14:27:57.1210883Z [36;1m  }[0m
+2026-03-10T14:27:57.1211090Z [36;1m  return results;[0m
+2026-03-10T14:27:57.1211324Z [36;1m}[0m
+2026-03-10T14:27:57.1211515Z [36;1m[0m
+2026-03-10T14:27:57.1211793Z [36;1m// ── Uneed ───────────────────────────────────────[0m
+2026-03-10T14:27:57.1212166Z [36;1masync function fetchUneed() {[0m
+2026-03-10T14:27:57.1212477Z [36;1m  const results = [];[0m
+2026-03-10T14:27:57.1212720Z [36;1m  try {[0m
+2026-03-10T14:27:57.1213023Z [36;1m    const res = await fetch('https://www.uneed.best', {[0m
+2026-03-10T14:27:57.1213457Z [36;1m      headers: { 'User-Agent': 'VaiBReport-digest/1.0' }[0m
+2026-03-10T14:27:57.1213784Z [36;1m    });[0m
+2026-03-10T14:27:57.1214002Z [36;1m    if (!res.ok) {[0m
+2026-03-10T14:27:57.1214318Z [36;1m      console.error(`Uneed fetch failed: ${res.status}`);[0m
+2026-03-10T14:27:57.1214654Z [36;1m      return [];[0m
+2026-03-10T14:27:57.1214905Z [36;1m    }[0m
+2026-03-10T14:27:57.1215130Z [36;1m    const html = await res.text();[0m
+2026-03-10T14:27:57.1215424Z [36;1m    const $ = load(html);[0m
+2026-03-10T14:27:57.1215673Z [36;1m[0m
+2026-03-10T14:27:57.1215905Z [36;1m    $('a[href*="/tool/"]').each((i, el) => {[0m
+2026-03-10T14:27:57.1216208Z [36;1m      if (i >= 20) return false;[0m
+2026-03-10T14:27:57.1216534Z [36;1m      const href = $(el).attr('href') || '';[0m
+2026-03-10T14:27:57.1216910Z [36;1m      const slug = href.split('/tool/')[1]?.split(/[?#/]/)[0];[0m
+2026-03-10T14:27:57.1217260Z [36;1m      if (!slug) return;[0m
+2026-03-10T14:27:57.1217576Z [36;1m      const name = $(el).find('h3, h2, [class*="name"]')[0m
+2026-03-10T14:27:57.1217914Z [36;1m        .first().text().trim() ||[0m
+2026-03-10T14:27:57.1218196Z [36;1m        slug.replace(/-/g, ' ');[0m
+2026-03-10T14:27:57.1218542Z [36;1m      const desc = $(el).find('p').first().text().trim() || '';[0m
+2026-03-10T14:27:57.1218873Z [36;1m[0m
+2026-03-10T14:27:57.1219254Z [36;1m      if (results.some(r => r.id === `uneed-${slug}`)) return;[0m
+2026-03-10T14:27:57.1219596Z [36;1m      results.push({[0m
+2026-03-10T14:27:57.1219850Z [36;1m        id: `uneed-${slug}`,[0m
+2026-03-10T14:27:57.1220102Z [36;1m        name,[0m
+2026-03-10T14:27:57.1220389Z [36;1m        url: `https://www.uneed.best/tool/${slug}`,[0m
+2026-03-10T14:27:57.1220887Z [36;1m        description: desc,[0m
+2026-03-10T14:27:57.1221160Z [36;1m        upvotes: 0,[0m
+2026-03-10T14:27:57.1221410Z [36;1m        launch_date: today,[0m
+2026-03-10T14:27:57.1221751Z [36;1m        platform_url: `https://www.uneed.best/tool/${slug}`,[0m
+2026-03-10T14:27:57.1222111Z [36;1m        _source: 'uneed',[0m
+2026-03-10T14:27:57.1222374Z [36;1m        _platform: 'launches'[0m
+2026-03-10T14:27:57.1222638Z [36;1m      });[0m
+2026-03-10T14:27:57.1222840Z [36;1m    });[0m
+2026-03-10T14:27:57.1223047Z [36;1m  } catch (e) {[0m
+2026-03-10T14:27:57.1223452Z [36;1m    console.error('Uneed scrape error:', e.message);[0m
+2026-03-10T14:27:57.1223780Z [36;1m  }[0m
+2026-03-10T14:27:57.1223984Z [36;1m  return results;[0m
+2026-03-10T14:27:57.1224211Z [36;1m}[0m
+2026-03-10T14:27:57.1224399Z [36;1m[0m
+2026-03-10T14:27:57.1224635Z [36;1m// ── Main ────────────────────────────────────────[0m
+2026-03-10T14:27:57.1224946Z [36;1m(async () => {[0m
+2026-03-10T14:27:57.1225215Z [36;1m  const showhn = await fetchShowHN();[0m
+2026-03-10T14:27:57.1225560Z [36;1m  console.log(`Show HN: ${showhn.length}`);[0m
+2026-03-10T14:27:57.1225864Z [36;1m  await delay(1000);[0m
+2026-03-10T14:27:57.1226146Z [36;1m  const devhunt = await fetchDevHunt();[0m
+2026-03-10T14:27:57.1226490Z [36;1m  console.log(`DevHunt: ${devhunt.length}`);[0m
+2026-03-10T14:27:57.1226795Z [36;1m  await delay(1000);[0m
+2026-03-10T14:27:57.1227079Z [36;1m  const betalist = await fetchBetaList();[0m
+2026-03-10T14:27:57.1227429Z [36;1m  console.log(`BetaList: ${betalist.length}`);[0m
+2026-03-10T14:27:57.1227749Z [36;1m  await delay(1000);[0m
+2026-03-10T14:27:57.1228032Z [36;1m  const uneed = await fetchUneed();[0m
+2026-03-10T14:27:57.1228354Z [36;1m  console.log(`Uneed: ${uneed.length}`);[0m
+2026-03-10T14:27:57.1228645Z [36;1m[0m
+2026-03-10T14:27:57.1228912Z [36;1m  const all = [...showhn, ...devhunt, ...betalist, ...uneed];[0m
+2026-03-10T14:27:57.1229599Z [36;1m  const date = new Date().toISOString().slice(0, 10);[0m
+2026-03-10T14:27:57.1229969Z [36;1m  const payload = {[0m
+2026-03-10T14:27:57.1230248Z [36;1m    generated_at: new Date().toISOString(),[0m
+2026-03-10T14:27:57.1230551Z [36;1m    source: 'launches',[0m
+2026-03-10T14:27:57.1230805Z [36;1m    counts: {[0m
+2026-03-10T14:27:57.1231062Z [36;1m      hackernews_showhn: showhn.length,[0m
+2026-03-10T14:27:57.1231372Z [36;1m      devhunt: devhunt.length,[0m
+2026-03-10T14:27:57.1231657Z [36;1m      betalist: betalist.length,[0m
+2026-03-10T14:27:57.1231938Z [36;1m      uneed: uneed.length,[0m
+2026-03-10T14:27:57.1232199Z [36;1m      total: all.length[0m
+2026-03-10T14:27:57.1232442Z [36;1m    },[0m
+2026-03-10T14:27:57.1232647Z [36;1m    launches: all[0m
+2026-03-10T14:27:57.1232874Z [36;1m  };[0m
+2026-03-10T14:27:57.1233062Z [36;1m[0m
+2026-03-10T14:27:57.1233365Z [36;1m  if (!fs.existsSync('data')) fs.mkdirSync('data', { recursive: true });[0m
+2026-03-10T14:27:57.1233922Z [36;1m  fs.writeFileSync(`data/launches-${date}.json`, JSON.stringify(payload, null, 2));[0m
+2026-03-10T14:27:57.1234442Z [36;1m  console.log(`Wrote ${all.length} total launches`);[0m
+2026-03-10T14:27:57.1234858Z [36;1m})().catch(err => { console.error(err); process.exit(1); });[0m
+2026-03-10T14:27:57.1235196Z [36;1mSCRIPT[0m
+2026-03-10T14:27:57.1286806Z shell: /usr/bin/bash -e {0}
+2026-03-10T14:27:57.1287096Z ##[endgroup]
+2026-03-10T14:28:02.1025390Z Show HN: 18
+2026-03-10T14:28:03.5754939Z DevHunt: 0
+2026-03-10T14:28:04.7685854Z BetaList RSS failed: 404
+2026-03-10T14:28:04.7686531Z BetaList: 0
+2026-03-10T14:28:06.1401915Z Uneed: 0
+2026-03-10T14:28:06.1405502Z Wrote 18 total launches
+2026-03-10T14:28:06.1524558Z ##[group]Run date=$(date -u +"%Y-%m-%d")
+2026-03-10T14:28:06.1524884Z [36;1mdate=$(date -u +"%Y-%m-%d")[0m
+2026-03-10T14:28:06.1525169Z [36;1mgit config user.name "github-actions[bot]"[0m
+2026-03-10T14:28:06.1525564Z [36;1mgit config user.email "github-actions[bot]@users.noreply.github.com"[0m
+2026-03-10T14:28:06.1526137Z [36;1mgit add data/[0m
+2026-03-10T14:28:06.1526404Z [36;1mgit diff --cached --quiet && echo "No changes" && exit 0[0m
+2026-03-10T14:28:06.1526793Z [36;1mgit commit -m "Add product launches snapshot for ${date}"[0m
+2026-03-10T14:28:06.1527103Z [36;1mgit push[0m
+2026-03-10T14:28:06.1576712Z shell: /usr/bin/bash -e {0}
+2026-03-10T14:28:06.1576950Z ##[endgroup]
+2026-03-10T14:28:06.1888730Z [main 04c4a75] Add product launches snapshot for 2026-03-10
+2026-03-10T14:28:06.1889587Z  1 file changed, 211 insertions(+)
+2026-03-10T14:28:06.1890029Z  create mode 100644 data/launches-2026-03-10.json
+2026-03-10T14:28:06.3898596Z To https://github.com/CHAOSAiGENT/VaiBReport
+2026-03-10T14:28:06.3899653Z  ! [rejected]        main -> main (fetch first)
+2026-03-10T14:28:06.3900354Z error: failed to push some refs to 'https://github.com/CHAOSAiGENT/VaiBReport'
+2026-03-10T14:28:06.3912704Z hint: Updates were rejected because the remote contains work that you do not
+2026-03-10T14:28:06.3913526Z hint: have locally. This is usually caused by another repository pushing to
+2026-03-10T14:28:06.3914245Z hint: the same ref. If you want to integrate the remote changes, use
+2026-03-10T14:28:06.3914987Z hint: 'git pull' before pushing again.
+2026-03-10T14:28:06.3915899Z hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+2026-03-10T14:28:06.3928558Z ##[error]Process completed with exit code 1.
+2026-03-10T14:28:06.4031348Z Post job cleanup.
+2026-03-10T14:28:06.4977954Z [command]/usr/bin/git version
+2026-03-10T14:28:06.5014503Z git version 2.53.0
+2026-03-10T14:28:06.5061700Z Temporarily overriding HOME='/home/runner/work/_temp/44c813e9-9381-4411-8445-f647dc965e36' before making global git config changes
+2026-03-10T14:28:06.5063350Z Adding repository directory to the temporary git global config as a safe directory
+2026-03-10T14:28:06.5068659Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/VaiBReport/VaiBReport
+2026-03-10T14:28:06.5109824Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-03-10T14:28:06.5146122Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-03-10T14:28:06.5391631Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-03-10T14:28:06.5414327Z http.https://github.com/.extraheader
+2026-03-10T14:28:06.5427142Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+2026-03-10T14:28:06.5461355Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-03-10T14:28:06.5698918Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-03-10T14:28:06.5732822Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-03-10T14:28:06.6076006Z Cleaning up orphan processes
