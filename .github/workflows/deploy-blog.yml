@@ -8,9 +8,13 @@ on:
     branches: [main]
     paths:
       - "_posts/**"
+      - "_layouts/**"
+      - "_includes/**"
       - "_config.yml"
       - "index.md"
       - "about.md"
+      - "leaderboard.md"
+  workflow_dispatch:
 
 permissions:
   contents: read
