@@ -550,6 +550,57 @@ Product Hunt demoted to Phase 3 (below the above platforms).
 - CLAUDE-CODE-V2-PHASE4-LEADERBOARD.md — Claude Code prompt
 
 **What Peter needs to do:**
-1. Run CLAUDE-CODE-V2-PHASE4-LEADERBOARD.md in Claude Code
+1. Run CLAUDE-CODE-V2-PHASE4-LEADERBOARD.md in Claude Code — DONE ✅
 2. Velocity data starts accumulating after 2+ days of fetch-repos runs
 3. Leaderboard "Rising Fast" section will show data after that
+
+---
+
+## Session: 2026-03-06 (Claude Code — V2 Phase 4 COMPLETE)
+
+**What happened:**
+- Claude Code executed all 8 tasks from CLAUDE-CODE-V2-PHASE4-LEADERBOARD.md
+- Star velocity tracking added to fetch-repos.yml (30-day snapshots, 7-day rolling average)
+- Velocity-boosted trending in generate-digest.yml (50+★/day threshold)
+- Leaderboard page at /leaderboard/ with 5 sections
+- star_velocity in _repos/ front matter entries
+- ⚡ velocity badges on trending items
+- Nav: Catalog | Leaderboard | About
+
+**Current status: V2 Phase 4 leaderboard + enhanced trending COMPLETE.**
+
+**Full V2 build status — everything shipped in one evening session:**
+- Phase 1: Claude API → Gemini swap + HuggingFace ✅
+- Phase 2: 7 new fetch workflows, 9 data sources, health checks ✅
+- Phase 3: Catalog, bento grid, search/sort/filter, site refresh ✅
+- Phase 4: Leaderboard, star velocity, enhanced trending ✅
+
+**Remaining (all require Peter's decisions — no code-only items left):**
+- Item 10j: Product Hunt integration
+- Item 7: Owned platform migration (domain, hosting, analytics)
+- Item 8: Email digest delivery (Resend + subscriber management)
+- Item 11: Staggered runs (only if rate-limited)
+
+
+---
+
+## Session: 2026-03-10 (Part 2) — Push race condition + date guard fixes
+
+### Root causes confirmed from log analysis
+1. **Git push race condition** — all 8 fetch workflows run in parallel (13:00–13:40 UTC). Each does a bare `git push` after committing. When two push at the same time, the second gets `[rejected] main -> main (fetch first)` and the workflow fails ❌ — that source's data file never lands in the repo.
+2. **generate-digest date guard bug** — script derived `digestDate` from the newest repos data filename (`repos-2026-03-06.json` → `2026-03-06`). Since that file was from March 6 and `_posts/2026-03-06-github-digest.md` already existed, every subsequent run printed "Digest already exists. Skipping." and exited — no new digest written even though fresh data was being fetched.
+
+### Fixes applied
+- **All 8 fetch workflows** (`fetch-repos`, `fetch-hf`, `fetch-replicate`, `fetch-paperswithcode`, `fetch-npm-pypi`, `fetch-gitlab`, `fetch-ollama`, `fetch-launches`): replaced bare `git push` with 5-attempt retry loop using `git pull --rebase origin main && git push && break`.
+- **generate-digest.yml date logic**: Changed `digestDate` from `dateMatch[1]` (data filename date) to `new Date().toISOString().slice(0, 10)` (today's actual UTC date). Data still loads from the newest available file; post filename and skip guard now use today's date.
+- **generate-digest.yml push step**: Same retry loop applied.
+
+### Status
+Edits made to local files — **must `git push` to origin to take effect**. Next scheduled run at 13:00 UTC 2026-03-11 should produce fresh digest for that date.
+
+### Remaining known issues (deferred, needs Peter's call)
+- BetaList RSS feed: returns 404 (URL changed)
+- DevHunt scraper: 0 results (CSS selectors stale)
+- Uneed scraper: 0 results (CSS selectors stale)
+- Product Hunt: API keys set, not yet integrated
+- Owned platform migration, email digest — standing decisions needed
