@@ -1,20 +1,20 @@
 {
   "featured": {
     "prunaai/p-image-edit": {
-      "times_featured": 2,
-      "last_featured": "2026-04-09"
+      "times_featured": 1,
+      "last_featured": "2026-03-23"
     },
     "black-forest-labs/flux-2-pro": {
-      "times_featured": 2,
-      "last_featured": "2026-04-09"
+      "times_featured": 1,
+      "last_featured": "2026-03-23"
     },
     "recraft-ai/recraft-crisp-upscale": {
       "times_featured": 1,
       "last_featured": "2026-03-23"
     },
     "black-forest-labs/flux-2-max": {
-      "times_featured": 2,
-      "last_featured": "2026-04-09"
+      "times_featured": 1,
+      "last_featured": "2026-03-23"
     },
     "kwaivgi/kling-v2.6-motion-control": {
       "times_featured": 1,
@@ -61,12 +61,12 @@
       "last_featured": "2026-03-25"
     },
     "google/veo-3.1-fast": {
-      "times_featured": 2,
-      "last_featured": "2026-04-09"
+      "times_featured": 1,
+      "last_featured": "2026-03-26"
     },
     "google/veo-3.1": {
-      "times_featured": 2,
-      "last_featured": "2026-04-09"
+      "times_featured": 1,
+      "last_featured": "2026-03-26"
     },
     "qwen/qwen3-tts": {
       "times_featured": 1,
