@@ -1,0 +1,200 @@
+{
+  "generated_at": "2026-03-09T14:33:15.934Z",
+  "source": "launches",
+  "counts": {
+    "hackernews_showhn": 17,
+    "devhunt": 0,
+    "betalist": 0,
+    "uneed": 0,
+    "total": 17
+  },
+  "launches": [
+    {
+      "id": "showhn-47307169",
+      "name": "VS Code Agent Kanban: Task Management for the AI-Assisted Developer",
+      "url": "https://www.appsoftware.com/blog/introducing-vs-code-agent-kanban-task-management-for-the-ai-assisted-developer",
+      "description": "Show HN: VS Code Agent Kanban: Task Management for the AI-Assisted Developer",
+      "upvotes": 38,
+      "launch_date": "2026-03-09",
+      "platform_url": "https://news.ycombinator.com/item?id=47307169",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47299022",
+      "name": "Skir – like Protocol Buffer but better",
+      "url": "https://skir.build/",
+      "description": "Show HN: Skir – like Protocol Buffer but better",
+      "upvotes": 95,
+      "launch_date": "2026-03-09",
+      "platform_url": "https://news.ycombinator.com/item?id=47299022",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47300102",
+      "name": "I built a real-time OSINT dashboard pulling 15 live global feeds",
+      "url": "https://github.com/BigBodyCobain/Shadowbroker",
+      "description": "Show HN: I built a real-time OSINT dashboard pulling 15 live global feeds",
+      "upvotes": 274,
+      "launch_date": "2026-03-09",
+      "platform_url": "https://news.ycombinator.com/item?id=47300102",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47305149",
+      "name": "Mcp2cli – One CLI for every API, 96-99% fewer tokens than native MCP",
+      "url": "https://github.com/knowsuchagency/mcp2cli",
+      "description": "Show HN: Mcp2cli – One CLI for every API, 96-99% fewer tokens than native MCP",
+      "upvotes": 125,
+      "launch_date": "2026-03-09",
+      "platform_url": "https://news.ycombinator.com/item?id=47305149",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47302146",
+      "name": "I built a site where strangers leave kind voice notes for each other",
+      "url": "https://kindvoicenotes.com",
+      "description": "Show HN: I built a site where strangers leave kind voice notes for each other",
+      "upvotes": 20,
+      "launch_date": "2026-03-09",
+      "platform_url": "https://news.ycombinator.com/item?id=47302146",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47287259",
+      "name": "Reviving a 20-year-old puzzle game Chromatron with Ghidra and AI",
+      "url": "https://quesma.com/blog/chromatron-recompiled/",
+      "description": "Show HN: Reviving a 20-year-old puzzle game Chromatron with Ghidra and AI",
+      "upvotes": 20,
+      "launch_date": "2026-03-09",
+      "platform_url": "https://news.ycombinator.com/item?id=47287259",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47296355",
+      "name": "Eyot, A programming language where the GPU is just another thread",
+      "url": "https://cowleyforniastudios.com/2026/03/08/announcing-eyot/",
+      "description": "Show HN: Eyot, A programming language where the GPU is just another thread",
+      "upvotes": 73,
+      "launch_date": "2026-03-09",
+      "platform_url": "https://news.ycombinator.com/item?id=47296355",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47299697",
+      "name": "WolfStack – Proxmox-like server management in a single Rust binary",
+      "url": "https://wolfscale.org/",
+      "description": "Show HN: WolfStack – Proxmox-like server management in a single Rust binary",
+      "upvotes": 28,
+      "launch_date": "2026-03-09",
+      "platform_url": "https://news.ycombinator.com/item?id=47299697",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47303301",
+      "name": "OpenMeters – A fast and free audio metering/visualization suite",
+      "url": "https://github.com/httpsworldview/openmeters",
+      "description": "Show HN: OpenMeters – A fast and free audio metering/visualization suite",
+      "upvotes": 11,
+      "launch_date": "2026-03-09",
+      "platform_url": "https://news.ycombinator.com/item?id=47303301",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47295279",
+      "name": "Curiosity – DIY 6\" Newtonian Reflector Telescope",
+      "url": "https://curiosity-telescope.vercel.app/",
+      "description": "Show HN: Curiosity – DIY 6\" Newtonian Reflector Telescope",
+      "upvotes": 80,
+      "launch_date": "2026-03-09",
+      "platform_url": "https://news.ycombinator.com/item?id=47295279",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47302515",
+      "name": "OxiMedia – Pure Rust Reconstruction of FFmpeg and OpenCV",
+      "url": "https://github.com/cool-japan/oximedia",
+      "description": "Show HN: OxiMedia – Pure Rust Reconstruction of FFmpeg and OpenCV",
+      "upvotes": 10,
+      "launch_date": "2026-03-09",
+      "platform_url": "https://news.ycombinator.com/item?id=47302515",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47288007",
+      "name": "ANSI-Saver – A macOS Screensaver",
+      "url": "https://github.com/lardissone/ansi-saver",
+      "description": "Show HN: ANSI-Saver – A macOS Screensaver",
+      "upvotes": 102,
+      "launch_date": "2026-03-09",
+      "platform_url": "https://news.ycombinator.com/item?id=47288007",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47285876",
+      "name": "µJS, a 5KB alternative to Htmx and Turbo with zero dependencies",
+      "url": "https://mujs.org",
+      "description": "Show HN: µJS, a 5KB alternative to Htmx and Turbo with zero dependencies",
+      "upvotes": 155,
+      "launch_date": "2026-03-09",
+      "platform_url": "https://news.ycombinator.com/item?id=47285876",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47275236",
+      "name": "Moongate – Ultima Online server emulator in .NET 10 with Lua scripting",
+      "url": "https://github.com/moongate-community/moongatev2",
+      "description": "Show HN: Moongate – Ultima Online server emulator in .NET 10 with Lua scripting",
+      "upvotes": 285,
+      "launch_date": "2026-03-09",
+      "platform_url": "https://news.ycombinator.com/item?id=47275236",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47282807",
+      "name": "Kula – Lightweight, self-contained Linux server monitoring tool",
+      "url": "https://github.com/c0m4r/kula",
+      "description": "Show HN: Kula – Lightweight, self-contained Linux server monitoring tool",
+      "upvotes": 89,
+      "launch_date": "2026-03-09",
+      "platform_url": "https://news.ycombinator.com/item?id=47282807",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47276604",
+      "name": "Claude-replay – A video-like player for Claude Code sessions",
+      "url": "https://github.com/es617/claude-replay",
+      "description": "Show HN: Claude-replay – A video-like player for Claude Code sessions",
+      "upvotes": 101,
+      "launch_date": "2026-03-09",
+      "platform_url": "https://news.ycombinator.com/item?id=47276604",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47282225",
+      "name": "I open-sourced my Steam game, 100% written in Lua, engine is also open",
+      "url": "https://github.com/willtobyte/reprobate",
+      "description": "Show HN: I open-sourced my Steam game, 100% written in Lua, engine is also open",
+      "upvotes": 58,
+      "launch_date": "2026-03-09",
+      "platform_url": "https://news.ycombinator.com/item?id=47282225",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    }
+  ]
+}

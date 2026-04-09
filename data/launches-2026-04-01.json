@@ -1,0 +1,167 @@
+{
+  "generated_at": "2026-04-01T14:51:52.905Z",
+  "source": "launches",
+  "counts": {
+    "hackernews_showhn": 14,
+    "devhunt": 0,
+    "betalist": 0,
+    "uneed": 0,
+    "total": 14
+  },
+  "launches": [
+    {
+      "id": "showhn-47599956",
+      "name": "Sycamore – next gen Rust web UI library using fine-grained reactivity",
+      "url": "https://sycamore.dev",
+      "description": "Show HN: Sycamore – next gen Rust web UI library using fine-grained reactivity",
+      "upvotes": 52,
+      "launch_date": "2026-04-01",
+      "platform_url": "https://news.ycombinator.com/item?id=47599956",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47599771",
+      "name": "Baton – A desktop app for developing with AI agents",
+      "url": "https://getbaton.dev/",
+      "description": "Show HN: Baton – A desktop app for developing with AI agents",
+      "upvotes": 35,
+      "launch_date": "2026-04-01",
+      "platform_url": "https://news.ycombinator.com/item?id=47599771",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47571183",
+      "name": "CLI to order groceries via reverse-engineered REWE API (Haskell)",
+      "url": "https://github.com/yannick-cw/korb",
+      "description": "Show HN: CLI to order groceries via reverse-engineered REWE API (Haskell)",
+      "upvotes": 147,
+      "launch_date": "2026-04-01",
+      "platform_url": "https://news.ycombinator.com/item?id=47571183",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47593422",
+      "name": "1-Bit Bonsai, the First Commercially Viable 1-Bit LLMs",
+      "url": "https://prismml.com/",
+      "description": "Show HN: 1-Bit Bonsai, the First Commercially Viable 1-Bit LLMs",
+      "upvotes": 330,
+      "launch_date": "2026-04-01",
+      "platform_url": "https://news.ycombinator.com/item?id=47593422",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47589856",
+      "name": "Postgres extension for BM25 relevance-ranked full-text search",
+      "url": "https://github.com/timescale/pg_textsearch",
+      "description": "Show HN: Postgres extension for BM25 relevance-ranked full-text search",
+      "upvotes": 176,
+      "launch_date": "2026-04-01",
+      "platform_url": "https://news.ycombinator.com/item?id=47589856",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47541746",
+      "name": "Forkrun – NUMA-aware shell parallelizer (50×–400× faster than parallel)",
+      "url": "https://github.com/jkool702/forkrun",
+      "description": "Show HN: Forkrun – NUMA-aware shell parallelizer (50×–400× faster than parallel)",
+      "upvotes": 138,
+      "launch_date": "2026-04-01",
+      "platform_url": "https://news.ycombinator.com/item?id=47541746",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47594804",
+      "name": "Claude Code rewritten as a bash script",
+      "url": "https://github.com/jdcodes1/claude-sh",
+      "description": "Show HN: Claude Code rewritten as a bash script",
+      "upvotes": 38,
+      "launch_date": "2026-04-01",
+      "platform_url": "https://news.ycombinator.com/item?id=47594804",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47555035",
+      "name": "Loreline, narrative language transpiled via Haxe: C++/C#/JS/Java/Py/Lua",
+      "url": "https://loreline.app/en/docs/technical-overview/",
+      "description": "Show HN: Loreline, narrative language transpiled via Haxe: C++/C#/JS/Java/Py/Lua",
+      "upvotes": 67,
+      "launch_date": "2026-04-01",
+      "platform_url": "https://news.ycombinator.com/item?id=47555035",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47588324",
+      "name": "Sundial – a new way to look at a weather forecast",
+      "url": "https://sundial.page/",
+      "description": "Show HN: Sundial – a new way to look at a weather forecast",
+      "upvotes": 49,
+      "launch_date": "2026-04-01",
+      "platform_url": "https://news.ycombinator.com/item?id=47588324",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47592392",
+      "name": "EU Leadership – Live API data site comparing Europe to the world",
+      "url": "https://ajh.ovh/",
+      "description": "Show HN: EU Leadership – Live API data site comparing Europe to the world",
+      "upvotes": 30,
+      "launch_date": "2026-04-01",
+      "platform_url": "https://news.ycombinator.com/item?id=47592392",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47580910",
+      "name": "I turned a sketch into a 3D-print pegboard for my kid with an AI agent",
+      "url": "https://github.com/virpo/pegboard",
+      "description": "Show HN: I turned a sketch into a 3D-print pegboard for my kid with an AI agent",
+      "upvotes": 64,
+      "launch_date": "2026-04-01",
+      "platform_url": "https://news.ycombinator.com/item?id=47580910",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47575417",
+      "name": "Coasts – Containerized Hosts for Agents",
+      "url": "https://github.com/coast-guard/coasts",
+      "description": "Show HN: Coasts – Containerized Hosts for Agents",
+      "upvotes": 95,
+      "launch_date": "2026-04-01",
+      "platform_url": "https://news.ycombinator.com/item?id=47575417",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47585192",
+      "name": "Pardus Browser- a browser for AI agents without Chromium",
+      "url": "https://github.com/JasonHonKL/PardusBrowser/tree/main",
+      "description": "Show HN: Pardus Browser- a browser for AI agents without Chromium",
+      "upvotes": 16,
+      "launch_date": "2026-04-01",
+      "platform_url": "https://news.ycombinator.com/item?id=47585192",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47589797",
+      "name": "PhAIL – Real-robot benchmark for AI models",
+      "url": "https://phail.ai",
+      "description": "Show HN: PhAIL – Real-robot benchmark for AI models",
+      "upvotes": 20,
+      "launch_date": "2026-04-01",
+      "platform_url": "https://news.ycombinator.com/item?id=47589797",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    }
+  ]
+}

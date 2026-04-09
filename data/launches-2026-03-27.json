@@ -1,0 +1,200 @@
+{
+  "generated_at": "2026-03-27T14:34:09.869Z",
+  "source": "launches",
+  "counts": {
+    "hackernews_showhn": 17,
+    "devhunt": 0,
+    "betalist": 0,
+    "uneed": 0,
+    "total": 17
+  },
+  "launches": [
+    {
+      "id": "showhn-47536761",
+      "name": "I put an AI agent on a $7/month VPS with IRC as its transport layer",
+      "url": "https://georgelarson.me/writing/2026-03-23-nullclaw-doorman/",
+      "description": "Show HN: I put an AI agent on a $7/month VPS with IRC as its transport layer",
+      "upvotes": 288,
+      "launch_date": "2026-03-27",
+      "platform_url": "https://news.ycombinator.com/item?id=47536761",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47535626",
+      "name": "Fio: 3D World editor/game engine – inspired by Radiant and Hammer",
+      "url": "https://github.com/ViciousSquid/Fio",
+      "description": "Show HN: Fio: 3D World editor/game engine – inspired by Radiant and Hammer",
+      "upvotes": 86,
+      "launch_date": "2026-03-27",
+      "platform_url": "https://news.ycombinator.com/item?id=47535626",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47492871",
+      "name": "Minimalist library to generate SVG views of scientific data",
+      "url": "https://github.com/alefore/mini_svg/",
+      "description": "Show HN: Minimalist library to generate SVG views of scientific data",
+      "upvotes": 40,
+      "launch_date": "2026-03-27",
+      "platform_url": "https://news.ycombinator.com/item?id=47492871",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47534283",
+      "name": "Turbolite – a SQLite VFS serving sub-250ms cold JOIN queries from S3",
+      "url": "https://github.com/russellromney/turbolite",
+      "description": "Show HN: Turbolite – a SQLite VFS serving sub-250ms cold JOIN queries from S3",
+      "upvotes": 148,
+      "launch_date": "2026-03-27",
+      "platform_url": "https://news.ycombinator.com/item?id=47534283",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47529306",
+      "name": "Veil – Dark mode PDFs without destroying images, runs in the browser",
+      "url": "https://veil.simoneamico.com/",
+      "description": "Show HN: Veil – Dark mode PDFs without destroying images, runs in the browser",
+      "upvotes": 83,
+      "launch_date": "2026-03-27",
+      "platform_url": "https://news.ycombinator.com/item?id=47529306",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47520220",
+      "name": "Optio – Orchestrate AI coding agents in K8s to go from ticket to PR",
+      "url": "https://github.com/jonwiggins/optio",
+      "description": "Show HN: Optio – Orchestrate AI coding agents in K8s to go from ticket to PR",
+      "upvotes": 79,
+      "launch_date": "2026-03-27",
+      "platform_url": "https://news.ycombinator.com/item?id=47520220",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47524704",
+      "name": "A plain-text cognitive architecture for Claude Code",
+      "url": "https://lab.puga.com.br/cog/",
+      "description": "Show HN: A plain-text cognitive architecture for Claude Code",
+      "upvotes": 143,
+      "launch_date": "2026-03-27",
+      "platform_url": "https://news.ycombinator.com/item?id=47524704",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47531922",
+      "name": "Sup AI, a confidence-weighted ensemble (52.15% on Humanity's Last Exam)",
+      "url": "https://sup.ai",
+      "description": "Show HN: Sup AI, a confidence-weighted ensemble (52.15% on Humanity's Last Exam)",
+      "upvotes": 12,
+      "launch_date": "2026-03-27",
+      "platform_url": "https://news.ycombinator.com/item?id=47531922",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47526486",
+      "name": "Robust LLM extractor for websites in TypeScript",
+      "url": "https://github.com/lightfeed/extractor",
+      "description": "Show HN: Robust LLM extractor for websites in TypeScript",
+      "upvotes": 69,
+      "launch_date": "2026-03-27",
+      "platform_url": "https://news.ycombinator.com/item?id=47526486",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47538245",
+      "name": "A list of websites and directories where you can promote your projects",
+      "url": "https://promotestartup.com",
+      "description": "Show HN: A list of websites and directories where you can promote your projects",
+      "upvotes": 19,
+      "launch_date": "2026-03-27",
+      "platform_url": "https://news.ycombinator.com/item?id=47538245",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47506713",
+      "name": "I took back Video.js after 16 years and we rewrote it to be 88% smaller",
+      "url": "https://videojs.org/blog/videojs-v10-beta-hello-world-again",
+      "description": "Show HN: I took back Video.js after 16 years and we rewrote it to be 88% smaller",
+      "upvotes": 637,
+      "launch_date": "2026-03-27",
+      "platform_url": "https://news.ycombinator.com/item?id=47506713",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47499672",
+      "name": "ProofShot – Give AI coding agents eyes to verify the UI they build",
+      "url": "https://github.com/AmElmo/proofshot",
+      "description": "Show HN: ProofShot – Give AI coding agents eyes to verify the UI they build",
+      "upvotes": 155,
+      "launch_date": "2026-03-27",
+      "platform_url": "https://news.ycombinator.com/item?id=47499672",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47507666",
+      "name": "AI Roundtable – Let 200 models debate your question",
+      "url": "https://opper.ai/ai-roundtable/",
+      "description": "Show HN: AI Roundtable – Let 200 models debate your question",
+      "upvotes": 110,
+      "launch_date": "2026-03-27",
+      "platform_url": "https://news.ycombinator.com/item?id=47507666",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47526813",
+      "name": "Orloj – agent infrastructure as code (YAML and GitOps)",
+      "url": "https://github.com/OrlojHQ/orloj",
+      "description": "Show HN: Orloj – agent infrastructure as code (YAML and GitOps)",
+      "upvotes": 19,
+      "launch_date": "2026-03-27",
+      "platform_url": "https://news.ycombinator.com/item?id=47526813",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47512891",
+      "name": "DuckDB community extension for prefiltered HNSW using ACORN-1",
+      "url": "https://github.com/cigrainger/duckdb-hnsw-acorn",
+      "description": "Show HN: DuckDB community extension for prefiltered HNSW using ACORN-1",
+      "upvotes": 90,
+      "launch_date": "2026-03-27",
+      "platform_url": "https://news.ycombinator.com/item?id=47512891",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47521910",
+      "name": "Yoink – Spotify to lossless with full metadata, self-hostable, ad-free",
+      "url": "https://yoinkify.com",
+      "description": "Show HN: Yoink – Spotify to lossless with full metadata, self-hostable, ad-free",
+      "upvotes": 54,
+      "launch_date": "2026-03-27",
+      "platform_url": "https://news.ycombinator.com/item?id=47521910",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47491466",
+      "name": "Cq – Stack Overflow for AI coding agents",
+      "url": "https://blog.mozilla.ai/cq-stack-overflow-for-agents/",
+      "description": "Show HN: Cq – Stack Overflow for AI coding agents",
+      "upvotes": 225,
+      "launch_date": "2026-03-27",
+      "platform_url": "https://news.ycombinator.com/item?id=47491466",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    }
+  ]
+}

@@ -1,0 +1,233 @@
+{
+  "generated_at": "2026-03-29T14:08:08.646Z",
+  "source": "launches",
+  "counts": {
+    "hackernews_showhn": 20,
+    "devhunt": 0,
+    "betalist": 0,
+    "uneed": 0,
+    "total": 20
+  },
+  "launches": [
+    {
+      "id": "showhn-47510005",
+      "name": "Create a full language server in Go with 3.17 spec support",
+      "url": "https://github.com/owenrumney/go-lsp",
+      "description": "Show HN: Create a full language server in Go with 3.17 spec support",
+      "upvotes": 19,
+      "launch_date": "2026-03-29",
+      "platform_url": "https://news.ycombinator.com/item?id=47510005",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47561132",
+      "name": "Public transit systems as data – lines, stations, railcars, and history",
+      "url": "https://publictransit.systems",
+      "description": "Show HN: Public transit systems as data – lines, stations, railcars, and history",
+      "upvotes": 27,
+      "launch_date": "2026-03-29",
+      "platform_url": "https://news.ycombinator.com/item?id=47561132",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47562288",
+      "name": "Sheet Ninja – Google Sheets as a CRUD Back End for Vibe Coders",
+      "url": "https://sheetninja.io",
+      "description": "Show HN: Sheet Ninja – Google Sheets as a CRUD Back End for Vibe Coders",
+      "upvotes": 43,
+      "launch_date": "2026-03-29",
+      "platform_url": "https://news.ycombinator.com/item?id=47562288",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47559509",
+      "name": "PeriodicTableOfElements.org",
+      "url": "https://periodictableofelements.org/?lang=en",
+      "description": "Show HN: PeriodicTableOfElements.org",
+      "upvotes": 32,
+      "launch_date": "2026-03-29",
+      "platform_url": "https://news.ycombinator.com/item?id=47559509",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47557165",
+      "name": "I built an OS that is pure AI",
+      "url": "https://pneuma.computer",
+      "description": "Show HN: I built an OS that is pure AI",
+      "upvotes": 26,
+      "launch_date": "2026-03-29",
+      "platform_url": "https://news.ycombinator.com/item?id=47557165",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47555093",
+      "name": "We built a multi-agent research hub. The waitlist is a reverse-CAPTCHA",
+      "url": "https://enlidea.com",
+      "description": "Show HN: We built a multi-agent research hub. The waitlist is a reverse-CAPTCHA",
+      "upvotes": 27,
+      "launch_date": "2026-03-29",
+      "platform_url": "https://news.ycombinator.com/item?id=47555093",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47549160",
+      "name": "Twitch Roulette – Find live streamers who need views the most",
+      "url": "https://twitchroulette.net/",
+      "description": "Show HN: Twitch Roulette – Find live streamers who need views the most",
+      "upvotes": 174,
+      "launch_date": "2026-03-29",
+      "platform_url": "https://news.ycombinator.com/item?id=47549160",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47534283",
+      "name": "Turbolite – a SQLite VFS serving sub-250ms cold JOIN queries from S3",
+      "url": "https://github.com/russellromney/turbolite",
+      "description": "Show HN: Turbolite – a SQLite VFS serving sub-250ms cold JOIN queries from S3",
+      "upvotes": 176,
+      "launch_date": "2026-03-29",
+      "platform_url": "https://news.ycombinator.com/item?id=47534283",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47536761",
+      "name": "I put an AI agent on a $7/month VPS with IRC as its transport layer",
+      "url": "https://georgelarson.me/writing/2026-03-23-nullclaw-doorman/",
+      "description": "Show HN: I put an AI agent on a $7/month VPS with IRC as its transport layer",
+      "upvotes": 334,
+      "launch_date": "2026-03-29",
+      "platform_url": "https://news.ycombinator.com/item?id=47536761",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47535626",
+      "name": "Fio: 3D World editor/game engine – inspired by Radiant and Hammer",
+      "url": "https://github.com/ViciousSquid/Fio",
+      "description": "Show HN: Fio: 3D World editor/game engine – inspired by Radiant and Hammer",
+      "upvotes": 93,
+      "launch_date": "2026-03-29",
+      "platform_url": "https://news.ycombinator.com/item?id=47535626",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47520220",
+      "name": "Optio – Orchestrate AI coding agents in K8s to go from ticket to PR",
+      "url": "https://github.com/jonwiggins/optio",
+      "description": "Show HN: Optio – Orchestrate AI coding agents in K8s to go from ticket to PR",
+      "upvotes": 86,
+      "launch_date": "2026-03-29",
+      "platform_url": "https://news.ycombinator.com/item?id=47520220",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47545355",
+      "name": "Foundry: a Markdown-first CMS written in Go",
+      "url": "https://github.com/sphireinc/Foundry",
+      "description": "Show HN: Foundry: a Markdown-first CMS written in Go",
+      "upvotes": 30,
+      "launch_date": "2026-03-29",
+      "platform_url": "https://news.ycombinator.com/item?id=47545355",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47524704",
+      "name": "A plain-text cognitive architecture for Claude Code",
+      "url": "https://lab.puga.com.br/cog/",
+      "description": "Show HN: A plain-text cognitive architecture for Claude Code",
+      "upvotes": 155,
+      "launch_date": "2026-03-29",
+      "platform_url": "https://news.ycombinator.com/item?id=47524704",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47506713",
+      "name": "I took back Video.js after 16 years and we rewrote it to be 88% smaller",
+      "url": "https://videojs.org/blog/videojs-v10-beta-hello-world-again",
+      "description": "Show HN: I took back Video.js after 16 years and we rewrote it to be 88% smaller",
+      "upvotes": 644,
+      "launch_date": "2026-03-29",
+      "platform_url": "https://news.ycombinator.com/item?id=47506713",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47558530",
+      "name": "Windows 95–style Weather App for iPhone",
+      "url": "https://apps.apple.com/us/app/weather-exe/id6761195944",
+      "description": "Show HN: Windows 95–style Weather App for iPhone",
+      "upvotes": 11,
+      "launch_date": "2026-03-29",
+      "platform_url": "https://news.ycombinator.com/item?id=47558530",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47541438",
+      "name": "Grafana TUI – Browse Grafana dashboards in the terminal",
+      "url": "https://github.com/lovromazgon/grafana-tui",
+      "description": "Show HN: Grafana TUI – Browse Grafana dashboards in the terminal",
+      "upvotes": 23,
+      "launch_date": "2026-03-29",
+      "platform_url": "https://news.ycombinator.com/item?id=47541438",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47549197",
+      "name": "Open Source 'Conductor + Ghostty'",
+      "url": "https://github.com/stablyai/orca",
+      "description": "Show HN: Open Source 'Conductor + Ghostty'",
+      "upvotes": 20,
+      "launch_date": "2026-03-29",
+      "platform_url": "https://news.ycombinator.com/item?id=47549197",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47529306",
+      "name": "Veil – Dark mode PDFs without destroying images, runs in the browser",
+      "url": "https://veil.simoneamico.com/",
+      "description": "Show HN: Veil – Dark mode PDFs without destroying images, runs in the browser",
+      "upvotes": 97,
+      "launch_date": "2026-03-29",
+      "platform_url": "https://news.ycombinator.com/item?id=47529306",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47499672",
+      "name": "ProofShot – Give AI coding agents eyes to verify the UI they build",
+      "url": "https://github.com/AmElmo/proofshot",
+      "description": "Show HN: ProofShot – Give AI coding agents eyes to verify the UI they build",
+      "upvotes": 158,
+      "launch_date": "2026-03-29",
+      "platform_url": "https://news.ycombinator.com/item?id=47499672",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47492871",
+      "name": "Minimalist library to generate SVG views of scientific data",
+      "url": "https://github.com/alefore/mini_svg/",
+      "description": "Show HN: Minimalist library to generate SVG views of scientific data",
+      "upvotes": 47,
+      "launch_date": "2026-03-29",
+      "platform_url": "https://news.ycombinator.com/item?id=47492871",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    }
+  ]
+}

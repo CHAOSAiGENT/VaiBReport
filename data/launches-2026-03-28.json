@@ -1,0 +1,373 @@
+{
+  "generated_at": "2026-03-28T14:37:59.261Z",
+  "source": "launches",
+  "counts": {
+    "hackernews_showhn": 22,
+    "producthunt": 15,
+    "total": 37
+  },
+  "launches": [
+    {
+      "id": "showhn-47549160",
+      "name": "Twitch Roulette – Find live streamers who need views the most",
+      "url": "https://twitchroulette.net/",
+      "description": "Show HN: Twitch Roulette – Find live streamers who need views the most",
+      "upvotes": 148,
+      "launch_date": "2026-03-28",
+      "platform_url": "https://news.ycombinator.com/item?id=47549160",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47534283",
+      "name": "Turbolite – a SQLite VFS serving sub-250ms cold JOIN queries from S3",
+      "url": "https://github.com/russellromney/turbolite",
+      "description": "Show HN: Turbolite – a SQLite VFS serving sub-250ms cold JOIN queries from S3",
+      "upvotes": 172,
+      "launch_date": "2026-03-28",
+      "platform_url": "https://news.ycombinator.com/item?id=47534283",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47536761",
+      "name": "I put an AI agent on a $7/month VPS with IRC as its transport layer",
+      "url": "https://georgelarson.me/writing/2026-03-23-nullclaw-doorman/",
+      "description": "Show HN: I put an AI agent on a $7/month VPS with IRC as its transport layer",
+      "upvotes": 326,
+      "launch_date": "2026-03-28",
+      "platform_url": "https://news.ycombinator.com/item?id=47536761",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47549197",
+      "name": "Open Source 'Conductor + Ghostty'",
+      "url": "https://github.com/stablyai/orca",
+      "description": "Show HN: Open Source 'Conductor + Ghostty'",
+      "upvotes": 16,
+      "launch_date": "2026-03-28",
+      "platform_url": "https://news.ycombinator.com/item?id=47549197",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47545355",
+      "name": "Foundry: a Markdown-first CMS written in Go",
+      "url": "https://github.com/sphireinc/Foundry",
+      "description": "Show HN: Foundry: a Markdown-first CMS written in Go",
+      "upvotes": 25,
+      "launch_date": "2026-03-28",
+      "platform_url": "https://news.ycombinator.com/item?id=47545355",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47535626",
+      "name": "Fio: 3D World editor/game engine – inspired by Radiant and Hammer",
+      "url": "https://github.com/ViciousSquid/Fio",
+      "description": "Show HN: Fio: 3D World editor/game engine – inspired by Radiant and Hammer",
+      "upvotes": 91,
+      "launch_date": "2026-03-28",
+      "platform_url": "https://news.ycombinator.com/item?id=47535626",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47541438",
+      "name": "Grafana TUI – Browse Grafana dashboards in the terminal",
+      "url": "https://github.com/lovromazgon/grafana-tui",
+      "description": "Show HN: Grafana TUI – Browse Grafana dashboards in the terminal",
+      "upvotes": 18,
+      "launch_date": "2026-03-28",
+      "platform_url": "https://news.ycombinator.com/item?id=47541438",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47520220",
+      "name": "Optio – Orchestrate AI coding agents in K8s to go from ticket to PR",
+      "url": "https://github.com/jonwiggins/optio",
+      "description": "Show HN: Optio – Orchestrate AI coding agents in K8s to go from ticket to PR",
+      "upvotes": 83,
+      "launch_date": "2026-03-28",
+      "platform_url": "https://news.ycombinator.com/item?id=47520220",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47524704",
+      "name": "A plain-text cognitive architecture for Claude Code",
+      "url": "https://lab.puga.com.br/cog/",
+      "description": "Show HN: A plain-text cognitive architecture for Claude Code",
+      "upvotes": 152,
+      "launch_date": "2026-03-28",
+      "platform_url": "https://news.ycombinator.com/item?id=47524704",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47531922",
+      "name": "Sup AI, a confidence-weighted ensemble (52.15% on Humanity's Last Exam)",
+      "url": "https://sup.ai",
+      "description": "Show HN: Sup AI, a confidence-weighted ensemble (52.15% on Humanity's Last Exam)",
+      "upvotes": 22,
+      "launch_date": "2026-03-28",
+      "platform_url": "https://news.ycombinator.com/item?id=47531922",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47529306",
+      "name": "Veil – Dark mode PDFs without destroying images, runs in the browser",
+      "url": "https://veil.simoneamico.com/",
+      "description": "Show HN: Veil – Dark mode PDFs without destroying images, runs in the browser",
+      "upvotes": 92,
+      "launch_date": "2026-03-28",
+      "platform_url": "https://news.ycombinator.com/item?id=47529306",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47492871",
+      "name": "Minimalist library to generate SVG views of scientific data",
+      "url": "https://github.com/alefore/mini_svg/",
+      "description": "Show HN: Minimalist library to generate SVG views of scientific data",
+      "upvotes": 44,
+      "launch_date": "2026-03-28",
+      "platform_url": "https://news.ycombinator.com/item?id=47492871",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47506713",
+      "name": "I took back Video.js after 16 years and we rewrote it to be 88% smaller",
+      "url": "https://videojs.org/blog/videojs-v10-beta-hello-world-again",
+      "description": "Show HN: I took back Video.js after 16 years and we rewrote it to be 88% smaller",
+      "upvotes": 639,
+      "launch_date": "2026-03-28",
+      "platform_url": "https://news.ycombinator.com/item?id=47506713",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47499672",
+      "name": "ProofShot – Give AI coding agents eyes to verify the UI they build",
+      "url": "https://github.com/AmElmo/proofshot",
+      "description": "Show HN: ProofShot – Give AI coding agents eyes to verify the UI they build",
+      "upvotes": 157,
+      "launch_date": "2026-03-28",
+      "platform_url": "https://news.ycombinator.com/item?id=47499672",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47526486",
+      "name": "Robust LLM extractor for websites in TypeScript",
+      "url": "https://github.com/lightfeed/extractor",
+      "description": "Show HN: Robust LLM extractor for websites in TypeScript",
+      "upvotes": 70,
+      "launch_date": "2026-03-28",
+      "platform_url": "https://news.ycombinator.com/item?id=47526486",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47545642",
+      "name": "Open-Source Animal Crossing–Style UI for Claude Code Agents",
+      "url": "https://github.com/outworked/outworked/releases/tag/v0.3.0",
+      "description": "Show HN: Open-Source Animal Crossing–Style UI for Claude Code Agents",
+      "upvotes": 45,
+      "launch_date": "2026-03-28",
+      "platform_url": "https://news.ycombinator.com/item?id=47545642",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47507666",
+      "name": "AI Roundtable – Let 200 models debate your question",
+      "url": "https://opper.ai/ai-roundtable/",
+      "description": "Show HN: AI Roundtable – Let 200 models debate your question",
+      "upvotes": 112,
+      "launch_date": "2026-03-28",
+      "platform_url": "https://news.ycombinator.com/item?id=47507666",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47505144",
+      "name": "Email.md – Markdown to responsive, email-safe HTML",
+      "url": "https://www.emailmd.dev/",
+      "description": "Show HN: Email.md – Markdown to responsive, email-safe HTML",
+      "upvotes": 378,
+      "launch_date": "2026-03-28",
+      "platform_url": "https://news.ycombinator.com/item?id=47505144",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47512891",
+      "name": "DuckDB community extension for prefiltered HNSW using ACORN-1",
+      "url": "https://github.com/cigrainger/duckdb-hnsw-acorn",
+      "description": "Show HN: DuckDB community extension for prefiltered HNSW using ACORN-1",
+      "upvotes": 90,
+      "launch_date": "2026-03-28",
+      "platform_url": "https://news.ycombinator.com/item?id=47512891",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47503617",
+      "name": "Gemini can now natively embed video, so I built sub-second video search",
+      "url": "https://github.com/ssrajadh/sentrysearch",
+      "description": "Show HN: Gemini can now natively embed video, so I built sub-second video search",
+      "upvotes": 431,
+      "launch_date": "2026-03-28",
+      "platform_url": "https://news.ycombinator.com/item?id=47503617",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47521910",
+      "name": "Yoink – Spotify to lossless with full metadata, self-hostable, ad-free",
+      "url": "https://yoinkify.com",
+      "description": "Show HN: Yoink – Spotify to lossless with full metadata, self-hostable, ad-free",
+      "upvotes": 56,
+      "launch_date": "2026-03-28",
+      "platform_url": "https://news.ycombinator.com/item?id=47521910",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47505731",
+      "name": "Gridland: make terminal apps that also run in the browser",
+      "url": "https://www.gridland.io/",
+      "description": "Show HN: Gridland: make terminal apps that also run in the browser",
+      "upvotes": 107,
+      "launch_date": "2026-03-28",
+      "platform_url": "https://news.ycombinator.com/item?id=47505731",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "ph-1107886",
+      "name": "Agentation",
+      "description": "The visual feedback tool for AI agents",
+      "url": "https://www.producthunt.com/r/UBMKYT2Z76KGDI?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 409,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1108278",
+      "name": "Claude Code auto-fix ",
+      "description": "Auto-fix PRs in the cloud while you stay hands-off",
+      "url": "https://www.producthunt.com/r/ZD7UARQER7Q65Z?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 349,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1108159",
+      "name": "Gemini 3.1 Flash Live",
+      "description": "Making audio AI more natural and reliable",
+      "url": "https://www.producthunt.com/r/5EGR7NSXB6V7QK?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 328,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1102741",
+      "name": "Cockpit AI",
+      "description": "Run revenue agents across every channel",
+      "url": "https://www.producthunt.com/r/ZSATDD5TGHHICH?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 307,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1108523",
+      "name": "Codex Plugins",
+      "description": "Package Codex skills and app integrations as plugins",
+      "url": "https://www.producthunt.com/r/MXXCFXKHV6GFJT?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 193,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1092967",
+      "name": "Crossnode",
+      "description": "Vibe code AI agents and put them behind a payment wall",
+      "url": "https://www.producthunt.com/r/37A2GEWBOXLPGI?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 193,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1108656",
+      "name": "Suno v5.5",
+      "description": "Create with your voice, tune models to your sound",
+      "url": "https://www.producthunt.com/r/S25VKIT6BZUNGW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 193,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1108224",
+      "name": "Stripe Projects",
+      "description": "Production-ready dev stack from your terminal",
+      "url": "https://www.producthunt.com/r/CNUQWRUNOD3BAQ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 182,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1108231",
+      "name": "Voxtral TTS by Mistral AI",
+      "description": "Multilingual TTS model with realistic and expressive speech",
+      "url": "https://www.producthunt.com/r/627BPOH5ZBLWMR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 163,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1108164",
+      "name": "Audos Publishing House",
+      "description": "Build an AI business, get up to $100K. No equity taken",
+      "url": "https://www.producthunt.com/r/PJFD3R55EDQXRH?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 156,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1108611",
+      "name": "Universal CLI by Composio",
+      "description": "Connect AI agents to 1000+ apps directly from your terminal",
+      "url": "https://www.producthunt.com/r/NHYZG542W5KE2U?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 153,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1108380",
+      "name": "Google Gemini Memory Import",
+      "description": "Switch to Gemini without losing your AI memories ",
+      "url": "https://www.producthunt.com/r/APZSOK6TBYSX3F?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 137,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1108508",
+      "name": "Aera Browser",
+      "description": "The browser built for automation",
+      "url": "https://www.producthunt.com/r/45ASS7UPWHFNKV?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 133,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1105969",
+      "name": "CrabTalk",
+      "description": "The agent daemon that hides nothing. 8MB. Open Source",
+      "url": "https://www.producthunt.com/r/ZAAIAYTYC43FIJ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 123,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1108574",
+      "name": "Oli",
+      "description": "Scan any product to know it's safe during pregnancy",
+      "url": "https://www.producthunt.com/r/ELWNBZSLWJFLG3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 123,
+      "_source": "producthunt"
+    }
+  ]
+}
