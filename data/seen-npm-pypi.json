@@ -1,24 +1,24 @@
 {
   "featured": {
     "npm-agent-base": {
-      "times_featured": 1,
-      "last_featured": "2026-03-23"
+      "times_featured": 2,
+      "last_featured": "2026-04-09"
     },
     "npm-https-proxy-agent": {
-      "times_featured": 1,
-      "last_featured": "2026-03-23"
+      "times_featured": 2,
+      "last_featured": "2026-04-09"
     },
     "npm-telecom-mas-agent": {
-      "times_featured": 1,
-      "last_featured": "2026-03-23"
+      "times_featured": 2,
+      "last_featured": "2026-04-09"
     },
     "npm-http-proxy-agent": {
-      "times_featured": 1,
-      "last_featured": "2026-03-23"
+      "times_featured": 2,
+      "last_featured": "2026-04-09"
     },
     "npm-socks-proxy-agent": {
-      "times_featured": 1,
-      "last_featured": "2026-03-23"
+      "times_featured": 2,
+      "last_featured": "2026-04-09"
     },
     "pypi-pydantic": {
       "times_featured": 1,
@@ -37,8 +37,8 @@
       "last_featured": "2026-03-23"
     },
     "pypi-tokenizers": {
-      "times_featured": 1,
-      "last_featured": "2026-03-23"
+      "times_featured": 2,
+      "last_featured": "2026-04-09"
     },
     "npm-proxy-agent": {
       "times_featured": 1,
@@ -73,12 +73,12 @@
       "last_featured": "2026-03-24"
     },
     "pypi-playwright": {
-      "times_featured": 1,
-      "last_featured": "2026-03-24"
+      "times_featured": 2,
+      "last_featured": "2026-04-09"
     },
     "pypi-weaviate-client": {
-      "times_featured": 1,
-      "last_featured": "2026-03-24"
+      "times_featured": 2,
+      "last_featured": "2026-04-09"
     },
     "npm-cypress": {
       "times_featured": 1,
@@ -149,8 +149,8 @@
       "last_featured": "2026-03-26"
     },
     "pypi-groq": {
-      "times_featured": 1,
-      "last_featured": "2026-03-26"
+      "times_featured": 2,
+      "last_featured": "2026-04-09"
     },
     "pypi-ollama": {
       "times_featured": 1,
@@ -303,6 +303,10 @@
     "pypi-marvin": {
       "times_featured": 1,
       "last_featured": "2026-03-30"
+    },
+    "pypi-smolagents": {
+      "times_featured": 1,
+      "last_featured": "2026-04-09"
     }
   }
 }
