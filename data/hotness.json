@@ -1,10 +1,10 @@
 {
   "kriasoft/react-starter-kit": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -109,16 +109,20 @@
       {
         "date": "2026-04-01",
         "stars": 23545
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 23550
       }
     ],
     "star_velocity": 0
   },
   "wasp-lang/open-saas": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -223,16 +227,20 @@
       {
         "date": "2026-04-01",
         "stars": 13734
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 14011
       }
     ],
-    "star_velocity": 14
+    "star_velocity": 0
   },
   "ixartz/SaaS-Boilerplate": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -337,16 +345,20 @@
       {
         "date": "2026-04-01",
         "stars": 6950
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 6962
       }
     ],
-    "star_velocity": 2
+    "star_velocity": 0
   },
   "boxyhq/saas-starter-kit": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -451,16 +463,20 @@
       {
         "date": "2026-04-01",
         "stars": 4758
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 4763
       }
     ],
-    "star_velocity": 1
+    "star_velocity": 0
   },
   "async-labs/saas": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -565,16 +581,20 @@
       {
         "date": "2026-04-01",
         "stars": 4451
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 4454
       }
     ],
-    "star_velocity": 1
+    "star_velocity": 0
   },
   "zenstackhq/zenstack": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -679,16 +699,20 @@
       {
         "date": "2026-04-01",
         "stars": 2858
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 2863
       }
     ],
-    "star_velocity": 1
+    "star_velocity": 0
   },
   "apptension/saas-boilerplate": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -793,16 +817,20 @@
       {
         "date": "2026-04-01",
         "stars": 2857
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 2866
       }
     ],
-    "star_velocity": 1
+    "star_velocity": 0
   },
   "ParabolInc/parabol": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -907,16 +935,20 @@
       {
         "date": "2026-04-01",
         "stars": 2002
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 2002
       }
     ],
     "star_velocity": 0
   },
   "graphile/starter": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -1021,16 +1053,20 @@
       {
         "date": "2026-04-01",
         "stars": 1824
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 1824
       }
     ],
     "star_velocity": 0
   },
   "getstation/desktop-app": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -1135,16 +1171,20 @@
       {
         "date": "2026-04-01",
         "stars": 1684
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 1679
       }
     ],
     "star_velocity": 0
   },
   "lost-pixel/lost-pixel": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -1249,16 +1289,20 @@
       {
         "date": "2026-04-01",
         "stars": 1653
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 1653
       }
     ],
     "star_velocity": 0
   },
   "NextJSTemplates/startup-nextjs": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -1363,16 +1407,20 @@
       {
         "date": "2026-04-01",
         "stars": 1632
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 1635
       }
     ],
     "star_velocity": 0
   },
   "saas-js/saas-ui": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -1477,16 +1525,20 @@
       {
         "date": "2026-04-01",
         "stars": 1624
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 1628
       }
     ],
     "star_velocity": 0
   },
   "revokslab/ShipFree": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -1591,16 +1643,20 @@
       {
         "date": "2026-04-01",
         "stars": 1624
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 1624
       }
     ],
-    "star_velocity": 1
+    "star_velocity": 0
   },
   "steedos/steedos-platform": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -1705,16 +1761,20 @@
       {
         "date": "2026-04-01",
         "stars": 1549
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 1552
       }
     ],
     "star_velocity": 0
   },
   "alan345/AI-Fullstack-SaaS-Boilerplate": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -1819,16 +1879,20 @@
       {
         "date": "2026-04-01",
         "stars": 1381
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 1384
       }
     ],
-    "star_velocity": 1
+    "star_velocity": 0
   },
   "denoland/saaskit": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -1933,16 +1997,20 @@
       {
         "date": "2026-04-01",
         "stars": 1324
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 1323
       }
     ],
     "star_velocity": 0
   },
   "Lissy93/domain-locker": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -2047,16 +2115,20 @@
       {
         "date": "2026-04-01",
         "stars": 1232
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 1286
       }
     ],
-    "star_velocity": 1
+    "star_velocity": 0
   },
   "mugnavo/tanstarter": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -2161,16 +2233,20 @@
       {
         "date": "2026-04-01",
         "stars": 1081
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 1098
       }
     ],
-    "star_velocity": 2
+    "star_velocity": 0
   },
   "keyshade-xyz/keyshade": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -2275,16 +2351,20 @@
       {
         "date": "2026-04-01",
         "stars": 746
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 748
       }
     ],
     "star_velocity": 0
   },
   "devrsi0n/chirpy": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -2389,16 +2469,20 @@
       {
         "date": "2026-04-01",
         "stars": 600
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 600
       }
     ],
     "star_velocity": 0
   },
   "NextJSTemplates/play-nextjs": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -2503,16 +2587,20 @@
       {
         "date": "2026-04-01",
         "stars": 589
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 591
       }
     ],
     "star_velocity": 0
   },
   "weicanie/prisma-ai": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -2617,16 +2705,20 @@
       {
         "date": "2026-04-01",
         "stars": 364
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 366
       }
     ],
     "star_velocity": 0
   },
   "get-convex/convex-saas": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -2731,16 +2823,20 @@
       {
         "date": "2026-04-01",
         "stars": 349
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 348
       }
     ],
     "star_velocity": 0
   },
   "PaddleHQ/paddle-nextjs-starter-kit": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -2845,16 +2941,20 @@
       {
         "date": "2026-04-01",
         "stars": 340
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 340
       }
     ],
     "star_velocity": 0
   },
   "NextJSTemplates/solid-nextjs": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -2958,17 +3058,21 @@
       },
       {
         "date": "2026-04-01",
+        "stars": 258
+      },
+      {
+        "date": "2026-04-09",
         "stars": 258
       }
     ],
     "star_velocity": 0
   },
   "wrsrsh/startstack": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -3072,17 +3176,21 @@
       },
       {
         "date": "2026-04-01",
+        "stars": 231
+      },
+      {
+        "date": "2026-04-09",
         "stars": 231
       }
     ],
     "star_velocity": 0
   },
   "build-canaries/nevergreen": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -3186,17 +3294,21 @@
       },
       {
         "date": "2026-04-01",
+        "stars": 229
+      },
+      {
+        "date": "2026-04-09",
         "stars": 229
       }
     ],
     "star_velocity": 0
   },
   "metorial/metorial-platform": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -3301,16 +3413,20 @@
       {
         "date": "2026-04-01",
         "stars": 203
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 204
       }
     ],
     "star_velocity": 0
   },
   "auth0-developer-hub/auth0-b2b-saas-starter": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -3414,17 +3530,21 @@
       },
       {
         "date": "2026-04-01",
+        "stars": 193
+      },
+      {
+        "date": "2026-04-09",
         "stars": 193
       }
     ],
     "star_velocity": 0
   },
   "SaaSBold/saasbold-lite": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -3529,16 +3649,20 @@
       {
         "date": "2026-04-01",
         "stars": 174
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 176
       }
     ],
     "star_velocity": 0
   },
   "argus-sight/refund-swatter-lite": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -3643,16 +3767,20 @@
       {
         "date": "2026-04-01",
         "stars": 167
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 168
       }
     ],
     "star_velocity": 0
   },
   "gonzalochale/saas-landing-template": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -3757,16 +3885,20 @@
       {
         "date": "2026-04-01",
         "stars": 153
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 155
       }
     ],
     "star_velocity": 0
   },
   "aws-samples/saas-reference-architecture-ecs": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -3871,16 +4003,20 @@
       {
         "date": "2026-04-01",
         "stars": 141
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 142
       }
     ],
     "star_velocity": 0
   },
   "LimeJourney/limeJourney": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -3985,16 +4121,20 @@
       {
         "date": "2026-04-01",
         "stars": 127
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 128
       }
     ],
     "star_velocity": 0
   },
   "digitalocean/sea-notes-saas-starter-kit": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -4099,16 +4239,20 @@
       {
         "date": "2026-04-01",
         "stars": 133
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 135
       }
     ],
     "star_velocity": 0
   },
   "SAP-samples/btp-cap-genai-rag": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -4213,16 +4357,20 @@
       {
         "date": "2026-04-01",
         "stars": 123
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 124
       }
     ],
     "star_velocity": 0
   },
   "codebucks27/Pictoria-AI-Starter-Code": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -4326,17 +4474,21 @@
       },
       {
         "date": "2026-04-01",
+        "stars": 97
+      },
+      {
+        "date": "2026-04-09",
         "stars": 97
       }
     ],
     "star_velocity": 0
   },
   "updatedotdev/js": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -4440,17 +4592,21 @@
       },
       {
         "date": "2026-04-01",
+        "stars": 87
+      },
+      {
+        "date": "2026-04-09",
         "stars": 87
       }
     ],
     "star_velocity": 0
   },
   "sanidhyy/genius-ai": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -4555,16 +4711,20 @@
       {
         "date": "2026-04-01",
         "stars": 81
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 80
       }
     ],
     "star_velocity": 0
   },
   "AayushBharti/ai-saas-landing-starter": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -4669,16 +4829,20 @@
       {
         "date": "2026-04-01",
         "stars": 74
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 76
       }
     ],
     "star_velocity": 0
   },
   "MinightDev/Autoshorts": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -4783,16 +4947,20 @@
       {
         "date": "2026-04-01",
         "stars": 62
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 63
       }
     ],
     "star_velocity": 0
   },
   "aws-samples/aws-saas-factory-saas-microservices-workshop": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -4896,17 +5064,21 @@
       },
       {
         "date": "2026-04-01",
+        "stars": 55
+      },
+      {
+        "date": "2026-04-09",
         "stars": 55
       }
     ],
     "star_velocity": 0
   },
   "MarsX-dev/seobot-nextjs-blog": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -5011,16 +5183,20 @@
       {
         "date": "2026-04-01",
         "stars": 53
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 52
       }
     ],
     "star_velocity": 0
   },
   "deepsingh132/aionair": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -5125,13 +5301,17 @@
       {
         "date": "2026-04-01",
         "stars": 50
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 49
       }
     ],
     "star_velocity": 0
   },
   "rcrdk/nextjs-fastify-saas-rbac": {
     "appearances": 27,
-    "streak": 27,
+    "streak": 0,
     "last_seen": "2026-04-01",
     "first_seen": "2026-03-06",
     "last_seen_prev": "2026-04-01",
@@ -5244,11 +5424,11 @@
     "star_velocity": 0
   },
   "Somafet/onboardjs": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -5353,6 +5533,10 @@
       {
         "date": "2026-04-01",
         "stars": 50
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 51
       }
     ],
     "star_velocity": 0
@@ -5504,11 +5688,11 @@
     "star_velocity": 0
   },
   "ln-dev7/square-ui": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -5613,16 +5797,20 @@
       {
         "date": "2026-04-01",
         "stars": 5112
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 5115
       }
     ],
-    "star_velocity": 5
+    "star_velocity": 0
   },
   "cruip/open-react-template": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -5727,16 +5915,20 @@
       {
         "date": "2026-04-01",
         "stars": 4608
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 4612
       }
     ],
     "star_velocity": 0
   },
   "obytes/react-native-template-obytes": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -5841,16 +6033,20 @@
       {
         "date": "2026-04-01",
         "stars": 4096
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 4110
       }
     ],
-    "star_velocity": 2
+    "star_velocity": 0
   },
   "cawa-93/vite-electron-builder": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -5955,16 +6151,20 @@
       {
         "date": "2026-04-01",
         "stars": 2975
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 2978
       }
     ],
-    "star_velocity": 1
+    "star_velocity": 0
   },
   "chibat/chrome-extension-typescript-starter": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -6069,16 +6269,20 @@
       {
         "date": "2026-04-01",
         "stars": 2825
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 2825
       }
     ],
     "star_velocity": 0
   },
   "codercup/unibest": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -6183,16 +6387,20 @@
       {
         "date": "2026-04-01",
         "stars": 2807
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 2805
       }
     ],
     "star_velocity": 0
   },
   "spliit-app/spliit": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -6297,16 +6505,20 @@
       {
         "date": "2026-04-01",
         "stars": 2611
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 2624
       }
     ],
-    "star_velocity": 1
+    "star_velocity": 0
   },
   "roninoss/create-expo-stack": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -6411,16 +6623,20 @@
       {
         "date": "2026-04-01",
         "stars": 2523
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 2529
       }
     ],
-    "star_velocity": 1
+    "star_velocity": 0
   },
   "zce/caz": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -6525,16 +6741,20 @@
       {
         "date": "2026-04-01",
         "stars": 2483
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 2482
       }
     ],
     "star_velocity": 0
   },
   "ln-dev7/circle": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -6639,16 +6859,20 @@
       {
         "date": "2026-04-01",
         "stars": 2429
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 2435
       }
     ],
-    "star_velocity": 1
+    "star_velocity": 0
   },
   "actions/typescript-action": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -6753,16 +6977,20 @@
       {
         "date": "2026-04-01",
         "stars": 2396
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 2398
       }
     ],
     "star_velocity": 0
   },
   "arifszn/gitprofile": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -6867,16 +7095,20 @@
       {
         "date": "2026-04-01",
         "stars": 2215
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 2218
       }
     ],
     "star_velocity": 0
   },
   "PaulRBerg/hardhat-template": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -6981,16 +7213,20 @@
       {
         "date": "2026-04-01",
         "stars": 1976
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 1976
       }
     ],
     "star_velocity": 0
   },
   "feige996/unibest": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -7095,16 +7331,20 @@
       {
         "date": "2026-04-01",
         "stars": 1976
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 1996
       }
     ],
-    "star_velocity": 2
+    "star_velocity": 0
   },
   "BearStudio/start-ui-web": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -7209,16 +7449,20 @@
       {
         "date": "2026-04-01",
         "stars": 1708
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 1714
       }
     ],
     "star_velocity": 0
   },
   "Blazity/next-saas-starter": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -7323,16 +7567,20 @@
       {
         "date": "2026-04-01",
         "stars": 1664
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 1668
       }
     ],
     "star_velocity": 0
   },
   "reliverse/relivator": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -7437,16 +7685,20 @@
       {
         "date": "2026-04-01",
         "stars": 1547
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 1545
       }
     ],
     "star_velocity": 0
   },
   "shadcn-ui/next-template": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -7551,16 +7803,20 @@
       {
         "date": "2026-04-01",
         "stars": 1500
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 1499
       }
     ],
     "star_velocity": 0
   },
   "JoshuaKGoldberg/create-typescript-app": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -7665,16 +7921,20 @@
       {
         "date": "2026-04-01",
         "stars": 1375
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 1373
       }
     ],
     "star_velocity": 0
   },
   "emonney/QuickApp": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -7779,16 +8039,20 @@
       {
         "date": "2026-04-01",
         "stars": 1341
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 1341
       }
     ],
-    "star_velocity": 1
+    "star_velocity": 0
   },
   "JohnBra/vite-web-extension": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -7893,16 +8157,20 @@
       {
         "date": "2026-04-01",
         "stars": 1190
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 1189
       }
     ],
-    "star_velocity": 1
+    "star_velocity": 0
   },
   "guigrpa/docx-templates": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -8006,17 +8274,21 @@
       },
       {
         "date": "2026-04-01",
+        "stars": 1068
+      },
+      {
+        "date": "2026-04-09",
         "stars": 1068
       }
     ],
     "star_velocity": 0
   },
   "dishait/tov-template": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -8120,17 +8392,21 @@
       },
       {
         "date": "2026-04-01",
+        "stars": 974
+      },
+      {
+        "date": "2026-04-09",
         "stars": 974
       }
     ],
     "star_velocity": 0
   },
   "Skolaczk/next-starter": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -8235,16 +8511,20 @@
       {
         "date": "2026-04-01",
         "stars": 975
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 978
       }
     ],
     "star_velocity": 0
   },
   "agustinusnathaniel/nextarter-chakra": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -8349,16 +8629,20 @@
       {
         "date": "2026-04-01",
         "stars": 838
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 835
       }
     ],
     "star_velocity": 0
   },
   "daltonmenezes/electron-app": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -8463,16 +8747,20 @@
       {
         "date": "2026-04-01",
         "stars": 796
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 796
       }
     ],
     "star_velocity": 0
   },
   "windingwind/zotero-plugin-template": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -8577,16 +8865,20 @@
       {
         "date": "2026-04-01",
         "stars": 802
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 808
       }
     ],
     "star_velocity": 0
   },
   "scaffdog/scaffdog": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -8690,17 +8982,21 @@
       },
       {
         "date": "2026-04-01",
+        "stars": 763
+      },
+      {
+        "date": "2026-04-09",
         "stars": 763
       }
     ],
     "star_velocity": 0
   },
   "suren-atoyan/react-pwa": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -8805,16 +9101,20 @@
       {
         "date": "2026-04-01",
         "stars": 696
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 696
       }
     ],
     "star_velocity": 0
   },
   "zhangyao1990/elegant-admin": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -8919,16 +9219,20 @@
       {
         "date": "2026-04-01",
         "stars": 674
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 673
       }
     ],
     "star_velocity": 0
   },
   "kvnxiao/tauri-nextjs-template": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -9033,16 +9337,20 @@
       {
         "date": "2026-04-01",
         "stars": 679
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 680
       }
     ],
-    "star_velocity": 1
+    "star_velocity": 0
   },
   "KevinNovak/Discord-Bot-TypeScript-Template": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -9146,17 +9454,21 @@
       },
       {
         "date": "2026-04-01",
+        "stars": 623
+      },
+      {
+        "date": "2026-04-09",
         "stars": 623
       }
     ],
     "star_velocity": 0
   },
   "mvllow/next-pwa-template": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -9261,16 +9573,20 @@
       {
         "date": "2026-04-01",
         "stars": 567
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 566
       }
     ],
     "star_velocity": 0
   },
   "expo-starter/expo-local-first-template": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -9375,16 +9691,20 @@
       {
         "date": "2026-04-01",
         "stars": 557
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 559
       }
     ],
     "star_velocity": 0
   },
   "uni-helper/vitesse-uni-app": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -9489,16 +9809,20 @@
       {
         "date": "2026-04-01",
         "stars": 554
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 555
       }
     ],
-    "star_velocity": 1
+    "star_velocity": 0
   },
   "un-pany/mobvue": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -9603,16 +9927,20 @@
       {
         "date": "2026-04-01",
         "stars": 547
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 549
       }
     ],
     "star_velocity": 0
   },
   "thisismydesign/next-nest": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -9716,17 +10044,21 @@
       },
       {
         "date": "2026-04-01",
+        "stars": 512
+      },
+      {
+        "date": "2026-04-09",
         "stars": 512
       }
     ],
     "star_velocity": 0
   },
   "mantinedev/next-pages-template": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -9831,16 +10163,20 @@
       {
         "date": "2026-04-01",
         "stars": 509
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 510
       }
     ],
     "star_velocity": 0
   },
   "flaviuse/mern-authentication": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -9945,16 +10281,20 @@
       {
         "date": "2026-04-01",
         "stars": 506
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 508
       }
     ],
     "star_velocity": 0
   },
   "tremorlabs/template-dashboard-oss": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -10059,6 +10399,10 @@
       {
         "date": "2026-04-01",
         "stars": 504
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 503
       }
     ],
     "star_velocity": 0
@@ -10370,11 +10714,11 @@
     "star_velocity": 0
   },
   "KlingAIResearch/LivePortrait": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -10479,16 +10823,20 @@
       {
         "date": "2026-04-01",
         "stars": 18028
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 18088
       }
     ],
-    "star_velocity": 3
+    "star_velocity": 0
   },
   "Wan-Video/Wan2.2": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -10593,16 +10941,20 @@
       {
         "date": "2026-04-01",
         "stars": 14983
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 15152
       }
     ],
-    "star_velocity": 20
+    "star_velocity": 0
   },
   "zai-org/CogVideo": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -10707,16 +11059,20 @@
       {
         "date": "2026-04-01",
         "stars": 12577
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 12618
       }
     ],
-    "star_velocity": 3
+    "star_velocity": 0
   },
   "duixcom/Duix-Avatar": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -10821,16 +11177,20 @@
       {
         "date": "2026-04-01",
         "stars": 12632
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 12697
       }
     ],
-    "star_velocity": 5
+    "star_velocity": 0
   },
   "Tencent-Hunyuan/HunyuanVideo": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -10935,9 +11295,13 @@
       {
         "date": "2026-04-01",
         "stars": 11914
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 11939
       }
     ],
-    "star_velocity": 6
+    "star_velocity": 0
   },
   "waoowaooAI/waoowaoo": {
     "appearances": 1,
@@ -10947,11 +11311,11 @@
     "last_seen_prev": "2026-03-06"
   },
   "showlab/Awesome-Video-Diffusion": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -11056,16 +11420,20 @@
       {
         "date": "2026-04-01",
         "stars": 5553
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 5572
       }
     ],
-    "star_velocity": 2
+    "star_velocity": 0
   },
   "AILab-CVC/VideoCrafter": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -11170,16 +11538,20 @@
       {
         "date": "2026-04-01",
         "stars": 5043
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 5043
       }
     ],
-    "star_velocity": 1
+    "star_velocity": 0
   },
   "Tencent-Hunyuan/HunyuanVideo-1.5": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -11284,16 +11656,20 @@
       {
         "date": "2026-04-01",
         "stars": 4734
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 4381
       }
     ],
     "star_velocity": 0
   },
   "antgroup/echomimic_v2": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -11398,16 +11774,20 @@
       {
         "date": "2026-04-01",
         "stars": 4525
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 4529
       }
     ],
-    "star_velocity": 1
+    "star_velocity": 0
   },
   "ali-vilab/VACE": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -11512,16 +11892,20 @@
       {
         "date": "2026-04-01",
         "stars": 3713
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 3722
       }
     ],
-    "star_velocity": 1
+    "star_velocity": 0
   },
   "SandAI-org/MAGI-1": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -11626,16 +12010,20 @@
       {
         "date": "2026-04-01",
         "stars": 3669
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 3674
       }
     ],
     "star_velocity": 0
   },
   "thu-ml/TurboDiffusion": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -11740,16 +12128,20 @@
       {
         "date": "2026-04-01",
         "stars": 3436
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 3451
       }
     ],
-    "star_velocity": 2
+    "star_velocity": 0
   },
   "thu-ml/SageAttention": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -11854,16 +12246,20 @@
       {
         "date": "2026-04-01",
         "stars": 3268
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 3284
       }
     ],
-    "star_velocity": 3
+    "star_velocity": 0
   },
   "hao-ai-lab/FastVideo": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -11968,16 +12364,20 @@
       {
         "date": "2026-04-01",
         "stars": 3336
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 3358
       }
     ],
-    "star_velocity": 4
+    "star_velocity": 0
   },
   "SamurAIGPT/AI-Youtube-Shorts-Generator": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -12082,16 +12482,20 @@
       {
         "date": "2026-04-01",
         "stars": 3181
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 3191
       }
     ],
-    "star_velocity": 6
+    "star_velocity": 0
   },
   "Robbyant/lingbot-world": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -12196,16 +12600,20 @@
       {
         "date": "2026-04-01",
         "stars": 3297
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 3336
       }
     ],
-    "star_velocity": 7
+    "star_velocity": 0
   },
   "vllm-project/vllm-omni": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -12310,16 +12718,20 @@
       {
         "date": "2026-04-01",
         "stars": 4086
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 4213
       }
     ],
-    "star_velocity": 33
+    "star_velocity": 0
   },
   "SamurAIGPT/Generative-Media-Skills": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -12424,16 +12836,20 @@
       {
         "date": "2026-04-01",
         "stars": 2982
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 3010
       }
     ],
-    "star_velocity": 3
+    "star_velocity": 0
   },
   "AIDC-AI/Pixelle-Video": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -12538,16 +12954,20 @@
       {
         "date": "2026-04-01",
         "stars": 3371
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 3497
       }
     ],
-    "star_velocity": 11
+    "star_velocity": 0
   },
   "Tencent/MimicMotion": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -12652,16 +13072,20 @@
       {
         "date": "2026-04-01",
         "stars": 2553
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 2556
       }
     ],
-    "star_velocity": 1
+    "star_velocity": 0
   },
   "GVCLab/PersonaLive": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -12766,16 +13190,20 @@
       {
         "date": "2026-04-01",
         "stars": 2510
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 2542
       }
     ],
-    "star_velocity": 3
+    "star_velocity": 0
   },
   "HKUDS/ViMax": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -12880,16 +13308,20 @@
       {
         "date": "2026-04-01",
         "stars": 2561
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 2617
       }
     ],
-    "star_velocity": 7
+    "star_velocity": 0
   },
   "ModelTC/LightX2V": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -12994,16 +13426,20 @@
       {
         "date": "2026-04-01",
         "stars": 2129
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 2150
       }
     ],
-    "star_velocity": 4
+    "star_velocity": 0
   },
   "SkyworkAI/Matrix-Game": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -13108,16 +13544,20 @@
       {
         "date": "2026-04-01",
         "stars": 2014
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 2081
       }
     ],
-    "star_velocity": 20
+    "star_velocity": 0
   },
   "KlingAIResearch/ReCamMaster": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -13222,16 +13662,20 @@
       {
         "date": "2026-04-01",
         "stars": 1772
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 1778
       }
     ],
-    "star_velocity": 1
+    "star_velocity": 0
   },
   "showlab/Code2Video": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -13336,16 +13780,20 @@
       {
         "date": "2026-04-01",
         "stars": 1622
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 1633
       }
     ],
-    "star_velocity": 3
+    "star_velocity": 0
   },
   "menyifang/MIMO": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -13450,16 +13898,20 @@
       {
         "date": "2026-04-01",
         "stars": 1576
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 1576
       }
     ],
     "star_velocity": 0
   },
   "Vchitect/VBench": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -13564,16 +14016,20 @@
       {
         "date": "2026-04-01",
         "stars": 1556
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 1569
       }
     ],
-    "star_velocity": 1
+    "star_velocity": 0
   },
   "Phantom-video/Phantom": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -13678,16 +14134,20 @@
       {
         "date": "2026-04-01",
         "stars": 1498
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 1498
       }
     ],
     "star_velocity": 0
   },
   "PKU-YuanGroup/MagicTime": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -13792,16 +14252,20 @@
       {
         "date": "2026-04-01",
         "stars": 1344
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 1345
       }
     ],
     "star_velocity": 0
   },
   "MiniMax-AI/MiniMax-MCP": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -13906,16 +14370,20 @@
       {
         "date": "2026-04-01",
         "stars": 1375
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 1396
       }
     ],
-    "star_velocity": 4
+    "star_velocity": 0
   },
   "ali-vilab/TeaCache": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -14020,16 +14488,20 @@
       {
         "date": "2026-04-01",
         "stars": 1301
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 1300
       }
     ],
-    "star_velocity": 1
+    "star_velocity": 0
   },
   "snap-research/articulated-animation": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -14134,16 +14606,20 @@
       {
         "date": "2026-04-01",
         "stars": 1276
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 1275
       }
     ],
     "star_velocity": 0
   },
   "Francis-Rings/StableAvatar": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -14248,16 +14724,20 @@
       {
         "date": "2026-04-01",
         "stars": 1217
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 1221
       }
     ],
     "star_velocity": 0
   },
   "Tencent-Hunyuan/HunyuanCustom": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -14362,16 +14842,20 @@
       {
         "date": "2026-04-01",
         "stars": 1214
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 1214
       }
     ],
-    "star_velocity": 1
+    "star_velocity": 0
   },
   "ali-vilab/UniAnimate": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -14476,16 +14960,20 @@
       {
         "date": "2026-04-01",
         "stars": 1188
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 1188
       }
     ],
     "star_velocity": 0
   },
   "cure-lab/MagicDrive": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -14590,16 +15078,20 @@
       {
         "date": "2026-04-01",
         "stars": 1177
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 1177
       }
     ],
-    "star_velocity": 1
+    "star_velocity": 0
   },
   "wladradchenko/wunjo.wladradchenko.ru": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -14704,16 +15196,20 @@
       {
         "date": "2026-04-01",
         "stars": 1135
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 1132
       }
     ],
     "star_velocity": 0
   },
   "gyoridavid/short-video-maker": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -14818,16 +15314,20 @@
       {
         "date": "2026-04-01",
         "stars": 1052
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 1070
       }
     ],
-    "star_velocity": 2
+    "star_velocity": 0
   },
   "SamurAIGPT/muapi-cli": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -14932,16 +15432,20 @@
       {
         "date": "2026-04-01",
         "stars": 974
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 975
       }
     ],
     "star_velocity": 0
   },
   "thu-ml/SpargeAttn": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -15046,16 +15550,20 @@
       {
         "date": "2026-04-01",
         "stars": 972
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 973
       }
     ],
-    "star_velocity": 1
+    "star_velocity": 0
   },
   "360CVGroup/FancyVideo": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -15160,13 +15668,17 @@
       {
         "date": "2026-04-01",
         "stars": 920
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 919
       }
     ],
     "star_velocity": 0
   },
   "mayuelala/FollowYourClick": {
     "appearances": 27,
-    "streak": 27,
+    "streak": 0,
     "last_seen": "2026-04-01",
     "first_seen": "2026-03-06",
     "last_seen_prev": "2026-04-01",
@@ -15279,11 +15791,11 @@
     "star_velocity": 0
   },
   "nvidia-cosmos/cosmos-predict2.5": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -15388,13 +15900,17 @@
       {
         "date": "2026-04-01",
         "stars": 1023
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 1061
       }
     ],
-    "star_velocity": 4
+    "star_velocity": 0
   },
   "cuixing158/Awesome-CV-MasterHub": {
     "appearances": 27,
-    "streak": 27,
+    "streak": 0,
     "last_seen": "2026-04-01",
     "first_seen": "2026-03-06",
     "last_seen_prev": "2026-04-01",
@@ -15507,11 +16023,11 @@
     "star_velocity": 1
   },
   "zai-org/SCAIL": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -15616,9 +16132,13 @@
       {
         "date": "2026-04-01",
         "stars": 912
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 915
       }
     ],
-    "star_velocity": 1
+    "star_velocity": 0
   },
   "OpenDriveLab/Vista": {
     "appearances": 11,
@@ -15743,11 +16263,11 @@
     "star_velocity": 0
   },
   "AUTOMATIC1111/stable-diffusion-webui": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -15852,16 +16372,20 @@
       {
         "date": "2026-04-01",
         "stars": 162071
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 162244
       }
     ],
-    "star_velocity": 10
+    "star_velocity": 0
   },
   "invoke-ai/InvokeAI": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -15966,16 +16490,20 @@
       {
         "date": "2026-04-01",
         "stars": 26921
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 26958
       }
     ],
-    "star_velocity": -2
+    "star_velocity": 0
   },
   "camenduru/stable-diffusion-webui-colab": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -16080,16 +16608,20 @@
       {
         "date": "2026-04-01",
         "stars": 15946
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 15938
       }
     ],
-    "star_velocity": -1
+    "star_velocity": 0
   },
   "willwulfken/MidJourney-Styles-and-Keywords-Reference": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -16194,16 +16726,20 @@
       {
         "date": "2026-04-01",
         "stars": 12279
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 12276
       }
     ],
-    "star_velocity": -1
+    "star_velocity": 0
   },
   "jamez-bondos/awesome-gpt4o-images": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -16308,16 +16844,20 @@
       {
         "date": "2026-04-01",
         "stars": 7865
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 7867
       }
     ],
-    "star_velocity": 1
+    "star_velocity": 0
   },
   "vladmandic/sdnext": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -16422,16 +16962,20 @@
       {
         "date": "2026-04-01",
         "stars": 7033
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 7045
       }
     ],
-    "star_velocity": 2
+    "star_velocity": 0
   },
   "philz1337x/clarity-upscaler": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -16536,16 +17080,20 @@
       {
         "date": "2026-04-01",
         "stars": 5015
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 5026
       }
     ],
-    "star_velocity": 2
+    "star_velocity": 0
   },
   "nateraw/stable-diffusion-videos": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -16650,16 +17198,20 @@
       {
         "date": "2026-04-01",
         "stars": 4674
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 4675
       }
     ],
     "star_velocity": 0
   },
   "filipecalegario/awesome-generative-ai": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -16764,16 +17316,20 @@
       {
         "date": "2026-04-01",
         "stars": 3407
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 3412
       }
     ],
-    "star_velocity": 1
+    "star_velocity": 0
   },
   "FurkanGozukara/Stable-Diffusion": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -16878,16 +17434,20 @@
       {
         "date": "2026-04-01",
         "stars": 2663
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 2671
       }
     ],
     "star_velocity": 0
   },
   "Stability-AI/stability-sdk": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -16992,16 +17552,20 @@
       {
         "date": "2026-04-01",
         "stars": 2440
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 2440
       }
     ],
     "star_velocity": 0
   },
   "pydn/ComfyUI-to-Python-Extension": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -17106,16 +17670,20 @@
       {
         "date": "2026-04-01",
         "stars": 2294
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 2298
       }
     ],
-    "star_velocity": 1
+    "star_velocity": 0
   },
   "Capsize-Games/airunner": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -17220,16 +17788,20 @@
       {
         "date": "2026-04-01",
         "stars": 1317
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 1314
       }
     ],
     "star_velocity": 0
   },
   "bacalhau-project/bacalhau": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -17334,16 +17906,20 @@
       {
         "date": "2026-04-01",
         "stars": 853
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 854
       }
     ],
     "star_velocity": 0
   },
   "lum3on/comfyui_HiDream-Sampler": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -17448,16 +18024,20 @@
       {
         "date": "2026-04-01",
         "stars": 482
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 481
       }
     ],
     "star_velocity": 0
   },
   "rockbenben/img-prompt": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -17562,16 +18142,20 @@
       {
         "date": "2026-04-01",
         "stars": 299
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 299
       }
     ],
-    "star_velocity": 1
+    "star_velocity": 0
   },
   "ssube/onnx-web": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -17676,16 +18260,20 @@
       {
         "date": "2026-04-01",
         "stars": 234
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 233
       }
     ],
     "star_velocity": 0
   },
   "bentoml/comfy-pack": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -17790,16 +18378,20 @@
       {
         "date": "2026-04-01",
         "stars": 214
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 215
       }
     ],
     "star_velocity": 0
   },
   "daveschumaker/artbot-for-stable-diffusion": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -17904,16 +18496,20 @@
       {
         "date": "2026-04-01",
         "stars": 188
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 187
       }
     ],
     "star_velocity": 0
   },
   "ThetaCursed/Anima-Style-Explorer": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -18018,16 +18614,20 @@
       {
         "date": "2026-04-01",
         "stars": 152
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 160
       }
     ],
     "star_velocity": 0
   },
   "Super-Maker-AI/awesome-nano-banana": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -18131,17 +18731,21 @@
       },
       {
         "date": "2026-04-01",
+        "stars": 99
+      },
+      {
+        "date": "2026-04-09",
         "stars": 99
       }
     ],
     "star_velocity": 0
   },
   "jezs00/pycasso": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -18246,16 +18850,20 @@
       {
         "date": "2026-04-01",
         "stars": 88
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 88
       }
     ],
     "star_velocity": 0
   },
   "Onion99/KMP-MineStableDiffusion": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -18360,16 +18968,20 @@
       {
         "date": "2026-04-01",
         "stars": 81
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 84
       }
     ],
-    "star_velocity": 1
+    "star_velocity": 0
   },
   "shellus/mj-studio": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -18474,16 +19086,20 @@
       {
         "date": "2026-04-01",
         "stars": 75
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 77
       }
     ],
     "star_velocity": 0
   },
   "Kedreamix/Linly-Talker": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -18588,16 +19204,20 @@
       {
         "date": "2026-04-01",
         "stars": 3219
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 3238
       }
     ],
-    "star_velocity": 2
+    "star_velocity": 0
   },
   "weihaox/awesome-digital-human": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -18702,16 +19322,20 @@
       {
         "date": "2026-04-01",
         "stars": 1921
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 1924
       }
     ],
     "star_velocity": 0
   },
   "andremichelle/openDAW": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -18816,16 +19440,20 @@
       {
         "date": "2026-04-01",
         "stars": 1427
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 1452
       }
     ],
-    "star_velocity": 5
+    "star_velocity": 0
   },
   "onflow/flow-go": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -18930,16 +19558,20 @@
       {
         "date": "2026-04-01",
         "stars": 566
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 567
       }
     ],
     "star_velocity": 0
   },
   "Yuan-ManX/audio-development-tools": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -19044,16 +19676,20 @@
       {
         "date": "2026-04-01",
         "stars": 443
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 444
       }
     ],
     "star_velocity": 0
   },
   "onflow/flow": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -19158,16 +19794,20 @@
       {
         "date": "2026-04-01",
         "stars": 358
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 359
       }
     ],
     "star_velocity": 0
   },
   "taoofagi/easegen-front": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -19271,17 +19911,21 @@
       },
       {
         "date": "2026-04-01",
+        "stars": 255
+      },
+      {
+        "date": "2026-04-09",
         "stars": 255
       }
     ],
     "star_velocity": 0
   },
   "muzishen/IMAGGarment": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -19386,16 +20030,20 @@
       {
         "date": "2026-04-01",
         "stars": 236
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 203
       }
     ],
-    "star_velocity": -2
+    "star_velocity": 0
   },
   "RahulAutade2288/payments-modernization-hub": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -19500,16 +20148,20 @@
       {
         "date": "2026-04-01",
         "stars": 220
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 195
       }
     ],
     "star_velocity": 0
   },
   "atrocore/atrodam": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -19613,17 +20265,21 @@
       },
       {
         "date": "2026-04-01",
+        "stars": 122
+      },
+      {
+        "date": "2026-04-09",
         "stars": 122
       }
     ],
     "star_velocity": 0
   },
   "YezQiu/Tiemu": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -19728,16 +20384,20 @@
       {
         "date": "2026-04-01",
         "stars": 115
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 115
       }
     ],
     "star_velocity": 0
   },
   "ASUCICREPO/PDF_Accessibility": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -19842,16 +20502,20 @@
       {
         "date": "2026-04-01",
         "stars": 110
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 110
       }
     ],
     "star_velocity": 0
   },
   "XYFrank103/StegoShark": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -19955,17 +20619,21 @@
       },
       {
         "date": "2026-04-01",
+        "stars": 81
+      },
+      {
+        "date": "2026-04-09",
         "stars": 81
       }
     ],
     "star_velocity": 0
   },
   "phishdestroy/Nigerian-dignity": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -20070,16 +20738,20 @@
       {
         "date": "2026-04-01",
         "stars": 78
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 75
       }
     ],
     "star_velocity": 0
   },
   "ndrwmlnk/Awesome-Digital-Twins": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -20183,17 +20855,21 @@
       },
       {
         "date": "2026-04-01",
+        "stars": 74
+      },
+      {
+        "date": "2026-04-09",
         "stars": 74
       }
     ],
     "star_velocity": 0
   },
   "signalspec/signalspec": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -20297,6 +20973,10 @@
       },
       {
         "date": "2026-04-01",
+        "stars": 59
+      },
+      {
+        "date": "2026-04-09",
         "stars": 59
       }
     ],
@@ -20377,11 +21057,11 @@
     "star_velocity": 0
   },
   "OpenSenseNova/SekoTalk": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -20485,6 +21165,10 @@
       },
       {
         "date": "2026-04-01",
+        "stars": 41
+      },
+      {
+        "date": "2026-04-09",
         "stars": 41
       }
     ],
@@ -20521,11 +21205,11 @@
     "star_velocity": 0
   },
   "0rlych1kk4/quantum_identity_system": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -20630,16 +21314,20 @@
       {
         "date": "2026-04-01",
         "stars": 38
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 38
       }
     ],
     "star_velocity": 0
   },
   "sonnhfit/SonAgent": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -20744,16 +21432,20 @@
       {
         "date": "2026-04-01",
         "stars": 38
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 38
       }
     ],
     "star_velocity": 0
   },
   "YouMind-OpenLab/awesome-nano-banana-pro-prompts": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -20858,16 +21550,20 @@
       {
         "date": "2026-04-01",
         "stars": 10456
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 10756
       }
     ],
-    "star_velocity": 124
+    "star_velocity": 0
   },
   "mylxsw/aidea": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -20972,16 +21668,20 @@
       {
         "date": "2026-04-01",
         "stars": 6943
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 6942
       }
     ],
     "star_velocity": 0
   },
   "Anil-matcha/Open-Higgsfield-AI": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -21086,16 +21786,20 @@
       {
         "date": "2026-04-01",
         "stars": 2734
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 3874
       }
     ],
-    "star_velocity": 10
+    "star_velocity": 0
   },
   "apocas/restai": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -21200,16 +21904,20 @@
       {
         "date": "2026-04-01",
         "stars": 481
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 483
       }
     ],
     "star_velocity": 0
   },
   "Bria-AI/FIBO": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -21314,16 +22022,20 @@
       {
         "date": "2026-04-01",
         "stars": 310
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 313
       }
     ],
     "star_velocity": 0
   },
   "ammaarreshi/openjourney": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -21428,16 +22140,20 @@
       {
         "date": "2026-04-01",
         "stars": 235
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 236
       }
     ],
     "star_velocity": 0
   },
   "mifi/instauto": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -21542,16 +22258,20 @@
       {
         "date": "2026-04-01",
         "stars": 839
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 838
       }
     ],
     "star_velocity": 0
   },
   "gitcoffee-os/postbot": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -21656,16 +22376,20 @@
       {
         "date": "2026-04-01",
         "stars": 835
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 858
       }
     ],
-    "star_velocity": 5
+    "star_velocity": 0
   },
   "Useful-Scripts-Extension/useful-script": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -21770,16 +22494,20 @@
       {
         "date": "2026-04-01",
         "stars": 435
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 438
       }
     ],
     "star_velocity": 0
   },
   "new92/igfi": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -21884,16 +22612,20 @@
       {
         "date": "2026-04-01",
         "stars": 296
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 295
       }
     ],
-    "star_velocity": 1
+    "star_velocity": 0
   },
   "new92/instatools": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -21998,16 +22730,20 @@
       {
         "date": "2026-04-01",
         "stars": 280
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 284
       }
     ],
     "star_velocity": 0
   },
   "ChetanXpro/short-video-automation": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -22112,16 +22848,20 @@
       {
         "date": "2026-04-01",
         "stars": 170
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 170
       }
     ],
-    "star_velocity": 1
+    "star_velocity": 0
   },
   "somiibo/instagram-bot": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -22226,16 +22966,20 @@
       {
         "date": "2026-04-01",
         "stars": 133
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 139
       }
     ],
-    "star_velocity": 1
+    "star_velocity": 0
   },
   "vishalgojha/social-flow": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -22340,16 +23084,20 @@
       {
         "date": "2026-04-01",
         "stars": 129
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 131
       }
     ],
     "star_velocity": 0
   },
   "M3rcuryLake/Cassette": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -22453,17 +23201,21 @@
       },
       {
         "date": "2026-04-01",
+        "stars": 68
+      },
+      {
+        "date": "2026-04-09",
         "stars": 68
       }
     ],
     "star_velocity": 0
   },
   "anniedotexe/Instagram-Like-Comment-Bot": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -22568,16 +23320,20 @@
       {
         "date": "2026-04-01",
         "stars": 66
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 65
       }
     ],
     "star_velocity": 0
   },
   "TnYtCoder/InstaPilot": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -22681,17 +23437,21 @@
       },
       {
         "date": "2026-04-01",
+        "stars": 63
+      },
+      {
+        "date": "2026-04-09",
         "stars": 63
       }
     ],
     "star_velocity": 0
   },
   "ranahaani/autogram": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -22796,16 +23556,20 @@
       {
         "date": "2026-04-01",
         "stars": 58
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 58
       }
     ],
     "star_velocity": 0
   },
   "SashenJayathilaka/SAAS-Instagram-DM-Automations": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -22910,16 +23674,20 @@
       {
         "date": "2026-04-01",
         "stars": 43
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 44
       }
     ],
     "star_velocity": 0
   },
   "Z786ZA/instagram-scraper": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -23023,17 +23791,21 @@
       },
       {
         "date": "2026-04-01",
+        "stars": 39
+      },
+      {
+        "date": "2026-04-09",
         "stars": 39
       }
     ],
     "star_velocity": 0
   },
   "itallonardi/rapidclip-generator": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -23137,17 +23909,21 @@
       },
       {
         "date": "2026-04-01",
+        "stars": 37
+      },
+      {
+        "date": "2026-04-09",
         "stars": 37
       }
     ],
     "star_velocity": 0
   },
   "Z786ZA/instagram-scraper-api": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -23251,17 +24027,21 @@
       },
       {
         "date": "2026-04-01",
+        "stars": 33
+      },
+      {
+        "date": "2026-04-09",
         "stars": 33
       }
     ],
     "star_velocity": 0
   },
   "Z786ZA/instagram-api-documentation": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -23366,13 +24146,17 @@
       {
         "date": "2026-04-01",
         "stars": 35
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 36
       }
     ],
     "star_velocity": 0
   },
   "nelsonmis/instablaster": {
     "appearances": 27,
-    "streak": 27,
+    "streak": 0,
     "last_seen": "2026-04-01",
     "first_seen": "2026-03-06",
     "last_seen_prev": "2026-04-01",
@@ -23485,11 +24269,11 @@
     "star_velocity": 0
   },
   "Z786ZA/instagram-scraper-tool": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -23594,16 +24378,20 @@
       {
         "date": "2026-04-01",
         "stars": 31
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 31
       }
     ],
     "star_velocity": 0
   },
   "bigint/hey": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -23708,16 +24496,20 @@
       {
         "date": "2026-04-01",
         "stars": 29487
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 29466
       }
     ],
-    "star_velocity": -1
+    "star_velocity": 0
   },
   "gitroomhq/postiz-app": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -23822,16 +24614,20 @@
       {
         "date": "2026-04-01",
         "stars": 27755
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 27959
       }
     ],
-    "star_velocity": 23
+    "star_velocity": 0
   },
   "growchief/growchief": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -23936,16 +24732,20 @@
       {
         "date": "2026-04-01",
         "stars": 3297
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 3297
       }
     ],
-    "star_velocity": -1
+    "star_velocity": 0
   },
   "langchain-ai/social-media-agent": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -24050,16 +24850,20 @@
       {
         "date": "2026-04-01",
         "stars": 2438
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 2470
       }
     ],
-    "star_velocity": 3
+    "star_velocity": 0
   },
   "leaperone/MultiPost-Extension": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -24164,16 +24968,20 @@
       {
         "date": "2026-04-01",
         "stars": 2149
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 2158
       }
     ],
-    "star_velocity": 1
+    "star_velocity": 0
   },
   "iszhouhua/social-media-copilot": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -24278,16 +25086,20 @@
       {
         "date": "2026-04-01",
         "stars": 993
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 1007
       }
     ],
-    "star_velocity": 2
+    "star_velocity": 0
   },
   "apify/apify-mcp-server": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -24392,16 +25204,20 @@
       {
         "date": "2026-04-01",
         "stars": 993
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 1041
       }
     ],
-    "star_velocity": 5
+    "star_velocity": 0
   },
   "feeddeck/feeddeck": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -24506,16 +25322,20 @@
       {
         "date": "2026-04-01",
         "stars": 307
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 306
       }
     ],
     "star_velocity": 0
   },
   "leandronorcio/munia": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -24620,16 +25440,20 @@
       {
         "date": "2026-04-01",
         "stars": 294
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 293
       }
     ],
     "star_velocity": 0
   },
   "gabboman/wafrn": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -24734,16 +25558,20 @@
       {
         "date": "2026-04-01",
         "stars": 289
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 288
       }
     ],
     "star_velocity": 0
   },
   "neplexlabs/canvacord": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -24847,17 +25675,21 @@
       },
       {
         "date": "2026-04-01",
+        "stars": 259
+      },
+      {
+        "date": "2026-04-09",
         "stars": 259
       }
     ],
     "star_velocity": 0
   },
   "danilobatson/ai-trading-agent-gemini": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -24961,17 +25793,21 @@
       },
       {
         "date": "2026-04-01",
+        "stars": 212
+      },
+      {
+        "date": "2026-04-09",
         "stars": 212
       }
     ],
     "star_velocity": 0
   },
   "boqingren/tiktok-emojis": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -25076,16 +25912,20 @@
       {
         "date": "2026-04-01",
         "stars": 202
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 202
       }
     ],
     "star_velocity": 0
   },
   "huggingface/diffusers": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -25190,16 +26030,20 @@
       {
         "date": "2026-04-01",
         "stars": 33231
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 33284
       }
     ],
-    "star_velocity": 10
+    "star_velocity": 0
   },
   "PicoTrex/Awesome-Nano-Banana-images": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -25304,16 +26148,20 @@
       {
         "date": "2026-04-01",
         "stars": 21877
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 22011
       }
     ],
-    "star_velocity": 30
+    "star_velocity": 0
   },
   "FoundationVision/VAR": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -25418,16 +26266,20 @@
       {
         "date": "2026-04-01",
         "stars": 8659
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 8668
       }
     ],
-    "star_velocity": 2
+    "star_velocity": 0
   },
   "brycedrennan/imaginAIry": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -25532,16 +26384,20 @@
       {
         "date": "2026-04-01",
         "stars": 8144
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 8141
       }
     ],
     "star_velocity": 0
   },
   "QwenLM/Qwen-Image": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -25646,16 +26502,20 @@
       {
         "date": "2026-04-01",
         "stars": 7689
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 7743
       }
     ],
-    "star_velocity": 12
+    "star_velocity": 0
   },
   "salesforce/BLIP": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -25760,16 +26620,20 @@
       {
         "date": "2026-04-01",
         "stars": 5699
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 5700
       }
     ],
     "star_velocity": 0
   },
   "xxlong0/Wonder3D": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -25874,16 +26738,20 @@
       {
         "date": "2026-04-01",
         "stars": 5346
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 5351
       }
     ],
     "star_velocity": 0
   },
   "MeiGen-AI/InfiniteTalk": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -25988,16 +26856,20 @@
       {
         "date": "2026-04-01",
         "stars": 5233
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 5909
       }
     ],
-    "star_velocity": 18
+    "star_velocity": 0
   },
   "VectorSpaceLab/OmniGen": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -26102,16 +26974,20 @@
       {
         "date": "2026-04-01",
         "stars": 4314
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 4311
       }
     ],
     "star_velocity": 0
   },
   "Hunyuan-PromptEnhancer/PromptEnhancer": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -26216,16 +27092,20 @@
       {
         "date": "2026-04-01",
         "stars": 3657
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 3662
       }
     ],
     "star_velocity": 0
   },
   "AiuniAI/Unique3D": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -26330,16 +27210,20 @@
       {
         "date": "2026-04-01",
         "stars": 3553
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 3556
       }
     ],
-    "star_velocity": 1
+    "star_velocity": 0
   },
   "open-xml-templating/docxtemplater": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -26444,16 +27328,20 @@
       {
         "date": "2026-04-01",
         "stars": 3539
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 3545
       }
     ],
-    "star_velocity": 1
+    "star_velocity": 0
   },
   "Tencent-Hunyuan/Hunyuan3D-1": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -26558,16 +27446,20 @@
       {
         "date": "2026-04-01",
         "stars": 3475
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 3473
       }
     ],
     "star_velocity": 0
   },
   "DLR-RM/BlenderProc": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -26672,16 +27564,20 @@
       {
         "date": "2026-04-01",
         "stars": 3462
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 3476
       }
     ],
-    "star_velocity": 1
+    "star_velocity": 0
   },
   "symfony/asset": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -26786,16 +27682,20 @@
       {
         "date": "2026-04-01",
         "stars": 3162
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 3160
       }
     ],
     "star_velocity": 0
   },
   "elegantapp/pwa-asset-generator": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -26900,16 +27800,20 @@
       {
         "date": "2026-04-01",
         "stars": 3006
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 3004
       }
     ],
-    "star_velocity": 1
+    "star_velocity": 0
   },
   "Tencent-Hunyuan/HunyuanImage-3.0": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -27014,16 +27918,20 @@
       {
         "date": "2026-04-01",
         "stars": 2957
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 2979
       }
     ],
-    "star_velocity": 2
+    "star_velocity": 0
   },
   "Yutong-Zhou-cv/Awesome-Text-to-Image": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -27128,16 +28036,20 @@
       {
         "date": "2026-04-01",
         "stars": 2431
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 2429
       }
     ],
     "star_velocity": 0
   },
   "antirez/iris.c": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -27242,16 +28154,20 @@
       {
         "date": "2026-04-01",
         "stars": 1913
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 1918
       }
     ],
-    "star_velocity": 1
+    "star_velocity": 0
   },
   "Kav-K/GPTDiscord": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -27356,16 +28272,20 @@
       {
         "date": "2026-04-01",
         "stars": 1852
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 1851
       }
     ],
     "star_velocity": 0
   },
   "szczyglis-dev/py-gpt": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -27470,16 +28390,20 @@
       {
         "date": "2026-04-01",
         "stars": 1714
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 1722
       }
     ],
-    "star_velocity": 1
+    "star_velocity": 0
   },
   "franciszzj/Leffa": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -27584,16 +28508,20 @@
       {
         "date": "2026-04-01",
         "stars": 1650
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 1648
       }
     ],
     "star_velocity": 0
   },
   "zai-org/ImageReward": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -27698,16 +28626,20 @@
       {
         "date": "2026-04-01",
         "stars": 1657
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 1659
       }
     ],
-    "star_velocity": 1
+    "star_velocity": 0
   },
   "guochengqian/Magic123": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -27812,16 +28744,20 @@
       {
         "date": "2026-04-01",
         "stars": 1621
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 1623
       }
     ],
     "star_velocity": 0
   },
   "yincongcyincong/MuseBot": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -27926,16 +28862,20 @@
       {
         "date": "2026-04-01",
         "stars": 1580
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 1581
       }
     ],
     "star_velocity": 0
   },
   "ArthurHub/HTML-Renderer": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -28040,16 +28980,20 @@
       {
         "date": "2026-04-01",
         "stars": 1366
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 1366
       }
     ],
     "star_velocity": 0
   },
   "zhaochen0110/Awesome_Think_With_Images": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -28154,16 +29098,20 @@
       {
         "date": "2026-04-01",
         "stars": 1398
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 1414
       }
     ],
-    "star_velocity": 1
+    "star_velocity": 0
   },
   "muzishen/IMAGDressing": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -28268,16 +29216,20 @@
       {
         "date": "2026-04-01",
         "stars": 1333
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 1331
       }
     ],
     "star_velocity": 0
   },
   "huanngzh/MV-Adapter": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -28382,16 +29334,20 @@
       {
         "date": "2026-04-01",
         "stars": 1256
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 1256
       }
     ],
     "star_velocity": 0
   },
   "unum-cloud/UForm": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -28496,16 +29452,20 @@
       {
         "date": "2026-04-01",
         "stars": 1228
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 1229
       }
     ],
     "star_velocity": 0
   },
   "owasp-dep-scan/dep-scan": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -28610,16 +29570,20 @@
       {
         "date": "2026-04-01",
         "stars": 1219
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 1221
       }
     ],
-    "star_velocity": 1
+    "star_velocity": 0
   },
   "KaihuaTang/Scene-Graph-Benchmark.pytorch": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -28724,16 +29688,20 @@
       {
         "date": "2026-04-01",
         "stars": 1190
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 1190
       }
     ],
     "star_velocity": 0
   },
   "jtydhr88/ComfyUI-qwenmultiangle": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -28838,9 +29806,13 @@
       {
         "date": "2026-04-01",
         "stars": 1058
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 1093
       }
     ],
-    "star_velocity": 5
+    "star_velocity": 0
   },
   "Dreamy-rain/gemini-business2api": {
     "appearances": 20,
@@ -28929,11 +29901,11 @@
     "star_velocity": 6
   },
   "FoundationVision/Waver": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -29038,16 +30010,20 @@
       {
         "date": "2026-04-01",
         "stars": 919
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 922
       }
     ],
     "star_velocity": 0
   },
   "VAST-AI-Research/MIDI-3D": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -29152,16 +30128,20 @@
       {
         "date": "2026-04-01",
         "stars": 902
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 903
       }
     ],
     "star_velocity": 0
   },
   "ZiyuGuo99/Image-Generation-CoT": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -29266,16 +30246,20 @@
       {
         "date": "2026-04-01",
         "stars": 861
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 860
       }
     ],
     "star_velocity": 0
   },
   "GAIR-NLP/anole": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -29380,16 +30364,20 @@
       {
         "date": "2026-04-01",
         "stars": 830
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 833
       }
     ],
     "star_velocity": 0
   },
   "caiyuanhao1998/Open-DiffusionGS": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -29494,9 +30482,13 @@
       {
         "date": "2026-04-01",
         "stars": 828
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 829
       }
     ],
-    "star_velocity": 1
+    "star_velocity": 0
   },
   "rksm/org-ai": {
     "appearances": 2,
@@ -29513,11 +30505,11 @@
     "star_velocity": 0
   },
   "zai-org/GLM-Image": {
-    "appearances": 27,
-    "streak": 27,
-    "last_seen": "2026-04-01",
+    "appearances": 28,
+    "streak": 28,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -29622,9 +30614,13 @@
       {
         "date": "2026-04-01",
         "stars": 841
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 857
       }
     ],
-    "star_velocity": 2
+    "star_velocity": 0
   },
   "aquasecurity/trivy": {
     "appearances": 7,
@@ -29661,22 +30657,26 @@
     "star_velocity": 174
   },
   "apache/airflow": {
-    "appearances": 2,
-    "streak": 0,
-    "last_seen": "2026-03-13",
+    "appearances": 3,
+    "streak": 1,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-13",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-13",
         "stars": 44621
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 44969
       }
     ],
     "star_velocity": 0
   },
   "nautechsystems/nautilus_trader": {
     "appearances": 3,
-    "streak": 1,
+    "streak": 0,
     "last_seen": "2026-04-01",
     "first_seen": "2026-03-06",
     "last_seen_prev": "2026-04-01",
@@ -29693,15 +30693,19 @@
     "star_velocity": 0
   },
   "Dao-AILab/flash-attention": {
-    "appearances": 2,
-    "streak": 0,
-    "last_seen": "2026-03-07",
+    "appearances": 3,
+    "streak": 1,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-06",
-    "last_seen_prev": "2026-03-07",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
         "stars": 22592
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 23246
       }
     ],
     "star_velocity": 0
@@ -29814,7 +30818,7 @@
   },
   "nlohmann/json": {
     "appearances": 9,
-    "streak": 1,
+    "streak": 0,
     "last_seen": "2026-04-01",
     "first_seen": "2026-03-06",
     "last_seen_prev": "2026-04-01",
@@ -30051,13 +31055,13 @@
     "first_seen": "2026-03-06",
     "last_seen_prev": "2026-03-06"
   },
-  "_last_run": "2026-04-01",
+  "_last_run": "2026-04-09",
   "saturndec/waoowaoo": {
-    "appearances": 26,
-    "streak": 26,
-    "last_seen": "2026-04-01",
+    "appearances": 27,
+    "streak": 27,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-07",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -30162,16 +31166,20 @@
       {
         "date": "2026-04-01",
         "stars": 10705
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 11073
       }
     ],
-    "star_velocity": 40
+    "star_velocity": 0
   },
   "aplaceforallmystuff/claude-art-skill": {
-    "appearances": 26,
-    "streak": 26,
-    "last_seen": "2026-04-01",
+    "appearances": 27,
+    "streak": 27,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-07",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-07",
@@ -30276,9 +31284,13 @@
       {
         "date": "2026-04-01",
         "stars": 81
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 89
       }
     ],
-    "star_velocity": 1
+    "star_velocity": 0
   },
   "GopeedLab/gopeed": {
     "appearances": 3,
@@ -30594,7 +31606,7 @@
   },
   "sudheerj/reactjs-interview-questions": {
     "appearances": 2,
-    "streak": 1,
+    "streak": 0,
     "last_seen": "2026-04-01",
     "first_seen": "2026-03-07",
     "last_seen_prev": "2026-04-01",
@@ -30661,11 +31673,11 @@
     "star_velocity": 0
   },
   "BeyteFlow/ReadmeGenAI": {
-    "appearances": 25,
-    "streak": 25,
-    "last_seen": "2026-04-01",
+    "appearances": 26,
+    "streak": 26,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-08",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-08",
@@ -30766,16 +31778,20 @@
       {
         "date": "2026-04-01",
         "stars": 65
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 71
       }
     ],
-    "star_velocity": 2
+    "star_velocity": 0
   },
   "akd-io/create-next-stack": {
-    "appearances": 25,
-    "streak": 25,
-    "last_seen": "2026-04-01",
+    "appearances": 26,
+    "streak": 26,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-08",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-08",
@@ -30876,16 +31892,20 @@
       {
         "date": "2026-04-01",
         "stars": 570
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 569
       }
     ],
     "star_velocity": 0
   },
   "FireRedTeam/FireRed-Image-Edit": {
-    "appearances": 25,
-    "streak": 25,
-    "last_seen": "2026-04-01",
+    "appearances": 26,
+    "streak": 26,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-08",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-08",
@@ -30986,9 +32006,13 @@
       {
         "date": "2026-04-01",
         "stars": 1127
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 1131
       }
     ],
-    "star_velocity": 1
+    "star_velocity": 0
   },
   "ripienaar/free-for-dev": {
     "appearances": 5,
@@ -31079,11 +32103,11 @@
     "star_velocity": 30
   },
   "sindresorhus/awesome": {
-    "appearances": 3,
-    "streak": 0,
-    "last_seen": "2026-03-23",
+    "appearances": 4,
+    "streak": 1,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-08",
-    "last_seen_prev": "2026-03-23",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-08",
@@ -31096,9 +32120,13 @@
       {
         "date": "2026-03-23",
         "stars": 448170
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 453536
       }
     ],
-    "star_velocity": 342
+    "star_velocity": 0
   },
   "element-hq/element-web": {
     "appearances": 1,
@@ -31209,11 +32237,11 @@
     "star_velocity": 0
   },
   "laurent22/joplin": {
-    "appearances": 3,
-    "streak": 0,
-    "last_seen": "2026-03-23",
+    "appearances": 4,
+    "streak": 1,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-08",
-    "last_seen_prev": "2026-03-23",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-08",
@@ -31226,9 +32254,13 @@
       {
         "date": "2026-03-23",
         "stars": 54026
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 54278
       }
     ],
-    "star_velocity": 25
+    "star_velocity": 0
   },
   "godotengine/godot-demo-projects": {
     "appearances": 3,
@@ -31253,11 +32285,11 @@
     "star_velocity": 0
   },
   "PKU-YuanGroup/Helios": {
-    "appearances": 24,
-    "streak": 24,
-    "last_seen": "2026-04-01",
+    "appearances": 25,
+    "streak": 25,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-09",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-09",
@@ -31354,16 +32386,20 @@
       {
         "date": "2026-04-01",
         "stars": 1611
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 1651
       }
     ],
-    "star_velocity": 14
+    "star_velocity": 0
   },
   "DedInc/bingart": {
-    "appearances": 24,
-    "streak": 24,
-    "last_seen": "2026-04-01",
+    "appearances": 25,
+    "streak": 25,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-09",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-09",
@@ -31460,16 +32496,20 @@
       {
         "date": "2026-04-01",
         "stars": 53
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 53
       }
     ],
     "star_velocity": 0
   },
   "Siddhesh2377/ToolNeuron": {
-    "appearances": 24,
-    "streak": 24,
-    "last_seen": "2026-04-01",
+    "appearances": 25,
+    "streak": 25,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-09",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-09",
@@ -31566,16 +32606,20 @@
       {
         "date": "2026-04-01",
         "stars": 314
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 334
       }
     ],
-    "star_velocity": 2
+    "star_velocity": 0
   },
   "nygardk/react-share": {
-    "appearances": 24,
-    "streak": 24,
-    "last_seen": "2026-04-01",
+    "appearances": 25,
+    "streak": 25,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-09",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-09",
@@ -31672,16 +32716,20 @@
       {
         "date": "2026-04-01",
         "stars": 2802
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 2803
       }
     ],
     "star_velocity": 0
   },
   "f/prompts.chat": {
-    "appearances": 8,
-    "streak": 2,
-    "last_seen": "2026-04-01",
+    "appearances": 9,
+    "streak": 3,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-09",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-09",
@@ -31714,9 +32762,13 @@
       {
         "date": "2026-04-01",
         "stars": 155660
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 158723
       }
     ],
-    "star_velocity": 448
+    "star_velocity": 0
   },
   "nextcloud/all-in-one": {
     "appearances": 1,
@@ -32029,11 +33081,11 @@
     "star_velocity": 0
   },
   "pingcap/tidb": {
-    "appearances": 4,
-    "streak": 0,
-    "last_seen": "2026-03-21",
+    "appearances": 5,
+    "streak": 1,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-10",
-    "last_seen_prev": "2026-03-21",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-10",
@@ -32050,9 +33102,13 @@
       {
         "date": "2026-03-21",
         "stars": 39927
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 39934
       }
     ],
-    "star_velocity": 3
+    "star_velocity": 0
   },
   "milvus-io/milvus": {
     "appearances": 2,
@@ -32133,11 +33189,11 @@
     "star_velocity": 0
   },
   "n8n-io/n8n": {
-    "appearances": 7,
-    "streak": 0,
-    "last_seen": "2026-03-27",
+    "appearances": 8,
+    "streak": 1,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-10",
-    "last_seen_prev": "2026-03-27",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-10",
@@ -32166,9 +33222,13 @@
       {
         "date": "2026-03-27",
         "stars": 181349
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 183250
       }
     ],
-    "star_velocity": 174
+    "star_velocity": 0
   },
   "google-deepmind/mujoco": {
     "appearances": 3,
@@ -32389,11 +33449,11 @@
     "star_velocity": 0
   },
   "projectdiscovery/nuclei-templates": {
-    "appearances": 3,
-    "streak": 0,
-    "last_seen": "2026-03-19",
+    "appearances": 4,
+    "streak": 1,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-11",
-    "last_seen_prev": "2026-03-19",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-11",
@@ -32406,16 +33466,20 @@
       {
         "date": "2026-03-19",
         "stars": 12068
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 12147
       }
     ],
-    "star_velocity": 5
+    "star_velocity": 0
   },
   "NVIDIA/Megatron-LM": {
-    "appearances": 2,
-    "streak": 0,
-    "last_seen": "2026-03-12",
+    "appearances": 3,
+    "streak": 1,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-11",
-    "last_seen_prev": "2026-03-12",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-11",
@@ -32424,9 +33488,13 @@
       {
         "date": "2026-03-12",
         "stars": 15613
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 15974
       }
     ],
-    "star_velocity": 17
+    "star_velocity": 0
   },
   "mailcow/mailcow-dockerized": {
     "appearances": 2,
@@ -32447,11 +33515,11 @@
     "star_velocity": 15
   },
   "nats-io/nats-server": {
-    "appearances": 2,
-    "streak": 0,
-    "last_seen": "2026-03-17",
+    "appearances": 3,
+    "streak": 1,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-11",
-    "last_seen_prev": "2026-03-17",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-11",
@@ -32460,13 +33528,17 @@
       {
         "date": "2026-03-17",
         "stars": 19360
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 19535
       }
     ],
-    "star_velocity": 7
+    "star_velocity": 0
   },
   "dotnet/dotnet": {
     "appearances": 4,
-    "streak": 1,
+    "streak": 0,
     "last_seen": "2026-04-01",
     "first_seen": "2026-03-11",
     "last_seen_prev": "2026-04-01",
@@ -32553,11 +33625,11 @@
     "star_velocity": 10
   },
   "jesseduffield/lazygit": {
-    "appearances": 5,
-    "streak": 0,
-    "last_seen": "2026-03-17",
+    "appearances": 6,
+    "streak": 1,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-11",
-    "last_seen_prev": "2026-03-17",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-11",
@@ -32578,9 +33650,13 @@
       {
         "date": "2026-03-17",
         "stars": 74486
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 76013
       }
     ],
-    "star_velocity": 86
+    "star_velocity": 0
   },
   "Devolutions/UniGetUI": {
     "appearances": 3,
@@ -32715,25 +33791,29 @@
     "star_velocity": 0
   },
   "cli/cli": {
-    "appearances": 1,
-    "streak": 0,
-    "last_seen": "2026-03-11",
+    "appearances": 2,
+    "streak": 1,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-11",
-    "last_seen_prev": "2026-03-11",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-11",
         "stars": 43101
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 43686
       }
     ],
     "star_velocity": 0
   },
   "better-stack-ai/better-stack": {
-    "appearances": 21,
-    "streak": 21,
-    "last_seen": "2026-04-01",
+    "appearances": 22,
+    "streak": 22,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-12",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-12",
@@ -32818,16 +33898,20 @@
       {
         "date": "2026-04-01",
         "stars": 57
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 53
       }
     ],
     "star_velocity": 0
   },
   "v8hid/infinite-zoom-automatic1111-webui": {
-    "appearances": 21,
-    "streak": 21,
-    "last_seen": "2026-04-01",
+    "appearances": 22,
+    "streak": 22,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-12",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-12",
@@ -32912,16 +33996,20 @@
       {
         "date": "2026-04-01",
         "stars": 676
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 675
       }
     ],
     "star_velocity": 0
   },
   "Lmyxxn/LAETwin-XL": {
-    "appearances": 21,
-    "streak": 21,
-    "last_seen": "2026-04-01",
+    "appearances": 22,
+    "streak": 22,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-12",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-12",
@@ -33006,13 +34094,17 @@
       {
         "date": "2026-04-01",
         "stars": 39
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 33
       }
     ],
     "star_velocity": 0
   },
   "jaywcjlove/awesome-mac": {
     "appearances": 4,
-    "streak": 1,
+    "streak": 0,
     "last_seen": "2026-04-01",
     "first_seen": "2026-03-12",
     "last_seen_prev": "2026-04-01",
@@ -33101,11 +34193,11 @@
     "star_velocity": 0
   },
   "apache/superset": {
-    "appearances": 7,
-    "streak": 1,
-    "last_seen": "2026-04-01",
+    "appearances": 8,
+    "streak": 2,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-12",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-12",
@@ -33134,9 +34226,13 @@
       {
         "date": "2026-04-01",
         "stars": 72164
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 72308
       }
     ],
-    "star_velocity": 197
+    "star_velocity": 0
   },
   "junegunn/fzf": {
     "appearances": 2,
@@ -33158,7 +34254,7 @@
   },
   "usememos/memos": {
     "appearances": 3,
-    "streak": 1,
+    "streak": 0,
     "last_seen": "2026-04-01",
     "first_seen": "2026-03-12",
     "last_seen_prev": "2026-04-01",
@@ -33380,7 +34476,7 @@
   },
   "OpenBB-finance/OpenBB": {
     "appearances": 8,
-    "streak": 4,
+    "streak": 0,
     "last_seen": "2026-04-01",
     "first_seen": "2026-03-13",
     "last_seen_prev": "2026-04-01",
@@ -33421,15 +34517,19 @@
     "star_velocity": 346
   },
   "huggingface/transformers": {
-    "appearances": 1,
-    "streak": 0,
-    "last_seen": "2026-03-13",
+    "appearances": 2,
+    "streak": 1,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-13",
-    "last_seen_prev": "2026-03-13",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-13",
         "stars": 157804
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 159095
       }
     ],
     "star_velocity": 0
@@ -33537,11 +34637,11 @@
     "star_velocity": 31
   },
   "codecrafters-io/build-your-own-x": {
-    "appearances": 7,
-    "streak": 0,
-    "last_seen": "2026-03-31",
+    "appearances": 8,
+    "streak": 1,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-14",
-    "last_seen_prev": "2026-03-31",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-14",
@@ -33570,9 +34670,13 @@
       {
         "date": "2026-03-31",
         "stars": 485012
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 488158
       }
     ],
-    "star_velocity": 310
+    "star_velocity": 0
   },
   "servo/servo": {
     "appearances": 2,
@@ -33593,11 +34697,11 @@
     "star_velocity": 0
   },
   "mui/material-ui": {
-    "appearances": 2,
-    "streak": 0,
-    "last_seen": "2026-03-28",
+    "appearances": 3,
+    "streak": 1,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-14",
-    "last_seen_prev": "2026-03-28",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-14",
@@ -33606,6 +34710,10 @@
       {
         "date": "2026-03-28",
         "stars": 98019
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 98083
       }
     ],
     "star_velocity": 0
@@ -33754,7 +34862,7 @@
   },
   "freeCodeCamp/freeCodeCamp": {
     "appearances": 6,
-    "streak": 4,
+    "streak": 0,
     "last_seen": "2026-04-01",
     "first_seen": "2026-03-15",
     "last_seen_prev": "2026-04-01",
@@ -33865,11 +34973,11 @@
     "star_velocity": 0
   },
   "BCG-X-Official/agentkit": {
-    "appearances": 17,
-    "streak": 17,
-    "last_seen": "2026-04-01",
+    "appearances": 18,
+    "streak": 18,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-16",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-16",
@@ -33938,6 +35046,10 @@
       {
         "date": "2026-04-01",
         "stars": 1947
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 1945
       }
     ],
     "star_velocity": 0
@@ -34205,11 +35317,11 @@
     "star_velocity": 0
   },
   "unlayer/react-email-editor": {
-    "appearances": 16,
-    "streak": 16,
-    "last_seen": "2026-04-01",
+    "appearances": 17,
+    "streak": 17,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-17",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-17",
@@ -34274,16 +35386,20 @@
       {
         "date": "2026-04-01",
         "stars": 5103
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 5106
       }
     ],
-    "star_velocity": 1
+    "star_velocity": 0
   },
   "NVlabs/Sana": {
-    "appearances": 16,
-    "streak": 16,
-    "last_seen": "2026-04-01",
+    "appearances": 17,
+    "streak": 17,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-17",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-17",
@@ -34348,9 +35464,13 @@
       {
         "date": "2026-04-01",
         "stars": 5037
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 5049
       }
     ],
-    "star_velocity": 2
+    "star_velocity": 0
   },
   "paperless-ngx/paperless-ngx": {
     "appearances": 2,
@@ -34527,11 +35647,11 @@
     "star_velocity": 0
   },
   "thu-ml/Motus": {
-    "appearances": 15,
-    "streak": 15,
-    "last_seen": "2026-04-01",
+    "appearances": 16,
+    "streak": 16,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-18",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-18",
@@ -34592,9 +35712,13 @@
       {
         "date": "2026-04-01",
         "stars": 922
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 943
       }
     ],
-    "star_velocity": 3
+    "star_velocity": 0
   },
   "ARISE-Initiative/robosuite": {
     "appearances": 2,
@@ -34694,7 +35818,7 @@
   },
   "grokability/snipe-it": {
     "appearances": 2,
-    "streak": 1,
+    "streak": 0,
     "last_seen": "2026-04-01",
     "first_seen": "2026-03-18",
     "last_seen_prev": "2026-04-01",
@@ -34835,11 +35959,11 @@
     "star_velocity": 0
   },
   "JiSenHua/ComfyUI-TD": {
-    "appearances": 14,
-    "streak": 14,
-    "last_seen": "2026-04-01",
+    "appearances": 15,
+    "streak": 15,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-19",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-19",
@@ -34896,16 +36020,20 @@
       {
         "date": "2026-04-01",
         "stars": 141
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 141
       }
     ],
-    "star_velocity": 1
+    "star_velocity": 0
   },
   "DayMoonDevelopment/post-for-me": {
-    "appearances": 14,
-    "streak": 14,
-    "last_seen": "2026-04-01",
+    "appearances": 15,
+    "streak": 15,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-19",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-19",
@@ -34962,9 +36090,13 @@
       {
         "date": "2026-04-01",
         "stars": 37
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 39
       }
     ],
-    "star_velocity": 1
+    "star_velocity": 0
   },
   "SigNoz/signoz": {
     "appearances": 1,
@@ -35221,11 +36353,11 @@
     "star_velocity": 56
   },
   "traefik/traefik": {
-    "appearances": 2,
-    "streak": 0,
-    "last_seen": "2026-03-22",
+    "appearances": 3,
+    "streak": 1,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-20",
-    "last_seen_prev": "2026-03-22",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-20",
@@ -35234,9 +36366,13 @@
       {
         "date": "2026-03-22",
         "stars": 62335
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 62576
       }
     ],
-    "star_velocity": 27
+    "star_velocity": 0
   },
   "skypilot-org/skypilot": {
     "appearances": 2,
@@ -35336,7 +36472,7 @@
   },
   "python/mypy": {
     "appearances": 3,
-    "streak": 1,
+    "streak": 0,
     "last_seen": "2026-04-01",
     "first_seen": "2026-03-20",
     "last_seen_prev": "2026-04-01",
@@ -35399,11 +36535,11 @@
     "star_velocity": 0
   },
   "masterFuf/taktik-bot": {
-    "appearances": 12,
-    "streak": 12,
-    "last_seen": "2026-04-01",
+    "appearances": 13,
+    "streak": 13,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-21",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-21",
@@ -35452,16 +36588,20 @@
       {
         "date": "2026-04-01",
         "stars": 34
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 36
       }
     ],
-    "star_velocity": 1
+    "star_velocity": 0
   },
   "adolfousier/socialcrabs": {
-    "appearances": 12,
-    "streak": 12,
-    "last_seen": "2026-04-01",
+    "appearances": 13,
+    "streak": 13,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-21",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-21",
@@ -35510,9 +36650,13 @@
       {
         "date": "2026-04-01",
         "stars": 39
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 47
       }
     ],
-    "star_velocity": 1
+    "star_velocity": 0
   },
   "n0-computer/iroh": {
     "appearances": 1,
@@ -36021,15 +37165,19 @@
     "star_velocity": 61
   },
   "modelscope/FunASR": {
-    "appearances": 1,
-    "streak": 0,
-    "last_seen": "2026-03-24",
+    "appearances": 2,
+    "streak": 1,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-24",
-    "last_seen_prev": "2026-03-24",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-24",
         "stars": 15368
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 15601
       }
     ],
     "star_velocity": 0
@@ -36105,15 +37253,19 @@
     "star_velocity": 0
   },
   "directus/directus": {
-    "appearances": 1,
-    "streak": 0,
-    "last_seen": "2026-03-24",
+    "appearances": 2,
+    "streak": 1,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-24",
-    "last_seen_prev": "2026-03-24",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-24",
         "stars": 34561
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 34734
       }
     ],
     "star_velocity": 0
@@ -36307,11 +37459,11 @@
     "star_velocity": 0
   },
   "yukkcat/gemini-business2api": {
-    "appearances": 7,
-    "streak": 7,
-    "last_seen": "2026-04-01",
+    "appearances": 8,
+    "streak": 8,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-26",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-26",
@@ -36340,9 +37492,13 @@
       {
         "date": "2026-04-01",
         "stars": 1171
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 1193
       }
     ],
-    "star_velocity": 4
+    "star_velocity": 0
   },
   "ente-io/ente": {
     "appearances": 2,
@@ -36494,7 +37650,7 @@
   },
   "spiffe/spire": {
     "appearances": 2,
-    "streak": 1,
+    "streak": 0,
     "last_seen": "2026-04-01",
     "first_seen": "2026-03-27",
     "last_seen_prev": "2026-04-01",
@@ -36553,11 +37709,11 @@
     "star_velocity": 0
   },
   "malmes420/microsoft-office-key-generator": {
-    "appearances": 5,
-    "streak": 5,
-    "last_seen": "2026-04-01",
+    "appearances": 6,
+    "streak": 6,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-28",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-28",
@@ -36578,9 +37734,13 @@
       {
         "date": "2026-04-01",
         "stars": 57
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 57
       }
     ],
-    "star_velocity": 3
+    "star_velocity": 0
   },
   "nextcloud/server": {
     "appearances": 1,
@@ -36657,15 +37817,19 @@
     "star_velocity": 0
   },
   "wagtail/wagtail": {
-    "appearances": 1,
-    "streak": 0,
-    "last_seen": "2026-03-28",
+    "appearances": 2,
+    "streak": 1,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-28",
-    "last_seen_prev": "2026-03-28",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-28",
         "stars": 20266
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 20289
       }
     ],
     "star_velocity": 0
@@ -36699,11 +37863,11 @@
     "star_velocity": 0
   },
   "JCodesMore/ai-website-cloner-template": {
-    "appearances": 4,
-    "streak": 4,
-    "last_seen": "2026-04-01",
+    "appearances": 5,
+    "streak": 5,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-29",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-29",
@@ -36720,16 +37884,20 @@
       {
         "date": "2026-04-01",
         "stars": 6794
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 9261
       }
     ],
-    "star_velocity": 754
+    "star_velocity": 0
   },
   "radishzzz/astro-theme-retypeset": {
-    "appearances": 4,
-    "streak": 4,
-    "last_seen": "2026-04-01",
+    "appearances": 5,
+    "streak": 5,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-29",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-29",
@@ -36746,16 +37914,20 @@
       {
         "date": "2026-04-01",
         "stars": 641
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 644
       }
     ],
-    "star_velocity": 1
+    "star_velocity": 0
   },
   "handsupmin/mono-pix": {
-    "appearances": 4,
-    "streak": 4,
-    "last_seen": "2026-04-01",
+    "appearances": 5,
+    "streak": 5,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-29",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-29",
@@ -36772,9 +37944,13 @@
       {
         "date": "2026-04-01",
         "stars": 70
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 79
       }
     ],
-    "star_velocity": 5
+    "star_velocity": 0
   },
   "Z4nzu/hackingtool": {
     "appearances": 3,
@@ -36828,7 +38004,7 @@
   },
   "neovim/neovim": {
     "appearances": 4,
-    "streak": 4,
+    "streak": 0,
     "last_seen": "2026-04-01",
     "first_seen": "2026-03-29",
     "last_seen_prev": "2026-04-01",
@@ -36881,11 +38057,11 @@
     "star_velocity": 0
   },
   "getpaykit/paykit": {
-    "appearances": 3,
-    "streak": 3,
-    "last_seen": "2026-04-01",
+    "appearances": 4,
+    "streak": 4,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-03-30",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-03-30",
@@ -36898,9 +38074,13 @@
       {
         "date": "2026-04-01",
         "stars": 263
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 407
       }
     ],
-    "star_velocity": 2
+    "star_velocity": 0
   },
   "calcom/cal.com": {
     "appearances": 2,
@@ -37037,22 +38217,26 @@
     "star_velocity": 0
   },
   "agent-messenger/agent-messenger": {
-    "appearances": 1,
-    "streak": 1,
-    "last_seen": "2026-04-01",
+    "appearances": 2,
+    "streak": 2,
+    "last_seen": "2026-04-09",
     "first_seen": "2026-04-01",
-    "last_seen_prev": "2026-04-01",
+    "last_seen_prev": "2026-04-09",
     "star_snapshots": [
       {
         "date": "2026-04-01",
         "stars": 37
+      },
+      {
+        "date": "2026-04-09",
+        "stars": 44
       }
     ],
     "star_velocity": 0
   },
   "axios/axios": {
     "appearances": 1,
-    "streak": 1,
+    "streak": 0,
     "last_seen": "2026-04-01",
     "first_seen": "2026-04-01",
     "last_seen_prev": "2026-04-01",
@@ -37066,7 +38250,7 @@
   },
   "vadimdemedes/ink": {
     "appearances": 1,
-    "streak": 1,
+    "streak": 0,
     "last_seen": "2026-04-01",
     "first_seen": "2026-04-01",
     "last_seen_prev": "2026-04-01",
@@ -37080,7 +38264,7 @@
   },
   "OWASP/wstg": {
     "appearances": 1,
-    "streak": 1,
+    "streak": 0,
     "last_seen": "2026-04-01",
     "first_seen": "2026-04-01",
     "last_seen_prev": "2026-04-01",
@@ -37094,7 +38278,7 @@
   },
   "kubernetes-sigs/kubespray": {
     "appearances": 1,
-    "streak": 1,
+    "streak": 0,
     "last_seen": "2026-04-01",
     "first_seen": "2026-04-01",
     "last_seen_prev": "2026-04-01",
@@ -37108,7 +38292,7 @@
   },
   "steven2358/awesome-generative-ai": {
     "appearances": 1,
-    "streak": 1,
+    "streak": 0,
     "last_seen": "2026-04-01",
     "first_seen": "2026-04-01",
     "last_seen_prev": "2026-04-01",
@@ -37122,7 +38306,7 @@
   },
   "oven-sh/bun": {
     "appearances": 1,
-    "streak": 1,
+    "streak": 0,
     "last_seen": "2026-04-01",
     "first_seen": "2026-04-01",
     "last_seen_prev": "2026-04-01",
@@ -37136,7 +38320,7 @@
   },
   "argoproj/argo-rollouts": {
     "appearances": 1,
-    "streak": 1,
+    "streak": 0,
     "last_seen": "2026-04-01",
     "first_seen": "2026-04-01",
     "last_seen_prev": "2026-04-01",
@@ -37150,7 +38334,7 @@
   },
   "gristlabs/grist-core": {
     "appearances": 1,
-    "streak": 1,
+    "streak": 0,
     "last_seen": "2026-04-01",
     "first_seen": "2026-04-01",
     "last_seen_prev": "2026-04-01",
@@ -37164,7 +38348,7 @@
   },
   "project-zot/zot": {
     "appearances": 1,
-    "streak": 1,
+    "streak": 0,
     "last_seen": "2026-04-01",
     "first_seen": "2026-04-01",
     "last_seen_prev": "2026-04-01",
@@ -37172,6 +38356,160 @@
       {
         "date": "2026-04-01",
         "stars": 1999
+      }
+    ],
+    "star_velocity": 0
+  },
+  "pjborowiecki/saasyland.com": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-04-09",
+    "first_seen": "2026-04-09",
+    "last_seen_prev": "2026-04-09",
+    "star_snapshots": [
+      {
+        "date": "2026-04-09",
+        "stars": 423
+      }
+    ],
+    "star_velocity": 0
+  },
+  "ArcReel/ArcReel": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-04-09",
+    "first_seen": "2026-04-09",
+    "last_seen_prev": "2026-04-09",
+    "star_snapshots": [
+      {
+        "date": "2026-04-09",
+        "stars": 1553
+      }
+    ],
+    "star_velocity": 0
+  },
+  "calesthio/OpenMontage": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-04-09",
+    "first_seen": "2026-04-09",
+    "last_seen_prev": "2026-04-09",
+    "star_snapshots": [
+      {
+        "date": "2026-04-09",
+        "stars": 987
+      }
+    ],
+    "star_velocity": 0
+  },
+  "AgriciDaniel/claude-prompts": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-04-09",
+    "first_seen": "2026-04-09",
+    "last_seen_prev": "2026-04-09",
+    "star_snapshots": [
+      {
+        "date": "2026-04-09",
+        "stars": 61
+      }
+    ],
+    "star_velocity": 0
+  },
+  "ebringelvissanchez/Image-AI-Generator-2026": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-04-09",
+    "first_seen": "2026-04-09",
+    "last_seen_prev": "2026-04-09",
+    "star_snapshots": [
+      {
+        "date": "2026-04-09",
+        "stars": 54
+      }
+    ],
+    "star_velocity": 0
+  },
+  "shad712/Social-Media-Mass-Automation-Suite": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-04-09",
+    "first_seen": "2026-04-09",
+    "last_seen_prev": "2026-04-09",
+    "star_snapshots": [
+      {
+        "date": "2026-04-09",
+        "stars": 34
+      }
+    ],
+    "star_velocity": 0
+  },
+  "elebumm/RedditVideoMakerBot": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-04-09",
+    "first_seen": "2026-04-09",
+    "last_seen_prev": "2026-04-09",
+    "star_snapshots": [
+      {
+        "date": "2026-04-09",
+        "stars": 10806
+      }
+    ],
+    "star_velocity": 0
+  },
+  "veracrypt/VeraCrypt": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-04-09",
+    "first_seen": "2026-04-09",
+    "last_seen_prev": "2026-04-09",
+    "star_snapshots": [
+      {
+        "date": "2026-04-09",
+        "stars": 9506
+      }
+    ],
+    "star_velocity": 0
+  },
+  "evanw/esbuild": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-04-09",
+    "first_seen": "2026-04-09",
+    "last_seen_prev": "2026-04-09",
+    "star_snapshots": [
+      {
+        "date": "2026-04-09",
+        "stars": 39828
+      }
+    ],
+    "star_velocity": 0
+  },
+  "qdrant/qdrant": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-04-09",
+    "first_seen": "2026-04-09",
+    "last_seen_prev": "2026-04-09",
+    "star_snapshots": [
+      {
+        "date": "2026-04-09",
+        "stars": 30190
+      }
+    ],
+    "star_velocity": 0
+  },
+  "GoogleCloudPlatform/microservices-demo": {
+    "appearances": 1,
+    "streak": 1,
+    "last_seen": "2026-04-09",
+    "first_seen": "2026-04-09",
+    "last_seen_prev": "2026-04-09",
+    "star_snapshots": [
+      {
+        "date": "2026-04-09",
+        "stars": 20065
       }
     ],
     "star_velocity": 0
