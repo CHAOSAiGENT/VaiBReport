@@ -1,0 +1,114 @@
+{
+  "generated_at": "2026-04-09T17:31:47.913Z",
+  "source": "launches",
+  "counts": {
+    "producthunt": 13,
+    "total": 13
+  },
+  "launches": [
+    {
+      "id": "ph-1094681",
+      "name": "Brila",
+      "description": "One-page websites from real Google Maps reviews",
+      "url": "https://www.producthunt.com/r/2ENSJE4L7JILGP?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 793,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1117753",
+      "name": "Velo",
+      "description": "Share anything as video messages",
+      "url": "https://www.producthunt.com/r/5NXKZ7EKGRZVKR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 607,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1118072",
+      "name": "Google Chrome Vertical Tabs",
+      "description": "Chrome now supports vertical tabs and immersive reading mode",
+      "url": "https://www.producthunt.com/r/ATI5H6LN6XWRFG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 363,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1117042",
+      "name": "Flint",
+      "description": "Launch on-brand pages for every campaign, ad, and prospect.",
+      "url": "https://www.producthunt.com/r/4STAMVST7HAZDM?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 343,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1118430",
+      "name": "Offsite",
+      "description": "Build teams of humans and agents, watch them work.",
+      "url": "https://www.producthunt.com/r/KG36GR2MASCFOD?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 337,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1118464",
+      "name": "LookAway 2",
+      "description": "The Mac app your body thanks you for",
+      "url": "https://www.producthunt.com/r/A6NXLH4I5LIPHG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 264,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1117852",
+      "name": "Grass",
+      "description": "Gives your coding agent a dedicated VM that's ready 24/7",
+      "url": "https://www.producthunt.com/r/KJ5P7ZUD7POM4A?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 228,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1115197",
+      "name": "MindsDB Anton",
+      "description": "Business intelligence that doesn't just answer — it acts.",
+      "url": "https://www.producthunt.com/r/LH3TMZMEHOMCNJ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 184,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1117136",
+      "name": "Browser Arena",
+      "description": "Open-source benchmarks for cloud browser infrastructure",
+      "url": "https://www.producthunt.com/r/GVLBEAVNDXWGVB?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 174,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1117913",
+      "name": "Smuggl",
+      "description": "Share your localhost as an invite only link",
+      "url": "https://www.producthunt.com/r/E2EVSJ63H7365K?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 166,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1118805",
+      "name": "Onform.work",
+      "description": "Build forms with Claude",
+      "url": "https://www.producthunt.com/r/367LYMDXWZEUS7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 160,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1101738",
+      "name": "AgentMail",
+      "description": "Email Inboxes for AI Agents ",
+      "url": "https://www.producthunt.com/r/M4HONGJQGO5663?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 141,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1116818",
+      "name": "Career-Ops on Claude",
+      "description": "An AI-powered Job Search System built on Claude Code",
+      "url": "https://www.producthunt.com/r/HYDKMKYSMMT5DO?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 137,
+      "_source": "producthunt"
+    }
+  ]
+}
