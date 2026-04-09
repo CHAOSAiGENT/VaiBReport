@@ -28,10 +28,6 @@ $RECYCLE.BIN/
 *.lnk
 .claude/worktrees/
 
-# Cloned source repos — bulky, regenerated on every run (daily snapshot JSONs in data/ ARE tracked)
-data/_repos/
-_repos/
-
 # Design mockup HTML files (not source)
 design-*.html
 designs-2/
