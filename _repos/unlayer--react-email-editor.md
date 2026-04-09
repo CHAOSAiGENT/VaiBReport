@@ -3,20 +3,22 @@ layout: repo
 name: "unlayer/react-email-editor"
 source: github
 item_url: "https://github.com/unlayer/react-email-editor"
-description: "Drag-n-Drop Email Editor Component for React.js"
+description: "Embed a drag-and-drop email editor directly into your React app. Nice upsell."
 category: "AI agents, LLM infra and RAG"
 language: "TypeScript"
-stars: 5096
+stars: 5103
 downloads: 0
 likes: 0
+readme_image: "https://unroll-assets.s3.amazonaws.com/unlayervideotour.png"
 og_image: "https://opengraph.githubassets.com/1/unlayer/react-email-editor"
 first_featured: "2026-03-23"
-last_featured: "2026-03-23"
-times_featured: 1
-streak: 7
-appearances: 7
-star_velocity: 0
+last_featured: "2026-04-09"
+times_featured: 2
+streak: 16
+appearances: 16
+star_velocity: 1
 tags: [github, builder, drag-and-drop, email, email-builder, email-editor, email-marketing, email-template, html-email]
+icp_tags: ["founding-team", "pre-mvp", "entreprecurious"]
 ---
 
-Drag-n-Drop Email Editor Component for React.js
+Embed a drag-and-drop email editor directly into your React app. Nice upsell.

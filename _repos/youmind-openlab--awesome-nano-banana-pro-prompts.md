@@ -3,20 +3,21 @@ layout: repo
 name: "YouMind-OpenLab/awesome-nano-banana-pro-prompts"
 source: github
 item_url: "https://github.com/YouMind-OpenLab/awesome-nano-banana-pro-prompts"
-description: "🍌 World's largest Nano Banana Pro prompt library — 10,000+ curated prompts with preview images, 16 languages. Google Gemini AI image generation. Free & open source."
+description: "The world's largest Gemini AI image prompt library. Stop guessing, start generating amazing art."
 category: "Trending"
 language: "TypeScript"
-stars: 9596
+stars: 10456
 downloads: 0
 likes: 0
 og_image: "https://opengraph.githubassets.com/1/YouMind-OpenLab/awesome-nano-banana-pro-prompts"
 first_featured: "2026-03-24"
-last_featured: "2026-03-24"
-times_featured: 1
-streak: 19
-appearances: 19
-star_velocity: 56
+last_featured: "2026-04-09"
+times_featured: 2
+streak: 27
+appearances: 27
+star_velocity: 124
 tags: [github, ai-image-generation, ai-prompts, awesome, awesome-list, gemini, gemini-ai, google-gemini, image-generation]
+icp_tags: ["founding-team", "entreprecurious"]
 ---
 
-🍌 World's largest Nano Banana Pro prompt library — 10,000+ curated prompts with preview images, 16 languages. Google Gemini AI image generation. Free & open source.
+The world's largest Gemini AI image prompt library. Stop guessing, start generating amazing art.

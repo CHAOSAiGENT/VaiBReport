@@ -3,20 +3,21 @@ layout: repo
 name: "jbilcke-hf/ai-comic-factory"
 source: huggingface-space
 item_url: "https://huggingface.co/spaces/jbilcke-hf/ai-comic-factory"
-description: "ai-comic-factory"
+description: "Generate AI comics easily. Unleash your inner graphic novelist without drawing skills."
 category: "HuggingFace Spaces"
 language: ""
 stars: 0
 downloads: 0
-likes: 11002
+likes: 11016
 og_image: "https://huggingface.co/api/spaces/jbilcke-hf/ai-comic-factory/screenshot"
 first_featured: "2026-03-23"
-last_featured: "2026-03-23"
-times_featured: 1
+last_featured: "2026-04-09"
+times_featured: 2
 streak: 0
 appearances: 0
 star_velocity: 0
 tags: [huggingface, docker, region:us]
+icp_tags: ["non-technical", "solopreneur", "entreprecurious"]
 ---
 
-ai-comic-factory
+Generate AI comics easily. Unleash your inner graphic novelist without drawing skills.

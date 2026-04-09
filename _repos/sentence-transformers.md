@@ -3,16 +3,16 @@ layout: repo
 name: "sentence-transformers"
 source: pypi
 item_url: "https://pypi.org/project/sentence-transformers/"
-description: "Embeddings, Retrieval, and Reranking"
+description: "Embeddings, retrieval, and reranking. Essential for RAG, semantic search, and NLP."
 category: "PyPI Packages"
 language: ""
 stars: 0
-downloads: 8348063
+downloads: 5418267
 likes: 0
 og_image: ""
 first_featured: "2026-03-25"
-last_featured: "2026-03-25"
-times_featured: 1
+last_featured: "2026-04-09"
+times_featured: 2
 streak: 0
 appearances: 0
 star_velocity: 0
@@ -20,4 +20,4 @@ tags: [pypi, Transformer, Networks, BERT, XLNet, sentence, embedding, PyTorch, N
 icp_tags: ["founding-team", "solopreneur"]
 ---
 
-Embeddings, Retrieval, and Reranking
+Embeddings, retrieval, and reranking. Essential for RAG, semantic search, and NLP.
