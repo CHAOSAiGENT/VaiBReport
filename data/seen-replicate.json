@@ -69,8 +69,8 @@
       "last_featured": "2026-04-09"
     },
     "qwen/qwen3-tts": {
-      "times_featured": 1,
-      "last_featured": "2026-03-26"
+      "times_featured": 2,
+      "last_featured": "2026-04-10"
     },
     "prunaai/firered-image-edit-1.1": {
       "times_featured": 1,
@@ -81,8 +81,8 @@
       "last_featured": "2026-03-26"
     },
     "bytedance/seedream-4.5": {
-      "times_featured": 1,
-      "last_featured": "2026-03-27"
+      "times_featured": 2,
+      "last_featured": "2026-04-10"
     },
     "lucataco/sam3-video": {
       "times_featured": 1,
@@ -127,6 +127,18 @@
     "prunaai/hidream-l1-fast": {
       "times_featured": 1,
       "last_featured": "2026-04-09"
+    },
+    "ditto--ai/qwen3guard-gen-4b": {
+      "times_featured": 1,
+      "last_featured": "2026-04-10"
+    },
+    "ultralytics/yolo11n": {
+      "times_featured": 1,
+      "last_featured": "2026-04-10"
+    },
+    "ultralytics/yolov8s-worldv2": {
+      "times_featured": 1,
+      "last_featured": "2026-04-10"
     }
   }
 }

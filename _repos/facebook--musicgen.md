@@ -3,20 +3,21 @@ layout: repo
 name: "facebook/MusicGen"
 source: huggingface-space
 item_url: "https://huggingface.co/spaces/facebook/MusicGen"
-description: "MusicGen"
+description: "Generate royalty-free music with AI, saving time and licensing headaches for your content."
 category: "HuggingFace Spaces"
 language: ""
 stars: 0
 downloads: 0
-likes: 5069
+likes: 5068
 og_image: "https://huggingface.co/api/spaces/facebook/MusicGen/screenshot"
 first_featured: "2026-03-24"
-last_featured: "2026-03-24"
-times_featured: 1
+last_featured: "2026-04-10"
+times_featured: 2
 streak: 0
 appearances: 0
 star_velocity: 0
 tags: [huggingface, gradio, music generation, language models, LLMs, region:us]
+icp_tags: ["non-technical", "solopreneur", "entreprecurious"]
 ---
 
-MusicGen
+Generate royalty-free music with AI, saving time and licensing headaches for your content.

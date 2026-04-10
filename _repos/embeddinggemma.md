@@ -3,7 +3,7 @@ layout: repo
 name: "embeddinggemma"
 source: ollama
 item_url: "https://ollama.com/library/embeddinggemma"
-description: "EmbeddingGemma is a 300M parameter embedding model from Google."
+description: "Google's compact EmbeddingGemma model: powerful embeddings without the massive local resource cost."
 category: "Ollama Models"
 language: ""
 stars: 0
@@ -11,15 +11,15 @@ downloads: 0
 likes: 0
 og_image: ""
 first_featured: "2026-03-27"
-last_featured: "2026-03-27"
-times_featured: 1
+last_featured: "2026-04-10"
+times_featured: 2
 streak: 0
 appearances: 0
 star_velocity: 0
-tags: [ollama, embedding, 300m, 777.1K
-                 Pulls, 777.1K, Pulls, 5
+tags: [ollama, embedding, 300m, 956.9K
+                 Pulls, 956.9K, Pulls, 5
                  Tags, 5, Tags]
 icp_tags: ["non-technical", "pre-mvp", "entreprecurious"]
 ---
 
-EmbeddingGemma is a 300M parameter embedding model from Google.
+Google's compact EmbeddingGemma model: powerful embeddings without the massive local resource cost.

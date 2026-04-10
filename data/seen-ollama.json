@@ -85,20 +85,20 @@
       "last_featured": "2026-03-27"
     },
     "nous-hermes": {
-      "times_featured": 1,
-      "last_featured": "2026-03-27"
+      "times_featured": 2,
+      "last_featured": "2026-04-10"
     },
     "deepseek-llm": {
-      "times_featured": 1,
-      "last_featured": "2026-03-27"
+      "times_featured": 2,
+      "last_featured": "2026-04-10"
     },
     "deepseek-v2": {
-      "times_featured": 1,
-      "last_featured": "2026-03-27"
+      "times_featured": 2,
+      "last_featured": "2026-04-10"
     },
     "embeddinggemma": {
-      "times_featured": 1,
-      "last_featured": "2026-03-27"
+      "times_featured": 2,
+      "last_featured": "2026-04-10"
     },
     "openchat": {
       "times_featured": 1,
@@ -167,6 +167,10 @@
     "wizardcoder": {
       "times_featured": 1,
       "last_featured": "2026-04-09"
+    },
+    "yi-coder": {
+      "times_featured": 1,
+      "last_featured": "2026-04-10"
     }
   }
 }

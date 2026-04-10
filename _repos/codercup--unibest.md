@@ -3,20 +3,22 @@ layout: repo
 name: "codercup/unibest"
 source: github
 item_url: "https://github.com/codercup/unibest"
-description: "unibest - 最好用的 uniapp 开发框架。unibest 是由 uniapp + Vue3 + Ts + Vite4 + UnoCss + UniUI 驱动的跨端快速启动模板，使用 VS Code 开发，具有代码提示、自动格式化、统一配置、代码片段等功能，同时内置了大量平时开发常用的基本组件，开箱即用，让你编写 uniapp 拥有 best 体验。"
+description: "If cross-platform is your jam, this Uni-app starter with Vue3 and Vite makes it actually enjoyable."
 category: "SaaS starters and templates"
 language: "TypeScript"
-stars: 2803
+stars: 2808
 downloads: 0
 likes: 0
+readme_image: "https://gitee.com/feige996/unibest/badge/star.svg?theme=dark"
 og_image: "https://opengraph.githubassets.com/1/codercup/unibest"
 first_featured: "2026-03-24"
-last_featured: "2026-03-24"
-times_featured: 1
-streak: 19
-appearances: 19
-star_velocity: 0
+last_featured: "2026-04-10"
+times_featured: 2
+streak: 29
+appearances: 29
+star_velocity: 3
 tags: [github, template, uni-app, uniapp, vite, vue3]
+icp_tags: ["founding-team", "solopreneur", "pre-mvp"]
 ---
 
-unibest - 最好用的 uniapp 开发框架。unibest 是由 uniapp + Vue3 + Ts + Vite4 + UnoCss + UniUI 驱动的跨端快速启动模板，使用 VS Code 开发，具有代码提示、自动格式化、统一配置、代码片段等功能，同时内置了大量平时开发常用的基本组件，开箱即用，让你编写 uniapp 拥有 best 体验。
+If cross-platform is your jam, this Uni-app starter with Vue3 and Vite makes it actually enjoyable.
