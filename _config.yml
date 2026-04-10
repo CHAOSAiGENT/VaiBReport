@@ -73,3 +73,5 @@ exclude:
   - "CLAUDE-CODE-*.md"
   - postmvp/
   - me2/
+  - docs/
+  - tasks/
