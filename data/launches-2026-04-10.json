@@ -1,0 +1,50 @@
+{
+  "generated_at": "2026-04-10T08:16:19.083Z",
+  "source": "launches",
+  "counts": {
+    "producthunt": 5,
+    "total": 5
+  },
+  "launches": [
+    {
+      "id": "ph-1119291",
+      "name": "Convert or Not",
+      "description": "Simulate first-time users. See why they drop off",
+      "url": "https://www.producthunt.com/r/3OSLA7N3QP6O7F?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 163,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1119366",
+      "name": "Claude Managed Agents",
+      "description": "Pre-built agent harness on managed infrastructure",
+      "url": "https://www.producthunt.com/r/TWDXRABVXM6OGL?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 153,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1119483",
+      "name": "Lunagraph",
+      "description": "Your design canvas that writes code powered by AI",
+      "url": "https://www.producthunt.com/r/7AH5T7WYHMIII7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 146,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1118563",
+      "name": "Ycode Open Source",
+      "description": "The open-source alternative to Webflow",
+      "url": "https://www.producthunt.com/r/RH6F4GH6HJ32GA?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 143,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1119501",
+      "name": "Plow",
+      "description": "Openclaw on your Mac, with permissions you can understand",
+      "url": "https://www.producthunt.com/r/Y4SELE4X7HWLMO?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 142,
+      "_source": "producthunt"
+    }
+  ]
+}
