@@ -1,50 +1,233 @@
 {
-  "generated_at": "2026-04-10T08:16:19.083Z",
+  "generated_at": "2026-04-10T14:36:40.777Z",
   "source": "launches",
   "counts": {
-    "producthunt": 5,
-    "total": 5
+    "hackernews_showhn": 20,
+    "devhunt": 0,
+    "betalist": 0,
+    "uneed": 0,
+    "total": 20
   },
   "launches": [
     {
-      "id": "ph-1119291",
-      "name": "Convert or Not",
-      "description": "Simulate first-time users. See why they drop off",
-      "url": "https://www.producthunt.com/r/3OSLA7N3QP6O7F?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 163,
-      "_source": "producthunt"
+      "id": "showhn-47708697",
+      "name": "QVAC SDK, a universal JavaScript SDK for building local AI applications",
+      "url": "https://news.ycombinator.com/item?id=47708697",
+      "description": "Show HN: QVAC SDK, a universal JavaScript SDK for building local AI applications",
+      "upvotes": 12,
+      "launch_date": "2026-04-10",
+      "platform_url": "https://news.ycombinator.com/item?id=47708697",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
     },
     {
-      "id": "ph-1119366",
-      "name": "Claude Managed Agents",
-      "description": "Pre-built agent harness on managed infrastructure",
-      "url": "https://www.producthunt.com/r/TWDXRABVXM6OGL?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 153,
-      "_source": "producthunt"
+      "id": "showhn-47678844",
+      "name": "Marimo pair – Reactive Python notebooks as environments for agents",
+      "url": "https://github.com/marimo-team/marimo-pair",
+      "description": "Show HN: Marimo pair – Reactive Python notebooks as environments for agents",
+      "upvotes": 56,
+      "launch_date": "2026-04-10",
+      "platform_url": "https://news.ycombinator.com/item?id=47678844",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
     },
     {
-      "id": "ph-1119483",
-      "name": "Lunagraph",
-      "description": "Your design canvas that writes code powered by AI",
-      "url": "https://www.producthunt.com/r/7AH5T7WYHMIII7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 146,
-      "_source": "producthunt"
+      "id": "showhn-47715339",
+      "name": "Keeper – embedded secret store for Go (help me break it)",
+      "url": "https://github.com/agberohq/keeper",
+      "description": "Show HN: Keeper – embedded secret store for Go (help me break it)",
+      "upvotes": 45,
+      "launch_date": "2026-04-10",
+      "platform_url": "https://news.ycombinator.com/item?id=47715339",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
     },
     {
-      "id": "ph-1118563",
-      "name": "Ycode Open Source",
-      "description": "The open-source alternative to Webflow",
-      "url": "https://www.producthunt.com/r/RH6F4GH6HJ32GA?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 143,
-      "_source": "producthunt"
+      "id": "showhn-47705413",
+      "name": "I built a Cargo-like build tool for C/C++",
+      "url": "https://github.com/randerson112/craft",
+      "description": "Show HN: I built a Cargo-like build tool for C/C++",
+      "upvotes": 157,
+      "launch_date": "2026-04-10",
+      "platform_url": "https://news.ycombinator.com/item?id=47705413",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
     },
     {
-      "id": "ph-1119501",
-      "name": "Plow",
-      "description": "Openclaw on your Mac, with permissions you can understand",
-      "url": "https://www.producthunt.com/r/Y4SELE4X7HWLMO?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 142,
-      "_source": "producthunt"
+      "id": "showhn-47695666",
+      "name": "Druids – Build your own software factory",
+      "url": "https://github.com/fulcrumresearch/druids",
+      "description": "Show HN: Druids – Build your own software factory",
+      "upvotes": 55,
+      "launch_date": "2026-04-10",
+      "platform_url": "https://news.ycombinator.com/item?id=47695666",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47702196",
+      "name": "CSS Studio. Design by hand, code by agent",
+      "url": "https://cssstudio.ai",
+      "description": "Show HN: CSS Studio. Design by hand, code by agent",
+      "upvotes": 158,
+      "launch_date": "2026-04-10",
+      "platform_url": "https://news.ycombinator.com/item?id=47702196",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47710835",
+      "name": "Rust based eBook library for Python, with MIT license",
+      "url": "https://github.com/arc53/fast-ebook",
+      "description": "Show HN: Rust based eBook library for Python, with MIT license",
+      "upvotes": 28,
+      "launch_date": "2026-04-10",
+      "platform_url": "https://news.ycombinator.com/item?id=47710835",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47663743",
+      "name": "Moon simulator game, ray-casting",
+      "url": "https://mooncraft2000.com",
+      "description": "Show HN: Moon simulator game, ray-casting",
+      "upvotes": 106,
+      "launch_date": "2026-04-10",
+      "platform_url": "https://news.ycombinator.com/item?id=47663743",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47704259",
+      "name": "Guruka.com – free guided mediations. No signup, private, works offline",
+      "url": "https://guruka.com/",
+      "description": "Show HN: Guruka.com – free guided mediations. No signup, private, works offline",
+      "upvotes": 29,
+      "launch_date": "2026-04-10",
+      "platform_url": "https://news.ycombinator.com/item?id=47704259",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47702791",
+      "name": "41 years sea surface temperature anomalies",
+      "url": "https://ssta.willhelps.org",
+      "description": "Show HN: 41 years sea surface temperature anomalies",
+      "upvotes": 144,
+      "launch_date": "2026-04-10",
+      "platform_url": "https://news.ycombinator.com/item?id=47702791",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47694036",
+      "name": "Orange Juice – Small UX improvements that make HN easier to read",
+      "url": "http://oj-hn.com/",
+      "description": "Show HN: Orange Juice – Small UX improvements that make HN easier to read",
+      "upvotes": 139,
+      "launch_date": "2026-04-10",
+      "platform_url": "https://news.ycombinator.com/item?id=47694036",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47696562",
+      "name": "Is Hormuz open yet?",
+      "url": "https://www.ishormuzopenyet.com/",
+      "description": "Show HN: Is Hormuz open yet?",
+      "upvotes": 466,
+      "launch_date": "2026-04-10",
+      "platform_url": "https://news.ycombinator.com/item?id=47696562",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47666398",
+      "name": "A (marginally) useful x86-64 ELF executable in 301 bytes",
+      "url": "https://github.com/meribold/btry",
+      "description": "Show HN: A (marginally) useful x86-64 ELF executable in 301 bytes",
+      "upvotes": 63,
+      "launch_date": "2026-04-10",
+      "platform_url": "https://news.ycombinator.com/item?id=47666398",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47689165",
+      "name": "I pipe free sports streams into Jellyfin – no ads, just HLS",
+      "url": "https://github.com/pcruz1905/hls-restream-proxy",
+      "description": "Show HN: I pipe free sports streams into Jellyfin – no ads, just HLS",
+      "upvotes": 114,
+      "launch_date": "2026-04-10",
+      "platform_url": "https://news.ycombinator.com/item?id=47689165",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47674606",
+      "name": "Unicode Steganography",
+      "url": "https://steganography.patrickvuscan.com",
+      "description": "Show HN: Unicode Steganography",
+      "upvotes": 55,
+      "launch_date": "2026-04-10",
+      "platform_url": "https://news.ycombinator.com/item?id=47674606",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47673360",
+      "name": "Brutalist Concrete Laptop Stand (2024)",
+      "url": "https://sam-burns.com/posts/concrete-laptop-stand/",
+      "description": "Show HN: Brutalist Concrete Laptop Stand (2024)",
+      "upvotes": 782,
+      "launch_date": "2026-04-10",
+      "platform_url": "https://news.ycombinator.com/item?id=47673360",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47657204",
+      "name": "We built a camera only robot vacuum for less than $300 (well almost)",
+      "url": "https://indraneelpatil.github.io/blog/2026/robot-vacuum/",
+      "description": "Show HN: We built a camera only robot vacuum for less than $300 (well almost)",
+      "upvotes": 107,
+      "launch_date": "2026-04-10",
+      "platform_url": "https://news.ycombinator.com/item?id=47657204",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47690797",
+      "name": "Go-Bt: Minimalist Behavior Trees for Go",
+      "url": "https://github.com/rvitorper/go-bt",
+      "description": "Show HN: Go-Bt: Minimalist Behavior Trees for Go",
+      "upvotes": 61,
+      "launch_date": "2026-04-10",
+      "platform_url": "https://news.ycombinator.com/item?id=47690797",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47715460",
+      "name": "Hindsight Simulator – Go back in time and get rich",
+      "url": "https://chrispattle.com/hindsight-simulator",
+      "description": "Show HN: Hindsight Simulator – Go back in time and get rich",
+      "upvotes": 10,
+      "launch_date": "2026-04-10",
+      "platform_url": "https://news.ycombinator.com/item?id=47715460",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47692661",
+      "name": "TUI-use: Let AI agents control interactive terminal programs",
+      "url": "https://github.com/onesuper/tui-use",
+      "description": "Show HN: TUI-use: Let AI agents control interactive terminal programs",
+      "upvotes": 52,
+      "launch_date": "2026-04-10",
+      "platform_url": "https://news.ycombinator.com/item?id=47692661",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
     }
   ]
 }
