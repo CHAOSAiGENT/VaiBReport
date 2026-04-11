@@ -1,0 +1,146 @@
+{
+  "generated_at": "2026-04-11T07:43:23.091Z",
+  "source": "launches",
+  "counts": {
+    "producthunt": 17,
+    "total": 17
+  },
+  "launches": [
+    {
+      "id": "ph-1120099",
+      "name": "Claude Advisor tool",
+      "description": "Pair Opus as advisor with Sonnet or Haiku as executor",
+      "url": "https://www.producthunt.com/r/GJ45R3YKKOWWA5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 369,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1118052",
+      "name": "Integrations in Spine",
+      "description": "AI that synthesize and researches info across multiple apps",
+      "url": "https://www.producthunt.com/r/VYT2POZCTPRQOT?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 302,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1119130",
+      "name": "SoulLink",
+      "description": "Mobile 3D Vibe Coding Partner ",
+      "url": "https://www.producthunt.com/r/WDAZDHMMZORTEO?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 296,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1119001",
+      "name": "Google Finance",
+      "description": "Ask complex finance questions, get AI-grounded answers",
+      "url": "https://www.producthunt.com/r/GNTCPZ4KQWJ6AP?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 259,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1120270",
+      "name": "Drift",
+      "description": "Minimalist journal app that fades over time",
+      "url": "https://www.producthunt.com/r/77I2D7OKQILF7O?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 211,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1119928",
+      "name": "Perplexity Finance",
+      "description": "See your full financial life, bank to brokerage in one place",
+      "url": "https://www.producthunt.com/r/OVSJBUIABUGCF6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 143,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1100007",
+      "name": "Manus Skills",
+      "description": "Package Manus workflows into reusable agent Skills",
+      "url": "https://www.producthunt.com/r/LWRFF3KLBG6FW7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 141,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1120258",
+      "name": "MiniMax CLI",
+      "description": "Give your AI agents native multimodal capabilities",
+      "url": "https://www.producthunt.com/r/PM55XCDJABHGLZ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 128,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1119796",
+      "name": "Minty",
+      "description": "AI companion for building a clear career path",
+      "url": "https://www.producthunt.com/r/DHL57WXSQTAST4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 127,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1119974",
+      "name": "Avatar V by HeyGen",
+      "description": "The most advanced AI avatar model in the world",
+      "url": "https://www.producthunt.com/r/LKUOKFTXE6B5AO?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 125,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1117261",
+      "name": "Knock data sources",
+      "description": "Trigger event-based messaging from Stripe, Clerk, Supabase",
+      "url": "https://www.producthunt.com/r/SS3BMPKGEFYJAL?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 117,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1120293",
+      "name": "Waypoint-1.5",
+      "description": "Real-time generative worlds on everyday GPUs",
+      "url": "https://www.producthunt.com/r/SL3UBSEA2AOY3I?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 106,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1116752",
+      "name": "LayerProof Chromo",
+      "description": "Build slides from your data, every claim backed by proof",
+      "url": "https://www.producthunt.com/r/KFCNCNYAVYSL66?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 106,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1119805",
+      "name": "Orbit Money",
+      "description": "Track every API and tool you pay for in one place",
+      "url": "https://www.producthunt.com/r/37ELMOSZCV3A6M?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 105,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1114908",
+      "name": "WM Studio ",
+      "description": "Craft campaign ready content with a digital twin",
+      "url": "https://www.producthunt.com/r/H3PCO723XNZKO4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 101,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1119611",
+      "name": "Audos 2.0",
+      "description": "Run 10 AI businesses at once",
+      "url": "https://www.producthunt.com/r/XKFTHFCCACQGK5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 98,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1119668",
+      "name": "Inbox Autopilot by Dimension",
+      "description": "Your inbox, handled",
+      "url": "https://www.producthunt.com/r/Z6YDHH3WDKODKV?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 95,
+      "_source": "producthunt"
+    }
+  ]
+}
