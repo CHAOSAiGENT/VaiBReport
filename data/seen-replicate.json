@@ -101,8 +101,8 @@
       "last_featured": "2026-03-27"
     },
     "nicolascoutureau/video-utils": {
-      "times_featured": 1,
-      "last_featured": "2026-03-28"
+      "times_featured": 2,
+      "last_featured": "2026-04-11"
     },
     "hebhar/isawatercolour": {
       "times_featured": 1,
@@ -139,6 +139,22 @@
     "ultralytics/yolov8s-worldv2": {
       "times_featured": 1,
       "last_featured": "2026-04-10"
+    },
+    "black-forest-labs/flux-fill-pro": {
+      "times_featured": 1,
+      "last_featured": "2026-04-11"
+    },
+    "kwaivgi/kling-v2.5-turbo-pro": {
+      "times_featured": 1,
+      "last_featured": "2026-04-11"
+    },
+    "luma/reframe-image": {
+      "times_featured": 1,
+      "last_featured": "2026-04-11"
+    },
+    "bytedance/seedance-2.0": {
+      "times_featured": 1,
+      "last_featured": "2026-04-11"
     }
   }
 }

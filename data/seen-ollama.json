@@ -101,20 +101,20 @@
       "last_featured": "2026-04-10"
     },
     "openchat": {
-      "times_featured": 1,
-      "last_featured": "2026-03-28"
+      "times_featured": 2,
+      "last_featured": "2026-04-11"
     },
     "falcon": {
-      "times_featured": 1,
-      "last_featured": "2026-03-28"
+      "times_featured": 2,
+      "last_featured": "2026-04-11"
     },
     "glm4": {
-      "times_featured": 1,
-      "last_featured": "2026-03-28"
+      "times_featured": 2,
+      "last_featured": "2026-04-11"
     },
     "vicuna": {
-      "times_featured": 1,
-      "last_featured": "2026-03-28"
+      "times_featured": 2,
+      "last_featured": "2026-04-11"
     },
     "deepcoder": {
       "times_featured": 1,
@@ -171,6 +171,10 @@
     "yi-coder": {
       "times_featured": 1,
       "last_featured": "2026-04-10"
+    },
+    "stablelm2": {
+      "times_featured": 1,
+      "last_featured": "2026-04-11"
     }
   }
 }

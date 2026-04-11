@@ -3,7 +3,7 @@ layout: repo
 name: "glm4"
 source: ollama
 item_url: "https://ollama.com/library/glm4"
-description: "A strong multi-lingual general language model with competitive performance to Llama 3."
+description: "GLM4: A multilingual LLM for local use, reportedly competitive with Llama 3."
 category: "Ollama Models"
 language: ""
 stars: 0
@@ -11,15 +11,15 @@ downloads: 0
 likes: 0
 og_image: ""
 first_featured: "2026-03-28"
-last_featured: "2026-03-28"
-times_featured: 1
+last_featured: "2026-04-11"
+times_featured: 2
 streak: 0
 appearances: 0
 star_velocity: 0
-tags: [ollama, 9b, 784.5K
-                 Pulls, 784.5K, Pulls, 32
+tags: [ollama, 9b, 996.9K
+                 Pulls, 996.9K, Pulls, 32
                  Tags, 32, Tags, Updated]
 icp_tags: ["non-technical", "pre-mvp", "entreprecurious"]
 ---
 
-A strong multi-lingual general language model with competitive performance to Llama 3.
+GLM4: A multilingual LLM for local use, reportedly competitive with Llama 3.

@@ -3,16 +3,16 @@ layout: repo
 name: "Qwen/Qwen3-1.7B"
 source: huggingface-model
 item_url: "https://huggingface.co/Qwen/Qwen3-1.7B"
-description: "Qwen3-1.7B"
+description: "Qwen3-1.7B: The smallest Qwen3 model, great for local dev or constrained environments."
 category: "HuggingFace Models"
 language: ""
 stars: 0
-downloads: 6806823
-likes: 430
+downloads: 8139903
+likes: 445
 og_image: ""
 first_featured: "2026-03-25"
-last_featured: "2026-03-25"
-times_featured: 1
+last_featured: "2026-04-11"
+times_featured: 2
 streak: 0
 appearances: 0
 star_velocity: 0
@@ -20,4 +20,4 @@ tags: [huggingface, transformers, safetensors, qwen3, text-generation, conversat
 icp_tags: ["founding-team", "pre-mvp"]
 ---
 
-Qwen3-1.7B
+Qwen3-1.7B: The smallest Qwen3 model, great for local dev or constrained environments.

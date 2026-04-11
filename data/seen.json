@@ -85,8 +85,8 @@
       "last_featured": "2026-04-10"
     },
     "SAP-samples/btp-cap-genai-rag": {
-      "times_featured": 2,
-      "last_featured": "2026-03-25"
+      "times_featured": 3,
+      "last_featured": "2026-04-11"
     },
     "kriasoft/better-auth": {
       "times_featured": 2,
@@ -157,8 +157,8 @@
       "last_featured": "2026-03-06"
     },
     "nlohmann/json": {
-      "times_featured": 2,
-      "last_featured": "2026-03-24"
+      "times_featured": 3,
+      "last_featured": "2026-04-11"
     },
     "apache/airflow": {
       "times_featured": 2,
@@ -181,12 +181,12 @@
       "last_featured": "2026-04-10"
     },
     "roninoss/create-expo-stack": {
-      "times_featured": 2,
-      "last_featured": "2026-03-25"
+      "times_featured": 3,
+      "last_featured": "2026-04-11"
     },
     "zce/caz": {
-      "times_featured": 2,
-      "last_featured": "2026-03-25"
+      "times_featured": 3,
+      "last_featured": "2026-04-11"
     },
     "jamez-bondos/awesome-gpt4o-images": {
       "times_featured": 3,
@@ -221,8 +221,8 @@
       "last_featured": "2026-04-10"
     },
     "Somafet/onboardjs": {
-      "times_featured": 2,
-      "last_featured": "2026-03-25"
+      "times_featured": 3,
+      "last_featured": "2026-04-11"
     },
     "AUTOMATIC1111/stable-diffusion-webui": {
       "times_featured": 3,
@@ -265,16 +265,16 @@
       "last_featured": "2026-03-06"
     },
     "arifszn/gitprofile": {
-      "times_featured": 2,
-      "last_featured": "2026-03-25"
+      "times_featured": 3,
+      "last_featured": "2026-04-11"
     },
     "PaulRBerg/hardhat-template": {
-      "times_featured": 2,
-      "last_featured": "2026-03-25"
+      "times_featured": 3,
+      "last_featured": "2026-04-11"
     },
     "feige996/unibest": {
-      "times_featured": 2,
-      "last_featured": "2026-03-26"
+      "times_featured": 3,
+      "last_featured": "2026-04-11"
     },
     "graphile/starter": {
       "times_featured": 2,
@@ -301,8 +301,8 @@
       "last_featured": "2026-04-10"
     },
     "zai-org/CogVideo": {
-      "times_featured": 2,
-      "last_featured": "2026-03-25"
+      "times_featured": 3,
+      "last_featured": "2026-04-11"
     },
     "Dao-AILab/flash-attention": {
       "times_featured": 1,
@@ -377,8 +377,8 @@
       "last_featured": "2026-03-24"
     },
     "saturndec/waoowaoo": {
-      "times_featured": 1,
-      "last_featured": "2026-03-24"
+      "times_featured": 2,
+      "last_featured": "2026-04-11"
     },
     "YouMind-OpenLab/awesome-nano-banana-pro-prompts": {
       "times_featured": 1,
@@ -401,16 +401,16 @@
       "last_featured": "2026-03-25"
     },
     "Tencent-Hunyuan/HunyuanVideo": {
-      "times_featured": 1,
-      "last_featured": "2026-03-25"
+      "times_featured": 2,
+      "last_featured": "2026-04-11"
     },
     "FoundationVision/VAR": {
-      "times_featured": 1,
-      "last_featured": "2026-03-25"
+      "times_featured": 2,
+      "last_featured": "2026-04-11"
     },
     "brycedrennan/imaginAIry": {
-      "times_featured": 1,
-      "last_featured": "2026-03-25"
+      "times_featured": 2,
+      "last_featured": "2026-04-11"
     },
     "sudheerj/javascript-interview-questions": {
       "times_featured": 1,
@@ -517,8 +517,8 @@
       "last_featured": "2026-04-10"
     },
     "apache/superset": {
-      "times_featured": 1,
-      "last_featured": "2026-03-27"
+      "times_featured": 2,
+      "last_featured": "2026-04-11"
     },
     "redisson/redisson": {
       "times_featured": 1,
@@ -573,8 +573,8 @@
       "last_featured": "2026-03-28"
     },
     "NationalSecurityAgency/ghidra": {
-      "times_featured": 1,
-      "last_featured": "2026-03-28"
+      "times_featured": 2,
+      "last_featured": "2026-04-11"
     },
     "ultralytics/yolov5": {
       "times_featured": 1,
@@ -755,6 +755,26 @@
     "docker/compose": {
       "times_featured": 1,
       "last_featured": "2026-04-10"
+    },
+    "adolfousier/socialcrabs": {
+      "times_featured": 1,
+      "last_featured": "2026-04-11"
+    },
+    "Eugeny/tabby": {
+      "times_featured": 1,
+      "last_featured": "2026-04-11"
+    },
+    "Anil-matcha/Open-Higgsfield-AI": {
+      "times_featured": 1,
+      "last_featured": "2026-04-11"
+    },
+    "calesthio/OpenMontage": {
+      "times_featured": 1,
+      "last_featured": "2026-04-11"
+    },
+    "iced-rs/iced": {
+      "times_featured": 1,
+      "last_featured": "2026-04-11"
     }
   }
 }

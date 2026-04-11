@@ -49,8 +49,8 @@
       "last_featured": "2026-04-09"
     },
     "NTU-NLP-sg/xCodeEval": {
-      "times_featured": 2,
-      "last_featured": "2026-03-24"
+      "times_featured": 3,
+      "last_featured": "2026-04-11"
     },
     "mteb/leaderboard": {
       "times_featured": 3,
@@ -113,8 +113,8 @@
       "last_featured": "2026-04-09"
     },
     "Qwen/Qwen3-8B": {
-      "times_featured": 1,
-      "last_featured": "2026-03-24"
+      "times_featured": 2,
+      "last_featured": "2026-04-11"
     },
     "Qwen/Qwen2.5-3B-Instruct": {
       "times_featured": 2,
@@ -125,24 +125,24 @@
       "last_featured": "2026-04-10"
     },
     "lmarena-ai/arena-leaderboard": {
-      "times_featured": 1,
-      "last_featured": "2026-03-25"
+      "times_featured": 2,
+      "last_featured": "2026-04-11"
     },
     "microsoft/TRELLIS": {
-      "times_featured": 1,
-      "last_featured": "2026-03-25"
+      "times_featured": 2,
+      "last_featured": "2026-04-11"
     },
     "KingNish/OpenGPT-4o": {
-      "times_featured": 1,
-      "last_featured": "2026-03-25"
+      "times_featured": 2,
+      "last_featured": "2026-04-11"
     },
     "nanotron/ultrascale-playbook": {
-      "times_featured": 1,
-      "last_featured": "2026-03-25"
+      "times_featured": 2,
+      "last_featured": "2026-04-11"
     },
     "KlingTeam/LivePortrait": {
-      "times_featured": 1,
-      "last_featured": "2026-03-25"
+      "times_featured": 2,
+      "last_featured": "2026-04-11"
     },
     "meta-llama/Llama-3.1-8B-Instruct": {
       "times_featured": 2,
@@ -157,8 +157,8 @@
       "last_featured": "2026-03-25"
     },
     "Qwen/Qwen3-1.7B": {
-      "times_featured": 1,
-      "last_featured": "2026-03-25"
+      "times_featured": 2,
+      "last_featured": "2026-04-11"
     },
     "ropedia-ai/xperience-10m": {
       "times_featured": 2,
@@ -201,8 +201,8 @@
       "last_featured": "2026-03-26"
     },
     "Qwen/Qwen3-4B": {
-      "times_featured": 1,
-      "last_featured": "2026-03-26"
+      "times_featured": 2,
+      "last_featured": "2026-04-11"
     },
     "jonatasgrosman/wav2vec2-large-xlsr-53-russian": {
       "times_featured": 1,
@@ -213,8 +213,8 @@
       "last_featured": "2026-03-26"
     },
     "nvidia/PhysicalAI-Autonomous-Vehicles": {
-      "times_featured": 1,
-      "last_featured": "2026-03-26"
+      "times_featured": 2,
+      "last_featured": "2026-04-11"
     },
     "openai/gsm8k": {
       "times_featured": 1,
@@ -245,8 +245,8 @@
       "last_featured": "2026-03-27"
     },
     "BAAI/bge-large-en-v1.5": {
-      "times_featured": 1,
-      "last_featured": "2026-03-27"
+      "times_featured": 2,
+      "last_featured": "2026-04-11"
     },
     "Qwen/Qwen3-4B-Instruct-2507": {
       "times_featured": 1,
@@ -261,8 +261,8 @@
       "last_featured": "2026-03-27"
     },
     "Marqo/nsfw-image-detection-384": {
-      "times_featured": 1,
-      "last_featured": "2026-03-27"
+      "times_featured": 2,
+      "last_featured": "2026-04-11"
     },
     "ScaleAI/SWE-bench_Pro": {
       "times_featured": 1,
@@ -427,6 +427,10 @@
     "HuggingFaceFW/finephrase": {
       "times_featured": 1,
       "last_featured": "2026-03-30"
+    },
+    "mlfoundations/MINT-1T-PDF-CC-2024-18": {
+      "times_featured": 1,
+      "last_featured": "2026-04-11"
     }
   }
 }
