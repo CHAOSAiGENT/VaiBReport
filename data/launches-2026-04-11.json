@@ -1,146 +1,244 @@
 {
-  "generated_at": "2026-04-11T07:43:23.091Z",
+  "generated_at": "2026-04-11T14:19:44.882Z",
   "source": "launches",
   "counts": {
-    "producthunt": 17,
-    "total": 17
+    "hackernews_showhn": 21,
+    "devhunt": 0,
+    "betalist": 0,
+    "uneed": 0,
+    "total": 21
   },
   "launches": [
     {
-      "id": "ph-1120099",
-      "name": "Claude Advisor tool",
-      "description": "Pair Opus as advisor with Sonnet or Haiku as executor",
-      "url": "https://www.producthunt.com/r/GJ45R3YKKOWWA5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 369,
-      "_source": "producthunt"
+      "id": "showhn-47727960",
+      "name": "Pardonned.com – A searchable database of US Pardons",
+      "url": "https://news.ycombinator.com/item?id=47727960",
+      "description": "Show HN: Pardonned.com – A searchable database of US Pardons",
+      "upvotes": 107,
+      "launch_date": "2026-04-11",
+      "platform_url": "https://news.ycombinator.com/item?id=47727960",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
     },
     {
-      "id": "ph-1118052",
-      "name": "Integrations in Spine",
-      "description": "AI that synthesize and researches info across multiple apps",
-      "url": "https://www.producthunt.com/r/VYT2POZCTPRQOT?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 302,
-      "_source": "producthunt"
+      "id": "showhn-47729477",
+      "name": "Hormuz Havoc, a satirical game that got overrun by AI bots in 24 hours",
+      "url": "https://www.hormuz-havoc.com/",
+      "description": "Show HN: Hormuz Havoc, a satirical game that got overrun by AI bots in 24 hours",
+      "upvotes": 29,
+      "launch_date": "2026-04-11",
+      "platform_url": "https://news.ycombinator.com/item?id=47729477",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
     },
     {
-      "id": "ph-1119130",
-      "name": "SoulLink",
-      "description": "Mobile 3D Vibe Coding Partner ",
-      "url": "https://www.producthunt.com/r/WDAZDHMMZORTEO?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 296,
-      "_source": "producthunt"
+      "id": "showhn-47721997",
+      "name": "FluidCAD – Parametric CAD with JavaScript",
+      "url": "https://fluidcad.io/",
+      "description": "Show HN: FluidCAD – Parametric CAD with JavaScript",
+      "upvotes": 136,
+      "launch_date": "2026-04-11",
+      "platform_url": "https://news.ycombinator.com/item?id=47721997",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
     },
     {
-      "id": "ph-1119001",
-      "name": "Google Finance",
-      "description": "Ask complex finance questions, get AI-grounded answers",
-      "url": "https://www.producthunt.com/r/GNTCPZ4KQWJ6AP?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 259,
-      "_source": "producthunt"
+      "id": "showhn-47721255",
+      "name": "Eve – Managed OpenClaw for work",
+      "url": "https://eve.new/login",
+      "description": "Show HN: Eve – Managed OpenClaw for work",
+      "upvotes": 62,
+      "launch_date": "2026-04-11",
+      "platform_url": "https://news.ycombinator.com/item?id=47721255",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
     },
     {
-      "id": "ph-1120270",
-      "name": "Drift",
-      "description": "Minimalist journal app that fades over time",
-      "url": "https://www.producthunt.com/r/77I2D7OKQILF7O?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 211,
-      "_source": "producthunt"
+      "id": "showhn-47722011",
+      "name": "A WYSIWYG word processor in Python",
+      "url": "https://codeberg.org/chrisecker/miniword",
+      "description": "Show HN: A WYSIWYG word processor in Python",
+      "upvotes": 74,
+      "launch_date": "2026-04-11",
+      "platform_url": "https://news.ycombinator.com/item?id=47722011",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
     },
     {
-      "id": "ph-1119928",
-      "name": "Perplexity Finance",
-      "description": "See your full financial life, bank to brokerage in one place",
-      "url": "https://www.producthunt.com/r/OVSJBUIABUGCF6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "id": "showhn-47678844",
+      "name": "Marimo pair – Reactive Python notebooks as environments for agents",
+      "url": "https://github.com/marimo-team/marimo-pair",
+      "description": "Show HN: Marimo pair – Reactive Python notebooks as environments for agents",
+      "upvotes": 132,
+      "launch_date": "2026-04-11",
+      "platform_url": "https://news.ycombinator.com/item?id=47678844",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47715339",
+      "name": "Keeper – embedded secret store for Go (help me break it)",
+      "url": "https://github.com/agberohq/keeper",
+      "description": "Show HN: Keeper – embedded secret store for Go (help me break it)",
+      "upvotes": 61,
+      "launch_date": "2026-04-11",
+      "platform_url": "https://news.ycombinator.com/item?id=47715339",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47705413",
+      "name": "I built a Cargo-like build tool for C/C++",
+      "url": "https://github.com/randerson112/craft",
+      "description": "Show HN: I built a Cargo-like build tool for C/C++",
+      "upvotes": 168,
+      "launch_date": "2026-04-11",
+      "platform_url": "https://news.ycombinator.com/item?id=47705413",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47702196",
+      "name": "CSS Studio. Design by hand, code by agent",
+      "url": "https://cssstudio.ai",
+      "description": "Show HN: CSS Studio. Design by hand, code by agent",
+      "upvotes": 163,
+      "launch_date": "2026-04-11",
+      "platform_url": "https://news.ycombinator.com/item?id=47702196",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47695666",
+      "name": "Druids – Build your own software factory",
+      "url": "https://github.com/fulcrumresearch/druids",
+      "description": "Show HN: Druids – Build your own software factory",
+      "upvotes": 61,
+      "launch_date": "2026-04-11",
+      "platform_url": "https://news.ycombinator.com/item?id=47695666",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47663743",
+      "name": "Moon simulator game, ray-casting",
+      "url": "https://mooncraft2000.com",
+      "description": "Show HN: Moon simulator game, ray-casting",
+      "upvotes": 111,
+      "launch_date": "2026-04-11",
+      "platform_url": "https://news.ycombinator.com/item?id=47663743",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47716617",
+      "name": "Do All the Things",
+      "url": "https://www.doallthethings.app/",
+      "description": "Show HN: Do All the Things",
+      "upvotes": 20,
+      "launch_date": "2026-04-11",
+      "platform_url": "https://news.ycombinator.com/item?id=47716617",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47710835",
+      "name": "Rust based eBook library for Python, with MIT license",
+      "url": "https://github.com/arc53/fast-ebook",
+      "description": "Show HN: Rust based eBook library for Python, with MIT license",
+      "upvotes": 33,
+      "launch_date": "2026-04-11",
+      "platform_url": "https://news.ycombinator.com/item?id=47710835",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47719485",
+      "name": "Figma for Coding Agents",
+      "url": "https://getdesign.md",
+      "description": "Show HN: Figma for Coding Agents",
+      "upvotes": 11,
+      "launch_date": "2026-04-11",
+      "platform_url": "https://news.ycombinator.com/item?id=47719485",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47673360",
+      "name": "Brutalist Concrete Laptop Stand (2024)",
+      "url": "https://sam-burns.com/posts/concrete-laptop-stand/",
+      "description": "Show HN: Brutalist Concrete Laptop Stand (2024)",
+      "upvotes": 785,
+      "launch_date": "2026-04-11",
+      "platform_url": "https://news.ycombinator.com/item?id=47673360",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47708697",
+      "name": "QVAC SDK, a universal JavaScript SDK for building local AI applications",
+      "url": "https://news.ycombinator.com/item?id=47708697",
+      "description": "Show HN: QVAC SDK, a universal JavaScript SDK for building local AI applications",
+      "upvotes": 29,
+      "launch_date": "2026-04-11",
+      "platform_url": "https://news.ycombinator.com/item?id=47708697",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47694036",
+      "name": "Orange Juice – Small UX improvements that make HN easier to read",
+      "url": "http://oj-hn.com/",
+      "description": "Show HN: Orange Juice – Small UX improvements that make HN easier to read",
       "upvotes": 143,
-      "_source": "producthunt"
+      "launch_date": "2026-04-11",
+      "platform_url": "https://news.ycombinator.com/item?id=47694036",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
     },
     {
-      "id": "ph-1100007",
-      "name": "Manus Skills",
-      "description": "Package Manus workflows into reusable agent Skills",
-      "url": "https://www.producthunt.com/r/LWRFF3KLBG6FW7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 141,
-      "_source": "producthunt"
+      "id": "showhn-47704259",
+      "name": "Guruka.com – free guided mediations. No signup, private, works offline",
+      "url": "https://guruka.com/",
+      "description": "Show HN: Guruka.com – free guided mediations. No signup, private, works offline",
+      "upvotes": 35,
+      "launch_date": "2026-04-11",
+      "platform_url": "https://news.ycombinator.com/item?id=47704259",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
     },
     {
-      "id": "ph-1120258",
-      "name": "MiniMax CLI",
-      "description": "Give your AI agents native multimodal capabilities",
-      "url": "https://www.producthunt.com/r/PM55XCDJABHGLZ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 128,
-      "_source": "producthunt"
+      "id": "showhn-47689165",
+      "name": "I pipe free sports streams into Jellyfin – no ads, just HLS",
+      "url": "https://github.com/pcruz1905/hls-restream-proxy",
+      "description": "Show HN: I pipe free sports streams into Jellyfin – no ads, just HLS",
+      "upvotes": 115,
+      "launch_date": "2026-04-11",
+      "platform_url": "https://news.ycombinator.com/item?id=47689165",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
     },
     {
-      "id": "ph-1119796",
-      "name": "Minty",
-      "description": "AI companion for building a clear career path",
-      "url": "https://www.producthunt.com/r/DHL57WXSQTAST4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 127,
-      "_source": "producthunt"
+      "id": "showhn-47657204",
+      "name": "We built a camera only robot vacuum for less than $300 (well almost)",
+      "url": "https://indraneelpatil.github.io/blog/2026/robot-vacuum/",
+      "description": "Show HN: We built a camera only robot vacuum for less than $300 (well almost)",
+      "upvotes": 108,
+      "launch_date": "2026-04-11",
+      "platform_url": "https://news.ycombinator.com/item?id=47657204",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
     },
     {
-      "id": "ph-1119974",
-      "name": "Avatar V by HeyGen",
-      "description": "The most advanced AI avatar model in the world",
-      "url": "https://www.producthunt.com/r/LKUOKFTXE6B5AO?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 125,
-      "_source": "producthunt"
-    },
-    {
-      "id": "ph-1117261",
-      "name": "Knock data sources",
-      "description": "Trigger event-based messaging from Stripe, Clerk, Supabase",
-      "url": "https://www.producthunt.com/r/SS3BMPKGEFYJAL?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 117,
-      "_source": "producthunt"
-    },
-    {
-      "id": "ph-1120293",
-      "name": "Waypoint-1.5",
-      "description": "Real-time generative worlds on everyday GPUs",
-      "url": "https://www.producthunt.com/r/SL3UBSEA2AOY3I?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 106,
-      "_source": "producthunt"
-    },
-    {
-      "id": "ph-1116752",
-      "name": "LayerProof Chromo",
-      "description": "Build slides from your data, every claim backed by proof",
-      "url": "https://www.producthunt.com/r/KFCNCNYAVYSL66?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 106,
-      "_source": "producthunt"
-    },
-    {
-      "id": "ph-1119805",
-      "name": "Orbit Money",
-      "description": "Track every API and tool you pay for in one place",
-      "url": "https://www.producthunt.com/r/37ELMOSZCV3A6M?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 105,
-      "_source": "producthunt"
-    },
-    {
-      "id": "ph-1114908",
-      "name": "WM Studio ",
-      "description": "Craft campaign ready content with a digital twin",
-      "url": "https://www.producthunt.com/r/H3PCO723XNZKO4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 101,
-      "_source": "producthunt"
-    },
-    {
-      "id": "ph-1119611",
-      "name": "Audos 2.0",
-      "description": "Run 10 AI businesses at once",
-      "url": "https://www.producthunt.com/r/XKFTHFCCACQGK5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 98,
-      "_source": "producthunt"
-    },
-    {
-      "id": "ph-1119668",
-      "name": "Inbox Autopilot by Dimension",
-      "description": "Your inbox, handled",
-      "url": "https://www.producthunt.com/r/Z6YDHH3WDKODKV?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 95,
-      "_source": "producthunt"
+      "id": "showhn-47674606",
+      "name": "Unicode Steganography",
+      "url": "https://steganography.patrickvuscan.com",
+      "description": "Show HN: Unicode Steganography",
+      "upvotes": 56,
+      "launch_date": "2026-04-11",
+      "platform_url": "https://news.ycombinator.com/item?id=47674606",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
     }
   ]
 }
