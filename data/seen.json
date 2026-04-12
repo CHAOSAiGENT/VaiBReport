@@ -45,8 +45,8 @@
       "times_featured": 3
     },
     "Blazity/next-saas-starter": {
-      "last_featured": "2026-03-26",
-      "times_featured": 2
+      "last_featured": "2026-04-12",
+      "times_featured": 3
     },
     "inngest/inngest": {
       "last_featured": "2026-03-05",
@@ -277,12 +277,12 @@
       "last_featured": "2026-04-11"
     },
     "graphile/starter": {
-      "times_featured": 2,
-      "last_featured": "2026-03-26"
+      "times_featured": 3,
+      "last_featured": "2026-04-12"
     },
     "NextJSTemplates/startup-nextjs": {
-      "times_featured": 2,
-      "last_featured": "2026-03-26"
+      "times_featured": 3,
+      "last_featured": "2026-04-12"
     },
     "PicoTrex/Awesome-Nano-Banana-images": {
       "times_featured": 3,
@@ -429,24 +429,24 @@
       "last_featured": "2026-03-25"
     },
     "saas-js/saas-ui": {
-      "times_featured": 1,
-      "last_featured": "2026-03-26"
+      "times_featured": 2,
+      "last_featured": "2026-04-12"
     },
     "QwenLM/Qwen-Image": {
-      "times_featured": 1,
-      "last_featured": "2026-03-26"
+      "times_featured": 2,
+      "last_featured": "2026-04-12"
     },
     "vladmandic/sdnext": {
-      "times_featured": 1,
-      "last_featured": "2026-03-26"
+      "times_featured": 2,
+      "last_featured": "2026-04-12"
     },
     "mylxsw/aidea": {
-      "times_featured": 1,
-      "last_featured": "2026-03-26"
+      "times_featured": 2,
+      "last_featured": "2026-04-12"
     },
     "salesforce/BLIP": {
-      "times_featured": 1,
-      "last_featured": "2026-03-26"
+      "times_featured": 2,
+      "last_featured": "2026-04-12"
     },
     "showlab/Awesome-Video-Diffusion": {
       "times_featured": 1,
@@ -473,8 +473,8 @@
       "last_featured": "2026-03-26"
     },
     "revokslab/ShipFree": {
-      "times_featured": 1,
-      "last_featured": "2026-03-27"
+      "times_featured": 2,
+      "last_featured": "2026-04-12"
     },
     "reliverse/relivator": {
       "times_featured": 1,
@@ -493,8 +493,8 @@
       "last_featured": "2026-03-27"
     },
     "MeiGen-AI/InfiniteTalk": {
-      "times_featured": 1,
-      "last_featured": "2026-03-27"
+      "times_featured": 2,
+      "last_featured": "2026-04-12"
     },
     "AILab-CVC/VideoCrafter": {
       "times_featured": 1,
@@ -609,8 +609,8 @@
       "last_featured": "2026-03-29"
     },
     "JCodesMore/ai-website-cloner-template": {
-      "times_featured": 1,
-      "last_featured": "2026-03-29"
+      "times_featured": 2,
+      "last_featured": "2026-04-12"
     },
     "OpenBB-finance/OpenBB": {
       "times_featured": 1,
@@ -775,6 +775,34 @@
     "iced-rs/iced": {
       "times_featured": 1,
       "last_featured": "2026-04-11"
+    },
+    "ccxt/ccxt": {
+      "times_featured": 1,
+      "last_featured": "2026-04-12"
+    },
+    "pola-rs/polars": {
+      "times_featured": 1,
+      "last_featured": "2026-04-12"
+    },
+    "balena-io/etcher": {
+      "times_featured": 1,
+      "last_featured": "2026-04-12"
+    },
+    "langchain-ai/langchain": {
+      "times_featured": 1,
+      "last_featured": "2026-04-12"
+    },
+    "supabase/supabase": {
+      "times_featured": 1,
+      "last_featured": "2026-04-12"
+    },
+    "emilk/egui": {
+      "times_featured": 1,
+      "last_featured": "2026-04-12"
+    },
+    "ReVanced/revanced-manager": {
+      "times_featured": 1,
+      "last_featured": "2026-04-12"
     }
   }
 }

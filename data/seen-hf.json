@@ -89,12 +89,12 @@
       "last_featured": "2026-03-29"
     },
     "dima806/fairface_age_image_detection": {
-      "times_featured": 2,
-      "last_featured": "2026-03-25"
+      "times_featured": 3,
+      "last_featured": "2026-04-12"
     },
     "hf-doc-build/doc-build": {
-      "times_featured": 2,
-      "last_featured": "2026-03-24"
+      "times_featured": 3,
+      "last_featured": "2026-04-12"
     },
     "m-a-p/FineFineWeb": {
       "times_featured": 3,
@@ -149,8 +149,8 @@
       "last_featured": "2026-04-10"
     },
     "facebook/opt-125m": {
-      "times_featured": 1,
-      "last_featured": "2026-03-25"
+      "times_featured": 2,
+      "last_featured": "2026-04-12"
     },
     "openai/gpt-oss-20b": {
       "times_featured": 1,
@@ -173,32 +173,32 @@
       "last_featured": "2026-03-25"
     },
     "InstantX/InstantID": {
-      "times_featured": 1,
-      "last_featured": "2026-03-26"
+      "times_featured": 2,
+      "last_featured": "2026-04-12"
     },
     "tencent/Hunyuan3D-2": {
-      "times_featured": 1,
-      "last_featured": "2026-03-26"
+      "times_featured": 2,
+      "last_featured": "2026-04-12"
     },
     "hexgrad/Kokoro-TTS": {
-      "times_featured": 1,
-      "last_featured": "2026-03-26"
+      "times_featured": 2,
+      "last_featured": "2026-04-12"
     },
     "akhaliq/anycoder": {
-      "times_featured": 1,
-      "last_featured": "2026-03-26"
+      "times_featured": 2,
+      "last_featured": "2026-04-12"
     },
     "HuggingFaceTB/smol-training-playbook": {
-      "times_featured": 1,
-      "last_featured": "2026-03-26"
+      "times_featured": 2,
+      "last_featured": "2026-04-12"
     },
     "meta-llama/Llama-3.2-3B-Instruct": {
       "times_featured": 1,
       "last_featured": "2026-03-26"
     },
     "trl-internal-testing/tiny-Qwen2ForCausalLM-2.5": {
-      "times_featured": 1,
-      "last_featured": "2026-03-26"
+      "times_featured": 2,
+      "last_featured": "2026-04-12"
     },
     "Qwen/Qwen3-4B": {
       "times_featured": 2,
@@ -249,8 +249,8 @@
       "last_featured": "2026-04-11"
     },
     "Qwen/Qwen3-4B-Instruct-2507": {
-      "times_featured": 1,
-      "last_featured": "2026-03-27"
+      "times_featured": 2,
+      "last_featured": "2026-04-12"
     },
     "jonatasgrosman/wav2vec2-large-xlsr-53-portuguese": {
       "times_featured": 1,
@@ -309,8 +309,8 @@
       "last_featured": "2026-03-28"
     },
     "openai/whisper-large-v3-turbo": {
-      "times_featured": 1,
-      "last_featured": "2026-03-28"
+      "times_featured": 2,
+      "last_featured": "2026-04-12"
     },
     "openai/whisper-large-v3": {
       "times_featured": 1,
@@ -431,6 +431,14 @@
     "mlfoundations/MINT-1T-PDF-CC-2024-18": {
       "times_featured": 1,
       "last_featured": "2026-04-11"
+    },
+    "mlfoundations/MINT-1T-PDF-CC-2023-40": {
+      "times_featured": 1,
+      "last_featured": "2026-04-12"
+    },
+    "mlfoundations/MINT-1T-PDF-CC-2023-50": {
+      "times_featured": 1,
+      "last_featured": "2026-04-12"
     }
   }
 }

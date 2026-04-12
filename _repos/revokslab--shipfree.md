@@ -3,21 +3,21 @@ layout: repo
 name: "revokslab/ShipFree"
 source: github
 item_url: "https://github.com/revokslab/ShipFree"
-description: "Open Source Next.js Saas Boilerplate"
+description: "Open source Next.js SaaS boilerplate"
 category: "SaaS starters and templates"
 language: "TypeScript"
-stars: 1620
+stars: 1625
 downloads: 0
 likes: 0
 og_image: "https://opengraph.githubassets.com/1/revokslab/ShipFree"
 first_featured: "2026-03-27"
-last_featured: "2026-03-27"
-times_featured: 1
-streak: 22
-appearances: 22
-star_velocity: 1
+last_featured: "2026-04-12"
+times_featured: 2
+streak: 31
+appearances: 31
+star_velocity: 0
 tags: [github, boilerplate, nextjs, saas, typescript]
 icp_tags: ["founding-team", "solopreneur", "pre-mvp"]
 ---
 
-Open Source Next.js Saas Boilerplate
+Open source Next.js SaaS boilerplate

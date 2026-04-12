@@ -85,12 +85,12 @@
       "last_featured": "2026-04-10"
     },
     "lucataco/sam3-video": {
-      "times_featured": 1,
-      "last_featured": "2026-03-27"
+      "times_featured": 2,
+      "last_featured": "2026-04-12"
     },
     "nelsonjchen/op-replay-clipper": {
-      "times_featured": 1,
-      "last_featured": "2026-03-27"
+      "times_featured": 2,
+      "last_featured": "2026-04-12"
     },
     "xai/grok-imagine-r2v": {
       "times_featured": 1,
@@ -155,6 +155,18 @@
     "bytedance/seedance-2.0": {
       "times_featured": 1,
       "last_featured": "2026-04-11"
+    },
+    "wan-video/wan-2.7-image-pro": {
+      "times_featured": 1,
+      "last_featured": "2026-04-12"
+    },
+    "prunaai/p-image-upscale": {
+      "times_featured": 1,
+      "last_featured": "2026-04-12"
+    },
+    "google/veo-3.1-lite": {
+      "times_featured": 1,
+      "last_featured": "2026-04-12"
     }
   }
 }
