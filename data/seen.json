@@ -165,8 +165,8 @@
       "last_featured": "2026-04-09"
     },
     "microsoft/qlib": {
-      "times_featured": 2,
-      "last_featured": "2026-03-30"
+      "times_featured": 3,
+      "last_featured": "2026-04-13"
     },
     "async-labs/saas": {
       "times_featured": 1,
@@ -337,16 +337,16 @@
       "last_featured": "2026-03-23"
     },
     "hyprwm/Hyprland": {
-      "times_featured": 1,
-      "last_featured": "2026-03-23"
+      "times_featured": 2,
+      "last_featured": "2026-04-13"
     },
     "sindresorhus/awesome": {
       "times_featured": 2,
       "last_featured": "2026-04-10"
     },
     "yt-dlp/yt-dlp": {
-      "times_featured": 1,
-      "last_featured": "2026-03-23"
+      "times_featured": 2,
+      "last_featured": "2026-04-13"
     },
     "systemd/systemd": {
       "times_featured": 1,
@@ -449,8 +449,8 @@
       "last_featured": "2026-04-12"
     },
     "showlab/Awesome-Video-Diffusion": {
-      "times_featured": 1,
-      "last_featured": "2026-03-26"
+      "times_featured": 2,
+      "last_featured": "2026-04-13"
     },
     "nestjs/nest": {
       "times_featured": 1,
@@ -477,40 +477,40 @@
       "last_featured": "2026-04-12"
     },
     "reliverse/relivator": {
-      "times_featured": 1,
-      "last_featured": "2026-03-27"
+      "times_featured": 2,
+      "last_featured": "2026-04-13"
     },
     "shadcn-ui/next-template": {
-      "times_featured": 1,
-      "last_featured": "2026-03-27"
+      "times_featured": 2,
+      "last_featured": "2026-04-13"
     },
     "JoshuaKGoldberg/create-typescript-app": {
-      "times_featured": 1,
-      "last_featured": "2026-03-27"
+      "times_featured": 2,
+      "last_featured": "2026-04-13"
     },
     "emonney/QuickApp": {
-      "times_featured": 1,
-      "last_featured": "2026-03-27"
+      "times_featured": 2,
+      "last_featured": "2026-04-13"
     },
     "MeiGen-AI/InfiniteTalk": {
       "times_featured": 2,
       "last_featured": "2026-04-12"
     },
     "AILab-CVC/VideoCrafter": {
-      "times_featured": 1,
-      "last_featured": "2026-03-27"
+      "times_featured": 2,
+      "last_featured": "2026-04-13"
     },
     "NVlabs/Sana": {
-      "times_featured": 1,
-      "last_featured": "2026-03-27"
+      "times_featured": 2,
+      "last_featured": "2026-04-13"
     },
     "Tencent-Hunyuan/HunyuanVideo-1.5": {
       "times_featured": 1,
       "last_featured": "2026-03-27"
     },
     "nateraw/stable-diffusion-videos": {
-      "times_featured": 1,
-      "last_featured": "2026-03-27"
+      "times_featured": 2,
+      "last_featured": "2026-04-13"
     },
     "vitejs/vite": {
       "times_featured": 2,
@@ -533,8 +533,8 @@
       "last_featured": "2026-03-27"
     },
     "denoland/saaskit": {
-      "times_featured": 1,
-      "last_featured": "2026-03-28"
+      "times_featured": 2,
+      "last_featured": "2026-04-13"
     },
     "JohnBra/vite-web-extension": {
       "times_featured": 1,
@@ -673,8 +673,8 @@
       "last_featured": "2026-03-30"
     },
     "getpaykit/paykit": {
-      "times_featured": 1,
-      "last_featured": "2026-03-30"
+      "times_featured": 2,
+      "last_featured": "2026-04-13"
     },
     "AIDC-AI/Pixelle-Video": {
       "times_featured": 1,
@@ -713,8 +713,8 @@
       "last_featured": "2026-03-30"
     },
     "paperless-ngx/paperless-ngx": {
-      "times_featured": 1,
-      "last_featured": "2026-03-30"
+      "times_featured": 2,
+      "last_featured": "2026-04-13"
     },
     "fastfetch-cli/fastfetch": {
       "times_featured": 1,
@@ -803,6 +803,26 @@
     "ReVanced/revanced-manager": {
       "times_featured": 1,
       "last_featured": "2026-04-12"
+    },
+    "Anil-matcha/Open-Generative-AI": {
+      "times_featured": 1,
+      "last_featured": "2026-04-13"
+    },
+    "usememos/memos": {
+      "times_featured": 1,
+      "last_featured": "2026-04-13"
+    },
+    "deepspeedai/DeepSpeed": {
+      "times_featured": 1,
+      "last_featured": "2026-04-13"
+    },
+    "jd-opensource/JoyAI-Image": {
+      "times_featured": 1,
+      "last_featured": "2026-04-13"
+    },
+    "donnemartin/system-design-primer": {
+      "times_featured": 1,
+      "last_featured": "2026-04-13"
     }
   }
 }

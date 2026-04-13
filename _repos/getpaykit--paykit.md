@@ -3,21 +3,21 @@ layout: repo
 name: "getpaykit/paykit"
 source: github
 item_url: "https://github.com/getpaykit/paykit"
-description: "Paykit: a TypeScript billing framework, so you don't build it all."
+description: "Paykit: a TypeScript billing framework for Stripe and usage state, runs in your app."
 category: "Ops, analytics and automation"
 language: "TypeScript"
-stars: 260
+stars: 800
 downloads: 0
 likes: 0
 og_image: "https://opengraph.githubassets.com/1/getpaykit/paykit"
 first_featured: "2026-03-30"
-last_featured: "2026-03-30"
-times_featured: 1
-streak: 1
-appearances: 1
-star_velocity: 0
-tags: [github, ai, b2b, billing, creem, fintech, metering, polar, pricing]
+last_featured: "2026-04-13"
+times_featured: 2
+streak: 8
+appearances: 8
+star_velocity: 98
+tags: [github, billing, creem, fintech, paykit, payments, polar, pricing, saas]
 icp_tags: ["solopreneur", "small-business", "founding-team"]
 ---
 
-Paykit: a TypeScript billing framework, so you don't build it all.
+Paykit: a TypeScript billing framework for Stripe and usage state, runs in your app.

@@ -167,6 +167,26 @@
     "google/veo-3.1-lite": {
       "times_featured": 1,
       "last_featured": "2026-04-12"
+    },
+    "prunaai/sdxl-cheetah": {
+      "times_featured": 1,
+      "last_featured": "2026-04-13"
+    },
+    "wan-video/wan-2.7-image": {
+      "times_featured": 1,
+      "last_featured": "2026-04-13"
+    },
+    "minimax/music-2.5": {
+      "times_featured": 1,
+      "last_featured": "2026-04-13"
+    },
+    "bytedance/seedance-2.0-fast": {
+      "times_featured": 1,
+      "last_featured": "2026-04-13"
+    },
+    "wan-video/wan-2.7-i2v": {
+      "times_featured": 1,
+      "last_featured": "2026-04-13"
     }
   }
 }

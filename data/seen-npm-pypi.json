@@ -89,8 +89,8 @@
       "last_featured": "2026-04-11"
     },
     "npm-@opentelemetry/instrumentation-openai": {
-      "times_featured": 1,
-      "last_featured": "2026-03-25"
+      "times_featured": 2,
+      "last_featured": "2026-04-13"
     },
     "npm-selenium-webdriver": {
       "times_featured": 2,
@@ -113,20 +113,20 @@
       "last_featured": "2026-04-12"
     },
     "pypi-accelerate": {
-      "times_featured": 1,
-      "last_featured": "2026-03-25"
+      "times_featured": 2,
+      "last_featured": "2026-04-13"
     },
     "pypi-cohere": {
-      "times_featured": 1,
-      "last_featured": "2026-03-25"
+      "times_featured": 2,
+      "last_featured": "2026-04-13"
     },
     "npm-semantic-release": {
       "times_featured": 2,
       "last_featured": "2026-04-11"
     },
     "npm-@appium/schema": {
-      "times_featured": 1,
-      "last_featured": "2026-03-26"
+      "times_featured": 2,
+      "last_featured": "2026-04-13"
     },
     "npm-agent-browser": {
       "times_featured": 1,
@@ -153,8 +153,8 @@
       "last_featured": "2026-04-09"
     },
     "pypi-ollama": {
-      "times_featured": 1,
-      "last_featured": "2026-03-26"
+      "times_featured": 2,
+      "last_featured": "2026-04-13"
     },
     "pypi-chromadb": {
       "times_featured": 2,
@@ -181,8 +181,8 @@
       "last_featured": "2026-03-27"
     },
     "pypi-qdrant-client": {
-      "times_featured": 1,
-      "last_featured": "2026-03-27"
+      "times_featured": 2,
+      "last_featured": "2026-04-13"
     },
     "pypi-llama-index": {
       "times_featured": 2,
@@ -193,8 +193,8 @@
       "last_featured": "2026-03-27"
     },
     "pypi-vllm": {
-      "times_featured": 1,
-      "last_featured": "2026-03-27"
+      "times_featured": 2,
+      "last_featured": "2026-04-13"
     },
     "pypi-diffusers": {
       "times_featured": 1,
@@ -281,12 +281,12 @@
       "last_featured": "2026-03-29"
     },
     "npm-@appium/types": {
-      "times_featured": 1,
-      "last_featured": "2026-03-30"
+      "times_featured": 2,
+      "last_featured": "2026-04-13"
     },
     "npm-@appium/logger": {
-      "times_featured": 1,
-      "last_featured": "2026-03-30"
+      "times_featured": 2,
+      "last_featured": "2026-04-13"
     },
     "npm-@applitools/utils": {
       "times_featured": 1,
@@ -307,6 +307,10 @@
     "pypi-smolagents": {
       "times_featured": 1,
       "last_featured": "2026-04-09"
+    },
+    "npm-@appium/base-driver": {
+      "times_featured": 1,
+      "last_featured": "2026-04-13"
     }
   }
 }
