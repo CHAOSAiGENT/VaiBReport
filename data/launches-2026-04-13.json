@@ -1,0 +1,74 @@
+{
+  "generated_at": "2026-04-13T08:57:53.549Z",
+  "source": "launches",
+  "counts": {
+    "producthunt": 8,
+    "total": 8
+  },
+  "launches": [
+    {
+      "id": "ph-1121368",
+      "name": "Interactive Simulations in Gemini",
+      "description": "Gemini now lets you play with the concepts you ask about",
+      "url": "https://www.producthunt.com/r/XS63JGHVTSXRSG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 359,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1121525",
+      "name": "Ray",
+      "description": "Your personal CFO in the terminal",
+      "url": "https://www.producthunt.com/r/G3BLEM7JJPJ46U?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 264,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1102577",
+      "name": "Music Marketplace by Eleven Labs",
+      "description": "Create a track. Publish it. Earn when it is used.",
+      "url": "https://www.producthunt.com/r/FG6HGARL7HKFLR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 249,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1087846",
+      "name": "R0Y",
+      "description": "Natural language to Investing dashboards in seconds.",
+      "url": "https://www.producthunt.com/r/DSEDKDA63PJNEZ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 196,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1119626",
+      "name": "Edgee Codex Compressor",
+      "description": "Use Codex at 35.6% lower costs",
+      "url": "https://www.producthunt.com/r/Z556YL2S7RXN7P?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 154,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1097207",
+      "name": "ClarifierAI for IOS",
+      "description": "Use AI for writing & translating your messages 10x faster",
+      "url": "https://www.producthunt.com/r/4F2SD47CRIE4JX?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 147,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1121546",
+      "name": "Layered",
+      "description": "Turn your selfies into a personal AI stylist",
+      "url": "https://www.producthunt.com/r/JEPNNIS2C3DUQE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 136,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1120554",
+      "name": "Nicelydone MCP",
+      "description": "Design context for AI agents",
+      "url": "https://www.producthunt.com/r/UYVNHPGPMLBRIH?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 133,
+      "_source": "producthunt"
+    }
+  ]
+}
