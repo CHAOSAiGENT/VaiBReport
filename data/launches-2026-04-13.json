@@ -1,74 +1,167 @@
 {
-  "generated_at": "2026-04-13T08:57:53.549Z",
+  "generated_at": "2026-04-13T15:04:20.252Z",
   "source": "launches",
   "counts": {
-    "producthunt": 8,
-    "total": 8
+    "hackernews_showhn": 14,
+    "devhunt": 0,
+    "betalist": 0,
+    "uneed": 0,
+    "total": 14
   },
   "launches": [
     {
-      "id": "ph-1121368",
-      "name": "Interactive Simulations in Gemini",
-      "description": "Gemini now lets you play with the concepts you ask about",
-      "url": "https://www.producthunt.com/r/XS63JGHVTSXRSG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 359,
-      "_source": "producthunt"
+      "id": "showhn-47742200",
+      "name": "boringBar – a taskbar-style dock replacement for macOS",
+      "url": "https://boringbar.app/",
+      "description": "Show HN: boringBar – a taskbar-style dock replacement for macOS",
+      "upvotes": 438,
+      "launch_date": "2026-04-13",
+      "platform_url": "https://news.ycombinator.com/item?id=47742200",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
     },
     {
-      "id": "ph-1121525",
-      "name": "Ray",
-      "description": "Your personal CFO in the terminal",
-      "url": "https://www.producthunt.com/r/G3BLEM7JJPJ46U?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 264,
-      "_source": "producthunt"
+      "id": "showhn-47749674",
+      "name": "I built a social media management tool in 3 weeks with Claude and Codex",
+      "url": "https://github.com/brightbeanxyz/brightbean-studio",
+      "description": "Show HN: I built a social media management tool in 3 weeks with Claude and Codex",
+      "upvotes": 129,
+      "launch_date": "2026-04-13",
+      "platform_url": "https://news.ycombinator.com/item?id=47749674",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
     },
     {
-      "id": "ph-1102577",
-      "name": "Music Marketplace by Eleven Labs",
-      "description": "Create a track. Publish it. Earn when it is used.",
-      "url": "https://www.producthunt.com/r/FG6HGARL7HKFLR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 249,
-      "_source": "producthunt"
+      "id": "showhn-47739174",
+      "name": "Oberon System 3 runs natively on Raspberry Pi 3 (with ready SD card)",
+      "url": "https://github.com/rochus-keller/OberonSystem3Native/releases",
+      "description": "Show HN: Oberon System 3 runs natively on Raspberry Pi 3 (with ready SD card)",
+      "upvotes": 216,
+      "launch_date": "2026-04-13",
+      "platform_url": "https://news.ycombinator.com/item?id=47739174",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
     },
     {
-      "id": "ph-1087846",
-      "name": "R0Y",
-      "description": "Natural language to Investing dashboards in seconds.",
-      "url": "https://www.producthunt.com/r/DSEDKDA63PJNEZ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 196,
-      "_source": "producthunt"
+      "id": "showhn-47741889",
+      "name": "Claudraband – Claude Code for the Power User",
+      "url": "https://github.com/halfwhey/claudraband",
+      "description": "Show HN: Claudraband – Claude Code for the Power User",
+      "upvotes": 113,
+      "launch_date": "2026-04-13",
+      "platform_url": "https://news.ycombinator.com/item?id=47741889",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
     },
     {
-      "id": "ph-1119626",
-      "name": "Edgee Codex Compressor",
-      "description": "Use Codex at 35.6% lower costs",
-      "url": "https://www.producthunt.com/r/Z556YL2S7RXN7P?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "id": "showhn-47727960",
+      "name": "Pardonned.com – A searchable database of US Pardons",
+      "url": "https://news.ycombinator.com/item?id=47727960",
+      "description": "Show HN: Pardonned.com – A searchable database of US Pardons",
+      "upvotes": 490,
+      "launch_date": "2026-04-13",
+      "platform_url": "https://news.ycombinator.com/item?id=47727960",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47721997",
+      "name": "FluidCAD – Parametric CAD with JavaScript",
+      "url": "https://fluidcad.io/",
+      "description": "Show HN: FluidCAD – Parametric CAD with JavaScript",
       "upvotes": 154,
-      "_source": "producthunt"
+      "launch_date": "2026-04-13",
+      "platform_url": "https://news.ycombinator.com/item?id=47721997",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
     },
     {
-      "id": "ph-1097207",
-      "name": "ClarifierAI for IOS",
-      "description": "Use AI for writing & translating your messages 10x faster",
-      "url": "https://www.producthunt.com/r/4F2SD47CRIE4JX?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 147,
-      "_source": "producthunt"
+      "id": "showhn-47722011",
+      "name": "A WYSIWYG word processor in Python",
+      "url": "https://codeberg.org/chrisecker/miniword",
+      "description": "Show HN: A WYSIWYG word processor in Python",
+      "upvotes": 86,
+      "launch_date": "2026-04-13",
+      "platform_url": "https://news.ycombinator.com/item?id=47722011",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
     },
     {
-      "id": "ph-1121546",
-      "name": "Layered",
-      "description": "Turn your selfies into a personal AI stylist",
-      "url": "https://www.producthunt.com/r/JEPNNIS2C3DUQE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 136,
-      "_source": "producthunt"
+      "id": "showhn-47721255",
+      "name": "Eve – Managed OpenClaw for work",
+      "url": "https://eve.new/login",
+      "description": "Show HN: Eve – Managed OpenClaw for work",
+      "upvotes": 71,
+      "launch_date": "2026-04-13",
+      "platform_url": "https://news.ycombinator.com/item?id=47721255",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
     },
     {
-      "id": "ph-1120554",
-      "name": "Nicelydone MCP",
-      "description": "Design context for AI agents",
-      "url": "https://www.producthunt.com/r/UYVNHPGPMLBRIH?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 133,
-      "_source": "producthunt"
+      "id": "showhn-47705413",
+      "name": "I built a Cargo-like build tool for C/C++",
+      "url": "https://github.com/randerson112/craft",
+      "description": "Show HN: I built a Cargo-like build tool for C/C++",
+      "upvotes": 173,
+      "launch_date": "2026-04-13",
+      "platform_url": "https://news.ycombinator.com/item?id=47705413",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47730522",
+      "name": "Waffle – Native macOS terminal that auto-tiles sessions into a grid",
+      "url": "https://waffle.baby",
+      "description": "Show HN: Waffle – Native macOS terminal that auto-tiles sessions into a grid",
+      "upvotes": 38,
+      "launch_date": "2026-04-13",
+      "platform_url": "https://news.ycombinator.com/item?id=47730522",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47702196",
+      "name": "CSS Studio. Design by hand, code by agent",
+      "url": "https://cssstudio.ai",
+      "description": "Show HN: CSS Studio. Design by hand, code by agent",
+      "upvotes": 171,
+      "launch_date": "2026-04-13",
+      "platform_url": "https://news.ycombinator.com/item?id=47702196",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47715339",
+      "name": "Keeper – embedded secret store for Go (help me break it)",
+      "url": "https://github.com/agberohq/keeper",
+      "description": "Show HN: Keeper – embedded secret store for Go (help me break it)",
+      "upvotes": 63,
+      "launch_date": "2026-04-13",
+      "platform_url": "https://news.ycombinator.com/item?id=47715339",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47695666",
+      "name": "Druids – Build your own software factory",
+      "url": "https://github.com/fulcrumresearch/druids",
+      "description": "Show HN: Druids – Build your own software factory",
+      "upvotes": 64,
+      "launch_date": "2026-04-13",
+      "platform_url": "https://news.ycombinator.com/item?id=47695666",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47733479",
+      "name": "A Better Internet",
+      "url": "https://tomclancy.info/pages/abi-a-better-internet.html",
+      "description": "Show HN: A Better Internet",
+      "upvotes": 10,
+      "launch_date": "2026-04-13",
+      "platform_url": "https://news.ycombinator.com/item?id=47733479",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
     }
   ]
 }
