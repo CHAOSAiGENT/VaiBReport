@@ -1,0 +1,130 @@
+{
+  "generated_at": "2026-04-14T08:21:08.367Z",
+  "source": "launches",
+  "counts": {
+    "producthunt": 15,
+    "total": 15
+  },
+  "launches": [
+    {
+      "id": "ph-1113299",
+      "name": "Krisp Accent Converter for YouTube",
+      "description": "YouTube, but you clearly understand everyone",
+      "url": "https://www.producthunt.com/r/RWA2FSWMDYUCOD?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 362,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1122140",
+      "name": "Cleo Labs",
+      "description": "Automate global compliance  for selling physical products",
+      "url": "https://www.producthunt.com/r/AHD3EZDTM22CHD?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 242,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1113313",
+      "name": "Skills Janitor",
+      "description": "Find which Claude Code skills you actually use",
+      "url": "https://www.producthunt.com/r/JCQPY7HBWEOUUQ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 181,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1122175",
+      "name": "showmd",
+      "description": "Markdown was never meant to be previewed plain text",
+      "url": "https://www.producthunt.com/r/453EYDNTZHQI7F?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 173,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1122226",
+      "name": "ContextPool",
+      "description": "Persistent memory for AI coding agents",
+      "url": "https://www.producthunt.com/r/2GYRK34MXQMSIE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 157,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1122264",
+      "name": "Clarm",
+      "description": "AI inbound layer to capture, qualify, and route leads",
+      "url": "https://www.producthunt.com/r/P2EMEE5GC4442W?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 135,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1122414",
+      "name": "Deconflict",
+      "description": "Plan your WiFi and see through walls",
+      "url": "https://www.producthunt.com/r/BVZBBDAHFICY6R?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 119,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1122373",
+      "name": "VoxCPM2",
+      "description": "Open-source 48kHz TTS with voice design and cloning",
+      "url": "https://www.producthunt.com/r/HR6OQ2UY4GUL7M?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 116,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1118491",
+      "name": "SigmaMind MCP",
+      "description": "Build and control voice AI agents via MCP",
+      "url": "https://www.producthunt.com/r/QGJKSO45Z6KGQN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 110,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1122274",
+      "name": "Open Comet",
+      "description": "The autonomous AI browser agent for deep research & tasks",
+      "url": "https://www.producthunt.com/r/DVDT6QWYA6VLRY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 108,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1122147",
+      "name": "Legitify",
+      "description": "Compliant cross-border notarization, reimagined.",
+      "url": "https://www.producthunt.com/r/QTXWMDPLH5OCKC?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 101,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1122314",
+      "name": "SuperHQ",
+      "description": "Run AI coding agents in real microVM sandboxes",
+      "url": "https://www.producthunt.com/r/PQ2WQSSVFJ52Z2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 94,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1122095",
+      "name": "GhostDesk",
+      "description": "Your invisible AI co-pilot for interviews & meetings",
+      "url": "https://www.producthunt.com/r/H7HBBV5B76RGKN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 91,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1121836",
+      "name": "deckpipe.dev",
+      "description": "agent-first slide renderer",
+      "url": "https://www.producthunt.com/r/K3ZPEQQ7JYB3U3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 91,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1121870",
+      "name": "Revenue by Sleek Analytics",
+      "description": "See your revenue alongside your traffic. In real time.",
+      "url": "https://www.producthunt.com/r/UHWMD4HN2NXDBL?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 84,
+      "_source": "producthunt"
+    }
+  ]
+}
