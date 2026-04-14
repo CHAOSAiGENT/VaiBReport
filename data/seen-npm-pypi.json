@@ -173,12 +173,12 @@
       "last_featured": "2026-04-12"
     },
     "npm-@genkit-ai/google-genai": {
-      "times_featured": 1,
-      "last_featured": "2026-03-27"
+      "times_featured": 2,
+      "last_featured": "2026-04-14"
     },
     "npm-genkit-cli": {
-      "times_featured": 1,
-      "last_featured": "2026-03-27"
+      "times_featured": 2,
+      "last_featured": "2026-04-14"
     },
     "pypi-qdrant-client": {
       "times_featured": 2,
@@ -189,20 +189,20 @@
       "last_featured": "2026-04-12"
     },
     "pypi-instructor": {
-      "times_featured": 1,
-      "last_featured": "2026-03-27"
+      "times_featured": 2,
+      "last_featured": "2026-04-14"
     },
     "pypi-vllm": {
       "times_featured": 2,
       "last_featured": "2026-04-13"
     },
     "pypi-diffusers": {
-      "times_featured": 1,
-      "last_featured": "2026-03-27"
+      "times_featured": 2,
+      "last_featured": "2026-04-14"
     },
     "npm-@genkit-ai/telemetry-server": {
-      "times_featured": 1,
-      "last_featured": "2026-03-28"
+      "times_featured": 2,
+      "last_featured": "2026-04-14"
     },
     "npm-repomix": {
       "times_featured": 1,
@@ -221,8 +221,8 @@
       "last_featured": "2026-03-28"
     },
     "pypi-crewai": {
-      "times_featured": 1,
-      "last_featured": "2026-03-28"
+      "times_featured": 2,
+      "last_featured": "2026-04-14"
     },
     "pypi-docling": {
       "times_featured": 1,
@@ -233,12 +233,12 @@
       "last_featured": "2026-04-12"
     },
     "pypi-unstructured": {
-      "times_featured": 1,
-      "last_featured": "2026-03-28"
+      "times_featured": 2,
+      "last_featured": "2026-04-14"
     },
     "pypi-agno": {
-      "times_featured": 1,
-      "last_featured": "2026-03-28"
+      "times_featured": 2,
+      "last_featured": "2026-04-14"
     },
     "npm-scrivito": {
       "times_featured": 1,
@@ -311,6 +311,14 @@
     "npm-@appium/base-driver": {
       "times_featured": 1,
       "last_featured": "2026-04-13"
+    },
+    "npm-@appium/tsconfig": {
+      "times_featured": 1,
+      "last_featured": "2026-04-14"
+    },
+    "npm-@appium/base-plugin": {
+      "times_featured": 1,
+      "last_featured": "2026-04-14"
     }
   }
 }

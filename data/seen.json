@@ -153,8 +153,8 @@
       "last_featured": "2026-03-06"
     },
     "rustdesk/rustdesk": {
-      "times_featured": 1,
-      "last_featured": "2026-03-06"
+      "times_featured": 2,
+      "last_featured": "2026-04-14"
     },
     "nlohmann/json": {
       "times_featured": 3,
@@ -373,8 +373,8 @@
       "last_featured": "2026-03-24"
     },
     "vllm-project/vllm-omni": {
-      "times_featured": 1,
-      "last_featured": "2026-03-24"
+      "times_featured": 2,
+      "last_featured": "2026-04-14"
     },
     "saturndec/waoowaoo": {
       "times_featured": 2,
@@ -389,8 +389,8 @@
       "last_featured": "2026-03-24"
     },
     "k3s-io/k3s": {
-      "times_featured": 1,
-      "last_featured": "2026-03-24"
+      "times_featured": 2,
+      "last_featured": "2026-04-14"
     },
     "BeyteFlow/ReadmeGenAI": {
       "times_featured": 2,
@@ -505,8 +505,8 @@
       "last_featured": "2026-04-13"
     },
     "Tencent-Hunyuan/HunyuanVideo-1.5": {
-      "times_featured": 1,
-      "last_featured": "2026-03-27"
+      "times_featured": 2,
+      "last_featured": "2026-04-14"
     },
     "nateraw/stable-diffusion-videos": {
       "times_featured": 2,
@@ -537,28 +537,28 @@
       "last_featured": "2026-04-13"
     },
     "JohnBra/vite-web-extension": {
-      "times_featured": 1,
-      "last_featured": "2026-03-28"
+      "times_featured": 2,
+      "last_featured": "2026-04-14"
     },
     "mugnavo/tanstarter": {
-      "times_featured": 1,
-      "last_featured": "2026-03-28"
+      "times_featured": 2,
+      "last_featured": "2026-04-14"
     },
     "guigrpa/docx-templates": {
-      "times_featured": 1,
-      "last_featured": "2026-03-28"
+      "times_featured": 2,
+      "last_featured": "2026-04-14"
     },
     "dishait/tov-template": {
-      "times_featured": 1,
-      "last_featured": "2026-03-28"
+      "times_featured": 2,
+      "last_featured": "2026-04-14"
     },
     "antgroup/echomimic_v2": {
-      "times_featured": 1,
-      "last_featured": "2026-03-28"
+      "times_featured": 2,
+      "last_featured": "2026-04-14"
     },
     "VectorSpaceLab/OmniGen": {
-      "times_featured": 1,
-      "last_featured": "2026-03-28"
+      "times_featured": 2,
+      "last_featured": "2026-04-14"
     },
     "ali-vilab/VACE": {
       "times_featured": 1,
@@ -589,8 +589,8 @@
       "last_featured": "2026-03-28"
     },
     "Skolaczk/next-starter": {
-      "times_featured": 1,
-      "last_featured": "2026-03-29"
+      "times_featured": 2,
+      "last_featured": "2026-04-14"
     },
     "agustinusnathaniel/nextarter-chakra": {
       "times_featured": 1,
@@ -677,8 +677,8 @@
       "last_featured": "2026-04-13"
     },
     "AIDC-AI/Pixelle-Video": {
-      "times_featured": 1,
-      "last_featured": "2026-03-30"
+      "times_featured": 2,
+      "last_featured": "2026-04-14"
     },
     "hao-ai-lab/FastVideo": {
       "times_featured": 1,
@@ -823,6 +823,22 @@
     "donnemartin/system-design-primer": {
       "times_featured": 1,
       "last_featured": "2026-04-13"
+    },
+    "servo/servo": {
+      "times_featured": 1,
+      "last_featured": "2026-04-14"
+    },
+    "juanfont/headscale": {
+      "times_featured": 1,
+      "last_featured": "2026-04-14"
+    },
+    "schollz/croc": {
+      "times_featured": 1,
+      "last_featured": "2026-04-14"
+    },
+    "taosdata/TDengine": {
+      "times_featured": 1,
+      "last_featured": "2026-04-14"
     }
   }
 }

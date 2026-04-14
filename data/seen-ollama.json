@@ -179,6 +179,26 @@
     "llama3-chatqa": {
       "times_featured": 1,
       "last_featured": "2026-04-12"
+    },
+    "granite3-dense": {
+      "times_featured": 1,
+      "last_featured": "2026-04-14"
+    },
+    "granite3.1-dense": {
+      "times_featured": 1,
+      "last_featured": "2026-04-14"
+    },
+    "dolphincoder": {
+      "times_featured": 1,
+      "last_featured": "2026-04-14"
+    },
+    "wizard-math": {
+      "times_featured": 1,
+      "last_featured": "2026-04-14"
+    },
+    "llama3-gradient": {
+      "times_featured": 1,
+      "last_featured": "2026-04-14"
     }
   }
 }
