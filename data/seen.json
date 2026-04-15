@@ -253,8 +253,8 @@
       "last_featured": "2026-03-06"
     },
     "aquasecurity/trivy": {
-      "times_featured": 2,
-      "last_featured": "2026-03-23"
+      "times_featured": 3,
+      "last_featured": "2026-04-15"
     },
     "OpenAPITools/openapi-generator": {
       "times_featured": 2,
@@ -309,8 +309,8 @@
       "last_featured": "2026-03-06"
     },
     "nautechsystems/nautilus_trader": {
-      "times_featured": 1,
-      "last_featured": "2026-03-06"
+      "times_featured": 2,
+      "last_featured": "2026-04-15"
     },
     "containerd/containerd": {
       "times_featured": 1,
@@ -561,24 +561,24 @@
       "last_featured": "2026-04-14"
     },
     "ali-vilab/VACE": {
-      "times_featured": 1,
-      "last_featured": "2026-03-28"
+      "times_featured": 2,
+      "last_featured": "2026-04-15"
     },
     "SandAI-org/MAGI-1": {
-      "times_featured": 1,
-      "last_featured": "2026-03-28"
+      "times_featured": 2,
+      "last_featured": "2026-04-15"
     },
     "Hunyuan-PromptEnhancer/PromptEnhancer": {
-      "times_featured": 1,
-      "last_featured": "2026-03-28"
+      "times_featured": 2,
+      "last_featured": "2026-04-15"
     },
     "NationalSecurityAgency/ghidra": {
       "times_featured": 2,
       "last_featured": "2026-04-11"
     },
     "ultralytics/yolov5": {
-      "times_featured": 1,
-      "last_featured": "2026-03-28"
+      "times_featured": 2,
+      "last_featured": "2026-04-15"
     },
     "run-llama/llama_index": {
       "times_featured": 1,
@@ -593,20 +593,20 @@
       "last_featured": "2026-04-14"
     },
     "agustinusnathaniel/nextarter-chakra": {
-      "times_featured": 1,
-      "last_featured": "2026-03-29"
+      "times_featured": 2,
+      "last_featured": "2026-04-15"
     },
     "windingwind/zotero-plugin-template": {
-      "times_featured": 1,
-      "last_featured": "2026-03-29"
+      "times_featured": 2,
+      "last_featured": "2026-04-15"
     },
     "daltonmenezes/electron-app": {
-      "times_featured": 1,
-      "last_featured": "2026-03-29"
+      "times_featured": 2,
+      "last_featured": "2026-04-15"
     },
     "scaffdog/scaffdog": {
-      "times_featured": 1,
-      "last_featured": "2026-03-29"
+      "times_featured": 2,
+      "last_featured": "2026-04-15"
     },
     "JCodesMore/ai-website-cloner-template": {
       "times_featured": 2,
@@ -617,12 +617,12 @@
       "last_featured": "2026-03-29"
     },
     "AiuniAI/Unique3D": {
-      "times_featured": 1,
-      "last_featured": "2026-03-29"
+      "times_featured": 2,
+      "last_featured": "2026-04-15"
     },
     "open-xml-templating/docxtemplater": {
-      "times_featured": 1,
-      "last_featured": "2026-03-29"
+      "times_featured": 2,
+      "last_featured": "2026-04-15"
     },
     "Tencent-Hunyuan/Hunyuan3D-1": {
       "times_featured": 1,
@@ -653,8 +653,8 @@
       "last_featured": "2026-03-29"
     },
     "suren-atoyan/react-pwa": {
-      "times_featured": 1,
-      "last_featured": "2026-03-30"
+      "times_featured": 2,
+      "last_featured": "2026-04-15"
     },
     "kvnxiao/tauri-nextjs-template": {
       "times_featured": 1,
@@ -839,6 +839,22 @@
     "taosdata/TDengine": {
       "times_featured": 1,
       "last_featured": "2026-04-14"
+    },
+    "Shaisolaris/nextjs-saas-starter": {
+      "times_featured": 1,
+      "last_featured": "2026-04-15"
+    },
+    "type-challenges/type-challenges": {
+      "times_featured": 1,
+      "last_featured": "2026-04-15"
+    },
+    "jj-vcs/jj": {
+      "times_featured": 1,
+      "last_featured": "2026-04-15"
+    },
+    "koodo-reader/koodo-reader": {
+      "times_featured": 1,
+      "last_featured": "2026-04-15"
     }
   }
 }

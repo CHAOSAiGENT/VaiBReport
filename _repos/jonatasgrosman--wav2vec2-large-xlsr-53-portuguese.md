@@ -3,16 +3,16 @@ layout: repo
 name: "jonatasgrosman/wav2vec2-large-xlsr-53-portuguese"
 source: huggingface-model
 item_url: "https://huggingface.co/jonatasgrosman/wav2vec2-large-xlsr-53-portuguese"
-description: "wav2vec2-large-xlsr-53-portuguese"
+description: "Portuguese speech recognition model"
 category: "HuggingFace Models"
 language: ""
 stars: 0
-downloads: 5716128
-likes: 38
+downloads: 4581350
+likes: 51
 og_image: ""
 first_featured: "2026-03-27"
-last_featured: "2026-03-27"
-times_featured: 1
+last_featured: "2026-04-15"
+times_featured: 2
 streak: 0
 appearances: 0
 star_velocity: 0
@@ -20,4 +20,4 @@ tags: [huggingface, transformers, pytorch, jax, wav2vec2, automatic-speech-recog
 icp_tags: ["founding-team", "pre-mvp"]
 ---
 
-wav2vec2-large-xlsr-53-portuguese
+Portuguese speech recognition model
