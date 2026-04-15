@@ -1,146 +1,123 @@
 {
-  "generated_at": "2026-04-15T08:22:11.363Z",
+  "generated_at": "2026-04-15T14:55:00.222Z",
   "source": "launches",
   "counts": {
-    "producthunt": 17,
-    "total": 17
+    "hackernews_showhn": 10,
+    "devhunt": 0,
+    "betalist": 0,
+    "uneed": 0,
+    "total": 10
   },
   "launches": [
     {
-      "id": "ph-1106192",
-      "name": "Figma for Agents",
-      "description": "Design with AI agents, connected to your design system",
-      "url": "https://www.producthunt.com/r/2Q5KSKQ7UYEPQA?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 498,
-      "_source": "producthunt"
+      "id": "showhn-47778306",
+      "name": "Every CEO and CFO change at US public companies, live from SEC",
+      "url": "https://tracksuccession.com/explore",
+      "description": "Show HN: Every CEO and CFO change at US public companies, live from SEC",
+      "upvotes": 68,
+      "launch_date": "2026-04-15",
+      "platform_url": "https://news.ycombinator.com/item?id=47778306",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
     },
     {
-      "id": "ph-1122069",
-      "name": "CatDoes v4",
-      "description": "An AI agent with its own computer builds your apps",
-      "url": "https://www.producthunt.com/r/AS6JS7TWSU5PV6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 384,
-      "_source": "producthunt"
+      "id": "showhn-47768750",
+      "name": "Plain – The full-stack Python framework designed for humans and agents",
+      "url": "https://github.com/dropseed/plain",
+      "description": "Show HN: Plain – The full-stack Python framework designed for humans and agents",
+      "upvotes": 88,
+      "launch_date": "2026-04-15",
+      "platform_url": "https://news.ycombinator.com/item?id=47768750",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
     },
     {
-      "id": "ph-1123001",
-      "name": "Softr AI Co-Builder",
-      "description": "Build business apps with AI - that actually work",
-      "url": "https://www.producthunt.com/r/KEVPSWSDCIA5TB?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 359,
-      "_source": "producthunt"
+      "id": "showhn-47766370",
+      "name": "LangAlpha – what if Claude Code was built for Wall Street?",
+      "url": "https://github.com/ginlix-ai/langalpha",
+      "description": "Show HN: LangAlpha – what if Claude Code was built for Wall Street?",
+      "upvotes": 140,
+      "launch_date": "2026-04-15",
+      "platform_url": "https://news.ycombinator.com/item?id=47766370",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
     },
     {
-      "id": "ph-1119657",
-      "name": "Ovren",
-      "description": "Your AI engineering department that ships your backlog",
-      "url": "https://www.producthunt.com/r/IB3733X3JMRODF?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 307,
-      "_source": "producthunt"
+      "id": "showhn-47767606",
+      "name": "Kelet – Root Cause Analysis agent for your LLM apps",
+      "url": "https://kelet.ai/",
+      "description": "Show HN: Kelet – Root Cause Analysis agent for your LLM apps",
+      "upvotes": 47,
+      "launch_date": "2026-04-15",
+      "platform_url": "https://news.ycombinator.com/item?id=47767606",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
     },
     {
-      "id": "ph-1115093",
-      "name": "FuseAI",
-      "description": "The Agentic Sales Platform",
-      "url": "https://www.producthunt.com/r/7A2U5I3Q7TYWZO?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 267,
-      "_source": "producthunt"
+      "id": "showhn-47756569",
+      "name": "Ithihāsas – a character explorer for Hindu epics, built in a few hours",
+      "url": "https://www.ithihasas.in",
+      "description": "Show HN: Ithihāsas – a character explorer for Hindu epics, built in a few hours",
+      "upvotes": 174,
+      "launch_date": "2026-04-15",
+      "platform_url": "https://news.ycombinator.com/item?id=47756569",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
     },
     {
-      "id": "ph-1122839",
-      "name": "Caveman",
-      "description": "Why use so many token when few do trick?",
-      "url": "https://www.producthunt.com/r/NFANGDJQVMYBRD?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 225,
-      "_source": "producthunt"
+      "id": "showhn-47714770",
+      "name": "Run GUIs as Scripts",
+      "url": "https://github.com/skinnyjames/hokusai-pocket",
+      "description": "Show HN: Run GUIs as Scripts",
+      "upvotes": 21,
+      "launch_date": "2026-04-15",
+      "platform_url": "https://news.ycombinator.com/item?id=47714770",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
     },
     {
-      "id": "ph-1108834",
-      "name": "Recall 2.0",
-      "description": "Curate an AI that knows what you know. ",
-      "url": "https://www.producthunt.com/r/6ZWGLVRX6FQH4Z?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 210,
-      "_source": "producthunt"
+      "id": "showhn-47742200",
+      "name": "boringBar – a taskbar-style dock replacement for macOS",
+      "url": "https://boringbar.app/",
+      "description": "Show HN: boringBar – a taskbar-style dock replacement for macOS",
+      "upvotes": 514,
+      "launch_date": "2026-04-15",
+      "platform_url": "https://news.ycombinator.com/item?id=47742200",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
     },
     {
-      "id": "ph-1122722",
-      "name": "Ghost Pepper 🌶️",
-      "description": "100% local private AI for text-to-speech & meeting notes",
-      "url": "https://www.producthunt.com/r/OJWGY2X7VZXFKY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 178,
-      "_source": "producthunt"
+      "id": "showhn-47762851",
+      "name": "A stateful UI runtime for reactive web apps in Go",
+      "url": "https://github.com/doors-dev/doors",
+      "description": "Show HN: A stateful UI runtime for reactive web apps in Go",
+      "upvotes": 13,
+      "launch_date": "2026-04-15",
+      "platform_url": "https://news.ycombinator.com/item?id=47762851",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
     },
     {
-      "id": "ph-1123176",
-      "name": "Open Agents",
-      "description": "Agents that ship real code",
-      "url": "https://www.producthunt.com/r/YN6Q5YCWCCGJQ5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 157,
-      "_source": "producthunt"
+      "id": "showhn-47739174",
+      "name": "Oberon System 3 runs natively on Raspberry Pi 3 (with ready SD card)",
+      "url": "https://github.com/rochus-keller/OberonSystem3Native/releases",
+      "description": "Show HN: Oberon System 3 runs natively on Raspberry Pi 3 (with ready SD card)",
+      "upvotes": 242,
+      "launch_date": "2026-04-15",
+      "platform_url": "https://news.ycombinator.com/item?id=47739174",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
     },
     {
-      "id": "ph-1106233",
-      "name": "ElevenAgents Guardrails 2.0",
-      "description": "Configurable safety control for enterprise agent deployment.",
-      "url": "https://www.producthunt.com/r/DZDESLW4ERMYGF?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 126,
-      "_source": "producthunt"
-    },
-    {
-      "id": "ph-1123102",
-      "name": "send/links",
-      "description": "Save, organize, and find your links in one place",
-      "url": "https://www.producthunt.com/r/NHS2LKHNGJ6ZXM?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 118,
-      "_source": "producthunt"
-    },
-    {
-      "id": "ph-1123096",
-      "name": "Mutiny",
-      "description": "Create anything customer-facing. Personalized and on-brand.",
-      "url": "https://www.producthunt.com/r/QETRX77EUGVBVP?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 116,
-      "_source": "producthunt"
-    },
-    {
-      "id": "ph-1122822",
-      "name": "Google's Nest Doorbell",
-      "description": "Smart, battery-powered video doorbell to detect what matters",
-      "url": "https://www.producthunt.com/r/4DMNNEYZFVEVSG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 112,
-      "_source": "producthunt"
-    },
-    {
-      "id": "ph-1123113",
-      "name": "Strix Agents",
-      "description": "AI Hackers to secure your vibe-coded apps",
-      "url": "https://www.producthunt.com/r/WRYVXU5JFFBY2X?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 93,
-      "_source": "producthunt"
-    },
-    {
-      "id": "ph-1122965",
-      "name": "Shuffle AI Redesign Extension",
-      "description": "Redesign any site using leading AI models",
-      "url": "https://www.producthunt.com/r/GP4IUFWFBTUMFK?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 91,
-      "_source": "producthunt"
-    },
-    {
-      "id": "ph-1122182",
-      "name": "Creativly",
-      "description": "Community-powered AI visual platform with unique generators",
-      "url": "https://www.producthunt.com/r/WSFGC3W4EQGXSO?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 85,
-      "_source": "producthunt"
-    },
-    {
-      "id": "ph-1120308",
-      "name": "Anamap",
-      "description": "Finally, an AI that actually understands your analytics.",
-      "url": "https://www.producthunt.com/r/MNTXF5XE64D3FL?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 82,
-      "_source": "producthunt"
+      "id": "showhn-47727960",
+      "name": "Pardonned.com – A searchable database of US Pardons",
+      "url": "https://news.ycombinator.com/item?id=47727960",
+      "description": "Show HN: Pardonned.com – A searchable database of US Pardons",
+      "upvotes": 500,
+      "launch_date": "2026-04-15",
+      "platform_url": "https://news.ycombinator.com/item?id=47727960",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
     }
   ]
 }
