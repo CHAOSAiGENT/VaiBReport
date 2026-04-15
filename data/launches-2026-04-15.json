@@ -1,0 +1,146 @@
+{
+  "generated_at": "2026-04-15T08:22:11.363Z",
+  "source": "launches",
+  "counts": {
+    "producthunt": 17,
+    "total": 17
+  },
+  "launches": [
+    {
+      "id": "ph-1106192",
+      "name": "Figma for Agents",
+      "description": "Design with AI agents, connected to your design system",
+      "url": "https://www.producthunt.com/r/2Q5KSKQ7UYEPQA?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 498,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1122069",
+      "name": "CatDoes v4",
+      "description": "An AI agent with its own computer builds your apps",
+      "url": "https://www.producthunt.com/r/AS6JS7TWSU5PV6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 384,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1123001",
+      "name": "Softr AI Co-Builder",
+      "description": "Build business apps with AI - that actually work",
+      "url": "https://www.producthunt.com/r/KEVPSWSDCIA5TB?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 359,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1119657",
+      "name": "Ovren",
+      "description": "Your AI engineering department that ships your backlog",
+      "url": "https://www.producthunt.com/r/IB3733X3JMRODF?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 307,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1115093",
+      "name": "FuseAI",
+      "description": "The Agentic Sales Platform",
+      "url": "https://www.producthunt.com/r/7A2U5I3Q7TYWZO?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 267,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1122839",
+      "name": "Caveman",
+      "description": "Why use so many token when few do trick?",
+      "url": "https://www.producthunt.com/r/NFANGDJQVMYBRD?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 225,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1108834",
+      "name": "Recall 2.0",
+      "description": "Curate an AI that knows what you know. ",
+      "url": "https://www.producthunt.com/r/6ZWGLVRX6FQH4Z?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 210,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1122722",
+      "name": "Ghost Pepper 🌶️",
+      "description": "100% local private AI for text-to-speech & meeting notes",
+      "url": "https://www.producthunt.com/r/OJWGY2X7VZXFKY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 178,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1123176",
+      "name": "Open Agents",
+      "description": "Agents that ship real code",
+      "url": "https://www.producthunt.com/r/YN6Q5YCWCCGJQ5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 157,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1106233",
+      "name": "ElevenAgents Guardrails 2.0",
+      "description": "Configurable safety control for enterprise agent deployment.",
+      "url": "https://www.producthunt.com/r/DZDESLW4ERMYGF?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 126,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1123102",
+      "name": "send/links",
+      "description": "Save, organize, and find your links in one place",
+      "url": "https://www.producthunt.com/r/NHS2LKHNGJ6ZXM?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 118,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1123096",
+      "name": "Mutiny",
+      "description": "Create anything customer-facing. Personalized and on-brand.",
+      "url": "https://www.producthunt.com/r/QETRX77EUGVBVP?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 116,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1122822",
+      "name": "Google's Nest Doorbell",
+      "description": "Smart, battery-powered video doorbell to detect what matters",
+      "url": "https://www.producthunt.com/r/4DMNNEYZFVEVSG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 112,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1123113",
+      "name": "Strix Agents",
+      "description": "AI Hackers to secure your vibe-coded apps",
+      "url": "https://www.producthunt.com/r/WRYVXU5JFFBY2X?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 93,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1122965",
+      "name": "Shuffle AI Redesign Extension",
+      "description": "Redesign any site using leading AI models",
+      "url": "https://www.producthunt.com/r/GP4IUFWFBTUMFK?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 91,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1122182",
+      "name": "Creativly",
+      "description": "Community-powered AI visual platform with unique generators",
+      "url": "https://www.producthunt.com/r/WSFGC3W4EQGXSO?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 85,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1120308",
+      "name": "Anamap",
+      "description": "Finally, an AI that actually understands your analytics.",
+      "url": "https://www.producthunt.com/r/MNTXF5XE64D3FL?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 82,
+      "_source": "producthunt"
+    }
+  ]
+}
