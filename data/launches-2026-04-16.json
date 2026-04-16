@@ -1,146 +1,189 @@
 {
-  "generated_at": "2026-04-16T08:22:28.625Z",
+  "generated_at": "2026-04-16T15:13:38.334Z",
   "source": "launches",
   "counts": {
-    "producthunt": 17,
-    "total": 17
+    "hackernews_showhn": 16,
+    "devhunt": 0,
+    "betalist": 0,
+    "uneed": 0,
+    "total": 16
   },
   "launches": [
     {
-      "id": "ph-1123888",
-      "name": "Fathom 3.0",
-      "description": "AI meeting notes: now bot-free, in ChatGPT & Claude + more",
-      "url": "https://www.producthunt.com/r/CS4BN7LVLISWRQ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 535,
-      "_source": "producthunt"
+      "id": "showhn-47792525",
+      "name": "MacMind – A transformer neural network in HyperCard on a 1989 Macintosh",
+      "url": "https://github.com/SeanFDZ/macmind",
+      "description": "Show HN: MacMind – A transformer neural network in HyperCard on a 1989 Macintosh",
+      "upvotes": 17,
+      "launch_date": "2026-04-16",
+      "platform_url": "https://news.ycombinator.com/item?id=47792525",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
     },
     {
-      "id": "ph-1123691",
-      "name": "Claude Code Routines",
-      "description": "Put Claude Code tasks on autopilot with smart routines",
-      "url": "https://www.producthunt.com/r/C2HEOHKNZ3RKQM?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 491,
-      "_source": "producthunt"
+      "id": "showhn-47780971",
+      "name": "Libretto – Making AI browser automations deterministic",
+      "url": "https://github.com/saffron-health/libretto",
+      "description": "Show HN: Libretto – Making AI browser automations deterministic",
+      "upvotes": 117,
+      "launch_date": "2026-04-16",
+      "platform_url": "https://news.ycombinator.com/item?id=47780971",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
     },
     {
-      "id": "ph-1122688",
-      "name": "Intent",
-      "description": "Describe a feature and AI agents build, verify, and ship it",
-      "url": "https://www.producthunt.com/r/24L77BJFDCD3MD?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 329,
-      "_source": "producthunt"
+      "id": "showhn-47777633",
+      "name": "SmallDocs - Markdown without the frustrations",
+      "url": "https://news.ycombinator.com/item?id=47777633",
+      "description": "Show HN: SmallDocs - Markdown without the frustrations",
+      "upvotes": 25,
+      "launch_date": "2026-04-16",
+      "platform_url": "https://news.ycombinator.com/item?id=47777633",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
     },
     {
-      "id": "ph-1123810",
-      "name": "Lovable Desktop App",
-      "description": "Organize projects with tabs & power workflows via local MCPs",
-      "url": "https://www.producthunt.com/r/E5CPQJBUQS3BAC?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 291,
-      "_source": "producthunt"
+      "id": "showhn-47787947",
+      "name": "Hiraeth – AWS Emulator",
+      "url": "https://github.com/SethPyle376/hiraeth",
+      "description": "Show HN: Hiraeth – AWS Emulator",
+      "upvotes": 29,
+      "launch_date": "2026-04-16",
+      "platform_url": "https://news.ycombinator.com/item?id=47787947",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
     },
     {
-      "id": "ph-1123674",
-      "name": "Gemini Robotics ER 1.6",
-      "description": "Google's SOTA robotics model for visual & spatial reasoning!",
-      "url": "https://www.producthunt.com/r/V7AOHINNXB7MG7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 227,
-      "_source": "producthunt"
+      "id": "showhn-47787491",
+      "name": "Gave Claude a casino bankroll – it gambles till it's too broke to think",
+      "url": "https://letaigamble.com/",
+      "description": "Show HN: Gave Claude a casino bankroll – it gambles till it's too broke to think",
+      "upvotes": 29,
+      "launch_date": "2026-04-16",
+      "platform_url": "https://news.ycombinator.com/item?id=47787491",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
     },
     {
-      "id": "ph-1123310",
-      "name": "CC-BEEPER",
-      "description": "A floating macOS pager for Claude Code",
-      "url": "https://www.producthunt.com/r/VFG5QZ4RMQUDYX?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 212,
-      "_source": "producthunt"
+      "id": "showhn-47778306",
+      "name": "Every CEO and CFO change at US public companies, live from SEC",
+      "url": "https://tracksuccession.com/explore",
+      "description": "Show HN: Every CEO and CFO change at US public companies, live from SEC",
+      "upvotes": 180,
+      "launch_date": "2026-04-16",
+      "platform_url": "https://news.ycombinator.com/item?id=47778306",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
     },
     {
-      "id": "ph-1112535",
-      "name": "Mush",
-      "description": "Combine Wi-Fi, Ethernet, and 5G for max download speed",
-      "url": "https://www.producthunt.com/r/UC73J6Q3WSP335?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 139,
-      "_source": "producthunt"
+      "id": "showhn-47784914",
+      "name": "Omi – watches your screen, hears conversations, tells you what to do",
+      "url": "https://github.com/BasedHardware/omi",
+      "description": "Show HN: Omi – watches your screen, hears conversations, tells you what to do",
+      "upvotes": 13,
+      "launch_date": "2026-04-16",
+      "platform_url": "https://news.ycombinator.com/item?id=47784914",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
     },
     {
-      "id": "ph-1118811",
-      "name": "Carousels Generator",
-      "description": "From prompt to branded LinkedIn carousel powered by AI",
-      "url": "https://www.producthunt.com/r/YJC7UQCMB3T3ES?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 127,
-      "_source": "producthunt"
+      "id": "showhn-47729925",
+      "name": "I rebuilt a 2000s browser strategy game on Cloudflare's edge",
+      "url": "https://kampfinsel.com/",
+      "description": "Show HN: I rebuilt a 2000s browser strategy game on Cloudflare's edge",
+      "upvotes": 35,
+      "launch_date": "2026-04-16",
+      "platform_url": "https://news.ycombinator.com/item?id=47729925",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
     },
     {
-      "id": "ph-1117955",
-      "name": "Defter Notes 2.0.",
-      "description": "Spatial thinking with handwriting",
-      "url": "https://www.producthunt.com/r/AUTKEKB5WY7VNY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 121,
-      "_source": "producthunt"
+      "id": "showhn-47782696",
+      "name": "Fakecloud – Free, open-source AWS emulator",
+      "url": "https://github.com/faiscadev/fakecloud",
+      "description": "Show HN: Fakecloud – Free, open-source AWS emulator",
+      "upvotes": 30,
+      "launch_date": "2026-04-16",
+      "platform_url": "https://news.ycombinator.com/item?id=47782696",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
     },
     {
-      "id": "ph-1123808",
-      "name": "Astra",
-      "description": "Make AI agents that never see your data",
-      "url": "https://www.producthunt.com/r/PF4VCIA7JR3QLP?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 114,
-      "_source": "producthunt"
+      "id": "showhn-47766370",
+      "name": "LangAlpha – what if Claude Code was built for Wall Street?",
+      "url": "https://github.com/ginlix-ai/langalpha",
+      "description": "Show HN: LangAlpha – what if Claude Code was built for Wall Street?",
+      "upvotes": 144,
+      "launch_date": "2026-04-16",
+      "platform_url": "https://news.ycombinator.com/item?id=47766370",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
     },
     {
-      "id": "ph-1123178",
-      "name": "ClawTrace",
-      "description": "Make your OpenClaw better, cheaper, and faster",
-      "url": "https://www.producthunt.com/r/H4WSBDO5A4PZX6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 112,
-      "_source": "producthunt"
+      "id": "showhn-47768750",
+      "name": "Plain – The full-stack Python framework designed for humans and agents",
+      "url": "https://github.com/dropseed/plain",
+      "description": "Show HN: Plain – The full-stack Python framework designed for humans and agents",
+      "upvotes": 92,
+      "launch_date": "2026-04-16",
+      "platform_url": "https://news.ycombinator.com/item?id=47768750",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
     },
     {
-      "id": "ph-1123000",
-      "name": "Playbook Intelligence",
-      "description": "Talk directly to your files to bulk edit, organize, & share",
-      "url": "https://www.producthunt.com/r/VFTX7XFMB37ENQ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 108,
-      "_source": "producthunt"
+      "id": "showhn-47756569",
+      "name": "Ithihāsas – a character explorer for Hindu epics, built in a few hours",
+      "url": "https://www.ithihasas.in",
+      "description": "Show HN: Ithihāsas – a character explorer for Hindu epics, built in a few hours",
+      "upvotes": 174,
+      "launch_date": "2026-04-16",
+      "platform_url": "https://news.ycombinator.com/item?id=47756569",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
     },
     {
-      "id": "ph-1101800",
-      "name": "Lexie",
-      "description": "Snap your notes and get tested before the exam",
-      "url": "https://www.producthunt.com/r/UQQYITYXHM7JU2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 100,
-      "_source": "producthunt"
+      "id": "showhn-47780141",
+      "name": "Compile English specs into 22 MB neural functions that run locally",
+      "url": "https://news.ycombinator.com/item?id=47780141",
+      "description": "Show HN: Compile English specs into 22 MB neural functions that run locally",
+      "upvotes": 10,
+      "launch_date": "2026-04-16",
+      "platform_url": "https://news.ycombinator.com/item?id=47780141",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
     },
     {
-      "id": "ph-1122472",
-      "name": "Pane Studio (Beta)",
-      "description": "Produce polished product demos",
-      "url": "https://www.producthunt.com/r/CRRW3VJH5BC5CZ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 98,
-      "_source": "producthunt"
+      "id": "showhn-47780199",
+      "name": "Avec – iOS email app that lets you handle your Gmail inbox in seconds",
+      "url": "https://apps.apple.com/us/app/avec-email-app-for-gmail/id6742199038",
+      "description": "Show HN: Avec – iOS email app that lets you handle your Gmail inbox in seconds",
+      "upvotes": 20,
+      "launch_date": "2026-04-16",
+      "platform_url": "https://news.ycombinator.com/item?id=47780199",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
     },
     {
-      "id": "ph-1122632",
-      "name": "Doz",
-      "description": "Medication reminders and tracker based on prescriptions ",
-      "url": "https://www.producthunt.com/r/H5T5PY555VSAGQ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 95,
-      "_source": "producthunt"
+      "id": "showhn-47767606",
+      "name": "Kelet – Root Cause Analysis agent for your LLM apps",
+      "url": "https://kelet.ai/",
+      "description": "Show HN: Kelet – Root Cause Analysis agent for your LLM apps",
+      "upvotes": 47,
+      "launch_date": "2026-04-16",
+      "platform_url": "https://news.ycombinator.com/item?id=47767606",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
     },
     {
-      "id": "ph-1122125",
-      "name": "Wafer Pass",
-      "description": "Flat rate to the best LLMs for OpenClaw, Hermes Agent, etc.",
-      "url": "https://www.producthunt.com/r/K5BUZWB5Y6GYAU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 88,
-      "_source": "producthunt"
-    },
-    {
-      "id": "ph-1119860",
-      "name": "Collabute",
-      "description": "Your team's context, turned into action",
-      "url": "https://www.producthunt.com/r/UX2JT27DKOOHQQ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 85,
-      "_source": "producthunt"
+      "id": "showhn-47742200",
+      "name": "boringBar – a taskbar-style dock replacement for macOS",
+      "url": "https://boringbar.app/",
+      "description": "Show HN: boringBar – a taskbar-style dock replacement for macOS",
+      "upvotes": 517,
+      "launch_date": "2026-04-16",
+      "platform_url": "https://news.ycombinator.com/item?id=47742200",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
     }
   ]
 }
