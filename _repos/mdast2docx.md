@@ -3,16 +3,16 @@ layout: repo
 name: "mdast2docx"
 source: npm
 item_url: "https://www.npmjs.com/package/mdast2docx"
-description: "Convert Markdown AST to DOCX. Generate Word docs from structured Markdown content."
+description: "MDAST to Word converter, useful for content automation pipelines."
 category: "npm Packages"
 language: ""
 stars: 0
-downloads: 17543
+downloads: 14427
 likes: 0
 og_image: ""
 first_featured: "2026-03-29"
-last_featured: "2026-03-29"
-times_featured: 1
+last_featured: "2026-04-16"
+times_featured: 2
 streak: 0
 appearances: 0
 star_velocity: 0
@@ -20,4 +20,4 @@ tags: [npm, mdast, markdown, generative-ai, docx, md2docx, markdown-to-docx, mda
 icp_tags: ["founding-team", "solopreneur"]
 ---
 
-Convert Markdown AST to DOCX. Generate Word docs from structured Markdown content.
+MDAST to Word converter, useful for content automation pipelines.

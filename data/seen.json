@@ -245,8 +245,8 @@
       "last_featured": "2026-04-09"
     },
     "hoppscotch/hoppscotch": {
-      "times_featured": 2,
-      "last_featured": "2026-03-28"
+      "times_featured": 3,
+      "last_featured": "2026-04-16"
     },
     "fastify/fastify": {
       "times_featured": 1,
@@ -353,8 +353,8 @@
       "last_featured": "2026-03-23"
     },
     "GyulyVGC/sniffnet": {
-      "times_featured": 1,
-      "last_featured": "2026-03-23"
+      "times_featured": 2,
+      "last_featured": "2026-04-16"
     },
     "BCG-X-Official/agentkit": {
       "times_featured": 2,
@@ -365,8 +365,8 @@
       "last_featured": "2026-04-10"
     },
     "coollabsio/coolify": {
-      "times_featured": 1,
-      "last_featured": "2026-03-24"
+      "times_featured": 2,
+      "last_featured": "2026-04-16"
     },
     "SimplifyJobs/Summer2026-Internships": {
       "times_featured": 1,
@@ -461,8 +461,8 @@
       "last_featured": "2026-03-26"
     },
     "n8n-io/n8n": {
-      "times_featured": 1,
-      "last_featured": "2026-03-26"
+      "times_featured": 2,
+      "last_featured": "2026-04-16"
     },
     "Infisical/infisical": {
       "times_featured": 1,
@@ -625,16 +625,16 @@
       "last_featured": "2026-04-15"
     },
     "Tencent-Hunyuan/Hunyuan3D-1": {
-      "times_featured": 1,
-      "last_featured": "2026-03-29"
+      "times_featured": 2,
+      "last_featured": "2026-04-16"
     },
     "DLR-RM/BlenderProc": {
-      "times_featured": 1,
-      "last_featured": "2026-03-29"
+      "times_featured": 2,
+      "last_featured": "2026-04-16"
     },
     "thu-ml/TurboDiffusion": {
-      "times_featured": 1,
-      "last_featured": "2026-03-29"
+      "times_featured": 2,
+      "last_featured": "2026-04-16"
     },
     "binhnguyennus/awesome-scalability": {
       "times_featured": 1,
@@ -657,20 +657,20 @@
       "last_featured": "2026-04-15"
     },
     "kvnxiao/tauri-nextjs-template": {
-      "times_featured": 1,
-      "last_featured": "2026-03-30"
+      "times_featured": 2,
+      "last_featured": "2026-04-16"
     },
     "zhangyao1990/elegant-admin": {
-      "times_featured": 1,
-      "last_featured": "2026-03-30"
+      "times_featured": 2,
+      "last_featured": "2026-04-16"
     },
     "radishzzz/astro-theme-retypeset": {
-      "times_featured": 1,
-      "last_featured": "2026-03-30"
+      "times_featured": 2,
+      "last_featured": "2026-04-16"
     },
     "KevinNovak/Discord-Bot-TypeScript-Template": {
-      "times_featured": 1,
-      "last_featured": "2026-03-30"
+      "times_featured": 2,
+      "last_featured": "2026-04-16"
     },
     "getpaykit/paykit": {
       "times_featured": 2,
@@ -681,16 +681,16 @@
       "last_featured": "2026-04-14"
     },
     "hao-ai-lab/FastVideo": {
-      "times_featured": 1,
-      "last_featured": "2026-03-30"
+      "times_featured": 2,
+      "last_featured": "2026-04-16"
     },
     "growchief/growchief": {
       "times_featured": 1,
       "last_featured": "2026-03-30"
     },
     "Robbyant/lingbot-world": {
-      "times_featured": 1,
-      "last_featured": "2026-03-30"
+      "times_featured": 2,
+      "last_featured": "2026-04-16"
     },
     "thu-ml/SageAttention": {
       "times_featured": 1,
@@ -855,6 +855,18 @@
     "koodo-reader/koodo-reader": {
       "times_featured": 1,
       "last_featured": "2026-04-15"
+    },
+    "NextJSTemplates/play-nextjs": {
+      "times_featured": 1,
+      "last_featured": "2026-04-16"
+    },
+    "calcom/cal.diy": {
+      "times_featured": 1,
+      "last_featured": "2026-04-16"
+    },
+    "VictoriaMetrics/VictoriaMetrics": {
+      "times_featured": 1,
+      "last_featured": "2026-04-16"
     }
   }
 }

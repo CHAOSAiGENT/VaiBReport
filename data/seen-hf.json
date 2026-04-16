@@ -305,8 +305,8 @@
       "last_featured": "2026-04-13"
     },
     "jonatasgrosman/wav2vec2-large-xlsr-53-chinese-zh-cn": {
-      "times_featured": 1,
-      "last_featured": "2026-03-28"
+      "times_featured": 2,
+      "last_featured": "2026-04-16"
     },
     "openai/whisper-large-v3-turbo": {
       "times_featured": 2,
@@ -357,16 +357,16 @@
       "last_featured": "2026-04-15"
     },
     "MahmoudAshraf/mms-300m-1130-forced-aligner": {
-      "times_featured": 1,
-      "last_featured": "2026-03-29"
+      "times_featured": 2,
+      "last_featured": "2026-04-16"
     },
     "openai/gpt-oss-120b": {
       "times_featured": 1,
       "last_featured": "2026-03-29"
     },
     "Kthera/pesoz": {
-      "times_featured": 1,
-      "last_featured": "2026-03-29"
+      "times_featured": 2,
+      "last_featured": "2026-04-16"
     },
     "lavita/medical-qa-shared-task-v1-toy": {
       "times_featured": 1,
@@ -377,20 +377,20 @@
       "last_featured": "2026-03-29"
     },
     "AI4Editing/MagicQuill": {
-      "times_featured": 1,
-      "last_featured": "2026-03-30"
+      "times_featured": 2,
+      "last_featured": "2026-04-16"
     },
     "jbilcke-hf/FacePoke_CLONE-THIS-REPO-TO-USE-IT": {
-      "times_featured": 1,
-      "last_featured": "2026-03-30"
+      "times_featured": 2,
+      "last_featured": "2026-04-16"
     },
     "tencent/Hunyuan3D-2.1": {
-      "times_featured": 1,
-      "last_featured": "2026-03-30"
+      "times_featured": 2,
+      "last_featured": "2026-04-16"
     },
     "linoyts/Qwen-Image-Edit-Angles": {
-      "times_featured": 1,
-      "last_featured": "2026-03-30"
+      "times_featured": 2,
+      "last_featured": "2026-04-16"
     },
     "yisol/IDM-VTON": {
       "times_featured": 1,
@@ -401,8 +401,8 @@
       "last_featured": "2026-04-15"
     },
     "Qwen/Qwen2.5-32B-Instruct": {
-      "times_featured": 1,
-      "last_featured": "2026-03-30"
+      "times_featured": 2,
+      "last_featured": "2026-04-16"
     },
     "zai-org/GLM-5-FP8": {
       "times_featured": 1,
@@ -467,6 +467,26 @@
     "HuggingFaceFW/fineweb": {
       "times_featured": 1,
       "last_featured": "2026-04-15"
+    },
+    "multimodalart/qwen-image-multiple-angles-3d-camera": {
+      "times_featured": 1,
+      "last_featured": "2026-04-16"
+    },
+    "mixedbread-ai/mxbai-embed-large-v1": {
+      "times_featured": 1,
+      "last_featured": "2026-04-16"
+    },
+    "deepseek-ai/DeepSeek-R1": {
+      "times_featured": 1,
+      "last_featured": "2026-04-16"
+    },
+    "mlfoundations/MINT-1T-PDF-CC-2023-14": {
+      "times_featured": 1,
+      "last_featured": "2026-04-16"
+    },
+    "mlfoundations/MINT-1T-PDF-CC-2023-06": {
+      "times_featured": 1,
+      "last_featured": "2026-04-16"
     }
   }
 }

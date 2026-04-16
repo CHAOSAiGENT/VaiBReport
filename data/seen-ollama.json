@@ -215,6 +215,26 @@
     "internlm2": {
       "times_featured": 1,
       "last_featured": "2026-04-15"
+    },
+    "medgemma1.5": {
+      "times_featured": 1,
+      "last_featured": "2026-04-16"
+    },
+    "starling-lm": {
+      "times_featured": 1,
+      "last_featured": "2026-04-16"
+    },
+    "solar": {
+      "times_featured": 1,
+      "last_featured": "2026-04-16"
+    },
+    "phind-codellama": {
+      "times_featured": 1,
+      "last_featured": "2026-04-16"
+    },
+    "aya-expanse": {
+      "times_featured": 1,
+      "last_featured": "2026-04-16"
     }
   }
 }

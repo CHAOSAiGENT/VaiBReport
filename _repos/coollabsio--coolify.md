@@ -3,20 +3,22 @@ layout: repo
 name: "coollabsio/coolify"
 source: github
 item_url: "https://github.com/coollabsio/coolify"
-description: "An open-source, self-hostable PaaS alternative to Vercel, Heroku & Netlify that lets you easily deploy static sites, databases, full-stack applications and 280+ one-click services on your own servers."
+description: "Self-hostable Vercel/Heroku replacement with 280+ one-click services."
 category: "Trending"
 language: "PHP"
-stars: 52039
+stars: 53528
 downloads: 0
 likes: 0
+readme_image: "https://api.star-history.com/svg?repos=coollabsio/coolify&type=Date"
 og_image: "https://opengraph.githubassets.com/1/coollabsio/coolify"
 first_featured: "2026-03-24"
-last_featured: "2026-03-24"
-times_featured: 1
+last_featured: "2026-04-16"
+times_featured: 2
 streak: 1
-appearances: 1
+appearances: 5
 star_velocity: 0
 tags: [github]
+icp_tags: ["founding-team", "entreprecurious"]
 ---
 
-An open-source, self-hostable PaaS alternative to Vercel, Heroku & Netlify that lets you easily deploy static sites, databases, full-stack applications and 280+ one-click services on your own servers.
+Self-hostable Vercel/Heroku replacement with 280+ one-click services.

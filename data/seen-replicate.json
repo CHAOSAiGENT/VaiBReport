@@ -45,16 +45,16 @@
       "last_featured": "2026-03-25"
     },
     "inworld/tts-1.5-max": {
-      "times_featured": 1,
-      "last_featured": "2026-03-25"
+      "times_featured": 2,
+      "last_featured": "2026-04-16"
     },
     "vufinder/vggt-1b": {
       "times_featured": 1,
       "last_featured": "2026-03-25"
     },
     "inworld/tts-1.5-mini": {
-      "times_featured": 1,
-      "last_featured": "2026-03-25"
+      "times_featured": 2,
+      "last_featured": "2026-04-16"
     },
     "vidu/q3-pro": {
       "times_featured": 2,
@@ -223,6 +223,18 @@
     "vidu/q3-turbo": {
       "times_featured": 1,
       "last_featured": "2026-04-15"
+    },
+    "google/imagen-4-ultra": {
+      "times_featured": 1,
+      "last_featured": "2026-04-16"
+    },
+    "prunaai/gemma-4-26b-a4b-fast": {
+      "times_featured": 1,
+      "last_featured": "2026-04-16"
+    },
+    "google/gemini-3.1-flash-tts": {
+      "times_featured": 1,
+      "last_featured": "2026-04-16"
     }
   }
 }
