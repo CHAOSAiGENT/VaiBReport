@@ -1,0 +1,154 @@
+{
+  "generated_at": "2026-04-17T08:21:22.289Z",
+  "source": "launches",
+  "counts": {
+    "producthunt": 18,
+    "total": 18
+  },
+  "launches": [
+    {
+      "id": "ph-1123805",
+      "name": "Claude Code Desktop App Redesigned",
+      "description": "Run parallel coding agents from one desktop workspace",
+      "url": "https://www.producthunt.com/r/XHD24MRF7YMM2X?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 506,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1121949",
+      "name": "X-Pilot",
+      "description": " Explain anything accurately, from document to video course",
+      "url": "https://www.producthunt.com/r/PKLR5DDFXUK34H?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 353,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1124759",
+      "name": "Resend CLI 2.0",
+      "description": "Built for humans, AI agents, and CI/CD pipelines",
+      "url": "https://www.producthunt.com/r/VRGLFFJVSN3G53?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 331,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1123704",
+      "name": "Google Chrome Skills",
+      "description": "Turn your best AI prompts into one-click tools in Chrome",
+      "url": "https://www.producthunt.com/r/2NHG5EG623FQGA?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 248,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1123313",
+      "name": "stagewise",
+      "description": "The coding agent that works in its own browser environment",
+      "url": "https://www.producthunt.com/r/UI5E7WRV537R24?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 182,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1124517",
+      "name": "Google Gemini 3.1 Flash TTS",
+      "description": "Text-to-speech API with natural language voice direction",
+      "url": "https://www.producthunt.com/r/OXFOZPCWGRRUKE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 159,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1124671",
+      "name": "Subagents in Gemini CLI",
+      "description": "Gemini CLI now runs specialist subagents in your terminal",
+      "url": "https://www.producthunt.com/r/DDOT45P5POSHLX?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 142,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1114392",
+      "name": "Mantle SAFEs",
+      "description": "Issue & sign SAFEs for free. No DocuSign required.",
+      "url": "https://www.producthunt.com/r/6ZPCEE566I6EXG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 128,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1125035",
+      "name": "OpenAI Agents SDK",
+      "description": "Build production agents with harness and sandbox",
+      "url": "https://www.producthunt.com/r/2U6SMXWWJ56JNV?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 128,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1125041",
+      "name": "Foyer",
+      "description": "Make your site speak and sell",
+      "url": "https://www.producthunt.com/r/4SNYGJEOJMWAJI?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 118,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1124989",
+      "name": "Agent Card",
+      "description": "Prepaid virtual Visa cards for AI agents",
+      "url": "https://www.producthunt.com/r/LU2HZAHTWFLMB6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 114,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1124420",
+      "name": "HackerEarth OnScreen",
+      "description": "An always-on, zero-bias AI hiring tool",
+      "url": "https://www.producthunt.com/r/24VGODOMA67JZG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 111,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1123029",
+      "name": "Astropad Workbench",
+      "description": "Remote desktop for AI agents running on headless Macs",
+      "url": "https://www.producthunt.com/r/4UAWIFI7SH7FKN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 111,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1120127",
+      "name": "Avec",
+      "description": "Tinder for Email to handle your inbox in seconds",
+      "url": "https://www.producthunt.com/r/FHAW6D2P4NEWGZ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 108,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1124605",
+      "name": "FunKey",
+      "description": "Mechanical keyboard & mouse sounds for your Mac",
+      "url": "https://www.producthunt.com/r/ZNH7P2DODBBNCF?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 107,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1124035",
+      "name": "Chinilla",
+      "description": "Design systems, simulate them and watch where they break",
+      "url": "https://www.producthunt.com/r/ZDDKCVNLGCPD34?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 106,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1124786",
+      "name": "Windsurf 2.0",
+      "description": "Introducing the Agent Command Center and Devin in Windsurf",
+      "url": "https://www.producthunt.com/r/6LS25FN4A3SPZC?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 98,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1122177",
+      "name": "Libertify.com",
+      "description": "Turn any document into an interactive video",
+      "url": "https://www.producthunt.com/r/RTSNUMTVKQPB3E?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 97,
+      "_source": "producthunt"
+    }
+  ]
+}
