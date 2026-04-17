@@ -1,18 +1,18 @@
 ---
 layout: repo
-name: "yisol/IDM-VTON"
+name: "yanze/PuLID-FLUX"
 source: huggingface-space
-item_url: "https://huggingface.co/spaces/yisol/IDM-VTON"
-description: "IDM-VTON model."
+item_url: "https://huggingface.co/spaces/yanze/PuLID-FLUX"
+description: "PuLID-FLUX model."
 category: "HuggingFace Spaces"
 language: ""
 stars: 0
 downloads: 0
-likes: 2093
-og_image: "https://huggingface.co/api/spaces/yisol/IDM-VTON/screenshot"
-first_featured: "2026-03-30"
+likes: 2075
+og_image: "https://huggingface.co/api/spaces/yanze/PuLID-FLUX/screenshot"
+first_featured: "2026-04-17"
 last_featured: "2026-04-17"
-times_featured: 2
+times_featured: 1
 streak: 0
 appearances: 0
 star_velocity: 0
@@ -20,4 +20,4 @@ tags: [huggingface, gradio, region:us]
 icp_tags: ["non-technical", "solopreneur", "entreprecurious"]
 ---
 
-IDM-VTON model.
+PuLID-FLUX model.

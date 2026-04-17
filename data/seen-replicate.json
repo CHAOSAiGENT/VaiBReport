@@ -235,6 +235,26 @@
     "google/gemini-3.1-flash-tts": {
       "times_featured": 1,
       "last_featured": "2026-04-16"
+    },
+    "google/imagen-4-fast": {
+      "times_featured": 1,
+      "last_featured": "2026-04-17"
+    },
+    "kwaivgi/kling-avatar-v2": {
+      "times_featured": 1,
+      "last_featured": "2026-04-17"
+    },
+    "heygen/video-translate": {
+      "times_featured": 1,
+      "last_featured": "2026-04-17"
+    },
+    "ideogram-ai/layerize": {
+      "times_featured": 1,
+      "last_featured": "2026-04-17"
+    },
+    "vufinder/map-anything": {
+      "times_featured": 1,
+      "last_featured": "2026-04-17"
     }
   }
 }

@@ -117,8 +117,8 @@
       "last_featured": "2026-04-11"
     },
     "deepcoder": {
-      "times_featured": 1,
-      "last_featured": "2026-03-28"
+      "times_featured": 2,
+      "last_featured": "2026-04-17"
     },
     "ministral-3": {
       "times_featured": 2,
@@ -235,6 +235,22 @@
     "aya-expanse": {
       "times_featured": 1,
       "last_featured": "2026-04-16"
+    },
+    "xwinlm": {
+      "times_featured": 1,
+      "last_featured": "2026-04-17"
+    },
+    "granite3-moe": {
+      "times_featured": 1,
+      "last_featured": "2026-04-17"
+    },
+    "yarn-llama2": {
+      "times_featured": 1,
+      "last_featured": "2026-04-17"
+    },
+    "orca2": {
+      "times_featured": 1,
+      "last_featured": "2026-04-17"
     }
   }
 }

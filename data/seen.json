@@ -249,8 +249,8 @@
       "last_featured": "2026-04-16"
     },
     "fastify/fastify": {
-      "times_featured": 1,
-      "last_featured": "2026-03-06"
+      "times_featured": 2,
+      "last_featured": "2026-04-17"
     },
     "aquasecurity/trivy": {
       "times_featured": 3,
@@ -381,12 +381,12 @@
       "last_featured": "2026-04-11"
     },
     "YouMind-OpenLab/awesome-nano-banana-pro-prompts": {
-      "times_featured": 1,
-      "last_featured": "2026-03-24"
+      "times_featured": 2,
+      "last_featured": "2026-04-17"
     },
     "directus/directus": {
-      "times_featured": 1,
-      "last_featured": "2026-03-24"
+      "times_featured": 2,
+      "last_featured": "2026-04-17"
     },
     "k3s-io/k3s": {
       "times_featured": 2,
@@ -685,16 +685,16 @@
       "last_featured": "2026-04-16"
     },
     "growchief/growchief": {
-      "times_featured": 1,
-      "last_featured": "2026-03-30"
+      "times_featured": 2,
+      "last_featured": "2026-04-17"
     },
     "Robbyant/lingbot-world": {
       "times_featured": 2,
       "last_featured": "2026-04-16"
     },
     "thu-ml/SageAttention": {
-      "times_featured": 1,
-      "last_featured": "2026-03-30"
+      "times_featured": 2,
+      "last_featured": "2026-04-17"
     },
     "lukasz-madon/awesome-remote-job": {
       "times_featured": 1,
@@ -867,6 +867,50 @@
     "VictoriaMetrics/VictoriaMetrics": {
       "times_featured": 1,
       "last_featured": "2026-04-16"
+    },
+    "akd-io/create-next-stack": {
+      "times_featured": 1,
+      "last_featured": "2026-04-17"
+    },
+    "mvllow/next-pwa-template": {
+      "times_featured": 1,
+      "last_featured": "2026-04-17"
+    },
+    "expo-starter/expo-local-first-template": {
+      "times_featured": 1,
+      "last_featured": "2026-04-17"
+    },
+    "uni-helper/vitesse-uni-app": {
+      "times_featured": 1,
+      "last_featured": "2026-04-17"
+    },
+    "un-pany/mobvue": {
+      "times_featured": 1,
+      "last_featured": "2026-04-17"
+    },
+    "Kedreamix/Linly-Talker": {
+      "times_featured": 1,
+      "last_featured": "2026-04-17"
+    },
+    "SamurAIGPT/AI-Youtube-Shorts-Generator": {
+      "times_featured": 1,
+      "last_featured": "2026-04-17"
+    },
+    "symfony/asset": {
+      "times_featured": 1,
+      "last_featured": "2026-04-17"
+    },
+    "jgraph/drawio-desktop": {
+      "times_featured": 1,
+      "last_featured": "2026-04-17"
+    },
+    "vuejs/core": {
+      "times_featured": 1,
+      "last_featured": "2026-04-17"
+    },
+    "authelia/authelia": {
+      "times_featured": 1,
+      "last_featured": "2026-04-17"
     }
   }
 }
