@@ -1,0 +1,122 @@
+{
+  "generated_at": "2026-04-18T07:53:58.193Z",
+  "source": "launches",
+  "counts": {
+    "producthunt": 14,
+    "total": 14
+  },
+  "launches": [
+    {
+      "id": "ph-1125388",
+      "name": "Claude Opus 4.7",
+      "description": "Claude’s most capable model for reasoning and agentic coding",
+      "url": "https://www.producthunt.com/r/ODDUWVTWKOPU45?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 467,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1125523",
+      "name": "Codex 2.0 by OpenAI",
+      "description": "Codex now runs apps, automates tasks, codes & more",
+      "url": "https://www.producthunt.com/r/AO2GMMCVV4OJK2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 294,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1124657",
+      "name": "E.Y.E. by Expert Chase",
+      "description": "Where human life runs with AI",
+      "url": "https://www.producthunt.com/r/GCQEFP2KEUCOT4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 229,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1125834",
+      "name": "Canva AI 2.0",
+      "description": "AI that creates with you, and connects to your world",
+      "url": "https://www.producthunt.com/r/QO5SBISWZ574XP?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 169,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1093459",
+      "name": "Hello Aria",
+      "description": "Turn chats into tasks, reminders & notes — instantly.",
+      "url": "https://www.producthunt.com/r/WPPY4MPSZOBCXS?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 163,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1125151",
+      "name": "CalendarPipe",
+      "description": "Programmable calendar sync for humans and AI agents",
+      "url": "https://www.producthunt.com/r/ZSCEQOBWDUCRNL?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 151,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1125893",
+      "name": "Arky",
+      "description": "The canvas for thinking with AI",
+      "url": "https://www.producthunt.com/r/BIKQJ4SKC3ZMMY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 136,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1125302",
+      "name": "Visual PR Testing with AI",
+      "description": "Validate every PR with AI that runs tests for you",
+      "url": "https://www.producthunt.com/r/M6IGM7B54M5TA2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 133,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1125730",
+      "name": "LIVE: wtf are agents buying?",
+      "description": "Watch agents spend money in real time",
+      "url": "https://www.producthunt.com/r/XAUK2XZYWAJCKX?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 127,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1125518",
+      "name": "AI Mode in Chrome",
+      "description": "Browse and search side-by-side, without switching tabs",
+      "url": "https://www.producthunt.com/r/U5Q5KWWEAGXW73?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 126,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1125358",
+      "name": "Qwen3.6-35B-A3B",
+      "description": "The open sparse MoE model for agentic coding",
+      "url": "https://www.producthunt.com/r/RAJS7PCRIB2A7O?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 121,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1125167",
+      "name": "Elvan",
+      "description": "Turn customer feedback into decisions with AI",
+      "url": "https://www.producthunt.com/r/QMRLNKMDWY2DNJ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 109,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1124624",
+      "name": "Athena",
+      "description": "Claude Code for Product Teams",
+      "url": "https://www.producthunt.com/r/UMKVSDJCI24RYK?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 101,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1124587",
+      "name": "CoAgentor",
+      "description": "AI Agents that participate live in meetings",
+      "url": "https://www.producthunt.com/r/5DJC3SQX4PNTZX?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 93,
+      "_source": "producthunt"
+    }
+  ]
+}
