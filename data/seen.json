@@ -29,8 +29,8 @@
       "times_featured": 3
     },
     "makeplane/plane": {
-      "last_featured": "2026-03-05",
-      "times_featured": 1
+      "last_featured": "2026-04-18",
+      "times_featured": 2
     },
     "PostHog/posthog": {
       "last_featured": "2026-03-26",
@@ -911,6 +911,66 @@
     "authelia/authelia": {
       "times_featured": 1,
       "last_featured": "2026-04-17"
+    },
+    "thisismydesign/next-nest": {
+      "times_featured": 1,
+      "last_featured": "2026-04-18"
+    },
+    "mantinedev/next-pages-template": {
+      "times_featured": 1,
+      "last_featured": "2026-04-18"
+    },
+    "pjborowiecki/saasyland.com": {
+      "times_featured": 1,
+      "last_featured": "2026-04-18"
+    },
+    "get-convex/convex-saas": {
+      "times_featured": 1,
+      "last_featured": "2026-04-18"
+    },
+    "PaddleHQ/paddle-nextjs-starter-kit": {
+      "times_featured": 1,
+      "last_featured": "2026-04-18"
+    },
+    "rclone/rclone": {
+      "times_featured": 1,
+      "last_featured": "2026-04-18"
+    },
+    "SamurAIGPT/Generative-Media-Skills": {
+      "times_featured": 1,
+      "last_featured": "2026-04-18"
+    },
+    "Tencent-Hunyuan/HunyuanImage-3.0": {
+      "times_featured": 1,
+      "last_featured": "2026-04-18"
+    },
+    "nygardk/react-share": {
+      "times_featured": 1,
+      "last_featured": "2026-04-18"
+    },
+    "FurkanGozukara/Stable-Diffusion": {
+      "times_featured": 1,
+      "last_featured": "2026-04-18"
+    },
+    "HKUDS/ViMax": {
+      "times_featured": 1,
+      "last_featured": "2026-04-18"
+    },
+    "trpc/trpc": {
+      "times_featured": 1,
+      "last_featured": "2026-04-18"
+    },
+    "Devolutions/UniGetUI": {
+      "times_featured": 1,
+      "last_featured": "2026-04-18"
+    },
+    "requarks/wiki": {
+      "times_featured": 1,
+      "last_featured": "2026-04-18"
+    },
+    "mbadolato/iTerm2-Color-Schemes": {
+      "times_featured": 1,
+      "last_featured": "2026-04-18"
     }
   }
 }

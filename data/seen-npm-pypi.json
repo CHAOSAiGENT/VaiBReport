@@ -261,8 +261,8 @@
       "last_featured": "2026-04-16"
     },
     "pypi-dspy-ai": {
-      "times_featured": 1,
-      "last_featured": "2026-03-29"
+      "times_featured": 2,
+      "last_featured": "2026-04-18"
     },
     "pypi-Crawl4AI": {
       "times_featured": 2,
@@ -355,6 +355,10 @@
     "pypi-phidata": {
       "times_featured": 1,
       "last_featured": "2026-04-17"
+    },
+    "npm-neo.mjs": {
+      "times_featured": 1,
+      "last_featured": "2026-04-18"
     }
   }
 }

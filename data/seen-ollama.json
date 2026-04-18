@@ -251,6 +251,26 @@
     "orca2": {
       "times_featured": 1,
       "last_featured": "2026-04-17"
+    },
+    "medgemma": {
+      "times_featured": 1,
+      "last_featured": "2026-04-18"
+    },
+    "stable-beluga": {
+      "times_featured": 1,
+      "last_featured": "2026-04-18"
+    },
+    "reader-lm": {
+      "times_featured": 1,
+      "last_featured": "2026-04-18"
+    },
+    "shieldgemma": {
+      "times_featured": 1,
+      "last_featured": "2026-04-18"
+    },
+    "llama-pro": {
+      "times_featured": 1,
+      "last_featured": "2026-04-18"
     }
   }
 }
