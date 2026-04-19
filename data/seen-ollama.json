@@ -271,6 +271,26 @@
     "llama-pro": {
       "times_featured": 1,
       "last_featured": "2026-04-18"
+    },
+    "bakllava": {
+      "times_featured": 1,
+      "last_featured": "2026-04-19"
+    },
+    "paraphrase-multilingual": {
+      "times_featured": 1,
+      "last_featured": "2026-04-19"
+    },
+    "yarn-mistral": {
+      "times_featured": 1,
+      "last_featured": "2026-04-19"
+    },
+    "nexusraven": {
+      "times_featured": 1,
+      "last_featured": "2026-04-19"
+    },
+    "wizardlm": {
+      "times_featured": 1,
+      "last_featured": "2026-04-19"
     }
   }
 }

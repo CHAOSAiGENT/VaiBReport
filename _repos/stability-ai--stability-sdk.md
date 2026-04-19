@@ -1,0 +1,23 @@
+---
+layout: repo
+name: "Stability-AI/stability-sdk"
+source: github
+item_url: "https://github.com/Stability-AI/stability-sdk"
+description: "Stability.ai SDK: programmatic access to Stable Diffusion. Automate your generative art workflow."
+category: "UGC, social media and creator tools"
+language: "Jupyter Notebook"
+stars: 2438
+downloads: 0
+likes: 0
+og_image: "https://opengraph.githubassets.com/1/Stability-AI/stability-sdk"
+first_featured: "2026-04-19"
+last_featured: "2026-04-19"
+times_featured: 1
+streak: 38
+appearances: 38
+star_velocity: 0
+tags: [github, ai-art, generative-art, latent-diffusion, multimodal, stable-diffusion]
+icp_tags: ["solopreneur", "non-technical", "entreprecurious"]
+---
+
+Stability.ai SDK: programmatic access to Stable Diffusion. Automate your generative art workflow.

@@ -271,6 +271,26 @@
     "minimax/speech-2.6-turbo": {
       "times_featured": 1,
       "last_featured": "2026-04-18"
+    },
+    "minimax/speech-2.6-hd": {
+      "times_featured": 1,
+      "last_featured": "2026-04-19"
+    },
+    "minimax/speech-2.8-turbo": {
+      "times_featured": 1,
+      "last_featured": "2026-04-19"
+    },
+    "minimax/speech-2.8-hd": {
+      "times_featured": 1,
+      "last_featured": "2026-04-19"
+    },
+    "anthropic/claude-opus-4.7": {
+      "times_featured": 1,
+      "last_featured": "2026-04-19"
+    },
+    "heygen/video-agent": {
+      "times_featured": 1,
+      "last_featured": "2026-04-19"
     }
   }
 }
