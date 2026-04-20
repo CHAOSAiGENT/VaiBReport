@@ -1,0 +1,98 @@
+{
+  "generated_at": "2026-04-20T09:03:37.110Z",
+  "source": "launches",
+  "counts": {
+    "producthunt": 11,
+    "total": 11
+  },
+  "launches": [
+    {
+      "id": "ph-1126161",
+      "name": "Gemini app for Mac",
+      "description": "Option + Space and Gemini is right there",
+      "url": "https://www.producthunt.com/r/BCWSGWYERAX6G6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 288,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1123197",
+      "name": "Vantage in Google Labs",
+      "description": "Practice & assess future-ready skills with AI-simulated team",
+      "url": "https://www.producthunt.com/r/H37MDVAN5OB4LU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 275,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1124916",
+      "name": "Verdent 2.0",
+      "description": "Your AI Technical Cofounder",
+      "url": "https://www.producthunt.com/r/BBQ3OP2SS35GG5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 225,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1125462",
+      "name": "Perplexity Personal Computer",
+      "description": "Local files. Native apps. Voice control. Always on.",
+      "url": "https://www.producthunt.com/r/KDSAWWSJ4OSOEQ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 204,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1122798",
+      "name": "Avina",
+      "description": "GTM Agents to Find and Reach Your Next Customer",
+      "url": "https://www.producthunt.com/r/7P5YI2HVI7WADA?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 197,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1126603",
+      "name": "Creator OS",
+      "description": "Stop missing comments on Instagram.",
+      "url": "https://www.producthunt.com/r/7JT2HBCSUHYOEX?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 119,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1119706",
+      "name": "Paperweight",
+      "description": "Cleanup your email and manage your digital footprint",
+      "url": "https://www.producthunt.com/r/CKRXU3VVACEVSK?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 114,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1127045",
+      "name": "Fixa.dev",
+      "description": "A cloud-native AI agent that can build literally anything",
+      "url": "https://www.producthunt.com/r/M7JEDPMEZXOHID?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 103,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1126625",
+      "name": "Nibbo",
+      "description": "Family hub with a 3D pet that grows as you get things done",
+      "url": "https://www.producthunt.com/r/QMKOQHIBQPEFU7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 94,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1122018",
+      "name": "Assemble",
+      "description": "One /go command for AI work that remembers — zero runtime",
+      "url": "https://www.producthunt.com/r/K5MMPCBEXZZ63A?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 94,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1123061",
+      "name": "AGG Loop",
+      "description": "Secure, forever-free localhost tunnels (ex-Deposure).",
+      "url": "https://www.producthunt.com/r/QET7BSAUYA6DFY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 86,
+      "_source": "producthunt"
+    }
+  ]
+}
