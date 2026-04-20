@@ -607,6 +607,38 @@
     "Yarina/Meta_Kaggle_Dataset_Archive_2026-03-12": {
       "times_featured": 1,
       "last_featured": "2026-04-19"
+    },
+    "openai/whisper-base": {
+      "times_featured": 1,
+      "last_featured": "2026-04-20"
+    },
+    "Qwen/Qwen3-ASR-1.7B": {
+      "times_featured": 1,
+      "last_featured": "2026-04-20"
+    },
+    "jonatasgrosman/wav2vec2-large-xlsr-53-polish": {
+      "times_featured": 1,
+      "last_featured": "2026-04-20"
+    },
+    "stable-diffusion-v1-5/stable-diffusion-v1-5": {
+      "times_featured": 1,
+      "last_featured": "2026-04-20"
+    },
+    "Xenova/bge-base-en-v1.5": {
+      "times_featured": 1,
+      "last_featured": "2026-04-20"
+    },
+    "allenai/ai2_arc": {
+      "times_featured": 1,
+      "last_featured": "2026-04-20"
+    },
+    "nyu-mll/glue": {
+      "times_featured": 1,
+      "last_featured": "2026-04-20"
+    },
+    "world-igr-plum/regions": {
+      "times_featured": 1,
+      "last_featured": "2026-04-20"
     }
   }
 }

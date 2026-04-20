@@ -121,8 +121,8 @@
       "last_featured": "2026-03-28"
     },
     "nelsonjchen/op-replay-clipper-beta": {
-      "times_featured": 1,
-      "last_featured": "2026-03-29"
+      "times_featured": 2,
+      "last_featured": "2026-04-20"
     },
     "prunaai/hidream-l1-fast": {
       "times_featured": 1,
@@ -291,6 +291,22 @@
     "heygen/video-agent": {
       "times_featured": 1,
       "last_featured": "2026-04-19"
+    },
+    "prunaai/ernie-image-turbo": {
+      "times_featured": 1,
+      "last_featured": "2026-04-20"
+    },
+    "heygen/avatar-iv": {
+      "times_featured": 1,
+      "last_featured": "2026-04-20"
+    },
+    "prunaai/ernie-image": {
+      "times_featured": 1,
+      "last_featured": "2026-04-20"
+    },
+    "minimax/music-cover": {
+      "times_featured": 1,
+      "last_featured": "2026-04-20"
     }
   }
 }

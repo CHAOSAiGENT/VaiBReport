@@ -465,8 +465,8 @@
       "last_featured": "2026-04-16"
     },
     "Infisical/infisical": {
-      "times_featured": 1,
-      "last_featured": "2026-03-26"
+      "times_featured": 2,
+      "last_featured": "2026-04-20"
     },
     "ente-io/ente": {
       "times_featured": 1,
@@ -1035,6 +1035,54 @@
     "DarkFlippers/unleashed-firmware": {
       "times_featured": 1,
       "last_featured": "2026-04-19"
+    },
+    "AayushBharti/ai-saas-landing-starter": {
+      "times_featured": 1,
+      "last_featured": "2026-04-20"
+    },
+    "ggml-org/whisper.cpp": {
+      "times_featured": 1,
+      "last_featured": "2026-04-20"
+    },
+    "pydn/ComfyUI-to-Python-Extension": {
+      "times_featured": 1,
+      "last_featured": "2026-04-20"
+    },
+    "ModelTC/LightX2V": {
+      "times_featured": 1,
+      "last_featured": "2026-04-20"
+    },
+    "leaperone/MultiPost-Extension": {
+      "times_featured": 1,
+      "last_featured": "2026-04-20"
+    },
+    "SkyworkAI/Matrix-Game": {
+      "times_featured": 1,
+      "last_featured": "2026-04-20"
+    },
+    "weihaox/awesome-digital-human": {
+      "times_featured": 1,
+      "last_featured": "2026-04-20"
+    },
+    "pocketbase/pocketbase": {
+      "times_featured": 1,
+      "last_featured": "2026-04-20"
+    },
+    "DioxusLabs/dioxus": {
+      "times_featured": 1,
+      "last_featured": "2026-04-20"
+    },
+    "mnfst/manifest": {
+      "times_featured": 1,
+      "last_featured": "2026-04-20"
+    },
+    "EvoLinkAI/awesome-gpt-image-2-prompts": {
+      "times_featured": 1,
+      "last_featured": "2026-04-20"
+    },
+    "0x192/universal-android-debloater": {
+      "times_featured": 1,
+      "last_featured": "2026-04-20"
     }
   }
 }
