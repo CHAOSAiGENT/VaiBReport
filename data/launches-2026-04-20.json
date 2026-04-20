@@ -1,98 +1,255 @@
 {
-  "generated_at": "2026-04-20T09:03:37.110Z",
+  "generated_at": "2026-04-20T15:05:26.265Z",
   "source": "launches",
   "counts": {
-    "producthunt": 11,
-    "total": 11
+    "hackernews_showhn": 22,
+    "devhunt": 0,
+    "betalist": 0,
+    "uneed": 0,
+    "total": 22
   },
   "launches": [
     {
-      "id": "ph-1126161",
-      "name": "Gemini app for Mac",
-      "description": "Option + Space and Gemini is right there",
-      "url": "https://www.producthunt.com/r/BCWSGWYERAX6G6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 288,
-      "_source": "producthunt"
+      "id": "showhn-47834184",
+      "name": "Saunas lower nighttime heart rate more than exercise (n=59,000)",
+      "url": "https://tryterra.co/research/sauna-effect-on-heart-rate",
+      "description": "Show HN: Saunas lower nighttime heart rate more than exercise (n=59,000)",
+      "upvotes": 152,
+      "launch_date": "2026-04-20",
+      "platform_url": "https://news.ycombinator.com/item?id=47834184",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
     },
     {
-      "id": "ph-1123197",
-      "name": "Vantage in Google Labs",
-      "description": "Practice & assess future-ready skills with AI-simulated team",
-      "url": "https://www.producthunt.com/r/H37MDVAN5OB4LU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 275,
-      "_source": "producthunt"
+      "id": "showhn-47828896",
+      "name": "Run TRELLIS.2 Image-to-3D generation natively on Apple Silicon",
+      "url": "https://github.com/shivampkumar/trellis-mac",
+      "description": "Show HN: Run TRELLIS.2 Image-to-3D generation natively on Apple Silicon",
+      "upvotes": 187,
+      "launch_date": "2026-04-20",
+      "platform_url": "https://news.ycombinator.com/item?id=47828896",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
     },
     {
-      "id": "ph-1124916",
-      "name": "Verdent 2.0",
-      "description": "Your AI Technical Cofounder",
-      "url": "https://www.producthunt.com/r/BBQ3OP2SS35GG5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 225,
-      "_source": "producthunt"
+      "id": "showhn-47823460",
+      "name": "Prompt-to-Excalidraw demo with Gemma 4 E2B in the browser (3.1GB)",
+      "url": "https://teamchong.github.io/turboquant-wasm/draw.html",
+      "description": "Show HN: Prompt-to-Excalidraw demo with Gemma 4 E2B in the browser (3.1GB)",
+      "upvotes": 142,
+      "launch_date": "2026-04-20",
+      "platform_url": "https://news.ycombinator.com/item?id=47823460",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
     },
     {
-      "id": "ph-1125462",
-      "name": "Perplexity Personal Computer",
-      "description": "Local files. Native apps. Voice control. Always on.",
-      "url": "https://www.producthunt.com/r/KDSAWWSJ4OSOEQ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 204,
-      "_source": "producthunt"
+      "id": "showhn-47828968",
+      "name": "A lightweight way to make agents talk without paying for API usage",
+      "url": "https://juanpabloaj.com/2026/04/16/a-lightweight-way-to-make-agents-talk-without-paying-for-api-usage/",
+      "description": "Show HN: A lightweight way to make agents talk without paying for API usage",
+      "upvotes": 44,
+      "launch_date": "2026-04-20",
+      "platform_url": "https://news.ycombinator.com/item?id=47828968",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
     },
     {
-      "id": "ph-1122798",
-      "name": "Avina",
-      "description": "GTM Agents to Find and Reach Your Next Customer",
-      "url": "https://www.producthunt.com/r/7P5YI2HVI7WADA?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 197,
-      "_source": "producthunt"
-    },
-    {
-      "id": "ph-1126603",
-      "name": "Creator OS",
-      "description": "Stop missing comments on Instagram.",
-      "url": "https://www.producthunt.com/r/7JT2HBCSUHYOEX?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "id": "showhn-47826104",
+      "name": "Faceoff – A terminal UI for following NHL games",
+      "url": "https://www.vincentgregoire.com/faceoff/",
+      "description": "Show HN: Faceoff – A terminal UI for following NHL games",
       "upvotes": 119,
-      "_source": "producthunt"
+      "launch_date": "2026-04-20",
+      "platform_url": "https://news.ycombinator.com/item?id=47826104",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
     },
     {
-      "id": "ph-1119706",
-      "name": "Paperweight",
-      "description": "Cleanup your email and manage your digital footprint",
-      "url": "https://www.producthunt.com/r/CKRXU3VVACEVSK?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 114,
-      "_source": "producthunt"
+      "id": "showhn-47796759",
+      "name": "Shader Lab, like Photoshop but for shaders",
+      "url": "https://eng.basement.studio/tools/shader-lab",
+      "description": "Show HN: Shader Lab, like Photoshop but for shaders",
+      "upvotes": 152,
+      "launch_date": "2026-04-20",
+      "platform_url": "https://news.ycombinator.com/item?id=47796759",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
     },
     {
-      "id": "ph-1127045",
-      "name": "Fixa.dev",
-      "description": "A cloud-native AI agent that can build literally anything",
-      "url": "https://www.producthunt.com/r/M7JEDPMEZXOHID?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 103,
-      "_source": "producthunt"
+      "id": "showhn-47816629",
+      "name": "MDV – a Markdown superset for docs, dashboards, and slides with data",
+      "url": "https://github.com/drasimwagan/mdv",
+      "description": "Show HN: MDV – a Markdown superset for docs, dashboards, and slides with data",
+      "upvotes": 145,
+      "launch_date": "2026-04-20",
+      "platform_url": "https://news.ycombinator.com/item?id=47816629",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
     },
     {
-      "id": "ph-1126625",
-      "name": "Nibbo",
-      "description": "Family hub with a 3D pet that grows as you get things done",
-      "url": "https://www.producthunt.com/r/QMKOQHIBQPEFU7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 94,
-      "_source": "producthunt"
+      "id": "showhn-47827621",
+      "name": "Newsmaps.io a map of how news topics are covered by different countries",
+      "url": "https://www.newsmaps.io/",
+      "description": "Show HN: Newsmaps.io a map of how news topics are covered by different countries",
+      "upvotes": 15,
+      "launch_date": "2026-04-20",
+      "platform_url": "https://news.ycombinator.com/item?id=47827621",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
     },
     {
-      "id": "ph-1122018",
-      "name": "Assemble",
-      "description": "One /go command for AI work that remembers — zero runtime",
-      "url": "https://www.producthunt.com/r/K5MMPCBEXZZ63A?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 94,
-      "_source": "producthunt"
+      "id": "showhn-47808268",
+      "name": "Smol machines – subsecond coldstart, portable virtual machines",
+      "url": "https://github.com/smol-machines/smolvm",
+      "description": "Show HN: Smol machines – subsecond coldstart, portable virtual machines",
+      "upvotes": 484,
+      "launch_date": "2026-04-20",
+      "platform_url": "https://news.ycombinator.com/item?id=47808268",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
     },
     {
-      "id": "ph-1123061",
-      "name": "AGG Loop",
-      "description": "Secure, forever-free localhost tunnels (ex-Deposure).",
-      "url": "https://www.producthunt.com/r/QET7BSAUYA6DFY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 86,
-      "_source": "producthunt"
+      "id": "showhn-47808956",
+      "name": "A working reference implementation of context engineering",
+      "url": "https://github.com/outcomeops/context-engineering",
+      "description": "Show HN: A working reference implementation of context engineering",
+      "upvotes": 44,
+      "launch_date": "2026-04-20",
+      "platform_url": "https://news.ycombinator.com/item?id=47808956",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47812341",
+      "name": "I made a calculator that works over disjoint sets of intervals",
+      "url": "https://victorpoughon.github.io/interval-calculator/",
+      "description": "Show HN: I made a calculator that works over disjoint sets of intervals",
+      "upvotes": 309,
+      "launch_date": "2026-04-20",
+      "platform_url": "https://news.ycombinator.com/item?id=47812341",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47807809",
+      "name": "PanicLock – Close your MacBook lid disable TouchID –> password unlock",
+      "url": "https://github.com/paniclock/paniclock/",
+      "description": "Show HN: PanicLock – Close your MacBook lid disable TouchID –> password unlock",
+      "upvotes": 256,
+      "launch_date": "2026-04-20",
+      "platform_url": "https://news.ycombinator.com/item?id=47807809",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47810533",
+      "name": "AI Subroutines – Run automation scripts inside your browser tab",
+      "url": "https://www.rtrvr.ai/blog/ai-subroutines-zero-token-deterministic-automation",
+      "description": "Show HN: AI Subroutines – Run automation scripts inside your browser tab",
+      "upvotes": 44,
+      "launch_date": "2026-04-20",
+      "platform_url": "https://news.ycombinator.com/item?id=47810533",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47796818",
+      "name": "Stage – Putting humans back in control of code review",
+      "url": "https://stagereview.app/",
+      "description": "Show HN: Stage – Putting humans back in control of code review",
+      "upvotes": 129,
+      "launch_date": "2026-04-20",
+      "platform_url": "https://news.ycombinator.com/item?id=47796818",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47792525",
+      "name": "MacMind – A transformer neural network in HyperCard on a 1989 Macintosh",
+      "url": "https://github.com/SeanFDZ/macmind",
+      "description": "Show HN: MacMind – A transformer neural network in HyperCard on a 1989 Macintosh",
+      "upvotes": 159,
+      "launch_date": "2026-04-20",
+      "platform_url": "https://news.ycombinator.com/item?id=47792525",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47812964",
+      "name": "Sfsym – Export Apple SF Symbols as Vector SVG/PDF/PNG",
+      "url": "https://github.com/yapstudios/sfsym",
+      "description": "Show HN: Sfsym – Export Apple SF Symbols as Vector SVG/PDF/PNG",
+      "upvotes": 26,
+      "launch_date": "2026-04-20",
+      "platform_url": "https://news.ycombinator.com/item?id=47812964",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47828636",
+      "name": "Clone, a small Rust VMM, forks VMs in under 20ms via CoW",
+      "url": "https://github.com/unixshells/clone",
+      "description": "Show HN: Clone, a small Rust VMM, forks VMs in under 20ms via CoW",
+      "upvotes": 10,
+      "launch_date": "2026-04-20",
+      "platform_url": "https://news.ycombinator.com/item?id=47828636",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47820134",
+      "name": "Sostactic – polynomial inequalities using sums-of-squares in Lean",
+      "url": "https://github.com/mmaaz-git/sostactic",
+      "description": "Show HN: Sostactic – polynomial inequalities using sums-of-squares in Lean",
+      "upvotes": 12,
+      "launch_date": "2026-04-20",
+      "platform_url": "https://news.ycombinator.com/item?id=47820134",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47801255",
+      "name": "SPICE simulation → oscilloscope → verification with Claude Code",
+      "url": "https://lucasgerads.com/blog/lecroy-mcp-spice-demo/",
+      "description": "Show HN: SPICE simulation → oscilloscope → verification with Claude Code",
+      "upvotes": 120,
+      "launch_date": "2026-04-20",
+      "platform_url": "https://news.ycombinator.com/item?id=47801255",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47793061",
+      "name": "Home Memory – A local DB of my house, down to cables and pipes",
+      "url": "https://github.com/impactjo/home-memory",
+      "description": "Show HN: Home Memory – A local DB of my house, down to cables and pipes",
+      "upvotes": 56,
+      "launch_date": "2026-04-20",
+      "platform_url": "https://news.ycombinator.com/item?id=47793061",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47795468",
+      "name": "Marky – A lightweight Markdown viewer for agentic coding",
+      "url": "https://github.com/GRVYDEV/marky",
+      "description": "Show HN: Marky – A lightweight Markdown viewer for agentic coding",
+      "upvotes": 74,
+      "launch_date": "2026-04-20",
+      "platform_url": "https://news.ycombinator.com/item?id=47795468",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47780971",
+      "name": "Libretto – Making AI browser automations deterministic",
+      "url": "https://github.com/saffron-health/libretto",
+      "description": "Show HN: Libretto – Making AI browser automations deterministic",
+      "upvotes": 133,
+      "launch_date": "2026-04-20",
+      "platform_url": "https://news.ycombinator.com/item?id=47780971",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
     }
   ]
 }
