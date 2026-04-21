@@ -311,6 +311,26 @@
     "meditron": {
       "times_featured": 1,
       "last_featured": "2026-04-20"
+    },
+    "kimi-k2.6": {
+      "times_featured": 1,
+      "last_featured": "2026-04-21"
+    },
+    "tinydolphin": {
+      "times_featured": 1,
+      "last_featured": "2026-04-21"
+    },
+    "deepseek-v3.1": {
+      "times_featured": 1,
+      "last_featured": "2026-04-21"
+    },
+    "codegeex4": {
+      "times_featured": 1,
+      "last_featured": "2026-04-21"
+    },
+    "mistral-openorca": {
+      "times_featured": 1,
+      "last_featured": "2026-04-21"
     }
   }
 }

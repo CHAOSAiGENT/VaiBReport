@@ -639,6 +639,38 @@
     "world-igr-plum/regions": {
       "times_featured": 1,
       "last_featured": "2026-04-20"
+    },
+    "timm/resnet18.a1_in1k": {
+      "times_featured": 1,
+      "last_featured": "2026-04-21"
+    },
+    "timm/resnet50.a1_in1k": {
+      "times_featured": 1,
+      "last_featured": "2026-04-21"
+    },
+    "Salesforce/blip-image-captioning-large": {
+      "times_featured": 1,
+      "last_featured": "2026-04-21"
+    },
+    "intfloat/multilingual-e5-large-instruct": {
+      "times_featured": 1,
+      "last_featured": "2026-04-21"
+    },
+    "facebook/musicgen-medium": {
+      "times_featured": 1,
+      "last_featured": "2026-04-21"
+    },
+    "LLM360/TxT360": {
+      "times_featured": 1,
+      "last_featured": "2026-04-21"
+    },
+    "Helsinki-NLP/fineweb-edu-translated": {
+      "times_featured": 1,
+      "last_featured": "2026-04-21"
+    },
+    "bigcode/commitpackft": {
+      "times_featured": 1,
+      "last_featured": "2026-04-21"
     }
   }
 }
