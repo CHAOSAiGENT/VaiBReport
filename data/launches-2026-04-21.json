@@ -1,114 +1,200 @@
 {
-  "generated_at": "2026-04-21T08:26:58.299Z",
+  "generated_at": "2026-04-21T15:00:19.574Z",
   "source": "launches",
   "counts": {
-    "producthunt": 13,
-    "total": 13
+    "hackernews_showhn": 17,
+    "devhunt": 0,
+    "betalist": 0,
+    "uneed": 0,
+    "total": 17
   },
   "launches": [
     {
-      "id": "ph-1125157",
-      "name": "Dune",
-      "description": "Context-aware Mac keypad to automate workflows + meetings",
-      "url": "https://www.producthunt.com/r/67NKXLWIKHXRHK?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 520,
-      "_source": "producthunt"
+      "id": "showhn-47847558",
+      "name": "VidStudio, a browser based video editor that doesn't upload your files",
+      "url": "https://vidstudio.app/video-editor",
+      "description": "Show HN: VidStudio, a browser based video editor that doesn't upload your files",
+      "upvotes": 114,
+      "launch_date": "2026-04-21",
+      "platform_url": "https://news.ycombinator.com/item?id=47847558",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
     },
     {
-      "id": "ph-1127675",
-      "name": "Claude Desktop Buddy",
-      "description": "Bring Claude into the physical world with maker hardware",
-      "url": "https://www.producthunt.com/r/5TWF4OB2SOXZ77?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 369,
-      "_source": "producthunt"
+      "id": "showhn-47835411",
+      "name": "Mediator.ai – Using Nash bargaining and LLMs to systematize fairness",
+      "url": "https://mediator.ai/",
+      "description": "Show HN: Mediator.ai – Using Nash bargaining and LLMs to systematize fairness",
+      "upvotes": 104,
+      "launch_date": "2026-04-21",
+      "platform_url": "https://news.ycombinator.com/item?id=47835411",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
     },
     {
-      "id": "ph-1113912",
-      "name": "The New Waydev",
-      "description": "Measure the full AI SDLC. From token to production.",
-      "url": "https://www.producthunt.com/r/PAI6YKNZIR2IRI?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 337,
-      "_source": "producthunt"
+      "id": "showhn-47845865",
+      "name": "WeTransfer Alternative for Developers",
+      "url": "https://dlvr.sh/",
+      "description": "Show HN: WeTransfer Alternative for Developers",
+      "upvotes": 15,
+      "launch_date": "2026-04-21",
+      "platform_url": "https://news.ycombinator.com/item?id=47845865",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
     },
     {
-      "id": "ph-1123875",
-      "name": "Pegasus 1.5 by TwelveLabs",
-      "description": "AI model for transforming video into Time-Based Metadata",
-      "url": "https://www.producthunt.com/r/5LRNB7ICMLNXGW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 198,
-      "_source": "producthunt"
+      "id": "showhn-47840851",
+      "name": "Holos – QEMU/KVM with a compose-style YAML, GPUs and health checks",
+      "url": "https://github.com/zeroecco/holos",
+      "description": "Show HN: Holos – QEMU/KVM with a compose-style YAML, GPUs and health checks",
+      "upvotes": 50,
+      "launch_date": "2026-04-21",
+      "platform_url": "https://news.ycombinator.com/item?id=47840851",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
     },
     {
-      "id": "ph-1124822",
-      "name": "Granter",
-      "description": "Your company's AI Grant Consultant ",
-      "url": "https://www.producthunt.com/r/XWA5C7UM7TSYTI?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 129,
-      "_source": "producthunt"
+      "id": "showhn-47823460",
+      "name": "Prompt-to-Excalidraw demo with Gemma 4 E2B in the browser (3.1GB)",
+      "url": "https://teamchong.github.io/turboquant-wasm/draw.html",
+      "description": "Show HN: Prompt-to-Excalidraw demo with Gemma 4 E2B in the browser (3.1GB)",
+      "upvotes": 155,
+      "launch_date": "2026-04-21",
+      "platform_url": "https://news.ycombinator.com/item?id=47823460",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
     },
     {
-      "id": "ph-1124854",
-      "name": "PangeAI",
-      "description": "Instant, agent-driven spatial analysis and decision-making",
-      "url": "https://www.producthunt.com/r/TP3QF6OLWQZXID?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 108,
-      "_source": "producthunt"
+      "id": "showhn-47828896",
+      "name": "Run TRELLIS.2 Image-to-3D generation natively on Apple Silicon",
+      "url": "https://github.com/shivampkumar/trellis-mac",
+      "description": "Show HN: Run TRELLIS.2 Image-to-3D generation natively on Apple Silicon",
+      "upvotes": 197,
+      "launch_date": "2026-04-21",
+      "platform_url": "https://news.ycombinator.com/item?id=47828896",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
     },
     {
-      "id": "ph-1101123",
-      "name": "Makko AI",
-      "description": "Make 2D game art and playable games. No drawing. No coding.",
-      "url": "https://www.producthunt.com/r/3L7MFHIEZV5AJN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 102,
-      "_source": "producthunt"
+      "id": "showhn-47838708",
+      "name": "Git Push No-Mistakes",
+      "url": "https://github.com/kunchenguid/no-mistakes",
+      "description": "Show HN: Git Push No-Mistakes",
+      "upvotes": 12,
+      "launch_date": "2026-04-21",
+      "platform_url": "https://news.ycombinator.com/item?id=47838708",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
     },
     {
-      "id": "ph-1124056",
-      "name": "TorchTPU",
-      "description": "Running PyTorch Natively on TPUs at Google Scale",
-      "url": "https://www.producthunt.com/r/V5NQ3FFMZC2FWM?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 102,
-      "_source": "producthunt"
+      "id": "showhn-47796759",
+      "name": "Shader Lab, like Photoshop but for shaders",
+      "url": "https://eng.basement.studio/tools/shader-lab",
+      "description": "Show HN: Shader Lab, like Photoshop but for shaders",
+      "upvotes": 157,
+      "launch_date": "2026-04-21",
+      "platform_url": "https://news.ycombinator.com/item?id=47796759",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
     },
     {
-      "id": "ph-1124826",
-      "name": "DogBase v2 Official Launch",
-      "description": "The AI-powered platform built for professional K9 teams",
-      "url": "https://www.producthunt.com/r/RLJSCCIRA4G5GU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 93,
-      "_source": "producthunt"
+      "id": "showhn-47826104",
+      "name": "Faceoff – A terminal UI for following NHL games",
+      "url": "https://www.vincentgregoire.com/faceoff/",
+      "description": "Show HN: Faceoff – A terminal UI for following NHL games",
+      "upvotes": 127,
+      "launch_date": "2026-04-21",
+      "platform_url": "https://news.ycombinator.com/item?id=47826104",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
     },
     {
-      "id": "ph-1127498",
-      "name": "GalaxyBrain",
-      "description": "An information operating system powered by local files",
-      "url": "https://www.producthunt.com/r/RN7H2ZNQIQE3UH?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 92,
-      "_source": "producthunt"
+      "id": "showhn-47816629",
+      "name": "MDV – a Markdown superset for docs, dashboards, and slides with data",
+      "url": "https://github.com/drasimwagan/mdv",
+      "description": "Show HN: MDV – a Markdown superset for docs, dashboards, and slides with data",
+      "upvotes": 147,
+      "launch_date": "2026-04-21",
+      "platform_url": "https://news.ycombinator.com/item?id=47816629",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
     },
     {
-      "id": "ph-1127785",
-      "name": "QA Crow",
-      "description": "A murder of crows for your bug backlog",
-      "url": "https://www.producthunt.com/r/EZZVGRRKJZVOEG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 90,
-      "_source": "producthunt"
+      "id": "showhn-47828968",
+      "name": "A lightweight way to make agents talk without paying for API usage",
+      "url": "https://juanpabloaj.com/2026/04/16/a-lightweight-way-to-make-agents-talk-without-paying-for-api-usage/",
+      "description": "Show HN: A lightweight way to make agents talk without paying for API usage",
+      "upvotes": 52,
+      "launch_date": "2026-04-21",
+      "platform_url": "https://news.ycombinator.com/item?id=47828968",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
     },
     {
-      "id": "ph-1124832",
-      "name": "Claro - Research Agents",
-      "description": "Claro runs the AI agents that operate on your data",
-      "url": "https://www.producthunt.com/r/IVZLTPZ6PKQADQ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 89,
-      "_source": "producthunt"
+      "id": "showhn-47835599",
+      "name": "Alien – Self-hosting with remote management (written in Rust)",
+      "url": "https://news.ycombinator.com/item?id=47835599",
+      "description": "Show HN: Alien – Self-hosting with remote management (written in Rust)",
+      "upvotes": 104,
+      "launch_date": "2026-04-21",
+      "platform_url": "https://news.ycombinator.com/item?id=47835599",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
     },
     {
-      "id": "ph-1127343",
-      "name": "EchoTube",
-      "description": "Fast, private Open Source YouTube client",
-      "url": "https://www.producthunt.com/r/KJKOZWJ5C4FD7R?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 86,
-      "_source": "producthunt"
+      "id": "showhn-47808268",
+      "name": "Smol machines – subsecond coldstart, portable virtual machines",
+      "url": "https://github.com/smol-machines/smolvm",
+      "description": "Show HN: Smol machines – subsecond coldstart, portable virtual machines",
+      "upvotes": 492,
+      "launch_date": "2026-04-21",
+      "platform_url": "https://news.ycombinator.com/item?id=47808268",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47812341",
+      "name": "I made a calculator that works over disjoint sets of intervals",
+      "url": "https://victorpoughon.github.io/interval-calculator/",
+      "description": "Show HN: I made a calculator that works over disjoint sets of intervals",
+      "upvotes": 310,
+      "launch_date": "2026-04-21",
+      "platform_url": "https://news.ycombinator.com/item?id=47812341",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47807809",
+      "name": "PanicLock – Close your MacBook lid disable TouchID –> password unlock",
+      "url": "https://github.com/paniclock/paniclock/",
+      "description": "Show HN: PanicLock – Close your MacBook lid disable TouchID –> password unlock",
+      "upvotes": 259,
+      "launch_date": "2026-04-21",
+      "platform_url": "https://news.ycombinator.com/item?id=47807809",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47827621",
+      "name": "Newsmaps.io a map of how news topics are covered by different countries",
+      "url": "https://www.newsmaps.io/",
+      "description": "Show HN: Newsmaps.io a map of how news topics are covered by different countries",
+      "upvotes": 18,
+      "launch_date": "2026-04-21",
+      "platform_url": "https://news.ycombinator.com/item?id=47827621",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47833747",
+      "name": "CyberWriter – a .md editor built on Apple's (barely-used) on-device AI",
+      "url": "https://cyberwriter.app",
+      "description": "Show HN: CyberWriter – a .md editor built on Apple's (barely-used) on-device AI",
+      "upvotes": 14,
+      "launch_date": "2026-04-21",
+      "platform_url": "https://news.ycombinator.com/item?id=47833747",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
     }
   ]
 }
