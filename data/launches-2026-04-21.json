@@ -1,0 +1,114 @@
+{
+  "generated_at": "2026-04-21T08:26:58.299Z",
+  "source": "launches",
+  "counts": {
+    "producthunt": 13,
+    "total": 13
+  },
+  "launches": [
+    {
+      "id": "ph-1125157",
+      "name": "Dune",
+      "description": "Context-aware Mac keypad to automate workflows + meetings",
+      "url": "https://www.producthunt.com/r/67NKXLWIKHXRHK?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 520,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1127675",
+      "name": "Claude Desktop Buddy",
+      "description": "Bring Claude into the physical world with maker hardware",
+      "url": "https://www.producthunt.com/r/5TWF4OB2SOXZ77?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 369,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1113912",
+      "name": "The New Waydev",
+      "description": "Measure the full AI SDLC. From token to production.",
+      "url": "https://www.producthunt.com/r/PAI6YKNZIR2IRI?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 337,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1123875",
+      "name": "Pegasus 1.5 by TwelveLabs",
+      "description": "AI model for transforming video into Time-Based Metadata",
+      "url": "https://www.producthunt.com/r/5LRNB7ICMLNXGW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 198,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1124822",
+      "name": "Granter",
+      "description": "Your company's AI Grant Consultant ",
+      "url": "https://www.producthunt.com/r/XWA5C7UM7TSYTI?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 129,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1124854",
+      "name": "PangeAI",
+      "description": "Instant, agent-driven spatial analysis and decision-making",
+      "url": "https://www.producthunt.com/r/TP3QF6OLWQZXID?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 108,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1101123",
+      "name": "Makko AI",
+      "description": "Make 2D game art and playable games. No drawing. No coding.",
+      "url": "https://www.producthunt.com/r/3L7MFHIEZV5AJN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 102,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1124056",
+      "name": "TorchTPU",
+      "description": "Running PyTorch Natively on TPUs at Google Scale",
+      "url": "https://www.producthunt.com/r/V5NQ3FFMZC2FWM?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 102,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1124826",
+      "name": "DogBase v2 Official Launch",
+      "description": "The AI-powered platform built for professional K9 teams",
+      "url": "https://www.producthunt.com/r/RLJSCCIRA4G5GU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 93,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1127498",
+      "name": "GalaxyBrain",
+      "description": "An information operating system powered by local files",
+      "url": "https://www.producthunt.com/r/RN7H2ZNQIQE3UH?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 92,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1127785",
+      "name": "QA Crow",
+      "description": "A murder of crows for your bug backlog",
+      "url": "https://www.producthunt.com/r/EZZVGRRKJZVOEG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 90,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1124832",
+      "name": "Claro - Research Agents",
+      "description": "Claro runs the AI agents that operate on your data",
+      "url": "https://www.producthunt.com/r/IVZLTPZ6PKQADQ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 89,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1127343",
+      "name": "EchoTube",
+      "description": "Fast, private Open Source YouTube client",
+      "url": "https://www.producthunt.com/r/KJKOZWJ5C4FD7R?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 86,
+      "_source": "producthunt"
+    }
+  ]
+}
