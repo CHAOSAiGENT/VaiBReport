@@ -1,0 +1,138 @@
+{
+  "generated_at": "2026-04-22T08:24:29.431Z",
+  "source": "launches",
+  "counts": {
+    "producthunt": 16,
+    "total": 16
+  },
+  "launches": [
+    {
+      "id": "ph-1127858",
+      "name": "Twenty 2.0",
+      "description": "Build your Enterprise CRM with an AI-friendly SDK",
+      "url": "https://www.producthunt.com/r/YQF35MRZD2VPJZ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 321,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1128235",
+      "name": "Kimi K2.6",
+      "description": "Open-source SOTA for long-horizon coding and agent swarms",
+      "url": "https://www.producthunt.com/r/F7OWHMX4MFKI3R?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 301,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1123690",
+      "name": "Dageno AI",
+      "description": "Become the most recommended brand across 7+ major LLMs",
+      "url": "https://www.producthunt.com/r/UCJCI4OP3XU2IA?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 211,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1122954",
+      "name": "Devaito",
+      "description": "Build, launch, and grow your business on autopilot",
+      "url": "https://www.producthunt.com/r/IP2723MCZU7E6O?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 192,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1123275",
+      "name": "Spectrum",
+      "description": "Bring agents to all the interfaces people already use",
+      "url": "https://www.producthunt.com/r/VMIKXVY6YAWZD6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 157,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1128443",
+      "name": "LiveDemo",
+      "description": "Open-source Interactive product demos",
+      "url": "https://www.producthunt.com/r/JCIISXNOMZN6OJ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 146,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1128347",
+      "name": "Chronicle",
+      "description": "Build Codex memories from recent screen context.",
+      "url": "https://www.producthunt.com/r/TK7R7BULLAUNHH?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 133,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1118869",
+      "name": "Cosine Swarm",
+      "description": "Parallel AI agents for long-horizon, complex software tasks",
+      "url": "https://www.producthunt.com/r/3FTVABPNUXG6NJ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 124,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1127796",
+      "name": "PageOn.AI 3.0",
+      "description": "A smarter visual agent for slides, posters & infographics",
+      "url": "https://www.producthunt.com/r/NZ6VLBOIDFBUNB?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 112,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1114157",
+      "name": "Magic Layers by Canva",
+      "description": "Turn any flat image into a fully editable design",
+      "url": "https://www.producthunt.com/r/DFTJPATIMPR7UN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 107,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1128566",
+      "name": "Gauge Sentiment",
+      "description": "How is your brand perceived by AI?",
+      "url": "https://www.producthunt.com/r/5C4CCNHUOL2ZJF?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 107,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1125995",
+      "name": "Harker 2.0",
+      "description": "Private speech-to-text on your Mac",
+      "url": "https://www.producthunt.com/r/6BJMCYG54ZIUNQ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 106,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1124510",
+      "name": "Flow AI",
+      "description": "Turn Linkedin into unlimited leads on auto-pilot",
+      "url": "https://www.producthunt.com/r/I3JZP5OTZVGECS?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 102,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1128600",
+      "name": "Pioneer",
+      "description": "Fine-tune any LLM in minutes, with one prompt",
+      "url": "https://www.producthunt.com/r/4KD45NJQEHQK7B?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 100,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1128516",
+      "name": "X Island",
+      "description": "Dynamic Island for AI Coding Agents",
+      "url": "https://www.producthunt.com/r/ZRMXN6HIOGRAIJ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 97,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1122840",
+      "name": "illumi",
+      "description": "AI visual workspace that takes you from thinking to delivery",
+      "url": "https://www.producthunt.com/r/OSVML2IHZCDE32?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 96,
+      "_source": "producthunt"
+    }
+  ]
+}
