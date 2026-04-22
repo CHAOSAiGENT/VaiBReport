@@ -425,8 +425,8 @@
       "last_featured": "2026-04-18"
     },
     "HuggingFaceFW/finephrase": {
-      "times_featured": 1,
-      "last_featured": "2026-03-30"
+      "times_featured": 2,
+      "last_featured": "2026-04-22"
     },
     "mlfoundations/MINT-1T-PDF-CC-2024-18": {
       "times_featured": 1,
@@ -671,6 +671,34 @@
     "bigcode/commitpackft": {
       "times_featured": 1,
       "last_featured": "2026-04-21"
+    },
+    "kresnik/wav2vec2-large-xlsr-korean": {
+      "times_featured": 1,
+      "last_featured": "2026-04-22"
+    },
+    "unslothai/1": {
+      "times_featured": 1,
+      "last_featured": "2026-04-22"
+    },
+    "facebook/wav2vec2-base-960h": {
+      "times_featured": 1,
+      "last_featured": "2026-04-22"
+    },
+    "distil-whisper/distil-large-v3": {
+      "times_featured": 1,
+      "last_featured": "2026-04-22"
+    },
+    "Tongyi-MAI/Z-Image-Turbo": {
+      "times_featured": 1,
+      "last_featured": "2026-04-22"
+    },
+    "HuggingFaceFW/fineweb-edu": {
+      "times_featured": 1,
+      "last_featured": "2026-04-22"
+    },
+    "nvidia/PhysicalAI-Robotics-GR00T-X-Embodiment-Sim": {
+      "times_featured": 1,
+      "last_featured": "2026-04-22"
     }
   }
 }

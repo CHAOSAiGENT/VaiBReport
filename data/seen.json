@@ -425,8 +425,8 @@
       "last_featured": "2026-03-25"
     },
     "lima-vm/lima": {
-      "times_featured": 1,
-      "last_featured": "2026-03-25"
+      "times_featured": 2,
+      "last_featured": "2026-04-22"
     },
     "saas-js/saas-ui": {
       "times_featured": 2,
@@ -581,8 +581,8 @@
       "last_featured": "2026-04-15"
     },
     "run-llama/llama_index": {
-      "times_featured": 1,
-      "last_featured": "2026-03-28"
+      "times_featured": 2,
+      "last_featured": "2026-04-22"
     },
     "9001/copyparty": {
       "times_featured": 1,
@@ -641,8 +641,8 @@
       "last_featured": "2026-03-29"
     },
     "Z4nzu/hackingtool": {
-      "times_featured": 1,
-      "last_featured": "2026-03-29"
+      "times_featured": 2,
+      "last_featured": "2026-04-22"
     },
     "jellyfin/jellyfin": {
       "times_featured": 1,
@@ -1119,6 +1119,38 @@
     "microsoft/onnxruntime": {
       "times_featured": 1,
       "last_featured": "2026-04-21"
+    },
+    "facebookresearch/faiss": {
+      "times_featured": 1,
+      "last_featured": "2026-04-22"
+    },
+    "choyiny/saasmail": {
+      "times_featured": 1,
+      "last_featured": "2026-04-22"
+    },
+    "PKU-YuanGroup/Helios": {
+      "times_featured": 1,
+      "last_featured": "2026-04-22"
+    },
+    "zai-org/ImageReward": {
+      "times_featured": 1,
+      "last_featured": "2026-04-22"
+    },
+    "showlab/Code2Video": {
+      "times_featured": 1,
+      "last_featured": "2026-04-22"
+    },
+    "franciszzj/Leffa": {
+      "times_featured": 1,
+      "last_featured": "2026-04-22"
+    },
+    "guochengqian/Magic123": {
+      "times_featured": 1,
+      "last_featured": "2026-04-22"
+    },
+    "nushell/nushell": {
+      "times_featured": 1,
+      "last_featured": "2026-04-22"
     }
   }
 }

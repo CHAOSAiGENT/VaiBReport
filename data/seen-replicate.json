@@ -307,6 +307,14 @@
     "minimax/music-cover": {
       "times_featured": 1,
       "last_featured": "2026-04-20"
+    },
+    "openai/gpt-image-2": {
+      "times_featured": 1,
+      "last_featured": "2026-04-22"
+    },
+    "heygen/lipsync-precision": {
+      "times_featured": 1,
+      "last_featured": "2026-04-22"
     }
   }
 }
