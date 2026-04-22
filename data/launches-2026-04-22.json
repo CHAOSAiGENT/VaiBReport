@@ -1,138 +1,156 @@
 {
-  "generated_at": "2026-04-22T08:24:29.431Z",
+  "generated_at": "2026-04-22T15:00:18.856Z",
   "source": "launches",
   "counts": {
-    "producthunt": 16,
-    "total": 16
+    "hackernews_showhn": 13,
+    "devhunt": 0,
+    "betalist": 0,
+    "uneed": 0,
+    "total": 13
   },
   "launches": [
     {
-      "id": "ph-1127858",
-      "name": "Twenty 2.0",
-      "description": "Build your Enterprise CRM with an AI-friendly SDK",
-      "url": "https://www.producthunt.com/r/YQF35MRZD2VPJZ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 321,
-      "_source": "producthunt"
+      "id": "showhn-47847558",
+      "name": "VidStudio, a browser based video editor that doesn't upload your files",
+      "url": "https://vidstudio.app/video-editor",
+      "description": "Show HN: VidStudio, a browser based video editor that doesn't upload your files",
+      "upvotes": 283,
+      "launch_date": "2026-04-22",
+      "platform_url": "https://news.ycombinator.com/item?id=47847558",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
     },
     {
-      "id": "ph-1128235",
-      "name": "Kimi K2.6",
-      "description": "Open-source SOTA for long-horizon coding and agent swarms",
-      "url": "https://www.producthunt.com/r/F7OWHMX4MFKI3R?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 301,
-      "_source": "producthunt"
+      "id": "showhn-47849097",
+      "name": "GoModel – an open-source AI gateway in Go",
+      "url": "https://github.com/ENTERPILOT/GOModel/",
+      "description": "Show HN: GoModel – an open-source AI gateway in Go",
+      "upvotes": 189,
+      "launch_date": "2026-04-22",
+      "platform_url": "https://news.ycombinator.com/item?id=47849097",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
     },
     {
-      "id": "ph-1123690",
-      "name": "Dageno AI",
-      "description": "Become the most recommended brand across 7+ major LLMs",
-      "url": "https://www.producthunt.com/r/UCJCI4OP3XU2IA?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 211,
-      "_source": "producthunt"
+      "id": "showhn-47836740",
+      "name": "Ctx – a /resume that works across Claude Code and Codex",
+      "url": "https://github.com/dchu917/ctx",
+      "description": "Show HN: Ctx – a /resume that works across Claude Code and Codex",
+      "upvotes": 67,
+      "launch_date": "2026-04-22",
+      "platform_url": "https://news.ycombinator.com/item?id=47836740",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
     },
     {
-      "id": "ph-1122954",
-      "name": "Devaito",
-      "description": "Build, launch, and grow your business on autopilot",
-      "url": "https://www.producthunt.com/r/IP2723MCZU7E6O?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 192,
-      "_source": "producthunt"
+      "id": "showhn-47822301",
+      "name": "Backlit Keyboard API for Python",
+      "url": "https://github.com/itsmeadarsh2008/backlit-kbd",
+      "description": "Show HN: Backlit Keyboard API for Python",
+      "upvotes": 25,
+      "launch_date": "2026-04-22",
+      "platform_url": "https://news.ycombinator.com/item?id=47822301",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
     },
     {
-      "id": "ph-1123275",
-      "name": "Spectrum",
-      "description": "Bring agents to all the interfaces people already use",
-      "url": "https://www.producthunt.com/r/VMIKXVY6YAWZD6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "id": "showhn-47850907",
+      "name": "Daemons – we pivoted from building agents to cleaning up after them",
+      "url": "https://charlielabs.ai/",
+      "description": "Show HN: Daemons – we pivoted from building agents to cleaning up after them",
+      "upvotes": 61,
+      "launch_date": "2026-04-22",
+      "platform_url": "https://news.ycombinator.com/item?id=47850907",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47835411",
+      "name": "Mediator.ai – Using Nash bargaining and LLMs to systematize fairness",
+      "url": "https://mediator.ai/",
+      "description": "Show HN: Mediator.ai – Using Nash bargaining and LLMs to systematize fairness",
+      "upvotes": 151,
+      "launch_date": "2026-04-22",
+      "platform_url": "https://news.ycombinator.com/item?id=47835411",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47855284",
+      "name": "Almanac MCP, turn Claude Code into a Deep Research agent",
+      "url": "https://www.openalmanac.org/",
+      "description": "Show HN: Almanac MCP, turn Claude Code into a Deep Research agent",
+      "upvotes": 10,
+      "launch_date": "2026-04-22",
+      "platform_url": "https://news.ycombinator.com/item?id=47855284",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47823460",
+      "name": "Prompt-to-Excalidraw demo with Gemma 4 E2B in the browser (3.1GB)",
+      "url": "https://teamchong.github.io/turboquant-wasm/draw.html",
+      "description": "Show HN: Prompt-to-Excalidraw demo with Gemma 4 E2B in the browser (3.1GB)",
       "upvotes": 157,
-      "_source": "producthunt"
+      "launch_date": "2026-04-22",
+      "platform_url": "https://news.ycombinator.com/item?id=47823460",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
     },
     {
-      "id": "ph-1128443",
-      "name": "LiveDemo",
-      "description": "Open-source Interactive product demos",
-      "url": "https://www.producthunt.com/r/JCIISXNOMZN6OJ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 146,
-      "_source": "producthunt"
+      "id": "showhn-47840851",
+      "name": "Holos – QEMU/KVM with a compose-style YAML, GPUs and health checks",
+      "url": "https://github.com/zeroecco/holos",
+      "description": "Show HN: Holos – QEMU/KVM with a compose-style YAML, GPUs and health checks",
+      "upvotes": 55,
+      "launch_date": "2026-04-22",
+      "platform_url": "https://news.ycombinator.com/item?id=47840851",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
     },
     {
-      "id": "ph-1128347",
-      "name": "Chronicle",
-      "description": "Build Codex memories from recent screen context.",
-      "url": "https://www.producthunt.com/r/TK7R7BULLAUNHH?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 133,
-      "_source": "producthunt"
+      "id": "showhn-47816629",
+      "name": "MDV – a Markdown superset for docs, dashboards, and slides with data",
+      "url": "https://github.com/drasimwagan/mdv",
+      "description": "Show HN: MDV – a Markdown superset for docs, dashboards, and slides with data",
+      "upvotes": 149,
+      "launch_date": "2026-04-22",
+      "platform_url": "https://news.ycombinator.com/item?id=47816629",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
     },
     {
-      "id": "ph-1118869",
-      "name": "Cosine Swarm",
-      "description": "Parallel AI agents for long-horizon, complex software tasks",
-      "url": "https://www.producthunt.com/r/3FTVABPNUXG6NJ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 124,
-      "_source": "producthunt"
+      "id": "showhn-47845865",
+      "name": "WeTransfer Alternative for Developers",
+      "url": "https://dlvr.sh/",
+      "description": "Show HN: WeTransfer Alternative for Developers",
+      "upvotes": 20,
+      "launch_date": "2026-04-22",
+      "platform_url": "https://news.ycombinator.com/item?id=47845865",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
     },
     {
-      "id": "ph-1127796",
-      "name": "PageOn.AI 3.0",
-      "description": "A smarter visual agent for slides, posters & infographics",
-      "url": "https://www.producthunt.com/r/NZ6VLBOIDFBUNB?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 112,
-      "_source": "producthunt"
+      "id": "showhn-47828896",
+      "name": "Run TRELLIS.2 Image-to-3D generation natively on Apple Silicon",
+      "url": "https://github.com/shivampkumar/trellis-mac",
+      "description": "Show HN: Run TRELLIS.2 Image-to-3D generation natively on Apple Silicon",
+      "upvotes": 200,
+      "launch_date": "2026-04-22",
+      "platform_url": "https://news.ycombinator.com/item?id=47828896",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
     },
     {
-      "id": "ph-1114157",
-      "name": "Magic Layers by Canva",
-      "description": "Turn any flat image into a fully editable design",
-      "url": "https://www.producthunt.com/r/DFTJPATIMPR7UN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 107,
-      "_source": "producthunt"
-    },
-    {
-      "id": "ph-1128566",
-      "name": "Gauge Sentiment",
-      "description": "How is your brand perceived by AI?",
-      "url": "https://www.producthunt.com/r/5C4CCNHUOL2ZJF?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 107,
-      "_source": "producthunt"
-    },
-    {
-      "id": "ph-1125995",
-      "name": "Harker 2.0",
-      "description": "Private speech-to-text on your Mac",
-      "url": "https://www.producthunt.com/r/6BJMCYG54ZIUNQ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 106,
-      "_source": "producthunt"
-    },
-    {
-      "id": "ph-1124510",
-      "name": "Flow AI",
-      "description": "Turn Linkedin into unlimited leads on auto-pilot",
-      "url": "https://www.producthunt.com/r/I3JZP5OTZVGECS?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 102,
-      "_source": "producthunt"
-    },
-    {
-      "id": "ph-1128600",
-      "name": "Pioneer",
-      "description": "Fine-tune any LLM in minutes, with one prompt",
-      "url": "https://www.producthunt.com/r/4KD45NJQEHQK7B?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 100,
-      "_source": "producthunt"
-    },
-    {
-      "id": "ph-1128516",
-      "name": "X Island",
-      "description": "Dynamic Island for AI Coding Agents",
-      "url": "https://www.producthunt.com/r/ZRMXN6HIOGRAIJ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 97,
-      "_source": "producthunt"
-    },
-    {
-      "id": "ph-1122840",
-      "name": "illumi",
-      "description": "AI visual workspace that takes you from thinking to delivery",
-      "url": "https://www.producthunt.com/r/OSVML2IHZCDE32?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 96,
-      "_source": "producthunt"
+      "id": "showhn-47826104",
+      "name": "Faceoff – A terminal UI for following NHL games",
+      "url": "https://www.vincentgregoire.com/faceoff/",
+      "description": "Show HN: Faceoff – A terminal UI for following NHL games",
+      "upvotes": 131,
+      "launch_date": "2026-04-22",
+      "platform_url": "https://news.ycombinator.com/item?id=47826104",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
     }
   ]
 }
