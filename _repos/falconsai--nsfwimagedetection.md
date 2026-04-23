@@ -3,16 +3,16 @@ layout: repo
 name: "Falconsai/nsfw_image_detection"
 source: huggingface-model
 item_url: "https://huggingface.co/Falconsai/nsfw_image_detection"
-description: "NSFW image detection model."
+description: "Need to classify NSFW images? This model saves you from manual content moderation."
 category: "HuggingFace Models"
 language: ""
 stars: 0
-downloads: 38057004
-likes: 1039
+downloads: 32943712
+likes: 1057
 og_image: ""
 first_featured: "2026-03-23"
-last_featured: "2026-04-09"
-times_featured: 2
+last_featured: "2026-04-23"
+times_featured: 3
 streak: 0
 appearances: 0
 star_velocity: 0
@@ -20,4 +20,4 @@ tags: [huggingface, transformers, pytorch, safetensors, vit, image-classificatio
 icp_tags: ["founding-team", "pre-mvp"]
 ---
 
-NSFW image detection model.
+Need to classify NSFW images? This model saves you from manual content moderation.

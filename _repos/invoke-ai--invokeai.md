@@ -3,21 +3,21 @@ layout: repo
 name: "invoke-ai/InvokeAI"
 source: github
 item_url: "https://github.com/invoke-ai/InvokeAI"
-description: "Creative engine for Stable Diffusion models."
+description: "InvokeAI offers an advanced WebUI and engine for Stable Diffusion; create better visuals."
 category: "UGC, social media and creator tools"
 language: "TypeScript"
-stars: 26958
+stars: 27037
 downloads: 0
 likes: 0
 og_image: "https://opengraph.githubassets.com/1/invoke-ai/InvokeAI"
 first_featured: "2026-03-23"
-last_featured: "2026-04-09"
-times_featured: 2
-streak: 28
-appearances: 28
-star_velocity: 0
+last_featured: "2026-04-23"
+times_featured: 3
+streak: 42
+appearances: 42
+star_velocity: 6
 tags: [github, ai-art, artificial-intelligence, generative-art, image-generation, img2img, inpainting, latent-diffusion, linux]
 icp_tags: ["solopreneur", "non-technical", "entreprecurious"]
 ---
 
-Creative engine for Stable Diffusion models.
+InvokeAI offers an advanced WebUI and engine for Stable Diffusion; create better visuals.

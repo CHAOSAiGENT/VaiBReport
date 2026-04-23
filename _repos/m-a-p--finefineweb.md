@@ -3,16 +3,16 @@ layout: repo
 name: "m-a-p/FineFineWeb"
 source: huggingface-dataset
 item_url: "https://huggingface.co/datasets/m-a-p/FineFineWeb"
-description: "FineFineWeb dataset."
+description: "FineFineWeb: A large text dataset for training your own specialized LLMs."
 category: "HuggingFace Datasets"
 language: ""
 stars: 0
-downloads: 2185663
+downloads: 539504
 likes: 0
 og_image: ""
 first_featured: "2026-03-23"
-last_featured: "2026-04-09"
-times_featured: 2
+last_featured: "2026-04-23"
+times_featured: 3
 streak: 0
 appearances: 0
 star_velocity: 0
@@ -20,4 +20,4 @@ tags: [huggingface, task_categories:text-classification, task_categories:text-ge
 icp_tags: ["founding-team", "pre-mvp"]
 ---
 
-FineFineWeb dataset.
+FineFineWeb: A large text dataset for training your own specialized LLMs.
