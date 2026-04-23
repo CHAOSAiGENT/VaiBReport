@@ -1,130 +1,200 @@
 {
-  "generated_at": "2026-04-23T08:28:43.992Z",
+  "generated_at": "2026-04-23T15:27:42.105Z",
   "source": "launches",
   "counts": {
-    "producthunt": 15,
-    "total": 15
+    "hackernews_showhn": 17,
+    "devhunt": 0,
+    "betalist": 0,
+    "uneed": 0,
+    "total": 17
   },
   "launches": [
     {
-      "id": "ph-1128236",
-      "name": "Stanley For 𝕏",
-      "description": "The world's first AI Head of Content",
-      "url": "https://www.producthunt.com/r/XH6QM2ZNCHWY5V?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 379,
-      "_source": "producthunt"
+      "id": "showhn-47874647",
+      "name": "Honker – Postgres NOTIFY/LISTEN Semantics for SQLite",
+      "url": "https://github.com/russellromney/honker",
+      "description": "Show HN: Honker – Postgres NOTIFY/LISTEN Semantics for SQLite",
+      "upvotes": 119,
+      "launch_date": "2026-04-23",
+      "platform_url": "https://news.ycombinator.com/item?id=47874647",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
     },
     {
-      "id": "ph-1129236",
-      "name": "ChatGPT Images 2.0",
-      "description": "First image model with thinking capabilities",
-      "url": "https://www.producthunt.com/r/TUNK3IAU2E6MV6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 358,
-      "_source": "producthunt"
+      "id": "showhn-47865642",
+      "name": "Broccoli, one shot coding agent on the cloud",
+      "url": "https://github.com/besimple-oss/broccoli",
+      "description": "Show HN: Broccoli, one shot coding agent on the cloud",
+      "upvotes": 70,
+      "launch_date": "2026-04-23",
+      "platform_url": "https://news.ycombinator.com/item?id=47865642",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
     },
     {
-      "id": "ph-1031574",
-      "name": "InstantDB",
-      "description": "Complete backend with auth and storage in one prompt",
-      "url": "https://www.producthunt.com/r/LGBQZ27NGILOLH?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 312,
-      "_source": "producthunt"
+      "id": "showhn-47873966",
+      "name": "Built a daily game where you sort historical events chronologically",
+      "url": "https://hisorty.app/",
+      "description": "Show HN: Built a daily game where you sort historical events chronologically",
+      "upvotes": 50,
+      "launch_date": "2026-04-23",
+      "platform_url": "https://news.ycombinator.com/item?id=47873966",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
     },
     {
-      "id": "ph-1127971",
-      "name": "Zernio Ads API",
-      "description": "Create, manage & report ads on 6 platforms via one API",
-      "url": "https://www.producthunt.com/r/R2XHM47S7LWD2B?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 203,
-      "_source": "producthunt"
+      "id": "showhn-47849097",
+      "name": "GoModel – an open-source AI gateway in Go",
+      "url": "https://github.com/ENTERPILOT/GOModel/",
+      "description": "Show HN: GoModel – an open-source AI gateway in Go",
+      "upvotes": 204,
+      "launch_date": "2026-04-23",
+      "platform_url": "https://news.ycombinator.com/item?id=47849097",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
     },
     {
-      "id": "ph-1105432",
-      "name": "Cai",
-      "description": "Press ⌥C on anything to run smart actions, locally",
-      "url": "https://www.producthunt.com/r/7BUJ2RUWRGBT4O?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 157,
-      "_source": "producthunt"
+      "id": "showhn-47868032",
+      "name": "Ghost Pepper Meet local meeting transcription and diarization",
+      "url": "https://matthartman.github.io/ghost-pepper/",
+      "description": "Show HN: Ghost Pepper Meet local meeting transcription and diarization",
+      "upvotes": 26,
+      "launch_date": "2026-04-23",
+      "platform_url": "https://news.ycombinator.com/item?id=47868032",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
     },
     {
-      "id": "ph-1120400",
-      "name": "Toki 2.0",
-      "description": "Automatically go from ideas to scheduled plan",
-      "url": "https://www.producthunt.com/r/QXDISEHK2IYC3A?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "id": "showhn-47847558",
+      "name": "VidStudio, a browser based video editor that doesn't upload your files",
+      "url": "https://vidstudio.app/video-editor",
+      "description": "Show HN: VidStudio, a browser based video editor that doesn't upload your files",
+      "upvotes": 296,
+      "launch_date": "2026-04-23",
+      "platform_url": "https://news.ycombinator.com/item?id=47847558",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47836740",
+      "name": "Ctx – a /resume that works across Claude Code and Codex",
+      "url": "https://github.com/dchu917/ctx",
+      "description": "Show HN: Ctx – a /resume that works across Claude Code and Codex",
+      "upvotes": 72,
+      "launch_date": "2026-04-23",
+      "platform_url": "https://news.ycombinator.com/item?id=47836740",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47835411",
+      "name": "Mediator.ai – Using Nash bargaining and LLMs to systematize fairness",
+      "url": "https://mediator.ai/",
+      "description": "Show HN: Mediator.ai – Using Nash bargaining and LLMs to systematize fairness",
+      "upvotes": 159,
+      "launch_date": "2026-04-23",
+      "platform_url": "https://news.ycombinator.com/item?id=47835411",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47850907",
+      "name": "Daemons – we pivoted from building agents to cleaning up after them",
+      "url": "https://charlielabs.ai/",
+      "description": "Show HN: Daemons – we pivoted from building agents to cleaning up after them",
+      "upvotes": 66,
+      "launch_date": "2026-04-23",
+      "platform_url": "https://news.ycombinator.com/item?id=47850907",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47822301",
+      "name": "Backlit Keyboard API for Python",
+      "url": "https://github.com/itsmeadarsh2008/backlit-kbd",
+      "description": "Show HN: Backlit Keyboard API for Python",
+      "upvotes": 27,
+      "launch_date": "2026-04-23",
+      "platform_url": "https://news.ycombinator.com/item?id=47822301",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47823460",
+      "name": "Prompt-to-Excalidraw demo with Gemma 4 E2B in the browser (3.1GB)",
+      "url": "https://teamchong.github.io/turboquant-wasm/draw.html",
+      "description": "Show HN: Prompt-to-Excalidraw demo with Gemma 4 E2B in the browser (3.1GB)",
+      "upvotes": 161,
+      "launch_date": "2026-04-23",
+      "platform_url": "https://news.ycombinator.com/item?id=47823460",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47816629",
+      "name": "MDV – a Markdown superset for docs, dashboards, and slides with data",
+      "url": "https://github.com/drasimwagan/mdv",
+      "description": "Show HN: MDV – a Markdown superset for docs, dashboards, and slides with data",
+      "upvotes": 151,
+      "launch_date": "2026-04-23",
+      "platform_url": "https://news.ycombinator.com/item?id=47816629",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47840851",
+      "name": "Holos – QEMU/KVM with a compose-style YAML, GPUs and health checks",
+      "url": "https://github.com/zeroecco/holos",
+      "description": "Show HN: Holos – QEMU/KVM with a compose-style YAML, GPUs and health checks",
+      "upvotes": 55,
+      "launch_date": "2026-04-23",
+      "platform_url": "https://news.ycombinator.com/item?id=47840851",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47855284",
+      "name": "Almanac MCP, turn Claude Code into a Deep Research agent",
+      "url": "https://www.openalmanac.org/",
+      "description": "Show HN: Almanac MCP, turn Claude Code into a Deep Research agent",
+      "upvotes": 13,
+      "launch_date": "2026-04-23",
+      "platform_url": "https://news.ycombinator.com/item?id=47855284",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47828896",
+      "name": "Run TRELLIS.2 Image-to-3D generation natively on Apple Silicon",
+      "url": "https://github.com/shivampkumar/trellis-mac",
+      "description": "Show HN: Run TRELLIS.2 Image-to-3D generation natively on Apple Silicon",
+      "upvotes": 202,
+      "launch_date": "2026-04-23",
+      "platform_url": "https://news.ycombinator.com/item?id=47828896",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47826104",
+      "name": "Faceoff – A terminal UI for following NHL games",
+      "url": "https://www.vincentgregoire.com/faceoff/",
+      "description": "Show HN: Faceoff – A terminal UI for following NHL games",
       "upvotes": 135,
-      "_source": "producthunt"
+      "launch_date": "2026-04-23",
+      "platform_url": "https://news.ycombinator.com/item?id=47826104",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
     },
     {
-      "id": "ph-1123839",
-      "name": "Tines Story copilot",
-      "description": "A conversational AI interface to build intelligent workflows",
-      "url": "https://www.producthunt.com/r/ASY2DFOEH7ZDWS?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 131,
-      "_source": "producthunt"
-    },
-    {
-      "id": "ph-1128150",
-      "name": "Qwen3.6-Max-Preview",
-      "description": "The flagship Qwen for agentic coding",
-      "url": "https://www.producthunt.com/r/R2A4ZAY7JDC5WL?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 118,
-      "_source": "producthunt"
-    },
-    {
-      "id": "ph-1128832",
-      "name": "Cavalry Studio",
-      "description": "Free Motion Design tool by Canva",
-      "url": "https://www.producthunt.com/r/AN7ZQTPE4G56ZM?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 118,
-      "_source": "producthunt"
-    },
-    {
-      "id": "ph-1123443",
-      "name": "Portt",
-      "description": "Transform your photo into any era and any location",
-      "url": "https://www.producthunt.com/r/7WLNZRAVXSNDQI?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 118,
-      "_source": "producthunt"
-    },
-    {
-      "id": "ph-1128415",
-      "name": "Nomie v2",
-      "description": "Replace doomscrolling with a self-care interactive world",
-      "url": "https://www.producthunt.com/r/2RX3N577OJDN43?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 104,
-      "_source": "producthunt"
-    },
-    {
-      "id": "ph-1129282",
-      "name": "VibeAround",
-      "description": "Chat with your local AI coding agent from any IM or browser",
-      "url": "https://www.producthunt.com/r/CMDQRBFCQ2ZOPY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 101,
-      "_source": "producthunt"
-    },
-    {
-      "id": "ph-1128650",
-      "name": "Loomal",
-      "description": "Identity infrastructure for AI agents",
-      "url": "https://www.producthunt.com/r/TGHOXSLJPLMRNO?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 98,
-      "_source": "producthunt"
-    },
-    {
-      "id": "ph-1129144",
-      "name": "Instant Highlights V2 by Heygen",
-      "description": "Turn long videos into viral clips in seconds",
-      "url": "https://www.producthunt.com/r/SPZ2VAGPNW42SE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 90,
-      "_source": "producthunt"
-    },
-    {
-      "id": "ph-1129412",
-      "name": "kimiflare",
-      "description": "kimi k2.6 cli code editor hosted on cloudflare workers AI",
-      "url": "https://www.producthunt.com/r/6ZKTKX5TV33ZWY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 89,
-      "_source": "producthunt"
+      "id": "showhn-47845865",
+      "name": "WeTransfer Alternative for Developers",
+      "url": "https://dlvr.sh/",
+      "description": "Show HN: WeTransfer Alternative for Developers",
+      "upvotes": 24,
+      "launch_date": "2026-04-23",
+      "platform_url": "https://news.ycombinator.com/item?id=47845865",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
     }
   ]
 }
