@@ -1,138 +1,178 @@
 {
-  "generated_at": "2026-04-24T08:55:12.187Z",
+  "generated_at": "2026-04-24T14:57:03.578Z",
   "source": "launches",
   "counts": {
-    "producthunt": 16,
-    "total": 16
+    "hackernews_showhn": 15,
+    "devhunt": 0,
+    "betalist": 0,
+    "uneed": 0,
+    "total": 15
   },
   "launches": [
     {
-      "id": "ph-1124020",
-      "name": "Kollab",
-      "description": "Shared workspace where teams work with agents together",
-      "url": "https://www.producthunt.com/r/YTS75TBPL3B6AV?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 372,
-      "_source": "producthunt"
+      "id": "showhn-47886517",
+      "name": "How LLMs Work – Interactive visual guide based on Karpathy's lecture",
+      "url": "https://ynarwal.github.io/how-llms-work/",
+      "description": "Show HN: How LLMs Work – Interactive visual guide based on Karpathy's lecture",
+      "upvotes": 174,
+      "launch_date": "2026-04-24",
+      "platform_url": "https://news.ycombinator.com/item?id=47886517",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
     },
     {
-      "id": "ph-1128797",
-      "name": "FocuSee 2.0",
-      "description": "Record screen to get polished demos & tutorials",
-      "url": "https://www.producthunt.com/r/CQAQYQT3PJXRQM?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 333,
-      "_source": "producthunt"
+      "id": "showhn-47886272",
+      "name": "Gova – The declarative GUI framework for Go",
+      "url": "https://github.com/NV404/gova",
+      "description": "Show HN: Gova – The declarative GUI framework for Go",
+      "upvotes": 82,
+      "launch_date": "2026-04-24",
+      "platform_url": "https://news.ycombinator.com/item?id=47886272",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
     },
     {
-      "id": "ph-1130427",
-      "name": "Monid",
-      "description": "One wallet, every paid tool your agent needs",
-      "url": "https://www.producthunt.com/r/L7TVXMLTGWYT7X?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 281,
-      "_source": "producthunt"
+      "id": "showhn-47882697",
+      "name": "Tolaria – Open-source macOS app to manage Markdown knowledge bases",
+      "url": "https://github.com/refactoringhq/tolaria",
+      "description": "Show HN: Tolaria – Open-source macOS app to manage Markdown knowledge bases",
+      "upvotes": 247,
+      "launch_date": "2026-04-24",
+      "platform_url": "https://news.ycombinator.com/item?id=47882697",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
     },
     {
-      "id": "ph-1130070",
-      "name": "Claude Code /ultrareview",
-      "description": "Cloud code review using a fleet of parallel agents",
-      "url": "https://www.producthunt.com/r/TNCTG4QNPA3ONR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 193,
-      "_source": "producthunt"
+      "id": "showhn-47865822",
+      "name": "Agent Vault – Open-source credential proxy and vault for agents",
+      "url": "https://github.com/Infisical/agent-vault",
+      "description": "Show HN: Agent Vault – Open-source credential proxy and vault for agents",
+      "upvotes": 127,
+      "launch_date": "2026-04-24",
+      "platform_url": "https://news.ycombinator.com/item?id=47865822",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
     },
     {
-      "id": "ph-1081022",
-      "name": "ASI:One",
-      "description": "A personal AI with memory that plans and acts for you",
-      "url": "https://www.producthunt.com/r/YQZHHJUFGCCGK7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 173,
-      "_source": "producthunt"
+      "id": "showhn-47874647",
+      "name": "Honker – Postgres NOTIFY/LISTEN Semantics for SQLite",
+      "url": "https://github.com/russellromney/honker",
+      "description": "Show HN: Honker – Postgres NOTIFY/LISTEN Semantics for SQLite",
+      "upvotes": 283,
+      "launch_date": "2026-04-24",
+      "platform_url": "https://news.ycombinator.com/item?id=47874647",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
     },
     {
-      "id": "ph-1129847",
-      "name": "Reloop Animation Studio",
-      "description": "Turn any video idea into Pixar, Clay or Manga",
-      "url": "https://www.producthunt.com/r/QEUAKCAHFDOJA6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 163,
-      "_source": "producthunt"
+      "id": "showhn-47865642",
+      "name": "Broccoli, one shot coding agent on the cloud",
+      "url": "https://github.com/besimple-oss/broccoli",
+      "description": "Show HN: Broccoli, one shot coding agent on the cloud",
+      "upvotes": 71,
+      "launch_date": "2026-04-24",
+      "platform_url": "https://news.ycombinator.com/item?id=47865642",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
     },
     {
-      "id": "ph-1129448",
-      "name": "Blink AI CFO",
-      "description": "AI CFO that autonomously trades stocks and options via Slack",
-      "url": "https://www.producthunt.com/r/A6EELXYZTEHDZ7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 159,
-      "_source": "producthunt"
+      "id": "showhn-47849097",
+      "name": "GoModel – an open-source AI gateway in Go",
+      "url": "https://github.com/ENTERPILOT/GOModel/",
+      "description": "Show HN: GoModel – an open-source AI gateway in Go",
+      "upvotes": 205,
+      "launch_date": "2026-04-24",
+      "platform_url": "https://news.ycombinator.com/item?id=47849097",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
     },
     {
-      "id": "ph-1116633",
-      "name": "Typewise AI Customer Service",
-      "description": "Automate customer support across systems with AI agents",
-      "url": "https://www.producthunt.com/r/M72WKX32D3X4KG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 123,
-      "_source": "producthunt"
+      "id": "showhn-47876556",
+      "name": "LocalLLM – Recipes for Running the Local LLM (Need Contributors)",
+      "url": "https://locallllm.fly.dev",
+      "description": "Show HN: LocalLLM – Recipes for Running the Local LLM (Need Contributors)",
+      "upvotes": 11,
+      "launch_date": "2026-04-24",
+      "platform_url": "https://news.ycombinator.com/item?id=47876556",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
     },
     {
-      "id": "ph-1130026",
-      "name": "Gemini Enterprise Agent Platform",
-      "description": "Google's platform to run AI agents at enterprise scale",
-      "url": "https://www.producthunt.com/r/45RZOC6DPOC66Z?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 117,
-      "_source": "producthunt"
+      "id": "showhn-47877726",
+      "name": "Run coding agents in microVM sandboxes instead of your host machine",
+      "url": "https://github.com/superhq-ai/superhq",
+      "description": "Show HN: Run coding agents in microVM sandboxes instead of your host machine",
+      "upvotes": 59,
+      "launch_date": "2026-04-24",
+      "platform_url": "https://news.ycombinator.com/item?id=47877726",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
     },
     {
-      "id": "ph-1129972",
-      "name": "Fabric CLI",
-      "description": "Make notes, tasks, and search, directly from the terminal.",
-      "url": "https://www.producthunt.com/r/PXJ5XI7V6OAW5H?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 117,
-      "_source": "producthunt"
+      "id": "showhn-47835411",
+      "name": "Mediator.ai – Using Nash bargaining and LLMs to systematize fairness",
+      "url": "https://mediator.ai/",
+      "description": "Show HN: Mediator.ai – Using Nash bargaining and LLMs to systematize fairness",
+      "upvotes": 160,
+      "launch_date": "2026-04-24",
+      "platform_url": "https://news.ycombinator.com/item?id=47835411",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
     },
     {
-      "id": "ph-1119224",
-      "name": "Docsio",
-      "description": "Lovable for doc sites",
-      "url": "https://www.producthunt.com/r/3BTK5AJZUYK4RN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 115,
-      "_source": "producthunt"
+      "id": "showhn-47847558",
+      "name": "VidStudio, a browser based video editor that doesn't upload your files",
+      "url": "https://vidstudio.app/video-editor",
+      "description": "Show HN: VidStudio, a browser based video editor that doesn't upload your files",
+      "upvotes": 297,
+      "launch_date": "2026-04-24",
+      "platform_url": "https://news.ycombinator.com/item?id=47847558",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
     },
     {
-      "id": "ph-1129960",
-      "name": "Qwen3.6-27B",
-      "description": "The sweet-spot open dense model for coding agents",
-      "url": "https://www.producthunt.com/r/6FGWLTY7ADJJEU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 113,
-      "_source": "producthunt"
+      "id": "showhn-47836740",
+      "name": "Ctx – a /resume that works across Claude Code and Codex",
+      "url": "https://github.com/dchu917/ctx",
+      "description": "Show HN: Ctx – a /resume that works across Claude Code and Codex",
+      "upvotes": 72,
+      "launch_date": "2026-04-24",
+      "platform_url": "https://news.ycombinator.com/item?id=47836740",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
     },
     {
-      "id": "ph-1129762",
-      "name": "Hookdeck Outpost",
-      "description": "Open-source outbound webhooks for your platform",
-      "url": "https://www.producthunt.com/r/B5K3TPGNZPF5O5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 110,
-      "_source": "producthunt"
+      "id": "showhn-47870432",
+      "name": "Algorithmic String Art, accessible to all",
+      "url": "https://string-loom.pages.dev",
+      "description": "Show HN: Algorithmic String Art, accessible to all",
+      "upvotes": 12,
+      "launch_date": "2026-04-24",
+      "platform_url": "https://news.ycombinator.com/item?id=47870432",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
     },
     {
-      "id": "ph-1130027",
-      "name": "IFTTT MCP",
-      "description": "Connect Claude to 1000+ apps, instantly",
-      "url": "https://www.producthunt.com/r/XIDYBXB6YNOPOA?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 108,
-      "_source": "producthunt"
+      "id": "showhn-47882601",
+      "name": "Endo Familiar, an O-cap based JavaScript agent sandbox",
+      "url": "https://dcfoundation.io/containing-ai-agents-the-endo-familiar-demo/",
+      "description": "Show HN: Endo Familiar, an O-cap based JavaScript agent sandbox",
+      "upvotes": 13,
+      "launch_date": "2026-04-24",
+      "platform_url": "https://news.ycombinator.com/item?id=47882601",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
     },
     {
-      "id": "ph-1130145",
-      "name": "Workspace agents in ChatGPT",
-      "description": "Codex-powered agents for teams.",
-      "url": "https://www.producthunt.com/r/2QH453YZAYOXT4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 105,
-      "_source": "producthunt"
-    },
-    {
-      "id": "ph-1128713",
-      "name": "Design.MD",
-      "description": "Drop-in design systems your AI coding agent can read",
-      "url": "https://www.producthunt.com/r/DUWRPDATVXA4VK?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 104,
-      "_source": "producthunt"
+      "id": "showhn-47850907",
+      "name": "Daemons – we pivoted from building agents to cleaning up after them",
+      "url": "https://charlielabs.ai/",
+      "description": "Show HN: Daemons – we pivoted from building agents to cleaning up after them",
+      "upvotes": 69,
+      "launch_date": "2026-04-24",
+      "platform_url": "https://news.ycombinator.com/item?id=47850907",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
     }
   ]
 }
