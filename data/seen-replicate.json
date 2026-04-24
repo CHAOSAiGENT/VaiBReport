@@ -1,8 +1,8 @@
 {
   "featured": {
     "prunaai/p-image-edit": {
-      "times_featured": 1,
-      "last_featured": "2026-03-23"
+      "times_featured": 2,
+      "last_featured": "2026-04-24"
     },
     "black-forest-labs/flux-2-pro": {
       "times_featured": 2,
@@ -133,12 +133,12 @@
       "last_featured": "2026-04-10"
     },
     "ultralytics/yolo11n": {
-      "times_featured": 1,
-      "last_featured": "2026-04-10"
+      "times_featured": 2,
+      "last_featured": "2026-04-24"
     },
     "ultralytics/yolov8s-worldv2": {
-      "times_featured": 1,
-      "last_featured": "2026-04-10"
+      "times_featured": 2,
+      "last_featured": "2026-04-24"
     },
     "black-forest-labs/flux-fill-pro": {
       "times_featured": 1,
@@ -319,6 +319,14 @@
     "pixverse/pixverse-v6": {
       "times_featured": 1,
       "last_featured": "2026-04-23"
+    },
+    "kwaivgi/kling-v3-omni-video": {
+      "times_featured": 1,
+      "last_featured": "2026-04-24"
+    },
+    "kwaivgi/kling-v3-video": {
+      "times_featured": 1,
+      "last_featured": "2026-04-24"
     }
   }
 }

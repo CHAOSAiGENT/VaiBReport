@@ -3,21 +3,21 @@ layout: repo
 name: "codecrafters-io/build-your-own-x"
 source: github
 item_url: "https://github.com/codecrafters-io/build-your-own-x"
-description: "Learn to build anything from scratch; truly understand how your tools actually work."
+description: "Master programming by actually building things: database, Git, Docker. Essential for deep understanding."
 category: "Trending"
 language: "Markdown"
-stars: 488497
+stars: 494215
 downloads: 0
 likes: 0
 og_image: "https://opengraph.githubassets.com/1/codecrafters-io/build-your-own-x"
 first_featured: "2026-04-10"
-last_featured: "2026-04-10"
-times_featured: 1
-streak: 2
-appearances: 9
-star_velocity: 339
+last_featured: "2026-04-24"
+times_featured: 2
+streak: 1
+appearances: 16
+star_velocity: 516
 tags: [github]
 icp_tags: ["founding-team", "entreprecurious"]
 ---
 
-Learn to build anything from scratch; truly understand how your tools actually work.
+Master programming by actually building things: database, Git, Docker. Essential for deep understanding.

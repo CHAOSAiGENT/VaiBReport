@@ -169,8 +169,8 @@
       "last_featured": "2026-04-23"
     },
     "yi-coder": {
-      "times_featured": 1,
-      "last_featured": "2026-04-10"
+      "times_featured": 2,
+      "last_featured": "2026-04-24"
     },
     "stablelm2": {
       "times_featured": 1,
@@ -351,6 +351,22 @@
     "nemotron": {
       "times_featured": 1,
       "last_featured": "2026-04-22"
+    },
+    "athene-v2": {
+      "times_featured": 1,
+      "last_featured": "2026-04-24"
+    },
+    "nous-hermes2-mixtral": {
+      "times_featured": 1,
+      "last_featured": "2026-04-24"
+    },
+    "codeup": {
+      "times_featured": 1,
+      "last_featured": "2026-04-24"
+    },
+    "qwen3-next": {
+      "times_featured": 1,
+      "last_featured": "2026-04-24"
     }
   }
 }
