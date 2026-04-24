@@ -1,0 +1,138 @@
+{
+  "generated_at": "2026-04-24T08:55:12.187Z",
+  "source": "launches",
+  "counts": {
+    "producthunt": 16,
+    "total": 16
+  },
+  "launches": [
+    {
+      "id": "ph-1124020",
+      "name": "Kollab",
+      "description": "Shared workspace where teams work with agents together",
+      "url": "https://www.producthunt.com/r/YTS75TBPL3B6AV?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 372,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1128797",
+      "name": "FocuSee 2.0",
+      "description": "Record screen to get polished demos & tutorials",
+      "url": "https://www.producthunt.com/r/CQAQYQT3PJXRQM?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 333,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1130427",
+      "name": "Monid",
+      "description": "One wallet, every paid tool your agent needs",
+      "url": "https://www.producthunt.com/r/L7TVXMLTGWYT7X?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 281,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1130070",
+      "name": "Claude Code /ultrareview",
+      "description": "Cloud code review using a fleet of parallel agents",
+      "url": "https://www.producthunt.com/r/TNCTG4QNPA3ONR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 193,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1081022",
+      "name": "ASI:One",
+      "description": "A personal AI with memory that plans and acts for you",
+      "url": "https://www.producthunt.com/r/YQZHHJUFGCCGK7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 173,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1129847",
+      "name": "Reloop Animation Studio",
+      "description": "Turn any video idea into Pixar, Clay or Manga",
+      "url": "https://www.producthunt.com/r/QEUAKCAHFDOJA6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 163,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1129448",
+      "name": "Blink AI CFO",
+      "description": "AI CFO that autonomously trades stocks and options via Slack",
+      "url": "https://www.producthunt.com/r/A6EELXYZTEHDZ7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 159,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1116633",
+      "name": "Typewise AI Customer Service",
+      "description": "Automate customer support across systems with AI agents",
+      "url": "https://www.producthunt.com/r/M72WKX32D3X4KG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 123,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1130026",
+      "name": "Gemini Enterprise Agent Platform",
+      "description": "Google's platform to run AI agents at enterprise scale",
+      "url": "https://www.producthunt.com/r/45RZOC6DPOC66Z?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 117,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1129972",
+      "name": "Fabric CLI",
+      "description": "Make notes, tasks, and search, directly from the terminal.",
+      "url": "https://www.producthunt.com/r/PXJ5XI7V6OAW5H?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 117,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1119224",
+      "name": "Docsio",
+      "description": "Lovable for doc sites",
+      "url": "https://www.producthunt.com/r/3BTK5AJZUYK4RN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 115,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1129960",
+      "name": "Qwen3.6-27B",
+      "description": "The sweet-spot open dense model for coding agents",
+      "url": "https://www.producthunt.com/r/6FGWLTY7ADJJEU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 113,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1129762",
+      "name": "Hookdeck Outpost",
+      "description": "Open-source outbound webhooks for your platform",
+      "url": "https://www.producthunt.com/r/B5K3TPGNZPF5O5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 110,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1130027",
+      "name": "IFTTT MCP",
+      "description": "Connect Claude to 1000+ apps, instantly",
+      "url": "https://www.producthunt.com/r/XIDYBXB6YNOPOA?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 108,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1130145",
+      "name": "Workspace agents in ChatGPT",
+      "description": "Codex-powered agents for teams.",
+      "url": "https://www.producthunt.com/r/2QH453YZAYOXT4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 105,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1128713",
+      "name": "Design.MD",
+      "description": "Drop-in design systems your AI coding agent can read",
+      "url": "https://www.producthunt.com/r/DUWRPDATVXA4VK?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 104,
+      "_source": "producthunt"
+    }
+  ]
+}
