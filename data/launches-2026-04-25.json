@@ -1,0 +1,138 @@
+{
+  "generated_at": "2026-04-25T07:59:44.788Z",
+  "source": "launches",
+  "counts": {
+    "producthunt": 16,
+    "total": 16
+  },
+  "launches": [
+    {
+      "id": "ph-1129378",
+      "name": "Ask Product Hunt AI",
+      "description": "Find the right product, just ask",
+      "url": "https://www.producthunt.com/r/GI5LL6C432KXQP?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 490,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1130495",
+      "name": "Spira AI",
+      "description": "AI Influencer that always on trend, create & grow your brand",
+      "url": "https://www.producthunt.com/r/D743QQ3IXGGKG5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 367,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1131158",
+      "name": "DeepSeek-V4",
+      "description": "The open-source era of 1M context intelligence",
+      "url": "https://www.producthunt.com/r/LNIDLCQSIWWNBY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 342,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1111779",
+      "name": "Beezi AI",
+      "description": "Make AI development structured, secure, and cost-efficient.",
+      "url": "https://www.producthunt.com/r/YN3R4RYHINMUIO?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 338,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1130897",
+      "name": "Codex 3.0 by OpenAI",
+      "description": "Codex can now build, test & debug on autopilot",
+      "url": "https://www.producthunt.com/r/K4XVK5YID57ZXD?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 276,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1123814",
+      "name": "BAND",
+      "description": "Coordinate and govern multi-agent work in a single chat",
+      "url": "https://www.producthunt.com/r/CELK3VCRNFQ6LX?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 170,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1130159",
+      "name": "Google Workspace Intelligence",
+      "description": "AI that understands and powers your Workspace",
+      "url": "https://www.producthunt.com/r/KVV44MWDJJZ2G2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 154,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1131020",
+      "name": "Mozart Studio 1.0",
+      "description": "A Generative Audio Workstation with VSTs",
+      "url": "https://www.producthunt.com/r/SC7GHDBAR4TZWJ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 152,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1125493",
+      "name": "Bansi AI by Writesonic",
+      "description": "AI video editor for long-form talking head videos",
+      "url": "https://www.producthunt.com/r/RKXS4Z2W6UIQFR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 116,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1130487",
+      "name": "Onboarding0",
+      "description": "Turn company knowledge into AI-guided onboarding",
+      "url": "https://www.producthunt.com/r/K276P7S4QR5NQ3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 101,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1130673",
+      "name": "NotchNest AI",
+      "description": "AI powered by Apple Intelligence now in your Notch",
+      "url": "https://www.producthunt.com/r/DDC63Y6BGM77S7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 99,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1130580",
+      "name": "Nordcraft 2.0",
+      "description": "I design agent with full HTML/CSS control and SSR",
+      "url": "https://www.producthunt.com/r/ABA6VNXTLIDJHC?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 96,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1130787",
+      "name": "LifeOS",
+      "description": "Turn your AI chats/memory to intros with real humans",
+      "url": "https://www.producthunt.com/r/ARYTQSKIQC4LCR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 92,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1130862",
+      "name": "MailCue",
+      "description": "Run as a fully hardened production email server.",
+      "url": "https://www.producthunt.com/r/SL6IOAGHZAX6GX?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 82,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1129182",
+      "name": "Yutori Delegate",
+      "description": "Why cowork when you can delegate?",
+      "url": "https://www.producthunt.com/r/5UFFE2IHLT6WR2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 81,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1120877",
+      "name": "Emotional intelligence AI for live calls",
+      "description": "Emotional intelligence AI for live sales calls",
+      "url": "https://www.producthunt.com/r/A3RJ6XBXSMWGAR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 78,
+      "_source": "producthunt"
+    }
+  ]
+}
