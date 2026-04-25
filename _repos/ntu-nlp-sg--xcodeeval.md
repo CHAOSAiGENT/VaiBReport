@@ -3,16 +3,16 @@ layout: repo
 name: "NTU-NLP-sg/xCodeEval"
 source: huggingface-dataset
 item_url: "https://huggingface.co/datasets/NTU-NLP-sg/xCodeEval"
-description: "xCodeEval: A dataset for training LLMs on code-related tasks. Your AI assistant needs to code too."
+description: "Code dataset for various NLP tasks. Train your coding LLM with this."
 category: "HuggingFace Datasets"
 language: ""
 stars: 0
-downloads: 857126
+downloads: 678193
 likes: 0
 og_image: ""
 first_featured: "2026-03-24"
-last_featured: "2026-04-11"
-times_featured: 2
+last_featured: "2026-04-25"
+times_featured: 3
 streak: 0
 appearances: 0
 star_velocity: 0
@@ -20,4 +20,4 @@ tags: [huggingface, task_categories:translation, task_categories:token-classific
 icp_tags: ["founding-team", "pre-mvp"]
 ---
 
-xCodeEval: A dataset for training LLMs on code-related tasks. Your AI assistant needs to code too.
+Code dataset for various NLP tasks. Train your coding LLM with this.

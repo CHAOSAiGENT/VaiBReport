@@ -3,22 +3,22 @@ layout: repo
 name: "brycedrennan/imaginAIry"
 source: github
 item_url: "https://github.com/brycedrennan/imaginAIry"
-description: "Pythonic AI image and video generation. Handy if you prefer writing code to clicking buttons."
+description: "Generate images and videos with Python; AI content creation, simple as `import`."
 category: "UGC, social media and creator tools"
 language: "Python"
-stars: 8141
+stars: 8147
 downloads: 0
 likes: 0
 readme_image: "https://pepy.tech/badge/imaginairy"
 og_image: "https://opengraph.githubassets.com/1/brycedrennan/imaginAIry"
 first_featured: "2026-03-25"
-last_featured: "2026-04-11"
-times_featured: 2
-streak: 30
-appearances: 30
+last_featured: "2026-04-25"
+times_featured: 3
+streak: 44
+appearances: 44
 star_velocity: 0
 tags: [github]
 icp_tags: ["solopreneur", "non-technical", "entreprecurious"]
 ---
 
-Pythonic AI image and video generation. Handy if you prefer writing code to clicking buttons.
+Generate images and videos with Python; AI content creation, simple as `import`.
