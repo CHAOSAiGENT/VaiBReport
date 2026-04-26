@@ -1,0 +1,82 @@
+{
+  "generated_at": "2026-04-26T08:12:09.215Z",
+  "source": "launches",
+  "counts": {
+    "producthunt": 9,
+    "total": 9
+  },
+  "launches": [
+    {
+      "id": "ph-1094523",
+      "name": "ZeroHuman.",
+      "description": "Your AI Co-Founder: OpenClaw x Paperclip x Spud",
+      "url": "https://www.producthunt.com/r/L3CUXEKRSM5VTT?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 352,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1128941",
+      "name": "Clawdi",
+      "description": "Best home for all AI agents",
+      "url": "https://www.producthunt.com/r/EVCLQTSYAK2DEE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 264,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1125494",
+      "name": "Gemini Personal Intelligence",
+      "description": "Gemini answers with context from your Google apps",
+      "url": "https://www.producthunt.com/r/WO2KDTNTGZHBNU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 250,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1129227",
+      "name": "Inrō AI",
+      "description": "Your AI Agent for Instagram Marketing",
+      "url": "https://www.producthunt.com/r/5AJNE6RPAHQECB?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 205,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1130884",
+      "name": "MiMo-V2.5 Voice",
+      "description": "Bilingual ASR for dialects, code-switching, and songs",
+      "url": "https://www.producthunt.com/r/XQDD3DGZXQTN4O?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 117,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1126694",
+      "name": "PromptPaste",
+      "description": "Your private AI prompt library on Mac, iPhone, and iPad",
+      "url": "https://www.producthunt.com/r/TF5U6YCGVWRRGL?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 114,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1118972",
+      "name": "Genspark for Excel",
+      "description": "AI assistant for Excel formulas, charts, insights.",
+      "url": "https://www.producthunt.com/r/EQR7IIR7YHMVPZ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 114,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1129097",
+      "name": "Euphony",
+      "description": "Render AI chat data and Codex logs into browsable views",
+      "url": "https://www.producthunt.com/r/7VY3UYOW25F3F3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 98,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1120331",
+      "name": "Architecto",
+      "description": "Design, review, and document cloud architecture with AI",
+      "url": "https://www.producthunt.com/r/BAVIM4PG2S2D5S?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 89,
+      "_source": "producthunt"
+    }
+  ]
+}
