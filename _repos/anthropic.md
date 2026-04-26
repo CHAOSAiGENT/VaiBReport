@@ -3,16 +3,16 @@ layout: repo
 name: "anthropic"
 source: pypi
 item_url: "https://pypi.org/project/anthropic/"
-description: "Official Python library for the Anthropic API. If you're building with Claude, you need this."
+description: "The official Python library for Anthropic's API. Get access to Claude models."
 category: "PyPI Packages"
 language: ""
 stars: 0
-downloads: 22274006
+downloads: 26919702
 likes: 0
 og_image: ""
 first_featured: "2026-03-24"
-last_featured: "2026-04-11"
-times_featured: 2
+last_featured: "2026-04-26"
+times_featured: 3
 streak: 0
 appearances: 0
 star_velocity: 0
@@ -20,4 +20,4 @@ tags: [pypi]
 icp_tags: ["founding-team", "solopreneur"]
 ---
 
-Official Python library for the Anthropic API. If you're building with Claude, you need this.
+The official Python library for Anthropic's API. Get access to Claude models.

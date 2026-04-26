@@ -133,8 +133,8 @@
       "last_featured": "2026-04-12"
     },
     "qwen2-math": {
-      "times_featured": 2,
-      "last_featured": "2026-04-12"
+      "times_featured": 3,
+      "last_featured": "2026-04-26"
     },
     "phi3.5": {
       "times_featured": 2,
@@ -177,8 +177,8 @@
       "last_featured": "2026-04-25"
     },
     "llama3-chatqa": {
-      "times_featured": 1,
-      "last_featured": "2026-04-12"
+      "times_featured": 2,
+      "last_featured": "2026-04-26"
     },
     "granite3-dense": {
       "times_featured": 1,
@@ -383,6 +383,18 @@
     "solar-pro": {
       "times_featured": 1,
       "last_featured": "2026-04-25"
+    },
+    "qwen3.6": {
+      "times_featured": 1,
+      "last_featured": "2026-04-26"
+    },
+    "magicoder": {
+      "times_featured": 1,
+      "last_featured": "2026-04-26"
+    },
+    "mathstral": {
+      "times_featured": 1,
+      "last_featured": "2026-04-26"
     }
   }
 }

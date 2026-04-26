@@ -45,8 +45,8 @@
       "times_featured": 4
     },
     "Blazity/next-saas-starter": {
-      "last_featured": "2026-04-12",
-      "times_featured": 3
+      "last_featured": "2026-04-26",
+      "times_featured": 4
     },
     "inngest/inngest": {
       "last_featured": "2026-03-05",
@@ -277,12 +277,12 @@
       "last_featured": "2026-04-25"
     },
     "graphile/starter": {
-      "times_featured": 3,
-      "last_featured": "2026-04-12"
+      "times_featured": 4,
+      "last_featured": "2026-04-26"
     },
     "NextJSTemplates/startup-nextjs": {
-      "times_featured": 3,
-      "last_featured": "2026-04-12"
+      "times_featured": 4,
+      "last_featured": "2026-04-26"
     },
     "PicoTrex/Awesome-Nano-Banana-images": {
       "times_featured": 4,
@@ -429,24 +429,24 @@
       "last_featured": "2026-04-22"
     },
     "saas-js/saas-ui": {
-      "times_featured": 2,
-      "last_featured": "2026-04-12"
+      "times_featured": 3,
+      "last_featured": "2026-04-26"
     },
     "QwenLM/Qwen-Image": {
-      "times_featured": 2,
-      "last_featured": "2026-04-12"
+      "times_featured": 3,
+      "last_featured": "2026-04-26"
     },
     "vladmandic/sdnext": {
-      "times_featured": 2,
-      "last_featured": "2026-04-12"
+      "times_featured": 3,
+      "last_featured": "2026-04-26"
     },
     "mylxsw/aidea": {
-      "times_featured": 2,
-      "last_featured": "2026-04-12"
+      "times_featured": 3,
+      "last_featured": "2026-04-26"
     },
     "salesforce/BLIP": {
-      "times_featured": 2,
-      "last_featured": "2026-04-12"
+      "times_featured": 3,
+      "last_featured": "2026-04-26"
     },
     "showlab/Awesome-Video-Diffusion": {
       "times_featured": 2,
@@ -473,8 +473,8 @@
       "last_featured": "2026-03-26"
     },
     "revokslab/ShipFree": {
-      "times_featured": 2,
-      "last_featured": "2026-04-12"
+      "times_featured": 3,
+      "last_featured": "2026-04-26"
     },
     "reliverse/relivator": {
       "times_featured": 2,
@@ -493,8 +493,8 @@
       "last_featured": "2026-04-13"
     },
     "MeiGen-AI/InfiniteTalk": {
-      "times_featured": 2,
-      "last_featured": "2026-04-12"
+      "times_featured": 3,
+      "last_featured": "2026-04-26"
     },
     "AILab-CVC/VideoCrafter": {
       "times_featured": 2,
@@ -609,8 +609,8 @@
       "last_featured": "2026-04-15"
     },
     "JCodesMore/ai-website-cloner-template": {
-      "times_featured": 2,
-      "last_featured": "2026-04-12"
+      "times_featured": 3,
+      "last_featured": "2026-04-26"
     },
     "OpenBB-finance/OpenBB": {
       "times_featured": 2,
@@ -801,8 +801,8 @@
       "last_featured": "2026-04-12"
     },
     "ReVanced/revanced-manager": {
-      "times_featured": 1,
-      "last_featured": "2026-04-12"
+      "times_featured": 2,
+      "last_featured": "2026-04-26"
     },
     "Anil-matcha/Open-Generative-AI": {
       "times_featured": 1,
@@ -1195,6 +1195,22 @@
     "chidiwilliams/buzz": {
       "times_featured": 1,
       "last_featured": "2026-04-25"
+    },
+    "ventoy/Ventoy": {
+      "times_featured": 1,
+      "last_featured": "2026-04-26"
+    },
+    "ImranR98/Obtainium": {
+      "times_featured": 1,
+      "last_featured": "2026-04-26"
+    },
+    "tiann/KernelSU": {
+      "times_featured": 1,
+      "last_featured": "2026-04-26"
+    },
+    "sympy/sympy": {
+      "times_featured": 1,
+      "last_featured": "2026-04-26"
     }
   }
 }

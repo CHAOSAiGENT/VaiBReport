@@ -3,16 +3,16 @@ layout: repo
 name: "dima806/fairface_age_image_detection"
 source: huggingface-model
 item_url: "https://huggingface.co/dima806/fairface_age_image_detection"
-description: "fairface_age_image_detection"
+description: "Detect age from images using this Fairface-trained model. Could be useful, or creepy."
 category: "HuggingFace Models"
 language: ""
 stars: 0
-downloads: 6839758
+downloads: 6641645
 likes: 71
 og_image: ""
 first_featured: "2026-03-25"
-last_featured: "2026-04-12"
-times_featured: 2
+last_featured: "2026-04-26"
+times_featured: 3
 streak: 0
 appearances: 0
 star_velocity: 0
@@ -20,4 +20,4 @@ tags: [huggingface, transformers, safetensors, vit, image-classification, datase
 icp_tags: ["founding-team", "pre-mvp"]
 ---
 
-fairface_age_image_detection
+Detect age from images using this Fairface-trained model. Could be useful, or creepy.

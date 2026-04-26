@@ -89,8 +89,8 @@
       "last_featured": "2026-04-12"
     },
     "nelsonjchen/op-replay-clipper": {
-      "times_featured": 2,
-      "last_featured": "2026-04-12"
+      "times_featured": 3,
+      "last_featured": "2026-04-26"
     },
     "xai/grok-imagine-r2v": {
       "times_featured": 1,
@@ -161,8 +161,8 @@
       "last_featured": "2026-04-12"
     },
     "prunaai/p-image-upscale": {
-      "times_featured": 1,
-      "last_featured": "2026-04-12"
+      "times_featured": 2,
+      "last_featured": "2026-04-26"
     },
     "google/veo-3.1-lite": {
       "times_featured": 1,
@@ -331,6 +331,10 @@
     "moonshotai/kimi-k2.6": {
       "times_featured": 1,
       "last_featured": "2026-04-25"
+    },
+    "heygen/lipsync-speed": {
+      "times_featured": 1,
+      "last_featured": "2026-04-26"
     }
   }
 }
