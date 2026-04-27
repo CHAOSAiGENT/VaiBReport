@@ -337,16 +337,16 @@
       "last_featured": "2026-04-21"
     },
     "hyprwm/Hyprland": {
-      "times_featured": 2,
-      "last_featured": "2026-04-13"
+      "times_featured": 3,
+      "last_featured": "2026-04-27"
     },
     "sindresorhus/awesome": {
       "times_featured": 2,
       "last_featured": "2026-04-10"
     },
     "yt-dlp/yt-dlp": {
-      "times_featured": 2,
-      "last_featured": "2026-04-13"
+      "times_featured": 3,
+      "last_featured": "2026-04-27"
     },
     "systemd/systemd": {
       "times_featured": 1,
@@ -449,8 +449,8 @@
       "last_featured": "2026-04-26"
     },
     "showlab/Awesome-Video-Diffusion": {
-      "times_featured": 2,
-      "last_featured": "2026-04-13"
+      "times_featured": 3,
+      "last_featured": "2026-04-27"
     },
     "nestjs/nest": {
       "times_featured": 1,
@@ -477,32 +477,32 @@
       "last_featured": "2026-04-26"
     },
     "reliverse/relivator": {
-      "times_featured": 2,
-      "last_featured": "2026-04-13"
+      "times_featured": 3,
+      "last_featured": "2026-04-27"
     },
     "shadcn-ui/next-template": {
-      "times_featured": 2,
-      "last_featured": "2026-04-13"
+      "times_featured": 3,
+      "last_featured": "2026-04-27"
     },
     "JoshuaKGoldberg/create-typescript-app": {
-      "times_featured": 2,
-      "last_featured": "2026-04-13"
+      "times_featured": 3,
+      "last_featured": "2026-04-27"
     },
     "emonney/QuickApp": {
-      "times_featured": 2,
-      "last_featured": "2026-04-13"
+      "times_featured": 3,
+      "last_featured": "2026-04-27"
     },
     "MeiGen-AI/InfiniteTalk": {
       "times_featured": 3,
       "last_featured": "2026-04-26"
     },
     "AILab-CVC/VideoCrafter": {
-      "times_featured": 2,
-      "last_featured": "2026-04-13"
+      "times_featured": 3,
+      "last_featured": "2026-04-27"
     },
     "NVlabs/Sana": {
-      "times_featured": 2,
-      "last_featured": "2026-04-13"
+      "times_featured": 3,
+      "last_featured": "2026-04-27"
     },
     "Tencent-Hunyuan/HunyuanVideo-1.5": {
       "times_featured": 2,
@@ -533,8 +533,8 @@
       "last_featured": "2026-03-27"
     },
     "denoland/saaskit": {
-      "times_featured": 2,
-      "last_featured": "2026-04-13"
+      "times_featured": 3,
+      "last_featured": "2026-04-27"
     },
     "JohnBra/vite-web-extension": {
       "times_featured": 2,
@@ -673,8 +673,8 @@
       "last_featured": "2026-04-16"
     },
     "getpaykit/paykit": {
-      "times_featured": 2,
-      "last_featured": "2026-04-13"
+      "times_featured": 3,
+      "last_featured": "2026-04-27"
     },
     "AIDC-AI/Pixelle-Video": {
       "times_featured": 2,
@@ -805,8 +805,8 @@
       "last_featured": "2026-04-26"
     },
     "Anil-matcha/Open-Generative-AI": {
-      "times_featured": 1,
-      "last_featured": "2026-04-13"
+      "times_featured": 2,
+      "last_featured": "2026-04-27"
     },
     "usememos/memos": {
       "times_featured": 1,
@@ -821,8 +821,8 @@
       "last_featured": "2026-04-13"
     },
     "donnemartin/system-design-primer": {
-      "times_featured": 1,
-      "last_featured": "2026-04-13"
+      "times_featured": 2,
+      "last_featured": "2026-04-27"
     },
     "servo/servo": {
       "times_featured": 1,
@@ -1211,6 +1211,30 @@
     "sympy/sympy": {
       "times_featured": 1,
       "last_featured": "2026-04-26"
+    },
+    "activepieces/activepieces": {
+      "times_featured": 1,
+      "last_featured": "2026-04-27"
+    },
+    "HBAI-Ltd/Toonflow-app": {
+      "times_featured": 1,
+      "last_featured": "2026-04-27"
+    },
+    "hummingbot/hummingbot": {
+      "times_featured": 1,
+      "last_featured": "2026-04-27"
+    },
+    "ConardLi/garden-skills": {
+      "times_featured": 1,
+      "last_featured": "2026-04-27"
+    },
+    "PaperMC/Paper": {
+      "times_featured": 1,
+      "last_featured": "2026-04-27"
+    },
+    "seerr-team/seerr": {
+      "times_featured": 1,
+      "last_featured": "2026-04-27"
     }
   }
 }

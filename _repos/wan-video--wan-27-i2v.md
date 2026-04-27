@@ -3,7 +3,7 @@ layout: repo
 name: "wan-video/wan-2.7-i2v"
 source: replicate
 item_url: "https://replicate.com/wan-video/wan-2.7-i2v"
-description: "Wan 2.7 i2v: generate videos from images with advanced frame and audio control; elevate your visual stories."
+description: "Video generation model."
 category: "Replicate Models"
 language: ""
 stars: 0
@@ -11,8 +11,8 @@ downloads: 0
 likes: 0
 og_image: ""
 first_featured: "2026-04-13"
-last_featured: "2026-04-13"
-times_featured: 1
+last_featured: "2026-04-27"
+times_featured: 2
 streak: 0
 appearances: 0
 star_velocity: 0
@@ -20,4 +20,4 @@ tags: [replicate]
 icp_tags: ["non-technical", "solopreneur"]
 ---
 
-Wan 2.7 i2v: generate videos from images with advanced frame and audio control; elevate your visual stories.
+Video generation model.
