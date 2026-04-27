@@ -1,0 +1,58 @@
+{
+  "generated_at": "2026-04-27T09:12:26.032Z",
+  "source": "launches",
+  "counts": {
+    "producthunt": 6,
+    "total": 6
+  },
+  "launches": [
+    {
+      "id": "ph-1131906",
+      "name": "GPT-5.5 by OpenAI",
+      "description": "OpenAI's smartest and most intuitive to use model yet",
+      "url": "https://www.producthunt.com/r/FSHYJG6A5BGZUU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 400,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1131914",
+      "name": "Claude Connectors",
+      "description": "New connectors in Claude for everyday life",
+      "url": "https://www.producthunt.com/r/ZSH4AZJ5NGQ6HT?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 381,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1131574",
+      "name": "QuickCompare by Trismik",
+      "description": "Compare LLMs on your data, measure, and pick the best.",
+      "url": "https://www.producthunt.com/r/QFWJQUQGV3CKNB?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 209,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1125037",
+      "name": "Happenstance",
+      "description": "Search your network with AI",
+      "url": "https://www.producthunt.com/r/ON6RTKE5AKXIL7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 171,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1131530",
+      "name": "Edgee Team",
+      "description": "Strava for your coding assistants",
+      "url": "https://www.producthunt.com/r/RSXKLEYYIP66HS?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 139,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1123147",
+      "name": "Free chart generator by Embedful",
+      "description": "Turn CSV & Excel files into charts in seconds",
+      "url": "https://www.producthunt.com/r/733N4BVXPFJDFA?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 100,
+      "_source": "producthunt"
+    }
+  ]
+}
