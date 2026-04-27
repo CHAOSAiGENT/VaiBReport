@@ -1,58 +1,255 @@
 {
-  "generated_at": "2026-04-27T09:12:26.032Z",
+  "generated_at": "2026-04-27T15:25:30.832Z",
   "source": "launches",
   "counts": {
-    "producthunt": 6,
-    "total": 6
+    "hackernews_showhn": 22,
+    "devhunt": 0,
+    "betalist": 0,
+    "uneed": 0,
+    "total": 22
   },
   "launches": [
     {
-      "id": "ph-1131906",
-      "name": "GPT-5.5 by OpenAI",
-      "description": "OpenAI's smartest and most intuitive to use model yet",
-      "url": "https://www.producthunt.com/r/FSHYJG6A5BGZUU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 400,
-      "_source": "producthunt"
+      "id": "showhn-47920787",
+      "name": "OSS Agent I built topped the TerminalBench on Gemini-3-flash-preview",
+      "url": "https://github.com/dirac-run/dirac",
+      "description": "Show HN: OSS Agent I built topped the TerminalBench on Gemini-3-flash-preview",
+      "upvotes": 128,
+      "launch_date": "2026-04-27",
+      "platform_url": "https://news.ycombinator.com/item?id=47920787",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
     },
     {
-      "id": "ph-1131914",
-      "name": "Claude Connectors",
-      "description": "New connectors in Claude for everyday life",
-      "url": "https://www.producthunt.com/r/ZSH4AZJ5NGQ6HT?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 381,
-      "_source": "producthunt"
+      "id": "showhn-47920289",
+      "name": "A terminal spreadsheet editor with Vim keybindings",
+      "url": "https://github.com/garritfra/cell",
+      "description": "Show HN: A terminal spreadsheet editor with Vim keybindings",
+      "upvotes": 40,
+      "launch_date": "2026-04-27",
+      "platform_url": "https://news.ycombinator.com/item?id=47920289",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
     },
     {
-      "id": "ph-1131574",
-      "name": "QuickCompare by Trismik",
-      "description": "Compare LLMs on your data, measure, and pick the best.",
-      "url": "https://www.producthunt.com/r/QFWJQUQGV3CKNB?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 209,
-      "_source": "producthunt"
+      "id": "showhn-47920007",
+      "name": "I built a dual crossword puzzle where two crosswords share one grid",
+      "url": "https://forkle.co.uk/",
+      "description": "Show HN: I built a dual crossword puzzle where two crosswords share one grid",
+      "upvotes": 13,
+      "launch_date": "2026-04-27",
+      "platform_url": "https://news.ycombinator.com/item?id=47920007",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
     },
     {
-      "id": "ph-1125037",
-      "name": "Happenstance",
-      "description": "Search your network with AI",
-      "url": "https://www.producthunt.com/r/ON6RTKE5AKXIL7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 171,
-      "_source": "producthunt"
+      "id": "showhn-47911013",
+      "name": "Free textbook on engineering thermodynamics",
+      "url": "https://thermodynamicsbook.com/",
+      "description": "Show HN: Free textbook on engineering thermodynamics",
+      "upvotes": 165,
+      "launch_date": "2026-04-27",
+      "platform_url": "https://news.ycombinator.com/item?id=47911013",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
     },
     {
-      "id": "ph-1131530",
-      "name": "Edgee Team",
-      "description": "Strava for your coding assistants",
-      "url": "https://www.producthunt.com/r/RSXKLEYYIP66HS?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 139,
-      "_source": "producthunt"
+      "id": "showhn-47876071",
+      "name": "Turning a Gaussian Splat into a videogame",
+      "url": "https://blog.playcanvas.com/turning-a-gaussian-splat-into-a-videogame/",
+      "description": "Show HN: Turning a Gaussian Splat into a videogame",
+      "upvotes": 224,
+      "launch_date": "2026-04-27",
+      "platform_url": "https://news.ycombinator.com/item?id=47876071",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
     },
     {
-      "id": "ph-1123147",
-      "name": "Free chart generator by Embedful",
-      "description": "Turn CSV & Excel files into charts in seconds",
-      "url": "https://www.producthunt.com/r/733N4BVXPFJDFA?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 100,
-      "_source": "producthunt"
+      "id": "showhn-47916769",
+      "name": "The Unix Magic poster, annotated (updated)",
+      "url": "https://github.com/drio/unixmagic",
+      "description": "Show HN: The Unix Magic poster, annotated (updated)",
+      "upvotes": 45,
+      "launch_date": "2026-04-27",
+      "platform_url": "https://news.ycombinator.com/item?id=47916769",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47914369",
+      "name": "Tiao, A two-player turn-based board game",
+      "url": "https://playtiao.com",
+      "description": "Show HN: Tiao, A two-player turn-based board game",
+      "upvotes": 54,
+      "launch_date": "2026-04-27",
+      "platform_url": "https://news.ycombinator.com/item?id=47914369",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47915274",
+      "name": "Startup Equity Adventure Game",
+      "url": "https://options-game-polymathrobotics.pythonanywhere.com/",
+      "description": "Show HN: Startup Equity Adventure Game",
+      "upvotes": 29,
+      "launch_date": "2026-04-27",
+      "platform_url": "https://news.ycombinator.com/item?id=47915274",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47914075",
+      "name": "AgentSwarms – free hands-on playground to learn agentic AI, no setup",
+      "url": "https://agentswarms.fyi/",
+      "description": "Show HN: AgentSwarms – free hands-on playground to learn agentic AI, no setup",
+      "upvotes": 19,
+      "launch_date": "2026-04-27",
+      "platform_url": "https://news.ycombinator.com/item?id=47914075",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47914814",
+      "name": "Matrirc – run irssi in 2026, talk to people on Matrix",
+      "url": "https://github.com/pawelb0/matrirc",
+      "description": "Show HN: Matrirc – run irssi in 2026, talk to people on Matrix",
+      "upvotes": 11,
+      "launch_date": "2026-04-27",
+      "platform_url": "https://news.ycombinator.com/item?id=47914814",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47914367",
+      "name": "AI memory with biological decay (52% recall)",
+      "url": "https://github.com/sachitrafa/YourMemory",
+      "description": "Show HN: AI memory with biological decay (52% recall)",
+      "upvotes": 92,
+      "launch_date": "2026-04-27",
+      "platform_url": "https://news.ycombinator.com/item?id=47914367",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47908912",
+      "name": "A free ESG stock screener that publishes its losses and methodology",
+      "url": "https://jumpstartsignal.com/",
+      "description": "Show HN: A free ESG stock screener that publishes its losses and methodology",
+      "upvotes": 28,
+      "launch_date": "2026-04-27",
+      "platform_url": "https://news.ycombinator.com/item?id=47908912",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47913349",
+      "name": "Auge Vision from Your Terminal",
+      "url": "https://auge.franzai.com/",
+      "description": "Show HN: Auge Vision from Your Terminal",
+      "upvotes": 24,
+      "launch_date": "2026-04-27",
+      "platform_url": "https://news.ycombinator.com/item?id=47913349",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47909295",
+      "name": "I remade my blog into a Windows 3.1 environment",
+      "url": "https://passo.uno/",
+      "description": "Show HN: I remade my blog into a Windows 3.1 environment",
+      "upvotes": 23,
+      "launch_date": "2026-04-27",
+      "platform_url": "https://news.ycombinator.com/item?id=47909295",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47874647",
+      "name": "Honker – Postgres NOTIFY/LISTEN Semantics for SQLite",
+      "url": "https://github.com/russellromney/honker",
+      "description": "Show HN: Honker – Postgres NOTIFY/LISTEN Semantics for SQLite",
+      "upvotes": 312,
+      "launch_date": "2026-04-27",
+      "platform_url": "https://news.ycombinator.com/item?id=47874647",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47896163",
+      "name": "I've built a nice home server OS",
+      "url": "https://lightwhale.asklandd.dk/",
+      "description": "Show HN: I've built a nice home server OS",
+      "upvotes": 189,
+      "launch_date": "2026-04-27",
+      "platform_url": "https://news.ycombinator.com/item?id=47896163",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47903690",
+      "name": "Kloak, A secret manager that keeps K8s workload away from secrets",
+      "url": "https://getkloak.io/",
+      "description": "Show HN: Kloak, A secret manager that keeps K8s workload away from secrets",
+      "upvotes": 61,
+      "launch_date": "2026-04-27",
+      "platform_url": "https://news.ycombinator.com/item?id=47903690",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47890841",
+      "name": "Browser Harness – Gives LLM freedom to complete any browser task",
+      "url": "https://github.com/browser-use/browser-harness",
+      "description": "Show HN: Browser Harness – Gives LLM freedom to complete any browser task",
+      "upvotes": 130,
+      "launch_date": "2026-04-27",
+      "platform_url": "https://news.ycombinator.com/item?id=47890841",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47899844",
+      "name": "A Karpathy-style LLM wiki your agents maintain (Markdown and Git)",
+      "url": "https://github.com/nex-crm/wuphf",
+      "description": "Show HN: A Karpathy-style LLM wiki your agents maintain (Markdown and Git)",
+      "upvotes": 255,
+      "launch_date": "2026-04-27",
+      "platform_url": "https://news.ycombinator.com/item?id=47899844",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47886272",
+      "name": "Gova – The declarative GUI framework for Go",
+      "url": "https://github.com/NV404/gova",
+      "description": "Show HN: Gova – The declarative GUI framework for Go",
+      "upvotes": 141,
+      "launch_date": "2026-04-27",
+      "platform_url": "https://news.ycombinator.com/item?id=47886272",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47907388",
+      "name": "Browse GitHub repos in Emacs without cloning",
+      "url": "https://github.com/agzam/remoto.el",
+      "description": "Show HN: Browse GitHub repos in Emacs without cloning",
+      "upvotes": 22,
+      "launch_date": "2026-04-27",
+      "platform_url": "https://news.ycombinator.com/item?id=47907388",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47865822",
+      "name": "Agent Vault – Open-source credential proxy and vault for agents",
+      "url": "https://github.com/Infisical/agent-vault",
+      "description": "Show HN: Agent Vault – Open-source credential proxy and vault for agents",
+      "upvotes": 156,
+      "launch_date": "2026-04-27",
+      "platform_url": "https://news.ycombinator.com/item?id=47865822",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
     }
   ]
 }
