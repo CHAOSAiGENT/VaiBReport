@@ -3,16 +3,16 @@ layout: repo
 name: "openai/gpt-oss-20b"
 source: huggingface-model
 item_url: "https://huggingface.co/openai/gpt-oss-20b"
-description: "GPT-20B model"
+description: "A substantial 20B GPT model from OpenAI; decent for general text generation tasks."
 category: "HuggingFace Models"
 language: ""
 stars: 0
-downloads: 6055527
-likes: 4533
+downloads: 6494736
+likes: 4567
 og_image: ""
 first_featured: "2026-03-25"
-last_featured: "2026-04-14"
-times_featured: 2
+last_featured: "2026-04-28"
+times_featured: 3
 streak: 0
 appearances: 0
 star_velocity: 0
@@ -20,4 +20,4 @@ tags: [huggingface, transformers, safetensors, gpt_oss, text-generation, vllm, c
 icp_tags: ["founding-team", "pre-mvp"]
 ---
 
-GPT-20B model
+A substantial 20B GPT model from OpenAI; decent for general text generation tasks.

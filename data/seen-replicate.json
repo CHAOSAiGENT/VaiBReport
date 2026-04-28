@@ -189,8 +189,8 @@
       "last_featured": "2026-04-27"
     },
     "ultralytics/yoloe-11s": {
-      "times_featured": 1,
-      "last_featured": "2026-04-14"
+      "times_featured": 2,
+      "last_featured": "2026-04-28"
     },
     "google/lyria-3-pro": {
       "times_featured": 1,
@@ -201,8 +201,8 @@
       "last_featured": "2026-04-14"
     },
     "wan-video/wan-2.7-videoedit": {
-      "times_featured": 1,
-      "last_featured": "2026-04-14"
+      "times_featured": 2,
+      "last_featured": "2026-04-28"
     },
     "wan-video/wan-2.7-t2v": {
       "times_featured": 1,
@@ -335,6 +335,10 @@
     "heygen/lipsync-speed": {
       "times_featured": 1,
       "last_featured": "2026-04-26"
+    },
+    "alibaba/happyhorse-1.0": {
+      "times_featured": 1,
+      "last_featured": "2026-04-28"
     }
   }
 }

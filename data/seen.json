@@ -373,8 +373,8 @@
       "last_featured": "2026-03-24"
     },
     "vllm-project/vllm-omni": {
-      "times_featured": 2,
-      "last_featured": "2026-04-14"
+      "times_featured": 3,
+      "last_featured": "2026-04-28"
     },
     "saturndec/waoowaoo": {
       "times_featured": 3,
@@ -505,12 +505,12 @@
       "last_featured": "2026-04-27"
     },
     "Tencent-Hunyuan/HunyuanVideo-1.5": {
-      "times_featured": 2,
-      "last_featured": "2026-04-14"
+      "times_featured": 3,
+      "last_featured": "2026-04-28"
     },
     "nateraw/stable-diffusion-videos": {
-      "times_featured": 2,
-      "last_featured": "2026-04-13"
+      "times_featured": 3,
+      "last_featured": "2026-04-28"
     },
     "vitejs/vite": {
       "times_featured": 2,
@@ -537,24 +537,24 @@
       "last_featured": "2026-04-27"
     },
     "JohnBra/vite-web-extension": {
-      "times_featured": 2,
-      "last_featured": "2026-04-14"
+      "times_featured": 3,
+      "last_featured": "2026-04-28"
     },
     "mugnavo/tanstarter": {
-      "times_featured": 2,
-      "last_featured": "2026-04-14"
+      "times_featured": 3,
+      "last_featured": "2026-04-28"
     },
     "guigrpa/docx-templates": {
-      "times_featured": 2,
-      "last_featured": "2026-04-14"
+      "times_featured": 3,
+      "last_featured": "2026-04-28"
     },
     "dishait/tov-template": {
-      "times_featured": 2,
-      "last_featured": "2026-04-14"
+      "times_featured": 3,
+      "last_featured": "2026-04-28"
     },
     "antgroup/echomimic_v2": {
-      "times_featured": 2,
-      "last_featured": "2026-04-14"
+      "times_featured": 3,
+      "last_featured": "2026-04-28"
     },
     "VectorSpaceLab/OmniGen": {
       "times_featured": 2,
@@ -589,8 +589,8 @@
       "last_featured": "2026-03-28"
     },
     "Skolaczk/next-starter": {
-      "times_featured": 2,
-      "last_featured": "2026-04-14"
+      "times_featured": 3,
+      "last_featured": "2026-04-28"
     },
     "agustinusnathaniel/nextarter-chakra": {
       "times_featured": 2,
@@ -677,8 +677,8 @@
       "last_featured": "2026-04-27"
     },
     "AIDC-AI/Pixelle-Video": {
-      "times_featured": 2,
-      "last_featured": "2026-04-14"
+      "times_featured": 3,
+      "last_featured": "2026-04-28"
     },
     "hao-ai-lab/FastVideo": {
       "times_featured": 2,
@@ -1235,6 +1235,22 @@
     "seerr-team/seerr": {
       "times_featured": 1,
       "last_featured": "2026-04-27"
+    },
+    "TechnitiumSoftware/DnsServer": {
+      "times_featured": 1,
+      "last_featured": "2026-04-28"
+    },
+    "judge0/judge0": {
+      "times_featured": 1,
+      "last_featured": "2026-04-28"
+    },
+    "mampfes/hacs_waste_collection_schedule": {
+      "times_featured": 1,
+      "last_featured": "2026-04-28"
+    },
+    "immich-app/immich": {
+      "times_featured": 1,
+      "last_featured": "2026-04-28"
     }
   }
 }
