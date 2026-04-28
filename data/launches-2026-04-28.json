@@ -1,114 +1,211 @@
 {
-  "generated_at": "2026-04-28T09:13:41.457Z",
+  "generated_at": "2026-04-28T15:59:50.875Z",
   "source": "launches",
   "counts": {
-    "producthunt": 13,
-    "total": 13
+    "hackernews_showhn": 18,
+    "devhunt": 0,
+    "betalist": 0,
+    "uneed": 0,
+    "total": 18
   },
   "launches": [
     {
-      "id": "ph-1131445",
-      "name": " Jet AI Agents",
-      "description": "Build business AI agents in minutes",
-      "url": "https://www.producthunt.com/r/3FWOO35SRXZ3FG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 304,
-      "_source": "producthunt"
+      "id": "showhn-47934261",
+      "name": "Live Sun and Moon Dashboard with NASA Footage",
+      "url": "https://www.lumara-space.app/",
+      "description": "Show HN: Live Sun and Moon Dashboard with NASA Footage",
+      "upvotes": 62,
+      "launch_date": "2026-04-28",
+      "platform_url": "https://news.ycombinator.com/item?id=47934261",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
     },
     {
-      "id": "ph-1128151",
-      "name": "Logic",
-      "description": "Build and operate fleets of agents",
-      "url": "https://www.producthunt.com/r/BHVF4YXQZYKB75?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 269,
-      "_source": "producthunt"
+      "id": "showhn-47920787",
+      "name": "OSS Agent I built topped the TerminalBench on Gemini-3-flash-preview",
+      "url": "https://github.com/dirac-run/dirac",
+      "description": "Show HN: OSS Agent I built topped the TerminalBench on Gemini-3-flash-preview",
+      "upvotes": 356,
+      "launch_date": "2026-04-28",
+      "platform_url": "https://news.ycombinator.com/item?id=47920787",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
     },
     {
-      "id": "ph-1132219",
-      "name": "Waitlister",
-      "description": "The waitlist software to launch your product",
-      "url": "https://www.producthunt.com/r/5GOOLU6RCSY5YM?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 252,
-      "_source": "producthunt"
-    },
-    {
-      "id": "ph-1132963",
-      "name": "VIDEO AI ME",
-      "description": "Create videos with AI actors that sound and look real",
-      "url": "https://www.producthunt.com/r/7226TDHR4QPWZ3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 195,
-      "_source": "producthunt"
-    },
-    {
-      "id": "ph-1132869",
-      "name": "Atech",
-      "description": "Snap-together electronics built from a chat",
-      "url": "https://www.producthunt.com/r/YK6JO5TJYLMSY2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 157,
-      "_source": "producthunt"
-    },
-    {
-      "id": "ph-1130530",
-      "name": "GitBar",
-      "description": "Every pull request, one menubar. GitHub, GitLab & Azure",
-      "url": "https://www.producthunt.com/r/ASEXZJ4WEQTBCD?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 123,
-      "_source": "producthunt"
-    },
-    {
-      "id": "ph-1133091",
-      "name": "Odyssey-2 Max",
-      "description": "Physical accuracy takes a leap in world models",
-      "url": "https://www.producthunt.com/r/ODLA4BSYGYFI2C?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 121,
-      "_source": "producthunt"
-    },
-    {
-      "id": "ph-1132044",
-      "name": "SNEWPapers",
-      "description": "The World's First AI Newspaper Archive",
-      "url": "https://www.producthunt.com/r/74QRCZZSP3M4N6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 119,
-      "_source": "producthunt"
-    },
-    {
-      "id": "ph-1132718",
-      "name": "Replyless",
-      "description": "AI Email app that sends daily email briefs on Telegram",
-      "url": "https://www.producthunt.com/r/4ZM47YZ3CK7WBT?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 115,
-      "_source": "producthunt"
-    },
-    {
-      "id": "ph-1117200",
-      "name": "Wafaa.io",
-      "description": "Create secure digital contracts in minutes",
-      "url": "https://www.producthunt.com/r/LHW2EU2MO2ZTDF?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "id": "showhn-47921626",
+      "name": "Utilyze – an open source GPU monitoring tool more accurate than nvtop",
+      "url": "https://www.systalyze.com/utilyze",
+      "description": "Show HN: Utilyze – an open source GPU monitoring tool more accurate than nvtop",
       "upvotes": 109,
-      "_source": "producthunt"
+      "launch_date": "2026-04-28",
+      "platform_url": "https://news.ycombinator.com/item?id=47921626",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
     },
     {
-      "id": "ph-1112058",
-      "name": "PlayJoob",
-      "description": "turns dead task boards into a shared strategy map",
-      "url": "https://www.producthunt.com/r/7CIGUDWJONPYQM?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 109,
-      "_source": "producthunt"
+      "id": "showhn-47920289",
+      "name": "A terminal spreadsheet editor with Vim keybindings",
+      "url": "https://github.com/garritfra/cell",
+      "description": "Show HN: A terminal spreadsheet editor with Vim keybindings",
+      "upvotes": 100,
+      "launch_date": "2026-04-28",
+      "platform_url": "https://news.ycombinator.com/item?id=47920289",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
     },
     {
-      "id": "ph-1132632",
-      "name": "Epismo Agent Package",
-      "description": "Run agent workflows the community already built",
-      "url": "https://www.producthunt.com/r/XQSIA3LICDYPCN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 103,
-      "_source": "producthunt"
+      "id": "showhn-47929961",
+      "name": "Waiting for LLMs Suck – Give your user a game",
+      "url": "https://github.com/ftaip/waiting-game",
+      "description": "Show HN: Waiting for LLMs Suck – Give your user a game",
+      "upvotes": 18,
+      "launch_date": "2026-04-28",
+      "platform_url": "https://news.ycombinator.com/item?id=47929961",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
     },
     {
-      "id": "ph-1133165",
-      "name": "Subgrapher",
-      "description": "P2P desktop app for building, browsing, & sharing knowledge",
-      "url": "https://www.producthunt.com/r/JJGB7BNCTRLAHA?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 88,
-      "_source": "producthunt"
+      "id": "showhn-47876071",
+      "name": "Turning a Gaussian Splat into a videogame",
+      "url": "https://blog.playcanvas.com/turning-a-gaussian-splat-into-a-videogame/",
+      "description": "Show HN: Turning a Gaussian Splat into a videogame",
+      "upvotes": 234,
+      "launch_date": "2026-04-28",
+      "platform_url": "https://news.ycombinator.com/item?id=47876071",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47929375",
+      "name": "AgentSwift – Open-source iOS builder agent",
+      "url": "https://github.com/hpennington/agentswift",
+      "description": "Show HN: AgentSwift – Open-source iOS builder agent",
+      "upvotes": 45,
+      "launch_date": "2026-04-28",
+      "platform_url": "https://news.ycombinator.com/item?id=47929375",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47923695",
+      "name": "Unusual Wikipedia",
+      "url": "https://unusualwiki.nk412.com/",
+      "description": "Show HN: Unusual Wikipedia",
+      "upvotes": 15,
+      "launch_date": "2026-04-28",
+      "platform_url": "https://news.ycombinator.com/item?id=47923695",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47916769",
+      "name": "The Unix Magic poster, annotated (updated)",
+      "url": "https://github.com/drio/unixmagic",
+      "description": "Show HN: The Unix Magic poster, annotated (updated)",
+      "upvotes": 60,
+      "launch_date": "2026-04-28",
+      "platform_url": "https://news.ycombinator.com/item?id=47916769",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47914369",
+      "name": "Tiao, A two-player turn-based board game",
+      "url": "https://playtiao.com",
+      "description": "Show HN: Tiao, A two-player turn-based board game",
+      "upvotes": 59,
+      "launch_date": "2026-04-28",
+      "platform_url": "https://news.ycombinator.com/item?id=47914369",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47911013",
+      "name": "Free textbook on engineering thermodynamics",
+      "url": "https://thermodynamicsbook.com/",
+      "description": "Show HN: Free textbook on engineering thermodynamics",
+      "upvotes": 174,
+      "launch_date": "2026-04-28",
+      "platform_url": "https://news.ycombinator.com/item?id=47911013",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47915274",
+      "name": "Startup Equity Adventure Game",
+      "url": "https://options-game-polymathrobotics.pythonanywhere.com/",
+      "description": "Show HN: Startup Equity Adventure Game",
+      "upvotes": 34,
+      "launch_date": "2026-04-28",
+      "platform_url": "https://news.ycombinator.com/item?id=47915274",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47874647",
+      "name": "Honker – Postgres NOTIFY/LISTEN Semantics for SQLite",
+      "url": "https://github.com/russellromney/honker",
+      "description": "Show HN: Honker – Postgres NOTIFY/LISTEN Semantics for SQLite",
+      "upvotes": 313,
+      "launch_date": "2026-04-28",
+      "platform_url": "https://news.ycombinator.com/item?id=47874647",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47914075",
+      "name": "AgentSwarms – free hands-on playground to learn agentic AI, no setup",
+      "url": "https://agentswarms.fyi/",
+      "description": "Show HN: AgentSwarms – free hands-on playground to learn agentic AI, no setup",
+      "upvotes": 26,
+      "launch_date": "2026-04-28",
+      "platform_url": "https://news.ycombinator.com/item?id=47914075",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47886272",
+      "name": "Gova – The declarative GUI framework for Go",
+      "url": "https://github.com/NV404/gova",
+      "description": "Show HN: Gova – The declarative GUI framework for Go",
+      "upvotes": 143,
+      "launch_date": "2026-04-28",
+      "platform_url": "https://news.ycombinator.com/item?id=47886272",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47896163",
+      "name": "I've built a nice home server OS",
+      "url": "https://lightwhale.asklandd.dk/",
+      "description": "Show HN: I've built a nice home server OS",
+      "upvotes": 191,
+      "launch_date": "2026-04-28",
+      "platform_url": "https://news.ycombinator.com/item?id=47896163",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47890841",
+      "name": "Browser Harness – Gives LLM freedom to complete any browser task",
+      "url": "https://github.com/browser-use/browser-harness",
+      "description": "Show HN: Browser Harness – Gives LLM freedom to complete any browser task",
+      "upvotes": 131,
+      "launch_date": "2026-04-28",
+      "platform_url": "https://news.ycombinator.com/item?id=47890841",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47920007",
+      "name": "I built a dual crossword puzzle where two crosswords share one grid",
+      "url": "https://forkle.co.uk/",
+      "description": "Show HN: I built a dual crossword puzzle where two crosswords share one grid",
+      "upvotes": 19,
+      "launch_date": "2026-04-28",
+      "platform_url": "https://news.ycombinator.com/item?id=47920007",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
     }
   ]
 }
