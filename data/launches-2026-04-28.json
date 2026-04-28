@@ -1,0 +1,114 @@
+{
+  "generated_at": "2026-04-28T09:13:41.457Z",
+  "source": "launches",
+  "counts": {
+    "producthunt": 13,
+    "total": 13
+  },
+  "launches": [
+    {
+      "id": "ph-1131445",
+      "name": " Jet AI Agents",
+      "description": "Build business AI agents in minutes",
+      "url": "https://www.producthunt.com/r/3FWOO35SRXZ3FG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 304,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1128151",
+      "name": "Logic",
+      "description": "Build and operate fleets of agents",
+      "url": "https://www.producthunt.com/r/BHVF4YXQZYKB75?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 269,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1132219",
+      "name": "Waitlister",
+      "description": "The waitlist software to launch your product",
+      "url": "https://www.producthunt.com/r/5GOOLU6RCSY5YM?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 252,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1132963",
+      "name": "VIDEO AI ME",
+      "description": "Create videos with AI actors that sound and look real",
+      "url": "https://www.producthunt.com/r/7226TDHR4QPWZ3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 195,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1132869",
+      "name": "Atech",
+      "description": "Snap-together electronics built from a chat",
+      "url": "https://www.producthunt.com/r/YK6JO5TJYLMSY2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 157,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1130530",
+      "name": "GitBar",
+      "description": "Every pull request, one menubar. GitHub, GitLab & Azure",
+      "url": "https://www.producthunt.com/r/ASEXZJ4WEQTBCD?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 123,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1133091",
+      "name": "Odyssey-2 Max",
+      "description": "Physical accuracy takes a leap in world models",
+      "url": "https://www.producthunt.com/r/ODLA4BSYGYFI2C?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 121,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1132044",
+      "name": "SNEWPapers",
+      "description": "The World's First AI Newspaper Archive",
+      "url": "https://www.producthunt.com/r/74QRCZZSP3M4N6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 119,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1132718",
+      "name": "Replyless",
+      "description": "AI Email app that sends daily email briefs on Telegram",
+      "url": "https://www.producthunt.com/r/4ZM47YZ3CK7WBT?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 115,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1117200",
+      "name": "Wafaa.io",
+      "description": "Create secure digital contracts in minutes",
+      "url": "https://www.producthunt.com/r/LHW2EU2MO2ZTDF?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 109,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1112058",
+      "name": "PlayJoob",
+      "description": "turns dead task boards into a shared strategy map",
+      "url": "https://www.producthunt.com/r/7CIGUDWJONPYQM?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 109,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1132632",
+      "name": "Epismo Agent Package",
+      "description": "Run agent workflows the community already built",
+      "url": "https://www.producthunt.com/r/XQSIA3LICDYPCN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 103,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1133165",
+      "name": "Subgrapher",
+      "description": "P2P desktop app for building, browsing, & sharing knowledge",
+      "url": "https://www.producthunt.com/r/JJGB7BNCTRLAHA?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 88,
+      "_source": "producthunt"
+    }
+  ]
+}
