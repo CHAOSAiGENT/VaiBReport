@@ -253,8 +253,8 @@
       "last_featured": "2026-04-26"
     },
     "jonatasgrosman/wav2vec2-large-xlsr-53-portuguese": {
-      "times_featured": 2,
-      "last_featured": "2026-04-15"
+      "times_featured": 3,
+      "last_featured": "2026-04-29"
     },
     "argmaxinc/whisperkit-coreml": {
       "times_featured": 3,
@@ -313,12 +313,12 @@
       "last_featured": "2026-04-26"
     },
     "openai/whisper-large-v3": {
-      "times_featured": 2,
-      "last_featured": "2026-04-15"
+      "times_featured": 3,
+      "last_featured": "2026-04-29"
     },
     "allenai/c4": {
-      "times_featured": 2,
-      "last_featured": "2026-04-15"
+      "times_featured": 3,
+      "last_featured": "2026-04-29"
     },
     "nguha/legalbench": {
       "times_featured": 1,
@@ -329,32 +329,32 @@
       "last_featured": "2026-03-28"
     },
     "tonyassi/voice-clone": {
-      "times_featured": 2,
-      "last_featured": "2026-04-15"
+      "times_featured": 3,
+      "last_featured": "2026-04-29"
     },
     "fffiloni/diffusers-image-outpaint": {
-      "times_featured": 2,
-      "last_featured": "2026-04-15"
+      "times_featured": 3,
+      "last_featured": "2026-04-29"
     },
     "suno/bark": {
-      "times_featured": 2,
-      "last_featured": "2026-04-15"
+      "times_featured": 3,
+      "last_featured": "2026-04-29"
     },
     "sczhou/CodeFormer": {
-      "times_featured": 2,
-      "last_featured": "2026-04-15"
+      "times_featured": 3,
+      "last_featured": "2026-04-29"
     },
     "microsoft/HuggingGPT": {
-      "times_featured": 2,
-      "last_featured": "2026-04-15"
+      "times_featured": 3,
+      "last_featured": "2026-04-29"
     },
     "intfloat/multilingual-e5-large": {
       "times_featured": 3,
       "last_featured": "2026-04-28"
     },
     "dphn/dolphin-2.9.1-yi-1.5-34b": {
-      "times_featured": 2,
-      "last_featured": "2026-04-15"
+      "times_featured": 3,
+      "last_featured": "2026-04-29"
     },
     "MahmoudAshraf/mms-300m-1130-forced-aligner": {
       "times_featured": 2,
@@ -397,8 +397,8 @@
       "last_featured": "2026-04-17"
     },
     "google/vit-base-patch16-224": {
-      "times_featured": 2,
-      "last_featured": "2026-04-15"
+      "times_featured": 3,
+      "last_featured": "2026-04-29"
     },
     "Qwen/Qwen2.5-32B-Instruct": {
       "times_featured": 2,
@@ -409,8 +409,8 @@
       "last_featured": "2026-03-30"
     },
     "meta-llama/Llama-3.2-1B-Instruct": {
-      "times_featured": 2,
-      "last_featured": "2026-04-15"
+      "times_featured": 3,
+      "last_featured": "2026-04-29"
     },
     "zai-org/GLM-OCR": {
       "times_featured": 3,
@@ -461,12 +461,12 @@
       "last_featured": "2026-04-28"
     },
     "mrmrx/CADS-dataset": {
-      "times_featured": 1,
-      "last_featured": "2026-04-15"
+      "times_featured": 2,
+      "last_featured": "2026-04-29"
     },
     "HuggingFaceFW/fineweb": {
-      "times_featured": 1,
-      "last_featured": "2026-04-15"
+      "times_featured": 2,
+      "last_featured": "2026-04-29"
     },
     "multimodalart/qwen-image-multiple-angles-3d-camera": {
       "times_featured": 1,

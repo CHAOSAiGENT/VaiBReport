@@ -217,8 +217,8 @@
       "last_featured": "2026-04-15"
     },
     "wan-video/wan-2.7-r2v": {
-      "times_featured": 1,
-      "last_featured": "2026-04-15"
+      "times_featured": 2,
+      "last_featured": "2026-04-29"
     },
     "vidu/q3-turbo": {
       "times_featured": 1,
@@ -339,6 +339,10 @@
     "alibaba/happyhorse-1.0": {
       "times_featured": 1,
       "last_featured": "2026-04-28"
+    },
+    "patriceaubry-prog/hot-eva-1": {
+      "times_featured": 1,
+      "last_featured": "2026-04-29"
     }
   }
 }
