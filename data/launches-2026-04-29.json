@@ -1,0 +1,82 @@
+{
+  "generated_at": "2026-04-29T09:04:53.409Z",
+  "source": "launches",
+  "counts": {
+    "producthunt": 9,
+    "total": 9
+  },
+  "launches": [
+    {
+      "id": "ph-1124245",
+      "name": "SureThing.io",
+      "description": "Autonomous agent that communicates results like a human",
+      "url": "https://www.producthunt.com/r/5ZQF23B4KGXMQ3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 401,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1097491",
+      "name": "Actian VectorAI DB",
+      "description": "The portable vector database for AI agents beyond the cloud",
+      "url": "https://www.producthunt.com/r/ETGZBRJODF3DDT?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 189,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1130949",
+      "name": "The Agentic Sales Engine by Crono",
+      "description": "Where sales teams and AI agents work side by side.",
+      "url": "https://www.producthunt.com/r/FUQ6MADHL66QFL?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 145,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1132040",
+      "name": "WUPHF by Nex.ai",
+      "description": "AI employees who build their own knowledge base",
+      "url": "https://www.producthunt.com/r/4C6QQXXCOTMO6R?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 137,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1133276",
+      "name": "SimCam",
+      "description": " Test camera features directly in the iOS simulator",
+      "url": "https://www.producthunt.com/r/UVKROIYUPPE4IP?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 127,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1125338",
+      "name": "MaxHermes by Minimax",
+      "description": "AI agent that builds skills from every task you give it",
+      "url": "https://www.producthunt.com/r/AMJ3MCW232WSF2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 106,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1133654",
+      "name": "Curflow",
+      "description": "Draw a gesture for your Mac to execute",
+      "url": "https://www.producthunt.com/r/RYWKWKAAYYQQRB?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 101,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1127371",
+      "name": "Voice Agents",
+      "description": "Turn expertise into 24/7 client-facing AI voice agents",
+      "url": "https://www.producthunt.com/r/LQG2DFOMGL2NHW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 97,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1133877",
+      "name": "Blueprint",
+      "description": "One-shot bigger coding tasks",
+      "url": "https://www.producthunt.com/r/KK6QBYWIHZXRNA?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 93,
+      "_source": "producthunt"
+    }
+  ]
+}
