@@ -3,22 +3,21 @@ layout: repo
 name: "microsoft/qlib"
 source: github
 item_url: "https://github.com/microsoft/qlib"
-description: "Microsoft's Qlib: an AI platform for quant investment, automating research from idea to production."
-category: "AI agents, LLM infra and RAG"
+description: "Microsoft's AI-powered Quant investment platform; for serious financial modeling."
+category: "Trending"
 language: "Python"
-stars: 40666
+stars: 41584
 downloads: 0
 likes: 0
-readme_image: "https://readthedocs.org/projects/qlib/badge/?version=latest"
 og_image: "https://opengraph.githubassets.com/1/microsoft/qlib"
 first_featured: "2026-03-30"
-last_featured: "2026-04-13"
-times_featured: 2
+last_featured: "2026-04-30"
+times_featured: 3
 streak: 1
-appearances: 7
+appearances: 9
 star_velocity: 0
 tags: [github]
-icp_tags: ["founding-team", "pre-mvp", "entreprecurious"]
+icp_tags: ["founding-team", "entreprecurious"]
 ---
 
-Microsoft's Qlib: an AI platform for quant investment, automating research from idea to production.
+Microsoft's AI-powered Quant investment platform; for serious financial modeling.

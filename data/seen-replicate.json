@@ -233,8 +233,8 @@
       "last_featured": "2026-04-16"
     },
     "google/gemini-3.1-flash-tts": {
-      "times_featured": 1,
-      "last_featured": "2026-04-16"
+      "times_featured": 2,
+      "last_featured": "2026-04-30"
     },
     "google/imagen-4-fast": {
       "times_featured": 1,
@@ -343,6 +343,18 @@
     "patriceaubry-prog/hot-eva-1": {
       "times_featured": 1,
       "last_featured": "2026-04-29"
+    },
+    "prunaai/p-video-avatar": {
+      "times_featured": 1,
+      "last_featured": "2026-04-30"
+    },
+    "topogoogles/topogoogles5": {
+      "times_featured": 1,
+      "last_featured": "2026-04-30"
+    },
+    "xai/grok-text-to-speech": {
+      "times_featured": 1,
+      "last_featured": "2026-04-30"
     }
   }
 }

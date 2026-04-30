@@ -3,16 +3,16 @@ layout: repo
 name: "Kthera/pesoz"
 source: huggingface-dataset
 item_url: "https://huggingface.co/datasets/Kthera/pesoz"
-description: "Dataset, context unclear but trending for a reason."
+description: "A dataset, exact content unknown, but worth checking if it fits your needs."
 category: "HuggingFace Datasets"
 language: ""
 stars: 0
-downloads: 578946
+downloads: 621697
 likes: 0
 og_image: ""
 first_featured: "2026-03-29"
-last_featured: "2026-04-16"
-times_featured: 2
+last_featured: "2026-04-30"
+times_featured: 3
 streak: 0
 appearances: 0
 star_velocity: 0
@@ -20,4 +20,4 @@ tags: [huggingface, region:us]
 icp_tags: ["founding-team", "pre-mvp"]
 ---
 
-Dataset, context unclear but trending for a reason.
+A dataset, exact content unknown, but worth checking if it fits your needs.
