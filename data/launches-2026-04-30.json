@@ -1,0 +1,130 @@
+{
+  "generated_at": "2026-04-30T09:06:49.502Z",
+  "source": "launches",
+  "counts": {
+    "producthunt": 15,
+    "total": 15
+  },
+  "launches": [
+    {
+      "id": "ph-1104980",
+      "name": "Plurai",
+      "description": "Vibe-train evals and guardrails tailored to your use case",
+      "url": "https://www.producthunt.com/r/2SG5VACZQUBMO7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 637,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1132023",
+      "name": "Open Wearables",
+      "description": "Open infrastructure for wearable-powered health products.",
+      "url": "https://www.producthunt.com/r/IUMQA6GC7RBMJ5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 561,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1130700",
+      "name": "KarmaBox",
+      "description": "Run your own Claude Code in your pocket.",
+      "url": "https://www.producthunt.com/r/6GDPBUAV25E6T6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 301,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1134040",
+      "name": "Gro v2",
+      "description": "Spot signals, trigger outreach - turn posts into pipeline",
+      "url": "https://www.producthunt.com/r/GC55BQLLOYP36O?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 264,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1133514",
+      "name": "Netlify Database",
+      "description": "Ship data-driven apps without breaking flow",
+      "url": "https://www.producthunt.com/r/MMUEZ3KSPUD4JN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 253,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1128135",
+      "name": "CodeHealth MCP Server by CodeScene",
+      "description": "Keep AI-generated code healthy and maintainable",
+      "url": "https://www.producthunt.com/r/7OEHF3AEEFZJCD?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 207,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1134646",
+      "name": "Dreambase Data Agent Skills",
+      "description": "Analytical skills for data agents running on Supabase",
+      "url": "https://www.producthunt.com/r/QWZ3YHVN4PTIGJ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 146,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1134390",
+      "name": "Picsart CLI ",
+      "description": "Picsart's power right from your AI chat box",
+      "url": "https://www.producthunt.com/r/UCP2XMP2ZA7D2E?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 113,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1134459",
+      "name": "Redesign by Nodewave",
+      "description": "Free and open‑source, stop designing. Describe.",
+      "url": "https://www.producthunt.com/r/JGUVBSPLPOXK6S?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 110,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1134816",
+      "name": "Compact Message Composer by CometChat",
+      "description": "Everything users expect from modern chat. Out of the box. ",
+      "url": "https://www.producthunt.com/r/QJDDNPEDGIUF3S?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 99,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1132498",
+      "name": "Snapr",
+      "description": "Screenshot, record, annotate & edit video in one app",
+      "url": "https://www.producthunt.com/r/2J3PY2BSNS5WSJ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 97,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1134435",
+      "name": "noirdoc",
+      "description": "PII guard for Claude Code to keep client data out of context",
+      "url": "https://www.producthunt.com/r/RRJZNPH2ZV2LYH?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 96,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1134261",
+      "name": "ZenTrack",
+      "description": "Notes, money, and health. Sorted.",
+      "url": "https://www.producthunt.com/r/7UGJYLA2XUOSIW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 96,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1134824",
+      "name": "Plannotator",
+      "description": "Annotate any doc, URL, or folder - send feedback to agents ",
+      "url": "https://www.producthunt.com/r/FJM4K3NC2D6N6V?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 93,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1134436",
+      "name": "Venture Factory AI",
+      "description": "Your full venture strategy, built in minutes.",
+      "url": "https://www.producthunt.com/r/27NTAWP62654J6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 85,
+      "_source": "producthunt"
+    }
+  ]
+}
