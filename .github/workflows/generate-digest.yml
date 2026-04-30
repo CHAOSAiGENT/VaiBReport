@@ -41,6 +41,7 @@ jobs:
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          NVIDIA_API_KEY: ${{ secrets.NVIDIA_API_KEY }}
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -136,7 +137,7 @@ jobs:
             return null;
           }
 
-          // ── LLM cascade (blurbs: Local → Gemini Flash → OpenRouter → Groq → Haiku) ─
+          // ── LLM cascade (blurbs: Local → NVIDIA NIM (5 models) → Gemini Flash → OpenRouter → Groq → Haiku) ─
           async function tryCascadeBlurb(prompt) {
             const providers = [];
             if (process.env.LOCAL_LLM_AVAILABLE === 'true' && process.env.LITELLM_MASTER_KEY) {
@@ -153,6 +154,30 @@ jobs:
                   return d.choices?.[0]?.message?.content ?? '';
                 },
               });
+            }
+            if (process.env.NVIDIA_API_KEY) {
+              const nimModels = [
+                'meta/llama-3.3-70b-instruct',
+                'nvidia/llama-3.1-nemotron-70b-instruct',
+                'mistralai/mixtral-8x22b-instruct-v0.1',
+                'qwen/qwen2.5-72b-instruct',
+                'meta/llama-3.1-405b-instruct',
+              ];
+              for (const model of nimModels) {
+                providers.push({
+                  name: `nim-${model}`,
+                  call: async () => {
+                    const res = await fetch('https://integrate.api.nvidia.com/v1/chat/completions', {
+                      method: 'POST',
+                      headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${process.env.NVIDIA_API_KEY}` },
+                      body: JSON.stringify({ model, messages: [{ role: 'user', content: prompt }] }),
+                    });
+                    if (!res.ok) throw new Error(`NIM ${model} ${res.status}: ${await res.text()}`);
+                    const d = await res.json();
+                    return d.choices?.[0]?.message?.content ?? '';
+                  },
+                });
+              }
             }
             if (process.env.GEMINI_API_KEY) {
               providers.push({
