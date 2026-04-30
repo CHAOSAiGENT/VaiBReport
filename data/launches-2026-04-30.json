@@ -1,130 +1,189 @@
 {
-  "generated_at": "2026-04-30T09:06:49.502Z",
+  "generated_at": "2026-04-30T15:29:07.566Z",
   "source": "launches",
   "counts": {
-    "producthunt": 15,
-    "total": 15
+    "hackernews_showhn": 16,
+    "devhunt": 0,
+    "betalist": 0,
+    "uneed": 0,
+    "total": 16
   },
   "launches": [
     {
-      "id": "ph-1104980",
-      "name": "Plurai",
-      "description": "Vibe-train evals and guardrails tailored to your use case",
-      "url": "https://www.producthunt.com/r/2SG5VACZQUBMO7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 637,
-      "_source": "producthunt"
+      "id": "showhn-47932974",
+      "name": "I wrote a DOOM clone in my own programming language",
+      "url": "https://spectrelang.org/log/devlog#cubedoom",
+      "description": "Show HN: I wrote a DOOM clone in my own programming language",
+      "upvotes": 22,
+      "launch_date": "2026-04-30",
+      "platform_url": "https://news.ycombinator.com/item?id=47932974",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
     },
     {
-      "id": "ph-1132023",
-      "name": "Open Wearables",
-      "description": "Open infrastructure for wearable-powered health products.",
-      "url": "https://www.producthunt.com/r/IUMQA6GC7RBMJ5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 561,
-      "_source": "producthunt"
+      "id": "showhn-47935246",
+      "name": "Rocky – Rust SQL engine with branches, replay, column lineage",
+      "url": "https://github.com/rocky-data/rocky",
+      "description": "Show HN: Rocky – Rust SQL engine with branches, replay, column lineage",
+      "upvotes": 118,
+      "launch_date": "2026-04-30",
+      "platform_url": "https://news.ycombinator.com/item?id=47935246",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
     },
     {
-      "id": "ph-1130700",
-      "name": "KarmaBox",
-      "description": "Run your own Claude Code in your pocket.",
-      "url": "https://www.producthunt.com/r/6GDPBUAV25E6T6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 301,
-      "_source": "producthunt"
+      "id": "showhn-47950283",
+      "name": "A new benchmark for testing LLMs for deterministic outputs",
+      "url": "https://interfaze.ai/blog/introducing-structured-output-benchmark",
+      "description": "Show HN: A new benchmark for testing LLMs for deterministic outputs",
+      "upvotes": 55,
+      "launch_date": "2026-04-30",
+      "platform_url": "https://news.ycombinator.com/item?id=47950283",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
     },
     {
-      "id": "ph-1134040",
-      "name": "Gro v2",
-      "description": "Spot signals, trigger outreach - turn posts into pipeline",
-      "url": "https://www.producthunt.com/r/GC55BQLLOYP36O?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 264,
-      "_source": "producthunt"
+      "id": "showhn-47923272",
+      "name": "Qumulator – quantum circuit simulator, 1000 qubits, no GPU",
+      "url": "https://github.com/qumulator/qumulator-sdk",
+      "description": "Show HN: Qumulator – quantum circuit simulator, 1000 qubits, no GPU",
+      "upvotes": 12,
+      "launch_date": "2026-04-30",
+      "platform_url": "https://news.ycombinator.com/item?id=47923272",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
     },
     {
-      "id": "ph-1133514",
-      "name": "Netlify Database",
-      "description": "Ship data-driven apps without breaking flow",
-      "url": "https://www.producthunt.com/r/MMUEZ3KSPUD4JN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 253,
-      "_source": "producthunt"
+      "id": "showhn-47936312",
+      "name": "Drive any macOS app in the background without stealing the cursor",
+      "url": "https://github.com/trycua/cua",
+      "description": "Show HN: Drive any macOS app in the background without stealing the cursor",
+      "upvotes": 182,
+      "launch_date": "2026-04-30",
+      "platform_url": "https://news.ycombinator.com/item?id=47936312",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
     },
     {
-      "id": "ph-1128135",
-      "name": "CodeHealth MCP Server by CodeScene",
-      "description": "Keep AI-generated code healthy and maintainable",
-      "url": "https://www.producthunt.com/r/7OEHF3AEEFZJCD?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 207,
-      "_source": "producthunt"
+      "id": "showhn-47945955",
+      "name": "Rip.so – a graveyard for dead internet things",
+      "url": "https://rip.so",
+      "description": "Show HN: Rip.so – a graveyard for dead internet things",
+      "upvotes": 175,
+      "launch_date": "2026-04-30",
+      "platform_url": "https://news.ycombinator.com/item?id=47945955",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
     },
     {
-      "id": "ph-1134646",
-      "name": "Dreambase Data Agent Skills",
-      "description": "Analytical skills for data agents running on Supabase",
-      "url": "https://www.producthunt.com/r/QWZ3YHVN4PTIGJ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 146,
-      "_source": "producthunt"
+      "id": "showhn-47934261",
+      "name": "Live Sun and Moon Dashboard with NASA Footage",
+      "url": "https://www.lumara-space.app/",
+      "description": "Show HN: Live Sun and Moon Dashboard with NASA Footage",
+      "upvotes": 214,
+      "launch_date": "2026-04-30",
+      "platform_url": "https://news.ycombinator.com/item?id=47934261",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
     },
     {
-      "id": "ph-1134390",
-      "name": "Picsart CLI ",
-      "description": "Picsart's power right from your AI chat box",
-      "url": "https://www.producthunt.com/r/UCP2XMP2ZA7D2E?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 113,
-      "_source": "producthunt"
+      "id": "showhn-47957127",
+      "name": "Agent that refuses to run commands without human approval",
+      "url": "https://github.com/few-sh/fewshell",
+      "description": "Show HN: Agent that refuses to run commands without human approval",
+      "upvotes": 10,
+      "launch_date": "2026-04-30",
+      "platform_url": "https://news.ycombinator.com/item?id=47957127",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
     },
     {
-      "id": "ph-1134459",
-      "name": "Redesign by Nodewave",
-      "description": "Free and open‑source, stop designing. Describe.",
-      "url": "https://www.producthunt.com/r/JGUVBSPLPOXK6S?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 110,
-      "_source": "producthunt"
+      "id": "showhn-47953676",
+      "name": "An attempt to grow a mind – building software with an inner life",
+      "url": "https://www.momentbymoment.app/",
+      "description": "Show HN: An attempt to grow a mind – building software with an inner life",
+      "upvotes": 11,
+      "launch_date": "2026-04-30",
+      "platform_url": "https://news.ycombinator.com/item?id=47953676",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
     },
     {
-      "id": "ph-1134816",
-      "name": "Compact Message Composer by CometChat",
-      "description": "Everything users expect from modern chat. Out of the box. ",
-      "url": "https://www.producthunt.com/r/QJDDNPEDGIUF3S?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 99,
-      "_source": "producthunt"
+      "id": "showhn-47937380",
+      "name": "Auto-Architecture: Karpathy's Loop, pointed at a CPU",
+      "url": "https://github.com/FeSens/auto-arch-tournament/blob/main/docs/auto-arch-tournament-blog-post.md",
+      "description": "Show HN: Auto-Architecture: Karpathy's Loop, pointed at a CPU",
+      "upvotes": 234,
+      "launch_date": "2026-04-30",
+      "platform_url": "https://news.ycombinator.com/item?id=47937380",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
     },
     {
-      "id": "ph-1132498",
-      "name": "Snapr",
-      "description": "Screenshot, record, annotate & edit video in one app",
-      "url": "https://www.producthunt.com/r/2J3PY2BSNS5WSJ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 97,
-      "_source": "producthunt"
+      "id": "showhn-47947369",
+      "name": "Adblock-rust Manager – Firefox extension to enable the Brave ad blocker",
+      "url": "https://github.com/electricant/adblock-rust-manager",
+      "description": "Show HN: Adblock-rust Manager – Firefox extension to enable the Brave ad blocker",
+      "upvotes": 91,
+      "launch_date": "2026-04-30",
+      "platform_url": "https://news.ycombinator.com/item?id=47947369",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
     },
     {
-      "id": "ph-1134435",
-      "name": "noirdoc",
-      "description": "PII guard for Claude Code to keep client data out of context",
-      "url": "https://www.producthunt.com/r/RRJZNPH2ZV2LYH?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 96,
-      "_source": "producthunt"
+      "id": "showhn-47948396",
+      "name": "My retired dad and I made a daily, somewhat difficult, quiz",
+      "url": "https://kviss.eu/",
+      "description": "Show HN: My retired dad and I made a daily, somewhat difficult, quiz",
+      "upvotes": 35,
+      "launch_date": "2026-04-30",
+      "platform_url": "https://news.ycombinator.com/item?id=47948396",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
     },
     {
-      "id": "ph-1134261",
-      "name": "ZenTrack",
-      "description": "Notes, money, and health. Sorted.",
-      "url": "https://www.producthunt.com/r/7UGJYLA2XUOSIW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 96,
-      "_source": "producthunt"
+      "id": "showhn-47956790",
+      "name": "SigMap – 81.1% retrieval hit 5, 96.9% token reduce,zero deps",
+      "url": "https://github.com/manojmallick/sigmap",
+      "description": "Show HN: SigMap – 81.1% retrieval hit 5, 96.9% token reduce,zero deps",
+      "upvotes": 12,
+      "launch_date": "2026-04-30",
+      "platform_url": "https://news.ycombinator.com/item?id=47956790",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
     },
     {
-      "id": "ph-1134824",
-      "name": "Plannotator",
-      "description": "Annotate any doc, URL, or folder - send feedback to agents ",
-      "url": "https://www.producthunt.com/r/FJM4K3NC2D6N6V?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 93,
-      "_source": "producthunt"
+      "id": "showhn-47920787",
+      "name": "OSS Agent I built topped the TerminalBench on Gemini-3-flash-preview",
+      "url": "https://github.com/dirac-run/dirac",
+      "description": "Show HN: OSS Agent I built topped the TerminalBench on Gemini-3-flash-preview",
+      "upvotes": 389,
+      "launch_date": "2026-04-30",
+      "platform_url": "https://news.ycombinator.com/item?id=47920787",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
     },
     {
-      "id": "ph-1134436",
-      "name": "Venture Factory AI",
-      "description": "Your full venture strategy, built in minutes.",
-      "url": "https://www.producthunt.com/r/27NTAWP62654J6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 85,
-      "_source": "producthunt"
+      "id": "showhn-47921626",
+      "name": "Utilyze – an open source GPU monitoring tool more accurate than nvtop",
+      "url": "https://www.systalyze.com/utilyze",
+      "description": "Show HN: Utilyze – an open source GPU monitoring tool more accurate than nvtop",
+      "upvotes": 124,
+      "launch_date": "2026-04-30",
+      "platform_url": "https://news.ycombinator.com/item?id=47921626",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-47949856",
+      "name": "Study Bible MCP – scholarly Greek/Hebrew lexicons and morphology",
+      "url": "https://github.com/djayatillake/studybible-mcp",
+      "description": "Show HN: Study Bible MCP – scholarly Greek/Hebrew lexicons and morphology",
+      "upvotes": 11,
+      "launch_date": "2026-04-30",
+      "platform_url": "https://news.ycombinator.com/item?id=47949856",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
     }
   ]
 }
