@@ -50,6 +50,8 @@ jobs:
         run: |
           node --input-type=module << 'SCRIPT'
           import fs from 'fs';
+          import { validateCompareTo } from './scripts/lib/validator.js';
+          import { mergeOverrides, validateSlugs } from './scripts/lib/overrides.js';
 
           // ── Helpers ────────────────────────────────────────
           function formatStars(n) {
@@ -243,6 +245,7 @@ jobs:
               try {
                 const text = await p.call();
                 console.log(`[LLM blurbs] Used ${p.name}`);
+                process.env.LAST_LLM_MODEL_USED = p.name.replace(/^nim-/, '');
                 return text;
               } catch (err) {
                 console.warn(`[LLM blurbs] ${p.name} failed: ${err.message}`);
@@ -863,6 +866,42 @@ jobs:
           }));
 
           const blurbs = await generateEditorialBlurbs(candidates, allSectioned);
+
+          // ── Compare-to validation + override + slug pruning ──
+          let compareToData = blurbs || {};
+          const generatorModel = process.env.LAST_LLM_MODEL_USED || 'unknown';
+          if (compareToData && Object.keys(compareToData).length > 0) {
+            // Adversarial cross-family validation
+            compareToData = await validateCompareTo(compareToData, generatorModel, process.env);
+
+            // Merge manual overrides (per-field; missing keys preserve LLM output)
+            let overrides = {};
+            try {
+              overrides = JSON.parse(fs.readFileSync('config/compare-to-overrides.json', 'utf8'));
+            } catch (e) {
+              console.warn('Override file unreadable, proceeding without overrides:', e.message);
+            }
+            compareToData = mergeOverrides(compareToData, overrides);
+
+            // Drop similar_to slugs that don't exist in _repos/
+            const knownSlugs = new Set();
+            if (fs.existsSync('_repos')) {
+              for (const f of fs.readdirSync('_repos')) {
+                if (f.endsWith('.md')) knownSlugs.add(f.replace(/\.md$/, ''));
+              }
+            }
+            compareToData = validateSlugs(compareToData, knownSlugs);
+
+            // Disputes log (debug artifact, not committed long-term)
+            const disputesPath = `data/compare-to-disputes-${digestDate}.json`;
+            const disputes = {};
+            for (const [k, v] of Object.entries(compareToData)) {
+              if (v.compare_to_validated === false) disputes[k] = 'unvalidated';
+            }
+            if (Object.keys(disputes).length > 0) {
+              fs.writeFileSync(disputesPath, JSON.stringify(disputes, null, 2));
+            }
+          }
 
           // ── Build Markdown ──────────────────────────────────
           const sep = '---';
