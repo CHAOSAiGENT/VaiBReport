@@ -2,13 +2,54 @@
 layout: default
 ---
 
+{%- comment -%}
+  Today's heroes: pull the latest digest, find the first 5 featured items by full_name,
+  match each to its _repos/<slug>.md entry, render via hero-card include.
+  Falls back to legacy stream when JEKYLL_ENV != compare_to_live.
+{%- endcomment -%}
+
+{%- if jekyll.environment == "compare_to_live" -%}
+  {%- assign latest_post = site.posts | first -%}
+  {%- if latest_post -%}
+    {%- assign post_body = latest_post.content -%}
+    {%- assign featured_slugs = "" -%}
+    {%- assign by_lines = post_body | split: "\n" -%}
+    {%- assign found_count = 0 -%}
+    {%- for line in by_lines -%}
+      {%- if found_count >= 5 -%}{%- break -%}{%- endif -%}
+      {%- if line contains "](http" and line contains "[" -%}
+        {%- assign name_part = line | split: "](" | first | split: "[" | last -%}
+        {%- assign slug_candidate = name_part | replace: "/", "--" | downcase | replace: " ", "" -%}
+        {%- assign matched = site.repos | where: "slug", slug_candidate | first -%}
+        {%- if matched -%}
+          {%- assign featured_slugs = featured_slugs | append: slug_candidate | append: "," -%}
+          {%- assign found_count = found_count | plus: 1 -%}
+        {%- endif -%}
+      {%- endif -%}
+    {%- endfor -%}
+
+    <div style="margin-bottom:1rem;">
+      <span class="sys-label">{{ latest_post.date | date: "%Y-%m-%d" }}</span>
+      <span style="font-size:0.7rem;color:var(--ink-muted);letter-spacing:0.06em;text-transform:uppercase;margin-left:0.5rem;">· {{ found_count }} hero picks</span>
+    </div>
+
+    {%- assign featured_arr = featured_slugs | split: "," -%}
+    {%- for slug in featured_arr -%}
+      {%- assign repo = site.repos | where: "slug", slug | first -%}
+      {%- if repo -%}
+        {%- include hero-card.html repo=repo -%}
+      {%- endif -%}
+    {%- endfor -%}
+  {%- endif -%}
+{%- else -%}
 <div style="margin-bottom:2rem;">
   <div class="sys-label" style="margin-bottom:0.75rem;">CORE_STREAM // DAILY_DIGEST</div>
   <div style="font-size:0.82rem;color:var(--ink-dim);line-height:1.6;">{{ content }}</div>
 </div>
+{%- endif -%}
 
-{% if site.posts.size > 0 %}
-<div class="panel-border">
+{%- if site.posts.size > 0 -%}
+<div class="panel-border" style="margin-top:2.5rem;">
   <div class="panel-header">
     <span class="sys-label">RECENT_DIGESTS</span>
   </div>
@@ -19,4 +60,4 @@ layout: default
   </div>
   {% endfor %}
 </div>
-{% endif %}
+{%- endif -%}
