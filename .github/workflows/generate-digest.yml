@@ -1259,7 +1259,14 @@ jobs:
           health.total_featured = featured.length + hfFeatured.length + replicateFeatured.length +
             papersFeatured.length + npmFeatured.length + pypiFeatured.length +
             gitlabFeatured.length + ollamaFeatured.length + launchesFeatured.length;
-          health.gemini_blurbs = blurbs ? Object.keys(blurbs).length : 0;
+          health.compare_to_generated = compareToData ? Object.keys(compareToData).length : 0;
+          health.compare_to_validated = compareToData
+            ? Object.values(compareToData).filter(v => v.compare_to_validated).length
+            : 0;
+          health.compare_to_disputed_pct = health.compare_to_generated > 0
+            ? Math.round(100 * (1 - health.compare_to_validated / health.compare_to_generated))
+            : 0;
+          health.gemini_blurbs = compareToData ? Object.keys(compareToData).length : 0; // legacy field
 
           fs.writeFileSync(`data/health-${digestDate}.json`, JSON.stringify(health, null, 2));
           console.log(`Health check: ${JSON.stringify(health.sources)}`);
