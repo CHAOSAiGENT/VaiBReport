@@ -163,6 +163,10 @@ function rewriteFile(item, compareEntry) {
       lines.push(`similar_to: [${(val || []).map(s => JSON.stringify(s)).join(', ')}]`);
     } else if (Array.isArray(val)) {
       lines.push(`${key}: [${val.join(', ')}]`);
+    } else if (typeof val === 'string' && val.startsWith('[') && val.endsWith(']')) {
+      // Preserve bracket-form arrays that parseFrontMatter couldn't JSON.parse
+      // (e.g., "tags: [github, design]" with unquoted bare identifiers).
+      lines.push(`${key}: ${val}`);
     } else if (typeof val === 'string') {
       lines.push(`${key}: "${val.replace(/"/g, '\\"')}"`);
     } else {
@@ -171,9 +175,15 @@ function rewriteFile(item, compareEntry) {
   }
   for (const [k, v] of Object.entries(fm)) {
     if (seen.has(k)) continue;
-    if (typeof v === 'string') lines.push(`${k}: "${v.replace(/"/g, '\\"')}"`);
-    else if (Array.isArray(v)) lines.push(`${k}: [${v.join(', ')}]`);
-    else lines.push(`${k}: ${v}`);
+    if (typeof v === 'string' && v.startsWith('[') && v.endsWith(']')) {
+      lines.push(`${k}: ${v}`);
+    } else if (typeof v === 'string') {
+      lines.push(`${k}: "${v.replace(/"/g, '\\"')}"`);
+    } else if (Array.isArray(v)) {
+      lines.push(`${k}: [${v.join(', ')}]`);
+    } else {
+      lines.push(`${k}: ${v}`);
+    }
   }
   lines.push('---', '', item.body);
   return lines.join('\n');
