@@ -14,6 +14,29 @@ export function validateSlugs(generated, knownSlugs) {
   return out;
 }
 
+const SAFE_PROTOCOLS = new Set(['http:', 'https:']);
+
+export function sanitizeUrls(generated) {
+  const out = {};
+  for (const [key, entry] of Object.entries(generated)) {
+    const cleanReplaces = (Array.isArray(entry.replaces) ? entry.replaces : []).map(r => {
+      if (!r || typeof r !== 'object') return null;
+      let safeUrl = '';
+      if (typeof r.url === 'string') {
+        try {
+          const u = new URL(r.url);
+          if (SAFE_PROTOCOLS.has(u.protocol)) safeUrl = r.url;
+        } catch {
+          safeUrl = '';
+        }
+      }
+      return { ...r, url: safeUrl };
+    }).filter(Boolean);
+    out[key] = { ...entry, replaces: cleanReplaces };
+  }
+  return out;
+}
+
 export function mergeOverrides(generated, overrides) {
   const out = {};
   for (const [key, entry] of Object.entries(generated)) {

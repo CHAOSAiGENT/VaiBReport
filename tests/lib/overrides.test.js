@@ -62,3 +62,52 @@ test('mergeOverrides ignores override entries for unknown slugs', () => {
   assert.equal(merged['bar'], undefined);
   assert.deepEqual(merged['foo'], { blurb: 'x' });
 });
+
+test('sanitizeUrls strips javascript: protocol', async () => {
+  const { sanitizeUrls } = await import('../../scripts/lib/overrides.js');
+  const input = {
+    'x': {
+      replaces: [
+        { name: 'Bad', url: 'javascript:alert(1)' },
+        { name: 'Good', url: 'https://notion.so' }
+      ]
+    }
+  };
+  const out = sanitizeUrls(input);
+  assert.equal(out['x'].replaces[0].url, '');
+  assert.equal(out['x'].replaces[1].url, 'https://notion.so');
+});
+
+test('sanitizeUrls strips data: and file: protocols', async () => {
+  const { sanitizeUrls } = await import('../../scripts/lib/overrides.js');
+  const input = {
+    'x': {
+      replaces: [
+        { name: 'A', url: 'data:text/html,<script>alert(1)</script>' },
+        { name: 'B', url: 'file:///etc/passwd' },
+        { name: 'C', url: 'http://example.com' }
+      ]
+    }
+  };
+  const out = sanitizeUrls(input);
+  assert.equal(out['x'].replaces[0].url, '');
+  assert.equal(out['x'].replaces[1].url, '');
+  assert.equal(out['x'].replaces[2].url, 'http://example.com');
+});
+
+test('sanitizeUrls handles malformed URLs gracefully', async () => {
+  const { sanitizeUrls } = await import('../../scripts/lib/overrides.js');
+  const input = {
+    'x': {
+      replaces: [
+        { name: 'A', url: 'not a url at all' },
+        { name: 'B', url: '' },
+        { name: 'C' }  // no url property
+      ]
+    }
+  };
+  const out = sanitizeUrls(input);
+  assert.equal(out['x'].replaces[0].url, '');
+  assert.equal(out['x'].replaces[1].url, '');
+  assert.equal(out['x'].replaces[2].url, '');
+});

@@ -6,7 +6,7 @@
 import fs from 'fs';
 import path from 'path';
 import { validateCompareTo } from './lib/validator.js';
-import { mergeOverrides, validateSlugs } from './lib/overrides.js';
+import { mergeOverrides, sanitizeUrls, validateSlugs } from './lib/overrides.js';
 
 const REPOS_DIR = '_repos';
 const LOG_PATH = 'data/backfill-compare-to.log';
@@ -221,6 +221,7 @@ function rewriteFile(item, compareEntry) {
     }
 
     let compareToData = await validateCompareTo(generated, generatorModel, process.env);
+    compareToData = sanitizeUrls(compareToData);
     compareToData = mergeOverrides(compareToData, overrides);
     compareToData = validateSlugs(compareToData, knownSlugs);
 

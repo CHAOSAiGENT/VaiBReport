@@ -51,7 +51,7 @@ jobs:
           node --input-type=module << 'SCRIPT'
           import fs from 'fs';
           import { validateCompareTo } from './scripts/lib/validator.js';
-          import { mergeOverrides, validateSlugs } from './scripts/lib/overrides.js';
+          import { mergeOverrides, sanitizeUrls, validateSlugs } from './scripts/lib/overrides.js';
 
           // ── Helpers ────────────────────────────────────────
           function formatStars(n) {
@@ -886,6 +886,9 @@ jobs:
           if (compareToData && Object.keys(compareToData).length > 0) {
             // Adversarial cross-family validation
             compareToData = await validateCompareTo(compareToData, generatorModel, process.env);
+
+            // Sanitize LLM-emitted URLs (drop javascript:, data:, file:, etc.)
+            compareToData = sanitizeUrls(compareToData);
 
             // Merge manual overrides (per-field; missing keys preserve LLM output)
             let overrides = {};
