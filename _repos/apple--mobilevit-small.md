@@ -3,16 +3,16 @@ layout: repo
 name: "apple/mobilevit-small"
 source: huggingface-model
 item_url: "https://huggingface.co/apple/mobilevit-small"
-description: "MobileViT small model."
+description: "Image classification model"
 category: "HuggingFace Models"
 language: ""
 stars: 0
-downloads: 2218980
-likes: 88
+downloads: 2715128
+likes: 91
 og_image: ""
 first_featured: "2026-04-17"
-last_featured: "2026-04-17"
-times_featured: 1
+last_featured: "2026-05-01"
+times_featured: 2
 streak: 0
 appearances: 0
 star_velocity: 0
@@ -20,4 +20,4 @@ tags: [huggingface, transformers, pytorch, tf, coreml, mobilevit, image-classifi
 icp_tags: ["founding-team", "pre-mvp"]
 ---
 
-MobileViT small model.
+Image classification model

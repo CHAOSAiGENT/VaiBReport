@@ -369,8 +369,8 @@
       "last_featured": "2026-04-30"
     },
     "lavita/medical-qa-shared-task-v1-toy": {
-      "times_featured": 2,
-      "last_featured": "2026-04-17"
+      "times_featured": 3,
+      "last_featured": "2026-05-01"
     },
     "AquaV/genshin-voices-separated": {
       "times_featured": 1,
@@ -393,8 +393,8 @@
       "last_featured": "2026-04-30"
     },
     "yisol/IDM-VTON": {
-      "times_featured": 2,
-      "last_featured": "2026-04-17"
+      "times_featured": 3,
+      "last_featured": "2026-05-01"
     },
     "google/vit-base-patch16-224": {
       "times_featured": 3,
@@ -489,48 +489,48 @@
       "last_featured": "2026-04-16"
     },
     "r3gm/wan2-2-fp8da-aoti-preview": {
-      "times_featured": 1,
-      "last_featured": "2026-04-17"
+      "times_featured": 2,
+      "last_featured": "2026-05-01"
     },
     "finegrain/finegrain-image-enhancer": {
-      "times_featured": 1,
-      "last_featured": "2026-04-17"
+      "times_featured": 2,
+      "last_featured": "2026-05-01"
     },
     "yanze/PuLID-FLUX": {
-      "times_featured": 1,
-      "last_featured": "2026-04-17"
+      "times_featured": 2,
+      "last_featured": "2026-05-01"
     },
     "Wan-AI/Wan2.1": {
-      "times_featured": 1,
-      "last_featured": "2026-04-17"
+      "times_featured": 2,
+      "last_featured": "2026-05-01"
     },
     "facebook/w2v-bert-2.0": {
-      "times_featured": 1,
-      "last_featured": "2026-04-17"
+      "times_featured": 2,
+      "last_featured": "2026-05-01"
     },
     "jinaai/jina-embeddings-v3": {
-      "times_featured": 1,
-      "last_featured": "2026-04-17"
+      "times_featured": 2,
+      "last_featured": "2026-05-01"
     },
     "apple/mobilevit-small": {
-      "times_featured": 1,
-      "last_featured": "2026-04-17"
+      "times_featured": 2,
+      "last_featured": "2026-05-01"
     },
     "jonatasgrosman/wav2vec2-large-xlsr-53-japanese": {
       "times_featured": 1,
       "last_featured": "2026-04-17"
     },
     "Salesforce/blip-image-captioning-base": {
-      "times_featured": 1,
-      "last_featured": "2026-04-17"
+      "times_featured": 2,
+      "last_featured": "2026-05-01"
     },
     "ryanmarten/OpenThoughts-1k-sample": {
-      "times_featured": 1,
-      "last_featured": "2026-04-17"
+      "times_featured": 2,
+      "last_featured": "2026-05-01"
     },
     "Emmyc2/psp": {
-      "times_featured": 1,
-      "last_featured": "2026-04-17"
+      "times_featured": 2,
+      "last_featured": "2026-05-01"
     },
     "Gustavosta/MagicPrompt-Stable-Diffusion": {
       "times_featured": 1,
@@ -719,6 +719,10 @@
     "HennyPr/ps2_hf2": {
       "times_featured": 1,
       "last_featured": "2026-04-30"
+    },
+    "AdamCodd/vit-base-nsfw-detector": {
+      "times_featured": 1,
+      "last_featured": "2026-05-01"
     }
   }
 }

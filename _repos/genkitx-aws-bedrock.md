@@ -3,16 +3,16 @@ layout: repo
 name: "genkitx-aws-bedrock"
 source: npm
 item_url: "https://www.npmjs.com/package/genkitx-aws-bedrock"
-description: "Genkit AI framework for AWS Bedrock APIs."
+description: "AWS Bedrock plugin"
 category: "npm Packages"
 language: ""
 stars: 0
-downloads: 10772
+downloads: 18916
 likes: 0
 og_image: ""
 first_featured: "2026-04-17"
-last_featured: "2026-04-17"
-times_featured: 1
+last_featured: "2026-05-01"
+times_featured: 2
 streak: 0
 appearances: 0
 star_velocity: 0
@@ -20,4 +20,4 @@ tags: [npm, genkit, genkit-plugin, genkit-model, aws, aws-bedrock, ai, genai, ge
 icp_tags: ["founding-team", "solopreneur"]
 ---
 
-Genkit AI framework for AWS Bedrock APIs.
+AWS Bedrock plugin

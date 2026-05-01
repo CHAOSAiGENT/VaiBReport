@@ -237,20 +237,20 @@
       "last_featured": "2026-04-30"
     },
     "xwinlm": {
-      "times_featured": 1,
-      "last_featured": "2026-04-17"
+      "times_featured": 2,
+      "last_featured": "2026-05-01"
     },
     "granite3-moe": {
-      "times_featured": 1,
-      "last_featured": "2026-04-17"
+      "times_featured": 2,
+      "last_featured": "2026-05-01"
     },
     "yarn-llama2": {
-      "times_featured": 1,
-      "last_featured": "2026-04-17"
+      "times_featured": 2,
+      "last_featured": "2026-05-01"
     },
     "orca2": {
-      "times_featured": 1,
-      "last_featured": "2026-04-17"
+      "times_featured": 2,
+      "last_featured": "2026-05-01"
     },
     "medgemma": {
       "times_featured": 1,
@@ -399,6 +399,10 @@
     "laguna-xs.2": {
       "times_featured": 1,
       "last_featured": "2026-04-30"
+    },
+    "granite4.1": {
+      "times_featured": 1,
+      "last_featured": "2026-05-01"
     }
   }
 }

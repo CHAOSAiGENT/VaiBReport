@@ -341,8 +341,8 @@
       "last_featured": "2026-04-27"
     },
     "sindresorhus/awesome": {
-      "times_featured": 2,
-      "last_featured": "2026-04-10"
+      "times_featured": 3,
+      "last_featured": "2026-05-01"
     },
     "yt-dlp/yt-dlp": {
       "times_featured": 3,
@@ -681,20 +681,20 @@
       "last_featured": "2026-04-28"
     },
     "hao-ai-lab/FastVideo": {
-      "times_featured": 2,
-      "last_featured": "2026-04-16"
+      "times_featured": 3,
+      "last_featured": "2026-05-01"
     },
     "growchief/growchief": {
-      "times_featured": 2,
-      "last_featured": "2026-04-17"
+      "times_featured": 3,
+      "last_featured": "2026-05-01"
     },
     "Robbyant/lingbot-world": {
       "times_featured": 3,
       "last_featured": "2026-04-30"
     },
     "thu-ml/SageAttention": {
-      "times_featured": 2,
-      "last_featured": "2026-04-17"
+      "times_featured": 3,
+      "last_featured": "2026-05-01"
     },
     "lukasz-madon/awesome-remote-job": {
       "times_featured": 1,
@@ -777,8 +777,8 @@
       "last_featured": "2026-04-11"
     },
     "ccxt/ccxt": {
-      "times_featured": 1,
-      "last_featured": "2026-04-12"
+      "times_featured": 2,
+      "last_featured": "2026-05-01"
     },
     "pola-rs/polars": {
       "times_featured": 1,
@@ -833,8 +833,8 @@
       "last_featured": "2026-04-14"
     },
     "schollz/croc": {
-      "times_featured": 1,
-      "last_featured": "2026-04-14"
+      "times_featured": 2,
+      "last_featured": "2026-05-01"
     },
     "taosdata/TDengine": {
       "times_featured": 1,
@@ -869,32 +869,32 @@
       "last_featured": "2026-04-16"
     },
     "akd-io/create-next-stack": {
-      "times_featured": 1,
-      "last_featured": "2026-04-17"
+      "times_featured": 2,
+      "last_featured": "2026-05-01"
     },
     "mvllow/next-pwa-template": {
-      "times_featured": 1,
-      "last_featured": "2026-04-17"
+      "times_featured": 2,
+      "last_featured": "2026-05-01"
     },
     "expo-starter/expo-local-first-template": {
-      "times_featured": 1,
-      "last_featured": "2026-04-17"
+      "times_featured": 2,
+      "last_featured": "2026-05-01"
     },
     "uni-helper/vitesse-uni-app": {
-      "times_featured": 1,
-      "last_featured": "2026-04-17"
+      "times_featured": 2,
+      "last_featured": "2026-05-01"
     },
     "un-pany/mobvue": {
-      "times_featured": 1,
-      "last_featured": "2026-04-17"
+      "times_featured": 2,
+      "last_featured": "2026-05-01"
     },
     "Kedreamix/Linly-Talker": {
-      "times_featured": 1,
-      "last_featured": "2026-04-17"
+      "times_featured": 2,
+      "last_featured": "2026-05-01"
     },
     "SamurAIGPT/AI-Youtube-Shorts-Generator": {
-      "times_featured": 1,
-      "last_featured": "2026-04-17"
+      "times_featured": 2,
+      "last_featured": "2026-05-01"
     },
     "symfony/asset": {
       "times_featured": 1,
@@ -1279,6 +1279,22 @@
     "projectdiscovery/nuclei": {
       "times_featured": 1,
       "last_featured": "2026-04-30"
+    },
+    "warpdot-dev/composio": {
+      "times_featured": 1,
+      "last_featured": "2026-05-01"
+    },
+    "withastro/astro": {
+      "times_featured": 1,
+      "last_featured": "2026-05-01"
+    },
+    "reflex-dev/reflex": {
+      "times_featured": 1,
+      "last_featured": "2026-05-01"
+    },
+    "mxrch/GHunt": {
+      "times_featured": 1,
+      "last_featured": "2026-05-01"
     }
   }
 }

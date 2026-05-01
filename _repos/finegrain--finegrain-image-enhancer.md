@@ -3,16 +3,16 @@ layout: repo
 name: "finegrain/finegrain-image-enhancer"
 source: huggingface-space
 item_url: "https://huggingface.co/spaces/finegrain/finegrain-image-enhancer"
-description: "Image enhancer and upscaler."
+description: "Image enhancer"
 category: "HuggingFace Spaces"
 language: ""
 stars: 0
 downloads: 0
-likes: 2094
+likes: 2100
 og_image: "https://huggingface.co/api/spaces/finegrain/finegrain-image-enhancer/screenshot"
 first_featured: "2026-04-17"
-last_featured: "2026-04-17"
-times_featured: 1
+last_featured: "2026-05-01"
+times_featured: 2
 streak: 0
 appearances: 0
 star_velocity: 0
@@ -20,4 +20,4 @@ tags: [huggingface, gradio, enhancer, upscaler, clarity, refiners, image-to-imag
 icp_tags: ["non-technical", "solopreneur", "entreprecurious"]
 ---
 
-Image enhancer and upscaler.
+Image enhancer
