@@ -30,7 +30,7 @@ layout: default
 
     <div style="margin-bottom:1rem;">
       <span class="sys-label">{{ latest_post.date | date: "%Y-%m-%d" }}</span>
-      <span style="font-size:0.7rem;color:var(--ink-muted);letter-spacing:0.06em;text-transform:uppercase;margin-left:0.5rem;">· {{ found_count }} hero picks</span>
+      <span style="font-size:0.7rem;color:var(--ink-muted);letter-spacing:0.06em;text-transform:uppercase;margin-left:0.5rem;">· {{ found_count }} of today's picks &middot; <a href="{{ latest_post.url | relative_url }}" style="color:var(--ink-dim);">see all</a></span>
     </div>
 
     {%- assign featured_arr = featured_slugs | split: "," -%}
