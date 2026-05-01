@@ -1,0 +1,146 @@
+{
+  "generated_at": "2026-05-01T08:53:20.154Z",
+  "source": "launches",
+  "counts": {
+    "producthunt": 17,
+    "total": 17
+  },
+  "launches": [
+    {
+      "id": "ph-1133288",
+      "name": "Hera Launch",
+      "description": "Create studio-quality launch videos with AI",
+      "url": "https://www.producthunt.com/r/QG2MGKMYCHQGUQ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 415,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1134873",
+      "name": "Wonder",
+      "description": "The AI design agent that works on your canvas",
+      "url": "https://www.producthunt.com/r/KMBHRB52QH7BFG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 265,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1129120",
+      "name": "Gemini Deep Research Agent",
+      "description": "Web and MCP research agents, now in Gemini API",
+      "url": "https://www.producthunt.com/r/NWPUJCSQEF5ED4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 212,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1133444",
+      "name": "Tabstack",
+      "description": "Extract web data and automate browsers, no scraper required.",
+      "url": "https://www.producthunt.com/r/QH3WOZ3COBXHWN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 137,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1135595",
+      "name": "File Generation in Gemini",
+      "description": "Generate production-ready files directly in your chat",
+      "url": "https://www.producthunt.com/r/CVW4SIMAWOG26F?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 134,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1130470",
+      "name": "Quarkdown",
+      "description": "Markdown wit LaTeX in a modern typesetting system",
+      "url": "https://www.producthunt.com/r/QB6RTH5OYVGS2X?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 125,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1133647",
+      "name": "Symphony",
+      "description": "An open-source spec for Codex orchestration",
+      "url": "https://www.producthunt.com/r/YEXOF3T4VVYHYX?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 119,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1135073",
+      "name": "Invite Only",
+      "description": "The event invite that actually gets people to show up",
+      "url": "https://www.producthunt.com/r/SJ7XHAL6VV2LOG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 116,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1135305",
+      "name": "Mistral Medium 3.5",
+      "description": "A 128B model for coding, reasoning, and long tasks",
+      "url": "https://www.producthunt.com/r/IIUFNY2TSPG4ED?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 116,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1083510",
+      "name": "Rova AI",
+      "description": "Autonomous, goal-driven testing for web & mobile apps",
+      "url": "https://www.producthunt.com/r/QC4NXK7LQEK62P?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 110,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1135601",
+      "name": "Basedash Dashboard Agent",
+      "description": "Builds entire dashboards from a single prompt",
+      "url": "https://www.producthunt.com/r/4T3543LN4TDKGP?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 102,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1134986",
+      "name": "Adoptly",
+      "description": "Turn product releases into feature adoption",
+      "url": "https://www.producthunt.com/r/BJLWKL6AYAVRAP?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 102,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1134594",
+      "name": "Tinfoil",
+      "description": "AI chat and API that keeps your conversations fully private",
+      "url": "https://www.producthunt.com/r/PH6LF2UQNYWZ2J?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 101,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1135645",
+      "name": "SuperMind",
+      "description": "Business that Runs Itself ",
+      "url": "https://www.producthunt.com/r/RJFVC5ZGKP4W4C?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 99,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1135225",
+      "name": "ElevenMusic",
+      "description": "AI-assisted music creation with built-in discovery, royalty",
+      "url": "https://www.producthunt.com/r/Y5N7DKK2MB7ZCH?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 99,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1135620",
+      "name": "Docky",
+      "description": "Pin, group, and remove apps easily from your dock",
+      "url": "https://www.producthunt.com/r/3XZF35QV3FUJGZ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 97,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1135434",
+      "name": "KushoAI for Playwright",
+      "description": "Open-source Terminal UI, just record & get exhaustive tests",
+      "url": "https://www.producthunt.com/r/TFUNZNSQ7KYM36?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 94,
+      "_source": "producthunt"
+    }
+  ]
+}
