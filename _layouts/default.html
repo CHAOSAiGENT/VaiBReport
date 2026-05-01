@@ -29,6 +29,8 @@
       --border-hot: #e0e4ef;
       --font-mono:  'Space Mono', 'Courier New', monospace;
       --font-disp:  'Impact', 'Arial Black', sans-serif;
+      --gap-loose: 1.5rem;
+      --gap-tight: 0.75rem;
     }
 
     /* ─── LIGHT / ACCESSIBLE THEME (WCAG AA) ────────────────────── */
@@ -133,8 +135,8 @@
       background-color: var(--bg);
       color: var(--ink);
       font-family: var(--font-mono);
-      font-size: 14px;
-      line-height: 1.7;
+      font-size: 15.5px;
+      line-height: 1.8;
       min-height: 100vh;
       /* subtle dot grid */
       background-image: radial-gradient(circle, #2a2d3a 1px, transparent 1px);
@@ -249,9 +251,9 @@
 
     /* ─── PAGE WRAPPER ──────────────────────────────────────────── */
     .page-content {
-      max-width: 1100px;
+      max-width: 1180px;
       margin: 0 auto;
-      padding: 2rem 1.5rem 4rem;
+      padding: 2.75rem 1.5rem 4rem;
     }
 
     /* ─── FOOTER ────────────────────────────────────────────────── */
@@ -427,7 +429,7 @@
     .prose h1 { font-family: var(--font-disp); letter-spacing: 0.06em; text-transform: uppercase; font-size: 1.6rem; margin-bottom: 0.5rem; font-weight: 400; }
     .prose h2 { font-family: var(--font-disp); letter-spacing: 0.06em; text-transform: uppercase; font-size: 1.1rem; margin: 2rem 0 0.75rem; font-weight: 400; color: var(--ink-dim); border-bottom: 1px solid var(--border); padding-bottom: 0.4rem; }
     .prose h3 { font-size: 0.8rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-dim); margin: 1.25rem 0 0.5rem; }
-    .prose p  { margin-bottom: 1rem; color: var(--ink); line-height: 1.75; }
+    .prose p  { margin-bottom: 1.25rem; color: var(--ink); line-height: 1.85; }
     .prose ul, .prose ol { margin: 0.5rem 0 1rem 1.5rem; color: var(--ink); }
     .prose li { margin-bottom: 0.3rem; }
     .prose a  { color: var(--ink); }
@@ -774,7 +776,7 @@
     @media (max-width: 640px) {
       .header-inner { height: auto; padding: 0.75rem 0; flex-direction: column; align-items: flex-start; }
       .site-nav { gap: 0.1rem; }
-      .page-content { padding: 1.25rem 1rem 3rem; }
+      .page-content { padding: 1.75rem 1rem 3rem; }
       .footer-inner { flex-direction: column; align-items: flex-start; }
     }
   </style>
