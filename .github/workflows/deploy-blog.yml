@@ -32,6 +32,8 @@ jobs:
         with:
           source: ./
           destination: ./_site
+        env:
+          JEKYLL_ENV: compare_to_live
       - uses: actions/upload-pages-artifact@v3
 
   deploy:
