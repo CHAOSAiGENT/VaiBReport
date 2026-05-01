@@ -263,6 +263,13 @@ permalink: /repos/
     <span class="chip" data-filter="icp" data-value="entreprecurious">Entreprecurious</span>
     <span class="chip" data-filter="icp" data-value="non-technical">Non-technical</span>
   </div>
+{%- if jekyll.environment == "compare_to_live" -%}
+  <div class="catalog-row">
+    <label>Replaces:</label>
+    <span class="chip active" data-filter="replaces" data-value="all">All</span>
+    <span id="replacesChips" style="display:contents;"></span>
+  </div>
+{%- endif -%}
 </div>
 
 <div class="result-count" id="resultCount"></div>
@@ -290,6 +297,7 @@ const repoData = [
     appearances: {{ repo.appearances | default: 0 }},
     tags: {{ repo.tags | jsonify }},
     icp_tags: {{ repo.icp_tags | jsonify }},
+    replaces: {{ repo.replaces | default: empty | jsonify }},
     page_url: "{{ repo.url }}"
   }{% unless forloop.last %},{% endunless %}
   {% endfor %}
@@ -312,6 +320,7 @@ const sourceIcons = {
 let activeSource = 'all';
 let activeCategory = 'all';
 let activeIcp = 'all';
+let activeReplaces = 'all';
 let searchQuery = '';
 let sortBy = 'last_featured';
 
@@ -342,6 +351,10 @@ function renderCards() {
     if (!matchesSource(item, activeSource)) return false;
     if (activeCategory !== 'all' && item.category !== activeCategory) return false;
     if (activeIcp !== 'all' && !(item.icp_tags || []).includes(activeIcp)) return false;
+    if (activeReplaces !== 'all') {
+      const names = (item.replaces || []).map(r => r.name);
+      if (!names.includes(activeReplaces)) return false;
+    }
     if (searchQuery && !getSearchText(item).includes(searchQuery)) return false;
     return true;
   });
@@ -413,6 +426,44 @@ document.querySelectorAll('.chip').forEach(chip => {
     renderCards();
   });
 });
+
+{% if jekyll.environment == "compare_to_live" %}
+// Compute top-12 replaces names client-side from repoData.
+// Use safe DOM APIs (no innerHTML) since names come from LLM output.
+const nameCounts = new Map();
+for (const item of repoData) {
+  for (const r of (item.replaces || [])) {
+    nameCounts.set(r.name, (nameCounts.get(r.name) || 0) + 1);
+  }
+}
+const top12 = [...nameCounts.entries()].sort((a, b) => b[1] - a[1]).slice(0, 12);
+const chipContainer = document.getElementById('replacesChips');
+if (chipContainer) {
+  for (const [name] of top12) {
+    const chip = document.createElement('span');
+    chip.className = 'chip';
+    chip.dataset.filter = 'replaces';
+    chip.dataset.value = name;
+    chip.textContent = name;
+    chip.addEventListener('click', function() {
+      activeReplaces = this.dataset.value;
+      document.querySelectorAll('.chip[data-filter="replaces"]').forEach(c => c.classList.remove('active'));
+      this.classList.add('active');
+      renderCards();
+    });
+    chipContainer.appendChild(chip);
+  }
+  const allChip = document.querySelector('.chip[data-filter="replaces"][data-value="all"]');
+  if (allChip) {
+    allChip.addEventListener('click', function() {
+      activeReplaces = 'all';
+      document.querySelectorAll('.chip[data-filter="replaces"]').forEach(c => c.classList.remove('active'));
+      this.classList.add('active');
+      renderCards();
+    });
+  }
+}
+{% endif %}
 
 renderCards();
 </script>
