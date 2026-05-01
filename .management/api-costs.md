@@ -10,7 +10,7 @@
 | Service | Usage | Cost |
 |---|---|---|
 | **Local Qwen3-14B (LiteLLM)** | Primary blurb generator when theStudio reachable via Tailscale | Free (self-hosted) |
-| **NVIDIA NIM (preview)** | Tier 2 — 5 models in rotation: Llama 3.3 70B, Nemotron 70B, Mixtral 8x22B, Qwen 2.5 72B, Llama 3.1 405B | Free (preview tier) |
+| **NVIDIA NIM (preview)** | Tier 2 — 5 models in rotation for blurbs + adversarial validator on compare-to data | Free (preview tier) |
 | **Gemini 2.5 Flash** | Tier 3 fallback for editorial blurbs | Free tier (250 RPD limit — well under) |
 | **OpenRouter (Llama 3.3 70B free)** | Tier 4 fallback | Free |
 | **Groq (Llama 3.3 70B versatile)** | Tier 5 fallback | Free tier |

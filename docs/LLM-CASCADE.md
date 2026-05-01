@@ -27,6 +27,14 @@ Pre-flight check (`generate-digest.yml`, `Check local LLM availability` step) pi
 
 Inside `tryCascadeBlurb()`, providers are conditionally pushed onto a list based on which env vars are present, then iterated in a `for` loop with `try/catch`. The first one that returns text wins; any failure logs `[LLM blurbs] {name} failed: {err}` and continues. If all are exhausted, throws `'All LLM providers exhausted for blurbs'`, which the outer code catches and falls back to using each repo's raw description as the blurb (template fallback — degraded but never fatal).
 
+## Adversarial validator pass
+
+After the cascade returns generator output for `replaces` and `similar_to` fields, a second LLM call validates the output. The validator is a NIM model from a different family than the generator (cross-family pairing rules in `scripts/lib/validator.js:pickValidatorModel`). The prompt is adversarial — it asks the validator to find what's wrong, not to confirm correctness, which empirically produces stricter output than consultative framing.
+
+Drop-on-disagreement is the default merge rule: entries the validator drops do not ship. The 10-15% recall loss is mitigated by `config/compare-to-overrides.json` for cases where you want to manually restore a correct entry.
+
+If the validator call itself fails (rate limit, parse error), all entries ship with `compare_to_validated: false` and the UI hides them. Degraded mode, never blocks the digest.
+
 ## Integrations (the data side, not the LLM side)
 
 | Source | Workflow | Output | Auth |
