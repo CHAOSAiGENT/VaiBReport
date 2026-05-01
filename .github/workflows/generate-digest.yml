@@ -275,23 +275,48 @@ jobs:
             }
 
             const prompt = [
-              'You are writing one-liner editorial blurbs for a daily digest blog called VaiBReport. The audience is solo founders, AI/B2B SaaS builders, small business owners, and content creators.',
+              'You are writing editorial copy for a daily digest blog called VaiBReport. The audience is solo founders, AI/B2B SaaS builders, small business owners, and content creators.',
               '',
               'Voice: casual, dry humor, opinionated. You are a fellow builder who has seen a lot of tools and knows what actually matters. Think "the friend who texts you \'hey check this out\' with actually good stuff." Each blurb is ONE sentence, max 20 words. No fluff. No hype words (no "revolutionary", "game-changing", "incredible", "powerful"). Say what it does and why a builder would care.',
               '',
-              'Write a blurb for each item below. Return ONLY valid JSON mapping each identifier to its blurb. No markdown, no explanation, no trailing commas.',
+              'For each item below, return THREE fields:',
+              '1. blurb: one editorial sentence as described above.',
+              '2. replaces: an array of up to 5 real, currently-active commercial products this open-source item could plausibly substitute for. Each entry has {name, url, note}. note is <=60 chars and optional. If you do not know real products with confidence, return []. DO NOT INVENT product names.',
+              '3. similar_to: an array of up to 4 slugs of similar items elsewhere in the VaiBReport catalog. Slugs use the format "owner--repo" (double-dash). If unsure, return []. DO NOT INVENT slugs.',
+              '',
+              'Return ONLY valid JSON. No markdown, no explanation, no trailing commas.',
               '',
               repoList,
               '',
-              'Return format: {"owner/repo": "One-liner blurb here.", ...}'
+              'Return format:',
+              '{',
+              '  "owner/repo": {',
+              '    "blurb": "One-liner blurb here.",',
+              '    "replaces": [{"name": "Notion", "url": "https://www.notion.so", "note": "knowledge base"}],',
+              '    "similar_to": ["calcom--calcom", "agent-browser"]',
+              '  }',
+              '}'
             ].join('\n');
 
             try {
               const text = await tryCascadeBlurb(prompt);
               const cleaned = text.replace(/```json\n?/g, '').replace(/```\n?/g, '').trim();
-              const blurbs = JSON.parse(cleaned);
-              console.log(`Got ${Object.keys(blurbs).length} editorial blurbs`);
-              return blurbs;
+              const raw = JSON.parse(cleaned);
+              // Normalize: tolerate either flat-string (legacy) or nested-object shape.
+              const normalized = {};
+              for (const [key, val] of Object.entries(raw)) {
+                if (typeof val === 'string') {
+                  normalized[key] = { blurb: val, replaces: [], similar_to: [] };
+                } else if (val && typeof val === 'object') {
+                  normalized[key] = {
+                    blurb: val.blurb || '',
+                    replaces: Array.isArray(val.replaces) ? val.replaces.slice(0, 5) : [],
+                    similar_to: Array.isArray(val.similar_to) ? val.similar_to.slice(0, 4) : [],
+                  };
+                }
+              }
+              console.log(`Got ${Object.keys(normalized).length} editorial entries (with compare-to)`);
+              return normalized;
             } catch (e) {
               console.error('LLM blurb generation failed:', e.message);
               return null;
@@ -301,8 +326,8 @@ jobs:
           function writeOneLiner(repo, blurbs) {
             const lang = repo.language || 'Multi';
             const stars = formatStars(repo.stargazers_count);
-            const blurb = (blurbs && blurbs[repo.full_name])
-              ? blurbs[repo.full_name]
+            const blurb = (blurbs && blurbs[repo.full_name]?.blurb)
+              ? blurbs[repo.full_name].blurb
               : (repo.description || 'No description provided.');
             return `- [${repo.full_name}](${repo.html_url}) – ${blurb} (${lang}, ${stars})`;
           }
@@ -381,7 +406,7 @@ jobs:
             if (!slug) return null;
 
             const filePath = `_repos/${slug}.md`;
-            const blurb = (blurbs && blurbs[id]) || item.description || item.name || id;
+            const blurb = (blurbs && blurbs[id]?.blurb) || item.description || item.name || id;
             const safeBlurb = blurb.replace(/"/g, '\\"');
             const safeName = (item.name || item.full_name || id).replace(/"/g, '\\"');
 
@@ -911,8 +936,8 @@ jobs:
               const velocityNote = (h && h.star_velocity > 0) ? ` ⚡${h.star_velocity}★/day` : '';
               const lang = r.language || 'Multi';
               const stars = formatStars(r.stargazers_count);
-              const blurb = (blurbs && blurbs[r.full_name])
-                ? blurbs[r.full_name]
+              const blurb = (blurbs && blurbs[r.full_name]?.blurb)
+                ? blurbs[r.full_name].blurb
                 : (r.description || 'No description provided.');
               md += `- [${r.full_name}](${r.html_url}) – ${blurb} (${lang}, ${stars}${velocityNote})\n\n`;
               featured.push(r.full_name);
@@ -925,8 +950,8 @@ jobs:
               const lang = r.language || 'Multi';
               const h = hotness[r.full_name];
               const velocityNote = (h && h.star_velocity > 0) ? ` ⚡${h.star_velocity}★/day` : '';
-              const blurb = (blurbs && blurbs[r.full_name])
-                ? blurbs[r.full_name]
+              const blurb = (blurbs && blurbs[r.full_name]?.blurb)
+                ? blurbs[r.full_name].blurb
                 : (r.description || '').slice(0, 60);
               md += `- [${r.full_name}](${r.html_url}) – ${blurb} (${lang}, ${formatStars(r.stargazers_count)}${velocityNote})\n`;
               featured.push(r.full_name);
@@ -939,7 +964,7 @@ jobs:
           if (gitlabRepos.length > 0) {
             md += `## GitLab Repos\n\n`;
             for (const r of gitlabRepos) {
-              const blurb = (blurbs && blurbs[r.full_name]) ? blurbs[r.full_name] : (r.description || r.full_name);
+              const blurb = (blurbs && blurbs[r.full_name]?.blurb) ? blurbs[r.full_name].blurb : (r.description || r.full_name);
               md += `- [${r.full_name}](${r.url}) – ${blurb} (${r.language || 'Multi'}, ${formatStars(r.star_count || 0)})\n\n`;
               gitlabFeatured.push(r.id);
             }
@@ -950,7 +975,7 @@ jobs:
           if (papers.length > 0) {
             md += `## Papers to Code\n\n`;
             for (const p of papers) {
-              const blurb = (blurbs && blurbs[p.id]) ? blurbs[p.id] : (p.title || p.id);
+              const blurb = (blurbs && blurbs[p.id]?.blurb) ? blurbs[p.id].blurb : (p.title || p.id);
               md += `- [${p.title}](${p.url}) – ${blurb} ([code](${p.github_url}), ${formatStars(p.github_stars || 0)})\n\n`;
               papersFeatured.push(p.id);
             }
@@ -961,7 +986,7 @@ jobs:
           if (replicateModels.length > 0) {
             md += `## Replicate Models\n\n`;
             for (const m of replicateModels) {
-              const blurb = (blurbs && blurbs[m.id]) ? blurbs[m.id] : (m.description || m.id);
+              const blurb = (blurbs && blurbs[m.id]?.blurb) ? blurbs[m.id].blurb : (m.description || m.id);
               const runs = m.run_count ? `${formatDownloads(m.run_count)} runs` : '';
               md += `- [${m.id}](${m.url}) – ${blurb}${runs ? ` (${runs})` : ''}\n\n`;
               replicateFeatured.push(m.id);
@@ -973,7 +998,7 @@ jobs:
           if (ollamaModels.length > 0) {
             md += `## Ollama Models\n\n`;
             for (const m of ollamaModels) {
-              const blurb = (blurbs && blurbs[m.id]) ? blurbs[m.id] : (m.description || m.id);
+              const blurb = (blurbs && blurbs[m.id]?.blurb) ? blurbs[m.id].blurb : (m.description || m.id);
               const pulls = m.pull_count ? `${m.pull_count} pulls` : '';
               md += `- [${m.id}](${m.url}) – ${blurb}${pulls ? ` (${pulls})` : ''}\n\n`;
               ollamaFeatured.push(m.id);
@@ -985,7 +1010,7 @@ jobs:
           if (npmPkgs.length > 0) {
             md += `## npm Packages\n\n`;
             for (const p of npmPkgs) {
-              const blurb = (blurbs && blurbs[p.id]) ? blurbs[p.id] : (p.description || p.id);
+              const blurb = (blurbs && blurbs[p.id]?.blurb) ? blurbs[p.id].blurb : (p.description || p.id);
               md += `- [${p.id}](${p.url}) – ${blurb} (${formatDownloads(p.weekly_downloads || 0)}/wk)\n\n`;
               npmFeatured.push(`npm-${p.id}`);
             }
@@ -996,7 +1021,7 @@ jobs:
           if (pypiPkgs.length > 0) {
             md += `## PyPI Packages\n\n`;
             for (const p of pypiPkgs) {
-              const blurb = (blurbs && blurbs[p.id]) ? blurbs[p.id] : (p.description || p.id);
+              const blurb = (blurbs && blurbs[p.id]?.blurb) ? blurbs[p.id].blurb : (p.description || p.id);
               md += `- [${p.id}](${p.url}) – ${blurb} (${formatDownloads(p.recent_downloads || 0)} recent downloads)\n\n`;
               pypiFeatured.push(`pypi-${p.id}`);
             }
@@ -1008,7 +1033,7 @@ jobs:
           if (hfSpaces.length > 0) {
             md += `## HuggingFace Spaces\n\n`;
             for (const s of hfSpaces) {
-              const blurb = (blurbs && blurbs[s.id]) ? blurbs[s.id] : (s.description || s.id);
+              const blurb = (blurbs && blurbs[s.id]?.blurb) ? blurbs[s.id].blurb : (s.description || s.id);
               md += `- [${s.id}](${s.url}) – ${blurb} (${s.sdk || 'Space'}, ${s.likes} likes)\n\n`;
               hfFeatured.push(s.id);
             }
@@ -1017,7 +1042,7 @@ jobs:
           if (hfModels.length > 0) {
             md += `## HuggingFace Models\n\n`;
             for (const m of hfModels) {
-              const blurb = (blurbs && blurbs[m.id]) ? blurbs[m.id] : (m.description || m.id);
+              const blurb = (blurbs && blurbs[m.id]?.blurb) ? blurbs[m.id].blurb : (m.description || m.id);
               md += `- [${m.id}](${m.url}) – ${blurb} (${m.pipeline_tag}, ${formatDownloads(m.downloads)} downloads)\n\n`;
               hfFeatured.push(m.id);
             }
@@ -1026,7 +1051,7 @@ jobs:
           if (hfDatasets.length > 0) {
             md += `## HuggingFace Datasets\n\n`;
             for (const d of hfDatasets) {
-              const blurb = (blurbs && blurbs[d.id]) ? blurbs[d.id] : (d.description || d.id);
+              const blurb = (blurbs && blurbs[d.id]?.blurb) ? blurbs[d.id].blurb : (d.description || d.id);
               md += `- [${d.id}](${d.url}) – ${blurb} (${formatDownloads(d.downloads)} downloads)\n\n`;
               hfFeatured.push(d.id);
             }
@@ -1037,7 +1062,7 @@ jobs:
           if (launches.length > 0) {
             md += `## New Launches\n\n`;
             for (const l of launches) {
-              const blurb = (blurbs && blurbs[l.id]) ? blurbs[l.id] : (l.description || l.name);
+              const blurb = (blurbs && blurbs[l.id]?.blurb) ? blurbs[l.id].blurb : (l.description || l.name);
               const votes = l.upvotes ? ` (${l.upvotes} upvotes)` : '';
               const src = l._source ? ` [${l._source}]` : '';
               md += `- [${l.name}](${l.url}) – ${blurb}${votes}${src}\n\n`;
