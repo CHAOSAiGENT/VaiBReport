@@ -1,0 +1,51 @@
+{%- comment -%}
+  Renders one homepage hero card.
+  Inputs: include.repo (a _repos/<slug>.md page object).
+{%- endcomment -%}
+
+{%- assign source_color_map = "github:6e7681,huggingface-space:f5a623,huggingface-model:f5a623,huggingface-dataset:f5a623,replicate:3b82f6,gitlab:e24329,npm:cb3837,pypi:3572a5,ollama:22c55e,paperswithcode:14b8a6,launch:8b5cf6" -%}
+{%- assign source_pairs = source_color_map | split: "," -%}
+{%- assign stripe_color = "6e7681" -%}
+{%- for pair in source_pairs -%}
+  {%- assign kv = pair | split: ":" -%}
+  {%- if kv[0] == include.repo.source -%}
+    {%- assign stripe_color = kv[1] -%}
+  {%- endif -%}
+{%- endfor -%}
+
+<a class="hero-card" href="{{ include.repo.url | relative_url }}">
+  <span class="hero-card-source-stripe" style="background:#{{ stripe_color }};"></span>
+  {%- if include.repo.og_image and include.repo.og_image != "" -%}
+    <img class="hero-card-thumb" src="{{ include.repo.og_image }}" alt="{{ include.repo.name }}" loading="lazy">
+  {%- else -%}
+    <div class="hero-card-thumb"></div>
+  {%- endif -%}
+  <div class="hero-card-body">
+    <h3 class="hero-card-title">{{ include.repo.name }}</h3>
+    <p class="hero-card-blurb">{{ include.repo.description }}</p>
+
+    {%- if include.repo.compare_to_validated and include.repo.replaces.size > 0 -%}
+    <div class="hero-card-chip-strip">
+      <span class="hero-card-chip-strip-label">Replaces:</span>
+      {%- for r in include.repo.replaces limit:5 -%}
+        {%- if r.url and r.url != "" -%}
+          <a class="hero-card-chip" href="{{ r.url }}" target="_blank" rel="noopener">{{ r.name }}</a>
+        {%- else -%}
+          <span class="hero-card-chip">{{ r.name }}</span>
+        {%- endif -%}
+      {%- endfor -%}
+    </div>
+    {%- endif -%}
+
+    {%- if include.repo.compare_to_validated and include.repo.similar_to.size > 0 -%}
+    <div class="hero-card-chip-strip">
+      <span class="hero-card-chip-strip-label">Similar:</span>
+      {%- for slug in include.repo.similar_to limit:4 -%}
+        <a class="hero-card-chip" href="{{ '/repos/' | relative_url }}{{ slug }}/">{{ slug | replace: '--', '/' }}</a>
+      {%- endfor -%}
+    </div>
+    {%- endif -%}
+
+    <span class="hero-card-source-badge">{{ include.repo.source | replace: '-', ' ' }}</span>
+  </div>
+</a>
