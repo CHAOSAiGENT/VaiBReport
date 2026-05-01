@@ -32,13 +32,20 @@ export function pickValidatorModel(generatorModel) {
       ? 'mistralai/mixtral-8x22b-instruct-v0.1'
       : 'meta/llama-3.3-70b-instruct';
   }
+  if (generatorModel.startsWith('openrouter-') || generatorModel.startsWith('groq-')) {
+    // Both wrap Llama variants under provider-prefixed names. Pair with
+    // a non-Llama validator to preserve cross-family guarantee.
+    return Math.random() < 0.5
+      ? 'mistralai/mixtral-8x22b-instruct-v0.1'
+      : 'qwen/qwen2.5-72b-instruct';
+  }
   if (generatorModel.startsWith('gemini') ||
       generatorModel.includes('llama-3.3-70b-instruct:free') ||
       generatorModel.includes('llama-3.3-70b-versatile') ||
       generatorModel.startsWith('claude-')) {
     return NIM_MODELS[Math.floor(Math.random() * NIM_MODELS.length)];
   }
-  return NIM_MODELS[0];
+  return NIM_MODELS[0]; // safe default for unknown generators
 }
 
 export async function validateCompareTo(generated, generatorModel, env) {

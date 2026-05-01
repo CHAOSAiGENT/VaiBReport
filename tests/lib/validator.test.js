@@ -44,3 +44,15 @@ test('Unknown generator routes to first NIM model as safe default', () => {
   const v = pickValidatorModel('something-weird');
   assert.equal(v, 'meta/llama-3.3-70b-instruct');
 });
+
+test('OpenRouter Llama generator routes to non-Llama validator', () => {
+  const v = pickValidatorModel('openrouter-llama-70b');
+  assert.ok(['mistralai/mixtral-8x22b-instruct-v0.1', 'qwen/qwen2.5-72b-instruct'].includes(v),
+    `expected mixtral or qwen, got ${v}`);
+});
+
+test('Groq Llama generator routes to non-Llama validator', () => {
+  const v = pickValidatorModel('groq-llama-70b');
+  assert.ok(['mistralai/mixtral-8x22b-instruct-v0.1', 'qwen/qwen2.5-72b-instruct'].includes(v),
+    `expected mixtral or qwen, got ${v}`);
+});
