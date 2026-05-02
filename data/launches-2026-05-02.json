@@ -1,0 +1,106 @@
+{
+  "generated_at": "2026-05-02T08:17:09.270Z",
+  "source": "launches",
+  "counts": {
+    "producthunt": 12,
+    "total": 12
+  },
+  "launches": [
+    {
+      "id": "ph-1136118",
+      "name": "Zed 1.0",
+      "description": "High-performance, open source, multiplayer code editor",
+      "url": "https://www.producthunt.com/r/UKEMMK6DO2KIXA?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 283,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1135821",
+      "name": "Marx Finance",
+      "description": "AI agents debate the markets",
+      "url": "https://www.producthunt.com/r/V3HUDGNGZAOJTB?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 211,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1133814",
+      "name": "Buda",
+      "description": "Recruit agents to run your company as a synchronous team",
+      "url": "https://www.producthunt.com/r/4NVMGG5SCQ5ZVV?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 174,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1136086",
+      "name": "Montage",
+      "description": "The runtime framework for agentic user interfaces!",
+      "url": "https://www.producthunt.com/r/6YTFEAZUOI22TA?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 120,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1118981",
+      "name": "Genspark for Word",
+      "description": "Draft, edit, and research inside Microsoft Word with AI",
+      "url": "https://www.producthunt.com/r/35BCYQL2UDAT4Q?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 103,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1103214",
+      "name": "TrafficClaw",
+      "description": "Have a conversation with your SEO & analytics data ",
+      "url": "https://www.producthunt.com/r/VDFT63AW2TZB4L?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 99,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1136089",
+      "name": "Ghosted",
+      "description": "Pause media or lock your screen when you step away",
+      "url": "https://www.producthunt.com/r/5TL5NHLZOUOOPL?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 98,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1136133",
+      "name": "Beauty Diagram",
+      "description": "Diagrams that don't look like they were auto-generated",
+      "url": "https://www.producthunt.com/r/HURDV7C5IQFAEF?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 90,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1135846",
+      "name": "nudge",
+      "description": "Drop your tasks. AI auto-schedules your whole week.",
+      "url": "https://www.producthunt.com/r/ZGGWMSQTK6JDD4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 88,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1136527",
+      "name": "PeekFocus",
+      "description": "One keystroke blurs everything behind your active window",
+      "url": "https://www.producthunt.com/r/FK5ZSOGWDJQD3C?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 78,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1136364",
+      "name": "LaunchCut",
+      "description": "Interactive iOS Demo Builder",
+      "url": "https://www.producthunt.com/r/CELK4L5VUXBVFL?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 77,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1135006",
+      "name": "AnyDrop",
+      "description": "AirDrop for the browser: share files, chat and sync notes",
+      "url": "https://www.producthunt.com/r/EDVDHEBFCELQPK?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 76,
+      "_source": "producthunt"
+    }
+  ]
+}
