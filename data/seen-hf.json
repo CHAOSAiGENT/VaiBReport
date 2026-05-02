@@ -421,8 +421,8 @@
       "last_featured": "2026-03-30"
     },
     "Maynor996/upload2": {
-      "times_featured": 2,
-      "last_featured": "2026-04-18"
+      "times_featured": 3,
+      "last_featured": "2026-05-02"
     },
     "HuggingFaceFW/finephrase": {
       "times_featured": 2,
@@ -533,52 +533,52 @@
       "last_featured": "2026-05-01"
     },
     "Gustavosta/MagicPrompt-Stable-Diffusion": {
-      "times_featured": 1,
-      "last_featured": "2026-04-18"
+      "times_featured": 2,
+      "last_featured": "2026-05-02"
     },
     "google/sdxl": {
-      "times_featured": 1,
-      "last_featured": "2026-04-18"
+      "times_featured": 2,
+      "last_featured": "2026-05-02"
     },
     "deepseek-ai/Janus-Pro-7B": {
-      "times_featured": 1,
-      "last_featured": "2026-04-18"
+      "times_featured": 2,
+      "last_featured": "2026-05-02"
     },
     "multimodalart/stable-video-diffusion": {
-      "times_featured": 1,
-      "last_featured": "2026-04-18"
+      "times_featured": 2,
+      "last_featured": "2026-05-02"
     },
     "stabilityai/stable-diffusion-3.5-large": {
-      "times_featured": 1,
-      "last_featured": "2026-04-18"
+      "times_featured": 2,
+      "last_featured": "2026-05-02"
     },
     "pyannote/speaker-diarization-community-1": {
-      "times_featured": 1,
-      "last_featured": "2026-04-18"
+      "times_featured": 2,
+      "last_featured": "2026-05-02"
     },
     "facebook/mms-1b-all": {
       "times_featured": 1,
       "last_featured": "2026-04-18"
     },
     "stabilityai/stable-diffusion-xl-base-1.0": {
-      "times_featured": 1,
-      "last_featured": "2026-04-18"
+      "times_featured": 2,
+      "last_featured": "2026-05-02"
     },
     "openai/whisper-small": {
-      "times_featured": 1,
-      "last_featured": "2026-04-18"
+      "times_featured": 2,
+      "last_featured": "2026-05-02"
     },
     "Qwen/Qwen3-Embedding-4B": {
-      "times_featured": 1,
-      "last_featured": "2026-04-18"
+      "times_featured": 2,
+      "last_featured": "2026-05-02"
     },
     "rtrm/debug": {
       "times_featured": 1,
       "last_featured": "2026-04-18"
     },
     "cais/mmlu": {
-      "times_featured": 1,
-      "last_featured": "2026-04-18"
+      "times_featured": 2,
+      "last_featured": "2026-05-02"
     },
     "pyannote/voice-activity-detection": {
       "times_featured": 1,
@@ -723,6 +723,14 @@
     "AdamCodd/vit-base-nsfw-detector": {
       "times_featured": 1,
       "last_featured": "2026-05-01"
+    },
+    "Xenova/multilingual-e5-small": {
+      "times_featured": 1,
+      "last_featured": "2026-05-02"
+    },
+    "fhswf/dgs-pose": {
+      "times_featured": 1,
+      "last_featured": "2026-05-02"
     }
   }
 }

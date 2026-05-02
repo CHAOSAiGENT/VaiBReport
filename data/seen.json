@@ -897,8 +897,8 @@
       "last_featured": "2026-05-01"
     },
     "symfony/asset": {
-      "times_featured": 1,
-      "last_featured": "2026-04-17"
+      "times_featured": 2,
+      "last_featured": "2026-05-02"
     },
     "jgraph/drawio-desktop": {
       "times_featured": 1,
@@ -913,48 +913,48 @@
       "last_featured": "2026-04-17"
     },
     "thisismydesign/next-nest": {
-      "times_featured": 1,
-      "last_featured": "2026-04-18"
+      "times_featured": 2,
+      "last_featured": "2026-05-02"
     },
     "mantinedev/next-pages-template": {
-      "times_featured": 1,
-      "last_featured": "2026-04-18"
+      "times_featured": 2,
+      "last_featured": "2026-05-02"
     },
     "pjborowiecki/saasyland.com": {
-      "times_featured": 1,
-      "last_featured": "2026-04-18"
+      "times_featured": 2,
+      "last_featured": "2026-05-02"
     },
     "get-convex/convex-saas": {
-      "times_featured": 1,
-      "last_featured": "2026-04-18"
+      "times_featured": 2,
+      "last_featured": "2026-05-02"
     },
     "PaddleHQ/paddle-nextjs-starter-kit": {
-      "times_featured": 1,
-      "last_featured": "2026-04-18"
+      "times_featured": 2,
+      "last_featured": "2026-05-02"
     },
     "rclone/rclone": {
       "times_featured": 1,
       "last_featured": "2026-04-18"
     },
     "SamurAIGPT/Generative-Media-Skills": {
-      "times_featured": 1,
-      "last_featured": "2026-04-18"
+      "times_featured": 2,
+      "last_featured": "2026-05-02"
     },
     "Tencent-Hunyuan/HunyuanImage-3.0": {
-      "times_featured": 1,
-      "last_featured": "2026-04-18"
+      "times_featured": 2,
+      "last_featured": "2026-05-02"
     },
     "nygardk/react-share": {
-      "times_featured": 1,
-      "last_featured": "2026-04-18"
+      "times_featured": 2,
+      "last_featured": "2026-05-02"
     },
     "FurkanGozukara/Stable-Diffusion": {
       "times_featured": 1,
       "last_featured": "2026-04-18"
     },
     "HKUDS/ViMax": {
-      "times_featured": 1,
-      "last_featured": "2026-04-18"
+      "times_featured": 2,
+      "last_featured": "2026-05-02"
     },
     "trpc/trpc": {
       "times_featured": 1,
@@ -1295,6 +1295,26 @@
     "mxrch/GHunt": {
       "times_featured": 1,
       "last_featured": "2026-05-01"
+    },
+    "electric-sql/electric": {
+      "times_featured": 1,
+      "last_featured": "2026-05-02"
+    },
+    "quickwit-oss/quickwit": {
+      "times_featured": 1,
+      "last_featured": "2026-05-02"
+    },
+    "terraform-aws-modules/terraform-aws-eks": {
+      "times_featured": 1,
+      "last_featured": "2026-05-02"
+    },
+    "stephenberry/glaze": {
+      "times_featured": 1,
+      "last_featured": "2026-05-02"
+    },
+    "elastic/detection-rules": {
+      "times_featured": 1,
+      "last_featured": "2026-05-02"
     }
   }
 }

@@ -3,21 +3,25 @@ layout: repo
 name: "Qwen/Qwen3-Embedding-4B"
 source: huggingface-model
 item_url: "https://huggingface.co/Qwen/Qwen3-Embedding-4B"
-description: "Qwen3 embedding model"
+description: "Qwen3-Embedding-4B"
 category: "HuggingFace Models"
 language: ""
 stars: 0
-downloads: 1861639
-likes: 251
+downloads: 1796983
+likes: 261
 og_image: ""
 first_featured: "2026-04-18"
-last_featured: "2026-04-18"
-times_featured: 1
+last_featured: "2026-05-02"
+times_featured: 2
 streak: 0
 appearances: 0
 star_velocity: 0
 tags: [huggingface, sentence-transformers, safetensors, qwen3, text-generation, transformers, sentence-similarity, feature-extraction, text-embeddings-inference]
 icp_tags: ["founding-team", "pre-mvp"]
+replaces: []
+similar_to: []
+compare_to_source: "manual"
+compare_to_validated: false
 ---
 
-Qwen3 embedding model
+Qwen3-Embedding-4B
