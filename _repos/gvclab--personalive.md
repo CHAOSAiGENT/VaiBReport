@@ -3,21 +3,25 @@ layout: repo
 name: "GVCLab/PersonaLive"
 source: github
 item_url: "https://github.com/GVCLab/PersonaLive"
-description: "Animate portrait images for live streaming. Your face won't move, but your AI avatar will."
+description: "Portrait image animation for live streaming."
 category: "UGC, social media and creator tools"
 language: "Python"
-stars: 2569
+stars: 2625
 downloads: 0
 likes: 0
 og_image: "https://opengraph.githubassets.com/1/GVCLab/PersonaLive"
 first_featured: "2026-04-19"
-last_featured: "2026-04-19"
-times_featured: 1
-streak: 38
-appearances: 38
-star_velocity: 3
+last_featured: "2026-05-03"
+times_featured: 2
+streak: 49
+appearances: 49
+star_velocity: 4
 tags: [github, cvpr, cvpr2026, talking-head, video-generation]
 icp_tags: ["solopreneur", "non-technical", "entreprecurious"]
+replaces: []
+similar_to: []
+compare_to_source: "manual"
+compare_to_validated: false
 ---
 
-Animate portrait images for live streaming. Your face won't move, but your AI avatar will.
+Portrait image animation for live streaming.

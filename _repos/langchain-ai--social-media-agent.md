@@ -3,21 +3,25 @@ layout: repo
 name: "langchain-ai/social-media-agent"
 source: github
 item_url: "https://github.com/langchain-ai/social-media-agent"
-description: "LangChain social media agent: source, curate, and schedule posts, with you still in control."
+description: "Agent for sourcing and scheduling social media posts."
 category: "UGC, social media and creator tools"
 language: "TypeScript"
-stars: 2492
+stars: 2534
 downloads: 0
 likes: 0
 og_image: "https://opengraph.githubassets.com/1/langchain-ai/social-media-agent"
 first_featured: "2026-04-19"
-last_featured: "2026-04-19"
-times_featured: 1
-streak: 38
-appearances: 38
+last_featured: "2026-05-03"
+times_featured: 2
+streak: 49
+appearances: 49
 star_velocity: 3
 tags: [github]
 icp_tags: ["solopreneur", "non-technical", "entreprecurious"]
+replaces: [{"name":"Hootsuite","url":"https://hootsuite.com","note":"social media management"}]
+similar_to: []
+compare_to_source: "llm"
+compare_to_validated: false
 ---
 
-LangChain social media agent: source, curate, and schedule posts, with you still in control.
+Agent for sourcing and scheduling social media posts.
