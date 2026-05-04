@@ -7,17 +7,21 @@ description: "Polish speech recognition"
 category: "HuggingFace Models"
 language: ""
 stars: 0
-downloads: 1671583
+downloads: 1515910
 likes: 12
 og_image: ""
 first_featured: "2026-04-20"
-last_featured: "2026-04-20"
-times_featured: 1
+last_featured: "2026-05-04"
+times_featured: 2
 streak: 0
 appearances: 0
 star_velocity: 0
 tags: [huggingface, transformers, pytorch, jax, wav2vec2, automatic-speech-recognition, audio, hf-asr-leaderboard, mozilla-foundation/common_voice_6_0]
 icp_tags: ["founding-team", "pre-mvp"]
+replaces: [{"name":"Google Cloud Speech-to-Text","url":"https://cloud.google.com/speech-to-text","note":"asr"}]
+similar_to: []
+compare_to_source: "llm"
+compare_to_validated: true
 ---
 
 Polish speech recognition

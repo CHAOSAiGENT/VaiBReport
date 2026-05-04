@@ -325,8 +325,8 @@
       "last_featured": "2026-04-30"
     },
     "pypi-autogen": {
-      "times_featured": 1,
-      "last_featured": "2026-04-16"
+      "times_featured": 2,
+      "last_featured": "2026-05-04"
     },
     "pypi-guidance": {
       "times_featured": 2,
@@ -367,6 +367,10 @@
     "npm-http-cookie-agent": {
       "times_featured": 1,
       "last_featured": "2026-04-30"
+    },
+    "npm-appium": {
+      "times_featured": 1,
+      "last_featured": "2026-05-04"
     }
   }
 }

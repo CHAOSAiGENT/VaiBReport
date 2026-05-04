@@ -1,18 +1,18 @@
 ---
 layout: repo
-name: "nelsonjchen/op-replay-clipper-beta"
+name: "venislathiya814092/ih096bg29"
 source: replicate
-item_url: "https://replicate.com/nelsonjchen/op-replay-clipper-beta"
-description: "Video clipper model"
+item_url: "https://replicate.com/venislathiya814092/ih096bg29"
+description: "No description"
 category: "Replicate Models"
 language: ""
 stars: 0
 downloads: 0
 likes: 0
 og_image: ""
-first_featured: "2026-03-29"
+first_featured: "2026-05-04"
 last_featured: "2026-05-04"
-times_featured: 3
+times_featured: 1
 streak: 0
 appearances: 0
 star_velocity: 0
@@ -24,4 +24,4 @@ compare_to_source: "manual"
 compare_to_validated: true
 ---
 
-Video clipper model
+No description

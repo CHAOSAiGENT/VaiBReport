@@ -3,21 +3,25 @@ layout: repo
 name: "pydn/ComfyUI-to-Python-Extension"
 source: github
 item_url: "https://github.com/pydn/ComfyUI-to-Python-Extension"
-description: "ComfyUI to Python code"
+description: "Translates ComfyUI to Python"
 category: "UGC, social media and creator tools"
 language: "Python"
-stars: 2308
+stars: 2316
 downloads: 0
 likes: 0
 og_image: "https://opengraph.githubassets.com/1/pydn/ComfyUI-to-Python-Extension"
 first_featured: "2026-04-20"
-last_featured: "2026-04-20"
-times_featured: 1
-streak: 39
-appearances: 39
+last_featured: "2026-05-04"
+times_featured: 2
+streak: 49
+appearances: 49
 star_velocity: 1
 tags: [github, ai-art, comfyui, generative-art, image-generation, pytorch, stable-diffusion]
 icp_tags: ["solopreneur", "non-technical", "entreprecurious"]
+replaces: []
+similar_to: []
+compare_to_source: "manual"
+compare_to_validated: true
 ---
 
-ComfyUI to Python code
+Translates ComfyUI to Python

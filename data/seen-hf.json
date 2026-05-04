@@ -609,28 +609,28 @@
       "last_featured": "2026-05-03"
     },
     "openai/whisper-base": {
-      "times_featured": 1,
-      "last_featured": "2026-04-20"
+      "times_featured": 2,
+      "last_featured": "2026-05-04"
     },
     "Qwen/Qwen3-ASR-1.7B": {
-      "times_featured": 1,
-      "last_featured": "2026-04-20"
+      "times_featured": 2,
+      "last_featured": "2026-05-04"
     },
     "jonatasgrosman/wav2vec2-large-xlsr-53-polish": {
-      "times_featured": 1,
-      "last_featured": "2026-04-20"
+      "times_featured": 2,
+      "last_featured": "2026-05-04"
     },
     "stable-diffusion-v1-5/stable-diffusion-v1-5": {
       "times_featured": 1,
       "last_featured": "2026-04-20"
     },
     "Xenova/bge-base-en-v1.5": {
-      "times_featured": 1,
-      "last_featured": "2026-04-20"
+      "times_featured": 2,
+      "last_featured": "2026-05-04"
     },
     "allenai/ai2_arc": {
-      "times_featured": 1,
-      "last_featured": "2026-04-20"
+      "times_featured": 2,
+      "last_featured": "2026-05-04"
     },
     "nyu-mll/glue": {
       "times_featured": 1,
@@ -731,6 +731,18 @@
     "fhswf/dgs-pose": {
       "times_featured": 1,
       "last_featured": "2026-05-02"
+    },
+    "cambridgeltl/SapBERT-from-PubMedBERT-fulltext": {
+      "times_featured": 1,
+      "last_featured": "2026-05-04"
+    },
+    "jat-project/jat-dataset": {
+      "times_featured": 1,
+      "last_featured": "2026-05-04"
+    },
+    "Maximilians/ps2_hf1": {
+      "times_featured": 1,
+      "last_featured": "2026-05-04"
     }
   }
 }
