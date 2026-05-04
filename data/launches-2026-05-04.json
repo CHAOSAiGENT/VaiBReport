@@ -1,0 +1,50 @@
+{
+  "generated_at": "2026-05-04T09:11:42.694Z",
+  "source": "launches",
+  "counts": {
+    "producthunt": 5,
+    "total": 5
+  },
+  "launches": [
+    {
+      "id": "ph-1132321",
+      "name": "Huddle01 VMs",
+      "description": "Virtual Machines for Your Agents",
+      "url": "https://www.producthunt.com/r/UYBGFPMMHGEL7A?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 389,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1135327",
+      "name": "PandaProbe",
+      "description": "open source agent engineering platform",
+      "url": "https://www.producthunt.com/r/BLAIC7M7XUPFXD?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 365,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1130618",
+      "name": "Radar",
+      "description": "The missing open-source Kubernetes UI",
+      "url": "https://www.producthunt.com/r/ZVGW24KQL2TDTF?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 361,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1119656",
+      "name": "Rosentic",
+      "description": "Catch when coding agents break each other before merge",
+      "url": "https://www.producthunt.com/r/NESYCJRHZWGZSB?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 176,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1137402",
+      "name": "TinyLottie",
+      "description": "Smart Lottie optimization for high-performance SaaS.",
+      "url": "https://www.producthunt.com/r/QHSRXBRJVSCNSE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 29,
+      "_source": "producthunt"
+    }
+  ]
+}
