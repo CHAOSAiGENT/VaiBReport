@@ -3,21 +3,25 @@ layout: repo
 name: "jd-opensource/JoyAI-Image"
 source: github
 item_url: "https://github.com/jd-opensource/JoyAI-Image"
-description: "JoyAI-Image: a multimodal foundation model for image understanding, generation, and editing. Your one-stop image AI."
-category: "Trending"
+description: "Multimodal foundation model for image tasks"
+category: "UGC, social media and creator tools"
 language: "Python"
-stars: 1476
+stars: 1968
 downloads: 0
 likes: 0
 og_image: "https://opengraph.githubassets.com/1/jd-opensource/JoyAI-Image"
 first_featured: "2026-04-13"
-last_featured: "2026-04-13"
-times_featured: 1
-streak: 2
-appearances: 2
-star_velocity: 461
+last_featured: "2026-05-05"
+times_featured: 2
+streak: 19
+appearances: 19
+star_velocity: 3
 tags: [github]
-icp_tags: ["founding-team", "entreprecurious"]
+icp_tags: ["solopreneur", "non-technical", "entreprecurious"]
+replaces: [{"name":"DALL-E","url":"https://dalle-mini.com","note":"image generation"}]
+similar_to: []
+compare_to_source: "llm"
+compare_to_validated: false
 ---
 
-JoyAI-Image: a multimodal foundation model for image understanding, generation, and editing. Your one-stop image AI.
+Multimodal foundation model for image tasks

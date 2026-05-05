@@ -621,8 +621,8 @@
       "last_featured": "2026-05-04"
     },
     "stable-diffusion-v1-5/stable-diffusion-v1-5": {
-      "times_featured": 1,
-      "last_featured": "2026-04-20"
+      "times_featured": 2,
+      "last_featured": "2026-05-05"
     },
     "Xenova/bge-base-en-v1.5": {
       "times_featured": 2,
@@ -633,20 +633,20 @@
       "last_featured": "2026-05-04"
     },
     "nyu-mll/glue": {
-      "times_featured": 1,
-      "last_featured": "2026-04-20"
+      "times_featured": 2,
+      "last_featured": "2026-05-05"
     },
     "world-igr-plum/regions": {
       "times_featured": 1,
       "last_featured": "2026-04-20"
     },
     "timm/resnet18.a1_in1k": {
-      "times_featured": 1,
-      "last_featured": "2026-04-21"
+      "times_featured": 2,
+      "last_featured": "2026-05-05"
     },
     "timm/resnet50.a1_in1k": {
-      "times_featured": 1,
-      "last_featured": "2026-04-21"
+      "times_featured": 2,
+      "last_featured": "2026-05-05"
     },
     "Salesforce/blip-image-captioning-large": {
       "times_featured": 1,
@@ -657,20 +657,20 @@
       "last_featured": "2026-04-21"
     },
     "facebook/musicgen-medium": {
-      "times_featured": 1,
-      "last_featured": "2026-04-21"
+      "times_featured": 2,
+      "last_featured": "2026-05-05"
     },
     "LLM360/TxT360": {
-      "times_featured": 1,
-      "last_featured": "2026-04-21"
+      "times_featured": 2,
+      "last_featured": "2026-05-05"
     },
     "Helsinki-NLP/fineweb-edu-translated": {
       "times_featured": 1,
       "last_featured": "2026-04-21"
     },
     "bigcode/commitpackft": {
-      "times_featured": 1,
-      "last_featured": "2026-04-21"
+      "times_featured": 2,
+      "last_featured": "2026-05-05"
     },
     "kresnik/wav2vec2-large-xlsr-korean": {
       "times_featured": 1,
@@ -743,6 +743,10 @@
     "Maximilians/ps2_hf1": {
       "times_featured": 1,
       "last_featured": "2026-05-04"
+    },
+    "WhereIsAI/UAE-Large-V1": {
+      "times_featured": 1,
+      "last_featured": "2026-05-05"
     }
   }
 }

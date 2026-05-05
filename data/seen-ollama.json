@@ -317,20 +317,20 @@
       "last_featured": "2026-04-21"
     },
     "tinydolphin": {
-      "times_featured": 1,
-      "last_featured": "2026-04-21"
+      "times_featured": 2,
+      "last_featured": "2026-05-05"
     },
     "deepseek-v3.1": {
-      "times_featured": 1,
-      "last_featured": "2026-04-21"
+      "times_featured": 2,
+      "last_featured": "2026-05-05"
     },
     "codegeex4": {
-      "times_featured": 1,
-      "last_featured": "2026-04-21"
+      "times_featured": 2,
+      "last_featured": "2026-05-05"
     },
     "mistral-openorca": {
-      "times_featured": 1,
-      "last_featured": "2026-04-21"
+      "times_featured": 2,
+      "last_featured": "2026-05-05"
     },
     "nemotron-mini": {
       "times_featured": 1,
@@ -403,6 +403,10 @@
     "granite4.1": {
       "times_featured": 1,
       "last_featured": "2026-05-01"
+    },
+    "mistral-medium-3.5": {
+      "times_featured": 1,
+      "last_featured": "2026-05-05"
     }
   }
 }
