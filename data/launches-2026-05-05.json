@@ -1,0 +1,74 @@
+{
+  "generated_at": "2026-05-05T09:03:38.827Z",
+  "source": "launches",
+  "counts": {
+    "producthunt": 8,
+    "total": 8
+  },
+  "launches": [
+    {
+      "id": "ph-1130040",
+      "name": "Mindra",
+      "description": "Agent Teams You Can Actually Delegate To",
+      "url": "https://www.producthunt.com/r/TKXFPMBGKX7BTI?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 323,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1138321",
+      "name": "Aaavatar",
+      "description": "Branded team headshots in one drop",
+      "url": "https://www.producthunt.com/r/JUKURYVT34QCC5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 272,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1138368",
+      "name": "Codex Pets",
+      "description": "Animated companions for your Codex workflow",
+      "url": "https://www.producthunt.com/r/2HWSN7JO4UFU7I?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 250,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1137712",
+      "name": "Flowly",
+      "description": "Your personal AI assistant, native to your desktop",
+      "url": "https://www.producthunt.com/r/3RJN7F7R3NET4Q?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 202,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1135782",
+      "name": "Claude Code & Codex Usage Trading Cards by Rudel",
+      "description": "Get your trading card based on your CC & codex usage",
+      "url": "https://www.producthunt.com/r/BWWXO2JDNUBIFN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 170,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1136390",
+      "name": "Regulus by Cumbuca",
+      "description": "AI chatbot trained on Brazil's Central Bank regulations",
+      "url": "https://www.producthunt.com/r/AUJSF7A6M5AEU4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 118,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1137365",
+      "name": "Manex",
+      "description": "Preserve useful answers, corrections, and context as memory",
+      "url": "https://www.producthunt.com/r/NKTEKMOWLTZFE6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 115,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1127739",
+      "name": "Replyke V7",
+      "description": "Pre-Modeled Infra & Client SDKs for User-Powered Products.",
+      "url": "https://www.producthunt.com/r/SZDWBAR4DIZRP7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 108,
+      "_source": "producthunt"
+    }
+  ]
+}
