@@ -1,0 +1,82 @@
+{
+  "generated_at": "2026-05-06T09:15:22.813Z",
+  "source": "launches",
+  "counts": {
+    "producthunt": 9,
+    "total": 9
+  },
+  "launches": [
+    {
+      "id": "ph-1111197",
+      "name": "Kilo Code v7 for VS Code",
+      "description": "Parallel agents, diff reviewer, and multi-model comparisons",
+      "url": "https://www.producthunt.com/r/SNLH5TXRYOCJUJ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 557,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1138905",
+      "name": "Velo 2.0",
+      "description": "Instantly turn your voice and screen into shareable videos",
+      "url": "https://www.producthunt.com/r/GOBREWJTJKPLRQ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 508,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1133619",
+      "name": "Flowstep 1.0",
+      "description": "AI design engineer to turn your thoughts into editable UI",
+      "url": "https://www.producthunt.com/r/4ELVP7JK6WNIFY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 292,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1102911",
+      "name": "Ghostwriter",
+      "description": "Write and publish posts on LinkedIn & X",
+      "url": "https://www.producthunt.com/r/FMFQM3BOMQK2HG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 190,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1136959",
+      "name": "PaceBar",
+      "description": "A quiet pace instrument for your Mac",
+      "url": "https://www.producthunt.com/r/GGHHNSBVPUH6KA?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 127,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1136917",
+      "name": "Intuned Agent",
+      "description": "Production browser automation, built and maintained by AI",
+      "url": "https://www.producthunt.com/r/ABOT7PUT4QK7AB?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 126,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1136358",
+      "name": "Firstwork",
+      "description": "Agentic AI for frontline hiring and onboarding",
+      "url": "https://www.producthunt.com/r/ZXGA5ZO5PL274L?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 120,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1139250",
+      "name": "Dina",
+      "description": "From screen to polished video in minutes",
+      "url": "https://www.producthunt.com/r/XLFGU223X34CNR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 102,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1139213",
+      "name": "Unity AI",
+      "description": "AI agents built directly into Unity workflows",
+      "url": "https://www.producthunt.com/r/AYAXVXREGJXYX2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 94,
+      "_source": "producthunt"
+    }
+  ]
+}
