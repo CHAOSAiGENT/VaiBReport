@@ -1,18 +1,18 @@
 ---
 layout: repo
-name: "deepseek-ai/deepseek-r1"
+name: "qwen/qwen3-235b-a22b-instruct-2507"
 source: replicate
-item_url: "https://replicate.com/deepseek-ai/deepseek-r1"
-description: "Reasoning language model"
+item_url: "https://replicate.com/qwen/qwen3-235b-a22b-instruct-2507"
+description: "Instruction following language model"
 category: "Replicate Models"
 language: ""
 stars: 0
-downloads: 4056899
-likes: 13316
+downloads: 0
+likes: 0
 og_image: ""
-first_featured: "2026-04-16"
+first_featured: "2026-05-06"
 last_featured: "2026-05-06"
-times_featured: 3
+times_featured: 1
 streak: 0
 appearances: 0
 star_velocity: 0
@@ -24,4 +24,4 @@ compare_to_source: "manual"
 compare_to_validated: true
 ---
 
-Reasoning language model
+Instruction following language model

@@ -425,8 +425,8 @@
       "last_featured": "2026-05-02"
     },
     "HuggingFaceFW/finephrase": {
-      "times_featured": 2,
-      "last_featured": "2026-04-22"
+      "times_featured": 3,
+      "last_featured": "2026-05-06"
     },
     "mlfoundations/MINT-1T-PDF-CC-2024-18": {
       "times_featured": 2,
@@ -653,8 +653,8 @@
       "last_featured": "2026-04-21"
     },
     "intfloat/multilingual-e5-large-instruct": {
-      "times_featured": 1,
-      "last_featured": "2026-04-21"
+      "times_featured": 2,
+      "last_featured": "2026-05-06"
     },
     "facebook/musicgen-medium": {
       "times_featured": 2,
@@ -677,24 +677,24 @@
       "last_featured": "2026-04-22"
     },
     "unslothai/1": {
-      "times_featured": 1,
-      "last_featured": "2026-04-22"
+      "times_featured": 2,
+      "last_featured": "2026-05-06"
     },
     "facebook/wav2vec2-base-960h": {
-      "times_featured": 1,
-      "last_featured": "2026-04-22"
+      "times_featured": 2,
+      "last_featured": "2026-05-06"
     },
     "distil-whisper/distil-large-v3": {
-      "times_featured": 1,
-      "last_featured": "2026-04-22"
+      "times_featured": 2,
+      "last_featured": "2026-05-06"
     },
     "Tongyi-MAI/Z-Image-Turbo": {
-      "times_featured": 1,
-      "last_featured": "2026-04-22"
+      "times_featured": 2,
+      "last_featured": "2026-05-06"
     },
     "HuggingFaceFW/fineweb-edu": {
-      "times_featured": 1,
-      "last_featured": "2026-04-22"
+      "times_featured": 2,
+      "last_featured": "2026-05-06"
     },
     "nvidia/PhysicalAI-Robotics-GR00T-X-Embodiment-Sim": {
       "times_featured": 1,
@@ -747,6 +747,10 @@
     "WhereIsAI/UAE-Large-V1": {
       "times_featured": 1,
       "last_featured": "2026-05-05"
+    },
+    "jat-project/jat-dataset-tokenized": {
+      "times_featured": 1,
+      "last_featured": "2026-05-06"
     }
   }
 }
