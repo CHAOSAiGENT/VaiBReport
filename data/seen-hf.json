@@ -5,28 +5,28 @@
       "last_featured": "2026-03-06"
     },
     "open-llm-leaderboard/open_llm_leaderboard": {
-      "times_featured": 4,
-      "last_featured": "2026-04-23"
+      "times_featured": 5,
+      "last_featured": "2026-05-07"
     },
     "jbilcke-hf/ai-comic-factory": {
-      "times_featured": 4,
-      "last_featured": "2026-04-23"
+      "times_featured": 5,
+      "last_featured": "2026-05-07"
     },
     "Kwai-Kolors/Kolors-Virtual-Try-On": {
-      "times_featured": 4,
-      "last_featured": "2026-04-23"
+      "times_featured": 5,
+      "last_featured": "2026-05-07"
     },
     "black-forest-labs/FLUX.1-dev": {
-      "times_featured": 4,
-      "last_featured": "2026-04-23"
+      "times_featured": 5,
+      "last_featured": "2026-05-07"
     },
     "Falconsai/nsfw_image_detection": {
-      "times_featured": 4,
-      "last_featured": "2026-04-23"
+      "times_featured": 5,
+      "last_featured": "2026-05-07"
     },
     "timm/mobilenetv3_small_100.lamb_in1k": {
-      "times_featured": 4,
-      "last_featured": "2026-04-23"
+      "times_featured": 5,
+      "last_featured": "2026-05-07"
     },
     "Qwen/Qwen2.5-7B-Instruct": {
       "times_featured": 4,
@@ -45,16 +45,16 @@
       "last_featured": "2026-04-30"
     },
     "huggingface/documentation-images": {
-      "times_featured": 4,
-      "last_featured": "2026-04-23"
+      "times_featured": 5,
+      "last_featured": "2026-05-07"
     },
     "NTU-NLP-sg/xCodeEval": {
       "times_featured": 4,
       "last_featured": "2026-04-25"
     },
     "mteb/leaderboard": {
-      "times_featured": 4,
-      "last_featured": "2026-04-23"
+      "times_featured": 5,
+      "last_featured": "2026-05-07"
     },
     "dalle-mini/dalle-mini": {
       "times_featured": 4,
@@ -73,12 +73,12 @@
       "last_featured": "2026-04-24"
     },
     "Qwen/Qwen3-0.6B": {
-      "times_featured": 4,
-      "last_featured": "2026-04-23"
+      "times_featured": 5,
+      "last_featured": "2026-05-07"
     },
     "openai-community/gpt2": {
-      "times_featured": 4,
-      "last_featured": "2026-04-23"
+      "times_featured": 5,
+      "last_featured": "2026-05-07"
     },
     "Qwen/Qwen2.5-1.5B-Instruct": {
       "times_featured": 4,
@@ -97,8 +97,8 @@
       "last_featured": "2026-04-12"
     },
     "m-a-p/FineFineWeb": {
-      "times_featured": 4,
-      "last_featured": "2026-04-23"
+      "times_featured": 5,
+      "last_featured": "2026-05-07"
     },
     "opendatalab/AICC": {
       "times_featured": 1,
@@ -109,8 +109,8 @@
       "last_featured": "2026-04-24"
     },
     "BAAI/bge-small-en-v1.5": {
-      "times_featured": 3,
-      "last_featured": "2026-04-23"
+      "times_featured": 4,
+      "last_featured": "2026-05-07"
     },
     "Qwen/Qwen3-8B": {
       "times_featured": 3,
@@ -751,6 +751,10 @@
     "jat-project/jat-dataset-tokenized": {
       "times_featured": 1,
       "last_featured": "2026-05-06"
+    },
+    "robbyant/mdm_depth": {
+      "times_featured": 1,
+      "last_featured": "2026-05-07"
     }
   }
 }

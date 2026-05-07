@@ -3,21 +3,25 @@ layout: repo
 name: "BAAI/bge-small-en-v1.5"
 source: huggingface-model
 item_url: "https://huggingface.co/BAAI/bge-small-en-v1.5"
-description: "A solid, small English embedding model for good RAG performance without huge overhead."
+description: "bge-small-en-v1.5"
 category: "HuggingFace Models"
 language: ""
 stars: 0
-downloads: 24175616
-likes: 446
+downloads: 36279732
+likes: 454
 og_image: ""
 first_featured: "2026-03-24"
-last_featured: "2026-04-23"
-times_featured: 3
+last_featured: "2026-05-07"
+times_featured: 4
 streak: 0
 appearances: 0
 star_velocity: 0
 tags: [huggingface, sentence-transformers, pytorch, onnx, safetensors, bert, feature-extraction, sentence-similarity, transformers]
 icp_tags: ["founding-team", "pre-mvp"]
+replaces: []
+similar_to: []
+compare_to_source: "manual"
+compare_to_validated: false
 ---
 
-A solid, small English embedding model for good RAG performance without huge overhead.
+bge-small-en-v1.5

@@ -3,21 +3,25 @@ layout: repo
 name: "openai/openai-cookbook"
 source: github
 item_url: "https://github.com/openai/openai-cookbook"
-description: "The official OpenAI API cookbook: essential recipes for building with their models."
+description: "Examples and guides for using the OpenAI API"
 category: "Trending"
 language: "Jupyter Notebook"
-stars: 72915
+stars: 73167
 downloads: 0
 likes: 0
 og_image: "https://opengraph.githubassets.com/1/openai/openai-cookbook"
 first_featured: "2026-04-23"
-last_featured: "2026-04-23"
-times_featured: 1
-streak: 1
-appearances: 1
-star_velocity: 0
+last_featured: "2026-05-07"
+times_featured: 2
+streak: 2
+appearances: 4
+star_velocity: 30
 tags: [github]
 icp_tags: ["founding-team", "entreprecurious"]
+replaces: []
+similar_to: []
+compare_to_source: "manual"
+compare_to_validated: false
 ---
 
-The official OpenAI API cookbook: essential recipes for building with their models.
+Examples and guides for using the OpenAI API

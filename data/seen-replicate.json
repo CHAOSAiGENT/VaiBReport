@@ -387,6 +387,26 @@
     "qwen/qwen3-235b-a22b-instruct-2507": {
       "times_featured": 1,
       "last_featured": "2026-05-06"
+    },
+    "deepseek-ai/deepseek-v3.1": {
+      "times_featured": 1,
+      "last_featured": "2026-05-07"
+    },
+    "openai/gpt-oss-20b": {
+      "times_featured": 1,
+      "last_featured": "2026-05-07"
+    },
+    "openai/gpt-oss-120b": {
+      "times_featured": 1,
+      "last_featured": "2026-05-07"
+    },
+    "xai/grok-4": {
+      "times_featured": 1,
+      "last_featured": "2026-05-07"
+    },
+    "meta/llama-guard-4-12b": {
+      "times_featured": 1,
+      "last_featured": "2026-05-07"
     }
   }
 }

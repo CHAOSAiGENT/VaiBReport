@@ -3,22 +3,26 @@ layout: repo
 name: "BCG-X-Official/agentkit"
 source: github
 item_url: "https://github.com/BCG-X-Official/agentkit"
-description: "Build focused AI agents fast with this Next.js, FastAPI, and Langchain starter kit."
+description: "Starter-kit to build constrained agents with Nextjs, FastAPI and Langchain"
 category: "AI agents, LLM infra and RAG"
 language: "TypeScript"
-stars: 1945
+stars: 1944
 downloads: 0
 likes: 0
 readme_image: "https://api.star-history.com/svg?repos=BCG-X-Official/agentkit&type=Timeline"
 og_image: "https://opengraph.githubassets.com/1/BCG-X-Official/agentkit"
 first_featured: "2026-03-24"
-last_featured: "2026-04-23"
-times_featured: 3
-streak: 32
-appearances: 32
+last_featured: "2026-05-07"
+times_featured: 4
+streak: 39
+appearances: 39
 star_velocity: 0
 tags: [github, fastapi, full-stack, genai, genai-chatbot, genai-poc, langchain, langchain-python, nextjs]
 icp_tags: ["founding-team", "pre-mvp", "entreprecurious"]
+replaces: []
+similar_to: []
+compare_to_source: "manual"
+compare_to_validated: false
 ---
 
-Build focused AI agents fast with this Next.js, FastAPI, and Langchain starter kit.
+Starter-kit to build constrained agents with Nextjs, FastAPI and Langchain

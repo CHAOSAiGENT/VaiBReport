@@ -1,18 +1,18 @@
 ---
 layout: repo
-name: "openai/gpt-oss-20b"
+name: "deepseek-ai/deepseek-v3.1"
 source: replicate
-item_url: "https://replicate.com/openai/gpt-oss-20b"
-description: "20b open-weight language model from OpenAI"
+item_url: "https://replicate.com/deepseek-ai/deepseek-v3.1"
+description: "Latest hybrid thinking model from Deepseek"
 category: "Replicate Models"
 language: ""
 stars: 0
-downloads: 6494736
-likes: 4567
+downloads: 0
+likes: 0
 og_image: ""
-first_featured: "2026-03-25"
+first_featured: "2026-05-07"
 last_featured: "2026-05-07"
-times_featured: 4
+times_featured: 1
 streak: 0
 appearances: 0
 star_velocity: 0
@@ -24,4 +24,4 @@ compare_to_source: "manual"
 compare_to_validated: false
 ---
 
-20b open-weight language model from OpenAI
+Latest hybrid thinking model from Deepseek

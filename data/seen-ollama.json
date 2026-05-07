@@ -53,8 +53,8 @@
       "last_featured": "2026-03-25"
     },
     "devstral": {
-      "times_featured": 3,
-      "last_featured": "2026-04-23"
+      "times_featured": 4,
+      "last_featured": "2026-05-07"
     },
     "moondream": {
       "times_featured": 1,
@@ -69,8 +69,8 @@
       "last_featured": "2026-03-26"
     },
     "granite3.2-vision": {
-      "times_featured": 3,
-      "last_featured": "2026-04-23"
+      "times_featured": 4,
+      "last_featured": "2026-05-07"
     },
     "wizard-vicuna-uncensored": {
       "times_featured": 1,
@@ -161,12 +161,12 @@
       "last_featured": "2026-04-27"
     },
     "sqlcoder": {
-      "times_featured": 2,
-      "last_featured": "2026-04-23"
+      "times_featured": 3,
+      "last_featured": "2026-05-07"
     },
     "wizardcoder": {
-      "times_featured": 2,
-      "last_featured": "2026-04-23"
+      "times_featured": 3,
+      "last_featured": "2026-05-07"
     },
     "yi-coder": {
       "times_featured": 2,
@@ -407,6 +407,10 @@
     "mistral-medium-3.5": {
       "times_featured": 1,
       "last_featured": "2026-05-05"
+    },
+    "notus": {
+      "times_featured": 1,
+      "last_featured": "2026-05-07"
     }
   }
 }

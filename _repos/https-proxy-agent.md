@@ -3,21 +3,25 @@ layout: repo
 name: "https-proxy-agent"
 source: npm
 item_url: "https://www.npmjs.com/package/https-proxy-agent"
-description: "Need an HTTPS proxy agent for Node.js? This one gets the job done reliably."
+description: "An HTTP(s) proxy `http.Agent` implementation for HTTPS"
 category: "npm Packages"
 language: ""
 stars: 0
-downloads: 163817839
+downloads: 164572130
 likes: 0
 og_image: ""
 first_featured: "2026-03-23"
-last_featured: "2026-04-23"
-times_featured: 3
+last_featured: "2026-05-07"
+times_featured: 4
 streak: 0
 appearances: 0
 star_velocity: 0
 tags: [npm, https, proxy, endpoint, agent]
 icp_tags: ["founding-team", "solopreneur"]
+replaces: []
+similar_to: []
+compare_to_source: "manual"
+compare_to_validated: false
 ---
 
-Need an HTTPS proxy agent for Node.js? This one gets the job done reliably.
+An HTTP(s) proxy `http.Agent` implementation for HTTPS
