@@ -1,0 +1,162 @@
+{
+  "generated_at": "2026-05-07T09:25:21.519Z",
+  "source": "launches",
+  "counts": {
+    "producthunt": 19,
+    "total": 19
+  },
+  "launches": [
+    {
+      "id": "ph-1139956",
+      "name": "Kanwas",
+      "description": "An open-source brain for your team",
+      "url": "https://www.producthunt.com/r/B4UPX2JVYGVZFJ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 466,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1136553",
+      "name": "Shadow 2.0",
+      "description": "The work your meetings create, done before they end",
+      "url": "https://www.producthunt.com/r/6DYONUBX4ZQVHY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 460,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1129128",
+      "name": "Superset 2.0",
+      "description": "Run 100s of coding agents on any machine from anywhere",
+      "url": "https://www.producthunt.com/r/DLXL3IV2Y7S2VX?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 400,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1136774",
+      "name": "pay.sh",
+      "description": "Discover, access, and pay for any API autonomously",
+      "url": "https://www.producthunt.com/r/OC7YL7YNUEQWUP?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 307,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1122501",
+      "name": "Gyro Autopilot",
+      "description": "100s of Dollars Could Be Sitting in Your Inbox 📥",
+      "url": "https://www.producthunt.com/r/O3FI3XMXVFLPBR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 254,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1134331",
+      "name": "Custom Integrations by Databox",
+      "description": "Bring missing data into Databox without writing code",
+      "url": "https://www.producthunt.com/r/RYM7QLUSFPSIEN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 213,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1138754",
+      "name": "Alumni Founder",
+      "description": "The tool that maps founder networks for any company",
+      "url": "https://www.producthunt.com/r/ND23TL2JPB5YK4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 188,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1136890",
+      "name": "WOZCODE",
+      "description": "Cut Claude Code costs by up to 50%",
+      "url": "https://www.producthunt.com/r/IVDIEGU2INHVQ7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 176,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1129301",
+      "name": "Contrario",
+      "description": "The AI recruiting platform powered by expert recruiters",
+      "url": "https://www.producthunt.com/r/JNUH7PXL56W6MY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 164,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1140101",
+      "name": "Ads in ChatGPT",
+      "description": "Create, manage, and measure your ChatGPT ad campaigns",
+      "url": "https://www.producthunt.com/r/VYJAW7OMYVFKMS?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 154,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1131646",
+      "name": "Realtime TTS-2",
+      "description": "Voice AI that feels as good as it sounds",
+      "url": "https://www.producthunt.com/r/ACSGGEQ3SYT5RO?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 150,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1137156",
+      "name": "Gas City 1.0",
+      "description": "build your own software factory",
+      "url": "https://www.producthunt.com/r/3GSEG4IY2YGR73?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 144,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1139962",
+      "name": "DevAlly",
+      "description": "AI powered accessibility compliance for teams who ship fast ",
+      "url": "https://www.producthunt.com/r/TQHE4CU4Y3RL4X?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 137,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1105213",
+      "name": "Magic",
+      "description": "Blend your content into real-world locations",
+      "url": "https://www.producthunt.com/r/BQ5N3YLTA52PFP?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 135,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1138062",
+      "name": "Spotit",
+      "description": "Your cursor's tutor. For every Mac app. ",
+      "url": "https://www.producthunt.com/r/MFTAI7UTOMPM4J?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 118,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1139778",
+      "name": "Magic Studio by Once UI",
+      "description": "Turn Once UI into a $10k agency",
+      "url": "https://www.producthunt.com/r/SJ3TB6LQZ55VKQ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 105,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1139800",
+      "name": "GetDynasty",
+      "description": "Exit tax-free using Trusts. For startup founders.",
+      "url": "https://www.producthunt.com/r/6N2A4XQ2YDIM3J?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 104,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1136388",
+      "name": "Open Finance MCP",
+      "description": "Access your bank data in ChatGPT & Claude via Open Finance",
+      "url": "https://www.producthunt.com/r/U5FLZTKBN4GM32?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 98,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1139144",
+      "name": "moar",
+      "description": "Your documents. AI ready. ",
+      "url": "https://www.producthunt.com/r/PWVQ2GX7VV3VRV?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 95,
+      "_source": "producthunt"
+    }
+  ]
+}
