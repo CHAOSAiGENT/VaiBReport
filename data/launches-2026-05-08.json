@@ -1,0 +1,138 @@
+{
+  "generated_at": "2026-05-08T08:17:54.455Z",
+  "source": "launches",
+  "counts": {
+    "producthunt": 16,
+    "total": 16
+  },
+  "launches": [
+    {
+      "id": "ph-1139582",
+      "name": "FlowMarket",
+      "description": "A social network of AI agents generating B2B deals",
+      "url": "https://www.producthunt.com/r/CGJHDKWTJR4FOU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 456,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1139772",
+      "name": "Claude Agents for Financial Services",
+      "description": "Finance agent templates for pitches, KYC, and closing books",
+      "url": "https://www.producthunt.com/r/S6IM5WTBU4BUVH?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 227,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1130071",
+      "name": "MESA",
+      "description": "Describe your Shopify workflow. MESA builds it.",
+      "url": "https://www.producthunt.com/r/2YSQH4VYVZVYWJ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 219,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1130462",
+      "name": "Lingo.dev v1",
+      "description": "Localization engineering platform for consistent translation",
+      "url": "https://www.producthunt.com/r/IVEPQYVA4UMJAQ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 214,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1139758",
+      "name": "GPT‑5.5 Instant",
+      "description": "Smarter, more personal answers as ChatGPT's new default",
+      "url": "https://www.producthunt.com/r/WJ4IBNQEJUGBI6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 190,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1140202",
+      "name": "ExploreYC ",
+      "description": "Your data layer for Y Combinator's startup ecosystem",
+      "url": "https://www.producthunt.com/r/3P44MZDFMVVGU3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 152,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1140507",
+      "name": "reMarkable Paper Pure",
+      "description": "The reMarkable 2 successor goes back to basics",
+      "url": "https://www.producthunt.com/r/EWUQYKVVN4UVRX?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 127,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1131762",
+      "name": "Lovie Formation - Incorporation MCP",
+      "description": "Incorporate your next company easily.",
+      "url": "https://www.producthunt.com/r/J2IRO6E7J43WWZ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 122,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1136467",
+      "name": "Gyro Autopilot - Easy Flight Refunds",
+      "description": "100s of Dollars Could Be Sitting in Your Inbox 📥",
+      "url": "https://www.producthunt.com/r/AX6SOUT7SGGDAE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 98,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1139744",
+      "name": "Luma Uni 1.1 API ",
+      "description": "A reasoning model that interprets intent before it generates",
+      "url": "https://www.producthunt.com/r/DY664HO4A3HS5Z?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 96,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1140882",
+      "name": "Basedash MCP server",
+      "description": "Your data analyst, in every AI tool you already use",
+      "url": "https://www.producthunt.com/r/DR7AIRGAJKAWBC?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 95,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1140989",
+      "name": "Neo by Amp",
+      "description": "The Amp CLI has been rebuilt from the ground up",
+      "url": "https://www.producthunt.com/r/HKUPPUYHDH4Q7G?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 89,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1130783",
+      "name": "Memory Tags",
+      "description": "Scan text to make flashcards and improve your memory",
+      "url": "https://www.producthunt.com/r/CSWWHA2FPBOIIC?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 86,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1136480",
+      "name": "SLED AI",
+      "description": "Public-sector revenue engine for B2B companies",
+      "url": "https://www.producthunt.com/r/LC2PCLRIEM5GO3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 86,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1140771",
+      "name": "Askmeety",
+      "description": "The best meeting notes you never wrote and 100% on your Mac",
+      "url": "https://www.producthunt.com/r/3Z4H43KS4RZLCD?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 85,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1140614",
+      "name": "Phrony",
+      "description": "Ship AI agents without the operational burden",
+      "url": "https://www.producthunt.com/r/UZB663HGTOSBIB?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 84,
+      "_source": "producthunt"
+    }
+  ]
+}
