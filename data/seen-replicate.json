@@ -407,6 +407,26 @@
     "meta/llama-guard-4-12b": {
       "times_featured": 1,
       "last_featured": "2026-05-07"
+    },
+    "sync/lipsync-2-pro": {
+      "times_featured": 1,
+      "last_featured": "2026-05-08"
+    },
+    "moonshotai/kimi-k2-thinking": {
+      "times_featured": 1,
+      "last_featured": "2026-05-08"
+    },
+    "philz1337x/clarity-pro-upscaler": {
+      "times_featured": 1,
+      "last_featured": "2026-05-08"
+    },
+    "xai/grok-imagine-image-quality": {
+      "times_featured": 1,
+      "last_featured": "2026-05-08"
+    },
+    "inworld/realtime-tts-2": {
+      "times_featured": 1,
+      "last_featured": "2026-05-08"
     }
   }
 }

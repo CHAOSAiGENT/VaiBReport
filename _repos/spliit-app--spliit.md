@@ -3,22 +3,26 @@ layout: repo
 name: "spliit-app/spliit"
 source: github
 item_url: "https://github.com/spliit-app/spliit"
-description: "This open-source Splitwise alternative offers a complete, modern Next.js template to fork or learn from."
+description: "Expense sharing app like Splitwise"
 category: "SaaS starters and templates"
 language: "TypeScript"
-stars: 2648
+stars: 2654
 downloads: 0
 likes: 0
 readme_image: "https://vercel.com/button"
 og_image: "https://opengraph.githubassets.com/1/spliit-app/spliit"
 first_featured: "2026-03-25"
-last_featured: "2026-04-24"
-times_featured: 3
-streak: 43
-appearances: 43
-star_velocity: 2
+last_featured: "2026-05-08"
+times_featured: 4
+streak: 49
+appearances: 49
+star_velocity: 1
 tags: [github, nextjs, react, shadcn-ui, splitwise, tailwindcss, template, tricount, vercel]
 icp_tags: ["founding-team", "solopreneur", "pre-mvp"]
+replaces: [{"name":"Splitwise","url":"https://splitwise.com/","note":"expense sharing"}]
+similar_to: []
+compare_to_source: "llm"
+compare_to_validated: false
 ---
 
-This open-source Splitwise alternative offers a complete, modern Next.js template to fork or learn from.
+Expense sharing app like Splitwise

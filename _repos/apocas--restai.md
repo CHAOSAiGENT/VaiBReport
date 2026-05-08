@@ -3,22 +3,26 @@ layout: repo
 name: "apocas/restai"
 source: github
 item_url: "https://github.com/apocas/restai"
-description: "Want to run AI as a service? This open-source platform handles LLMs, embeddings, and content generation."
+description: "AI as a service platform"
 category: "AI agents, LLM infra and RAG"
 language: "Python"
-stars: 485
+stars: 494
 downloads: 0
 likes: 0
 readme_image: "https://github.com/apocas/restai/blob/master/readme/assets/restai-logo.png"
 og_image: "https://opengraph.githubassets.com/1/apocas/restai"
 first_featured: "2026-03-24"
-last_featured: "2026-04-24"
-times_featured: 3
-streak: 43
-appearances: 43
-star_velocity: 0
+last_featured: "2026-05-08"
+times_featured: 4
+streak: 49
+appearances: 49
+star_velocity: 1
 tags: [github, blocky, embeddings, fastapi, langchain, llama, llamaindex, llm, ollama]
 icp_tags: ["founding-team", "pre-mvp", "entreprecurious"]
+replaces: [{"name":"Google Cloud AI","url":"https://cloud.google.com/ai","note":"ai platform"}]
+similar_to: []
+compare_to_source: "llm"
+compare_to_validated: false
 ---
 
-Want to run AI as a service? This open-source platform handles LLMs, embeddings, and content generation.
+AI as a service platform

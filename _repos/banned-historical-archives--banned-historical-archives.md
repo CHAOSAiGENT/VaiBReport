@@ -3,21 +3,25 @@ layout: repo
 name: "banned-historical-archives/banned-historical-archives"
 source: huggingface-dataset
 item_url: "https://huggingface.co/datasets/banned-historical-archives/banned-historical-archives"
-description: "An intriguing image dataset. Investigate if it fits your niche model training, but review content carefully."
+description: "Banned historical archives dataset"
 category: "HuggingFace Datasets"
 language: ""
 stars: 0
-downloads: 1788880
+downloads: 1915712
 likes: 0
 og_image: ""
 first_featured: "2026-03-24"
-last_featured: "2026-04-24"
-times_featured: 3
+last_featured: "2026-05-08"
+times_featured: 4
 streak: 0
 appearances: 0
 star_velocity: 0
 tags: [huggingface, size_categories:n<1K, format:imagefolder, modality:image, library:datasets, library:mlcroissant, region:us]
 icp_tags: ["founding-team", "pre-mvp"]
+replaces: []
+similar_to: []
+compare_to_source: "manual"
+compare_to_validated: false
 ---
 
-An intriguing image dataset. Investigate if it fits your niche model training, but review content carefully.
+Banned historical archives dataset
