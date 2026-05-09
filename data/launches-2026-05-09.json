@@ -1,0 +1,122 @@
+{
+  "generated_at": "2026-05-09T08:23:23.321Z",
+  "source": "launches",
+  "counts": {
+    "producthunt": 14,
+    "total": 14
+  },
+  "launches": [
+    {
+      "id": "ph-1141978",
+      "name": "Monid 2.0",
+      "description": "OpenRouter for agent tools",
+      "url": "https://www.producthunt.com/r/RGRECF5QMV23LX?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 443,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1139661",
+      "name": "Flare",
+      "description": "AI-native voice-first social app for GenZ",
+      "url": "https://www.producthunt.com/r/FLBPXYPO7MDZP3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 369,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1141939",
+      "name": "Minions",
+      "description": "Open source mission control for Hermes agent",
+      "url": "https://www.producthunt.com/r/AW7QWKE3MQG5QD?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 300,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1141665",
+      "name": "Fabraix",
+      "description": "Find gaps in your AI agents before users do",
+      "url": "https://www.producthunt.com/r/343V4QSMXHGFIP?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 219,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1142063",
+      "name": "Kuku: open source",
+      "description": "Your open-source, local second brain for every AI",
+      "url": "https://www.producthunt.com/r/S4FEM3RNRHIADW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 214,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1140411",
+      "name": "Ara",
+      "description": "Agentic Wispr flow computer-use-agent living in your notch",
+      "url": "https://www.producthunt.com/r/PM5CB7RBPREHJU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 126,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1141763",
+      "name": "Contral",
+      "description": "The agent which teaches while you build",
+      "url": "https://www.producthunt.com/r/WJUVYO4AMA4GMC?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 125,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1141602",
+      "name": "Google Health",
+      "description": "A new relationship with your health",
+      "url": "https://www.producthunt.com/r/WUZSMG6ZNNEBUL?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 117,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1141315",
+      "name": "APIEval-20",
+      "description": "An open benchmark for AI agents that test APIs",
+      "url": "https://www.producthunt.com/r/2TRFRBM47FAVUV?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 116,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1141769",
+      "name": "Operations",
+      "description": "Turn every new tab into your personal dashboard",
+      "url": "https://www.producthunt.com/r/HVEIDFHTHHOXHI?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 102,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1141865",
+      "name": "SuperIsland",
+      "description": "Dynamic Island for macOS with Extensions",
+      "url": "https://www.producthunt.com/r/THF5YQ43SZJDKA?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 100,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1142067",
+      "name": "KodHau",
+      "description": "Stop your AI from breaking prod-give it your team decisions",
+      "url": "https://www.producthunt.com/r/42WKJRLXVPT7P4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 93,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1141449",
+      "name": "MediaOptim",
+      "description": "Compress images, video & audio locally and save storage",
+      "url": "https://www.producthunt.com/r/LE3OA6N3TYO6UR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 90,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1123567",
+      "name": "Socrati",
+      "description": "Your personal knowledge podcast from any source",
+      "url": "https://www.producthunt.com/r/GBLADBJC4NSVVA?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 86,
+      "_source": "producthunt"
+    }
+  ]
+}
