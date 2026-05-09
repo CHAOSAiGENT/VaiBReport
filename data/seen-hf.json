@@ -49,8 +49,8 @@
       "last_featured": "2026-05-07"
     },
     "NTU-NLP-sg/xCodeEval": {
-      "times_featured": 4,
-      "last_featured": "2026-04-25"
+      "times_featured": 5,
+      "last_featured": "2026-05-09"
     },
     "mteb/leaderboard": {
       "times_featured": 5,
@@ -113,8 +113,8 @@
       "last_featured": "2026-05-07"
     },
     "Qwen/Qwen3-8B": {
-      "times_featured": 3,
-      "last_featured": "2026-04-25"
+      "times_featured": 4,
+      "last_featured": "2026-05-09"
     },
     "Qwen/Qwen2.5-3B-Instruct": {
       "times_featured": 4,
@@ -125,24 +125,24 @@
       "last_featured": "2026-05-08"
     },
     "lmarena-ai/arena-leaderboard": {
-      "times_featured": 3,
-      "last_featured": "2026-04-25"
+      "times_featured": 4,
+      "last_featured": "2026-05-09"
     },
     "microsoft/TRELLIS": {
-      "times_featured": 3,
-      "last_featured": "2026-04-25"
+      "times_featured": 4,
+      "last_featured": "2026-05-09"
     },
     "KingNish/OpenGPT-4o": {
-      "times_featured": 3,
-      "last_featured": "2026-04-25"
+      "times_featured": 4,
+      "last_featured": "2026-05-09"
     },
     "nanotron/ultrascale-playbook": {
-      "times_featured": 3,
-      "last_featured": "2026-04-25"
+      "times_featured": 4,
+      "last_featured": "2026-05-09"
     },
     "KlingTeam/LivePortrait": {
-      "times_featured": 3,
-      "last_featured": "2026-04-25"
+      "times_featured": 4,
+      "last_featured": "2026-05-09"
     },
     "meta-llama/Llama-3.1-8B-Instruct": {
       "times_featured": 4,
@@ -201,8 +201,8 @@
       "last_featured": "2026-04-26"
     },
     "Qwen/Qwen3-4B": {
-      "times_featured": 3,
-      "last_featured": "2026-04-25"
+      "times_featured": 4,
+      "last_featured": "2026-05-09"
     },
     "jonatasgrosman/wav2vec2-large-xlsr-53-russian": {
       "times_featured": 3,
@@ -245,8 +245,8 @@
       "last_featured": "2026-04-28"
     },
     "BAAI/bge-large-en-v1.5": {
-      "times_featured": 3,
-      "last_featured": "2026-04-25"
+      "times_featured": 4,
+      "last_featured": "2026-05-09"
     },
     "Qwen/Qwen3-4B-Instruct-2507": {
       "times_featured": 3,
@@ -261,8 +261,8 @@
       "last_featured": "2026-04-27"
     },
     "Marqo/nsfw-image-detection-384": {
-      "times_featured": 3,
-      "last_featured": "2026-04-25"
+      "times_featured": 4,
+      "last_featured": "2026-05-09"
     },
     "ScaleAI/SWE-bench_Pro": {
       "times_featured": 1,
@@ -637,8 +637,8 @@
       "last_featured": "2026-05-05"
     },
     "world-igr-plum/regions": {
-      "times_featured": 1,
-      "last_featured": "2026-04-20"
+      "times_featured": 2,
+      "last_featured": "2026-05-09"
     },
     "timm/resnet18.a1_in1k": {
       "times_featured": 2,
@@ -755,6 +755,14 @@
     "robbyant/mdm_depth": {
       "times_featured": 1,
       "last_featured": "2026-05-07"
+    },
+    "rizvandwiki/gender-classification": {
+      "times_featured": 1,
+      "last_featured": "2026-05-09"
+    },
+    "IPEC-COMMUNITY/droid_lerobot": {
+      "times_featured": 1,
+      "last_featured": "2026-05-09"
     }
   }
 }

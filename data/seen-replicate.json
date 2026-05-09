@@ -69,8 +69,8 @@
       "last_featured": "2026-04-09"
     },
     "qwen/qwen3-tts": {
-      "times_featured": 2,
-      "last_featured": "2026-04-10"
+      "times_featured": 3,
+      "last_featured": "2026-05-09"
     },
     "prunaai/firered-image-edit-1.1": {
       "times_featured": 1,
@@ -427,6 +427,18 @@
     "inworld/realtime-tts-2": {
       "times_featured": 1,
       "last_featured": "2026-05-08"
+    },
+    "prunaai/p-image": {
+      "times_featured": 1,
+      "last_featured": "2026-05-09"
+    },
+    "ibm-granite/granite-4.1-8b": {
+      "times_featured": 1,
+      "last_featured": "2026-05-09"
+    },
+    "lucataco/glm-ocr": {
+      "times_featured": 1,
+      "last_featured": "2026-05-09"
     }
   }
 }
