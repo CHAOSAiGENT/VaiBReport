@@ -1,0 +1,114 @@
+{
+  "generated_at": "2026-05-10T08:48:11.075Z",
+  "source": "launches",
+  "counts": {
+    "producthunt": 13,
+    "total": 13
+  },
+  "launches": [
+    {
+      "id": "ph-1141635",
+      "name": "Ghost",
+      "description": "Open-source, self-hosted game servers",
+      "url": "https://www.producthunt.com/r/2P6JXG53QD4245?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 301,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1141872",
+      "name": "How AI-pilled are you?",
+      "description": "Curious how AI-fluent your organization is?",
+      "url": "https://www.producthunt.com/r/VMYGQWTHUUE2CR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 223,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1140632",
+      "name": "Prism",
+      "description": "Hire the best candidates, not just the available",
+      "url": "https://www.producthunt.com/r/DIVTU6GNB4UXR5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 197,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1141615",
+      "name": "BugDrop",
+      "description": "In-app feedback that creates GitHub Issues with screenshots",
+      "url": "https://www.producthunt.com/r/2E7BA3SKSHOQ57?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 110,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1142526",
+      "name": "nocal 4",
+      "description": "The calendar that thinks like a workspace",
+      "url": "https://www.producthunt.com/r/GVBFCQ465PYTZI?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 105,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1142384",
+      "name": "Codex in Chrome",
+      "description": "Let Codex navigate and automate tasks in your browser",
+      "url": "https://www.producthunt.com/r/BBQP67LQNF2YSI?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 100,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1139760",
+      "name": "MolmoAct 2",
+      "description": "Open robotics model that reasons in 3D before acting",
+      "url": "https://www.producthunt.com/r/VDVLJHM4KCR5UC?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 95,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1140343",
+      "name": "ClawTick",
+      "description": "Cron jobs for AI agents w/ one command, zero infrastructure",
+      "url": "https://www.producthunt.com/r/O2XICPZKHQQNAB?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 90,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1137822",
+      "name": "Manuscripts.app",
+      "description": "For academics who have outgrown the spreadsheet tracker",
+      "url": "https://www.producthunt.com/r/IXBRASNQKEOELS?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 85,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1138589",
+      "name": "Omi A11Y ",
+      "description": "Web Accessibility Scanner Extension",
+      "url": "https://www.producthunt.com/r/LO7XILONG424LR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 82,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1140437",
+      "name": "Glowix",
+      "description": "Keep your Mac display awake exactly when you need it",
+      "url": "https://www.producthunt.com/r/2C3GJCCGBSRQW2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 82,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1139186",
+      "name": "Nylas CLI",
+      "description": "Email, calendar, and contacts for AI agents",
+      "url": "https://www.producthunt.com/r/I2TBK2BIFQZMMD?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 78,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1142333",
+      "name": "Staff.rip",
+      "description": "Describe a code change in plain language and ship it",
+      "url": "https://www.producthunt.com/r/WRMY4NE5WR5MWG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 76,
+      "_source": "producthunt"
+    }
+  ]
+}
