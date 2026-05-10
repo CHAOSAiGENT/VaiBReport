@@ -3,22 +3,26 @@ layout: repo
 name: "salesforce/BLIP"
 source: github
 item_url: "https://github.com/salesforce/BLIP"
-description: "Salesforce's PyTorch code for BLIP, a foundational vision-language understanding model. Research gold."
+description: "Bootstrapping Language-Image Pre-training"
 category: "UGC, social media and creator tools"
 language: "Jupyter Notebook"
-stars: 5699
+stars: 5703
 downloads: 0
 likes: 0
 readme_image: "https://replicate.com/salesforce/blip/badge"
 og_image: "https://opengraph.githubassets.com/1/salesforce/BLIP"
 first_featured: "2026-03-26"
-last_featured: "2026-04-26"
-times_featured: 3
-streak: 45
-appearances: 45
-star_velocity: 0
+last_featured: "2026-05-10"
+times_featured: 4
+streak: 49
+appearances: 49
+star_velocity: 1
 tags: [github, image-captioning, image-text-retrieval, vision-and-language-pre-training, vision-language, vision-language-transformer, visual-question-answering, visual-reasoning]
 icp_tags: ["solopreneur", "non-technical", "entreprecurious"]
+replaces: []
+similar_to: []
+compare_to_source: "manual"
+compare_to_validated: false
 ---
 
-Salesforce's PyTorch code for BLIP, a foundational vision-language understanding model. Research gold.
+Bootstrapping Language-Image Pre-training

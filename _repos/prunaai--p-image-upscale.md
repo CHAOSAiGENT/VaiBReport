@@ -3,7 +3,7 @@ layout: repo
 name: "prunaai/p-image-upscale"
 source: replicate
 item_url: "https://replicate.com/prunaai/p-image-upscale"
-description: "Fast image upscaling to 8MP in under a second. Enhance visuals quickly."
+description: "Image upscaler"
 category: "Replicate Models"
 language: ""
 stars: 0
@@ -11,13 +11,17 @@ downloads: 0
 likes: 0
 og_image: ""
 first_featured: "2026-04-12"
-last_featured: "2026-04-26"
-times_featured: 2
+last_featured: "2026-05-10"
+times_featured: 3
 streak: 0
 appearances: 0
 star_velocity: 0
 tags: [replicate]
 icp_tags: ["non-technical", "solopreneur"]
+replaces: []
+similar_to: []
+compare_to_source: "manual"
+compare_to_validated: true
 ---
 
-Fast image upscaling to 8MP in under a second. Enhance visuals quickly.
+Image upscaler
