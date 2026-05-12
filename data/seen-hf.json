@@ -153,8 +153,8 @@
       "last_featured": "2026-05-10"
     },
     "openai/gpt-oss-20b": {
-      "times_featured": 3,
-      "last_featured": "2026-04-28"
+      "times_featured": 4,
+      "last_featured": "2026-05-12"
     },
     "Qwen/Qwen3-1.7B": {
       "times_featured": 3,
@@ -205,12 +205,12 @@
       "last_featured": "2026-05-09"
     },
     "jonatasgrosman/wav2vec2-large-xlsr-53-russian": {
-      "times_featured": 3,
-      "last_featured": "2026-04-28"
+      "times_featured": 4,
+      "last_featured": "2026-05-12"
     },
     "Qwen/Qwen2.5-0.5B-Instruct": {
-      "times_featured": 3,
-      "last_featured": "2026-04-28"
+      "times_featured": 4,
+      "last_featured": "2026-05-12"
     },
     "nvidia/PhysicalAI-Autonomous-Vehicles": {
       "times_featured": 3,
@@ -221,8 +221,8 @@
       "last_featured": "2026-05-11"
     },
     "princeton-nlp/SWE-bench_Verified": {
-      "times_featured": 3,
-      "last_featured": "2026-04-28"
+      "times_featured": 4,
+      "last_featured": "2026-05-12"
     },
     "mukaist/Midjourney": {
       "times_featured": 4,
@@ -241,8 +241,8 @@
       "last_featured": "2026-05-11"
     },
     "sanchit-gandhi/whisper-jax": {
-      "times_featured": 3,
-      "last_featured": "2026-04-28"
+      "times_featured": 4,
+      "last_featured": "2026-05-12"
     },
     "BAAI/bge-large-en-v1.5": {
       "times_featured": 4,
@@ -277,20 +277,20 @@
       "last_featured": "2026-03-27"
     },
     "HumanAIGC/OutfitAnyone": {
-      "times_featured": 3,
-      "last_featured": "2026-04-28"
+      "times_featured": 4,
+      "last_featured": "2026-05-12"
     },
     "not-lain/background-removal": {
-      "times_featured": 3,
-      "last_featured": "2026-04-28"
+      "times_featured": 4,
+      "last_featured": "2026-05-12"
     },
     "coqui/xtts": {
-      "times_featured": 3,
-      "last_featured": "2026-04-28"
+      "times_featured": 4,
+      "last_featured": "2026-05-12"
     },
     "openai/whisper": {
-      "times_featured": 3,
-      "last_featured": "2026-04-28"
+      "times_featured": 4,
+      "last_featured": "2026-05-12"
     },
     "mrfakename/Z-Image-Turbo": {
       "times_featured": 4,
@@ -349,8 +349,8 @@
       "last_featured": "2026-04-29"
     },
     "intfloat/multilingual-e5-large": {
-      "times_featured": 3,
-      "last_featured": "2026-04-28"
+      "times_featured": 4,
+      "last_featured": "2026-05-12"
     },
     "dphn/dolphin-2.9.1-yi-1.5-34b": {
       "times_featured": 3,
@@ -453,8 +453,8 @@
       "last_featured": "2026-05-11"
     },
     "ayuo/hd_tmp": {
-      "times_featured": 2,
-      "last_featured": "2026-04-28"
+      "times_featured": 3,
+      "last_featured": "2026-05-12"
     },
     "mlfoundations/MINT-1T-PDF-CC-2023-23": {
       "times_featured": 2,
@@ -709,8 +709,8 @@
       "last_featured": "2026-05-10"
     },
     "Qwen/Qwen2-1.5B-Instruct": {
-      "times_featured": 1,
-      "last_featured": "2026-04-28"
+      "times_featured": 2,
+      "last_featured": "2026-05-12"
     },
     "Qwen/Qwen3-32B": {
       "times_featured": 1,
@@ -771,6 +771,10 @@
     "nvidia/OCR-Synthetic-Multilingual-v1": {
       "times_featured": 1,
       "last_featured": "2026-05-10"
+    },
+    "HuggingFaceM4/the_cauldron": {
+      "times_featured": 1,
+      "last_featured": "2026-05-12"
     }
   }
 }
