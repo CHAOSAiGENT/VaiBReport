@@ -443,6 +443,22 @@
     "prunaai/z-image-turbo": {
       "times_featured": 1,
       "last_featured": "2026-05-11"
+    },
+    "victor-upmeet/whisperx": {
+      "times_featured": 1,
+      "last_featured": "2026-05-13"
+    },
+    "victor-upmeet/whisperx-a40-large": {
+      "times_featured": 1,
+      "last_featured": "2026-05-13"
+    },
+    "prunaai/z-image-turbo-img2img": {
+      "times_featured": 1,
+      "last_featured": "2026-05-13"
+    },
+    "elevenlabs/scribe-v2": {
+      "times_featured": 1,
+      "last_featured": "2026-05-13"
     }
   }
 }
