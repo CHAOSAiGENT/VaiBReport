@@ -1,0 +1,146 @@
+{
+  "generated_at": "2026-05-14T09:26:17.940Z",
+  "source": "launches",
+  "counts": {
+    "producthunt": 17,
+    "total": 17
+  },
+  "launches": [
+    {
+      "id": "ph-1141013",
+      "name": "Memoket Gem",
+      "description": "An AI wearable that remembers your conversations all day",
+      "url": "https://www.producthunt.com/r/UIMN4URVUICVGJ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 417,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1144375",
+      "name": "Latitude for Claude Code",
+      "description": "See where Claude Code burns tokens. Hit your limits less.",
+      "url": "https://www.producthunt.com/r/SQUMMFO54D7IZ2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 332,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1135850",
+      "name": "CraftBot with Living UI",
+      "description": "Grow your own software that is alive.",
+      "url": "https://www.producthunt.com/r/KD55BIO53WF7SJ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 246,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1141691",
+      "name": "Frontdesk AI",
+      "description": "AI COO to run your business like a Fortune 500 enterprise",
+      "url": "https://www.producthunt.com/r/IBL3TVYYV5RNA7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 231,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1145722",
+      "name": "Blaze 2.0",
+      "description": "AI marketer for SMBs complete w/ strategy, content, and ads",
+      "url": "https://www.producthunt.com/r/EUMWADF264GGP2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 218,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1145607",
+      "name": "Googlebook",
+      "description": "A new kind of laptop designed for Gemini Intelligence",
+      "url": "https://www.producthunt.com/r/KNMETG3IF3WYDV?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 202,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1138750",
+      "name": "Apideck MCP Server",
+      "description": "Give AI agents access to real-time data across 200+ apps",
+      "url": "https://www.producthunt.com/r/Z5X3A5K7TNZXED?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 157,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1135481",
+      "name": "Liminary",
+      "description": "Ground your AI in saved knowledge as you work",
+      "url": "https://www.producthunt.com/r/UU6DOBAREHKV5L?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 147,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1094214",
+      "name": "Claudy",
+      "description": "A proper home for Claude Code — multi-session, multi-account",
+      "url": "https://www.producthunt.com/r/W6BLCVXARYZZA4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 144,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1145741",
+      "name": "SideNotes",
+      "description": "Take notes on your screen side",
+      "url": "https://www.producthunt.com/r/FOAUZ65V6BPWBO?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 124,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1140637",
+      "name": "Pipali",
+      "description": "An AI coworker for any computer work",
+      "url": "https://www.producthunt.com/r/AAXVA27QHLNZGX?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 117,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1144080",
+      "name": "AI meeting notes by Snaply",
+      "description": "Free & Private AI meeting notes for you Mac",
+      "url": "https://www.producthunt.com/r/QXATYQ22QGFRVD?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 108,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1145065",
+      "name": "Whisper Internet Infra AI Context",
+      "description": "Free MCP for security AI: live BGP, DNS, threat graph",
+      "url": "https://www.producthunt.com/r/YG26DRBCNPUIK3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 98,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1125285",
+      "name": "TipTap",
+      "description": "Customers tip support agents that help them the most",
+      "url": "https://www.producthunt.com/r/HJUTK6ZSOIUDKI?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 96,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1145344",
+      "name": "WhoAmILookingFor",
+      "description": "Find the right person in your LinkedIn network",
+      "url": "https://www.producthunt.com/r/2S3WY4ALG3A3SV?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 94,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1142374",
+      "name": "Gretl",
+      "description": "Visual control panel for localhosts",
+      "url": "https://www.producthunt.com/r/X7SZ3MPEC6K5LX?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 90,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1131968",
+      "name": "tapcut",
+      "description": "The analogue shortcut",
+      "url": "https://www.producthunt.com/r/RPPEQQ3RMNEEVT?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 90,
+      "_source": "producthunt"
+    }
+  ]
+}
