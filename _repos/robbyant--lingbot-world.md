@@ -3,21 +3,25 @@ layout: repo
 name: "Robbyant/lingbot-world"
 source: github
 item_url: "https://github.com/Robbyant/lingbot-world"
-description: "Open-source world models for image-to-video generation; worth watching for AI content."
+description: "Open-source world models"
 category: "UGC, social media and creator tools"
 language: "Python"
-stars: 3642
+stars: 3647
 downloads: 0
 likes: 0
 og_image: "https://opengraph.githubassets.com/1/Robbyant/lingbot-world"
 first_featured: "2026-03-30"
-last_featured: "2026-04-30"
-times_featured: 3
-streak: 48
-appearances: 48
+last_featured: "2026-05-14"
+times_featured: 4
+streak: 49
+appearances: 49
 star_velocity: 11
 tags: [github, aigc, image-to-video, lingbot-world, video-generation, world-models]
 icp_tags: ["solopreneur", "non-technical", "entreprecurious"]
+replaces: []
+similar_to: []
+compare_to_source: "manual"
+compare_to_validated: true
 ---
 
-Open-source world models for image-to-video generation; worth watching for AI content.
+Open-source world models

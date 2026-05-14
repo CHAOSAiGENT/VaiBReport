@@ -3,7 +3,7 @@ layout: repo
 name: "solar"
 source: ollama
 item_url: "https://ollama.com/library/solar"
-description: "Solar: a compact 10.7B LLM, optimized for single-turn local conversations."
+description: "Compact language model for conversation"
 category: "Ollama Models"
 language: ""
 stars: 0
@@ -11,15 +11,19 @@ downloads: 0
 likes: 0
 og_image: ""
 first_featured: "2026-04-16"
-last_featured: "2026-04-30"
-times_featured: 2
+last_featured: "2026-05-14"
+times_featured: 3
 streak: 0
 appearances: 0
 star_velocity: 0
-tags: [ollama, 10.7b, 893.6K
-                 Pulls, 893.6K, Pulls, 32
+tags: [ollama, 10.7b, 894.9K
+                 Pulls, 894.9K, Pulls, 32
                  Tags, 32, Tags, Updated]
 icp_tags: ["non-technical", "pre-mvp", "entreprecurious"]
+replaces: []
+similar_to: []
+compare_to_source: "manual"
+compare_to_validated: true
 ---
 
-Solar: a compact 10.7B LLM, optimized for single-turn local conversations.
+Compact language model for conversation
