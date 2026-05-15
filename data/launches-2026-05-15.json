@@ -1,0 +1,114 @@
+{
+  "generated_at": "2026-05-15T09:38:06.461Z",
+  "source": "launches",
+  "counts": {
+    "producthunt": 13,
+    "total": 13
+  },
+  "launches": [
+    {
+      "id": "ph-1058199",
+      "name": "Spellar 3.0",
+      "description": "AI Meeting companion with cross-meeting memory",
+      "url": "https://www.producthunt.com/r/FVMNYOIYMA7YBP?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 502,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1140630",
+      "name": "Naptick AI",
+      "description": "Al sleep companion that helps fall asleep without struggle",
+      "url": "https://www.producthunt.com/r/OT2VX5IW7L4F7E?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 446,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1140851",
+      "name": "Tendem by Toloka",
+      "description": "AI platform to hand off any task to a human expert",
+      "url": "https://www.producthunt.com/r/VU7DEOLLKRGOW4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 244,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1137047",
+      "name": "Theneo",
+      "description": "The API management platform for humans and agents",
+      "url": "https://www.producthunt.com/r/Y542HLTRAGPMSR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 217,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1140478",
+      "name": "Causo for Fundraising",
+      "description": "Pitch the right VCs, skip the grind",
+      "url": "https://www.producthunt.com/r/FVNJIU4JR4VBWS?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 176,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1146672",
+      "name": "Raindrop Workshop",
+      "description": "Open source, free, local debugger for AI agents",
+      "url": "https://www.producthunt.com/r/U555Q4PAZTWP4B?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 169,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1146563",
+      "name": "Notion Developer Platform",
+      "description": "Build on Notion, not just inside it",
+      "url": "https://www.producthunt.com/r/POMCHNCCY4J4RS?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 168,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1146210",
+      "name": "Resend Automations",
+      "description": "Build event-driven email flows",
+      "url": "https://www.producthunt.com/r/TFDLJKWDHFBEQE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 150,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1143373",
+      "name": "Asteroid",
+      "description": "Build Browser, Linux and Windows AI agents in seconds",
+      "url": "https://www.producthunt.com/r/IZAH4P7DZJMI5S?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 141,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1139893",
+      "name": "Fei Design Mode ",
+      "description": "Directly edit and tweak UI pixels live with AI agents",
+      "url": "https://www.producthunt.com/r/3PPJGQDQHLBHNA?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 140,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1145844",
+      "name": "Openclaw OS",
+      "description": "Turn one-off chats into persistent, usable apps",
+      "url": "https://www.producthunt.com/r/DRIZCGIKGF5IC5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 112,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1137067",
+      "name": "OptimizeGEO.ai",
+      "description": "Agentic GEO platform for AI search visibility",
+      "url": "https://www.producthunt.com/r/QEJ7Y23ZNMA4CV?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 105,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1145927",
+      "name": "Open Browser Use",
+      "description": "Open-source browser automation for local AI agents",
+      "url": "https://www.producthunt.com/r/YE6HTLXLTJLIXI?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 102,
+      "_source": "producthunt"
+    }
+  ]
+}
