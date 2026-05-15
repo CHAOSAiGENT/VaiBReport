@@ -365,8 +365,8 @@
       "last_featured": "2026-05-03"
     },
     "Kthera/pesoz": {
-      "times_featured": 3,
-      "last_featured": "2026-04-30"
+      "times_featured": 4,
+      "last_featured": "2026-05-15"
     },
     "lavita/medical-qa-shared-task-v1-toy": {
       "times_featured": 3,
@@ -393,8 +393,8 @@
       "last_featured": "2026-05-14"
     },
     "yisol/IDM-VTON": {
-      "times_featured": 3,
-      "last_featured": "2026-05-01"
+      "times_featured": 4,
+      "last_featured": "2026-05-15"
     },
     "google/vit-base-patch16-224": {
       "times_featured": 4,
@@ -489,44 +489,44 @@
       "last_featured": "2026-04-16"
     },
     "r3gm/wan2-2-fp8da-aoti-preview": {
-      "times_featured": 2,
-      "last_featured": "2026-05-01"
+      "times_featured": 3,
+      "last_featured": "2026-05-15"
     },
     "finegrain/finegrain-image-enhancer": {
-      "times_featured": 2,
-      "last_featured": "2026-05-01"
+      "times_featured": 3,
+      "last_featured": "2026-05-15"
     },
     "yanze/PuLID-FLUX": {
-      "times_featured": 2,
-      "last_featured": "2026-05-01"
+      "times_featured": 3,
+      "last_featured": "2026-05-15"
     },
     "Wan-AI/Wan2.1": {
-      "times_featured": 2,
-      "last_featured": "2026-05-01"
+      "times_featured": 3,
+      "last_featured": "2026-05-15"
     },
     "facebook/w2v-bert-2.0": {
-      "times_featured": 2,
-      "last_featured": "2026-05-01"
+      "times_featured": 3,
+      "last_featured": "2026-05-15"
     },
     "jinaai/jina-embeddings-v3": {
-      "times_featured": 2,
-      "last_featured": "2026-05-01"
+      "times_featured": 3,
+      "last_featured": "2026-05-15"
     },
     "apple/mobilevit-small": {
-      "times_featured": 2,
-      "last_featured": "2026-05-01"
+      "times_featured": 3,
+      "last_featured": "2026-05-15"
     },
     "jonatasgrosman/wav2vec2-large-xlsr-53-japanese": {
       "times_featured": 1,
       "last_featured": "2026-04-17"
     },
     "Salesforce/blip-image-captioning-base": {
-      "times_featured": 2,
-      "last_featured": "2026-05-01"
+      "times_featured": 3,
+      "last_featured": "2026-05-15"
     },
     "ryanmarten/OpenThoughts-1k-sample": {
-      "times_featured": 2,
-      "last_featured": "2026-05-01"
+      "times_featured": 3,
+      "last_featured": "2026-05-15"
     },
     "Emmyc2/psp": {
       "times_featured": 2,
@@ -783,6 +783,14 @@
     "nick007x/arxiv-papers": {
       "times_featured": 1,
       "last_featured": "2026-05-13"
+    },
+    "kyutai/mimi": {
+      "times_featured": 1,
+      "last_featured": "2026-05-15"
+    },
+    "mlfoundations/dclm-baseline-1.0-parquet": {
+      "times_featured": 1,
+      "last_featured": "2026-05-15"
     }
   }
 }

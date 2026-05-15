@@ -3,21 +3,25 @@ layout: repo
 name: "firecrawl"
 source: pypi
 item_url: "https://pypi.org/project/firecrawl/"
-description: "Use the Firecrawl SDK to easily scrape websites into structured data."
+description: "Python SDK for Firecrawl API"
 category: "PyPI Packages"
 language: ""
 stars: 0
-downloads: 137707
+downloads: 271850
 likes: 0
 og_image: ""
 first_featured: "2026-04-15"
-last_featured: "2026-04-30"
-times_featured: 2
+last_featured: "2026-05-15"
+times_featured: 3
 streak: 0
 appearances: 0
 star_velocity: 0
 tags: [pypi, SDK, API, firecrawl]
 icp_tags: ["founding-team", "solopreneur"]
+replaces: []
+similar_to: []
+compare_to_source: "manual"
+compare_to_validated: false
 ---
 
-Use the Firecrawl SDK to easily scrape websites into structured data.
+Python SDK for Firecrawl API

@@ -3,21 +3,25 @@ layout: repo
 name: "ai-sdk-provider-gemini-cli"
 source: npm
 item_url: "https://www.npmjs.com/package/ai-sdk-provider-gemini-cli"
-description: "Google Gemini AI SDK"
+description: "Community AI SDK provider for Google Gemini using the official CLI/SDK"
 category: "npm Packages"
 language: ""
 stars: 0
-downloads: 11677
+downloads: 10338
 likes: 0
 og_image: ""
 first_featured: "2026-04-17"
-last_featured: "2026-05-01"
-times_featured: 2
+last_featured: "2026-05-15"
+times_featured: 3
 streak: 0
 appearances: 0
 star_velocity: 0
 tags: [npm, ai, vercel, ai-sdk, provider, gemini, google, gemini-cli, language-model]
 icp_tags: ["founding-team", "solopreneur"]
+replaces: []
+similar_to: []
+compare_to_source: "manual"
+compare_to_validated: false
 ---
 
-Google Gemini AI SDK
+Community AI SDK provider for Google Gemini using the official CLI/SDK

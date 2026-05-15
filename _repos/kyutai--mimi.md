@@ -1,22 +1,22 @@
 ---
 layout: repo
-name: "facebook/w2v-bert-2.0"
+name: "kyutai/mimi"
 source: huggingface-model
-item_url: "https://huggingface.co/facebook/w2v-bert-2.0"
-description: "w2v-bert-2.0"
+item_url: "https://huggingface.co/kyutai/mimi"
+description: "mimi"
 category: "HuggingFace Models"
 language: ""
 stars: 0
-downloads: 3171383
-likes: 214
+downloads: 1574062
+likes: 300
 og_image: ""
-first_featured: "2026-04-17"
+first_featured: "2026-05-15"
 last_featured: "2026-05-15"
-times_featured: 3
+times_featured: 1
 streak: 0
 appearances: 0
 star_velocity: 0
-tags: [huggingface, transformers, safetensors, wav2vec2-bert, feature-extraction, af, am, ar, as]
+tags: [huggingface, transformers, safetensors, mimi, feature-extraction, audio, license:cc-by-4.0, endpoints_compatible, region:us]
 icp_tags: ["founding-team", "pre-mvp"]
 replaces: []
 similar_to: []
@@ -24,4 +24,4 @@ compare_to_source: "manual"
 compare_to_validated: false
 ---
 
-w2v-bert-2.0
+mimi
