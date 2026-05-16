@@ -3,7 +3,7 @@ layout: repo
 name: "deepcoder"
 source: ollama
 item_url: "https://ollama.com/library/deepcoder"
-description: "DeepCoder is a fully open-Source 14B coder model at O3-mini level, with a 1.5B version also available."
+description: "DeepCoder 14B model"
 category: "Ollama Models"
 language: ""
 stars: 0
@@ -11,8 +11,8 @@ downloads: 0
 likes: 0
 og_image: ""
 first_featured: "2026-03-28"
-last_featured: "2026-05-02"
-times_featured: 3
+last_featured: "2026-05-16"
+times_featured: 4
 streak: 0
 appearances: 0
 star_velocity: 0
@@ -26,4 +26,4 @@ compare_to_source: "manual"
 compare_to_validated: false
 ---
 
-DeepCoder is a fully open-Source 14B coder model at O3-mini level, with a 1.5B version also available.
+DeepCoder 14B model

@@ -3,16 +3,16 @@ layout: repo
 name: "Xenova/multilingual-e5-small"
 source: huggingface-model
 item_url: "https://huggingface.co/Xenova/multilingual-e5-small"
-description: "multilingual-e5-small"
+description: "Multilingual e5 small model"
 category: "HuggingFace Models"
 language: ""
 stars: 0
-downloads: 1482650
-likes: 10
+downloads: 3212435
+likes: 11
 og_image: ""
 first_featured: "2026-05-02"
-last_featured: "2026-05-02"
-times_featured: 1
+last_featured: "2026-05-16"
+times_featured: 2
 streak: 0
 appearances: 0
 star_velocity: 0
@@ -24,4 +24,4 @@ compare_to_source: "manual"
 compare_to_validated: false
 ---
 
-multilingual-e5-small
+Multilingual e5 small model

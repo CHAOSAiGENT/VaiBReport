@@ -3,7 +3,7 @@ layout: repo
 name: "shieldgemma"
 source: ollama
 item_url: "https://ollama.com/library/shieldgemma"
-description: "ShieldGemma is set of instruction tuned models for evaluating the safety of text prompt input and text output responses against a set of defined safety policies."
+description: "ShieldGemma model"
 category: "Ollama Models"
 language: ""
 stars: 0
@@ -11,8 +11,8 @@ downloads: 0
 likes: 0
 og_image: ""
 first_featured: "2026-04-18"
-last_featured: "2026-05-02"
-times_featured: 2
+last_featured: "2026-05-16"
+times_featured: 3
 streak: 0
 appearances: 0
 star_velocity: 0
@@ -26,4 +26,4 @@ compare_to_source: "manual"
 compare_to_validated: false
 ---
 
-ShieldGemma is set of instruction tuned models for evaluating the safety of text prompt input and text output responses against a set of defined safety policies.
+ShieldGemma model

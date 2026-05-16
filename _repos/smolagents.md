@@ -3,16 +3,16 @@ layout: repo
 name: "smolagents"
 source: pypi
 item_url: "https://pypi.org/project/smolagents/"
-description: "🤗 smolagents: a barebones library for agents. Agents write python code to call tools or orchestrate other agents."
+description: "Smolagents library"
 category: "PyPI Packages"
 language: ""
 stars: 0
-downloads: 128853
+downloads: 169569
 likes: 0
 og_image: ""
 first_featured: "2026-04-09"
-last_featured: "2026-05-02"
-times_featured: 2
+last_featured: "2026-05-16"
+times_featured: 3
 streak: 0
 appearances: 0
 star_velocity: 0
@@ -24,4 +24,4 @@ compare_to_source: "manual"
 compare_to_validated: false
 ---
 
-🤗 smolagents: a barebones library for agents. Agents write python code to call tools or orchestrate other agents.
+Smolagents library

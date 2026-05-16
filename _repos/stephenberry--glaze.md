@@ -3,7 +3,7 @@ layout: repo
 name: "stephenberry/glaze"
 source: github
 item_url: "https://github.com/stephenberry/glaze"
-description: "Extremely fast, in memory, serialization, reflection, and RPC library for C++. JSON, BEVE, BSON, CBOR, CSV, JSONB, MessagePack, TOML, YAML, EETF"
+description: "Fast serialization and RPC library"
 category: "Trending"
 language: "C++"
 stars: 2722
@@ -11,17 +11,17 @@ downloads: 0
 likes: 0
 og_image: "https://opengraph.githubassets.com/1/stephenberry/glaze"
 first_featured: "2026-05-02"
-last_featured: "2026-05-02"
-times_featured: 1
+last_featured: "2026-05-16"
+times_featured: 2
 streak: 3
 appearances: 3
 star_velocity: 17
 tags: [github]
 icp_tags: ["founding-team", "entreprecurious"]
-replaces: []
+replaces: [{"name":"gRPC","url":"https://grpc.io","note":"RPC"}]
 similar_to: []
-compare_to_source: "manual"
+compare_to_source: "llm"
 compare_to_validated: false
 ---
 
-Extremely fast, in memory, serialization, reflection, and RPC library for C++. JSON, BEVE, BSON, CBOR, CSV, JSONB, MessagePack, TOML, YAML, EETF
+Fast serialization and RPC library

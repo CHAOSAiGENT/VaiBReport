@@ -3,16 +3,16 @@ layout: repo
 name: "stabilityai/stable-diffusion-3.5-large"
 source: huggingface-space
 item_url: "https://huggingface.co/spaces/stabilityai/stable-diffusion-3.5-large"
-description: "stable-diffusion-3.5-large"
+description: "Stable diffusion 3.5 large model"
 category: "HuggingFace Spaces"
 language: ""
 stars: 0
 downloads: 0
-likes: 1998
+likes: 1997
 og_image: "https://huggingface.co/api/spaces/stabilityai/stable-diffusion-3.5-large/screenshot"
 first_featured: "2026-04-18"
-last_featured: "2026-05-02"
-times_featured: 2
+last_featured: "2026-05-16"
+times_featured: 3
 streak: 0
 appearances: 0
 star_velocity: 0
@@ -24,4 +24,4 @@ compare_to_source: "manual"
 compare_to_validated: false
 ---
 
-stable-diffusion-3.5-large
+Stable diffusion 3.5 large model
