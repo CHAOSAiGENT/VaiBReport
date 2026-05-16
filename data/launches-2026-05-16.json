@@ -1,0 +1,130 @@
+{
+  "generated_at": "2026-05-16T08:44:32.108Z",
+  "source": "launches",
+  "counts": {
+    "producthunt": 15,
+    "total": 15
+  },
+  "launches": [
+    {
+      "id": "ph-1136902",
+      "name": "OpenHuman",
+      "description": "An open source AI harness built with the human in mind",
+      "url": "https://www.producthunt.com/r/RWEBXA76IIY2MF?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 456,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1141227",
+      "name": "HasData",
+      "description": "Web scraping service for AI agents",
+      "url": "https://www.producthunt.com/r/6FFSO6JJJ2XS3Q?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 399,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1144544",
+      "name": "PHBench",
+      "description": "Predict the next Series A from a ProductHunt launch",
+      "url": "https://www.producthunt.com/r/PGPP6AKDU7CMY4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 335,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1142876",
+      "name": "Lensmor",
+      "description": "Turn exhibitor data into pre-booked sales meetings",
+      "url": "https://www.producthunt.com/r/ELQB75ALVQWBLM?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 283,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1146556",
+      "name": "Agentic Website Builder 2.0 by Lokuma",
+      "description": "Design, build, and run your site with a design agent harness",
+      "url": "https://www.producthunt.com/r/DWJQQXBEGBRBCS?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 177,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1146488",
+      "name": "Gradient Bang",
+      "description": "Massively multi-player game played by talking to an LLM",
+      "url": "https://www.producthunt.com/r/K7ASSL4K4T44K2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 155,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1147422",
+      "name": "mia ",
+      "description": "Cursor for Product Managers",
+      "url": "https://www.producthunt.com/r/A3VW6MGYI2N2GB?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 139,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1146408",
+      "name": "TrustClaw by Composio",
+      "description": "Self-hosted AI agent that connects 1000+ apps on Vercel",
+      "url": "https://www.producthunt.com/r/GGYLD2KHOI3A7R?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 137,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1146927",
+      "name": "Standboy",
+      "description": "A Game Boy that wakes up while your agent works",
+      "url": "https://www.producthunt.com/r/I5ECKLEPKSQ6Y2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 132,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1126723",
+      "name": "Relay",
+      "description": "Stop repeating yourself to every AI",
+      "url": "https://www.producthunt.com/r/MCRIHCQAUJOD6Q?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 108,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1146268",
+      "name": "Cline SDK",
+      "description": "Build coding agents with a plugin-based open-source runtime",
+      "url": "https://www.producthunt.com/r/VLZHNVQ5ALUQP3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 107,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1147419",
+      "name": "Kimi WebBridge",
+      "description": "A bridge connecting AI agents to the live web",
+      "url": "https://www.producthunt.com/r/VGS7FQ6KQ7E7ZE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 104,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1131424",
+      "name": "Wowable",
+      "description": "Paste a link and get a live website",
+      "url": "https://www.producthunt.com/r/U2ZCUDSCX65T7B?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 96,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1147436",
+      "name": "Mobius",
+      "description": "Describe a trade and Mobius builds, backtests, and runs it",
+      "url": "https://www.producthunt.com/r/PYKBBBA7X2MWV5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 93,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1146756",
+      "name": "Picsart MCP",
+      "description": "One connection for 140+ AI models for images and video",
+      "url": "https://www.producthunt.com/r/MIXB5ZDDWRAQBT?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 90,
+      "_source": "producthunt"
+    }
+  ]
+}
