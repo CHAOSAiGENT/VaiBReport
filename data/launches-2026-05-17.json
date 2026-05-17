@@ -1,0 +1,74 @@
+{
+  "generated_at": "2026-05-17T08:57:18.805Z",
+  "source": "launches",
+  "counts": {
+    "producthunt": 8,
+    "total": 8
+  },
+  "launches": [
+    {
+      "id": "ph-1143406",
+      "name": "Loova Agents",
+      "description": "Your AI director for creating cinematic videos with ease",
+      "url": "https://www.producthunt.com/r/4GHN2XBZOGAXZS?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 345,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1144164",
+      "name": "Agentmemory",
+      "description": "Persistent memory for Claude Code, Codex & coding agents",
+      "url": "https://www.producthunt.com/r/AECRPSWTZWYZ24?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 250,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1148119",
+      "name": "Raybeam",
+      "description": "A better way to screen share on macOS",
+      "url": "https://www.producthunt.com/r/RV5JDEVXRGNEOU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 185,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1144056",
+      "name": "Gemini 3.1 Flash-Lite",
+      "description": "Lightweight Gemini model for high-volume AI pipelines ",
+      "url": "https://www.producthunt.com/r/ZGUPQK7ZARUCQA?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 155,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1147936",
+      "name": "ChatGPT for Personal Finance",
+      "description": "Personal finance guidance powered by ChatGPT",
+      "url": "https://www.producthunt.com/r/CBP2U5B52K3E2N?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 143,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1147756",
+      "name": "Wring",
+      "description": "Developer tools, one menu click away.",
+      "url": "https://www.producthunt.com/r/JA3SAYKCYVF3RO?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 130,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1147767",
+      "name": "M5Stack PaperColor",
+      "description": "4-inch color E-ink dev board with ESP32 and audio I/O",
+      "url": "https://www.producthunt.com/r/UIUECLWWNY5QMM?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 117,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1147791",
+      "name": "ScholarXIV",
+      "description": "Next-gen Research Platform ",
+      "url": "https://www.producthunt.com/r/OSPY4AJ5R2CSW2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 32,
+      "_source": "producthunt"
+    }
+  ]
+}
