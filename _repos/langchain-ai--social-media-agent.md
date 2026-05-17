@@ -3,7 +3,7 @@ layout: repo
 name: "langchain-ai/social-media-agent"
 source: github
 item_url: "https://github.com/langchain-ai/social-media-agent"
-description: "Agent for sourcing and scheduling social media posts."
+description: "Agent for sourcing and scheduling social media posts"
 category: "UGC, social media and creator tools"
 language: "TypeScript"
 stars: 2534
@@ -11,8 +11,8 @@ downloads: 0
 likes: 0
 og_image: "https://opengraph.githubassets.com/1/langchain-ai/social-media-agent"
 first_featured: "2026-04-19"
-last_featured: "2026-05-03"
-times_featured: 2
+last_featured: "2026-05-17"
+times_featured: 3
 streak: 49
 appearances: 49
 star_velocity: 3
@@ -24,4 +24,4 @@ compare_to_source: "llm"
 compare_to_validated: false
 ---
 
-Agent for sourcing and scheduling social media posts.
+Agent for sourcing and scheduling social media posts
