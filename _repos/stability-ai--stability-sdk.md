@@ -3,7 +3,7 @@ layout: repo
 name: "Stability-AI/stability-sdk"
 source: github
 item_url: "https://github.com/Stability-AI/stability-sdk"
-description: "SDK for interacting with stability.ai APIs."
+description: "SDK for stability.ai APIs"
 category: "UGC, social media and creator tools"
 language: "Jupyter Notebook"
 stars: 2437
@@ -11,8 +11,8 @@ downloads: 0
 likes: 0
 og_image: "https://opengraph.githubassets.com/1/Stability-AI/stability-sdk"
 first_featured: "2026-04-19"
-last_featured: "2026-05-03"
-times_featured: 2
+last_featured: "2026-05-18"
+times_featured: 3
 streak: 49
 appearances: 49
 star_velocity: 0
@@ -21,7 +21,7 @@ icp_tags: ["solopreneur", "non-technical", "entreprecurious"]
 replaces: []
 similar_to: []
 compare_to_source: "manual"
-compare_to_validated: false
+compare_to_validated: true
 ---
 
-SDK for interacting with stability.ai APIs.
+SDK for stability.ai APIs

@@ -12,8 +12,8 @@ likes: 0
 readme_image: "https://api.star-history.com/svg?repos=ModelTC/lightx2v&type=Timeline"
 og_image: "https://opengraph.githubassets.com/1/ModelTC/LightX2V"
 first_featured: "2026-04-20"
-last_featured: "2026-05-04"
-times_featured: 2
+last_featured: "2026-05-18"
+times_featured: 3
 streak: 49
 appearances: 49
 star_velocity: 2

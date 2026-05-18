@@ -11,8 +11,8 @@ downloads: 0
 likes: 0
 og_image: ""
 first_featured: "2026-04-20"
-last_featured: "2026-05-04"
-times_featured: 2
+last_featured: "2026-05-18"
+times_featured: 3
 streak: 0
 appearances: 0
 star_velocity: 0
@@ -20,9 +20,9 @@ tags: [ollama, vision, tools, cloud, 24b, 808.3K
                  Pulls, 808.3K, Pulls, 6
                  Tags]
 icp_tags: ["non-technical", "pre-mvp", "entreprecurious"]
-replaces: [{"name":"GitHub Copilot","url":"https://github.com/features/copilot","note":"code completion"}]
+replaces: []
 similar_to: []
-compare_to_source: "llm"
+compare_to_source: "manual"
 compare_to_validated: true
 ---
 

@@ -12,8 +12,8 @@ likes: 0
 readme_image: "https://api.star-history.com/svg?repos=Yutong-Zhou-cv/Awesome-Text-to-Image&type=Date"
 og_image: "https://opengraph.githubassets.com/1/Yutong-Zhou-cv/Awesome-Text-to-Image"
 first_featured: "2026-04-19"
-last_featured: "2026-05-04"
-times_featured: 2
+last_featured: "2026-05-18"
+times_featured: 3
 streak: 49
 appearances: 49
 star_velocity: 0

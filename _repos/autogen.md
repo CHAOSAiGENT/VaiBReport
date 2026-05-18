@@ -7,12 +7,12 @@ description: "Alias package for ag2"
 category: "PyPI Packages"
 language: ""
 stars: 0
-downloads: 51276
+downloads: 63371
 likes: 0
 og_image: ""
 first_featured: "2026-04-16"
-last_featured: "2026-05-04"
-times_featured: 2
+last_featured: "2026-05-18"
+times_featured: 3
 streak: 0
 appearances: 0
 star_velocity: 0
