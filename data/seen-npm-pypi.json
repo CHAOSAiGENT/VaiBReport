@@ -369,8 +369,8 @@
       "last_featured": "2026-04-30"
     },
     "npm-appium": {
-      "times_featured": 1,
-      "last_featured": "2026-05-04"
+      "times_featured": 2,
+      "last_featured": "2026-05-19"
     },
     "npm-@appium/docutils": {
       "times_featured": 1,
@@ -379,6 +379,10 @@
     "npm-@promptbook/anthropic-claude": {
       "times_featured": 1,
       "last_featured": "2026-05-06"
+    },
+    "npm-@promptbook/vercel": {
+      "times_featured": 1,
+      "last_featured": "2026-05-19"
     }
   }
 }

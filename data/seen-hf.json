@@ -621,32 +621,32 @@
       "last_featured": "2026-05-18"
     },
     "stable-diffusion-v1-5/stable-diffusion-v1-5": {
-      "times_featured": 2,
-      "last_featured": "2026-05-05"
+      "times_featured": 3,
+      "last_featured": "2026-05-19"
     },
     "Xenova/bge-base-en-v1.5": {
       "times_featured": 3,
       "last_featured": "2026-05-18"
     },
     "allenai/ai2_arc": {
-      "times_featured": 2,
-      "last_featured": "2026-05-04"
+      "times_featured": 3,
+      "last_featured": "2026-05-19"
     },
     "nyu-mll/glue": {
-      "times_featured": 2,
-      "last_featured": "2026-05-05"
+      "times_featured": 3,
+      "last_featured": "2026-05-19"
     },
     "world-igr-plum/regions": {
       "times_featured": 2,
       "last_featured": "2026-05-09"
     },
     "timm/resnet18.a1_in1k": {
-      "times_featured": 2,
-      "last_featured": "2026-05-05"
+      "times_featured": 3,
+      "last_featured": "2026-05-19"
     },
     "timm/resnet50.a1_in1k": {
-      "times_featured": 2,
-      "last_featured": "2026-05-05"
+      "times_featured": 3,
+      "last_featured": "2026-05-19"
     },
     "Salesforce/blip-image-captioning-large": {
       "times_featured": 1,
@@ -657,12 +657,12 @@
       "last_featured": "2026-05-06"
     },
     "facebook/musicgen-medium": {
-      "times_featured": 2,
-      "last_featured": "2026-05-05"
+      "times_featured": 3,
+      "last_featured": "2026-05-19"
     },
     "LLM360/TxT360": {
-      "times_featured": 2,
-      "last_featured": "2026-05-05"
+      "times_featured": 3,
+      "last_featured": "2026-05-19"
     },
     "Helsinki-NLP/fineweb-edu-translated": {
       "times_featured": 1,
@@ -795,6 +795,10 @@
     "ksolovev/FineNews": {
       "times_featured": 1,
       "last_featured": "2026-05-16"
+    },
+    "BAAI/bge-reranker-large": {
+      "times_featured": 1,
+      "last_featured": "2026-05-19"
     }
   }
 }
