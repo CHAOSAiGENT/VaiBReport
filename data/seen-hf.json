@@ -653,8 +653,8 @@
       "last_featured": "2026-04-21"
     },
     "intfloat/multilingual-e5-large-instruct": {
-      "times_featured": 2,
-      "last_featured": "2026-05-06"
+      "times_featured": 3,
+      "last_featured": "2026-05-20"
     },
     "facebook/musicgen-medium": {
       "times_featured": 3,
@@ -669,32 +669,32 @@
       "last_featured": "2026-04-21"
     },
     "bigcode/commitpackft": {
-      "times_featured": 2,
-      "last_featured": "2026-05-05"
+      "times_featured": 3,
+      "last_featured": "2026-05-20"
     },
     "kresnik/wav2vec2-large-xlsr-korean": {
       "times_featured": 1,
       "last_featured": "2026-04-22"
     },
     "unslothai/1": {
-      "times_featured": 2,
-      "last_featured": "2026-05-06"
+      "times_featured": 3,
+      "last_featured": "2026-05-20"
     },
     "facebook/wav2vec2-base-960h": {
       "times_featured": 2,
       "last_featured": "2026-05-06"
     },
     "distil-whisper/distil-large-v3": {
-      "times_featured": 2,
-      "last_featured": "2026-05-06"
+      "times_featured": 3,
+      "last_featured": "2026-05-20"
     },
     "Tongyi-MAI/Z-Image-Turbo": {
       "times_featured": 2,
       "last_featured": "2026-05-06"
     },
     "HuggingFaceFW/fineweb-edu": {
-      "times_featured": 2,
-      "last_featured": "2026-05-06"
+      "times_featured": 3,
+      "last_featured": "2026-05-20"
     },
     "nvidia/PhysicalAI-Robotics-GR00T-X-Embodiment-Sim": {
       "times_featured": 1,
@@ -745,12 +745,12 @@
       "last_featured": "2026-05-18"
     },
     "WhereIsAI/UAE-Large-V1": {
-      "times_featured": 1,
-      "last_featured": "2026-05-05"
+      "times_featured": 2,
+      "last_featured": "2026-05-20"
     },
     "jat-project/jat-dataset-tokenized": {
-      "times_featured": 1,
-      "last_featured": "2026-05-06"
+      "times_featured": 2,
+      "last_featured": "2026-05-20"
     },
     "robbyant/mdm_depth": {
       "times_featured": 1,
@@ -799,6 +799,10 @@
     "BAAI/bge-reranker-large": {
       "times_featured": 1,
       "last_featured": "2026-05-19"
+    },
+    "mistralai/Voxtral-Mini-4B-Realtime-2602": {
+      "times_featured": 1,
+      "last_featured": "2026-05-20"
     }
   }
 }

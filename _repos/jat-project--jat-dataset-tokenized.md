@@ -3,16 +3,16 @@ layout: repo
 name: "jat-project/jat-dataset-tokenized"
 source: huggingface-dataset
 item_url: "https://huggingface.co/datasets/jat-project/jat-dataset-tokenized"
-description: "Timeseries dataset"
+description: "jat-dataset-tokenized"
 category: "HuggingFace Datasets"
 language: ""
 stars: 0
-downloads: 418547
+downloads: 743500
 likes: 0
 og_image: ""
 first_featured: "2026-05-06"
-last_featured: "2026-05-06"
-times_featured: 1
+last_featured: "2026-05-20"
+times_featured: 2
 streak: 0
 appearances: 0
 star_velocity: 0
@@ -21,7 +21,7 @@ icp_tags: ["founding-team", "pre-mvp"]
 replaces: []
 similar_to: []
 compare_to_source: "manual"
-compare_to_validated: true
+compare_to_validated: false
 ---
 
-Timeseries dataset
+jat-dataset-tokenized
