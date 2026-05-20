@@ -1,0 +1,138 @@
+{
+  "generated_at": "2026-05-20T10:18:21.860Z",
+  "source": "launches",
+  "counts": {
+    "producthunt": 16,
+    "total": 16
+  },
+  "launches": [
+    {
+      "id": "ph-1135604",
+      "name": "PollyReach",
+      "description": "Give your agent a real number and voice to make calls.",
+      "url": "https://www.producthunt.com/r/YNJ3R3XJ5FEEBJ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 507,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1146684",
+      "name": "Drizz",
+      "description": "Mobile tests that write, run, and fix themselves",
+      "url": "https://www.producthunt.com/r/7JHDW73XTTPZ3A?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 395,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1150337",
+      "name": "Composer 2.5",
+      "description": "Cursor’s most powerful model yet",
+      "url": "https://www.producthunt.com/r/ZEXWSSPQZYCABO?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 381,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1113430",
+      "name": "Mantle Chat",
+      "description": "Collaboration platform where teams work with AI together",
+      "url": "https://www.producthunt.com/r/HNOJTU2EDLNEGN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 333,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1148531",
+      "name": "CtrlOps",
+      "description": "Deploy, Debug & Manage Linux Servers with AI.",
+      "url": "https://www.producthunt.com/r/H64HE7ZK3MVBJN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 233,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1144780",
+      "name": "Motion",
+      "description": "A video agent for tasteful motion design",
+      "url": "https://www.producthunt.com/r/G3NKNLOKUXJ6ZY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 184,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1148800",
+      "name": "Chert",
+      "description": "Build AI agents that text customers in iMessage",
+      "url": "https://www.producthunt.com/r/5QIYZNUVRIKFZD?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 177,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1150303",
+      "name": "Monocle 3.5 for macOS",
+      "description": "Noise-cancelling for your  screen",
+      "url": "https://www.producthunt.com/r/JEGSQUEJBZZFD2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 159,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1146493",
+      "name": "Voker",
+      "description": "The Agent Analytics Platform for AI Product Teams",
+      "url": "https://www.producthunt.com/r/KEW2UCNMPEMFRD?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 148,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1149987",
+      "name": "Insights by Omnia",
+      "description": "Step-by-step action plans to improve your AI visibility.",
+      "url": "https://www.producthunt.com/r/GB2EXL52Q43ZUS?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 147,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1144511",
+      "name": "imgproxy v4",
+      "description": "A fast and secure self-hosted image processing server",
+      "url": "https://www.producthunt.com/r/JI2YC3YH3GR6B5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 139,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1149285",
+      "name": "Haystack",
+      "description": "Review the pull requests that actually need human attention",
+      "url": "https://www.producthunt.com/r/OEZGABV5RL5UUX?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 119,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1145614",
+      "name": "ShioriCode",
+      "description": "Open-source alternative to Codex & Claude Code",
+      "url": "https://www.producthunt.com/r/YFMR7SBBFOPFGA?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 116,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1150076",
+      "name": "Starchild-1 by Odyssey",
+      "description": "The first real-time multimodal world model",
+      "url": "https://www.producthunt.com/r/S4INU5TXEPCTYH?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 103,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1149185",
+      "name": "LearnHouse",
+      "description": "The modern way to teach what you build",
+      "url": "https://www.producthunt.com/r/3ZWPLYGA5EODNN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 100,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1149803",
+      "name": "AutoShelf",
+      "description": "Auto-organize files on your Mac",
+      "url": "https://www.producthunt.com/r/UTCGCZNYTR5E7C?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 98,
+      "_source": "producthunt"
+    }
+  ]
+}
