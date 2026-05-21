@@ -7,12 +7,12 @@ description: "Qwen3-0.6B"
 category: "HuggingFace Models"
 language: ""
 stars: 0
-downloads: 18878700
-likes: 1227
+downloads: 18295233
+likes: 1256
 og_image: ""
 first_featured: "2026-03-23"
-last_featured: "2026-05-07"
-times_featured: 4
+last_featured: "2026-05-21"
+times_featured: 5
 streak: 0
 appearances: 0
 star_velocity: 0

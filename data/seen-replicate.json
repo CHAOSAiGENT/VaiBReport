@@ -389,24 +389,24 @@
       "last_featured": "2026-05-20"
     },
     "deepseek-ai/deepseek-v3.1": {
-      "times_featured": 1,
-      "last_featured": "2026-05-07"
+      "times_featured": 2,
+      "last_featured": "2026-05-21"
     },
     "openai/gpt-oss-20b": {
-      "times_featured": 1,
-      "last_featured": "2026-05-07"
+      "times_featured": 2,
+      "last_featured": "2026-05-21"
     },
     "openai/gpt-oss-120b": {
-      "times_featured": 1,
-      "last_featured": "2026-05-07"
+      "times_featured": 2,
+      "last_featured": "2026-05-21"
     },
     "xai/grok-4": {
       "times_featured": 1,
       "last_featured": "2026-05-07"
     },
     "meta/llama-guard-4-12b": {
-      "times_featured": 1,
-      "last_featured": "2026-05-07"
+      "times_featured": 2,
+      "last_featured": "2026-05-21"
     },
     "sync/lipsync-2-pro": {
       "times_featured": 1,
@@ -483,6 +483,10 @@
     "recraft-ai/recraft-v4.1-pro-svg": {
       "times_featured": 1,
       "last_featured": "2026-05-19"
+    },
+    "google/gemini-3.5-flash": {
+      "times_featured": 1,
+      "last_featured": "2026-05-21"
     }
   }
 }

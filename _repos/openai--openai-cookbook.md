@@ -11,8 +11,8 @@ downloads: 0
 likes: 0
 og_image: "https://opengraph.githubassets.com/1/openai/openai-cookbook"
 first_featured: "2026-04-23"
-last_featured: "2026-05-07"
-times_featured: 2
+last_featured: "2026-05-21"
+times_featured: 3
 streak: 2
 appearances: 4
 star_velocity: 30
