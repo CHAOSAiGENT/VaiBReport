@@ -1,0 +1,122 @@
+{
+  "generated_at": "2026-05-22T10:15:55.684Z",
+  "source": "launches",
+  "counts": {
+    "producthunt": 14,
+    "total": 14
+  },
+  "launches": [
+    {
+      "id": "ph-1152148",
+      "name": "Tycoon AI ",
+      "description": "Run one-person companies entirely with AI agents",
+      "url": "https://www.producthunt.com/r/RL4GWQKCKC4Y5K?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 444,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1148000",
+      "name": "Mintlify Workflows",
+      "description": "Self-updating knowledge bases",
+      "url": "https://www.producthunt.com/r/3CNKWNRFX4MONH?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 306,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-779554",
+      "name": "WeWeb 3.0",
+      "description": "Vibe-code apps with the safety net of a no-code editor",
+      "url": "https://www.producthunt.com/r/XOSAFL3LHXMWZZ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 273,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1151355",
+      "name": "Google Antigravity 2.0",
+      "description": "Orchestrate multi-agent workflows from a desktop app",
+      "url": "https://www.producthunt.com/r/BVJYKCZ724TDTG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 265,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1151769",
+      "name": "Slideshot",
+      "description": "Product demo videos, recorded by your AI agent",
+      "url": "https://www.producthunt.com/r/ZB4GJ5WSVVEMUK?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 196,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1151771",
+      "name": "Vivaldi 8.0",
+      "description": "New unified look for full customization",
+      "url": "https://www.producthunt.com/r/ZH5CX4VITF6DCK?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 142,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1152064",
+      "name": "Mixpanel Headless",
+      "description": "Programmatic access to product analytics for agents and devs",
+      "url": "https://www.producthunt.com/r/KO2TLBRQWBSAHI?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 130,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1107041",
+      "name": "Visual Usability Checker",
+      "description": "Validate your design decisions instantly with AI insights",
+      "url": "https://www.producthunt.com/r/HAVYMYPXCHCWHK?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 129,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1152268",
+      "name": "Tacet",
+      "description": "The brain monitor for cognitive health scores",
+      "url": "https://www.producthunt.com/r/HDUTC4PSNKAGQH?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 116,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1146304",
+      "name": "CatchAll by NewsCatcher",
+      "description": "Build any dataset from the web. Filtered to your criteria.",
+      "url": "https://www.producthunt.com/r/JCT7JST7ALMC46?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 110,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1151186",
+      "name": "TongueType for macOS",
+      "description": "Local dictation for macOS without the subscription",
+      "url": "https://www.producthunt.com/r/ZM22V6AC4IVDS6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 109,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1116988",
+      "name": "Novi Notes 1.1",
+      "description": "A local AI memory layer for your Mac",
+      "url": "https://www.producthunt.com/r/KPCG5QGMFVZA7Z?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 100,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1152138",
+      "name": "AlliHat",
+      "description": "Claude AI in your Safari sidebar",
+      "url": "https://www.producthunt.com/r/QMGWPEV4K5UCT7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 98,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1151426",
+      "name": "InstaVM",
+      "description": "Instant computers for AI agents",
+      "url": "https://www.producthunt.com/r/M4ZQFEJHNP3JNU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 97,
+      "_source": "producthunt"
+    }
+  ]
+}
