@@ -1,18 +1,18 @@
 ---
 layout: repo
-name: "moonshotai/kimi-k2-thinking"
+name: "google/gemini-3-pro"
 source: replicate
-item_url: "https://replicate.com/moonshotai/kimi-k2-thinking"
-description: "Moonshot AI's Kimi K2 Thinking model for complex reasoning and conversational AI applications."
+item_url: "https://replicate.com/google/gemini-3-pro"
+description: "Access Google's Gemini 3 Pro for advanced reasoning and multi-modal tasks via Replicate's API."
 category: "Replicate Models"
 language: ""
 stars: 0
 downloads: 0
 likes: 0
 og_image: ""
-first_featured: "2026-05-08"
+first_featured: "2026-05-22"
 last_featured: "2026-05-22"
-times_featured: 2
+times_featured: 1
 streak: 0
 appearances: 0
 star_velocity: 0
@@ -24,4 +24,4 @@ compare_to_source: "llm"
 compare_to_validated: false
 ---
 
-Moonshot AI's Kimi K2 Thinking model for complex reasoning and conversational AI applications.
+Access Google's Gemini 3 Pro for advanced reasoning and multi-modal tasks via Replicate's API.

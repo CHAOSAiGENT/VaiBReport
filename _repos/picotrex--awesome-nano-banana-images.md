@@ -3,7 +3,7 @@ layout: repo
 name: "PicoTrex/Awesome-Nano-Banana-images"
 source: github
 item_url: "https://github.com/PicoTrex/Awesome-Nano-Banana-images"
-description: "Curated images generated with Nano Banana"
+description: "See what's possible with Nano Banana image generation; a curated list of creative examples to inspire."
 category: "UGC, social media and creator tools"
 language: ""
 stars: 22499
@@ -12,8 +12,8 @@ likes: 0
 readme_image: "https://api.star-history.com/svg?repos=PicoTrex/Awesome-Nano-Banana-images&type=Date"
 og_image: "https://opengraph.githubassets.com/1/PicoTrex/Awesome-Nano-Banana-images"
 first_featured: "2026-03-24"
-last_featured: "2026-05-08"
-times_featured: 4
+last_featured: "2026-05-22"
+times_featured: 5
 streak: 49
 appearances: 49
 star_velocity: 19
@@ -25,4 +25,4 @@ compare_to_source: "manual"
 compare_to_validated: false
 ---
 
-Curated images generated with Nano Banana
+See what's possible with Nano Banana image generation; a curated list of creative examples to inspire.
