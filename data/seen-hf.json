@@ -113,8 +113,8 @@
       "last_featured": "2026-05-21"
     },
     "Qwen/Qwen3-8B": {
-      "times_featured": 4,
-      "last_featured": "2026-05-09"
+      "times_featured": 5,
+      "last_featured": "2026-05-23"
     },
     "Qwen/Qwen2.5-3B-Instruct": {
       "times_featured": 5,
@@ -125,24 +125,24 @@
       "last_featured": "2026-05-22"
     },
     "lmarena-ai/arena-leaderboard": {
-      "times_featured": 4,
-      "last_featured": "2026-05-09"
+      "times_featured": 5,
+      "last_featured": "2026-05-23"
     },
     "microsoft/TRELLIS": {
-      "times_featured": 4,
-      "last_featured": "2026-05-09"
+      "times_featured": 5,
+      "last_featured": "2026-05-23"
     },
     "KingNish/OpenGPT-4o": {
-      "times_featured": 4,
-      "last_featured": "2026-05-09"
+      "times_featured": 5,
+      "last_featured": "2026-05-23"
     },
     "nanotron/ultrascale-playbook": {
-      "times_featured": 4,
-      "last_featured": "2026-05-09"
+      "times_featured": 5,
+      "last_featured": "2026-05-23"
     },
     "KlingTeam/LivePortrait": {
-      "times_featured": 4,
-      "last_featured": "2026-05-09"
+      "times_featured": 5,
+      "last_featured": "2026-05-23"
     },
     "meta-llama/Llama-3.1-8B-Instruct": {
       "times_featured": 5,
@@ -201,8 +201,8 @@
       "last_featured": "2026-05-10"
     },
     "Qwen/Qwen3-4B": {
-      "times_featured": 4,
-      "last_featured": "2026-05-09"
+      "times_featured": 5,
+      "last_featured": "2026-05-23"
     },
     "jonatasgrosman/wav2vec2-large-xlsr-53-russian": {
       "times_featured": 4,
@@ -245,8 +245,8 @@
       "last_featured": "2026-05-12"
     },
     "BAAI/bge-large-en-v1.5": {
-      "times_featured": 4,
-      "last_featured": "2026-05-09"
+      "times_featured": 5,
+      "last_featured": "2026-05-23"
     },
     "Qwen/Qwen3-4B-Instruct-2507": {
       "times_featured": 4,
@@ -757,12 +757,12 @@
       "last_featured": "2026-05-07"
     },
     "rizvandwiki/gender-classification": {
-      "times_featured": 1,
-      "last_featured": "2026-05-09"
+      "times_featured": 2,
+      "last_featured": "2026-05-23"
     },
     "IPEC-COMMUNITY/droid_lerobot": {
-      "times_featured": 1,
-      "last_featured": "2026-05-09"
+      "times_featured": 2,
+      "last_featured": "2026-05-23"
     },
     "YiboZhang2001/TexVerse": {
       "times_featured": 1,
@@ -807,6 +807,18 @@
     "cadene/droid_1.0.1": {
       "times_featured": 1,
       "last_featured": "2026-05-21"
+    },
+    "deepseek-ai/DeepSeek-V4-Pro": {
+      "times_featured": 1,
+      "last_featured": "2026-05-23"
+    },
+    "mlfoundations/dclm-baseline-1.0": {
+      "times_featured": 1,
+      "last_featured": "2026-05-23"
+    },
+    "SWE-bench/SWE-bench_Multilingual": {
+      "times_featured": 1,
+      "last_featured": "2026-05-23"
     }
   }
 }

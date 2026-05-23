@@ -69,8 +69,8 @@
       "last_featured": "2026-04-09"
     },
     "qwen/qwen3-tts": {
-      "times_featured": 3,
-      "last_featured": "2026-05-09"
+      "times_featured": 4,
+      "last_featured": "2026-05-23"
     },
     "prunaai/firered-image-edit-1.1": {
       "times_featured": 1,
@@ -429,12 +429,12 @@
       "last_featured": "2026-05-08"
     },
     "prunaai/p-image": {
-      "times_featured": 1,
-      "last_featured": "2026-05-09"
+      "times_featured": 2,
+      "last_featured": "2026-05-23"
     },
     "ibm-granite/granite-4.1-8b": {
-      "times_featured": 1,
-      "last_featured": "2026-05-09"
+      "times_featured": 2,
+      "last_featured": "2026-05-23"
     },
     "lucataco/glm-ocr": {
       "times_featured": 1,
@@ -495,6 +495,14 @@
     "google/gemini-3.1-pro": {
       "times_featured": 1,
       "last_featured": "2026-05-22"
+    },
+    "bytedance/seedance-1-lite": {
+      "times_featured": 1,
+      "last_featured": "2026-05-23"
+    },
+    "mptamilselvan/download-media": {
+      "times_featured": 1,
+      "last_featured": "2026-05-23"
     }
   }
 }

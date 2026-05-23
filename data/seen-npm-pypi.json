@@ -21,12 +21,12 @@
       "last_featured": "2026-05-21"
     },
     "pypi-pydantic": {
-      "times_featured": 4,
-      "last_featured": "2026-05-08"
+      "times_featured": 5,
+      "last_featured": "2026-05-23"
     },
     "pypi-fastapi": {
-      "times_featured": 4,
-      "last_featured": "2026-05-08"
+      "times_featured": 5,
+      "last_featured": "2026-05-23"
     },
     "pypi-langchain": {
       "times_featured": 4,
@@ -37,8 +37,8 @@
       "last_featured": "2026-05-22"
     },
     "pypi-tokenizers": {
-      "times_featured": 4,
-      "last_featured": "2026-05-09"
+      "times_featured": 5,
+      "last_featured": "2026-05-23"
     },
     "npm-proxy-agent": {
       "times_featured": 5,
@@ -73,28 +73,28 @@
       "last_featured": "2026-05-10"
     },
     "pypi-playwright": {
-      "times_featured": 4,
-      "last_featured": "2026-05-07"
+      "times_featured": 5,
+      "last_featured": "2026-05-23"
     },
     "pypi-weaviate-client": {
-      "times_featured": 4,
-      "last_featured": "2026-05-08"
+      "times_featured": 5,
+      "last_featured": "2026-05-23"
     },
     "npm-cypress": {
-      "times_featured": 4,
-      "last_featured": "2026-05-09"
+      "times_featured": 5,
+      "last_featured": "2026-05-23"
     },
     "npm-global-agent": {
-      "times_featured": 4,
-      "last_featured": "2026-05-09"
+      "times_featured": 5,
+      "last_featured": "2026-05-23"
     },
     "npm-@opentelemetry/instrumentation-openai": {
       "times_featured": 4,
       "last_featured": "2026-05-11"
     },
     "npm-selenium-webdriver": {
-      "times_featured": 4,
-      "last_featured": "2026-05-09"
+      "times_featured": 5,
+      "last_featured": "2026-05-23"
     },
     "npm-@appium/support": {
       "times_featured": 4,
@@ -121,8 +121,8 @@
       "last_featured": "2026-05-12"
     },
     "npm-semantic-release": {
-      "times_featured": 4,
-      "last_featured": "2026-05-09"
+      "times_featured": 5,
+      "last_featured": "2026-05-23"
     },
     "npm-@appium/schema": {
       "times_featured": 4,
@@ -387,6 +387,10 @@
     "npm-@genkit-ai/anthropic": {
       "times_featured": 1,
       "last_featured": "2026-05-20"
+    },
+    "npm-@tanstack/ai": {
+      "times_featured": 1,
+      "last_featured": "2026-05-23"
     }
   }
 }

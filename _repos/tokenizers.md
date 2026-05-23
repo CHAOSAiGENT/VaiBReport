@@ -3,25 +3,25 @@ layout: repo
 name: "tokenizers"
 source: pypi
 item_url: "https://pypi.org/project/tokenizers/"
-description: "Tokenizer library"
+description: "Tokenization library"
 category: "PyPI Packages"
 language: ""
 stars: 0
-downloads: 42246102
+downloads: 39652990
 likes: 0
 og_image: ""
 first_featured: "2026-03-23"
-last_featured: "2026-05-09"
-times_featured: 4
+last_featured: "2026-05-23"
+times_featured: 5
 streak: 0
 appearances: 0
 star_velocity: 0
 tags: [pypi, NLP, tokenizer, BPE, transformer, deep, learning]
 icp_tags: ["founding-team", "solopreneur"]
-replaces: [{"name":"NLTK","url":"https://www.nltk.org/","note":"popular"}]
+replaces: [{"name":"NLTK","url":"https://www.nltk.org/"},{"name":"spaCy","url":"https://spacy.io/"}]
 similar_to: []
 compare_to_source: "llm"
 compare_to_validated: false
 ---
 
-Tokenizer library
+Tokenization library

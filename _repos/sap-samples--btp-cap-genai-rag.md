@@ -3,7 +3,7 @@ layout: repo
 name: "SAP-samples/btp-cap-genai-rag"
 source: github
 item_url: "https://github.com/SAP-samples/btp-cap-genai-rag"
-description: "GenAI samples for SAP BTP"
+description: "Explores GenAI on SAP Business Technology Platform"
 category: "AI agents, LLM infra and RAG"
 language: "TypeScript"
 stars: 130
@@ -12,8 +12,8 @@ likes: 0
 readme_image: "https://api.reuse.software/badge/github.com/SAP-samples/btp-cap-genai-rag"
 og_image: "https://opengraph.githubassets.com/1/SAP-samples/btp-cap-genai-rag"
 first_featured: "2026-03-25"
-last_featured: "2026-05-09"
-times_featured: 4
+last_featured: "2026-05-23"
+times_featured: 5
 streak: 49
 appearances: 49
 star_velocity: 0
@@ -25,4 +25,4 @@ compare_to_source: "manual"
 compare_to_validated: false
 ---
 
-GenAI samples for SAP BTP
+Explores GenAI on SAP Business Technology Platform

@@ -11,16 +11,16 @@ downloads: 0
 likes: 4310
 og_image: "https://huggingface.co/api/spaces/KingNish/OpenGPT-4o/screenshot"
 first_featured: "2026-03-25"
-last_featured: "2026-05-09"
-times_featured: 4
+last_featured: "2026-05-23"
+times_featured: 5
 streak: 0
 appearances: 0
 star_velocity: 0
 tags: [huggingface, gradio, region:us]
 icp_tags: ["non-technical", "solopreneur", "entreprecurious"]
-replaces: [{"name":"GPT-3","url":"https://gpt3.com/","note":"popular"}]
+replaces: []
 similar_to: []
-compare_to_source: "llm"
+compare_to_source: "manual"
 compare_to_validated: false
 ---
 
