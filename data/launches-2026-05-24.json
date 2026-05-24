@@ -1,0 +1,98 @@
+{
+  "generated_at": "2026-05-24T09:13:36.135Z",
+  "source": "launches",
+  "counts": {
+    "producthunt": 11,
+    "total": 11
+  },
+  "launches": [
+    {
+      "id": "ph-1145223",
+      "name": "Memdex",
+      "description": "Turn every AI conversation into reusable local memory",
+      "url": "https://www.producthunt.com/r/LBMOK2KFA74TNE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 232,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1151353",
+      "name": "Google Antigravity CLI",
+      "description": "Run coding agents directly from your terminal",
+      "url": "https://www.producthunt.com/r/2VVOKDD4COMAK2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 228,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1123370",
+      "name": "Bulkmark",
+      "description": "Transform your Twitter/X Bookmarks into real knowledge",
+      "url": "https://www.producthunt.com/r/Z53TFCEI3FRGGB?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 148,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1153427",
+      "name": "Command A+",
+      "description": "Cohere’s open enterprise workhorse",
+      "url": "https://www.producthunt.com/r/2COYNUBDZ74L4C?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 114,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1145957",
+      "name": "Forsy",
+      "description": "Capture and sell your AI agent workflow data",
+      "url": "https://www.producthunt.com/r/A2U7PH6SGMMNIE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 107,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1153399",
+      "name": "Vibedock",
+      "description": "Toggle Claude Code MCP servers from your menu bar",
+      "url": "https://www.producthunt.com/r/I7KXQ2JJX74MTI?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 95,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1153019",
+      "name": "Spantop",
+      "description": "Turn any Mac into a real second monitor",
+      "url": "https://www.producthunt.com/r/HHW2Z6WJLC5ELD?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 93,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1144476",
+      "name": "Kosshi",
+      "description": "Simple, fast outliner for Mac and iPhone.",
+      "url": "https://www.producthunt.com/r/Q576PUC4HHUXQE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 91,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1153747",
+      "name": "SignalLEMO - Ai Outreach Made Simple",
+      "description": "AI-powered lead outreach for field service contractors",
+      "url": "https://www.producthunt.com/r/PQ4FEOKVCPB4VU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 82,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1147701",
+      "name": "Area Contrast Checker",
+      "description": "Drag, Select, Know. A new way to check A11y contrast",
+      "url": "https://www.producthunt.com/r/FQYUWSLEDTQSL5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 81,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1017611",
+      "name": "Finderlock",
+      "description": "Lock Mac files in Finder with Touch ID & AES-256",
+      "url": "https://www.producthunt.com/r/YB4WPNMIXON452?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 77,
+      "_source": "producthunt"
+    }
+  ]
+}
