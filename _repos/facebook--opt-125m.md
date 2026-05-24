@@ -3,16 +3,16 @@ layout: repo
 name: "facebook/opt-125m"
 source: huggingface-model
 item_url: "https://huggingface.co/facebook/opt-125m"
-description: "Opt 125m text generation model"
+description: "Opt-125m model"
 category: "HuggingFace Models"
 language: ""
 stars: 0
-downloads: 8598631
-likes: 250
+downloads: 9894588
+likes: 253
 og_image: ""
 first_featured: "2026-03-25"
-last_featured: "2026-05-10"
-times_featured: 4
+last_featured: "2026-05-24"
+times_featured: 5
 streak: 0
 appearances: 0
 star_velocity: 0
@@ -24,4 +24,4 @@ compare_to_source: "manual"
 compare_to_validated: false
 ---
 
-Opt 125m text generation model
+Opt-125m model

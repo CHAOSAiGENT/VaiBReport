@@ -12,17 +12,17 @@ likes: 0
 readme_image: "https://user-images.githubusercontent.com/32583/172424112-72bacfdd-17df-4024-81db-690dc47d0c81.png"
 og_image: "https://opengraph.githubassets.com/1/saas-js/saas-ui"
 first_featured: "2026-03-26"
-last_featured: "2026-05-10"
-times_featured: 4
+last_featured: "2026-05-24"
+times_featured: 5
 streak: 49
 appearances: 49
 star_velocity: 0
 tags: [github, accessible, chakra-ui, components, design-system, emotion, library, react, react-components]
 icp_tags: ["founding-team", "solopreneur", "pre-mvp"]
-replaces: [{"name":"Material-UI","url":"https://material-ui.com","note":"React components"}]
+replaces: [{"name":"Material-UI","url":"https://material-ui.com"}]
 similar_to: []
 compare_to_source: "llm"
-compare_to_validated: true
+compare_to_validated: false
 ---
 
 React component library for startups

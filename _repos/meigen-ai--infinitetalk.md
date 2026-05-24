@@ -11,8 +11,8 @@ downloads: 0
 likes: 0
 og_image: "https://opengraph.githubassets.com/1/MeiGen-AI/InfiniteTalk"
 first_featured: "2026-03-27"
-last_featured: "2026-05-10"
-times_featured: 4
+last_featured: "2026-05-24"
+times_featured: 5
 streak: 49
 appearances: 49
 star_velocity: 23

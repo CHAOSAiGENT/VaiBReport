@@ -12,8 +12,8 @@ likes: 0
 readme_image: "https://youtu.be/O669pVZ_qr0"
 og_image: "https://opengraph.githubassets.com/1/JCodesMore/ai-website-cloner-template"
 first_featured: "2026-03-29"
-last_featured: "2026-05-10"
-times_featured: 4
+last_featured: "2026-05-24"
+times_featured: 5
 streak: 26
 appearances: 26
 star_velocity: 179
@@ -22,7 +22,7 @@ icp_tags: ["founding-team", "pre-mvp", "entreprecurious"]
 replaces: []
 similar_to: []
 compare_to_source: "manual"
-compare_to_validated: true
+compare_to_validated: false
 ---
 
 Clone websites with AI coding agents

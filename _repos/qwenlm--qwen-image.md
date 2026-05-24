@@ -12,17 +12,17 @@ likes: 0
 readme_image: "https://qianwen-res.oss-cn-beijing.aliyuncs.com/Qwen-Image/bench.png#center"
 og_image: "https://opengraph.githubassets.com/1/QwenLM/Qwen-Image"
 first_featured: "2026-03-26"
-last_featured: "2026-05-10"
-times_featured: 4
+last_featured: "2026-05-24"
+times_featured: 5
 streak: 49
 appearances: 49
 star_velocity: 4
 tags: [github]
 icp_tags: ["solopreneur", "non-technical", "entreprecurious"]
-replaces: []
+replaces: [{"name":"DALL-E","url":"https://dalle-mini.com"}]
 similar_to: []
-compare_to_source: "manual"
-compare_to_validated: true
+compare_to_source: "llm"
+compare_to_validated: false
 ---
 
 Image generation foundation model

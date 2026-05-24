@@ -89,8 +89,8 @@
       "last_featured": "2026-05-14"
     },
     "dima806/fairface_age_image_detection": {
-      "times_featured": 5,
-      "last_featured": "2026-05-10"
+      "times_featured": 6,
+      "last_featured": "2026-05-24"
     },
     "hf-doc-build/doc-build": {
       "times_featured": 3,
@@ -149,8 +149,8 @@
       "last_featured": "2026-05-22"
     },
     "facebook/opt-125m": {
-      "times_featured": 4,
-      "last_featured": "2026-05-10"
+      "times_featured": 5,
+      "last_featured": "2026-05-24"
     },
     "openai/gpt-oss-20b": {
       "times_featured": 4,
@@ -173,32 +173,32 @@
       "last_featured": "2026-03-25"
     },
     "InstantX/InstantID": {
-      "times_featured": 4,
-      "last_featured": "2026-05-10"
+      "times_featured": 5,
+      "last_featured": "2026-05-24"
     },
     "tencent/Hunyuan3D-2": {
-      "times_featured": 4,
-      "last_featured": "2026-05-10"
+      "times_featured": 5,
+      "last_featured": "2026-05-24"
     },
     "hexgrad/Kokoro-TTS": {
-      "times_featured": 4,
-      "last_featured": "2026-05-10"
+      "times_featured": 5,
+      "last_featured": "2026-05-24"
     },
     "akhaliq/anycoder": {
-      "times_featured": 4,
-      "last_featured": "2026-05-10"
+      "times_featured": 5,
+      "last_featured": "2026-05-24"
     },
     "HuggingFaceTB/smol-training-playbook": {
-      "times_featured": 4,
-      "last_featured": "2026-05-10"
+      "times_featured": 5,
+      "last_featured": "2026-05-24"
     },
     "meta-llama/Llama-3.2-3B-Instruct": {
       "times_featured": 2,
       "last_featured": "2026-04-14"
     },
     "trl-internal-testing/tiny-Qwen2ForCausalLM-2.5": {
-      "times_featured": 4,
-      "last_featured": "2026-05-10"
+      "times_featured": 5,
+      "last_featured": "2026-05-24"
     },
     "Qwen/Qwen3-4B": {
       "times_featured": 5,
@@ -249,8 +249,8 @@
       "last_featured": "2026-05-23"
     },
     "Qwen/Qwen3-4B-Instruct-2507": {
-      "times_featured": 4,
-      "last_featured": "2026-05-10"
+      "times_featured": 5,
+      "last_featured": "2026-05-24"
     },
     "jonatasgrosman/wav2vec2-large-xlsr-53-portuguese": {
       "times_featured": 4,
@@ -309,8 +309,8 @@
       "last_featured": "2026-04-16"
     },
     "openai/whisper-large-v3-turbo": {
-      "times_featured": 4,
-      "last_featured": "2026-05-10"
+      "times_featured": 5,
+      "last_featured": "2026-05-24"
     },
     "openai/whisper-large-v3": {
       "times_featured": 4,
@@ -705,8 +705,8 @@
       "last_featured": "2026-05-22"
     },
     "hf-doc-build/doc-build-dev": {
-      "times_featured": 2,
-      "last_featured": "2026-05-10"
+      "times_featured": 3,
+      "last_featured": "2026-05-24"
     },
     "Qwen/Qwen2-1.5B-Instruct": {
       "times_featured": 2,
@@ -765,8 +765,8 @@
       "last_featured": "2026-05-23"
     },
     "YiboZhang2001/TexVerse": {
-      "times_featured": 1,
-      "last_featured": "2026-05-10"
+      "times_featured": 2,
+      "last_featured": "2026-05-24"
     },
     "nvidia/OCR-Synthetic-Multilingual-v1": {
       "times_featured": 1,
@@ -819,6 +819,10 @@
     "SWE-bench/SWE-bench_Multilingual": {
       "times_featured": 1,
       "last_featured": "2026-05-23"
+    },
+    "japanese-asr/whisper_transcriptions.reazon_speech_all": {
+      "times_featured": 1,
+      "last_featured": "2026-05-24"
     }
   }
 }

@@ -7,21 +7,21 @@ description: "Whisper large v3 turbo"
 category: "HuggingFace Models"
 language: ""
 stars: 0
-downloads: 6839973
-likes: 3001
+downloads: 7710286
+likes: 3028
 og_image: ""
 first_featured: "2026-03-28"
-last_featured: "2026-05-10"
-times_featured: 4
+last_featured: "2026-05-24"
+times_featured: 5
 streak: 0
 appearances: 0
 star_velocity: 0
 tags: [huggingface, transformers, safetensors, whisper, automatic-speech-recognition, audio, en, zh, de]
 icp_tags: ["founding-team", "pre-mvp"]
-replaces: [{"name":"Google Cloud Speech-to-Text","url":"https://cloud.google.com/speech-to-text","note":"speech recognition"}]
+replaces: []
 similar_to: []
-compare_to_source: "llm"
-compare_to_validated: true
+compare_to_source: "manual"
+compare_to_validated: false
 ---
 
 Whisper large v3 turbo

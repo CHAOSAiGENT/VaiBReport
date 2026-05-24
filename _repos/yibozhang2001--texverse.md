@@ -7,12 +7,12 @@ description: "TexVerse dataset"
 category: "HuggingFace Datasets"
 language: ""
 stars: 0
-downloads: 799782
+downloads: 772241
 likes: 0
 og_image: ""
 first_featured: "2026-05-10"
-last_featured: "2026-05-10"
-times_featured: 1
+last_featured: "2026-05-24"
+times_featured: 2
 streak: 0
 appearances: 0
 star_velocity: 0

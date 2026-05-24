@@ -12,17 +12,17 @@ likes: 0
 readme_image: "https://raw.githubusercontent.com/NextJSTemplates/startup-nextjs/main/startup-pro.webp"
 og_image: "https://opengraph.githubassets.com/1/NextJSTemplates/startup-nextjs"
 first_featured: "2026-03-26"
-last_featured: "2026-05-10"
-times_featured: 4
+last_featured: "2026-05-24"
+times_featured: 5
 streak: 49
 appearances: 49
 star_velocity: 0
 tags: [github, business, free, next, next-js, nextjs, nextjs-boilerplate, nextjs-template, react]
 icp_tags: ["founding-team", "solopreneur", "pre-mvp"]
-replaces: [{"name":"Webflow","url":"https://webflow.com","note":"website builder"}]
+replaces: []
 similar_to: []
-compare_to_source: "llm"
-compare_to_validated: true
+compare_to_source: "manual"
+compare_to_validated: false
 ---
 
 Next.js template for SaaS startups

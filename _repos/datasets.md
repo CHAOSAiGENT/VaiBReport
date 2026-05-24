@@ -3,16 +3,16 @@ layout: repo
 name: "datasets"
 source: pypi
 item_url: "https://pypi.org/project/datasets/"
-description: "HuggingFace datasets library"
+description: "HuggingFace community-driven datasets"
 category: "PyPI Packages"
 language: ""
 stars: 0
-downloads: 29937958
+downloads: 27945462
 likes: 0
 og_image: ""
 first_featured: "2026-03-24"
-last_featured: "2026-05-10"
-times_featured: 4
+last_featured: "2026-05-24"
+times_featured: 5
 streak: 0
 appearances: 0
 star_velocity: 0
@@ -21,7 +21,7 @@ icp_tags: ["founding-team", "solopreneur"]
 replaces: []
 similar_to: []
 compare_to_source: "manual"
-compare_to_validated: true
+compare_to_validated: false
 ---
 
-HuggingFace datasets library
+HuggingFace community-driven datasets

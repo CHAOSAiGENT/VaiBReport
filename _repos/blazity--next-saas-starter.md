@@ -12,17 +12,17 @@ likes: 0
 readme_image: "https://vercel.com/button"
 og_image: "https://opengraph.githubassets.com/1/Blazity/next-saas-starter"
 first_featured: "2026-03-26"
-last_featured: "2026-05-10"
-times_featured: 4
+last_featured: "2026-05-24"
+times_featured: 5
 streak: 49
 appearances: 49
 star_velocity: 0
 tags: [github, hacktoberfest, jamstack, jamstack-theme, landing-page, marketing-page, next, next-starter, nextjs]
 icp_tags: ["founding-team", "solopreneur", "pre-mvp"]
-replaces: [{"name":"Wix","url":"https://www.wix.com","note":"website builder"},{"name":"Squarespace","url":"https://www.squarespace.com","note":"website builder"}]
+replaces: [{"name":"Webflow","url":"https://webflow.com"},{"name":"Wix","url":"https://wix.com"}]
 similar_to: []
 compare_to_source: "llm"
-compare_to_validated: true
+compare_to_validated: false
 ---
 
 Free Next.js landing page template
