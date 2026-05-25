@@ -3,25 +3,25 @@ layout: repo
 name: "argmaxinc/whisperkit-coreml"
 source: huggingface-model
 item_url: "https://huggingface.co/argmaxinc/whisperkit-coreml"
-description: "Automatic speech recognition model"
+description: "Whisper AI model for CoreML"
 category: "HuggingFace Models"
 language: ""
 stars: 0
-downloads: 10934303
-likes: 175
+downloads: 10348317
+likes: 181
 og_image: ""
 first_featured: "2026-03-27"
-last_featured: "2026-05-11"
-times_featured: 4
+last_featured: "2026-05-25"
+times_featured: 5
 streak: 0
 appearances: 0
 star_velocity: 0
 tags: [huggingface, whisperkit, coreml, whisper, asr, quantized, automatic-speech-recognition, region:us]
 icp_tags: ["founding-team", "pre-mvp"]
-replaces: [{"name":"Google Cloud Speech-to-Text","url":"https://cloud.google.com/speech-to-text"}]
+replaces: []
 similar_to: []
-compare_to_source: "llm"
+compare_to_source: "manual"
 compare_to_validated: false
 ---
 
-Automatic speech recognition model
+Whisper AI model for CoreML

@@ -12,8 +12,8 @@ likes: 0
 readme_image: "https://raw.githubusercontent.com/yt-dlp/yt-dlp/master/.github/banner.svg"
 og_image: "https://opengraph.githubassets.com/1/yt-dlp/yt-dlp"
 first_featured: "2026-03-23"
-last_featured: "2026-05-11"
-times_featured: 4
+last_featured: "2026-05-25"
+times_featured: 5
 streak: 5
 appearances: 15
 star_velocity: 264

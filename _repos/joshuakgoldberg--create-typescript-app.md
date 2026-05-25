@@ -12,8 +12,8 @@ likes: 0
 readme_image: "https://avatars.githubusercontent.com/u/459267?v=4?s=100"
 og_image: "https://opengraph.githubassets.com/1/JoshuaKGoldberg/create-typescript-app"
 first_featured: "2026-03-27"
-last_featured: "2026-05-11"
-times_featured: 4
+last_featured: "2026-05-25"
+times_featured: 5
 streak: 49
 appearances: 49
 star_velocity: 0

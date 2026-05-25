@@ -3,7 +3,7 @@ layout: repo
 name: "showlab/Awesome-Video-Diffusion"
 source: github
 item_url: "https://github.com/showlab/Awesome-Video-Diffusion"
-description: "A curated list of recent diffusion models for video generation, editing, and various other applications."
+description: "Curated list of video diffusion models"
 category: "UGC, social media and creator tools"
 language: ""
 stars: 5615
@@ -12,8 +12,8 @@ likes: 0
 readme_image: "https://makeavideo.studio/assets/overview.webp"
 og_image: "https://opengraph.githubassets.com/1/showlab/Awesome-Video-Diffusion"
 first_featured: "2026-03-26"
-last_featured: "2026-05-11"
-times_featured: 4
+last_featured: "2026-05-25"
+times_featured: 5
 streak: 49
 appearances: 49
 star_velocity: 1
@@ -25,4 +25,4 @@ compare_to_source: "manual"
 compare_to_validated: false
 ---
 
-A curated list of recent diffusion models for video generation, editing, and various other applications.
+Curated list of video diffusion models

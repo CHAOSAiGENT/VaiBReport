@@ -217,28 +217,28 @@
       "last_featured": "2026-04-25"
     },
     "openai/gsm8k": {
-      "times_featured": 4,
-      "last_featured": "2026-05-11"
+      "times_featured": 5,
+      "last_featured": "2026-05-25"
     },
     "princeton-nlp/SWE-bench_Verified": {
       "times_featured": 4,
       "last_featured": "2026-05-12"
     },
     "mukaist/Midjourney": {
-      "times_featured": 4,
-      "last_featured": "2026-05-11"
+      "times_featured": 5,
+      "last_featured": "2026-05-25"
     },
     "pharmapsychotic/CLIP-Interrogator": {
-      "times_featured": 4,
-      "last_featured": "2026-05-11"
+      "times_featured": 5,
+      "last_featured": "2026-05-25"
     },
     "zerogpu-aoti/wan2-2-fp8da-aoti-faster": {
-      "times_featured": 4,
-      "last_featured": "2026-05-11"
+      "times_featured": 5,
+      "last_featured": "2026-05-25"
     },
     "mrfakename/E2-F5-TTS": {
-      "times_featured": 4,
-      "last_featured": "2026-05-11"
+      "times_featured": 5,
+      "last_featured": "2026-05-25"
     },
     "sanchit-gandhi/whisper-jax": {
       "times_featured": 4,
@@ -257,8 +257,8 @@
       "last_featured": "2026-05-13"
     },
     "argmaxinc/whisperkit-coreml": {
-      "times_featured": 4,
-      "last_featured": "2026-05-11"
+      "times_featured": 5,
+      "last_featured": "2026-05-25"
     },
     "Marqo/nsfw-image-detection-384": {
       "times_featured": 4,
@@ -293,16 +293,16 @@
       "last_featured": "2026-05-12"
     },
     "mrfakename/Z-Image-Turbo": {
-      "times_featured": 4,
-      "last_featured": "2026-05-11"
+      "times_featured": 5,
+      "last_featured": "2026-05-25"
     },
     "Qwen/Qwen3-Embedding-0.6B": {
-      "times_featured": 4,
-      "last_featured": "2026-05-11"
+      "times_featured": 5,
+      "last_featured": "2026-05-25"
     },
     "BAAI/bge-base-en-v1.5": {
-      "times_featured": 4,
-      "last_featured": "2026-05-11"
+      "times_featured": 5,
+      "last_featured": "2026-05-25"
     },
     "jonatasgrosman/wav2vec2-large-xlsr-53-chinese-zh-cn": {
       "times_featured": 2,
@@ -445,12 +445,12 @@
       "last_featured": "2026-05-11"
     },
     "xlangai/ubuntu_osworld_file_cache": {
-      "times_featured": 3,
-      "last_featured": "2026-05-11"
+      "times_featured": 4,
+      "last_featured": "2026-05-25"
     },
     "mteb/results": {
-      "times_featured": 3,
-      "last_featured": "2026-05-11"
+      "times_featured": 4,
+      "last_featured": "2026-05-25"
     },
     "ayuo/hd_tmp": {
       "times_featured": 3,
@@ -517,8 +517,8 @@
       "last_featured": "2026-05-15"
     },
     "jonatasgrosman/wav2vec2-large-xlsr-53-japanese": {
-      "times_featured": 1,
-      "last_featured": "2026-04-17"
+      "times_featured": 2,
+      "last_featured": "2026-05-25"
     },
     "Salesforce/blip-image-captioning-base": {
       "times_featured": 3,
@@ -823,6 +823,10 @@
     "japanese-asr/whisper_transcriptions.reazon_speech_all": {
       "times_featured": 1,
       "last_featured": "2026-05-24"
+    },
+    "google/gemma-3-270m": {
+      "times_featured": 1,
+      "last_featured": "2026-05-25"
     }
   }
 }

@@ -11,8 +11,8 @@ downloads: 0
 likes: 0
 og_image: "https://opengraph.githubassets.com/1/getpaykit/paykit"
 first_featured: "2026-03-30"
-last_featured: "2026-05-11"
-times_featured: 4
+last_featured: "2026-05-25"
+times_featured: 5
 streak: 25
 appearances: 25
 star_velocity: 3

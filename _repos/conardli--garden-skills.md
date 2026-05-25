@@ -11,8 +11,8 @@ downloads: 0
 likes: 0
 og_image: "https://opengraph.githubassets.com/1/ConardLi/garden-skills"
 first_featured: "2026-04-27"
-last_featured: "2026-05-11"
-times_featured: 2
+last_featured: "2026-05-25"
+times_featured: 3
 streak: 5
 appearances: 5
 star_velocity: 130

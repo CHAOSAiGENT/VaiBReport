@@ -169,8 +169,8 @@
       "last_featured": "2026-05-24"
     },
     "npm-@genkit-ai/google-cloud": {
-      "times_featured": 4,
-      "last_featured": "2026-05-11"
+      "times_featured": 5,
+      "last_featured": "2026-05-25"
     },
     "npm-@genkit-ai/google-genai": {
       "times_featured": 4,
@@ -391,6 +391,14 @@
     "npm-@tanstack/ai": {
       "times_featured": 1,
       "last_featured": "2026-05-23"
+    },
+    "npm-@tanstack/ai-client": {
+      "times_featured": 1,
+      "last_featured": "2026-05-25"
+    },
+    "npm-@tanstack/ai-openrouter": {
+      "times_featured": 1,
+      "last_featured": "2026-05-25"
     }
   }
 }
