@@ -89,8 +89,8 @@
       "last_featured": "2026-04-12"
     },
     "nelsonjchen/op-replay-clipper": {
-      "times_featured": 4,
-      "last_featured": "2026-05-10"
+      "times_featured": 5,
+      "last_featured": "2026-05-26"
     },
     "xai/grok-imagine-r2v": {
       "times_featured": 1,
@@ -503,6 +503,14 @@
     "mptamilselvan/download-media": {
       "times_featured": 1,
       "last_featured": "2026-05-23"
+    },
+    "google/gemini-3-flash": {
+      "times_featured": 1,
+      "last_featured": "2026-05-26"
+    },
+    "arsocekaj/anime-sdxl-v17": {
+      "times_featured": 1,
+      "last_featured": "2026-05-26"
     }
   }
 }
