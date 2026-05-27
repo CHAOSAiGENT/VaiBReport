@@ -3,16 +3,16 @@ layout: repo
 name: "sczhou/CodeFormer"
 source: huggingface-space
 item_url: "https://huggingface.co/spaces/sczhou/CodeFormer"
-description: "Code generation"
+description: "CodeFormer"
 category: "HuggingFace Spaces"
 language: ""
 stars: 0
 downloads: 0
-likes: 2378
+likes: 2385
 og_image: "https://huggingface.co/api/spaces/sczhou/CodeFormer/screenshot"
 first_featured: "2026-03-29"
-last_featured: "2026-05-13"
-times_featured: 4
+last_featured: "2026-05-27"
+times_featured: 5
 streak: 0
 appearances: 0
 star_velocity: 0
@@ -24,4 +24,4 @@ compare_to_source: "manual"
 compare_to_validated: false
 ---
 
-Code generation
+CodeFormer

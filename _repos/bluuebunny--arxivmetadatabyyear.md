@@ -3,16 +3,16 @@ layout: repo
 name: "bluuebunny/arxiv_metadata_by_year"
 source: huggingface-dataset
 item_url: "https://huggingface.co/datasets/bluuebunny/arxiv_metadata_by_year"
-description: "Arxiv metadata by year"
+description: "arxiv_metadata_by_year"
 category: "HuggingFace Datasets"
 language: ""
 stars: 0
-downloads: 1515415
+downloads: 1608895
 likes: 0
 og_image: ""
 first_featured: "2026-05-13"
-last_featured: "2026-05-13"
-times_featured: 1
+last_featured: "2026-05-27"
+times_featured: 2
 streak: 0
 appearances: 0
 star_velocity: 0
@@ -24,4 +24,4 @@ compare_to_source: "manual"
 compare_to_validated: false
 ---
 
-Arxiv metadata by year
+arxiv_metadata_by_year
