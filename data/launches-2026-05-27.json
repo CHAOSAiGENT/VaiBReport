@@ -1,0 +1,130 @@
+{
+  "generated_at": "2026-05-27T10:47:06.520Z",
+  "source": "launches",
+  "counts": {
+    "producthunt": 15,
+    "total": 15
+  },
+  "launches": [
+    {
+      "id": "ph-1149886",
+      "name": "Brew ",
+      "description": "Like Claude design for email marketing",
+      "url": "https://www.producthunt.com/r/3Q7DPTEXUJAFUG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 670,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1033481",
+      "name": "Bond",
+      "description": "Outbound campaigns powered by real buying signals",
+      "url": "https://www.producthunt.com/r/H7KRMGFGCJKRRE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 391,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1151167",
+      "name": "Rezonant",
+      "description": "Talk, spec, ship: get your product ideas into production",
+      "url": "https://www.producthunt.com/r/P2UMFH5P4HQXTO?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 288,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1155470",
+      "name": "QuakPit",
+      "description": "Meeting reminders that actually make you smile.",
+      "url": "https://www.producthunt.com/r/NFFTBPDU53TPNM?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 217,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1155711",
+      "name": "Parrot Speech-to-text API",
+      "description": "Fast, accurate STT for production-grade voice agents",
+      "url": "https://www.producthunt.com/r/IX5OZ7CV6SI4OU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 180,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1150786",
+      "name": "AVTR-1 Real-Time Open Weights Model",
+      "description": "Generating uncanny AI avatars is now open source ",
+      "url": "https://www.producthunt.com/r/EGSCZSVR62KZCS?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 170,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1153739",
+      "name": "Willow Scribe",
+      "description": "Tell Scribe what to say. It writes the rest.",
+      "url": "https://www.producthunt.com/r/AO2NOTZUBFQK3O?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 142,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1155865",
+      "name": "SelectPrism",
+      "description": "Agents that screen and interview so you can hire faster",
+      "url": "https://www.producthunt.com/r/4VL6AK4IIDLZKJ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 136,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1155776",
+      "name": "DodoForm",
+      "description": "Turn talking, pics, or scribbles into clean, structured data",
+      "url": "https://www.producthunt.com/r/2SWAHLASEKFJE3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 119,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1153666",
+      "name": "Parsewise API",
+      "description": "API for agentic multi-document processing",
+      "url": "https://www.producthunt.com/r/CWT4ACHYNDIHZZ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 117,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1154818",
+      "name": "marpy.io",
+      "description": "AI coding platform built specifically for the Python stack",
+      "url": "https://www.producthunt.com/r/MVZRIP22XPRUOQ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 105,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1150599",
+      "name": "Kept",
+      "description": "Your AI chats, saved as Markdown locally with no cloud",
+      "url": "https://www.producthunt.com/r/XQWKMWHOT4ICUA?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 104,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1150115",
+      "name": "crunr ",
+      "description": "Launch and run any compute job on AWS with 1 command",
+      "url": "https://www.producthunt.com/r/O3WNV4L7HR6VGR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 103,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1155885",
+      "name": "MiniCPM5-1B",
+      "description": "A new SOTA for compact open models on the edge",
+      "url": "https://www.producthunt.com/r/ACYE3CO2MTHT27?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 95,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1150203",
+      "name": "DNSimple CLI",
+      "description": "Manage Your DNS from the Command Line with DNSimple CLI",
+      "url": "https://www.producthunt.com/r/V3AE7ZDLDU3RJ5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 92,
+      "_source": "producthunt"
+    }
+  ]
+}
