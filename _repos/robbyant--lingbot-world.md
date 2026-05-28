@@ -11,17 +11,17 @@ downloads: 0
 likes: 0
 og_image: "https://opengraph.githubassets.com/1/Robbyant/lingbot-world"
 first_featured: "2026-03-30"
-last_featured: "2026-05-14"
-times_featured: 4
+last_featured: "2026-05-28"
+times_featured: 5
 streak: 49
 appearances: 49
 star_velocity: 11
 tags: [github, aigc, image-to-video, lingbot-world, video-generation, world-models]
 icp_tags: ["solopreneur", "non-technical", "entreprecurious"]
-replaces: []
+replaces: [{"name":"Google Cloud AI Platform","url":"https://cloud.google.com/ai-platform","note":"world models"}]
 similar_to: []
-compare_to_source: "manual"
-compare_to_validated: true
+compare_to_source: "llm"
+compare_to_validated: false
 ---
 
 Open-source world models

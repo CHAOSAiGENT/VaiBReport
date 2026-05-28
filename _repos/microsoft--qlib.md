@@ -12,17 +12,17 @@ likes: 0
 readme_image: "https://readthedocs.org/projects/qlib/badge/?version=latest"
 og_image: "https://opengraph.githubassets.com/1/microsoft/qlib"
 first_featured: "2026-03-30"
-last_featured: "2026-05-14"
-times_featured: 4
+last_featured: "2026-05-28"
+times_featured: 5
 streak: 2
 appearances: 10
 star_velocity: 126
 tags: [github]
 icp_tags: ["founding-team", "pre-mvp", "entreprecurious"]
-replaces: []
+replaces: [{"name":"Zipline","url":"https://zipline.io","note":"backtesting"}]
 similar_to: []
-compare_to_source: "manual"
-compare_to_validated: true
+compare_to_source: "llm"
+compare_to_validated: false
 ---
 
 AI quant investment platform

@@ -12,17 +12,17 @@ likes: 0
 readme_image: "https://discord.com/api/guilds/660711235766976553/widget.png?style=shield"
 og_image: "https://opengraph.githubassets.com/1/KevinNovak/Discord-Bot-TypeScript-Template"
 first_featured: "2026-03-30"
-last_featured: "2026-05-14"
-times_featured: 4
+last_featured: "2026-05-28"
+times_featured: 5
 streak: 49
 appearances: 49
 star_velocity: 0
 tags: [github, boilerplate, bot, bot-framework, bots, discord, discord-api, discord-bot, discord-bot-template]
 icp_tags: ["founding-team", "solopreneur", "pre-mvp"]
-replaces: [{"name":"Discord.js","url":"https://discord.js.org","note":"bot template"}]
+replaces: [{"name":"discord.js","url":"https://discord.js.org","note":"template"}]
 similar_to: []
 compare_to_source: "llm"
-compare_to_validated: true
+compare_to_validated: false
 ---
 
 Discord bot template

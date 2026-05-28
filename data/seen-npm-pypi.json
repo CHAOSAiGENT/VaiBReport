@@ -109,24 +109,24 @@
       "last_featured": "2026-05-22"
     },
     "pypi-streamlit": {
-      "times_featured": 4,
-      "last_featured": "2026-05-11"
+      "times_featured": 5,
+      "last_featured": "2026-05-28"
     },
     "pypi-accelerate": {
       "times_featured": 5,
       "last_featured": "2026-05-27"
     },
     "pypi-cohere": {
-      "times_featured": 4,
-      "last_featured": "2026-05-12"
+      "times_featured": 5,
+      "last_featured": "2026-05-28"
     },
     "npm-semantic-release": {
       "times_featured": 5,
       "last_featured": "2026-05-23"
     },
     "npm-@appium/schema": {
-      "times_featured": 4,
-      "last_featured": "2026-05-14"
+      "times_featured": 5,
+      "last_featured": "2026-05-28"
     },
     "npm-agent-browser": {
       "times_featured": 1,
@@ -141,16 +141,16 @@
       "last_featured": "2026-05-24"
     },
     "pypi-mistralai": {
-      "times_featured": 4,
-      "last_featured": "2026-05-11"
+      "times_featured": 5,
+      "last_featured": "2026-05-28"
     },
     "pypi-gradio": {
-      "times_featured": 4,
-      "last_featured": "2026-05-14"
+      "times_featured": 5,
+      "last_featured": "2026-05-28"
     },
     "pypi-groq": {
-      "times_featured": 4,
-      "last_featured": "2026-05-09"
+      "times_featured": 5,
+      "last_featured": "2026-05-28"
     },
     "pypi-ollama": {
       "times_featured": 5,
@@ -213,8 +213,8 @@
       "last_featured": "2026-05-27"
     },
     "npm-@genkit-ai/vertexai": {
-      "times_featured": 4,
-      "last_featured": "2026-05-14"
+      "times_featured": 5,
+      "last_featured": "2026-05-28"
     },
     "npm-@google/stitch-sdk": {
       "times_featured": 5,
@@ -249,8 +249,8 @@
       "last_featured": "2026-04-16"
     },
     "npm-@genkit-ai/compat-oai": {
-      "times_featured": 4,
-      "last_featured": "2026-05-14"
+      "times_featured": 5,
+      "last_featured": "2026-05-28"
     },
     "npm-@m2d/html": {
       "times_featured": 2,
@@ -285,8 +285,8 @@
       "last_featured": "2026-05-27"
     },
     "npm-@appium/logger": {
-      "times_featured": 3,
-      "last_featured": "2026-05-13"
+      "times_featured": 4,
+      "last_featured": "2026-05-28"
     },
     "npm-@applitools/utils": {
       "times_featured": 1,
@@ -309,8 +309,8 @@
       "last_featured": "2026-05-16"
     },
     "npm-@appium/base-driver": {
-      "times_featured": 3,
-      "last_featured": "2026-05-14"
+      "times_featured": 4,
+      "last_featured": "2026-05-28"
     },
     "npm-@appium/tsconfig": {
       "times_featured": 4,

@@ -12,8 +12,8 @@ likes: 0
 readme_image: "https://user-images.githubusercontent.com/241032/192042695-522b3ec7-6845-494a-abdb-d1c0d0e23801.png"
 og_image: "https://opengraph.githubassets.com/1/9001/copyparty"
 first_featured: "2026-03-28"
-last_featured: "2026-05-14"
-times_featured: 3
+last_featured: "2026-05-28"
+times_featured: 4
 streak: 2
 appearances: 6
 star_velocity: 27
@@ -22,7 +22,7 @@ icp_tags: ["founding-team", "entreprecurious"]
 replaces: [{"name":"Nextcloud","url":"https://nextcloud.com","note":"file server"}]
 similar_to: []
 compare_to_source: "llm"
-compare_to_validated: true
+compare_to_validated: false
 ---
 
 Portable file server

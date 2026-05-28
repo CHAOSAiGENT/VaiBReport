@@ -12,17 +12,17 @@ likes: 0
 readme_image: "https://github.com/microsoft/PowerToys/releases"
 og_image: "https://opengraph.githubassets.com/1/microsoft/PowerToys"
 first_featured: "2026-04-30"
-last_featured: "2026-05-14"
-times_featured: 2
+last_featured: "2026-05-28"
+times_featured: 3
 streak: 3
 appearances: 11
 star_velocity: 216
 tags: [github]
 icp_tags: ["founding-team", "entreprecurious"]
-replaces: []
+replaces: [{"name":"AutoHotkey","url":"https://www.autohotkey.com","note":"productivity"}]
 similar_to: []
-compare_to_source: "manual"
-compare_to_validated: true
+compare_to_source: "llm"
+compare_to_validated: false
 ---
 
 Windows productivity tools
