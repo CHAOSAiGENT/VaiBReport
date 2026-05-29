@@ -345,8 +345,8 @@
       "last_featured": "2026-04-29"
     },
     "prunaai/p-video-avatar": {
-      "times_featured": 2,
-      "last_featured": "2026-05-14"
+      "times_featured": 3,
+      "last_featured": "2026-05-29"
     },
     "topogoogles/topogoogles5": {
       "times_featured": 1,
@@ -519,6 +519,14 @@
     "anthropic/claude-sonnet-4.6": {
       "times_featured": 1,
       "last_featured": "2026-05-28"
+    },
+    "krea/krea-2-medium": {
+      "times_featured": 1,
+      "last_featured": "2026-05-29"
+    },
+    "krea/krea-2-large": {
+      "times_featured": 1,
+      "last_featured": "2026-05-29"
     }
   }
 }

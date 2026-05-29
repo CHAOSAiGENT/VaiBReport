@@ -3,25 +3,25 @@ layout: repo
 name: "unstructured"
 source: pypi
 item_url: "https://pypi.org/project/unstructured/"
-description: "Unstructured"
+description: "Library for document preprocessing"
 category: "PyPI Packages"
 language: ""
 stars: 0
-downloads: 1214696
+downloads: 1336487
 likes: 0
 og_image: ""
 first_featured: "2026-03-28"
-last_featured: "2026-05-13"
-times_featured: 4
+last_featured: "2026-05-29"
+times_featured: 5
 streak: 0
 appearances: 0
 star_velocity: 0
 tags: [pypi, CV, HTML, NLP, PDF, XML, parsing, preprocessing]
 icp_tags: ["founding-team", "solopreneur"]
-replaces: []
+replaces: [{"name":"Apache Tika","url":"https://tika.apache.org","note":"document analysis"}]
 similar_to: []
-compare_to_source: "manual"
+compare_to_source: "llm"
 compare_to_validated: false
 ---
 
-Unstructured
+Library for document preprocessing

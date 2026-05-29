@@ -7,12 +7,12 @@ description: "Firebase Genkit AI framework plugin for OpenAI APIs."
 category: "npm Packages"
 language: ""
 stars: 0
-downloads: 21424
+downloads: 17749
 likes: 0
 og_image: ""
 first_featured: "2026-03-30"
-last_featured: "2026-05-15"
-times_featured: 4
+last_featured: "2026-05-29"
+times_featured: 5
 streak: 0
 appearances: 0
 star_velocity: 0

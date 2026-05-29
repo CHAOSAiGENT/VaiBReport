@@ -8,11 +8,11 @@ category: "HuggingFace Spaces"
 language: ""
 stars: 0
 downloads: 0
-likes: 2101
+likes: 2106
 og_image: "https://huggingface.co/api/spaces/yisol/IDM-VTON/screenshot"
 first_featured: "2026-03-30"
-last_featured: "2026-05-15"
-times_featured: 4
+last_featured: "2026-05-29"
+times_featured: 5
 streak: 0
 appearances: 0
 star_velocity: 0

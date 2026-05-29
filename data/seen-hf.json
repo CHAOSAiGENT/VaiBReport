@@ -365,8 +365,8 @@
       "last_featured": "2026-05-17"
     },
     "Kthera/pesoz": {
-      "times_featured": 4,
-      "last_featured": "2026-05-15"
+      "times_featured": 5,
+      "last_featured": "2026-05-29"
     },
     "lavita/medical-qa-shared-task-v1-toy": {
       "times_featured": 4,
@@ -393,8 +393,8 @@
       "last_featured": "2026-05-28"
     },
     "yisol/IDM-VTON": {
-      "times_featured": 4,
-      "last_featured": "2026-05-15"
+      "times_featured": 5,
+      "last_featured": "2026-05-29"
     },
     "google/vit-base-patch16-224": {
       "times_featured": 5,
@@ -489,44 +489,44 @@
       "last_featured": "2026-04-16"
     },
     "r3gm/wan2-2-fp8da-aoti-preview": {
-      "times_featured": 3,
-      "last_featured": "2026-05-15"
+      "times_featured": 4,
+      "last_featured": "2026-05-29"
     },
     "finegrain/finegrain-image-enhancer": {
-      "times_featured": 3,
-      "last_featured": "2026-05-15"
+      "times_featured": 4,
+      "last_featured": "2026-05-29"
     },
     "yanze/PuLID-FLUX": {
-      "times_featured": 3,
-      "last_featured": "2026-05-15"
+      "times_featured": 4,
+      "last_featured": "2026-05-29"
     },
     "Wan-AI/Wan2.1": {
-      "times_featured": 3,
-      "last_featured": "2026-05-15"
+      "times_featured": 4,
+      "last_featured": "2026-05-29"
     },
     "facebook/w2v-bert-2.0": {
-      "times_featured": 3,
-      "last_featured": "2026-05-15"
+      "times_featured": 4,
+      "last_featured": "2026-05-29"
     },
     "jinaai/jina-embeddings-v3": {
-      "times_featured": 3,
-      "last_featured": "2026-05-15"
+      "times_featured": 4,
+      "last_featured": "2026-05-29"
     },
     "apple/mobilevit-small": {
-      "times_featured": 3,
-      "last_featured": "2026-05-15"
+      "times_featured": 4,
+      "last_featured": "2026-05-29"
     },
     "jonatasgrosman/wav2vec2-large-xlsr-53-japanese": {
       "times_featured": 2,
       "last_featured": "2026-05-25"
     },
     "Salesforce/blip-image-captioning-base": {
-      "times_featured": 3,
-      "last_featured": "2026-05-15"
+      "times_featured": 4,
+      "last_featured": "2026-05-29"
     },
     "ryanmarten/OpenThoughts-1k-sample": {
-      "times_featured": 3,
-      "last_featured": "2026-05-15"
+      "times_featured": 4,
+      "last_featured": "2026-05-29"
     },
     "Emmyc2/psp": {
       "times_featured": 3,
@@ -789,8 +789,8 @@
       "last_featured": "2026-05-15"
     },
     "mlfoundations/dclm-baseline-1.0-parquet": {
-      "times_featured": 1,
-      "last_featured": "2026-05-15"
+      "times_featured": 2,
+      "last_featured": "2026-05-29"
     },
     "ksolovev/FineNews": {
       "times_featured": 1,
@@ -831,6 +831,10 @@
     "SulphurAI/Sulphur-2-base": {
       "times_featured": 1,
       "last_featured": "2026-05-26"
+    },
+    "deepseek-ai/DeepSeek-R1-0528": {
+      "times_featured": 1,
+      "last_featured": "2026-05-29"
     }
   }
 }

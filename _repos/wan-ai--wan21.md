@@ -8,11 +8,11 @@ category: "HuggingFace Spaces"
 language: ""
 stars: 0
 downloads: 0
-likes: 2093
+likes: 2106
 og_image: "https://huggingface.co/api/spaces/Wan-AI/Wan2.1/screenshot"
 first_featured: "2026-04-17"
-last_featured: "2026-05-15"
-times_featured: 3
+last_featured: "2026-05-29"
+times_featured: 4
 streak: 0
 appearances: 0
 star_velocity: 0

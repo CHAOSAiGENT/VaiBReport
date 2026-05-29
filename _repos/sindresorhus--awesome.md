@@ -12,8 +12,8 @@ likes: 0
 readme_image: "https://sindresorhus.com/assets/thanks/depot-logo-light.svg"
 og_image: "https://opengraph.githubassets.com/1/sindresorhus/awesome"
 first_featured: "2026-03-23"
-last_featured: "2026-05-15"
-times_featured: 4
+last_featured: "2026-05-29"
+times_featured: 5
 streak: 1
 appearances: 9
 star_velocity: 351

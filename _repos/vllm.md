@@ -3,25 +3,25 @@ layout: repo
 name: "vllm"
 source: pypi
 item_url: "https://pypi.org/project/vllm/"
-description: "LLM inference engine"
+description: "Inference engine for LLMs"
 category: "PyPI Packages"
 language: ""
 stars: 0
-downloads: 1425332
+downloads: 1379000
 likes: 0
 og_image: ""
 first_featured: "2026-03-27"
-last_featured: "2026-05-14"
-times_featured: 4
+last_featured: "2026-05-29"
+times_featured: 5
 streak: 0
 appearances: 0
 star_velocity: 0
 tags: [pypi]
 icp_tags: ["founding-team", "solopreneur"]
-replaces: []
+replaces: [{"name":"TensorFlow Serving","url":"https://www.tensorflow.org/tfx/serving","note":"ML serving"}]
 similar_to: []
-compare_to_source: "manual"
-compare_to_validated: true
+compare_to_source: "llm"
+compare_to_validated: false
 ---
 
-LLM inference engine
+Inference engine for LLMs
