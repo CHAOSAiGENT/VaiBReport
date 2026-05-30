@@ -421,8 +421,8 @@
       "last_featured": "2026-03-30"
     },
     "Maynor996/upload2": {
-      "times_featured": 4,
-      "last_featured": "2026-05-16"
+      "times_featured": 5,
+      "last_featured": "2026-05-30"
     },
     "HuggingFaceFW/finephrase": {
       "times_featured": 3,
@@ -533,28 +533,28 @@
       "last_featured": "2026-05-17"
     },
     "Gustavosta/MagicPrompt-Stable-Diffusion": {
-      "times_featured": 3,
-      "last_featured": "2026-05-16"
+      "times_featured": 4,
+      "last_featured": "2026-05-30"
     },
     "google/sdxl": {
       "times_featured": 3,
       "last_featured": "2026-05-16"
     },
     "deepseek-ai/Janus-Pro-7B": {
-      "times_featured": 3,
-      "last_featured": "2026-05-16"
+      "times_featured": 4,
+      "last_featured": "2026-05-30"
     },
     "multimodalart/stable-video-diffusion": {
-      "times_featured": 3,
-      "last_featured": "2026-05-16"
+      "times_featured": 4,
+      "last_featured": "2026-05-30"
     },
     "stabilityai/stable-diffusion-3.5-large": {
-      "times_featured": 3,
-      "last_featured": "2026-05-16"
+      "times_featured": 4,
+      "last_featured": "2026-05-30"
     },
     "pyannote/speaker-diarization-community-1": {
-      "times_featured": 3,
-      "last_featured": "2026-05-16"
+      "times_featured": 4,
+      "last_featured": "2026-05-30"
     },
     "facebook/mms-1b-all": {
       "times_featured": 1,
@@ -565,12 +565,12 @@
       "last_featured": "2026-05-16"
     },
     "openai/whisper-small": {
-      "times_featured": 3,
-      "last_featured": "2026-05-16"
+      "times_featured": 4,
+      "last_featured": "2026-05-30"
     },
     "Qwen/Qwen3-Embedding-4B": {
-      "times_featured": 3,
-      "last_featured": "2026-05-16"
+      "times_featured": 4,
+      "last_featured": "2026-05-30"
     },
     "rtrm/debug": {
       "times_featured": 1,
@@ -725,8 +725,8 @@
       "last_featured": "2026-05-01"
     },
     "Xenova/multilingual-e5-small": {
-      "times_featured": 2,
-      "last_featured": "2026-05-16"
+      "times_featured": 3,
+      "last_featured": "2026-05-30"
     },
     "fhswf/dgs-pose": {
       "times_featured": 2,
@@ -785,16 +785,16 @@
       "last_featured": "2026-05-27"
     },
     "kyutai/mimi": {
-      "times_featured": 1,
-      "last_featured": "2026-05-15"
+      "times_featured": 2,
+      "last_featured": "2026-05-30"
     },
     "mlfoundations/dclm-baseline-1.0-parquet": {
       "times_featured": 2,
       "last_featured": "2026-05-29"
     },
     "ksolovev/FineNews": {
-      "times_featured": 1,
-      "last_featured": "2026-05-16"
+      "times_featured": 2,
+      "last_featured": "2026-05-30"
     },
     "BAAI/bge-reranker-large": {
       "times_featured": 1,
@@ -835,6 +835,14 @@
     "deepseek-ai/DeepSeek-R1-0528": {
       "times_featured": 1,
       "last_featured": "2026-05-29"
+    },
+    "huggingface-projects/QR-code-AI-art-generator": {
+      "times_featured": 1,
+      "last_featured": "2026-05-30"
+    },
+    "WINGNUS/ACL-OCL": {
+      "times_featured": 1,
+      "last_featured": "2026-05-30"
     }
   }
 }

@@ -3,25 +3,25 @@ layout: repo
 name: "pyannote/speaker-diarization-community-1"
 source: huggingface-model
 item_url: "https://huggingface.co/pyannote/speaker-diarization-community-1"
-description: "Speaker diarization community model"
+description: "Need to know who said what when? This model performs speaker diarization, separating voices in audio."
 category: "HuggingFace Models"
 language: ""
 stars: 0
-downloads: 2886212
-likes: 373
+downloads: 2787808
+likes: 446
 og_image: ""
 first_featured: "2026-04-18"
-last_featured: "2026-05-16"
-times_featured: 3
+last_featured: "2026-05-30"
+times_featured: 4
 streak: 0
 appearances: 0
 star_velocity: 0
 tags: [huggingface, pyannote-audio, pyannote, pyannote-audio-pipeline, audio, voice, speech, speaker, speaker-diarization]
 icp_tags: ["founding-team", "pre-mvp"]
-replaces: []
-similar_to: []
-compare_to_source: "manual"
+replaces: [{"name":"AssemblyAI","url":"https://www.assemblyai.com/","note":"AI Speech-to-Text and Diarization"},{"name":"Deepgram","url":"https://deepgram.com/","note":"Speech-to-Text API with diarization"},{"name":"Google Cloud Speech-to-Text","url":"https://cloud.google.com/speech-to-text","note":"Speech recognition with speaker diarization"}]
+similar_to: ["openai--whisper-small"]
+compare_to_source: "llm"
 compare_to_validated: false
 ---
 
-Speaker diarization community model
+Need to know who said what when? This model performs speaker diarization, separating voices in audio.
