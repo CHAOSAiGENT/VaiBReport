@@ -32,6 +32,7 @@ $RECYCLE.BIN/
 design-*.html
 designs-2/
 .html/
+*.zip
 
 # Logs
 logs_*/
