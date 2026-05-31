@@ -11,8 +11,8 @@ downloads: 0
 likes: 0
 og_image: ""
 first_featured: "2026-04-19"
-last_featured: "2026-05-17"
-times_featured: 3
+last_featured: "2026-05-31"
+times_featured: 4
 streak: 0
 appearances: 0
 star_velocity: 0
@@ -20,9 +20,9 @@ tags: [ollama, vision, 7b, 833.3K
                  Pulls, 833.3K, Pulls, 17
                  Tags, 17, Tags]
 icp_tags: ["non-technical", "pre-mvp", "entreprecurious"]
-replaces: []
-similar_to: []
-compare_to_source: "manual"
+replaces: [{"name":"Google Cloud Vision","url":"https://cloud.google.com/vision"}]
+similar_to: ["wizardlm"]
+compare_to_source: "llm"
 compare_to_validated: false
 ---
 

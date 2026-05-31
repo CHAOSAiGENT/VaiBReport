@@ -12,8 +12,8 @@ likes: 0
 readme_image: "https://discordapp.com/api/guilds/581875019861328007/widget.png?style=shield"
 og_image: "https://opengraph.githubassets.com/1/goatcorp/Dalamud"
 first_featured: "2026-05-03"
-last_featured: "2026-05-17"
-times_featured: 2
+last_featured: "2026-05-31"
+times_featured: 3
 streak: 1
 appearances: 1
 star_velocity: 0

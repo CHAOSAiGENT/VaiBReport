@@ -11,14 +11,14 @@ downloads: 0
 likes: 0
 og_image: "https://opengraph.githubassets.com/1/GVCLab/PersonaLive"
 first_featured: "2026-04-19"
-last_featured: "2026-05-17"
-times_featured: 3
+last_featured: "2026-05-31"
+times_featured: 4
 streak: 49
 appearances: 49
 star_velocity: 4
 tags: [github, cvpr, cvpr2026, talking-head, video-generation]
 icp_tags: ["solopreneur", "non-technical", "entreprecurious"]
-replaces: [{"name":"Deepfakes Web","url":"https://deepfakesweb.com","note":"deepfake creation platform"}]
+replaces: [{"name":"ManyCam","url":"https://manycam.com"}]
 similar_to: []
 compare_to_source: "llm"
 compare_to_validated: false

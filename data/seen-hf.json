@@ -361,8 +361,8 @@
       "last_featured": "2026-05-28"
     },
     "openai/gpt-oss-120b": {
-      "times_featured": 4,
-      "last_featured": "2026-05-17"
+      "times_featured": 5,
+      "last_featured": "2026-05-31"
     },
     "Kthera/pesoz": {
       "times_featured": 5,
@@ -529,8 +529,8 @@
       "last_featured": "2026-05-29"
     },
     "Emmyc2/psp": {
-      "times_featured": 3,
-      "last_featured": "2026-05-17"
+      "times_featured": 4,
+      "last_featured": "2026-05-31"
     },
     "Gustavosta/MagicPrompt-Stable-Diffusion": {
       "times_featured": 4,
@@ -561,8 +561,8 @@
       "last_featured": "2026-04-18"
     },
     "stabilityai/stable-diffusion-xl-base-1.0": {
-      "times_featured": 3,
-      "last_featured": "2026-05-16"
+      "times_featured": 4,
+      "last_featured": "2026-05-31"
     },
     "openai/whisper-small": {
       "times_featured": 4,
@@ -577,24 +577,24 @@
       "last_featured": "2026-04-18"
     },
     "cais/mmlu": {
-      "times_featured": 3,
-      "last_featured": "2026-05-17"
+      "times_featured": 4,
+      "last_featured": "2026-05-31"
     },
     "pyannote/voice-activity-detection": {
-      "times_featured": 3,
-      "last_featured": "2026-05-17"
+      "times_featured": 4,
+      "last_featured": "2026-05-31"
     },
     "Qwen/Qwen3-Embedding-8B": {
       "times_featured": 3,
       "last_featured": "2026-05-17"
     },
     "BAAI/bge-small-zh-v1.5": {
-      "times_featured": 3,
-      "last_featured": "2026-05-17"
+      "times_featured": 4,
+      "last_featured": "2026-05-31"
     },
     "Xenova/all-MiniLM-L6-v2": {
-      "times_featured": 3,
-      "last_featured": "2026-05-17"
+      "times_featured": 4,
+      "last_featured": "2026-05-31"
     },
     "allenai/objaverse": {
       "times_featured": 2,
@@ -843,6 +843,10 @@
     "WINGNUS/ACL-OCL": {
       "times_featured": 1,
       "last_featured": "2026-05-30"
+    },
+    "IPEC-COMMUNITY/bridge_orig_lerobot": {
+      "times_featured": 1,
+      "last_featured": "2026-05-31"
     }
   }
 }

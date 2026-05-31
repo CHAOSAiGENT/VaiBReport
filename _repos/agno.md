@@ -3,25 +3,25 @@ layout: repo
 name: "agno"
 source: pypi
 item_url: "https://pypi.org/project/agno/"
-description: "Agentic software programming language"
+description: "Programming language for agentic software"
 category: "PyPI Packages"
 language: ""
 stars: 0
-downloads: 811559
+downloads: 914655
 likes: 0
 og_image: ""
 first_featured: "2026-03-28"
-last_featured: "2026-05-14"
-times_featured: 4
+last_featured: "2026-05-31"
+times_featured: 5
 streak: 0
 appearances: 0
 star_velocity: 0
 tags: [pypi, agent]
 icp_tags: ["founding-team", "solopreneur"]
-replaces: []
+replaces: [{"name":"Python","url":"https://www.python.org"}]
 similar_to: []
-compare_to_source: "manual"
-compare_to_validated: true
+compare_to_source: "llm"
+compare_to_validated: false
 ---
 
-Agentic software programming language
+Programming language for agentic software

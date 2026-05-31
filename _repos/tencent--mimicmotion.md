@@ -11,14 +11,14 @@ downloads: 0
 likes: 0
 og_image: "https://opengraph.githubassets.com/1/Tencent/MimicMotion"
 first_featured: "2026-04-19"
-last_featured: "2026-05-17"
-times_featured: 3
+last_featured: "2026-05-31"
+times_featured: 4
 streak: 49
 appearances: 49
 star_velocity: 1
 tags: [github, diffusion-models, video-generation]
 icp_tags: ["solopreneur", "non-technical", "entreprecurious"]
-replaces: [{"name":"Raw Shorts","url":"https://rawshorts.com","note":"animated video creator"}]
+replaces: [{"name":"Raw Shorts","url":"https://rawshorts.com"}]
 similar_to: []
 compare_to_source: "llm"
 compare_to_validated: false
