@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>VAIBREPORT Component Reference</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Chivo:wght@700;800&amp;family=Inter:wght@400;500;600&amp;family=JetBrains+Mono:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<style>
+        body {
+            background-color: #fafaf4;
+            background-image: radial-gradient(#cfc4c5 0.5px, transparent 0.5px);
+            background-size: 24px 24px;
+        }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+            user-select: none;
+        }
+        .touch-target {
+            min-height: 44px;
+            min-width: 44px;
+        }
+        .custom-scrollbar::-webkit-scrollbar {
+            width: 4px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #000000;
+        }
+    </style>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "tertiary-fixed-dim": "#00e475",
+                        "surface-container-high": "#e8e8e3",
+                        "slate-gray": "#5E6780",
+                        "surface-dim": "#dadad5",
+                        "on-surface": "#1a1c19",
+                        "outline-variant": "#cfc4c5",
+                        "primary-fixed": "#e2e2e2",
+                        "tertiary-fixed": "#62ff96",
+                        "primary-container": "#1b1b1b",
+                        "on-secondary-fixed": "#001849",
+                        "surface-tint": "#5e5e5e",
+                        "muted-border": "#C4C6D0",
+                        "on-tertiary-fixed": "#00210b",
+                        "inverse-primary": "#c6c6c6",
+                        "background": "#fafaf4",
+                        "on-tertiary": "#ffffff",
+                        "on-secondary": "#ffffff",
+                        "on-primary-fixed": "#1b1b1b",
+                        "on-primary": "#ffffff",
+                        "error": "#ba1a1a",
+                        "surface-container": "#eeeee8",
+                        "on-surface-variant": "#46464b",
+                        "on-secondary-container": "#fefcff",
+                        "on-background": "#1a1c19",
+                        "surface-container-lowest": "#ffffff",
+                        "surface-container-low": "#f4f4ee",
+                        "tertiary": "#000000",
+                        "on-tertiary-fixed-variant": "#005226",
+                        "surface-container-highest": "#e3e3dd",
+                        "primary-fixed-dim": "#c6c6c6",
+                        "on-primary-container": "#848484",
+                        "on-error-container": "#93000a",
+                        "secondary": "#0152d0",
+                        "surface-variant": "#e3e3dd",
+                        "secondary-fixed-dim": "#b3c5ff",
+                        "outline": "#7e7576",
+                        "on-tertiary-container": "#00984c",
+                        "primary": "#000000",
+                        "surface": "#fafaf4",
+                        "on-primary-fixed-variant": "#474747",
+                        "inverse-surface": "#2f312d",
+                        "secondary-fixed": "#dae1ff",
+                        "surface-bright": "#fafaf4",
+                        "error-container": "#ffdad6",
+                        "error-red": "#ba1a1a",
+                        "secondary-container": "#346dea",
+                        "inverse-on-surface": "#f1f1eb",
+                        "on-error": "#ffffff",
+                        "tertiary-container": "#00210b",
+                        "on-secondary-fixed-variant": "#003fa4"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                    "spacing": {
+                        "top-bar-height": "64px",
+                        "base": "8px",
+                        "nav-width": "256px",
+                        "margin-desktop": "64px",
+                        "container-max": "1280px",
+                        "margin-mobile": "16px",
+                        "gutter": "24px"
+                    },
+                    "fontFamily": {
+                        "section-header": ["JetBrains Mono"],
+                        "micro-label": ["JetBrains Mono"],
+                        "mono-data": ["JetBrains Mono"],
+                        "label-md": ["JetBrains Mono"],
+                        "display-lg": ["Chivo"],
+                        "body-md": ["Inter"],
+                        "headline-lg": ["Chivo"]
+                    },
+                    "fontSize": {
+                        "section-header": ["14px", {"lineHeight": "20px", "letterSpacing": "0.1em", "fontWeight": "700"}],
+                        "micro-label": ["10px", {"letterSpacing": "0.05em", "fontWeight": "400"}],
+                        "mono-data": ["14px", {"lineHeight": "24px", "fontWeight": "400"}],
+                        "label-md": ["12px", {"lineHeight": "16px", "fontWeight": "500"}],
+                        "display-lg": ["48px", {"lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "800"}],
+                        "display-lg-mobile": ["32px", {"lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "800"}],
+                        "body-md": ["16px", {"lineHeight": "1.6", "fontWeight": "400"}],
+                        "headline-lg": ["32px", {"lineHeight": "1.2", "fontWeight": "700"}],
+                        "headline-lg-mobile": ["24px", {"lineHeight": "1.2", "fontWeight": "700"}]
+                    }
+                },
+            },
+        }
+    </script>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="font-body-md text-on-background selection:bg-tertiary-fixed selection:text-on-tertiary-fixed">
+<!-- TopAppBar -->
+<header class="fixed top-0 w-full z-50 bg-surface/80 backdrop-blur-md border-b border-outline-variant flex items-center justify-between px-margin-mobile h-top-bar-height w-full">
+<button aria-label="Open Menu" class="touch-target flex items-center justify-center text-primary active:scale-95 transition-transform duration-100">
+<span class="material-symbols-outlined">menu</span>
+</button>
+<h1 class="font-display-lg-mobile text-display-lg-mobile tracking-tighter text-primary">VAIBREPORT</h1>
+<button aria-label="Search" class="touch-target flex items-center justify-center text-primary active:scale-95 transition-transform duration-100">
+<span class="material-symbols-outlined">search</span>
+</button>
+</header>
+<main class="pt-24 pb-32 px-margin-mobile max-w-full overflow-x-hidden">
+<!-- Header Section -->
+<section class="mb-12">
+<div class="flex items-center gap-2 mb-2">
+<span class="w-2 h-2 bg-tertiary-fixed-dim rounded-full animate-pulse"></span>
+<p class="font-section-header text-section-header text-primary uppercase">System Ready</p>
+</div>
+<h2 class="font-headline-lg-mobile text-headline-lg-mobile text-primary mb-4">Mobile Reference &amp; WCAG Standards</h2>
+<p class="text-on-surface-variant font-body-md max-w-md">Comprehensive technical component reference for the VAIBREPORT ecosystem, optimized for high-speed analysis and accessibility.</p>
+</section>
+<!-- Accessible Color Palette Grid -->
+<section class="mb-12">
+<h3 class="font-section-header text-section-header text-primary mb-6 border-l-2 border-primary pl-4">01 ACCESSIBLE COLORS</h3>
+<div class="grid grid-cols-1 gap-4">
+<!-- Primary Black -->
+<div class="bg-primary p-6 border border-outline-variant flex justify-between items-end min-h-[120px]">
+<div class="text-on-primary">
+<p class="font-mono-data text-mono-data">PRIMARY BLACK</p>
+<p class="font-micro-label text-micro-label opacity-70">#000000</p>
+</div>
+<div class="text-right">
+<p class="font-display-lg-mobile text-display-lg-mobile leading-none text-on-primary">21:1</p>
+<p class="font-micro-label text-micro-label text-on-primary uppercase">Contrast Ratio</p>
+</div>
+</div>
+<div class="grid grid-cols-2 gap-4">
+<!-- Secondary Blue -->
+<div class="bg-secondary p-4 border border-outline-variant flex flex-col justify-between min-h-[140px]">
+<p class="font-mono-data text-mono-data text-on-secondary">SECONDARY BLUE</p>
+<div>
+<p class="font-headline-lg-mobile text-headline-lg-mobile text-on-secondary">5.8:1</p>
+<p class="font-micro-label text-micro-label text-on-secondary uppercase">WCAG AA Pass</p>
+</div>
+</div>
+<!-- Tertiary Green -->
+<div class="bg-tertiary-fixed-dim p-4 border border-outline-variant flex flex-col justify-between min-h-[140px]">
+<p class="font-mono-data text-mono-data text-on-tertiary-fixed">TERTIARY GREEN</p>
+<div>
+<p class="font-headline-lg-mobile text-headline-lg-mobile text-on-tertiary-fixed">9.2:1</p>
+<p class="font-micro-label text-micro-label text-on-tertiary-fixed uppercase">WCAG AA Pass</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Technical Widgets (Bento-ish Stack) -->
+<section class="mb-12">
+<h3 class="font-section-header text-section-header text-primary mb-6 border-l-2 border-secondary pl-4">02 DATA METRICS</h3>
+<div class="flex flex-col gap-6">
+<!-- Network Integrity Card -->
+<div class="bg-surface-container-lowest border border-outline-variant p-6 relative overflow-hidden group">
+<div class="absolute top-0 right-0 p-2">
+<span class="material-symbols-outlined text-outline-variant">signal_cellular_alt</span>
+</div>
+<div class="flex flex-col gap-1 mb-4">
+<p class="font-micro-label text-micro-label text-slate-gray uppercase">Packet Integrity</p>
+<h4 class="font-display-lg-mobile text-display-lg-mobile text-primary">99.98%</h4>
+</div>
+<div class="h-12 flex items-end gap-1">
+<div class="flex-1 bg-surface-container h-4 group-hover:h-8 transition-all duration-300"></div>
+<div class="flex-1 bg-surface-container h-6 group-hover:h-10 transition-all duration-300"></div>
+<div class="flex-1 bg-surface-container h-3 group-hover:h-6 transition-all duration-300"></div>
+<div class="flex-1 bg-primary h-12 group-hover:h-12 transition-all duration-300"></div>
+<div class="flex-1 bg-surface-container h-8 group-hover:h-4 transition-all duration-300"></div>
+<div class="flex-1 bg-surface-container h-5 group-hover:h-9 transition-all duration-300"></div>
+</div>
+</div>
+<!-- Transaction Flow -->
+<div class="grid grid-cols-2 gap-4">
+<div class="bg-primary text-on-primary p-4 border border-primary">
+<p class="font-mono-data text-mono-data uppercase mb-2">OPS/SEC</p>
+<p class="font-headline-lg-mobile text-headline-lg-mobile">1,402</p>
+<div class="mt-4 flex items-center gap-1 text-tertiary-fixed-dim">
+<span class="material-symbols-outlined text-sm">trending_up</span>
+<span class="font-micro-label text-micro-label">STABLE</span>
+</div>
+</div>
+<div class="bg-surface-container-lowest border border-outline-variant p-4">
+<p class="font-mono-data text-mono-data uppercase mb-2">LATENCY</p>
+<p class="font-headline-lg-mobile text-headline-lg-mobile">14ms</p>
+<div class="mt-4 flex items-center gap-1 text-secondary">
+<span class="material-symbols-outlined text-sm">speed</span>
+<span class="font-micro-label text-micro-label uppercase">Optimal</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Button Sheet Reference -->
+<section class="mb-12">
+<h3 class="font-section-header text-section-header text-primary mb-6 border-l-2 border-tertiary-fixed-dim pl-4">03 INTERACTION KIT</h3>
+<div class="bg-surface-container-low border border-outline-variant p-6 space-y-8">
+<div>
+<p class="font-micro-label text-micro-label text-slate-gray uppercase mb-4">Primary Actions (Min 44px)</p>
+<button class="w-full bg-primary text-on-primary h-[56px] flex items-center justify-between px-6 active:scale-95 transition-all duration-100 uppercase font-mono-data tracking-widest">
+                        Execute Sequence
+                        <span class="material-symbols-outlined">arrow_forward</span>
+</button>
+</div>
+<div class="grid grid-cols-2 gap-4">
+<div>
+<p class="font-micro-label text-micro-label text-slate-gray uppercase mb-4">Outline Variant</p>
+<button class="w-full border-2 border-primary text-primary h-[48px] flex items-center justify-center active:bg-primary active:text-on-primary transition-all duration-200 uppercase font-mono-data text-sm">
+                            Query
+                        </button>
+</div>
+<div>
+<p class="font-micro-label text-micro-label text-slate-gray uppercase mb-4">Ghost State</p>
+<button class="w-full text-slate-gray h-[48px] flex items-center justify-center hover:text-primary active:bg-surface-variant transition-all duration-200 uppercase font-mono-data text-sm">
+                            Cancel
+                        </button>
+</div>
+</div>
+<div>
+<p class="font-micro-label text-micro-label text-slate-gray uppercase mb-4">Input Field Focus State</p>
+<div class="relative">
+<input class="w-full bg-surface-container-lowest border border-outline-variant h-[56px] px-4 font-mono-data text-sm focus:ring-2 focus:ring-secondary focus:border-secondary outline-none transition-all placeholder:text-outline" placeholder="ENTER SYSTEM COMMAND..." type="text"/>
+<span class="absolute right-4 top-1/2 -translate-y-1/2 material-symbols-outlined text-outline">terminal</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Abstract Decorative Element -->
+<section class="mb-12 relative h-48 overflow-hidden bg-primary flex items-center justify-center">
+<div class="absolute inset-0 opacity-20" style="background-image: radial-gradient(#ffffff 0.5px, transparent 0.5px); background-size: 12px 12px;"></div>
+<div class="z-10 text-center">
+<p class="font-display-lg-mobile text-display-lg-mobile text-on-primary uppercase tracking-tighter mb-2">Technical Authority</p>
+<div class="h-1 w-24 bg-tertiary-fixed-dim mx-auto"></div>
+</div>
+<!-- Decorative Blurred Sphere -->
+<div class="absolute -right-10 -bottom-10 w-40 h-40 bg-secondary rounded-full blur-[80px] opacity-40"></div>
+</section>
+<!-- Image Reference with data-alt -->
+<section class="mb-12">
+<h3 class="font-section-header text-section-header text-primary mb-6 border-l-2 border-outline pl-4">04 VISUAL ASSETS</h3>
+<div class="aspect-video bg-surface-container overflow-hidden border border-outline-variant relative">
+<img alt="Technical Infrastructure" class="w-full h-full object-cover grayscale contrast-125" data-alt="A high-contrast black and white architectural photograph of a modern server room aisle, emphasizing vertical lines and geometric patterns of server racks. The lighting is clinical and sharp, highlighting metallic surfaces and technical components in a style that reflects sophisticated network operations. The composition is symmetrical and minimalist, creating a sense of absolute control and structural integrity consistent with a technical blueprint aesthetic. Deep shadows and bright highlights reinforce the institutional authority of the infrastructure." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDV52A9UariirelHyGrg4AFkwM87Ms30luhZHWejSSDFJGFLsrBHdYB3zUaV4asbn_Yg59JONspPXCByMouvRX4xIVYrxIwOIKNIKtouhtEJGJ0EjuVW-ZjmpiibyuWz8VoBvmfXAznrLY5UoXsDNEJZ6Puq0CLnBiTLc6e0XEARDsJeLcKuQeN2vEWnHK3OQao4NWPhCt366MyVwTUf01o-3YZyhlznk_eNvBn_1nmqW1ah0gDgss8W32oOHKuXs8ExipvHpkgfag"/>
+<div class="absolute inset-0 bg-primary/10 mix-blend-multiply"></div>
+<div class="absolute bottom-4 left-4 bg-primary text-on-primary px-3 py-1">
+<p class="font-micro-label text-micro-label">CORE_INFRASTRUCTURE_RENDER_V4</p>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="w-full mb-16 border-t border-outline-variant bg-surface-container-low flex flex-col items-center gap-4 p-margin-mobile w-full text-center">
+<p class="font-mono-data text-mono-data uppercase text-on-surface">©2024 VAIBREPORT TERMINAL. SYSTEM_STABLE.</p>
+<div class="flex gap-6">
+<a class="font-micro-label text-micro-label text-slate-gray hover:text-primary transition-all" href="#">STATUS</a>
+<a class="font-micro-label text-micro-label text-slate-gray hover:text-primary transition-all" href="#">API</a>
+<a class="font-micro-label text-micro-label text-slate-gray hover:text-primary transition-all" href="#">LEGAL</a>
+</div>
+</footer>
+<!-- BottomNavBar -->
+<nav class="fixed bottom-0 w-full z-50 bg-surface border-t border-outline-variant flex justify-around items-center px-margin-mobile pb-safe h-16">
+<a aria-label="Dashboard" class="flex flex-col items-center justify-center text-primary border-t-2 border-primary pt-2 active:translate-y-0.5 transition-transform" href="#">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">dashboard</span>
+<span class="font-label-md text-label-md">DASH</span>
+</a>
+<a aria-label="Alerts" class="flex flex-col items-center justify-center text-on-surface-variant pt-2 hover:text-primary active:translate-y-0.5 transition-transform" href="#">
+<span class="material-symbols-outlined">notifications_active</span>
+<span class="font-label-md text-label-md">ALERTS</span>
+</a>
+<a aria-label="Data" class="flex flex-col items-center justify-center text-on-surface-variant pt-2 hover:text-primary active:translate-y-0.5 transition-transform" href="#">
+<span class="material-symbols-outlined">monitoring</span>
+<span class="font-label-md text-label-md">DATA</span>
+</a>
+<a aria-label="User Profile" class="flex flex-col items-center justify-center text-on-surface-variant pt-2 hover:text-primary active:translate-y-0.5 transition-transform" href="#">
+<span class="material-symbols-outlined">account_circle</span>
+<span class="font-label-md text-label-md">USER</span>
+</a>
+</nav>
+<script>
+        // Micro-interaction for tactile feedback
+        document.querySelectorAll('button, a').forEach(elem => {
+            elem.addEventListener('touchstart', () => {
+                elem.style.opacity = '0.7';
+            });
+            elem.addEventListener('touchend', () => {
+                elem.style.opacity = '1';
+            });
+        });
+
+        // Simple observer for metric pulse
+        const observerOptions = {
+            threshold: 0.1
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('opacity-100');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('section').forEach(section => {
+            observer.observe(section);
+        });
+    </script>
+</body></html>

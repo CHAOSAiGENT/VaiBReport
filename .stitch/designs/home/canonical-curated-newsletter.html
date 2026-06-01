@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>VAIBREPORT // Intelligence Dashboard</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Chivo:wght@400;700;800&amp;family=Inter:wght@400;500&amp;family=JetBrains+Mono:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "on-secondary-fixed": "#001849",
+                    "on-secondary": "#ffffff",
+                    "tertiary-fixed": "#62ff96",
+                    "on-surface": "#1a1c19",
+                    "primary": "#000000",
+                    "outline-variant": "#c8c5cb",
+                    "primary-fixed-dim": "#c6c5cf",
+                    "on-secondary-container": "#fefcff",
+                    "surface-tint": "#5d5e66",
+                    "secondary-fixed": "#dae1ff",
+                    "on-background": "#1a1c19",
+                    "on-secondary-fixed-variant": "#003fa4",
+                    "secondary-container": "#226bf8",
+                    "surface-bright": "#fafaf4",
+                    "inverse-primary": "#c6c5cf",
+                    "outline": "#77767c",
+                    "surface-container-lowest": "#ffffff",
+                    "on-primary-fixed": "#1a1b22",
+                    "primary-container": "#1a1b22",
+                    "tertiary-container": "#00210b",
+                    "surface-container": "#eeeee8",
+                    "on-primary-fixed-variant": "#46464e",
+                    "surface-variant": "#e3e3dd",
+                    "tertiary-fixed-dim": "#00e475",
+                    "primary-fixed": "#e3e1ec",
+                    "on-tertiary-fixed-variant": "#005226",
+                    "on-surface-variant": "#46464b",
+                    "inverse-on-surface": "#f1f1eb",
+                    "error": "#ba1a1a",
+                    "on-primary-container": "#83838c",
+                    "on-error": "#ffffff",
+                    "surface-container-highest": "#e3e3dd",
+                    "surface-dim": "#dadad5",
+                    "inverse-surface": "#2f312d",
+                    "error-container": "#ffdad6",
+                    "on-tertiary-container": "#00984c",
+                    "on-tertiary": "#ffffff",
+                    "muted-border": "#C4C6D0",
+                    "surface": "#fafaf4",
+                    "secondary-fixed-dim": "#b3c5ff",
+                    "blueprint-dot": "rgba(18, 19, 26, 0.08)",
+                    "surface-container-low": "#f4f4ee",
+                    "tertiary": "#000000",
+                    "slate-gray": "#5E6780",
+                    "surface-container-high": "#e8e8e3",
+                    "secondary": "#0052d0",
+                    "on-tertiary-fixed": "#00210b",
+                    "background": "#fafaf4",
+                    "on-error-container": "#93000a",
+                    "on-primary": "#ffffff"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.125rem",
+                    "lg": "0.25rem",
+                    "xl": "0.5rem",
+                    "full": "0.75rem"
+            },
+            "spacing": {
+                    "margin-desktop": "64px",
+                    "gutter": "24px",
+                    "container-max": "1280px",
+                    "base": "8px",
+                    "margin-mobile": "16px"
+            },
+            "fontFamily": {
+                    "mono-data": ["JetBrains Mono"],
+                    "headline-lg-mobile": ["Chivo"],
+                    "headline-lg": ["Chivo"],
+                    "label-md": ["JetBrains Mono"],
+                    "display-lg": ["Chivo"],
+                    "body-sm": ["Inter"],
+                    "section-header": ["JetBrains Mono"],
+                    "body-md": ["Inter"]
+            },
+            "fontSize": {
+                    "mono-data": ["14px", {"lineHeight": "24px", "fontWeight": "400"}],
+                    "headline-lg-mobile": ["24px", {"lineHeight": "1.2", "fontWeight": "700"}],
+                    "headline-lg": ["32px", {"lineHeight": "1.2", "fontWeight": "700"}],
+                    "label-md": ["12px", {"lineHeight": "16px", "fontWeight": "500"}],
+                    "display-lg": ["48px", {"lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "800"}],
+                    "body-sm": ["14px", {"lineHeight": "1.5", "fontWeight": "400"}],
+                    "section-header": ["14px", {"lineHeight": "20px", "letterSpacing": "0.1em", "fontWeight": "700"}],
+                    "body-md": ["16px", {"lineHeight": "1.6", "fontWeight": "400"}]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        .dot-grid {
+            background-image: radial-gradient(var(--tw-colors-blueprint-dot) 1px, transparent 1px);
+            background-size: 24px 24px;
+        }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .hero-text-shadow {
+            text-shadow: 0 0 40px rgba(0, 228, 117, 0.1);
+        }
+        .chaos-badge {
+            background: linear-gradient(90deg, #000 0%, #333 100%);
+        }
+    </style>
+</head>
+<body class="bg-surface text-primary font-body-md selection:bg-tertiary-fixed-dim selection:text-primary">
+<!-- Top Navigation Bar -->
+<nav class="bg-surface docked full-width top-0 border-b border-outline-variant z-50 sticky">
+<div class="flex justify-between items-center w-full px-margin-desktop py-4 max-w-container-max mx-auto">
+<div class="font-headline-lg text-headline-lg font-black tracking-tighter text-primary">VAIBREPORT</div>
+<div class="hidden md:flex items-center gap-8">
+<a class="font-label-md text-label-md text-slate-gray hover:text-primary transition-colors duration-200" href="#">Catalog</a>
+<a class="font-label-md text-label-md text-slate-gray hover:text-primary transition-colors duration-200" href="#">Peter's Picks</a>
+<a class="font-label-md text-label-md text-primary border-b-2 border-primary pb-1 transition-colors duration-200" href="{{DATA:SCREEN:SCREEN_79}}">Trending</a>
+<a class="font-label-md text-label-md text-slate-gray hover:text-primary transition-colors duration-200" href="#">Leaderboard</a><a class="font-label-md text-label-md text-slate-gray hover:text-primary transition-colors duration-200 flex items-center gap-1.5" href="#">DESKTOP <span class="w-1 h-1 rounded-full bg-[#00E676]"></span></a>
+<a class="font-label-md text-label-md text-slate-gray hover:text-primary transition-colors duration-200" href="{{DATA:SCREEN:SCREEN_69}}">RSS</a>
+</div>
+<div class="flex items-center gap-4">
+<button class="material-symbols-outlined text-primary hover:text-secondary transition-transform active:scale-90" data-icon="schedule">schedule</button>
+<button class="material-symbols-outlined text-primary hover:text-secondary transition-transform active:scale-90" data-icon="dark_mode">dark_mode</button>
+<div class="h-6 w-px bg-outline-variant mx-2"></div>
+<div class="flex items-center gap-2 bg-surface-container-low px-3 py-1 rounded-lg">
+<span class="w-2 h-2 bg-tertiary-fixed-dim rounded-full animate-pulse"></span>
+<span class="font-mono-data text-label-md text-primary uppercase tracking-widest">Live</span>
+</div>
+</div>
+</div>
+</nav>
+<main class="dot-grid min-h-screen pt-12 pb-24">
+<div class="max-w-container-max mx-auto px-margin-desktop">
+<!-- Hero Section -->
+<section class="mb-16">
+<div class="max-w-3xl">
+<div class="font-section-header text-section-header text-on-tertiary-container mb-4 flex items-center gap-2">
+<span class="material-symbols-outlined" data-icon="analytics">analytics</span>
+                    CORE_STREAM // LATEST_UPDATE
+                </div>
+<h1 class="font-display-lg text-display-lg mb-6 hero-text-shadow">
+                    Premium intelligence for the <span class="text-secondary">autonomous frontier.</span>
+</h1>
+<p class="font-body-md text-body-md text-slate-gray mb-8 leading-relaxed max-w-xl">Synthesizing raw signal from the noise of 128+ data streams. Automated analysis for the next generation of high-frequency engineering teams — <span class="text-[#2E72FF] font-semibold">built for Chaos Desktop.</span></p>
+<div class="flex gap-4">
+<button class="bg-primary text-on-primary px-8 py-3 rounded-lg font-label-md hover:bg-secondary transition-all transform active:scale-95 shadow-lg">
+                        VIEW LATEST DIGEST
+                    </button>
+<button class="border border-outline px-8 py-3 rounded-lg font-label-md hover:bg-surface-variant transition-all transform active:scale-95">
+                        BROWSE CATALOG
+                    </button>
+</div>
+</div>
+</section>
+<!-- Main Content Layout -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter mb-16">
+<!-- Left/Main Column -->
+<div class="lg:col-span-8 flex flex-col gap-gutter">
+<!-- Featured Preview (Bento Card) -->
+<div class="group relative overflow-hidden bg-white rounded-xl shadow-[0px_4px_20px_rgba(0,0,0,0.04)] hover:shadow-[0px_8px_30px_rgba(0,0,0,0.08)] border-l-2 border-primary transition-all duration-300">
+<div class="p-8 pb-0">
+<div class="flex justify-between items-start mb-6">
+<div>
+<div class="flex gap-2 mb-2">
+<span class="bg-tertiary-fixed-dim/10 text-on-tertiary-container px-2 py-1 rounded font-mono-data text-[10px] uppercase tracking-tighter inline-block">Top Ranked / Today</span>
+<span class="chaos-badge text-white px-2 py-1.5 rounded font-bold font-mono-data text-[11px] uppercase tracking-tighter inline-flex items-center gap-1.5 border border-primary/20 shadow-sm">
+<span class="material-symbols-outlined text-[14px]" data-icon="desktop_windows" style="font-variation-settings: 'FILL' 1;">desktop_windows</span> CHAOS DESKTOP READY
+                                    </span>
+</div>
+<h2 class="font-headline-lg text-headline-lg">Neural_Flow v2.4</h2>
+</div>
+<div class="text-right">
+<div class="font-mono-data text-mono-data text-slate-gray">SCORE</div>
+<div class="font-headline-lg text-headline-lg text-secondary">98.4</div>
+</div>
+</div>
+</div>
+<div class="relative aspect-video mx-8 mb-8 rounded-lg overflow-hidden bg-surface-container">
+<img alt="Neural Flow Dashboard" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBD5QW3GXrRyEgMLiy7Q5HWFhJmhkOeRmXRCPz7Ys4vppv5eKgQ7uBmAD-zZ_S1Z8r7QITzjpPBCuHc4agXH9gBFOCDp6C2hc9zAZLb1X2kAIjleZgWoIRxmUWO0kP-rrMTFw2IsIeKnS3PmZ3GI6haLBRMe6eACrtP2LTQV-i7qUMx6eeov0Kk8aR7QvZ1-z1w5IDDnztKYpgDKtguCgfqcRqgobW6L_RL-Acg4m9GZQ3pazRdPLnWbtQlZcSbnEnPLwQ1xOU7ed8"/>
+<div class="absolute inset-0 flex items-center justify-center bg-primary/20 backdrop-blur-sm opacity-0 group-hover:opacity-100 transition-opacity duration-300 cursor-pointer">
+<div class="w-16 h-16 bg-white rounded-full flex items-center justify-center shadow-2xl transform translate-y-4 group-hover:translate-y-0 transition-transform">
+<span class="material-symbols-outlined text-primary text-4xl" data-icon="play_arrow" style="font-variation-settings: 'FILL' 1;">play_arrow</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Bottom Strip: Latest Activity Placeholder -->
+<section class="bg-primary/5 border border-primary/10 rounded-xl p-6">
+<div class="flex items-center justify-between mb-6">
+<h3 class="font-section-header text-section-header flex items-center gap-2">
+<span class="material-symbols-outlined text-sm" data-icon="bolt">bolt</span>
+                            SYSTEM_ALERTS // ACTIVE
+                        </h3>
+<span class="font-mono-data text-[10px] text-slate-gray">NODE_READY_CLUSTER_04</span>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+<div class="bg-white p-4 rounded border border-outline-variant hover:border-primary transition-colors cursor-pointer group">
+<div class="flex justify-between items-start mb-2">
+<span class="font-mono-data text-[10px] text-secondary">ACTIVE</span>
+<span class="material-symbols-outlined text-sm text-slate-gray group-hover:text-primary" data-icon="monitoring">monitoring</span>
+</div>
+<h4 class="font-label-md text-primary mb-1">Stream_Monitor</h4>
+<p class="text-[11px] text-slate-gray line-clamp-2">Aggregating telemetry from 48 localized endpoint sensors.</p>
+</div>
+<div class="bg-white p-4 rounded border border-outline-variant hover:border-primary transition-colors cursor-pointer group">
+<div class="flex justify-between items-start mb-2">
+<span class="font-mono-data text-[10px] text-secondary">SYNCED</span>
+<span class="material-symbols-outlined text-sm text-slate-gray group-hover:text-primary" data-icon="sync">sync</span>
+</div>
+<h4 class="font-label-md text-primary mb-1">Repo_Sync</h4>
+<p class="text-[11px] text-slate-gray line-clamp-2">Latest security audits parsed for 12,402 upstream repos.</p>
+</div>
+<div class="bg-white p-4 rounded border border-outline-variant hover:border-primary transition-colors cursor-pointer group">
+<div class="flex justify-between items-start mb-2">
+<span class="font-mono-data text-[10px] text-secondary">OK</span>
+<span class="material-symbols-outlined text-sm text-slate-gray group-hover:text-primary" data-icon="verified_user">verified_user</span>
+</div>
+<h4 class="font-label-md text-primary mb-1">Identity_Auth</h4>
+<p class="text-[11px] text-slate-gray line-clamp-2">Distributed key management service operational.</p>
+</div>
+</div>
+</section>
+</div>
+<!-- Right Sidebar Column -->
+<div class="lg:col-span-4 flex flex-col gap-gutter">
+<!-- Platform Health Card -->
+<div class="bg-white p-6 rounded-xl shadow-[0px_4px_20px_rgba(0,0,0,0.04)] border border-outline-variant">
+<h3 class="font-section-header text-section-header mb-4">PLATFORM_HEALTH</h3>
+<div class="grid grid-cols-3 gap-4">
+<div class="flex flex-col items-center p-2 rounded hover:bg-surface-container transition-colors">
+<span class="material-symbols-outlined text-slate-gray mb-1" data-icon="terminal">terminal</span>
+<span class="font-mono-data text-[10px] text-slate-gray mb-1">GH</span>
+<div class="w-2 h-2 bg-tertiary-fixed-dim rounded-full shadow-[0_0_8px_rgba(0,228,117,0.6)]"></div>
+</div>
+<div class="flex flex-col items-center p-2 rounded hover:bg-surface-container transition-colors">
+<span class="material-symbols-outlined text-slate-gray mb-1" data-icon="memory">memory</span>
+<span class="font-mono-data text-[10px] text-slate-gray mb-1">HF</span>
+<div class="w-2 h-2 bg-tertiary-fixed-dim rounded-full shadow-[0_0_8px_rgba(0,228,117,0.6)]"></div>
+</div>
+<div class="flex flex-col items-center p-2 rounded hover:bg-surface-container transition-colors">
+<span class="material-symbols-outlined text-slate-gray mb-1" data-icon="database">database</span>
+<span class="font-mono-data text-[10px] text-slate-gray mb-1">AR</span>
+<div class="w-2 h-2 bg-tertiary-fixed-dim rounded-full shadow-[0_0_8px_rgba(0,228,117,0.6)]"></div>
+</div>
+<div class="flex flex-col items-center p-2 rounded hover:bg-surface-container transition-colors">
+<span class="material-symbols-outlined text-slate-gray mb-1" data-icon="hub">hub</span>
+<span class="font-mono-data text-[10px] text-slate-gray mb-1">LD</span>
+<div class="w-2 h-2 bg-tertiary-fixed-dim rounded-full shadow-[0_0_8px_rgba(0,228,117,0.6)]"></div>
+</div>
+<div class="flex flex-col items-center p-2 rounded hover:bg-surface-container transition-colors">
+<span class="material-symbols-outlined text-slate-gray mb-1" data-icon="cloud">cloud</span>
+<span class="font-mono-data text-[10px] text-slate-gray mb-1">AWS</span>
+<div class="w-2 h-2 bg-tertiary-fixed-dim rounded-full shadow-[0_0_8px_rgba(0,228,117,0.6)]"></div>
+</div>
+<div class="flex flex-col items-center p-2 rounded hover:bg-surface-container transition-colors">
+<span class="material-symbols-outlined text-slate-gray mb-1" data-icon="api">api</span>
+<span class="font-mono-data text-[10px] text-slate-gray mb-1">API</span>
+<div class="w-2 h-2 bg-error rounded-full shadow-[0_0_8px_rgba(186,26,26,0.6)]"></div>
+</div>
+</div>
+</div>
+<!-- Latest Chaos Releases (Sidebar Addition) -->
+<div class="bg-surface-container-high p-6 rounded-xl border border-outline-variant">
+<div class="flex items-center justify-between mb-4">
+<h3 class="font-section-header text-section-header">CHAOS_RELEASES</h3>
+<span class="font-mono-data text-[10px] text-slate-gray">V4.1.0</span>
+</div>
+<div class="space-y-3">
+<div class="flex items-center justify-between p-3 bg-white rounded border border-outline-variant hover:border-secondary group cursor-pointer transition-colors">
+<div class="flex items-center gap-3">
+<div class="w-8 h-8 bg-primary rounded flex items-center justify-center">
+<span class="material-symbols-outlined text-white text-sm" data-icon="vector_library">vector_library</span>
+</div>
+<div>
+<div class="text-label-md font-bold text-primary">Vector_Host</div>
+<div class="text-[10px] font-mono-data text-slate-gray">INFERENCE_KERNEL</div>
+</div>
+</div>
+<span class="material-symbols-outlined text-slate-gray group-hover:text-secondary text-sm" data-icon="download">download</span>
+</div>
+<div class="flex items-center justify-between p-3 bg-white rounded border border-outline-variant hover:border-secondary group cursor-pointer transition-colors">
+<div class="flex items-center gap-3">
+<div class="w-8 h-8 bg-primary rounded flex items-center justify-center">
+<span class="material-symbols-outlined text-white text-sm" data-icon="filter_list">filter_list</span>
+</div>
+<div>
+<div class="text-label-md font-bold text-primary">Signal_Sift</div>
+<div class="text-[10px] font-mono-data text-slate-gray">DATA_ORCHESTRATION</div>
+</div>
+</div>
+<span class="material-symbols-outlined text-slate-gray group-hover:text-secondary text-sm" data-icon="download">download</span>
+</div>
+<div class="flex items-center justify-between p-3 bg-white rounded border border-outline-variant hover:border-secondary group cursor-pointer transition-colors">
+<div class="flex items-center gap-3">
+<div class="w-8 h-8 bg-primary rounded flex items-center justify-center">
+<span class="material-symbols-outlined text-white text-sm" data-icon="terminal">terminal</span>
+</div>
+<div>
+<div class="text-label-md font-bold text-primary">Forge_OS</div>
+<div class="text-[10px] font-mono-data text-slate-gray">RUNTIME_STABLE</div>
+</div>
+</div>
+<span class="material-symbols-outlined text-slate-gray group-hover:text-secondary text-sm" data-icon="download">download</span>
+</div>
+</div>
+</div>
+<!-- Sponsored // Ecosystem Partner (High Fidelity Display) -->
+<div class="font-mono-data text-[12px] uppercase text-[#5E6780] mb-2 px-1">SPONSORED</div><div class="bg-primary-container text-on-primary-fixed p-6 rounded-xl border border-primary relative overflow-hidden group shadow-xl" style="border: 1px dashed #C4C6D0;"><div class="relative z-10"><div class="flex flex-col gap-4"><div class="flex items-center gap-4"><div class="w-12 h-12 bg-white flex items-center justify-center rounded-lg shadow-inner"><span class="material-symbols-outlined text-primary text-2xl">token</span></div><div><h4 class="font-headline-lg text-[20px] text-white">Acme AI</h4><p class="text-[10px] font-mono-data text-tertiary-fixed-dim uppercase tracking-widest">Enterprise inference at scale</p></div></div><p class="text-on-primary-container text-body-sm leading-relaxed">10x faster model serving.</p><a class="text-[#2E72FF] font-label-md hover:underline flex items-center gap-1" href="#">Learn More →</a></div></div><div class="absolute inset-0 opacity-10 pointer-events-none" style="background-image: radial-gradient(circle, white 1px, transparent 1px); background-size: 16px 16px;"></div></div>
+<!-- Quick Stats Card -->
+<div class="bg-primary p-6 rounded-xl shadow-xl flex flex-col justify-between overflow-hidden relative">
+<div class="relative z-10">
+<h3 class="font-section-header text-section-header text-tertiary-fixed-dim mb-2">QUICK_STATS</h3>
+<div class="text-on-primary font-display-lg text-[40px] font-black">1.2M</div>
+<div class="font-label-md text-on-primary-container uppercase">Repos Tracked</div>
+</div>
+<div class="absolute -right-4 -bottom-4 opacity-10">
+<span class="material-symbols-outlined text-[120px]" data-icon="monitoring">monitoring</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Recent Activity / Digest Table -->
+<section class="mb-12">
+<h3 class="font-section-header text-[14px] font-bold uppercase tracking-[0.1em] text-slate-gray mb-6">PETER'S PICKS // EDITOR_CURATED</h3>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-gutter">
+<div class="bg-white border border-muted-border rounded-xl p-5 flex flex-col justify-between">
+<div class="flex justify-between items-start mb-2">
+<h4 class="font-headline-lg text-[20px] font-bold">Qwen3-Coder</h4>
+<span class="bg-[#2E72FF] text-white font-label-md text-[10px] px-2 py-0.5 rounded-full uppercase">PICK</span>
+</div>
+<p class="font-body-sm text-slate-gray text-[14px] mb-4">State-of-the-art open source coding assistant with advanced reasoning.</p>
+<div class="text-right font-mono-data text-[14px] text-primary">SIGNAL: 97.1</div>
+</div>
+<div class="bg-white border border-muted-border rounded-xl p-5 flex flex-col justify-between">
+<div class="flex justify-between items-start mb-2">
+<h4 class="font-headline-lg text-[20px] font-bold">Llama-Guard-4</h4>
+<span class="bg-[#2E72FF] text-white font-label-md text-[10px] px-2 py-0.5 rounded-full uppercase">PICK</span>
+</div>
+<p class="font-body-sm text-slate-gray text-[14px] mb-4">Robust safety classifier optimized for multi-modal guardrail deployments.</p>
+<div class="text-right font-mono-data text-[14px] text-primary">SIGNAL: 94.8</div>
+</div>
+<div class="bg-white border border-muted-border rounded-xl p-5 flex flex-col justify-between">
+<div class="flex justify-between items-start mb-2">
+<h4 class="font-headline-lg text-[20px] font-bold">DeepSite-R1</h4>
+<span class="bg-[#2E72FF] text-white font-label-md text-[10px] px-2 py-0.5 rounded-full uppercase">PICK</span>
+</div>
+<p class="font-body-sm text-slate-gray text-[14px] mb-4">Real-time visual grounding for autonomous web navigation agents.</p>
+<div class="text-right font-mono-data text-[14px] text-primary">SIGNAL: 96.2</div>
+</div>
+</div>
+</section>
+<section class="bg-[#12131A] rounded-xl mb-16 overflow-hidden border border-white/5 shadow-2xl">
+<div class="px-8 py-6 flex flex-col md:flex-row items-center justify-between gap-6">
+<p class="text-white font-body-md text-[16px]">Get the daily intelligence digest in your inbox.</p>
+<div class="flex flex-col gap-1 w-full md:w-auto">
+<div class="flex gap-2">
+<input class="bg-white border-none rounded-lg px-4 py-2 text-primary font-body-sm w-full md:w-64 focus:ring-2 focus:ring-[#2E72FF]" placeholder="you@company.com" type="email"/>
+<button class="bg-[#2E72FF] text-white font-label-md text-[12px] uppercase px-6 py-2 rounded-lg font-bold hover:brightness-110 transition-all">SUBSCRIBE</button>
+</div>
+<span class="text-slate-gray font-mono-data text-[10px]">Powered by Resend</span>
+</div>
+</div>
+</section><section class="mb-16">
+<div class="flex items-center justify-between mb-8">
+<h3 class="font-headline-lg text-headline-lg flex items-center gap-3">
+                    Recent Activity
+                    <span class="text-slate-gray text-mono-data font-normal">/ LAST_3_DIGESTS</span>
+</h3>
+<a class="text-secondary font-label-md flex items-center gap-1 hover:underline" href="#">
+                    VIEW ARCHIVE <span class="material-symbols-outlined text-sm" data-icon="arrow_forward">arrow_forward</span>
+</a>
+</div>
+<div class="bg-white rounded-xl shadow-[0px_4px_20px_rgba(0,0,0,0.04)] overflow-hidden border border-outline-variant">
+<table class="w-full text-left border-collapse">
+<thead>
+<tr class="bg-surface-container-low border-b border-outline-variant">
+<th class="px-8 py-4 font-label-md text-slate-gray uppercase tracking-wider">Date</th>
+<th class="px-8 py-4 font-label-md text-slate-gray uppercase tracking-wider">Digest Title</th>
+<th class="px-8 py-4 font-label-md text-slate-gray uppercase tracking-wider">Signal Quality</th>
+<th class="px-8 py-4 font-label-md text-slate-gray uppercase tracking-wider">Platform</th>
+</tr>
+</thead>
+<tbody class="divide-y divide-outline-variant">
+<tr class="hover:bg-surface-container transition-colors group cursor-pointer">
+<td class="px-8 py-6 font-mono-data text-slate-gray">2024-05-24</td>
+<td class="px-8 py-6 font-body-md text-primary font-medium group-hover:text-secondary">Synthetics &amp; Agentic Frameworks: The May Shift</td>
+<td class="px-8 py-6">
+<div class="flex gap-1">
+<div class="w-1.5 h-4 bg-tertiary-fixed-dim"></div>
+<div class="w-1.5 h-4 bg-tertiary-fixed-dim"></div>
+<div class="w-1.5 h-4 bg-tertiary-fixed-dim"></div>
+<div class="w-1.5 h-4 bg-tertiary-fixed-dim"></div>
+<div class="w-1.5 h-4 bg-outline-variant"></div>
+</div>
+</td>
+<td class="px-8 py-6">
+<span class="px-2 py-1 bg-primary text-white rounded text-[9px] font-mono-data uppercase flex items-center w-fit gap-1">
+<span class="material-symbols-outlined text-[10px]" data-icon="desktop_windows">desktop_windows</span> CHAOS_OS
+                                </span>
+</td>
+</tr>
+<tr class="hover:bg-surface-container transition-colors group cursor-pointer">
+<td class="px-8 py-6 font-mono-data text-slate-gray">2024-05-21</td>
+<td class="px-8 py-6 font-body-md text-primary font-medium group-hover:text-secondary">Quantization Trends in Distributed Computing</td>
+<td class="px-8 py-6">
+<div class="flex gap-1">
+<div class="w-1.5 h-4 bg-tertiary-fixed-dim"></div>
+<div class="w-1.5 h-4 bg-tertiary-fixed-dim"></div>
+<div class="w-1.5 h-4 bg-tertiary-fixed-dim"></div>
+<div class="w-1.5 h-4 bg-outline-variant"></div>
+<div class="w-1.5 h-4 bg-outline-variant"></div>
+</div>
+</td>
+<td class="px-8 py-6">
+<span class="px-2 py-1 bg-surface-container-highest text-on-surface-variant rounded text-[9px] font-mono-data uppercase">WEB_ONLY</span>
+</td>
+</tr>
+<tr class="hover:bg-surface-container transition-colors group cursor-pointer">
+<td class="px-8 py-6 font-mono-data text-slate-gray">2024-05-18</td>
+<td class="px-8 py-6 font-body-md text-primary font-medium group-hover:text-secondary">The LLM Runtime Report: VRAM vs Inference Speed</td>
+<td class="px-8 py-6">
+<div class="flex gap-1">
+<div class="w-1.5 h-4 bg-tertiary-fixed-dim"></div>
+<div class="w-1.5 h-4 bg-tertiary-fixed-dim"></div>
+<div class="w-1.5 h-4 bg-tertiary-fixed-dim"></div>
+<div class="w-1.5 h-4 bg-tertiary-fixed-dim"></div>
+<div class="w-1.5 h-4 bg-tertiary-fixed-dim"></div>
+</div>
+</td>
+<td class="px-8 py-6">
+<span class="px-2 py-1 bg-primary text-white rounded text-[9px] font-mono-data uppercase flex items-center w-fit gap-1">
+<span class="material-symbols-outlined text-[10px]" data-icon="desktop_windows">desktop_windows</span> CHAOS_OS
+                                </span>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+</div>
+</main>
+<!-- Footer Status Bar -->
+<footer class="fixed bottom-0 left-0 w-full z-50 bg-surface-container/90 backdrop-blur-sm border-t border-muted-border">
+<div class="max-w-container-max mx-auto px-margin-desktop py-2 flex justify-between items-center overflow-x-auto">
+<div class="flex items-center gap-6">
+<span class="font-section-header text-primary tracking-tighter">VAIBREPORT // PIPELINE_OK</span>
+<div class="h-4 w-px bg-outline-variant"></div>
+<div class="flex gap-6 whitespace-nowrap">
+<span class="font-mono-data text-label-md text-on-tertiary-container flex items-center gap-1">
+<span class="w-1.5 h-1.5 bg-tertiary-fixed-dim rounded-full"></span>
+                    STATUS: LIVE
+                </span>
+<span class="font-mono-data text-label-md text-slate-gray uppercase">Sources: 128</span>
+<span class="font-mono-data text-label-md text-slate-gray uppercase">Freq: 15m</span>
+<span class="font-mono-data text-label-md text-slate-gray uppercase">Cost: $0.42/hr</span><div class="h-4 w-px bg-outline-variant"></div><button class="border border-[#00E676] text-[#00E676] px-3 py-1 rounded-full font-mono-data text-[10px] uppercase tracking-tighter hover:bg-[#00E676]/10 transition-colors">DOWNLOAD CHAOS DESKTOP</button>
+</div>
+</div>
+<div class="hidden md:block">
+<span class="font-mono-data text-label-md text-slate-gray uppercase">© 2024 VAIBREPORT</span>
+</div>
+</div>
+</footer>
+<script>
+    // Simple micro-interactions
+    document.querySelectorAll('button').forEach(button => {
+        button.addEventListener('mouseenter', () => {
+            // Potential for haptic or audio feedback here
+        });
+    });
+
+    // Simulating live feed health changes
+    setInterval(() => {
+        const indicators = document.querySelectorAll('.rounded-full.bg-tertiary-fixed-dim');
+        if (indicators.length > 0) {
+            const target = indicators[Math.floor(Math.random() * indicators.length)];
+            target.classList.add('opacity-50');
+            setTimeout(() => target.classList.remove('opacity-50'), 200);
+        }
+    }, 3000);
+</script>
+</body></html>

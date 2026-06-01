@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>VAIBREPORT | Technical Reference Manual</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Chivo:wght@400;700;800&amp;family=Inter:wght@400;500;600&amp;family=JetBrains+Mono:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<style>
+        body {
+            background-color: #fafaf4;
+            background-image: radial-gradient(#cfc4c5 0.5px, transparent 0.5px);
+            background-size: 24px 24px;
+        }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+            vertical-align: middle;
+        }
+        /* Custom accessibility focus states */
+        .focus-ring:focus-visible {
+            outline: 2px solid #0152d0;
+            outline-offset: 4px;
+        }
+    </style>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                "tertiary-fixed-dim": "#00e475",
+                "surface-container-high": "#e8e8e3",
+                "slate-gray": "#4B5563", /* WCAG AA Darkened from #5E6780 */
+                "surface-dim": "#dadad5",
+                "on-surface": "#1a1c19",
+                "outline-variant": "#cfc4c5",
+                "primary-fixed": "#e2e2e2",
+                "tertiary-fixed": "#62ff96",
+                "primary-container": "#1b1b1b",
+                "on-secondary-fixed": "#001849",
+                "surface-tint": "#5e5e5e",
+                "muted-border": "#C4C6D0",
+                "on-tertiary-fixed": "#00210b",
+                "inverse-primary": "#c6c6c6",
+                "background": "#fafaf4",
+                "on-tertiary": "#ffffff",
+                "on-secondary": "#ffffff",
+                "on-primary-fixed": "#1b1b1b",
+                "on-primary": "#ffffff",
+                "error": "#ba1a1a",
+                "surface-container": "#eeeee8",
+                "on-surface-variant": "#46464b",
+                "on-secondary-container": "#fefcff",
+                "on-background": "#1a1c19",
+                "surface-container-lowest": "#ffffff",
+                "surface-container-low": "#f4f4ee",
+                "tertiary": "#000000",
+                "on-tertiary-fixed-variant": "#005226",
+                "surface-container-highest": "#e3e3dd",
+                "primary-fixed-dim": "#c6c6c6",
+                "on-primary-container": "#848484",
+                "on-error-container": "#93000a",
+                "secondary": "#0152d0",
+                "surface-variant": "#e3e3dd",
+                "secondary-fixed-dim": "#b3c5ff",
+                "outline": "#7e7576",
+                "on-tertiary-container": "#00984c",
+                "primary": "#000000",
+                "surface": "#fafaf4",
+                "on-primary-fixed-variant": "#474747",
+                "inverse-surface": "#2f312d",
+                "secondary-fixed": "#dae1ff",
+                "surface-bright": "#fafaf4",
+                "error-container": "#ffdad6",
+                "error-red": "#ba1a1a",
+                "secondary-container": "#346dea",
+                "inverse-on-surface": "#f1f1eb",
+                "on-error": "#ffffff",
+                "tertiary-container": "#00210b",
+                "on-secondary-fixed-variant": "#003fa4"
+            },
+            "borderRadius": {
+                "DEFAULT": "0.125rem",
+                "lg": "0.25rem",
+                "xl": "0.5rem",
+                "full": "0.75rem"
+            },
+            "spacing": {
+                "top-bar-height": "64px",
+                "base": "8px",
+                "nav-width": "256px",
+                "margin-desktop": "64px",
+                "container-max": "1280px",
+                "margin-mobile": "16px",
+                "gutter": "24px"
+            },
+            "fontFamily": {
+                "section-header": ["JetBrains Mono"],
+                "micro-label": ["JetBrains Mono"],
+                "mono-data": ["JetBrains Mono"],
+                "label-md": ["JetBrains Mono"],
+                "display-lg": ["Chivo"],
+                "body-md": ["Inter"],
+                "headline-lg": ["Chivo"]
+            },
+            "fontSize": {
+                "section-header": ["14px", {"lineHeight": "20px", "letterSpacing": "0.1em", "fontWeight": "700"}],
+                "micro-label": ["10px", {"letterSpacing": "0.05em", "fontWeight": "400"}],
+                "mono-data": ["14px", {"lineHeight": "24px", "fontWeight": "400"}],
+                "label-md": ["12px", {"lineHeight": "16px", "fontWeight": "500"}],
+                "display-lg": ["48px", {"lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "800"}],
+                "body-md": ["16px", {"lineHeight": "1.6", "fontWeight": "400"}],
+                "headline-lg": ["32px", {"lineHeight": "1.2", "fontWeight": "700"}]
+            }
+          },
+        },
+      }
+    </script>
+</head>
+<body class="font-body-md text-on-surface antialiased">
+<!-- TopNavBar -->
+<header class="fixed top-0 w-full z-50 flex justify-between items-center px-margin-desktop h-16 bg-surface/80 backdrop-blur-md border-b border-outline-variant dark:border-outline">
+<div class="flex items-center gap-8">
+<h1 class="font-display-lg text-display-lg font-extrabold tracking-tighter text-primary dark:text-primary-fixed">VAIBREPORT</h1>
+<nav class="hidden md:flex gap-6 items-center">
+<a class="font-section-header text-section-header uppercase tracking-widest text-secondary dark:text-secondary-fixed-dim border-b-2 border-secondary pb-1 focus-ring" href="#">STREAMS</a>
+<a class="font-section-header text-section-header uppercase tracking-widest text-on-surface-variant dark:text-outline-variant hover:text-primary transition-colors focus-ring" href="#">TERMINAL</a>
+<a class="font-section-header text-section-header uppercase tracking-widest text-on-surface-variant dark:text-outline-variant hover:text-primary transition-colors focus-ring" href="#">ARCHIVE</a>
+<a class="font-section-header text-section-header uppercase tracking-widest text-on-surface-variant dark:text-outline-variant hover:text-primary transition-colors focus-ring" href="#">SIGNALS</a>
+</nav>
+</div>
+<div class="flex items-center gap-4">
+<div class="relative group">
+<span class="absolute left-3 top-1/2 -translate-y-1/2 material-symbols-outlined text-slate-gray">search</span>
+<input class="bg-surface-container-low border-none h-10 pl-10 pr-4 w-64 text-mono-data rounded-lg focus:ring-2 focus:ring-secondary transition-all" placeholder="QUERY_SYSTEM..." type="text"/>
+</div>
+<button class="font-mono-data text-mono-data uppercase bg-primary text-on-primary px-4 py-2 hover:bg-opacity-90 transition-all focus-ring active:scale-95">UPGRADE</button>
+<div class="flex gap-2">
+<button class="p-2 hover:bg-surface-container-high transition-all rounded-lg focus-ring">
+<span class="material-symbols-outlined text-on-surface-variant">notifications</span>
+</button>
+<button class="p-2 hover:bg-surface-container-high transition-all rounded-lg focus-ring">
+<span class="material-symbols-outlined text-on-surface-variant">settings</span>
+</button>
+</div>
+</div>
+</header>
+<!-- Sidebar Wrapper -->
+<aside class="hidden lg:flex flex-col fixed left-0 top-16 h-[calc(100vh-64px)] p-4 space-y-4 bg-surface-container-low dark:bg-primary-container border-r border-outline-variant dark:border-outline w-64 z-40">
+<div class="flex items-center gap-3 p-2">
+<div class="w-10 h-10 bg-primary rounded flex items-center justify-center">
+<span class="material-symbols-outlined text-on-primary" style="font-variation-settings: 'FILL' 1;">terminal</span>
+</div>
+<div>
+<p class="font-mono-data text-mono-data font-bold leading-none">OPERATOR_01</p>
+<p class="font-micro-label text-micro-label text-slate-gray">PREMIUM_ACCESS</p>
+</div>
+</div>
+<nav class="space-y-1">
+<a class="flex items-center gap-3 px-3 py-2 bg-secondary text-on-secondary rounded-lg font-bold shadow-md hover:translate-x-1 transition-transform duration-200" href="#">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">dashboard</span>
+<span class="font-mono-data text-mono-data uppercase">DASHBOARD</span>
+</a>
+<a class="flex items-center gap-3 px-3 py-2 text-slate-gray hover:text-primary hover:bg-surface-variant rounded-lg hover:translate-x-1 transition-transform duration-200" href="#">
+<span class="material-symbols-outlined">sensors</span>
+<span class="font-mono-data text-mono-data uppercase">LIVE_FEED</span>
+</a>
+<a class="flex items-center gap-3 px-3 py-2 text-slate-gray hover:text-primary hover:bg-surface-variant rounded-lg hover:translate-x-1 transition-transform duration-200" href="#">
+<span class="material-symbols-outlined">account_tree</span>
+<span class="font-mono-data text-mono-data uppercase">PIPELINE</span>
+</a>
+<a class="flex items-center gap-3 px-3 py-2 text-slate-gray hover:text-primary hover:bg-surface-variant rounded-lg hover:translate-x-1 transition-transform duration-200" href="#">
+<span class="material-symbols-outlined">lan</span>
+<span class="font-mono-data text-mono-data uppercase">NETWORK</span>
+</a>
+</nav>
+<div class="mt-auto space-y-1">
+<a class="flex items-center gap-3 px-3 py-2 text-slate-gray hover:text-primary hover:bg-surface-variant rounded-lg transition-all" href="#">
+<span class="material-symbols-outlined">help</span>
+<span class="font-mono-data text-mono-data uppercase text-xs">SUPPORT</span>
+</a>
+<a class="flex items-center gap-3 px-3 py-2 text-slate-gray hover:text-primary hover:bg-surface-variant rounded-lg transition-all" href="#">
+<span class="material-symbols-outlined">description</span>
+<span class="font-mono-data text-mono-data uppercase text-xs">DOCS</span>
+</a>
+</div>
+</aside>
+<!-- Main Content -->
+<main class="ml-64 pt-24 px-margin-desktop pb-20 max-w-container-max mx-auto">
+<!-- Section: Typography & Tokens -->
+<section class="mb-24">
+<header class="mb-12 border-l-4 border-primary pl-6">
+<h2 class="font-headline-lg text-headline-lg uppercase mb-2">Visual Tokens</h2>
+<p class="text-slate-gray font-mono-data">DESIGN_SYSTEM_V.1.0_REF</p>
+</header>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-gutter">
+<!-- Typography Cluster -->
+<div class="bg-surface-container-lowest border border-outline-variant p-8 rounded-lg shadow-sm">
+<p class="font-section-header text-section-header text-slate-gray mb-6 border-b border-outline-variant pb-2 uppercase">Typography Scale</p>
+<div class="space-y-8">
+<div>
+<p class="font-micro-label text-micro-label text-slate-gray mb-1">DISPLAY_LG (CHIVO 800)</p>
+<h3 class="font-display-lg text-display-lg text-primary">VAIBREPORT</h3>
+</div>
+<div>
+<p class="font-micro-label text-micro-label text-slate-gray mb-1">HEADLINE_LG (CHIVO 700)</p>
+<h3 class="font-headline-lg text-headline-lg text-primary uppercase">Network Command</h3>
+</div>
+<div>
+<p class="font-micro-label text-micro-label text-slate-gray mb-1">MONO_DATA (JETBRAINS MONO 400)</p>
+<p class="font-mono-data text-mono-data text-primary">0x4F92A: Data transmission initiated at 14.4ms</p>
+</div>
+</div>
+</div>
+<!-- Color Palette -->
+<div class="bg-surface-container-lowest border border-outline-variant p-8 rounded-lg shadow-sm">
+<p class="font-section-header text-section-header text-slate-gray mb-6 border-b border-outline-variant pb-2 uppercase">Core Palette</p>
+<div class="grid grid-cols-2 gap-4">
+<div class="flex items-center gap-3">
+<div class="w-12 h-12 bg-primary border border-outline"></div>
+<div>
+<p class="font-mono-data font-bold">PRIMARY</p>
+<p class="text-xs text-slate-gray">#000000</p>
+</div>
+</div>
+<div class="flex items-center gap-3">
+<div class="w-12 h-12 bg-secondary border border-outline"></div>
+<div>
+<p class="font-mono-data font-bold">SECONDARY</p>
+<p class="text-xs text-slate-gray">#0152D0</p>
+</div>
+</div>
+<div class="flex items-center gap-3">
+<div class="w-12 h-12 bg-surface-container-low border border-outline"></div>
+<div>
+<p class="font-mono-data font-bold">CONTAINER</p>
+<p class="text-xs text-slate-gray">#F4F4EE</p>
+</div>
+</div>
+<div class="flex items-center gap-3">
+<div class="w-12 h-12 bg-tertiary-fixed-dim border border-outline"></div>
+<div>
+<p class="font-mono-data font-bold">ACCENT</p>
+<p class="text-xs text-slate-gray">#00E475</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Section: Interactive Elements -->
+<section class="mb-24">
+<header class="mb-12 border-l-4 border-primary pl-6">
+<h2 class="font-headline-lg text-headline-lg uppercase mb-2">Component Library</h2>
+<p class="text-slate-gray font-mono-data">INTERACTIVE_REF_SHEET</p>
+</header>
+<div class="grid grid-cols-1 gap-12">
+<!-- Button Matrix -->
+<div class="bg-surface-container-lowest border border-outline-variant p-8">
+<h3 class="font-section-header text-section-header mb-8 text-primary">01_BUTTON_SYSTEM</h3>
+<div class="flex flex-wrap gap-8 items-end">
+<div class="space-y-3">
+<p class="font-micro-label text-micro-label text-slate-gray">PRIMARY_SOLID</p>
+<button class="bg-primary text-on-primary font-mono-data px-8 h-12 flex items-center gap-2 hover:bg-opacity-90 active:scale-95 transition-all focus-ring">
+                                INITIALIZE <span class="material-symbols-outlined text-sm">arrow_forward</span>
+</button>
+</div>
+<div class="space-y-3">
+<p class="font-micro-label text-micro-label text-slate-gray">SECONDARY_OUTLINE</p>
+<button class="border-2 border-primary text-primary font-mono-data px-8 h-12 flex items-center hover:bg-primary hover:text-white transition-all focus-ring">
+                                EXPORT_CSV
+                            </button>
+</div>
+<div class="space-y-3">
+<p class="font-micro-label text-micro-label text-slate-gray">GHOST_ACTION</p>
+<button class="text-slate-gray hover:text-primary font-mono-data px-4 h-12 flex items-center gap-2 transition-all focus-ring">
+<span class="material-symbols-outlined">refresh</span> RE_SYNC
+                            </button>
+</div>
+<div class="space-y-3">
+<p class="font-micro-label text-micro-label text-slate-gray">PROCESSING_STATE</p>
+<button class="bg-surface-container-high text-slate-gray font-mono-data px-8 h-12 flex items-center gap-3 cursor-wait">
+<span class="animate-spin material-symbols-outlined text-sm">sync</span> COMPUTING
+                            </button>
+</div>
+</div>
+</div>
+<!-- Form Controls -->
+<div class="bg-surface-container-lowest border border-outline-variant p-8">
+<h3 class="font-section-header text-section-header mb-8 text-primary">02_INPUT_ARCHITECTURE</h3>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+<div class="space-y-4">
+<label class="block font-label-md text-label-md text-slate-gray uppercase">Terminal Query</label>
+<div class="relative">
+<input class="w-full bg-surface-container-low border-b-2 border-outline-variant p-3 font-mono-data focus:border-secondary focus:ring-0 transition-all outline-none" placeholder="grep --r 'chaos_engine' /var/logs" type="text"/>
+<span class="absolute right-3 top-3 material-symbols-outlined text-secondary">terminal</span>
+</div>
+</div>
+<div class="space-y-4">
+<label class="block font-label-md text-label-md text-slate-gray uppercase">Chaos Parameter [0-100]</label>
+<input class="w-full accent-primary" type="range"/>
+<div class="flex justify-between font-micro-label text-slate-gray">
+<span>STABLE</span>
+<span>VOLATILE</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Section: Chaos & Ecosystem Widgets -->
+<section class="mb-24">
+<header class="mb-12 border-l-4 border-primary pl-6">
+<h2 class="font-headline-lg text-headline-lg uppercase mb-2">System Modules</h2>
+<p class="text-slate-gray font-mono-data">OPERATIONAL_RESOURCES</p>
+</header>
+<div class="grid grid-cols-12 gap-gutter">
+<!-- Chaos Desktop Widget -->
+<div class="col-span-12 lg:col-span-8 bg-primary text-on-primary p-8 rounded-lg relative overflow-hidden group">
+<div class="relative z-10 flex flex-col h-full justify-between">
+<div>
+<span class="bg-tertiary-fixed-dim text-on-tertiary-fixed px-3 py-1 font-mono-data text-xs mb-4 inline-block">SYSTEM_NOMINAL</span>
+<h3 class="font-display-lg text-display-lg uppercase mb-2">Chaos Desktop</h3>
+<p class="max-w-md opacity-80 text-body-md mb-8">Deploy localized neural environments with millisecond latency. The institutional standard for predictive modeling and structural stress testing.</p>
+</div>
+<div class="flex gap-4">
+<button class="bg-white text-black font-mono-data px-6 py-3 flex items-center gap-2 hover:bg-opacity-90 transition-all focus-ring">
+                                INSTANTIATE_V.2
+                            </button>
+<button class="border border-white/30 text-white font-mono-data px-6 py-3 flex items-center gap-2 hover:bg-white/10 transition-all focus-ring">
+                                VIEW_SPECIFICATIONS
+                            </button>
+</div>
+</div>
+<!-- Decorative Element -->
+<div class="absolute -right-20 -bottom-20 w-80 h-80 bg-secondary blur-[100px] opacity-20 group-hover:opacity-40 transition-opacity"></div>
+<div class="absolute top-8 right-8 text-white/10">
+<span class="material-symbols-outlined text-[120px]" style="font-variation-settings: 'FILL' 1;">hub</span>
+</div>
+</div>
+<!-- Ecosystem Partners -->
+<div class="col-span-12 lg:col-span-4 flex flex-col gap-6">
+<div class="bg-surface-container-lowest border border-outline-variant p-6 rounded-lg flex items-center justify-between group hover:border-secondary transition-all cursor-pointer">
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 bg-surface-container flex items-center justify-center rounded">
+<span class="material-symbols-outlined text-primary">cloud_done</span>
+</div>
+<div>
+<p class="font-mono-data font-bold">AZURE_FEDERATION</p>
+<p class="text-xs text-slate-gray">Connected: 0.2ms</p>
+</div>
+</div>
+<span class="material-symbols-outlined text-slate-gray group-hover:text-secondary transition-colors">arrow_outward</span>
+</div>
+<div class="bg-surface-container-lowest border border-outline-variant p-6 rounded-lg flex items-center justify-between group hover:border-secondary transition-all cursor-pointer">
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 bg-surface-container flex items-center justify-center rounded">
+<span class="material-symbols-outlined text-primary">database</span>
+</div>
+<div>
+<p class="font-mono-data font-bold">AWS_S3_VAULT</p>
+<p class="text-xs text-slate-gray">Status: Encrypted</p>
+</div>
+</div>
+<span class="material-symbols-outlined text-slate-gray group-hover:text-secondary transition-colors">arrow_outward</span>
+</div>
+<div class="bg-surface-container-lowest border border-outline-variant p-6 rounded-lg flex items-center justify-between group hover:border-secondary transition-all cursor-pointer">
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 bg-surface-container flex items-center justify-center rounded">
+<span class="material-symbols-outlined text-primary">shield</span>
+</div>
+<div>
+<p class="font-mono-data font-bold">PENTEST_SUITE</p>
+<p class="text-xs text-slate-gray">Active Shields</p>
+</div>
+</div>
+<span class="material-symbols-outlined text-slate-gray group-hover:text-secondary transition-colors">arrow_outward</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Section: Structural Grid Example -->
+<section class="mb-24">
+<header class="mb-12 border-l-4 border-primary pl-6">
+<h2 class="font-headline-lg text-headline-lg uppercase mb-2">Bento Grid Layout</h2>
+<p class="text-slate-gray font-mono-data">ASSET_DISTRIBUTION_EXAMPLE</p>
+</header>
+<div class="grid grid-cols-1 md:grid-cols-4 grid-rows-2 gap-6 h-[600px]">
+<div class="md:col-span-2 md:row-span-2 bg-surface-container border border-outline-variant p-8 flex flex-col justify-end relative overflow-hidden">
+<img class="absolute inset-0 w-full h-full object-cover opacity-10 mix-blend-multiply" data-alt="A macro photography shot of a futuristic circuit board with glowing traces of blue light. The aesthetic is clean and high-tech, fitting the light-mode technical minimalist style. The lighting is crisp and highlights the intricate mechanical textures of the hardware components." src="https://lh3.googleusercontent.com/aida-public/AB6AXuD9qycizqDKyZCCZKidF6ky6puQvTuN1TGDM0AzqYQxXMM87KQM8hOJGekyCi7xqXE5Fy5t2mi5PdfKtMu4Sif21uEM-seO88hopNHloA9xxAqI93UPAsqPFC9Sh_30Uj-HJItMbc_kY0usidbAkq9ohEhGmJIUwdxlpNhZJ0POXwgmPodTF4z-eUCwFbxzor6dGULdbIu07wAWI771T4w70EdoQJB6i0Q-radzsWuJXCkBB2e3NjLaY-1dlI47I6IrLaG7t6G84Uk"/>
+<div class="relative z-10">
+<h4 class="font-headline-lg text-headline-lg uppercase mb-2">Core Processor</h4>
+<p class="text-slate-gray max-w-sm">Neural engines processing over 4TB of network traffic per minute.</p>
+</div>
+</div>
+<div class="md:col-span-2 bg-surface-container-highest border border-outline-variant p-6 flex flex-col justify-between">
+<div class="flex justify-between items-start">
+<span class="material-symbols-outlined text-secondary">trending_up</span>
+<p class="font-mono-data text-2xl font-bold">+24.8%</p>
+</div>
+<div>
+<p class="font-micro-label text-slate-gray uppercase">Global Throughput</p>
+<div class="w-full h-1 bg-surface-container-low mt-2">
+<div class="w-3/4 h-full bg-secondary"></div>
+</div>
+</div>
+</div>
+<div class="bg-tertiary-fixed-dim p-6 flex flex-col items-center justify-center text-center">
+<span class="material-symbols-outlined text-4xl mb-2" style="font-variation-settings: 'FILL' 1;">encrypted</span>
+<p class="font-mono-data font-bold uppercase">Safe</p>
+</div>
+<div class="bg-surface-container-lowest border border-outline-variant p-6 flex flex-col items-center justify-center text-center">
+<span class="material-symbols-outlined text-4xl mb-2 text-error">warning</span>
+<p class="font-mono-data font-bold uppercase text-error">Latency</p>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="w-full py-8 px-margin-desktop flex flex-col md:flex-row justify-between items-center border-t border-outline-variant bg-surface relative z-50">
+<p class="font-mono-data text-mono-data font-bold text-primary mb-4 md:mb-0">VAIBREPORT TERMINAL</p>
+<div class="flex gap-8 mb-4 md:mb-0">
+<a class="font-label-md text-label-md uppercase tracking-widest text-slate-gray hover:text-secondary hover:underline decoration-secondary underline-offset-4 transition-all focus-ring" href="#">PRIVACY_POLICY</a>
+<a class="font-label-md text-label-md uppercase tracking-widest text-slate-gray hover:text-secondary hover:underline decoration-secondary underline-offset-4 transition-all focus-ring" href="#">SYSTEM_STATUS</a>
+<a class="font-label-md text-label-md uppercase tracking-widest text-slate-gray hover:text-secondary hover:underline decoration-secondary underline-offset-4 transition-all focus-ring" href="#">API_DOCS</a>
+</div>
+<p class="font-label-md text-label-md uppercase tracking-widest text-slate-gray opacity-60">© 2024 VAIBREPORT TERMINAL. ALL RIGHTS RESERVED.</p>
+</footer>
+<script>
+        // Micro-interaction: Update time and simulated logs
+        function updateSystemTime() {
+            const now = new Date();
+            const timeStr = now.toLocaleTimeString('en-US', { hour12: false });
+            // This is where you'd inject dynamic values if this were a live app
+        }
+        setInterval(updateSystemTime, 1000);
+
+        // Visual effect: Mouse position dot-grid parallax (Subtle)
+        document.addEventListener('mousemove', (e) => {
+            const x = (e.clientX / window.innerWidth - 0.5) * 10;
+            const y = (e.clientY / window.innerHeight - 0.5) * 10;
+            document.body.style.backgroundPosition = `${x}px ${y}px`;
+        });
+    </script>
+</body></html>

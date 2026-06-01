@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>VAIBREPORT // model-context-protocol</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Chivo:wght@400;700;800&amp;family=Inter:wght@400;500;700&amp;family=JetBrains+Mono:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "surface-bright": "#fafaf4",
+                    "primary-fixed": "#e3e1ec",
+                    "secondary-container": "#226bf8",
+                    "outline-variant": "#c8c5cb",
+                    "surface": "#fafaf4",
+                    "secondary-fixed-dim": "#b3c5ff",
+                    "surface-tint": "#5d5e66",
+                    "surface-container": "#eeeee8",
+                    "surface-variant": "#e3e3dd",
+                    "slate-gray": "#5E6780",
+                    "on-primary-fixed": "#1a1b22",
+                    "on-secondary-fixed-variant": "#003fa4",
+                    "background": "#fafaf4",
+                    "tertiary-fixed-dim": "#00e475",
+                    "surface-dim": "#dadad5",
+                    "on-secondary": "#ffffff",
+                    "inverse-primary": "#c6c5cf",
+                    "on-error-container": "#93000a",
+                    "tertiary": "#000000",
+                    "on-tertiary-fixed-variant": "#005226",
+                    "on-primary-container": "#83838c",
+                    "surface-container-highest": "#e3e3dd",
+                    "primary-container": "#1a1b22",
+                    "on-primary": "#ffffff",
+                    "on-secondary-fixed": "#001849",
+                    "error-container": "#ffdad6",
+                    "surface-container-low": "#f4f4ee",
+                    "outline": "#77767c",
+                    "surface-container-lowest": "#ffffff",
+                    "blueprint-dot": "rgba(18, 19, 26, 0.08)",
+                    "on-background": "#1a1c19",
+                    "inverse-on-surface": "#f1f1eb",
+                    "muted-border": "#C4C6D0",
+                    "on-surface-variant": "#46464b",
+                    "secondary-fixed": "#dae1ff",
+                    "surface-container-high": "#e8e8e3",
+                    "on-primary-fixed-variant": "#46464e",
+                    "on-tertiary-container": "#00984c",
+                    "on-error": "#ffffff",
+                    "tertiary-fixed": "#62ff96",
+                    "tertiary-container": "#00210b",
+                    "on-surface": "#1a1c19",
+                    "secondary": "#0052d0",
+                    "error": "#ba1a1a",
+                    "primary-fixed-dim": "#c6c5cf",
+                    "on-tertiary": "#ffffff",
+                    "primary": "#000000",
+                    "on-tertiary-fixed": "#00210b",
+                    "on-secondary-container": "#fefcff",
+                    "inverse-surface": "#2f312d"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.125rem",
+                    "lg": "0.25rem",
+                    "xl": "0.5rem",
+                    "full": "0.75rem"
+            },
+            "spacing": {
+                    "margin-desktop": "64px",
+                    "gutter": "24px",
+                    "container-max": "1280px",
+                    "base": "8px",
+                    "margin-mobile": "16px"
+            },
+            "fontFamily": {
+                    "mono-data": ["JetBrains Mono"],
+                    "headline-lg": ["Chivo"],
+                    "label-md": ["JetBrains Mono"],
+                    "display-lg": ["Chivo"],
+                    "body-sm": ["Inter"],
+                    "section-header": ["JetBrains Mono"],
+                    "body-md": ["Inter"]
+            },
+            "fontSize": {
+                    "mono-data": ["14px", {"lineHeight": "24px", "fontWeight": "400"}],
+                    "headline-lg": ["32px", {"lineHeight": "1.2", "fontWeight": "700"}],
+                    "label-md": ["12px", {"lineHeight": "16px", "fontWeight": "500"}],
+                    "display-lg": ["48px", {"lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "800"}],
+                    "body-sm": ["14px", {"lineHeight": "1.5", "fontWeight": "400"}],
+                    "section-header": ["14px", {"lineHeight": "20px", "letterSpacing": "0.1em", "fontWeight": "700"}],
+                    "body-md": ["16px", {"lineHeight": "1.6", "fontWeight": "400"}]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        body {
+            background-color: #fafaf4;
+            background-image: radial-gradient(var(--tw-colors-blueprint-dot) 1px, transparent 1px);
+            background-size: 24px 24px;
+        }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(8px);
+            border: 1px solid rgba(196, 198, 208, 0.3);
+        }
+        .core-stream-card {
+            border-left: 2px solid #000000;
+        }
+    </style>
+</head>
+<body class="font-body-md text-on-surface">
+<!-- TopNavBar -->
+<nav class="bg-surface docked full-width top-0 border-b border-outline-variant flex justify-between items-center w-full px-margin-desktop py-4 max-w-container-max mx-auto z-50 sticky">
+<div class="font-headline-lg text-headline-lg font-black tracking-tighter text-primary">VAIBREPORT</div>
+<div class="hidden md:flex gap-8 items-center">
+<a class="font-label-md text-label-md text-primary border-b-2 border-primary pb-1 hover:text-primary transition-colors duration-200 scale-95 active:scale-90 transition-transform" href="#">Catalog</a>
+<a class="font-label-md text-label-md text-slate-gray hover:text-primary transition-colors duration-200 scale-95 active:scale-90 transition-transform" href="#">Peter's Picks</a>
+<a class="font-label-md text-label-md text-slate-gray hover:text-primary transition-colors duration-200 scale-95 active:scale-90 transition-transform" href="#">Leaderboard</a>
+<a class="font-label-md text-label-md text-slate-gray hover:text-primary transition-colors duration-200 scale-95 active:scale-90 transition-transform" href="#">About</a>
+<a class="font-label-md text-label-md text-slate-gray hover:text-primary transition-colors duration-200 scale-95 active:scale-90 transition-transform" href="#">RSS</a>
+</div>
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-primary cursor-pointer">schedule</span>
+<span class="material-symbols-outlined text-primary cursor-pointer">dark_mode</span>
+</div>
+</nav>
+<main class="max-w-container-max mx-auto px-margin-desktop py-12">
+<!-- Header Section -->
+<header class="mb-12">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-6">
+<div>
+<div class="flex items-center gap-2 mb-2">
+<span class="font-mono-data text-mono-data text-slate-gray uppercase tracking-widest">Repository / Anthropic-AI</span>
+</div>
+<h1 class="font-display-lg text-display-lg text-primary mb-4">model-context-protocol</h1>
+<div class="flex flex-wrap gap-3">
+<div class="flex items-center gap-2 bg-tertiary-container/10 px-3 py-1 rounded-full border border-on-tertiary-container/20">
+<span class="w-2 h-2 rounded-full bg-on-tertiary-container animate-pulse"></span>
+<span class="font-label-md text-label-md text-on-tertiary-container">HOT: 94 VELOCITY</span>
+</div>
+<div class="flex items-center gap-2 bg-secondary/10 px-3 py-1 rounded-full border border-secondary/20">
+<span class="material-symbols-outlined text-[16px] text-secondary">trending_up</span>
+<span class="font-label-md text-label-md text-secondary">14 DAY STREAK</span>
+</div>
+<div class="flex items-center gap-2 bg-surface-container-high px-3 py-1 rounded-full border border-outline-variant">
+<span class="material-symbols-outlined text-[16px] text-on-surface-variant">terminal</span>
+<span class="font-label-md text-label-md text-on-surface-variant">OPEN SOURCE</span>
+</div>
+</div>
+</div>
+<div class="flex gap-4">
+<button class="bg-primary text-on-primary px-8 py-3 rounded-lg font-label-md text-label-md flex items-center gap-2 hover:opacity-90 transition-all">
+<span class="material-symbols-outlined">rocket_launch</span>
+                        VIEW ON GITHUB
+                    </button>
+<button class="border border-outline px-8 py-3 rounded-lg font-label-md text-label-md flex items-center gap-2 hover:bg-surface-variant transition-all">
+<span class="material-symbols-outlined">add</span>
+                        ADD TO STACK
+                    </button>
+</div>
+</div>
+</header>
+<!-- Main Content Layout -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter">
+<!-- Left Column: Media & Editorial -->
+<div class="lg:col-span-8 space-y-12">
+<!-- Media Gallery -->
+<section class="space-y-4">
+<div class="aspect-video w-full rounded-xl overflow-hidden bg-surface-container shadow-xl border border-outline-variant relative group">
+<img class="w-full h-full object-cover" data-alt="A high-resolution, professional software interface showcase for a technical protocol. The visualization features clean typography, intricate network diagrams with glowing nodes, and a sleek dark-to-light gradient background. The lighting is sophisticated, with subtle neon accents in a professional light-mode aesthetic, emphasizing precision, automation, and high-end data infrastructure design." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCZQWkYt3bpee3qyfQTIxv72J6lH_CAOX9u5los9OC8qONomRQLJ4KJ33S7jpN3DXReGlr8Aio8ubpZagTEirI_GIvBCf4NGuvQ6aKsAhENhiFmz0137REMFpUbyU0Zt-4bMNDQ90rpCHPxcB9hH3vJ_m8xnpTo4vy9Jo-0aCzdCDCL0MuhpwwQRmdYVODhRA7KCbAQZXErNcf-DPZyEEIC58q0rq5MGPUhTOKiRpCsdnTIQloNgX975vBj82frK5ziyBd5pITS7IQ"/>
+<div class="absolute inset-0 flex items-center justify-center bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity">
+<div class="w-16 h-16 rounded-full bg-white/90 flex items-center justify-center shadow-lg cursor-pointer transform hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-primary scale-150" style="font-variation-settings: 'FILL' 1;">play_arrow</span>
+</div>
+</div>
+</div>
+<div class="grid grid-cols-4 gap-4">
+<div class="aspect-video rounded-lg overflow-hidden border-2 border-primary cursor-pointer">
+<img class="w-full h-full object-cover" data-alt="A detailed technical architectural diagram showcasing a modular communication protocol. The style is clean and professional with a white background, using thin gray lines and sharp black text to denote different data layers. Soft blue accents highlight specific interactive components in a sophisticated, minimalist technical report style." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBwkCb4ze5yIMs5LRdQ1xYNAAO6vC2VteHT1mXKcWUWBhNjgvXxoPxOjRe1GI8ZhzY8gvMeWM6x2ww_9-IjWWSyK9q7TWu_LonW2LhcrGnePa7RocDPFmK6pBxUtOdxVaeUKkPqDPV5c_w2gejtIdnkHnUIkcDCzrd3lQK6TTLFcf3QMvmd1KO-mvNsfooE6qqGy9HZAfCvc1diHLNoeTcrYsuM4U3FU1dd4IvPQUFYvrpMdBcuW_mhblyFHRD9C-TFBHdD66LHJEc"/>
+</div>
+<div class="aspect-video rounded-lg overflow-hidden border border-outline-variant hover:border-primary transition-colors cursor-pointer">
+<img class="w-full h-full object-cover" data-alt="A close-up view of a code editor showing a JSON schema implementation for a model context protocol. The aesthetic is ultra-modern and technical, featuring a high-contrast monospaced font on a pristine white background. The composition is balanced and emphasizes the clarity and precision of high-end software development documentation." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAzkMXhWH8NaUrTrZlSagLHGAV7-imzBgnshoqx_qwgcUsAruNVx5rcr4_Fib4YGBl7fJctLcObQMX5gVkM4WjXhjenM-TVS5zM2qK3Jg7oiU59pSJbGYGVmOgGgucvsGintJZYjo6gE11lcucIKEItXvYuHvICb2FlLBANa6wE1WlzEaxrRLHfMdFTZRu7pzowBVlHBcMVo1XF8da_D3rQhSWTnxvH2A8XdFFVyrn8uGieI5GNyX7_n531wF6vtzrayeirakZHfPM"/>
+</div>
+<div class="aspect-video rounded-lg overflow-hidden border border-outline-variant hover:border-primary transition-colors cursor-pointer">
+<img class="w-full h-full object-cover" data-alt="An abstract visualization of a data stream flowing between distributed nodes, representing a high-performance messaging protocol. The image uses a palette of soft whites, deep slate grays, and vibrant green accents to signify active connections. The style is clean, corporate, and technologically advanced, suitable for a premium data dashboard." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDuXS50_gA_6wDYgTcB-LcXXbiVEjlH-w2YXZI2SaPqk0gPyJBFDcZT1G8_rnznmF8mq_b0w_mNJeLDWpZDNMtgGT1zr792JxIYdIZi64IcHHYlalI4V2XxocVtWShMRS8gCWg3Q0N0JEjYzHeSPk_l_-BT0RWFxCtmwCRYFxA6hFUFJMPH26YTDKG7Ms0U-dSTHgS7R3CnpR7uJe5MsHrjqdpMpNTlvR_AlO56yeN4riRkjgpbBVQF0h4yeGV7UFwtEyCgzjgokPw"/>
+</div>
+<div class="aspect-video rounded-lg overflow-hidden border border-outline-variant hover:border-primary transition-colors cursor-pointer">
+<img class="w-full h-full object-cover" data-alt="A minimalist digital illustration of a robotic hand interacting with a holographic interface representing a context-aware AI protocol. The lighting is soft and high-key, using a refined color scheme of off-whites and subtle metallic grays. The mood is futuristic yet practical, evoking a sense of seamless human-AI collaboration." src="https://lh3.googleusercontent.com/aida-public/AB6AXuA2y281oB7mJ0YRtbN9r0ocr0HPi145B9ImEgirQKvBsi42XhKP0xRqa5ke7mimzpMF0S3V7r-4omKLIGis4SiXmk4ai_uN6zw8wOoZKszmallgAucshgWLIgzJ5SF4VX4m4GUvNpGLXbFU5KiKLqUTUZbRomVWPovBSNldCgQXUXDm2h6IFoa69dGc_SWqn5KFoy9DUIjdBLSpHyurKPwy4onkRcLGie0YANN9UBX5VR5jc6fQHf1sNB7HFu63dhZlb0-cVRJYcls"/>
+</div>
+</div>
+</section>
+<!-- Editorial Breakdown -->
+<section class="glass-card p-10 rounded-xl space-y-8 core-stream-card">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-on-secondary-fixed-variant" style="font-variation-settings: 'FILL' 1;">neurology</span>
+<h2 class="font-section-header text-section-header uppercase text-slate-gray">Claude Editorial Analysis</h2>
+</div>
+<div class="space-y-6">
+<div>
+<h3 class="font-headline-lg text-headline-lg mb-3">The Gist</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+                                The Model Context Protocol (MCP) is an open standard that enables AI models to seamlessly connect to external data sources and tools. It provides a universal interface for context injection, moving away from fragmented, one-off integrations towards a unified ecosystem of AI-capable data adapters.
+                            </p>
+</div>
+<div class="h-px bg-muted-border/30 w-full"></div>
+<div>
+<h3 class="font-headline-lg text-headline-lg mb-3">Why it matters</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+                                Current LLM integrations are siloed. MCP democratizes "AI-readiness" for enterprise data. By implementing a single protocol, companies can make their entire documentation, databases, and internal tools instantly accessible to any MCP-compliant AI agent, significantly reducing the engineering overhead of building bespoke RAG systems.
+                            </p>
+</div>
+<div class="h-px bg-muted-border/30 w-full"></div>
+<div>
+<h3 class="font-headline-lg text-headline-lg mb-3">Technical Moat</h3>
+<div class="grid md:grid-cols-2 gap-6 mt-4">
+<div class="bg-surface-container-low p-4 border border-outline-variant rounded-lg">
+<span class="font-label-md text-label-md text-primary font-bold mb-2 block">Standardized Transport</span>
+<p class="text-body-sm text-on-surface-variant">Uses JSON-RPC 2.0 over various transports (Stdio, HTTP/SSE), ensuring broad compatibility across languages and environments.</p>
+</div>
+<div class="bg-surface-container-low p-4 border border-outline-variant rounded-lg">
+<span class="font-label-md text-label-md text-primary font-bold mb-2 block">Dynamic Discovery</span>
+<p class="text-body-sm text-on-surface-variant">Allows models to query capabilities in real-time, adapting to the specific schema and tools provided by the context host.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+<!-- Right Column: Data Sidebar -->
+<aside class="lg:col-span-4 space-y-6">
+<!-- Stats Card -->
+<section class="glass-card p-6 rounded-xl border border-muted-border">
+<h2 class="font-section-header text-section-header mb-6 pb-2 border-b border-muted-border">LIVE REPO METRICS</h2>
+<div class="space-y-6">
+<div class="flex justify-between items-center">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-slate-gray">star</span>
+<span class="font-body-md text-body-md">Stars</span>
+</div>
+<span class="font-mono-data text-mono-data font-bold">12,482</span>
+</div>
+<div class="flex justify-between items-center">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-slate-gray">fork_right</span>
+<span class="font-body-md text-body-md">Forks</span>
+</div>
+<span class="font-mono-data text-mono-data font-bold">894</span>
+</div>
+<div class="flex justify-between items-center">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-slate-gray">group</span>
+<span class="font-body-md text-body-md">Contributors</span>
+</div>
+<span class="font-mono-data text-mono-data font-bold">42</span>
+</div>
+<!-- Mini Chart Concept -->
+<div class="pt-4">
+<span class="font-label-md text-label-md text-slate-gray block mb-4">CONTRIBUTOR VELOCITY (30D)</span>
+<div class="flex items-end gap-1 h-12 w-full">
+<div class="bg-primary w-full h-[30%]"></div>
+<div class="bg-primary w-full h-[45%]"></div>
+<div class="bg-primary w-full h-[40%]"></div>
+<div class="bg-primary w-full h-[70%]"></div>
+<div class="bg-primary w-full h-[85%]"></div>
+<div class="bg-tertiary-fixed-dim w-full h-[100%]"></div>
+<div class="bg-tertiary-fixed-dim w-full h-[95%]"></div>
+</div>
+</div>
+</div>
+</section>
+<!-- Technical Stack -->
+<section class="glass-card p-6 rounded-xl border border-muted-border">
+<h2 class="font-section-header text-section-header mb-6 pb-2 border-b border-muted-border">TECHNICAL STACK</h2>
+<div class="space-y-4">
+<div class="flex flex-col gap-2">
+<span class="font-label-md text-label-md text-slate-gray">PRIMARY LANGUAGE</span>
+<div class="flex items-center justify-between">
+<span class="font-body-md font-bold">TypeScript</span>
+<span class="font-mono-data text-mono-data text-secondary">98.2%</span>
+</div>
+<div class="w-full bg-surface-container-high h-1.5 rounded-full overflow-hidden">
+<div class="bg-secondary h-full" style="width: 98.2%"></div>
+</div>
+</div>
+<div class="pt-4 space-y-3">
+<span class="font-label-md text-label-md text-slate-gray uppercase">Core Dependencies</span>
+<div class="flex flex-wrap gap-2">
+<span class="bg-surface-container-highest px-2 py-1 rounded text-xs font-mono-data">zod</span>
+<span class="bg-surface-container-highest px-2 py-1 rounded text-xs font-mono-data">json-rpc-2.0</span>
+<span class="bg-surface-container-highest px-2 py-1 rounded text-xs font-mono-data">fastify</span>
+<span class="bg-surface-container-highest px-2 py-1 rounded text-xs font-mono-data">commander</span>
+</div>
+</div>
+<div class="pt-4 space-y-3">
+<span class="font-label-md text-label-md text-slate-gray uppercase">Related Tools</span>
+<ul class="space-y-2">
+<li class="flex items-center gap-2 text-body-sm hover:text-secondary cursor-pointer transition-colors">
+<span class="material-symbols-outlined text-[14px]">link</span>
+                                    Claude Desktop
+                                </li>
+<li class="flex items-center gap-2 text-body-sm hover:text-secondary cursor-pointer transition-colors">
+<span class="material-symbols-outlined text-[14px]">link</span>
+                                    MCP-SDK-Python
+                                </li>
+<li class="flex items-center gap-2 text-body-sm hover:text-secondary cursor-pointer transition-colors">
+<span class="material-symbols-outlined text-[14px]">link</span>
+                                    Inspector-Tool
+                                </li>
+</ul>
+</div>
+</div>
+</section>
+<!-- Share/Embed -->
+<section class="glass-card p-6 rounded-xl border border-muted-border bg-primary text-on-primary">
+<h2 class="font-section-header text-section-header mb-4 text-on-primary/60">EXPORT DATA</h2>
+<div class="grid grid-cols-2 gap-4">
+<button class="bg-white/10 hover:bg-white/20 p-3 rounded flex flex-col items-center gap-2 transition-colors">
+<span class="material-symbols-outlined">code</span>
+<span class="text-xs font-label-md">JSON</span>
+</button>
+<button class="bg-white/10 hover:bg-white/20 p-3 rounded flex flex-col items-center gap-2 transition-colors">
+<span class="material-symbols-outlined">description</span>
+<span class="text-xs font-label-md">REPORT</span>
+</button>
+</div>
+</section>
+</aside>
+</div>
+<!-- Footer Padding for status bar -->
+<div class="h-24"></div>
+</main>
+<!-- Footer Status Bar -->
+<footer class="fixed bottom-0 left-0 w-full z-50 flex justify-between items-center px-margin-desktop py-2 bg-surface-container/90 backdrop-blur-sm border-t border-muted-border">
+<div class="flex items-center gap-4">
+<span class="font-section-header text-section-header text-primary">VAIBREPORT // PIPELINE_OK</span>
+<div class="hidden md:flex items-center gap-4 border-l border-muted-border pl-4">
+<span class="font-mono-data text-mono-data text-on-surface-variant flex items-center gap-1">
+<span class="w-2 h-2 rounded-full bg-tertiary-fixed-dim"></span>
+                    STATUS: LIVE
+                </span>
+<span class="h-4 w-px bg-muted-border"></span>
+<span class="font-mono-data text-mono-data text-on-surface-variant uppercase">SOURCES: 128</span>
+<span class="h-4 w-px bg-muted-border"></span>
+<span class="font-mono-data text-mono-data text-on-surface-variant uppercase">FREQ: 15M</span>
+<span class="h-4 w-px bg-muted-border"></span>
+<span class="font-mono-data text-mono-data text-on-surface-variant uppercase">COST: $0.42/HR</span>
+</div>
+</div>
+<div class="font-mono-data text-mono-data text-slate-gray">
+            © 2024 VAIBREPORT
+        </div>
+</footer>
+<script>
+        // Simple Micro-interactions
+        document.querySelectorAll('button').forEach(btn => {
+            btn.addEventListener('mousedown', () => {
+                btn.style.transform = 'scale(0.95)';
+            });
+            btn.addEventListener('mouseup', () => {
+                btn.style.transform = 'scale(1)';
+            });
+        });
+
+        // Dynamic chart pulse effect logic could be added here
+    </script>
+</body></html>

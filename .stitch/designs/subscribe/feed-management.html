@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Subscription &amp; Feeds | VAIBREPORT</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Chivo:wght@700;800&amp;family=Inter:wght@400;500&amp;family=JetBrains+Mono:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "on-primary": "#ffffff",
+                    "surface-container-low": "#f4f4ee",
+                    "surface-container": "#eeeee8",
+                    "background": "#fafaf4",
+                    "on-tertiary-fixed-variant": "#005226",
+                    "on-tertiary-fixed": "#00210b",
+                    "primary-fixed": "#e3e1ec",
+                    "surface-container-highest": "#e3e3dd",
+                    "on-surface-variant": "#46464b",
+                    "surface-bright": "#fafaf4",
+                    "on-surface": "#1a1c19",
+                    "on-error-container": "#93000a",
+                    "primary-fixed-dim": "#c6c5cf",
+                    "error": "#ba1a1a",
+                    "on-secondary": "#ffffff",
+                    "muted-border": "#C4C6D0",
+                    "tertiary": "#000000",
+                    "inverse-on-surface": "#f1f1eb",
+                    "on-secondary-fixed-variant": "#003fa4",
+                    "secondary-container": "#226bf8",
+                    "tertiary-fixed-dim": "#00e475",
+                    "on-tertiary": "#ffffff",
+                    "error-container": "#ffdad6",
+                    "primary": "#000000",
+                    "on-error": "#ffffff",
+                    "on-primary-fixed": "#1a1b22",
+                    "secondary-fixed": "#dae1ff",
+                    "surface-variant": "#e3e3dd",
+                    "surface-container-lowest": "#ffffff",
+                    "primary-container": "#1a1b22",
+                    "surface": "#fafaf4",
+                    "inverse-primary": "#c6c5cf",
+                    "tertiary-container": "#00210b",
+                    "on-secondary-container": "#fefcff",
+                    "on-secondary-fixed": "#001849",
+                    "on-primary-container": "#83838c",
+                    "on-background": "#1a1c19",
+                    "blueprint-dot": "rgba(18, 19, 26, 0.08)",
+                    "tertiary-fixed": "#62ff96",
+                    "surface-container-high": "#e8e8e3",
+                    "outline-variant": "#c8c5cb",
+                    "inverse-surface": "#2f312d",
+                    "surface-tint": "#5d5e66",
+                    "surface-dim": "#dadad5",
+                    "on-tertiary-container": "#00984c",
+                    "on-primary-fixed-variant": "#46464e",
+                    "slate-gray": "#5E6780",
+                    "secondary": "#0052d0",
+                    "outline": "#77767c",
+                    "secondary-fixed-dim": "#b3c5ff"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.125rem",
+                    "lg": "0.25rem",
+                    "xl": "0.5rem",
+                    "full": "0.75rem"
+            },
+            "spacing": {
+                    "gutter": "24px",
+                    "container-max": "1280px",
+                    "margin-mobile": "16px",
+                    "margin-desktop": "64px",
+                    "base": "8px"
+            },
+            "fontFamily": {
+                    "label-md": ["JetBrains Mono"],
+                    "headline-lg": ["Chivo"],
+                    "headline-lg-mobile": ["Chivo"],
+                    "body-md": ["Inter"],
+                    "section-header": ["JetBrains Mono"],
+                    "mono-data": ["JetBrains Mono"],
+                    "body-sm": ["Inter"],
+                    "display-lg": ["Chivo"]
+            },
+            "fontSize": {
+                    "label-md": ["12px", {"lineHeight": "16px", "fontWeight": "500"}],
+                    "headline-lg": ["32px", {"lineHeight": "1.2", "fontWeight": "700"}],
+                    "headline-lg-mobile": ["24px", {"lineHeight": "1.2", "fontWeight": "700"}],
+                    "body-md": ["16px", {"lineHeight": "1.6", "fontWeight": "400"}],
+                    "section-header": ["14px", {"lineHeight": "20px", "letterSpacing": "0.1em", "fontWeight": "700"}],
+                    "mono-data": ["14px", {"lineHeight": "24px", "fontWeight": "400"}],
+                    "body-sm": ["14px", {"lineHeight": "1.5", "fontWeight": "400"}],
+                    "display-lg": ["48px", {"lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "800"}]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        .dot-grid {
+            background-image: radial-gradient(var(--blueprint-dot) 1px, transparent 0);
+            background-size: 24px 24px;
+        }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .custom-shadow {
+            box-shadow: 0px 4px 20px rgba(0,0,0,0.04);
+        }
+        .custom-shadow-hover:hover {
+            box-shadow: 0px 8px 30px rgba(0,0,0,0.08);
+        }
+    </style>
+</head>
+<body class="bg-background text-on-surface font-body-md min-h-screen flex flex-col dot-grid">
+<!-- TopNavBar Shell -->
+<header class="fixed top-0 w-full z-50 bg-surface border-b border-muted-border">
+<div class="flex justify-between items-center h-16 px-gutter max-w-container-max mx-auto">
+<div class="font-headline-lg text-headline-lg font-black tracking-tighter text-primary">VAIBREPORT</div>
+<nav class="hidden md:flex items-center gap-8">
+<a class="text-on-surface-variant font-medium hover:text-secondary transition-colors cursor-pointer active:opacity-70" href="#">Catalog</a>
+<a class="text-on-surface-variant font-medium hover:text-secondary transition-colors cursor-pointer active:opacity-70" href="#">Leaderboard</a>
+<a class="text-on-surface-variant font-medium hover:text-secondary transition-colors cursor-pointer active:opacity-70" href="#">RSS</a>
+<button class="bg-primary text-on-primary px-6 py-2 rounded-lg font-label-md text-label-md hover:bg-secondary transition-all cursor-pointer">Connect</button>
+</nav>
+<div class="md:hidden">
+<span class="material-symbols-outlined text-primary cursor-pointer">menu</span>
+</div>
+</div>
+</header>
+<main class="flex-grow pt-32 pb-24 px-gutter max-w-container-max mx-auto w-full">
+<!-- Hero Section -->
+<section class="mb-24 text-center md:text-left">
+<div class="inline-flex items-center gap-2 px-3 py-1 bg-secondary/10 border border-secondary/20 rounded-full mb-6">
+<span class="w-2 h-2 rounded-full bg-secondary animate-pulse"></span>
+<span class="font-label-md text-label-md text-secondary uppercase tracking-widest">Delivery Layer Active</span>
+</div>
+<h1 class="font-display-lg text-display-lg mb-4 text-primary">Intelligence Delivered. <br class="hidden md:block"/> No Filler.</h1>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-2xl">
+                Configure your signal-to-noise ratio. Receive high-fidelity reports directly via email, standard RSS, or programmatic endpoints.
+            </p>
+</section>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
+<!-- Left Column: Subscriptions -->
+<div class="lg:col-span-7 space-y-12">
+<!-- Email Subscription Section -->
+<section class="bg-surface-container-lowest p-8 border-l-2 border-primary custom-shadow rounded-lg">
+<div class="flex items-center gap-3 mb-8">
+<span class="material-symbols-outlined text-primary" style="font-variation-settings: 'FILL' 1;">mail</span>
+<h2 class="font-headline-lg text-headline-lg">Email Subscription</h2>
+</div>
+<form class="space-y-8" onsubmit="event.preventDefault();">
+<div>
+<label class="font-label-md text-label-md text-slate-gray uppercase block mb-3">Target Address</label>
+<input class="w-full bg-surface-container-low border border-muted-border p-4 font-mono-data text-mono-data focus:ring-2 focus:ring-primary focus:border-transparent outline-none transition-all" placeholder="operator@research.node" type="email"/>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+<div>
+<label class="font-label-md text-label-md text-slate-gray uppercase block mb-3">Transmission Frequency</label>
+<div class="flex flex-col gap-2">
+<label class="flex items-center gap-3 p-3 border border-muted-border hover:border-primary cursor-pointer transition-colors rounded">
+<input checked="" class="text-primary focus:ring-primary" name="freq" type="radio"/>
+<span class="font-body-md text-body-md">Daily Digest</span>
+</label>
+<label class="flex items-center gap-3 p-3 border border-muted-border hover:border-primary cursor-pointer transition-colors rounded">
+<input class="text-primary focus:ring-primary" name="freq" type="radio"/>
+<span class="font-body-md text-body-md">Weekly Summary</span>
+</label>
+</div>
+</div>
+<div>
+<label class="font-label-md text-label-md text-slate-gray uppercase block mb-3">Signal Interests</label>
+<div class="flex flex-wrap gap-2">
+<button class="px-3 py-1 border border-primary bg-primary text-on-primary rounded font-label-md text-label-md" type="button">AI/LLM</button>
+<button class="px-3 py-1 border border-muted-border hover:border-primary rounded font-label-md text-label-md transition-colors" type="button">SaaS</button>
+<button class="px-3 py-1 border border-muted-border hover:border-primary rounded font-label-md text-label-md transition-colors" type="button">Ops</button>
+<button class="px-3 py-1 border border-muted-border hover:border-primary rounded font-label-md text-label-md transition-colors" type="button">Macro</button>
+</div>
+</div>
+</div>
+<button class="w-full py-4 bg-primary text-on-primary font-section-header text-section-header hover:bg-secondary-container transition-all uppercase flex justify-center items-center gap-2">
+<span>Subscribe to Daily Digest</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</button>
+</form>
+</section>
+<!-- RSS & API Feeds Section -->
+<section class="space-y-6">
+<div class="flex items-center gap-3 mb-2">
+<span class="material-symbols-outlined text-primary" style="font-variation-settings: 'FILL' 1;">rss_feed</span>
+<h2 class="font-headline-lg text-headline-lg">RSS &amp; API Feeds</h2>
+</div>
+<div class="bg-surface-container-low border border-muted-border p-6 rounded-lg flex flex-col md:flex-row md:items-center justify-between gap-4">
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-slate-gray uppercase">Global Signal Feed</span>
+<span class="font-mono-data text-mono-data text-primary truncate">vaibreport.ai/feed/global.xml</span>
+</div>
+<button class="whitespace-nowrap px-6 py-2 border border-primary font-label-md text-label-md hover:bg-primary hover:text-on-primary transition-all" onclick="this.innerHTML='Copied!'">Copy RSS URL</button>
+</div>
+<div class="bg-surface-container-lowest border border-muted-border rounded-lg overflow-hidden custom-shadow">
+<div class="px-6 py-4 border-b border-muted-border bg-surface-container-high">
+<h3 class="font-section-header text-section-header">CUSTOM FEED DISCOVERY</h3>
+</div>
+<div class="divide-y divide-muted-border">
+<div class="px-6 py-4 flex items-center justify-between hover:bg-surface-container transition-colors group">
+<div class="flex flex-col">
+<span class="font-body-md font-medium">HuggingFace Trend Monitor</span>
+<span class="font-mono-data text-label-md text-slate-gray">/feed/huggingface.xml</span>
+</div>
+<span class="material-symbols-outlined opacity-0 group-hover:opacity-100 transition-opacity text-primary">link</span>
+</div>
+<div class="px-6 py-4 flex items-center justify-between hover:bg-surface-container transition-colors group">
+<div class="flex flex-col">
+<span class="font-body-md font-medium">Model Benchmark Tracker</span>
+<span class="font-mono-data text-label-md text-slate-gray">/feed/benchmarks.xml</span>
+</div>
+<span class="material-symbols-outlined opacity-0 group-hover:opacity-100 transition-opacity text-primary">link</span>
+</div>
+<div class="px-6 py-4 flex items-center justify-between hover:bg-surface-container transition-colors group">
+<div class="flex flex-col">
+<span class="font-body-md font-medium">Infrastructure Outage Alerts</span>
+<span class="font-mono-data text-label-md text-slate-gray">/feed/ops.xml</span>
+</div>
+<span class="material-symbols-outlined opacity-0 group-hover:opacity-100 transition-opacity text-primary">link</span>
+</div>
+</div>
+</div>
+</section>
+</div>
+<!-- Right Column: Sidebar -->
+<div class="lg:col-span-5 space-y-8">
+<!-- Chaos Desktop Sync Card -->
+<section class="bg-primary text-on-primary p-8 rounded-xl relative overflow-hidden custom-shadow">
+<div class="relative z-10">
+<div class="flex items-center gap-3 mb-6">
+<span class="material-symbols-outlined text-tertiary-fixed" style="font-variation-settings: 'FILL' 1;">terminal</span>
+<h2 class="font-headline-lg text-headline-lg">Chaos Desktop Sync</h2>
+</div>
+<p class="font-body-md text-body-md mb-8 text-on-primary/80">
+                            Connect the Chaos Desktop app to automate your local model workflow. When a critical benchmark update is triggered, Chaos automatically pulls weights for local evaluation.
+                        </p>
+<div class="space-y-4 mb-8">
+<div class="flex items-start gap-3">
+<span class="material-symbols-outlined text-tertiary-fixed text-[20px]">check_circle</span>
+<span class="font-label-md text-label-md">Local Ollama/LMStudio Orchestration</span>
+</div>
+<div class="flex items-start gap-3">
+<span class="material-symbols-outlined text-tertiary-fixed text-[20px]">check_circle</span>
+<span class="font-label-md text-label-md">Automatic Weight Delta Refresh</span>
+</div>
+<div class="flex items-start gap-3">
+<span class="material-symbols-outlined text-tertiary-fixed text-[20px]">check_circle</span>
+<span class="font-label-md text-label-md">Zero-Latency Signal Notification</span>
+</div>
+</div>
+<button class="w-full py-4 bg-tertiary-fixed text-tertiary font-section-header text-section-header hover:brightness-110 transition-all uppercase rounded">
+                            Install Sync Engine
+                        </button>
+</div>
+<!-- Background abstract decoration -->
+<div class="absolute -right-12 -bottom-12 w-48 h-48 bg-tertiary-fixed/10 rounded-full blur-3xl"></div>
+</section>
+<!-- Technical Specs Card -->
+<section class="bg-surface-container-high p-6 rounded-lg border border-muted-border">
+<h3 class="font-section-header text-section-header text-slate-gray mb-4">SUBSCRIBER METRICS</h3>
+<div class="space-y-4">
+<div class="flex justify-between items-center pb-2 border-b border-muted-border">
+<span class="font-label-md text-label-md">Current Active Feeds</span>
+<span class="font-mono-data text-mono-data font-bold">14,208</span>
+</div>
+<div class="flex justify-between items-center pb-2 border-b border-muted-border">
+<span class="font-label-md text-label-md">Mean Latency (RSS)</span>
+<span class="font-mono-data text-mono-data font-bold">12ms</span>
+</div>
+<div class="flex justify-between items-center">
+<span class="font-label-md text-label-md">Data Throughput</span>
+<span class="font-mono-data text-mono-data font-bold">84 GB/Hr</span>
+</div>
+</div>
+</section>
+<div class="relative rounded-xl overflow-hidden h-64 custom-shadow">
+<img alt="Technical Grid" class="w-full h-full object-cover" data-alt="A high-tech workspace featuring multiple monitors displaying complex data visualizations and code. The scene is illuminated by cool blue and white light, reflecting off sleek metallic surfaces. A keyboard and mouse sit on a minimalist white desk. The overall mood is precise, professional, and sophisticated, embodying a modern technical aesthetic with sharp focus and clean lines." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBeTfDO_Rub1rkb3ySO4sm32Ni5hng20Bp3dto4NwixcTRU1djvYquYLUrLFMLVFaTcQRRTd_wExhV8PkqdN6F3SI8RbqP7RrggB9DVKBVDg0nw2yz6O3ukzjMdnPFMrNuYtwZG8ZG0-oiV41pSfB8t8z4hYUI1GWNCiyzB4zE0MFQCkkbm_h8DPm4RnMe9lprsu17ofbzEg_BRX5OkufpziR91N6z_Bl7wbegKtcN5WtJVlg13v2m31607CI9Nc6iZoqyWKnwHUoY"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/60 to-transparent flex items-end p-6">
+<span class="font-headline-lg text-on-primary text-headline-lg">Global Node Status</span>
+</div>
+</div>
+</div>
+</div>
+</main>
+<!-- Footer Shell -->
+<footer class="bg-surface-container-highest border-t border-muted-border w-full mt-auto">
+<div class="grid grid-cols-1 md:flex md:justify-between items-center py-base px-gutter gap-4 max-w-container-max mx-auto">
+<div class="flex items-center gap-4">
+<span class="font-section-header text-section-header text-primary">VAIBREPORT</span>
+<div class="h-4 w-px bg-muted-border hidden md:block"></div>
+<div class="font-mono-data text-mono-data uppercase text-on-surface-variant">
+                    VAIBREPORT © 2024 | PIPELINE OK | SIGNAL RATIO 94% | GEN COST $0.04/RUN
+                </div>
+</div>
+<div class="flex items-center gap-6">
+<a class="font-mono-data text-mono-data uppercase text-slate-gray hover:text-tertiary-container transition-all" href="#">Privacy</a>
+<a class="font-mono-data text-mono-data uppercase text-slate-gray hover:text-tertiary-container transition-all" href="#">Terms</a>
+<a class="font-mono-data text-mono-data uppercase text-slate-gray hover:text-tertiary-container transition-all" href="#">Chaos Desktop</a>
+</div>
+</div>
+</footer>
+<!-- Floating Background Element (Subtle) -->
+<div class="fixed top-0 right-0 w-1/3 h-screen pointer-events-none z-[-1] opacity-20">
+<svg height="100%" preserveaspectratio="none" viewbox="0 0 100 100" width="100%">
+<defs>
+<pattern height="10" id="grid" patternunits="userSpaceOnUse" width="10">
+<path d="M 10 0 L 0 0 0 10" fill="none" stroke="#C4C6D0" stroke-width="0.1"></path>
+</pattern>
+</defs>
+<rect fill="url(#grid)" height="100%" width="100%"></rect>
+</svg>
+</div>
+<script>
+        // Simple Micro-interaction for feedback
+        document.querySelectorAll('button').forEach(button => {
+            button.addEventListener('mousedown', () => {
+                button.style.transform = 'scale(0.98)';
+            });
+            button.addEventListener('mouseup', () => {
+                button.style.transform = 'scale(1)';
+            });
+        });
+    </script>
+</body></html>

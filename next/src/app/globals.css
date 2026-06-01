@@ -1,0 +1,122 @@
+@import "tailwindcss";
+
+/*
+ * VaiBReport — Sophisticated Technical Design System
+ * Canonical tokens extracted from Stitch project 6458998332659659501
+ */
+
+@theme {
+  /* ─── Colors ──────────────────────────────────── */
+  --color-primary: #000000;
+  --color-on-primary: #ffffff;
+  --color-primary-container: #1a1b22;
+  --color-on-primary-container: #83838c;
+  --color-primary-fixed: #e3e1ec;
+  --color-inverse-primary: #c6c5cf;
+
+  --color-secondary: #0052d0;
+  --color-on-secondary: #ffffff;
+  --color-secondary-container: #226bf8;
+  --color-secondary-fixed: #dae1ff;
+  --color-secondary-fixed-dim: #b3c5ff;
+
+  --color-tertiary: #000000;
+  --color-on-tertiary: #ffffff;
+  --color-tertiary-container: #00210b;
+  --color-on-tertiary-container: #00984c;
+  --color-tertiary-fixed: #62ff96;
+  --color-tertiary-fixed-dim: #00e475;
+  --color-on-tertiary-fixed: #00210b;
+
+  --color-error: #ba1a1a;
+  --color-on-error: #ffffff;
+  --color-error-container: #ffdad6;
+
+  --color-surface: #fafaf4;
+  --color-surface-dim: #dadad5;
+  --color-surface-bright: #fafaf4;
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-container-low: #f4f4ee;
+  --color-surface-container: #eeeee8;
+  --color-surface-container-high: #e8e8e3;
+  --color-surface-container-highest: #e3e3dd;
+  --color-surface-variant: #e3e3dd;
+  --color-on-surface: #1a1c19;
+  --color-on-surface-variant: #46464b;
+  --color-inverse-surface: #2f312d;
+  --color-inverse-on-surface: #f1f1eb;
+
+  --color-outline: #77767c;
+  --color-outline-variant: #c8c5cb;
+  --color-slate-gray: #4b5563;
+  --color-muted-border: #c4c6d0;
+
+  /* ─── Typography ──────────────────────────────── */
+  --font-display: "Chivo", sans-serif;
+  --font-headline: "Chivo", sans-serif;
+  --font-body: "Inter", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+
+  /* ─── Spacing ─────────────────────────────────── */
+  --spacing-base: 8px;
+  --spacing-gutter: 24px;
+  --spacing-margin-mobile: 16px;
+  --spacing-margin-desktop: 64px;
+  --width-container-max: 1280px;
+  --width-nav: 256px;
+  --height-top-bar: 64px;
+
+  /* ─── Radii ───────────────────────────────────── */
+  --radius-sm: 0.125rem;
+  --radius-default: 0.25rem;
+  --radius-md: 0.375rem;
+  --radius-lg: 0.5rem;
+  --radius-xl: 0.75rem;
+  --radius-full: 9999px;
+}
+
+/* ─── Dot Grid Background ─────────────────────── */
+body {
+  background-color: var(--color-surface);
+  background-image: radial-gradient(
+    rgba(18, 19, 26, 0.08) 0.5px,
+    transparent 0.5px
+  );
+  background-size: 24px 24px;
+  color: var(--color-on-surface);
+}
+
+/* ─── Accessibility Focus Ring ─────────────────── */
+.focus-ring:focus-visible {
+  outline: 2px solid var(--color-secondary);
+  outline-offset: 4px;
+}
+
+/* ─── Touch Targets (Mobile) ──────────────────── */
+.touch-target {
+  min-height: 44px;
+  min-width: 44px;
+}
+
+/* ─── Custom Scrollbar ─────────────────────────── */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 4px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: var(--color-muted-border);
+}
+
+/* ─── Status Indicator Pulse ──────────────────── */
+.ping-slow {
+  animation: ping-slow 2s cubic-bezier(0, 0, 0.2, 1) infinite;
+}
+@keyframes ping-slow {
+  75%,
+  100% {
+    transform: scale(2);
+    opacity: 0;
+  }
+}

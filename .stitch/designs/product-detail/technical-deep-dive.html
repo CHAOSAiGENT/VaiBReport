@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&amp;family=Chivo:wght@400;700;800&amp;family=Inter:wght@400;500&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<style>
+        body {
+            background-color: #fafaf4;
+            background-image: radial-gradient(rgba(18, 19, 26, 0.08) 1px, transparent 0);
+            background-size: 24px 24px;
+        }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+            vertical-align: middle;
+        }
+        .glass-panel {
+            background: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(8px);
+        }
+        .code-block::-webkit-scrollbar {
+            height: 4px;
+        }
+        .code-block::-webkit-scrollbar-thumb {
+            background: #c8c5cb;
+            border-radius: 2px;
+        }
+    </style>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "inverse-primary": "#c6c5cf",
+                        "tertiary": "#000000",
+                        "on-error-container": "#93000a",
+                        "tertiary-fixed-dim": "#00e475",
+                        "surface-dim": "#dadad5",
+                        "on-secondary": "#ffffff",
+                        "on-secondary-fixed-variant": "#003fa4",
+                        "background": "#fafaf4",
+                        "on-primary-fixed": "#1a1b22",
+                        "surface-container-highest": "#e3e3dd",
+                        "primary-container": "#1a1b22",
+                        "on-primary": "#ffffff",
+                        "on-tertiary-fixed-variant": "#005226",
+                        "on-primary-container": "#83838c",
+                        "surface-tint": "#5d5e66",
+                        "surface": "#fafaf4",
+                        "secondary-fixed-dim": "#b3c5ff",
+                        "secondary-container": "#226bf8",
+                        "outline-variant": "#c8c5cb",
+                        "primary-fixed": "#e3e1ec",
+                        "surface-bright": "#fafaf4",
+                        "slate-gray": "#5E6780",
+                        "surface-variant": "#e3e3dd",
+                        "surface-container": "#eeeee8",
+                        "secondary": "#0052d0",
+                        "error": "#ba1a1a",
+                        "on-surface": "#1a1c19",
+                        "tertiary-fixed": "#62ff96",
+                        "tertiary-container": "#00210b",
+                        "on-error": "#ffffff",
+                        "surface-container-high": "#e8e8e3",
+                        "secondary-fixed": "#dae1ff",
+                        "on-tertiary-container": "#00984c",
+                        "on-primary-fixed-variant": "#46464e",
+                        "inverse-on-surface": "#f1f1eb",
+                        "on-surface-variant": "#46464b",
+                        "muted-border": "#C4C6D0",
+                        "inverse-surface": "#2f312d",
+                        "on-secondary-container": "#fefcff",
+                        "primary": "#000000",
+                        "on-tertiary-fixed": "#00210b",
+                        "primary-fixed-dim": "#c6c5cf",
+                        "on-tertiary": "#ffffff",
+                        "on-secondary-fixed": "#001849",
+                        "surface-container-lowest": "#ffffff",
+                        "blueprint-dot": "rgba(18, 19, 26, 0.08)",
+                        "on-background": "#1a1c19",
+                        "outline": "#77767c",
+                        "error-container": "#ffdad6",
+                        "surface-container-low": "#f4f4ee"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                    "spacing": {
+                        "gutter": "24px",
+                        "margin-desktop": "64px",
+                        "margin-mobile": "16px",
+                        "base": "8px",
+                        "container-max": "1280px"
+                    },
+                    "fontFamily": {
+                        "mono-data": ["JetBrains Mono"],
+                        "headline-lg": ["Chivo"],
+                        "label-md": ["JetBrains Mono"],
+                        "display-lg": ["Chivo"],
+                        "section-header": ["JetBrains Mono"],
+                        "body-md": ["Inter"],
+                        "body-sm": ["Inter"]
+                    },
+                    "fontSize": {
+                        "mono-data": ["14px", {"lineHeight": "24px", "fontWeight": "400"}],
+                        "headline-lg": ["32px", {"lineHeight": "1.2", "fontWeight": "700"}],
+                        "label-md": ["12px", {"lineHeight": "16px", "fontWeight": "500"}],
+                        "display-lg": ["48px", {"lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "800"}],
+                        "section-header": ["14px", {"lineHeight": "20px", "letterSpacing": "0.1em", "fontWeight": "700"}],
+                        "body-md": ["16px", {"lineHeight": "1.6", "fontWeight": "400"}],
+                        "body-sm": ["14px", {"lineHeight": "1.5", "fontWeight": "400"}]
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="min-h-screen text-on-surface">
+<!-- TopNavBar -->
+<header class="bg-surface border-b border-outline-variant fixed top-0 w-full z-50">
+<nav class="flex justify-between items-center w-full px-margin-desktop max-w-container-max mx-auto h-16">
+<div class="flex items-center gap-8">
+<span class="font-headline-lg text-headline-lg font-bold tracking-tighter text-primary">VAIBREPORT</span>
+<div class="hidden md:flex gap-6">
+<a class="font-section-header text-section-header uppercase tracking-widest text-secondary border-b-2 border-secondary pb-1" href="#">Catalog</a>
+<a class="font-section-header text-section-header uppercase tracking-widest text-slate-gray hover:text-primary transition-colors" href="#">Peter's Picks</a>
+<a class="font-section-header text-section-header uppercase tracking-widest text-slate-gray hover:text-primary transition-colors" href="#">Leaderboard</a>
+<a class="font-section-header text-section-header uppercase tracking-widest text-slate-gray hover:text-primary transition-colors" href="#">About</a>
+</div>
+</div>
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-on-surface-variant cursor-pointer">settings</span>
+<span class="material-symbols-outlined text-on-surface-variant cursor-pointer">account_circle</span>
+</div>
+</nav>
+</header>
+<main class="pt-24 pb-32 px-margin-desktop max-w-container-max mx-auto">
+<!-- Breadcrumbs & Status -->
+<div class="flex items-center justify-between mb-8">
+<div class="flex items-center gap-2 font-mono-data text-mono-data text-slate-gray uppercase">
+<span>Engines</span>
+<span class="material-symbols-outlined text-[14px]">chevron_right</span>
+<span class="text-primary font-bold">Slim-Logic-Engine v4.2.0</span>
+</div>
+<div class="flex items-center gap-4">
+<div class="bg-tertiary-fixed-dim/10 text-on-tertiary-container px-3 py-1 rounded-full flex items-center gap-2 border border-tertiary-fixed-dim/20">
+<span class="w-2 h-2 rounded-full bg-tertiary-fixed-dim animate-pulse"></span>
+<span class="font-label-md text-label-md">LIVE PRODUCTION READY</span>
+</div>
+<div class="bg-primary text-on-primary px-3 py-1 rounded-sm flex items-center gap-2">
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">bolt</span>
+<span class="font-label-md text-label-md uppercase tracking-wider">Chaos Desktop Ready</span>
+</div>
+</div>
+</div>
+<div class="grid grid-cols-12 gap-gutter">
+<!-- Left Column: Primary Technical Details -->
+<div class="col-span-12 lg:col-span-8 space-y-gutter">
+<!-- Hero Section: Title & Technical Specs -->
+<section class="bg-surface-container-lowest p-8 border-l-2 border-primary shadow-sm">
+<h1 class="font-display-lg text-display-lg mb-4">Slim-Logic-Engine</h1>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-2xl mb-8">
+                        The definitive low-latency inference framework for edge-compute hardware. Engineered for deterministic execution paths and sub-microsecond state transitions. 
+                    </p>
+<div class="grid grid-cols-3 gap-6 border-t border-outline-variant pt-8">
+<div>
+<span class="font-section-header text-section-header text-slate-gray block mb-1">BINARY SIZE</span>
+<span class="font-mono-data text-[24px] font-bold">142 KB</span>
+</div>
+<div>
+<span class="font-section-header text-section-header text-slate-gray block mb-1">LATENCY (P99)</span>
+<span class="font-mono-data text-[24px] font-bold">0.82ms</span>
+</div>
+<div>
+<span class="font-section-header text-section-header text-slate-gray block mb-1">DEPENDENCIES</span>
+<span class="font-mono-data text-[24px] font-bold">ZERO</span>
+</div>
+</div>
+</section>
+<!-- Technical Gist Section -->
+<section class="bg-surface-container-low border border-outline-variant">
+<div class="flex items-center justify-between px-6 py-3 bg-surface-container-high border-b border-outline-variant">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-primary">terminal</span>
+<span class="font-section-header text-section-header">QUICKSTART_GUIDE.md</span>
+</div>
+<div class="flex items-center gap-4 text-slate-gray font-label-md">
+<span>REVISION: 409-A</span>
+<span class="material-symbols-outlined cursor-pointer hover:text-primary">content_copy</span>
+</div>
+</div>
+<div class="p-6 overflow-x-auto code-block">
+<pre class="font-mono-data text-body-sm text-on-surface"><span class="text-secondary"># Initialize the logic cluster</span>
+<span class="text-on-secondary-fixed-variant">curl</span> -sSL https://get.vaibreport.io/slim-engine | <span class="text-on-secondary-fixed-variant">sh</span>
+
+<span class="text-secondary">// main.logic</span>
+<span class="text-on-primary-fixed-variant">cluster</span> <span class="text-secondary-container bg-blue-50">PrimaryEngine</span> {
+    <span class="text-on-primary-fixed-variant">config</span>: {
+        mode: <span class="text-on-secondary-fixed-variant">"ultra-low-latency"</span>,
+        threads: <span class="text-on-secondary-fixed-variant">auto</span>,
+        chaos_buffer: <span class="text-on-secondary-fixed-variant">2048mb</span>
+    },
+    
+    <span class="text-on-primary-fixed-variant">invoke</span> <span class="text-on-tertiary-container">on_signal</span>(packet) {
+        <span class="text-on-primary-fixed-variant">return</span> engine.solve(packet.payload).compress();
+    }
+}</pre>
+</div>
+</section>
+<!-- Benchmark Table -->
+<section>
+<h2 class="font-headline-lg text-headline-lg mb-6 flex items-center gap-3">
+<span class="material-symbols-outlined text-primary">analytics</span>
+                        Performance Benchmarks
+                    </h2>
+<div class="bg-surface-container-lowest border border-outline-variant overflow-hidden">
+<table class="w-full text-left border-collapse">
+<thead>
+<tr class="bg-surface-container border-b border-outline-variant">
+<th class="p-4 font-section-header text-section-header text-slate-gray uppercase">HARDWARE NODE</th>
+<th class="p-4 font-section-header text-section-header text-slate-gray uppercase">OPS/SEC</th>
+<th class="p-4 font-section-header text-section-header text-slate-gray uppercase">LOAD %</th>
+<th class="p-4 font-section-header text-section-header text-slate-gray uppercase">STATUS</th>
+</tr>
+</thead>
+<tbody class="font-mono-data text-body-sm">
+<tr class="border-b border-outline-variant hover:bg-surface-container-low transition-colors">
+<td class="p-4 font-bold">ARM-Cortex M4</td>
+<td class="p-4">42,000+</td>
+<td class="p-4">12%</td>
+<td class="p-4 text-on-tertiary-container">OPTIMAL</td>
+</tr>
+<tr class="border-b border-outline-variant hover:bg-surface-container-low transition-colors">
+<td class="p-4 font-bold">Chaos Desktop (V1)</td>
+<td class="p-4">1.2M+</td>
+<td class="p-4">0.8%</td>
+<td class="p-4 text-on-tertiary-container">OPTIMAL</td>
+</tr>
+<tr class="border-b border-outline-variant hover:bg-surface-container-low transition-colors">
+<td class="p-4 font-bold">Edge-Node Cluster</td>
+<td class="p-4">5.4M+</td>
+<td class="p-4">45%</td>
+<td class="p-4 text-secondary">SCALING</td>
+</tr>
+<tr class="hover:bg-surface-container-low transition-colors">
+<td class="p-4 font-bold">Virtual Legacy VM</td>
+<td class="p-4">18,400</td>
+<td class="p-4">88%</td>
+<td class="p-4 text-error">THROTTLED</td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+</div>
+<!-- Right Column: Sidebar & Ecosystem -->
+<aside class="col-span-12 lg:col-span-4 space-y-gutter">
+<!-- Sponsored Sidebar -->
+<div class="bg-surface-container border border-outline-variant p-6 relative overflow-hidden">
+<div class="absolute top-0 right-0 bg-primary text-on-primary font-label-md px-2 py-1 text-[10px] uppercase tracking-tighter">
+                        SPONSORED // ECOSYSTEM PARTNER
+                    </div>
+<div class="mb-6 pt-4">
+<div class="w-12 h-12 bg-white flex items-center justify-center mb-4 border border-outline-variant">
+<span class="material-symbols-outlined text-secondary text-[32px]">cloud</span>
+</div>
+<h3 class="font-headline-lg text-[20px] mb-2">Deploy on Stratos Cloud</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-6">
+                            Native hardware acceleration for Slim-Logic-Engine. Instant deployment to 45 regions with zero cold starts.
+                        </p>
+<button class="w-full bg-secondary text-white font-section-header py-3 flex items-center justify-center gap-2 hover:bg-on-secondary-fixed-variant transition-colors">
+<span>ACTIVATE CLOUD NODE</span>
+<span class="material-symbols-outlined">arrow_forward</span>
+</button>
+</div>
+<div class="border-t border-outline-variant pt-4">
+<div class="flex items-center justify-between text-slate-gray font-label-md">
+<span>LATENCY TO NEAREST BUCKET:</span>
+<span class="text-on-tertiary-container font-mono-data">2ms</span>
+</div>
+</div>
+</div>
+<!-- Technical Manifest -->
+<div class="bg-surface-container-lowest border border-outline-variant p-6">
+<h4 class="font-section-header text-section-header text-slate-gray uppercase border-b border-outline-variant pb-3 mb-4">Module Manifest</h4>
+<ul class="space-y-3 font-mono-data text-body-sm">
+<li class="flex items-center gap-3">
+<span class="material-symbols-outlined text-on-tertiary-container text-[18px]">check_circle</span>
+<span>Logic.Core.V4.0</span>
+</li>
+<li class="flex items-center gap-3">
+<span class="material-symbols-outlined text-on-tertiary-container text-[18px]">check_circle</span>
+<span>Memory.Optimizer.L3</span>
+</li>
+<li class="flex items-center gap-3">
+<span class="material-symbols-outlined text-on-tertiary-container text-[18px]">check_circle</span>
+<span>Security.Sanitize.Ext</span>
+</li>
+<li class="flex items-center gap-3 text-slate-gray">
+<span class="material-symbols-outlined text-[18px]">radio_button_unchecked</span>
+<span>Legacy.Bridge (Excluded)</span>
+</li>
+</ul>
+</div>
+<!-- Documentation Quick-links -->
+<div class="grid grid-cols-2 gap-4">
+<a class="bg-surface border border-outline-variant p-4 hover:border-primary transition-colors group" href="#">
+<span class="material-symbols-outlined text-slate-gray group-hover:text-primary mb-2">description</span>
+<span class="block font-section-header text-label-md uppercase">Full API Docs</span>
+</a>
+<a class="bg-surface border border-outline-variant p-4 hover:border-primary transition-colors group" href="#">
+<span class="material-symbols-outlined text-slate-gray group-hover:text-primary mb-2">forum</span>
+<span class="block font-section-header text-label-md uppercase">Dev Forum</span>
+</a>
+</div>
+</aside>
+</div>
+<!-- Comparison Visual Section (Bento Style) -->
+<section class="mt-gutter">
+<h2 class="font-headline-lg text-headline-lg mb-8">Hardware Integration Gallery</h2>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+<div class="md:col-span-2 bg-surface-container-lowest border border-outline-variant overflow-hidden relative group">
+<img alt="Macro close-up of a high-performance logic chip" class="w-full h-80 object-cover grayscale opacity-80 group-hover:grayscale-0 transition-all duration-500" data-alt="A detailed, macro-photography shot of a high-performance integrated circuit chip with visible silicon architecture and intricate trace lines. The lighting is cold and clinical, featuring a high-contrast black and white aesthetic that emphasizes the technical precision of the hardware. Subtle blue and white highlights dance across the metallic surfaces, evoking a sense of high-speed computation and advanced engineering. The mood is authoritative and futuristic." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBsltXxe95pXBn57tCom7hhFqr6UC9cqeYuv4tNas7SFnL_PIUJ6K_zTmapM-e1gdRll5My1MwRzAgrKkYNjiBczlpmN7vR48ztWjVgXzIyoyp6FkzTmlcPBiXlHIstNsKDa_7W0rxfBz8dNpp-zFkKv1yRRJbBf8hVYqDON7OpFgL2sG6qRethXOOZ0wOlkDEHkJXlOyUBRJIk3N5asqvqBiz2XjHtx89k6O5UT2Yv_iZz-2H5heTXtLo-mR6yPPzqMVJTjbi6NAI"/>
+<div class="absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-black/80 to-transparent">
+<p class="text-white font-section-header uppercase text-label-md">Reference Design // 01: Edge Server</p>
+</div>
+</div>
+<div class="bg-surface-container-lowest border border-outline-variant p-8 flex flex-col justify-center text-center">
+<span class="material-symbols-outlined text-[64px] text-primary mb-4">precision_manufacturing</span>
+<h4 class="font-headline-lg text-[24px] mb-2">OEM Ready</h4>
+<p class="font-body-sm text-on-surface-variant">Request customized binary builds for proprietary instruction sets.</p>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer Status Bar -->
+<footer class="fixed bottom-0 w-full z-50 bg-surface-container dark:bg-surface-container-lowest flex justify-between items-center px-margin-desktop py-2 border-t border-outline-variant">
+<div class="flex items-center gap-6">
+<span class="font-label-md text-label-md font-bold text-primary">VAIBREPORT</span>
+<div class="h-4 w-[1px] bg-muted-border"></div>
+<div class="flex gap-4">
+<div class="flex items-center gap-2">
+<span class="font-mono-data text-mono-data uppercase text-slate-gray">Pipeline:</span>
+<span class="font-mono-data text-mono-data uppercase font-bold text-on-tertiary-container">OK</span>
+</div>
+<div class="h-4 w-[1px] bg-muted-border"></div>
+<div class="flex items-center gap-2">
+<span class="font-mono-data text-mono-data uppercase text-slate-gray">Crawl:</span>
+<span class="font-mono-data text-mono-data uppercase font-bold">5m</span>
+</div>
+<div class="h-4 w-[1px] bg-muted-border"></div>
+<div class="flex items-center gap-2">
+<span class="font-mono-data text-mono-data uppercase text-slate-gray">Sources:</span>
+<span class="font-mono-data text-mono-data uppercase font-bold">9</span>
+</div>
+</div>
+</div>
+<div class="flex items-center gap-4">
+<span class="font-mono-data text-mono-data uppercase text-on-tertiary-container font-bold">Status: LIVE</span>
+<span class="font-mono-data text-mono-data uppercase text-slate-gray">© 2024 VAIBREPORT. ALL RIGHTS RESERVED.</span>
+</div>
+</footer>
+<script>
+        // Simple toggle for dark mode demonstration (optional)
+        const toggleTheme = () => {
+            document.documentElement.classList.toggle('dark');
+        };
+    </script>
+</body></html>

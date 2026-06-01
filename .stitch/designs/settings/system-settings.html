@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>VAIBREPORT // SYSTEM CONFIG</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Chivo:wght@400;700;800&amp;family=Inter:wght@400;500;600&amp;family=JetBrains+Mono:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "on-surface": "#1a1c19",
+                        "outline": "#77767c",
+                        "surface-container-lowest": "#ffffff",
+                        "on-secondary": "#ffffff",
+                        "inverse-on-surface": "#f1f1eb",
+                        "inverse-surface": "#2f312d",
+                        "on-secondary-fixed": "#001849",
+                        "tertiary-fixed-dim": "#00e475",
+                        "on-tertiary": "#ffffff",
+                        "surface-container-high": "#e8e8e3",
+                        "slate-gray": "#5E6780",
+                        "primary-fixed-dim": "#c6c5cf",
+                        "surface-bright": "#fafaf4",
+                        "secondary": "#0052d0",
+                        "on-secondary-fixed-variant": "#003fa4",
+                        "error-container": "#ffdad6",
+                        "surface-dim": "#dadad5",
+                        "surface-tint": "#5d5e66",
+                        "secondary-container": "#226bf8",
+                        "on-error-container": "#93000a",
+                        "tertiary-fixed": "#62ff96",
+                        "on-error": "#ffffff",
+                        "tertiary-container": "#00210b",
+                        "primary-container": "#1a1b22",
+                        "inverse-primary": "#c6c5cf",
+                        "muted-border": "#C4C6D0",
+                        "secondary-fixed": "#dae1ff",
+                        "error": "#ba1a1a",
+                        "primary": "#000000",
+                        "background": "#fafaf4",
+                        "on-tertiary-fixed": "#00210b",
+                        "outline-variant": "#c8c5cb",
+                        "surface-container-low": "#f4f4ee",
+                        "surface-container": "#eeeee8",
+                        "on-primary-container": "#83838c",
+                        "on-surface-variant": "#46464b",
+                        "on-primary": "#ffffff",
+                        "surface": "#fafaf4",
+                        "on-primary-fixed-variant": "#46464e",
+                        "on-primary-fixed": "#1a1b22",
+                        "on-tertiary-container": "#00984c",
+                        "surface-variant": "#e3e3dd",
+                        "primary-fixed": "#e3e1ec",
+                        "tertiary": "#000000",
+                        "surface-container-highest": "#e3e3dd",
+                        "on-secondary-container": "#fefcff",
+                        "on-background": "#1a1c19",
+                        "blueprint-dot": "rgba(18, 19, 26, 0.08)",
+                        "secondary-fixed-dim": "#b3c5ff",
+                        "on-tertiary-fixed-variant": "#005226"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                    "spacing": {
+                        "container-max": "1280px",
+                        "gutter": "24px",
+                        "margin-desktop": "64px",
+                        "margin-mobile": "16px",
+                        "base": "8px"
+                    },
+                    "fontFamily": {
+                        "mono-data": ["JetBrains Mono"],
+                        "display-lg": ["Chivo"],
+                        "body-sm": ["Inter"],
+                        "body-md": ["Inter"],
+                        "section-header": ["JetBrains Mono"],
+                        "headline-lg": ["Chivo"],
+                        "label-md": ["JetBrains Mono"],
+                        "headline-lg-mobile": ["Chivo"]
+                    },
+                    "fontSize": {
+                        "mono-data": ["14px", { "lineHeight": "24px", "fontWeight": "400" }],
+                        "display-lg": ["48px", { "lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "800" }],
+                        "body-sm": ["14px", { "lineHeight": "1.5", "fontWeight": "400" }],
+                        "body-md": ["16px", { "lineHeight": "1.6", "fontWeight": "400" }],
+                        "section-header": ["14px", { "lineHeight": "20px", "letterSpacing": "0.1em", "fontWeight": "700" }],
+                        "headline-lg": ["32px", { "lineHeight": "1.2", "fontWeight": "700" }],
+                        "label-md": ["12px", { "lineHeight": "16px", "fontWeight": "500" }],
+                        "headline-lg-mobile": ["24px", { "lineHeight": "1.2", "fontWeight": "700" }]
+                    }
+                },
+            },
+        }
+    </script>
+<style>
+        body {
+            background-color: #fafaf4;
+            background-image: radial-gradient(circle, rgba(18, 19, 26, 0.05) 1px, transparent 1px);
+            background-size: 24px 24px;
+        }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .custom-scrollbar::-webkit-scrollbar {
+            width: 4px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: transparent;
+        }
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #C4C6D0;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body class="font-body-md text-on-surface antialiased">
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full z-50 bg-background dark:bg-surface-dim border-b border-muted-border dark:border-outline-variant">
+<div class="flex justify-between items-center max-w-container-max mx-auto px-margin-desktop h-20"><div class="flex items-center gap-8">
+<span class="font-display-lg text-display-lg tracking-tighter text-primary dark:text-on-primary-fixed">VAIBREPORT</span>
+<div class="hidden lg:flex items-center gap-6">
+<a class="text-slate-gray dark:text-on-surface-variant font-medium hover:text-primary transition-colors duration-200" href="#">Catalog</a>
+<a class="text-slate-gray dark:text-on-surface-variant font-medium hover:text-primary transition-colors duration-200" href="#">Peter's Picks</a>
+<a class="text-slate-gray dark:text-on-surface-variant font-medium hover:text-primary transition-colors duration-200" href="#">Leaderboard</a>
+<a class="text-slate-gray dark:text-on-surface-variant font-medium hover:text-primary transition-colors duration-200" href="#">About</a>
+<a class="text-slate-gray dark:text-on-surface-variant font-medium hover:text-primary transition-colors duration-200" href="#">RSS</a>
+</div>
+</div>
+<div class="flex-grow max-w-md mx-8">
+<div class="relative">
+<span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-slate-gray text-sm">search</span>
+<input class="w-full bg-surface-container border-none rounded-full py-2 pl-10 pr-4 text-sm focus:ring-1 focus:ring-primary" placeholder="Search platform config..." type="text"/>
+</div>
+</div>
+<div class="flex items-center gap-4">
+<button class="material-symbols-outlined p-2 hover:bg-surface-container rounded-full transition-all active:opacity-80">settings</button>
+<button class="material-symbols-outlined p-2 hover:bg-surface-container rounded-full transition-all active:opacity-80">dark_mode</button>
+<div class="w-8 h-8 rounded-full bg-secondary-container flex items-center justify-center text-white text-xs font-bold">JD</div>
+</div></div>
+</nav>
+<main class="pt-32 pb-24 max-w-container-max mx-auto px-margin-desktop min-h-screen">
+<!-- Header Section -->
+<header class="mb-12 border-l-4 border-primary pl-6">
+<h1 class="font-display-lg text-display-lg uppercase tracking-tight">PLATFORM // SYSTEM CONFIG</h1>
+<p class="font-mono-data text-slate-gray mt-2">MIGRATION PHASE: OWNED_PLATFORM_V4.0</p>
+</header>
+<div class="flex flex-col md:flex-row gap-gutter">
+<!-- Side Navigation -->
+<aside class="w-full md:w-64 flex-shrink-0">
+<nav class="sticky top-32 space-y-2">
+<a class="flex items-center gap-3 px-4 py-3 bg-primary-container text-white rounded-lg font-bold transition-all" href="#subscriptions">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">mail</span>
+<span class="font-section-header font-mono-data">Subscriptions</span>
+</a>
+<a class="flex items-center gap-3 px-4 py-3 text-slate-gray hover:bg-surface-container transition-all" href="#api-status">
+<span class="material-symbols-outlined">api</span>
+<span class="font-section-header font-mono-data">API Health</span>
+</a>
+<a class="flex items-center gap-3 px-4 py-3 text-slate-gray hover:bg-surface-container transition-all" href="#analytics">
+<span class="material-symbols-outlined">monitoring</span>
+<span class="font-section-header font-mono-data">Analytics</span>
+</a>
+<a class="flex items-center gap-3 px-4 py-3 text-slate-gray hover:bg-surface-container transition-all" href="#export">
+<span class="material-symbols-outlined">download</span>
+<span class="font-section-header font-mono-data">Export Data</span>
+</a>
+<div class="pt-6 mt-6 border-t border-muted-border"><p class="text-[10px] font-mono-data text-outline uppercase px-4 mb-2">Security Status</p>
+<div class="px-4 flex items-center gap-3">
+<span class="material-symbols-outlined text-tertiary-fixed-dim text-sm">verified_user</span>
+<p class="text-[10px] font-mono-data text-slate-gray">AUTH_TOKEN_ENCRYPTED</p>
+</div></div>
+</nav>
+</aside>
+<!-- Content Area -->
+<div class="flex-grow space-y-gutter">
+<!-- Email Subscription Management -->
+<section class="bg-white p-8 border border-muted-border shadow-sm rounded-xl" id="subscriptions">
+<div class="flex justify-between items-start mb-8">
+<div>
+<h2 class="font-headline-lg text-headline-lg font-display-lg">Subscription Management</h2>
+<p class="text-slate-gray font-body-sm mt-1">Configure automated intelligence distribution protocols.</p>
+</div>
+<span class="px-3 py-1 bg-tertiary-fixed text-on-tertiary-container rounded-full font-mono-data text-[10px] uppercase font-bold">ACTIVE</span>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+<div class="space-y-6">
+<label class="block">
+<span class="font-section-header block mb-4 uppercase font-mono-data">Primary Delivery Method</span>
+<div class="flex items-center p-1 bg-surface-container rounded-lg w-fit">
+<button class="px-6 py-2 bg-white shadow-sm rounded-md font-bold text-sm transition-all">EMAIL</button>
+<button class="px-6 py-2 text-slate-gray font-medium text-sm hover:text-primary transition-all">RSS FEED</button>
+</div>
+</label>
+<div class="space-y-4">
+<div class="flex items-center justify-between p-4 border border-surface-variant rounded-lg">
+<div>
+<p class="font-bold text-sm">Daily Digest</p>
+<p class="text-xs text-slate-gray">Aggregated daily intelligence report</p>
+</div>
+<div class="relative inline-flex items-center cursor-pointer">
+<input checked="" class="sr-only peer" type="checkbox"/>
+<div class="w-11 h-6 bg-surface-dim peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-secondary"></div>
+</div>
+</div>
+<div class="flex items-center justify-between p-4 border border-surface-variant rounded-lg">
+<div>
+<p class="font-bold text-sm">Instant Alerts</p>
+<p class="text-xs text-slate-gray">Critical updates delivered immediately</p>
+</div>
+<div class="relative inline-flex items-center cursor-pointer">
+<input class="sr-only peer" type="checkbox"/>
+<div class="w-11 h-6 bg-surface-dim peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-secondary"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="bg-surface-container-low p-6 rounded-xl border border-dashed border-muted-border">
+<p class="font-section-header uppercase text-xs mb-4 font-mono-data">RSS Configuration</p>
+<div class="space-y-4">
+<code class="block bg-primary-container text-white p-4 rounded font-mono-data text-xs overflow-x-auto">
+                                    https://vaibreport.io/v4/feed/custom_auth_token_882x
+                                </code>
+<button class="w-full py-2 border border-primary font-bold text-sm flex items-center justify-center gap-2 hover:bg-primary hover:text-white transition-all">
+<span class="material-symbols-outlined text-sm">content_copy</span>
+                                    COPY FEED URL
+                                </button>
+<p class="text-[10px] text-slate-gray text-center uppercase tracking-widest">Rotates every 30 days automatically</p>
+</div>
+</div>
+</div>
+</section>
+<!-- API Status Grid -->
+<section class="bg-white p-8 border border-muted-border shadow-sm rounded-xl" id="api-status">
+<h2 class="font-headline-lg text-headline-lg mb-8 font-display-lg">API Ecosystem Health</h2>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+<!-- GitHub -->
+<div class="p-6 border border-surface-variant rounded-xl flex flex-col items-center text-center">
+<div class="w-12 h-12 bg-surface-container flex items-center justify-center rounded-lg mb-4">
+<span class="material-symbols-outlined text-primary text-3xl">terminal</span>
+</div>
+<h3 class="font-bold uppercase tracking-widest text-sm mb-1 font-display-lg">GitHub</h3>
+<div class="flex items-center gap-2 mb-4">
+<span class="w-2 h-2 rounded-full bg-tertiary-fixed-dim animate-pulse"></span>
+<span class="font-mono-data text-xs text-on-tertiary-container">99.9% UPTIME</span>
+</div>
+<div class="w-full bg-surface-container h-1 rounded-full overflow-hidden">
+<div class="bg-tertiary-fixed-dim h-full" style="width: 100%"></div>
+</div>
+</div>
+<!-- HuggingFace -->
+<div class="p-6 border border-surface-variant rounded-xl flex flex-col items-center text-center">
+<div class="w-12 h-12 bg-surface-container flex items-center justify-center rounded-lg mb-4">
+<span class="material-symbols-outlined text-primary text-3xl">smart_toy</span>
+</div>
+<h3 class="font-bold uppercase tracking-widest text-sm mb-1 font-display-lg">HuggingFace</h3>
+<div class="flex items-center gap-2 mb-4">
+<span class="w-2 h-2 rounded-full bg-tertiary-fixed-dim"></span>
+<span class="font-mono-data text-xs text-on-tertiary-container">OPERATIONAL</span>
+</div>
+<div class="w-full bg-surface-container h-1 rounded-full overflow-hidden">
+<div class="bg-tertiary-fixed-dim h-full" style="width: 92%"></div>
+</div>
+</div>
+<!-- Replicate -->
+<div class="p-6 border border-surface-variant rounded-xl flex flex-col items-center text-center">
+<div class="w-12 h-12 bg-surface-container flex items-center justify-center rounded-lg mb-4">
+<span class="material-symbols-outlined text-primary text-3xl">cloud_sync</span>
+</div>
+<h3 class="font-bold uppercase tracking-widest text-sm mb-1 font-display-lg">Replicate</h3>
+<div class="flex items-center gap-2 mb-4">
+<span class="w-2 h-2 rounded-full bg-secondary"></span>
+<span class="font-mono-data text-xs text-secondary">RECONNECTING</span>
+</div>
+<div class="w-full bg-surface-container h-1 rounded-full overflow-hidden">
+<div class="bg-secondary h-full" style="width: 45%"></div>
+</div>
+</div>
+</div>
+</section><section class="bg-white p-8 border border-muted-border shadow-sm rounded-xl" id="ecosystem">
+<h2 class="font-headline-lg text-headline-lg mb-8 font-display-lg">Network Ecosystem</h2>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+<div class="p-6 bg-surface-container-low rounded-xl border border-muted-border">
+<div class="flex items-center gap-4 mb-4">
+<span class="material-symbols-outlined text-primary p-2 bg-white rounded-lg">terminal</span>
+<h3 class="font-bold uppercase tracking-widest text-sm font-display-lg">Chaos Desktop</h3>
+</div>
+<p class="text-body-sm text-slate-gray mb-4">Localized terminal interface for direct kernel manipulation and system-wide overrides.</p>
+<button class="px-4 py-2 bg-primary text-white text-xs font-bold rounded uppercase tracking-widest">Launch Instance</button>
+</div>
+<div class="p-6 bg-surface-container-low rounded-xl border border-muted-border">
+<div class="flex items-center gap-4 mb-4">
+<span class="material-symbols-outlined text-primary p-2 bg-white rounded-lg">verified</span>
+<h3 class="font-bold uppercase tracking-widest text-sm font-display-lg">Network Sponsors</h3>
+</div>
+<div class="flex flex-wrap gap-4">
+<div class="w-10 h-10 bg-white border border-muted-border rounded flex items-center justify-center grayscale opacity-60 hover:grayscale-0 hover:opacity-100 transition-all cursor-pointer"><span class="material-symbols-outlined">hub</span></div>
+<div class="w-10 h-10 bg-white border border-muted-border rounded flex items-center justify-center grayscale opacity-60 hover:grayscale-0 hover:opacity-100 transition-all cursor-pointer"><span class="material-symbols-outlined">webhook</span></div>
+<div class="w-10 h-10 bg-white border border-muted-border rounded flex items-center justify-center grayscale opacity-60 hover:grayscale-0 hover:opacity-100 transition-all cursor-pointer"><span class="material-symbols-outlined">storage</span></div>
+<div class="w-10 h-10 bg-white border border-muted-border rounded flex items-center justify-center grayscale opacity-60 hover:grayscale-0 hover:opacity-100 transition-all cursor-pointer"><span class="material-symbols-outlined">dns</span></div>
+</div>
+<p class="text-[10px] text-slate-gray mt-4 font-mono-data">Supporting decentralized intelligence infrastructure.</p>
+</div>
+</div>
+</section>
+<!-- Personal Analytics & Export Grid -->
+<div class="grid grid-cols-1 lg:grid-cols-3 gap-gutter">
+<!-- Analytics -->
+<section class="lg:col-span-2 bg-white p-8 border border-muted-border shadow-sm rounded-xl" id="analytics">
+<h2 class="font-headline-lg text-headline-lg mb-6 font-display-lg">Usage Analytics</h2>
+<div class="h-48 flex items-end justify-between gap-2 px-2 border-b border-muted-border pb-2">
+<div class="w-full bg-primary-container opacity-20 hover:opacity-100 transition-all rounded-t" style="height: 40%" title="Mon"></div>
+<div class="w-full bg-primary-container opacity-40 hover:opacity-100 transition-all rounded-t" style="height: 60%" title="Tue"></div>
+<div class="w-full bg-primary-container opacity-30 hover:opacity-100 transition-all rounded-t" style="height: 45%" title="Wed"></div>
+<div class="w-full bg-primary-container opacity-80 hover:opacity-100 transition-all rounded-t" style="height: 85%" title="Thu"></div>
+<div class="w-full bg-primary-container opacity-90 hover:opacity-100 transition-all rounded-t" style="height: 95%" title="Fri"></div>
+<div class="w-full bg-primary-container opacity-50 hover:opacity-100 transition-all rounded-t" style="height: 55%" title="Sat"></div>
+<div class="w-full bg-primary-container opacity-25 hover:opacity-100 transition-all rounded-t" style="height: 35%" title="Sun"></div>
+</div>
+<div class="grid grid-cols-3 mt-6 text-center">
+<div>
+<p class="text-[10px] text-slate-gray font-mono-data">QUERIES</p>
+<p class="font-display-lg text-2xl">1,204</p>
+</div>
+<div class="border-x border-muted-border">
+<p class="text-[10px] text-slate-gray font-mono-data">TOKENS</p>
+<p class="font-display-lg text-2xl">4.2M</p>
+</div>
+<div>
+<p class="text-[10px] text-slate-gray font-mono-data">COST</p>
+<p class="font-display-lg text-2xl">$12.42</p>
+</div>
+</div>
+</section>
+<!-- Export Data -->
+<section class="bg-primary-container text-white p-8 rounded-xl flex flex-col justify-between" id="export">
+<div>
+<h2 class="font-headline-lg text-headline-lg text-white mb-2 font-display-lg">Export Data</h2>
+<p class="text-on-primary-container font-body-sm">Request a full archive of your system interactions and model outputs.</p>
+</div>
+<div class="space-y-4">
+<button class="w-full py-4 bg-white text-primary font-bold rounded-lg flex items-center justify-center gap-3 hover:bg-surface-container-high transition-all active:scale-95">
+<span class="material-symbols-outlined">data_object</span>
+                                DOWNLOAD JSON
+                            </button>
+<button class="w-full py-4 border border-white/20 text-white font-bold rounded-lg flex items-center justify-center gap-3 hover:bg-white/10 transition-all">
+<span class="material-symbols-outlined">table_chart</span>
+                                EXPORT CSV
+                            </button>
+<p class="text-[10px] text-on-primary-container text-center uppercase tracking-tighter">Last export generated: 2024.11.14 09:42 UTC</p>
+</div>
+</section>
+</div>
+</div>
+</div>
+</main>
+<!-- Footer -->
+<footer class="bg-surface-container dark:bg-inverse-surface border-t border-muted-border dark:border-outline">
+<div class="flex flex-col md:flex-row justify-between items-center max-w-container-max mx-auto px-margin-desktop py-8 gap-6">
+<div class="flex flex-col gap-1">
+<span class="font-label-md text-label-md text-primary dark:text-secondary uppercase tracking-widest">VAIBREPORT ENGINE</span>
+<span class="font-label-md text-label-md uppercase tracking-widest text-slate-gray dark:text-on-surface-variant">© 2024 VAIBREPORT ENGINE</span>
+</div>
+<div class="flex items-center gap-8">
+<div class="flex flex-col items-center">
+<span class="text-[10px] font-mono-data text-slate-gray uppercase">System Status</span>
+<span class="font-label-md text-label-md uppercase tracking-widest text-on-surface dark:text-inverse-on-surface">Status: LIVE</span>
+</div>
+<div class="h-8 w-px bg-muted-border"></div>
+<div class="flex flex-col items-center">
+<span class="text-[10px] font-mono-data text-slate-gray uppercase">Crawl Latency</span>
+<span class="font-label-md text-label-md uppercase tracking-widest text-on-surface dark:text-inverse-on-surface">Crawl: 5m</span>
+</div>
+<div class="h-8 w-px bg-muted-border"></div>
+<div class="flex flex-col items-center">
+<span class="text-[10px] font-mono-data text-slate-gray uppercase">Active Nodes</span>
+<span class="font-label-md text-label-md uppercase tracking-widest text-on-surface dark:text-inverse-on-surface">Sources: 9</span>
+</div>
+</div>
+<div class="flex gap-4">
+<a class="font-label-md text-label-md uppercase tracking-widest text-slate-gray hover:text-primary transition-all" href="#">Privacy</a>
+<a class="font-label-md text-label-md uppercase tracking-widest text-slate-gray hover:text-primary transition-all" href="#">Terms</a>
+<a class="font-label-md text-label-md uppercase tracking-widest text-slate-gray hover:text-primary transition-all" href="#">Security</a>
+</div>
+</div>
+</footer>
+<script>
+        // Simple smooth scroll and active state management
+        document.querySelectorAll('aside nav a').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                
+                // Reset all links
+                document.querySelectorAll('aside nav a').forEach(link => {
+                    link.classList.remove('bg-primary-container', 'text-white', 'font-bold');
+                    link.classList.add('text-slate-gray', 'hover:bg-surface-container');
+                    const icon = link.querySelector('.material-symbols-outlined');
+                    if (icon) icon.style.fontVariationSettings = "'FILL' 0";
+                });
+
+                // Set active
+                this.classList.add('bg-primary-container', 'text-white', 'font-bold');
+                this.classList.remove('text-slate-gray', 'hover:bg-surface-container');
+                const activeIcon = this.querySelector('.material-symbols-outlined');
+                if (activeIcon) activeIcon.style.fontVariationSettings = "'FILL' 1";
+
+                const targetId = this.getAttribute('href');
+                const targetElement = document.querySelector(targetId);
+                const offset = 120; // Nav height + padding
+                const elementPosition = targetElement.getBoundingClientRect().top;
+                const offsetPosition = elementPosition + window.pageYOffset - offset;
+
+                window.scrollTo({
+                    top: offsetPosition,
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Toggle state for switches (purely visual)
+        document.querySelectorAll('input[type="checkbox"]').forEach(toggle => {
+            toggle.addEventListener('change', function() {
+                console.log('Toggle state changed: ', this.checked);
+            });
+        });
+    </script>
+</body></html>
