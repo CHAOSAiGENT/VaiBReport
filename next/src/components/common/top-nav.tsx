@@ -1,13 +1,13 @@
 import Link from "next/link";
 
-const navItems = [
+const navItems: { href: string; label: string; hasIndicator?: boolean }[] = [
   { href: "/catalog", label: "CATALOG" },
   { href: "/picks", label: "PETER'S PICKS" },
   { href: "/leaderboard", label: "LEADERBOARD" },
   { href: "/trending", label: "TRENDING" },
   { href: "https://chaosdesktop.com", label: "DESKTOP", hasIndicator: true },
   { href: "/about", label: "ABOUT" },
-] as const;
+];
 
 export function TopNav() {
   return (

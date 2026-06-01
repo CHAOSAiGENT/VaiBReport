@@ -2,8 +2,10 @@ import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
 
-/** Path to the Jekyll content root (one level up from next/) */
-const CONTENT_ROOT = path.join(process.cwd(), "..");
+/** Path to the Jekyll content root on the NAS volume */
+const CONTENT_ROOT =
+  process.env.CONTENT_ROOT ??
+  "/Volumes/100.96.142.54/Chaos_Skunkworks/Apps/VaiBReport";
 
 // ─── Digest Posts ──────────────────────────────────
 
