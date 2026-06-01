@@ -11,17 +11,17 @@ downloads: 0
 likes: 0
 og_image: "https://opengraph.githubassets.com/1/Stability-AI/stability-sdk"
 first_featured: "2026-04-19"
-last_featured: "2026-05-18"
-times_featured: 3
+last_featured: "2026-06-01"
+times_featured: 4
 streak: 49
 appearances: 49
 star_velocity: 0
 tags: [github, ai-art, generative-art, latent-diffusion, multimodal, stable-diffusion]
 icp_tags: ["solopreneur", "non-technical", "entreprecurious"]
-replaces: []
+replaces: [{"name":"DeepAI","url":"https://deepai.org/","note":"ai api"}]
 similar_to: []
-compare_to_source: "manual"
-compare_to_validated: true
+compare_to_source: "llm"
+compare_to_validated: false
 ---
 
 SDK for stability.ai APIs

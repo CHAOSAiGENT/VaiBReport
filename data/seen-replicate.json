@@ -81,8 +81,8 @@
       "last_featured": "2026-03-26"
     },
     "bytedance/seedream-4.5": {
-      "times_featured": 2,
-      "last_featured": "2026-04-10"
+      "times_featured": 3,
+      "last_featured": "2026-06-01"
     },
     "lucataco/sam3-video": {
       "times_featured": 2,
@@ -153,8 +153,8 @@
       "last_featured": "2026-04-11"
     },
     "bytedance/seedance-2.0": {
-      "times_featured": 2,
-      "last_featured": "2026-04-25"
+      "times_featured": 3,
+      "last_featured": "2026-06-01"
     },
     "wan-video/wan-2.7-image-pro": {
       "times_featured": 1,
@@ -527,6 +527,10 @@
     "krea/krea-2-large": {
       "times_featured": 1,
       "last_featured": "2026-05-29"
+    },
+    "xai/grok-imagine-video-1.5": {
+      "times_featured": 1,
+      "last_featured": "2026-06-01"
     }
   }
 }

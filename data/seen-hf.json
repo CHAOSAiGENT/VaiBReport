@@ -585,8 +585,8 @@
       "last_featured": "2026-05-31"
     },
     "Qwen/Qwen3-Embedding-8B": {
-      "times_featured": 3,
-      "last_featured": "2026-05-17"
+      "times_featured": 4,
+      "last_featured": "2026-06-01"
     },
     "BAAI/bge-small-zh-v1.5": {
       "times_featured": 4,
@@ -609,12 +609,12 @@
       "last_featured": "2026-05-03"
     },
     "openai/whisper-base": {
-      "times_featured": 3,
-      "last_featured": "2026-05-18"
+      "times_featured": 4,
+      "last_featured": "2026-06-01"
     },
     "Qwen/Qwen3-ASR-1.7B": {
-      "times_featured": 3,
-      "last_featured": "2026-05-18"
+      "times_featured": 4,
+      "last_featured": "2026-06-01"
     },
     "jonatasgrosman/wav2vec2-large-xlsr-53-polish": {
       "times_featured": 3,
@@ -625,8 +625,8 @@
       "last_featured": "2026-05-19"
     },
     "Xenova/bge-base-en-v1.5": {
-      "times_featured": 3,
-      "last_featured": "2026-05-18"
+      "times_featured": 4,
+      "last_featured": "2026-06-01"
     },
     "allenai/ai2_arc": {
       "times_featured": 3,
@@ -733,16 +733,16 @@
       "last_featured": "2026-05-16"
     },
     "cambridgeltl/SapBERT-from-PubMedBERT-fulltext": {
-      "times_featured": 2,
-      "last_featured": "2026-05-18"
+      "times_featured": 3,
+      "last_featured": "2026-06-01"
     },
     "jat-project/jat-dataset": {
-      "times_featured": 2,
-      "last_featured": "2026-05-18"
+      "times_featured": 3,
+      "last_featured": "2026-06-01"
     },
     "Maximilians/ps2_hf1": {
-      "times_featured": 2,
-      "last_featured": "2026-05-18"
+      "times_featured": 3,
+      "last_featured": "2026-06-01"
     },
     "WhereIsAI/UAE-Large-V1": {
       "times_featured": 2,
@@ -847,6 +847,10 @@
     "IPEC-COMMUNITY/bridge_orig_lerobot": {
       "times_featured": 1,
       "last_featured": "2026-05-31"
+    },
+    "osv5m/osv5m": {
+      "times_featured": 1,
+      "last_featured": "2026-06-01"
     }
   }
 }
