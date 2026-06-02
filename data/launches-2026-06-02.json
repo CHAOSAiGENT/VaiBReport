@@ -1,0 +1,58 @@
+{
+  "generated_at": "2026-06-02T11:11:00.631Z",
+  "source": "launches",
+  "counts": {
+    "producthunt": 6,
+    "total": 6
+  },
+  "launches": [
+    {
+      "id": "ph-1157940",
+      "name": "Fundraisly",
+      "description": "AI fundraising agent that finds investors and books meetings",
+      "url": "https://www.producthunt.com/r/SH5BHT7UOKB2F5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 349,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1159137",
+      "name": "Gigacatalyst",
+      "description": "Give your Sales and CS teams engineering superpowers",
+      "url": "https://www.producthunt.com/r/KF5YKHOYKW7OL6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 157,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1153715",
+      "name": "Vokal",
+      "description": "A collaboration space for 10x teammates with their Al agents",
+      "url": "https://www.producthunt.com/r/M46FM3WQQTJPUQ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 151,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1159017",
+      "name": "Tabstack Web Research",
+      "description": "Run a research agent with cited answers in a single API call",
+      "url": "https://www.producthunt.com/r/4FS257I67YYFZE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 147,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1160898",
+      "name": "Paste MCP & AI Tools",
+      "description": "Infinite clipboard for Claude, Codex and other AI tools",
+      "url": "https://www.producthunt.com/r/Z3SLDWOM7BPP4W?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 108,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1160180",
+      "name": "Stella",
+      "description": "Local natural language search across all your files",
+      "url": "https://www.producthunt.com/r/ETSDIDNJ324KGZ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 101,
+      "_source": "producthunt"
+    }
+  ]
+}
