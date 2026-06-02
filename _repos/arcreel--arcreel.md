@@ -3,7 +3,7 @@ layout: repo
 name: "ArcReel/ArcReel"
 source: github
 item_url: "https://github.com/ArcReel/ArcReel"
-description: "AI-powered video generation workspace."
+description: "AI-driven video generation workspace."
 category: "UGC, social media and creator tools"
 language: "Python"
 stars: 2046
@@ -11,8 +11,8 @@ downloads: 0
 likes: 0
 og_image: "https://opengraph.githubassets.com/1/ArcReel/ArcReel"
 first_featured: "2026-04-21"
-last_featured: "2026-05-19"
-times_featured: 3
+last_featured: "2026-06-02"
+times_featured: 4
 streak: 22
 appearances: 22
 star_velocity: 15
@@ -21,7 +21,7 @@ icp_tags: ["solopreneur", "non-technical", "entreprecurious"]
 replaces: [{"name":"Lumen5","url":"https://lumen5.com","note":"video creation"}]
 similar_to: []
 compare_to_source: "llm"
-compare_to_validated: true
+compare_to_validated: false
 ---
 
-AI-powered video generation workspace.
+AI-driven video generation workspace.
