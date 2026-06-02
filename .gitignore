@@ -1,14 +1,7 @@
-# Planning / session files — local only, never push
-.notes_peter
-CLAUDE-CODE-SETUP-PROMPT.md
-CLAUDE-CODE-V1-FINALIZE.md
-COWORK-DIGEST-PROMPT.md
-CHAOSAiGENT_VaiBReport*.pdf
-trackers for interesting github repos*.md
-
 # Dependencies
 node_modules/
 package-lock.json
+bun.lock
 
 # ───────────────────────────────────────────
 # OS & system junk (Mac + Windows)
@@ -28,10 +21,5 @@ $RECYCLE.BIN/
 *.lnk
 .claude/worktrees/
 
-# Design mockup HTML files (not source)
-design-*.html
-designs-2/
-.html/
-
-# Logs
-logs_*/
+# Next.js build artifacts
+next/.next/

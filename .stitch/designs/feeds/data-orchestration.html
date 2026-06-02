@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>VAIBREPORT // RSS &amp; API FEEDS</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Chivo:wght@700;800&amp;family=Inter:wght@400;500&amp;family=JetBrains+Mono:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "on-secondary-fixed": "#001849",
+                        "on-secondary": "#ffffff",
+                        "tertiary-fixed": "#62ff96",
+                        "on-surface": "#1a1c19",
+                        "primary": "#000000",
+                        "outline-variant": "#c8c5cb",
+                        "primary-fixed-dim": "#c6c5cf",
+                        "on-secondary-container": "#fefcff",
+                        "surface-tint": "#5d5e66",
+                        "secondary-fixed": "#dae1ff",
+                        "on-background": "#1a1c19",
+                        "on-secondary-fixed-variant": "#003fa4",
+                        "secondary-container": "#226bf8",
+                        "surface-bright": "#fafaf4",
+                        "inverse-primary": "#c6c5cf",
+                        "outline": "#77767c",
+                        "surface-container-lowest": "#ffffff",
+                        "on-primary-fixed": "#1a1b22",
+                        "primary-container": "#1a1b22",
+                        "tertiary-container": "#00210b",
+                        "surface-container": "#eeeee8",
+                        "on-primary-fixed-variant": "#46464e",
+                        "surface-variant": "#e3e3dd",
+                        "tertiary-fixed-dim": "#00e475",
+                        "primary-fixed": "#e3e1ec",
+                        "on-tertiary-fixed-variant": "#005226",
+                        "on-surface-variant": "#46464b",
+                        "inverse-on-surface": "#f1f1eb",
+                        "error": "#ba1a1a",
+                        "on-primary-container": "#83838c",
+                        "on-error": "#ffffff",
+                        "surface-container-highest": "#e3e3dd",
+                        "surface-dim": "#dadad5",
+                        "inverse-surface": "#2f312d",
+                        "error-container": "#ffdad6",
+                        "on-tertiary-container": "#00984c",
+                        "on-tertiary": "#ffffff",
+                        "muted-border": "#C4C6D0",
+                        "surface": "#fafaf4",
+                        "secondary-fixed-dim": "#b3c5ff",
+                        "blueprint-dot": "rgba(18, 19, 26, 0.08)",
+                        "surface-container-low": "#f4f4ee",
+                        "tertiary": "#000000",
+                        "slate-gray": "#5E6780",
+                        "surface-container-high": "#e8e8e3",
+                        "secondary": "#0052d0",
+                        "on-tertiary-fixed": "#00210b",
+                        "background": "#fafaf4",
+                        "on-error-container": "#93000a",
+                        "on-primary": "#ffffff"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                    "spacing": {
+                        "gutter": "24px",
+                        "margin-mobile": "16px",
+                        "margin-desktop": "64px",
+                        "base": "8px",
+                        "container-max": "1280px"
+                    },
+                    "fontFamily": {
+                        "section-header": ["JetBrains Mono"],
+                        "body-sm": ["Inter"],
+                        "mono-data": ["JetBrains Mono"],
+                        "label-md": ["JetBrains Mono"],
+                        "headline-lg": ["Chivo"],
+                        "body-md": ["Inter"],
+                        "headline-lg-mobile": ["Chivo"],
+                        "display-lg": ["Chivo"]
+                    },
+                    "fontSize": {
+                        "section-header": ["14px", {"lineHeight": "20px", "letterSpacing": "0.1em", "fontWeight": "700"}],
+                        "body-sm": ["14px", {"lineHeight": "1.5", "fontWeight": "400"}],
+                        "mono-data": ["14px", {"lineHeight": "24px", "fontWeight": "400"}],
+                        "label-md": ["12px", {"lineHeight": "16px", "fontWeight": "500"}],
+                        "headline-lg": ["32px", {"lineHeight": "1.2", "fontWeight": "700"}],
+                        "body-md": ["16px", {"lineHeight": "1.6", "fontWeight": "400"}],
+                        "headline-lg-mobile": ["24px", {"lineHeight": "1.2", "fontWeight": "700"}],
+                        "display-lg": ["48px", {"lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "800"}]
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+        body {
+            background-image: radial-gradient(var(--tw-blueprint-dot) 1px, transparent 0);
+            background-size: 24px 24px;
+            background-attachment: fixed;
+        }
+        .code-block {
+            background: #1a1b22;
+            color: #c6c5cf;
+        }
+    </style>
+</head>
+<body class="bg-background text-on-surface min-h-screen flex flex-col font-body-md">
+<!-- TopNavBar -->
+<header class="bg-surface dark:bg-surface-container-lowest border-b border-outline-variant dark:border-outline sticky top-0 z-50">
+<div class="flex justify-between items-center w-full px-margin-desktop max-w-container-max mx-auto h-16">
+<div class="font-headline-lg text-headline-lg font-bold tracking-tighter text-primary dark:text-primary-fixed-dim">
+                VAIBREPORT
+            </div>
+<nav class="hidden md:flex items-center space-x-8">
+<a class="font-section-header text-section-header uppercase tracking-widest text-slate-gray dark:text-on-surface-variant hover:text-primary transition-colors" href="#">Catalog</a>
+<a class="font-section-header text-section-header uppercase tracking-widest text-slate-gray dark:text-on-surface-variant hover:text-primary transition-colors" href="#">Peter's Picks</a>
+<a class="font-section-header text-section-header uppercase tracking-widest text-slate-gray dark:text-on-surface-variant hover:text-primary transition-colors" href="#">Leaderboard</a>
+<a class="font-section-header text-section-header uppercase tracking-widest text-slate-gray dark:text-on-surface-variant hover:text-primary transition-colors" href="#">About</a>
+<a class="font-section-header text-section-header uppercase tracking-widest text-secondary dark:text-secondary-fixed-dim border-b-2 border-secondary dark:border-secondary-fixed-dim pb-1" href="#">RSS</a>
+</nav>
+<div class="flex items-center space-x-4">
+<span class="material-symbols-outlined text-on-surface-variant cursor-pointer hover:text-primary transition-colors">settings</span>
+<span class="material-symbols-outlined text-on-surface-variant cursor-pointer hover:text-primary transition-colors">account_circle</span>
+</div>
+</div>
+</header>
+<main class="flex-grow w-full max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop py-12">
+<!-- Hero Section -->
+<div class="mb-16">
+<h1 class="font-display-lg text-display-lg mb-4">API &amp; RSS FEEDS</h1>
+<p class="text-on-surface-variant max-w-2xl font-body-md">
+                Direct infrastructure access to the VAIBREPORT stream. Pipe automated intelligence into your Slack bots, internal dashboards, or custom data pipelines.
+            </p>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter">
+<!-- Left Column: Primary Feed & Custom Discovery -->
+<div class="lg:col-span-8 space-y-gutter">
+<!-- Global Signal Feed -->
+<section class="bg-surface-container-lowest p-base md:p-8 border-l-2 border-primary shadow-[0px_4px_20px_rgba(0,0,0,0.04)] rounded-lg">
+<div class="flex items-center gap-3 mb-6">
+<span class="material-symbols-outlined text-secondary" style="font-variation-settings: 'FILL' 1;">rss_feed</span>
+<h2 class="font-headline-lg text-headline-lg">Global Signal Feed</h2>
+</div>
+<p class="text-on-surface-variant mb-6 font-body-md">The master stream of all verified technical signals, including security patches, paper drops, and major repo merges.</p>
+<div class="code-block p-4 rounded-lg flex flex-col md:flex-row items-center justify-between gap-4 font-mono-data text-mono-data">
+<span class="truncate w-full">https://api.vaibreport.io/v1/feeds/global.xml?key=DEMO_ONLY_9982</span>
+<button class="bg-primary-container hover:bg-on-primary-fixed-variant text-on-primary-container px-6 py-2 rounded-full transition-all flex items-center gap-2 shrink-0 border border-outline-variant" onclick="copyToClipboard(this)">
+<span class="material-symbols-outlined text-sm">content_copy</span>
+                            COPY URL
+                        </button>
+</div>
+<div class="mt-4 flex items-center gap-4 text-slate-gray font-label-md">
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[14px]">bolt</span> Update Rate: 5m</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[14px]">format_align_left</span> Format: XML/JSON</span>
+</div>
+</section>
+<!-- Custom Feed Discovery -->
+<section class="bg-surface-container-lowest p-base md:p-8 shadow-[0px_4px_20px_rgba(0,0,0,0.04)] rounded-lg">
+<h2 class="font-headline-lg text-headline-lg mb-6">Custom Feed Discovery</h2>
+<!-- Filters -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
+<div>
+<label class="font-section-header text-section-header uppercase block mb-2">Platform Source</label>
+<select class="w-full bg-surface-container-low border border-outline-variant rounded-lg p-3 font-body-sm outline-none focus:border-secondary">
+<option>All Platforms</option>
+<option>GitHub Core</option>
+<option>HuggingFace Model Hub</option>
+<option>NIST Security DB</option>
+<option>ArXiv Papers</option>
+</select>
+</div>
+<div>
+<label class="font-section-header text-section-header uppercase block mb-2">Category Filter</label>
+<select class="w-full bg-surface-container-low border border-outline-variant rounded-lg p-3 font-body-sm outline-none focus:border-secondary">
+<option>Everything</option>
+<option>AI &amp; Machine Learning</option>
+<option>DevOps &amp; Infrastructure</option>
+<option>SaaS Intelligence</option>
+<option>Critical Patches</option>
+</select>
+</div>
+</div>
+<div class="border border-outline-variant rounded-lg overflow-hidden">
+<div class="bg-surface-container-high px-4 py-2 font-section-header text-section-header uppercase border-b border-outline-variant">Generated Result</div>
+<div class="p-6">
+<div class="code-block p-4 rounded-lg font-mono-data text-mono-data text-secondary truncate">
+                                https://api.vaibreport.io/v1/feeds/custom?platform=github&amp;cat=ai&amp;key=DEMO_ONLY_9982
+                            </div>
+<div class="mt-4 flex flex-wrap gap-2">
+<span class="bg-secondary/10 text-secondary px-3 py-1 rounded-full text-label-md font-label-md uppercase">Platform: GitHub</span>
+<span class="bg-secondary/10 text-secondary px-3 py-1 rounded-full text-label-md font-label-md uppercase">Category: AI</span>
+</div>
+</div>
+</div>
+</section>
+</div>
+<!-- Right Column: Sidebar -->
+<div class="lg:col-span-4 space-y-gutter">
+<!-- Chaos Desktop Sync -->
+<div class="bg-primary-container text-on-primary-container p-8 rounded-lg relative overflow-hidden">
+<div class="relative z-10">
+<div class="bg-tertiary-fixed text-on-tertiary-fixed px-2 py-1 rounded text-[10px] font-bold inline-block mb-4">SISTER PRODUCT</div>
+<h3 class="font-headline-lg text-headline-lg text-white mb-4">Chaos Desktop Sync</h3>
+<p class="font-body-sm text-on-primary-container mb-6">
+                            Automate local data pulls directly to your filesystem. No custom scripts required. Perfect for Obsidian or Logseq workflows.
+                        </p>
+<button class="w-full bg-white text-black font-section-header text-section-header uppercase py-3 rounded hover:bg-slate-200 transition-colors">
+                            Initialize Sync
+                        </button>
+</div>
+<!-- Decorative Element -->
+<div class="absolute -right-12 -bottom-12 opacity-10 pointer-events-none">
+<span class="material-symbols-outlined text-[200px]" style="font-variation-settings: 'FILL' 1;">sync</span>
+</div>
+</div>
+<!-- Sponsor Spotlight -->
+<div class="bg-surface border border-muted-border p-6 rounded-lg">
+<label class="font-section-header text-section-header uppercase text-slate-gray mb-4 block">Sponsor Spotlight</label>
+<div class="aspect-video w-full bg-surface-container-highest mb-4 rounded relative group cursor-pointer overflow-hidden">
+<img alt="Code on screen" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="A macro close-up of a high-resolution monitor displaying complex software code in a dark mode editor. The lighting is moody with hints of purple and blue neon reflecting off the sleek workspace. The composition is artistic and sharp, emphasizing a sophisticated developer environment. The overall aesthetic is professional, technical, and high-end." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCQPQQhqaZ8oj7FQp4-NQrf211MHXA0fBogBZK_du_QHJ0HSr915ksX7js6JwDhFKM-reGjXrtCqdHFgThg8V1GHbDhLTAU8jOl2xZ_ZwjLoRme9q5X3MkpL1DHxTjhqxObNV-anUntXSsC1rBZ8MqrIBsee2hlhsvmQ__mrstZq5QrNz-5DIQCAmeGmu7dcjifTipcRwTyyZpewOG0Qtc2fbXkfwmqBS4qeL_xyCNLLNiYlNrPd05ei9mz2WAC-m3dzZMMqcF0RPw"/>
+<div class="absolute inset-0 bg-black/40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+<span class="text-white font-section-header text-section-header uppercase">Visit Site</span>
+</div>
+</div>
+<h4 class="font-headline-lg text-[18px] mb-2">Supabase Tools</h4>
+<p class="font-body-sm text-on-surface-variant mb-4">Build in a weekend, scale to millions. The open source Firebase alternative with enterprise-grade feed support.</p>
+<a class="text-secondary font-label-md flex items-center gap-1 group" href="#">
+                        LEARN MORE <span class="material-symbols-outlined group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</a>
+</div>
+<!-- Feed Health Status -->
+<div class="bg-surface-container-low p-6 rounded-lg border-t border-outline-variant">
+<div class="flex justify-between items-center mb-4">
+<span class="font-section-header text-section-header uppercase">Network Health</span>
+<span class="flex items-center gap-1 text-on-tertiary-container font-label-md">
+<span class="w-2 h-2 bg-tertiary-fixed-dim rounded-full animate-pulse"></span>
+                            99.9% Uptime
+                        </span>
+</div>
+<div class="space-y-3">
+<div class="flex justify-between text-label-md">
+<span class="text-slate-gray">Latency</span>
+<span class="font-mono-data">42ms</span>
+</div>
+<div class="flex justify-between text-label-md">
+<span class="text-slate-gray">Total Requests (24h)</span>
+<span class="font-mono-data">1.2M</span>
+</div>
+<div class="w-full bg-surface-container-highest h-1 rounded overflow-hidden">
+<div class="bg-secondary h-full w-[85%]"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</main>
+<!-- Footer -->
+<footer class="bg-surface-container dark:bg-surface-container-lowest border-t border-outline-variant">
+<div class="flex flex-col md:flex-row justify-between items-center w-full px-margin-desktop py-4 max-w-container-max mx-auto gap-4">
+<div class="font-label-md text-label-md font-bold text-primary">© 2024 VAIBREPORT. ALL RIGHTS RESERVED.</div>
+<div class="flex flex-wrap justify-center gap-6">
+<div class="flex items-center gap-2 border-r border-outline-variant pr-6">
+<span class="w-2 h-2 rounded-full bg-tertiary-fixed-dim"></span>
+<span class="font-mono-data text-mono-data uppercase text-on-tertiary-container font-bold">Pipeline: OK</span>
+</div>
+<div class="flex items-center gap-2 border-r border-outline-variant pr-6">
+<span class="font-mono-data text-mono-data uppercase text-slate-gray">Crawl: 5m</span>
+</div>
+<div class="flex items-center gap-2 border-r border-outline-variant pr-6">
+<span class="font-mono-data text-mono-data uppercase text-slate-gray">Sources: 9</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="font-mono-data text-mono-data uppercase text-on-tertiary-container font-bold">Status: LIVE</span>
+</div>
+</div>
+</div>
+</footer>
+<script>
+        function copyToClipboard(button) {
+            const codeText = button.previousElementSibling.innerText;
+            navigator.clipboard.writeText(codeText).then(() => {
+                const originalContent = button.innerHTML;
+                button.innerHTML = '<span class="material-symbols-outlined text-sm">check</span> COPIED';
+                button.classList.add('bg-tertiary-container', 'text-on-tertiary-container');
+                setTimeout(() => {
+                    button.innerHTML = originalContent;
+                    button.classList.remove('bg-tertiary-container', 'text-on-tertiary-container');
+                }, 2000);
+            });
+        }
+
+        // Simple parallax on dot grid
+        window.addEventListener('scroll', () => {
+            const scrollPos = window.scrollY;
+            document.body.style.backgroundPositionY = `${scrollPos * 0.1}px`;
+        });
+    </script>
+</body></html>

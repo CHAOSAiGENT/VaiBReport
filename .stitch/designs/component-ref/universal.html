@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>VAIBREPORT | Universal Component Reference</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&amp;family=Chivo:wght@700;800&amp;family=JetBrains+Mono:wght@400;700&amp;family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Chivo:wght@100..900&amp;family=Inter:wght@100..900&amp;family=JetBrains+Mono:wght@100..900&amp;display=swap" rel="stylesheet"/>
+<style>
+        body {
+            background-color: #fafaf4;
+            background-image: radial-gradient(rgba(18, 19, 26, 0.08) 1px, transparent 0);
+            background-size: 24px 24px;
+        }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .custom-scrollbar::-webkit-scrollbar {
+            width: 4px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: transparent;
+        }
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #C4C6D0;
+        }
+    </style>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "slate-gray": "#5E6780",
+                        "tertiary-fixed-dim": "#00e475",
+                        "on-secondary-fixed": "#001849",
+                        "inverse-primary": "#c6c5cf",
+                        "primary-fixed": "#e3e1ec",
+                        "surface-dim": "#dadad5",
+                        "primary-container": "#1a1b22",
+                        "on-primary-fixed-variant": "#46464e",
+                        "error-container": "#ffdad6",
+                        "primary": "#000000",
+                        "surface-container-lowest": "#ffffff",
+                        "muted-border": "#C4C6D0",
+                        "secondary-fixed-dim": "#b3c5ff",
+                        "error": "#ba1a1a",
+                        "tertiary": "#000000",
+                        "on-error": "#ffffff",
+                        "surface-container-highest": "#e3e3dd",
+                        "on-primary-container": "#83838c",
+                        "on-tertiary-fixed": "#00210b",
+                        "tertiary-container": "#00210b",
+                        "on-secondary": "#ffffff",
+                        "on-primary-fixed": "#1a1b22",
+                        "surface-container-low": "#f4f4ee",
+                        "on-secondary-fixed-variant": "#003fa4",
+                        "surface-tint": "#5d5e66",
+                        "secondary-container": "#226bf8",
+                        "surface-variant": "#e3e3dd",
+                        "secondary-fixed": "#dae1ff",
+                        "on-surface-variant": "#46464b",
+                        "outline": "#77767c",
+                        "on-tertiary": "#ffffff",
+                        "primary-fixed-dim": "#c6c5cf",
+                        "surface-bright": "#fafaf4",
+                        "on-error-container": "#93000a",
+                        "tertiary-fixed": "#62ff96",
+                        "inverse-on-surface": "#f1f1eb",
+                        "on-primary": "#ffffff",
+                        "on-tertiary-container": "#00984c",
+                        "on-secondary-container": "#fefcff",
+                        "surface-container": "#eeeee8",
+                        "background": "#fafaf4",
+                        "surface-container-high": "#e8e8e3",
+                        "blueprint-dot": "rgba(18, 19, 26, 0.08)",
+                        "surface": "#fafaf4",
+                        "inverse-surface": "#2f312d",
+                        "secondary": "#0052d0",
+                        "on-tertiary-fixed-variant": "#005226",
+                        "on-background": "#1a1c19",
+                        "outline-variant": "#c8c5cb",
+                        "on-surface": "#1a1c19"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                    "spacing": {
+                        "margin-mobile": "16px",
+                        "gutter": "24px",
+                        "container-max": "1280px",
+                        "margin-desktop": "64px",
+                        "base": "8px"
+                    },
+                    "fontFamily": {
+                        "body-md": ["Inter"],
+                        "section-header": ["JetBrains Mono"],
+                        "mono-data": ["JetBrains Mono"],
+                        "headline-lg": ["Chivo"],
+                        "label-md": ["JetBrains Mono"],
+                        "display-lg": ["Chivo"]
+                    },
+                    "fontSize": {
+                        "body-md": ["16px", {"lineHeight": "1.6", "fontWeight": "400"}],
+                        "section-header": ["14px", {"lineHeight": "20px", "letterSpacing": "0.1em", "fontWeight": "700"}],
+                        "mono-data": ["14px", {"lineHeight": "24px", "fontWeight": "400"}],
+                        "headline-lg": ["32px", {"lineHeight": "1.2", "fontWeight": "700"}],
+                        "label-md": ["12px", {"lineHeight": "16px", "fontWeight": "500"}],
+                        "display-lg": ["48px", {"lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "800"}]
+                    }
+                },
+            },
+        }
+    </script>
+</head>
+<body class="font-body-md text-on-surface antialiased custom-scrollbar">
+<!-- TopNavBar Shell -->
+<nav class="fixed top-0 w-full z-50 flex justify-between items-center px-margin-desktop h-16 bg-surface/80 backdrop-blur-md border-b border-outline-variant">
+<div class="flex items-center gap-12">
+<span class="font-display-lg text-[24px] font-extrabold tracking-tighter text-primary">VAIBREPORT</span>
+<div class="hidden lg:flex items-center gap-6">
+<a class="font-section-header text-section-header uppercase tracking-widest text-secondary border-b-2 border-secondary pb-1" href="#">STREAMS</a>
+<a class="font-section-header text-section-header uppercase tracking-widest text-on-surface-variant hover:text-primary transition-colors" href="#">TERMINAL</a>
+<a class="font-section-header text-section-header uppercase tracking-widest text-on-surface-variant hover:text-primary transition-colors" href="#">ARCHIVE</a>
+<a class="font-section-header text-section-header uppercase tracking-widest text-on-surface-variant hover:text-primary transition-colors" href="#">SIGNALS</a>
+</div>
+</div>
+<div class="flex items-center gap-6">
+<div class="relative group">
+<input class="bg-surface-container-low border-none rounded-lg px-4 py-2 font-mono-data text-mono-data focus:ring-1 focus:ring-secondary w-48 transition-all duration-300 focus:w-64" placeholder="QUERY_SYSTEM..." type="text"/>
+<span class="material-symbols-outlined absolute right-3 top-2 text-slate-gray pointer-events-none">search</span>
+</div>
+<div class="flex items-center gap-3 border-l border-outline-variant pl-6">
+<button class="material-symbols-outlined text-slate-gray hover:text-primary transition-all">settings</button>
+<button class="material-symbols-outlined text-slate-gray hover:text-primary transition-all">notifications</button>
+<div class="w-8 h-8 rounded-full bg-primary-container overflow-hidden border border-outline">
+<img alt="User" class="w-full h-full object-cover" data-alt="A clean, minimalist high-key headshot of a professional individual in a corporate technical setting. The lighting is soft and even, highlighting sharp features against a sterile, bright studio background. The aesthetic is modern, professional, and consistent with a high-end data platform user interface." src="https://lh3.googleusercontent.com/aida-public/AB6AXuB1LuxNeIQpgkbTpQGH2mVI0XTTEDDNDFiBXNMOY9hr601R98cHnL0V-MIIKVVmo4SNqxhMKx05ZINTZAf6Ltg_nlhxj7fWVhJ_83bBvxkYklN5yqAQUM2O3Vrr7wTiGrfziNMxnWUO2SzpQ-gRLBzqAAne8te7EPAc9J5lOVsPYsjxaiNhaLHA2-3k6djHgisUS6wq_PmRrqXPyo5I8uy--Dl-EXeq7RPQUymrewg-t77FbmjD2S9xoWb_6ohfQcttYcw3tOna70U"/>
+</div>
+</div>
+</div>
+</nav>
+<!-- SideNavBar (Hidden on Mobile) -->
+<aside class="hidden lg:flex flex-col fixed left-0 top-16 h-[calc(100vh-64px)] p-4 space-y-4 bg-surface-container-low w-64 border-r border-outline-variant shadow-sm z-40">
+<div class="px-2 py-4">
+<p class="font-mono-data text-[10px] text-slate-gray tracking-tighter">OPERATOR_LOGGED_IN</p>
+<h3 class="font-headline-lg text-[18px] text-primary">OPERATOR_01</h3>
+</div>
+<nav class="space-y-1 flex-1">
+<div class="flex items-center gap-3 p-3 bg-secondary text-on-secondary rounded-lg font-bold shadow-md cursor-pointer">
+<span class="material-symbols-outlined">dashboard</span>
+<span class="font-mono-data text-mono-data uppercase">DASHBOARD</span>
+</div>
+<div class="flex items-center gap-3 p-3 text-slate-gray hover:text-primary hover:bg-surface-variant rounded-lg cursor-pointer transition-transform duration-200 hover:translate-x-1">
+<span class="material-symbols-outlined">sensors</span>
+<span class="font-mono-data text-mono-data uppercase">LIVE_FEED</span>
+</div>
+<div class="flex items-center gap-3 p-3 text-slate-gray hover:text-primary hover:bg-surface-variant rounded-lg cursor-pointer transition-transform duration-200 hover:translate-x-1">
+<span class="material-symbols-outlined">account_tree</span>
+<span class="font-mono-data text-mono-data uppercase">PIPELINE</span>
+</div>
+<div class="flex items-center gap-3 p-3 text-slate-gray hover:text-primary hover:bg-surface-variant rounded-lg cursor-pointer transition-transform duration-200 hover:translate-x-1">
+<span class="material-symbols-outlined">lan</span>
+<span class="font-mono-data text-mono-data uppercase">NETWORK</span>
+</div>
+</nav>
+<div class="pt-4 border-t border-outline-variant">
+<button class="w-full bg-primary text-on-primary py-3 rounded-lg font-section-header text-section-header flex items-center justify-center gap-2 hover:opacity-90 active:scale-95 transition-all">
+<span class="material-symbols-outlined text-[18px]">add</span>
+                NEW_REPORT
+            </button>
+</div>
+</aside>
+<!-- Main Content Canvas -->
+<main class="lg:ml-64 pt-24 px-margin-desktop pb-20 max-w-container-max mx-auto">
+<!-- Header Section -->
+<header class="mb-16">
+<h1 class="font-display-lg text-display-lg text-primary mb-2">SYSTEM_REFERENCE</h1>
+<p class="font-body-md text-slate-gray max-w-2xl">A comprehensive guide to the VAIBREPORT design language, visual tokens, and reusable component ecosystem for technical reporting.</p>
+</header>
+<!-- Section 1: Navigation & Shell -->
+<section class="mb-20">
+<div class="flex items-center gap-4 mb-8">
+<span class="font-mono-data text-secondary">01.00</span>
+<h2 class="font-headline-lg text-headline-lg">UNIVERSAL_NAVIGATION</h2>
+<div class="flex-1 h-[1px] bg-outline-variant"></div>
+</div>
+<div class="bg-surface-container-lowest p-8 rounded-xl shadow-[0px_4px_20px_rgba(0,0,0,0.04)] border-l-2 border-primary">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+<div>
+<h4 class="font-section-header text-section-header mb-4">SHELL_INTEGRITY</h4>
+<p class="font-body-sm text-on-surface-variant mb-6">The application shell uses a fixed 64px top bar and a 256px side navigation for high-priority routing. The background utilizes a 24px dot-grid for mathematical grounding.</p>
+<ul class="space-y-2">
+<li class="flex items-center gap-2 text-label-md font-label-md uppercase text-slate-gray">
+<span class="material-symbols-outlined text-[16px]">check_circle</span>
+                                Fixed Positioning
+                            </li>
+<li class="flex items-center gap-2 text-label-md font-label-md uppercase text-slate-gray">
+<span class="material-symbols-outlined text-[16px]">check_circle</span>
+                                Backdrop Blur (80% Opacity)
+                            </li>
+<li class="flex items-center gap-2 text-label-md font-label-md uppercase text-slate-gray">
+<span class="material-symbols-outlined text-[16px]">check_circle</span>
+                                8px Vertical Rhythm
+                            </li>
+</ul>
+</div>
+<div class="bg-surface-container-high rounded-lg p-6 border border-outline-variant">
+<div class="flex flex-col gap-4">
+<div class="h-4 w-full bg-outline-variant rounded animate-pulse"></div>
+<div class="h-4 w-3/4 bg-outline-variant rounded opacity-50"></div>
+<div class="h-4 w-1/2 bg-outline-variant rounded opacity-30"></div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Section 2: Actionable Elements -->
+<section class="mb-20">
+<div class="flex items-center gap-4 mb-8">
+<span class="font-mono-data text-secondary">02.00</span>
+<h2 class="font-headline-lg text-headline-lg">ACTION_SYSTEM</h2>
+<div class="flex-1 h-[1px] bg-outline-variant"></div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- Primary Button Column -->
+<div class="space-y-6">
+<h3 class="font-section-header text-section-header text-slate-gray">PRIMARY_STATES</h3>
+<button class="w-full bg-primary text-on-primary py-3 px-6 rounded-lg font-section-header uppercase flex items-center justify-between hover:opacity-90 active:scale-95 transition-all">
+<span>EXECUTE_COMMAND</span>
+<span class="material-symbols-outlined">arrow_forward</span>
+</button>
+<button class="w-full bg-primary text-on-primary py-3 px-6 rounded-lg font-section-header uppercase flex items-center justify-center gap-2 opacity-70 cursor-wait">
+<svg class="animate-spin h-5 w-5 text-white" fill="none" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle><path class="opacity-75" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z" fill="currentColor"></path></svg>
+                        PROCESSING...
+                    </button>
+</div>
+<!-- Secondary Button Column -->
+<div class="space-y-6">
+<h3 class="font-section-header text-section-header text-slate-gray">OUTLINE_STATES</h3>
+<button class="w-full border-2 border-primary text-primary py-3 px-6 rounded-lg font-section-header uppercase flex items-center justify-center gap-2 hover:bg-primary hover:text-white transition-all">
+<span>SECONDARY_ACTION</span>
+</button>
+<div class="flex gap-2">
+<button class="flex-1 border border-outline-variant text-slate-gray py-3 px-4 rounded-lg font-mono-data text-[12px] flex items-center justify-center gap-2 hover:bg-surface-variant transition-all">
+<span class="material-symbols-outlined text-[18px]">terminal</span>
+                            SHELL
+                        </button>
+<button class="flex-1 border border-outline-variant text-slate-gray py-3 px-4 rounded-lg font-mono-data text-[12px] flex items-center justify-center gap-2 hover:bg-surface-variant transition-all">
+<span class="material-symbols-outlined text-[18px]">settings_ethernet</span>
+                            P2P
+                        </button>
+</div>
+</div>
+<!-- Ghost/Icon Button Column -->
+<div class="space-y-6">
+<h3 class="font-section-header text-section-header text-slate-gray">GHOST_CONTROLS</h3>
+<div class="flex flex-wrap gap-4">
+<button class="p-3 bg-surface-container hover:bg-surface-container-high rounded-full transition-all text-primary border border-outline-variant shadow-sm">
+<span class="material-symbols-outlined">refresh</span>
+</button>
+<button class="p-3 bg-surface-container hover:bg-surface-container-high rounded-full transition-all text-primary border border-outline-variant shadow-sm">
+<span class="material-symbols-outlined">download</span>
+</button>
+<button class="p-3 bg-surface-container hover:bg-surface-container-high rounded-full transition-all text-error border border-error/20 shadow-sm">
+<span class="material-symbols-outlined">delete</span>
+</button>
+<button class="p-3 bg-surface-container hover:bg-surface-container-high rounded-full transition-all text-secondary border border-secondary/20 shadow-sm">
+<span class="material-symbols-outlined">share</span>
+</button>
+</div>
+<button class="w-full text-slate-gray font-mono-data text-mono-data uppercase flex items-center gap-2 hover:text-primary transition-colors underline underline-offset-4 decoration-outline-variant">
+                        VIEW_HIDDEN_LOGS
+                    </button>
+</div>
+</div>
+</section>
+<!-- Section 3: Structural Grid -->
+<section class="mb-20">
+<div class="flex items-center gap-4 mb-8">
+<span class="font-mono-data text-secondary">03.00</span>
+<h2 class="font-headline-lg text-headline-lg">STRUCTURAL_HIERARCHY</h2>
+<div class="flex-1 h-[1px] bg-outline-variant"></div>
+</div>
+<div class="space-y-6">
+<!-- 1/1 Width -->
+<div class="w-full bg-surface-container-low border border-dashed border-outline-variant rounded-lg p-4 flex flex-col items-center justify-center group hover:bg-surface-variant transition-all cursor-crosshair">
+<span class="font-mono-data text-slate-gray text-[10px] uppercase">Grid_Width_1.0 (12/12)</span>
+<div class="w-full h-8 bg-surface-container-highest mt-2 rounded"></div>
+</div>
+<!-- 1/2 Widths -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-gutter">
+<div class="bg-surface-container-low border border-dashed border-outline-variant rounded-lg p-4 flex flex-col items-center justify-center group hover:bg-surface-variant transition-all">
+<span class="font-mono-data text-slate-gray text-[10px] uppercase">Grid_Width_0.5 (6/12)</span>
+<div class="w-full h-8 bg-surface-container-highest mt-2 rounded opacity-80"></div>
+</div>
+<div class="bg-surface-container-low border border-dashed border-outline-variant rounded-lg p-4 flex flex-col items-center justify-center group hover:bg-surface-variant transition-all">
+<span class="font-mono-data text-slate-gray text-[10px] uppercase">Grid_Width_0.5 (6/12)</span>
+<div class="w-full h-8 bg-surface-container-highest mt-2 rounded opacity-80"></div>
+</div>
+</div>
+<!-- 1/3 Widths -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-gutter">
+<div class="bg-surface-container-low border border-dashed border-outline-variant rounded-lg p-4 flex flex-col items-center justify-center">
+<span class="font-mono-data text-slate-gray text-[10px] uppercase">Grid_Width_0.33</span>
+</div>
+<div class="bg-surface-container-low border border-dashed border-outline-variant rounded-lg p-4 flex flex-col items-center justify-center">
+<span class="font-mono-data text-slate-gray text-[10px] uppercase">Grid_Width_0.33</span>
+</div>
+<div class="bg-surface-container-low border border-dashed border-outline-variant rounded-lg p-4 flex flex-col items-center justify-center">
+<span class="font-mono-data text-slate-gray text-[10px] uppercase">Grid_Width_0.33</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Section 4: Component Widgets -->
+<section class="mb-20">
+<div class="flex items-center gap-4 mb-8">
+<span class="font-mono-data text-secondary">04.00</span>
+<h2 class="font-headline-lg text-headline-lg">COMPONENT_WIDGETS</h2>
+<div class="flex-1 h-[1px] bg-outline-variant"></div>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-4 gap-gutter">
+<!-- Badge & Promo Block -->
+<div class="lg:col-span-2 bg-primary rounded-xl p-8 relative overflow-hidden group">
+<div class="absolute top-0 right-0 p-4">
+<span class="bg-tertiary-fixed text-on-tertiary-fixed text-[10px] font-mono-data font-bold px-3 py-1 rounded-full uppercase tracking-tighter shadow-lg">CHAOS_DESKTOP_READY</span>
+</div>
+<div class="relative z-10 h-full flex flex-col justify-end">
+<h3 class="text-white font-headline-lg text-[28px] leading-tight mb-4">OPTIMIZE YOUR<br/>DATA ARCHITECTURE</h3>
+<p class="text-outline-variant font-body-sm mb-6">Unlock deep-stream analytics with the v4.0 Chaos Engine. Real-time processing for elite network operators.</p>
+<button class="w-fit bg-secondary text-on-secondary px-6 py-2 rounded font-section-header text-[12px] uppercase">LEARN_MORE</button>
+</div>
+<!-- Decorative Element -->
+<div class="absolute -bottom-8 -right-8 w-48 h-48 bg-secondary/20 rounded-full blur-3xl group-hover:bg-secondary/40 transition-all duration-700"></div>
+</div>
+<!-- Metric Card 1 -->
+<div class="bg-surface-container-lowest border border-outline-variant rounded-xl p-6 shadow-sm">
+<div class="flex justify-between items-start mb-4">
+<span class="font-mono-data text-[10px] text-slate-gray uppercase">SYSTEM_LOAD</span>
+<span class="px-2 py-0.5 bg-tertiary-fixed-dim/20 text-on-tertiary-container text-[10px] font-bold rounded uppercase">STABLE</span>
+</div>
+<div class="mb-6">
+<h4 class="font-display-lg text-[32px] text-primary">84.2%</h4>
+<p class="text-[10px] font-mono-data text-on-tertiary-container">+4.2% FROM PEAK</p>
+</div>
+<div class="h-12 w-full flex items-end gap-1">
+<div class="flex-1 bg-outline-variant/30 h-[20%] rounded-t-sm"></div>
+<div class="flex-1 bg-outline-variant/30 h-[40%] rounded-t-sm"></div>
+<div class="flex-1 bg-secondary h-[65%] rounded-t-sm"></div>
+<div class="flex-1 bg-secondary h-[45%] rounded-t-sm"></div>
+<div class="flex-1 bg-secondary h-[85%] rounded-t-sm"></div>
+<div class="flex-1 bg-primary h-[60%] rounded-t-sm"></div>
+<div class="flex-1 bg-primary h-[95%] rounded-t-sm"></div>
+</div>
+</div>
+<!-- Ecosystem Partner Sponsorship -->
+<div class="bg-surface-container-low border border-outline-variant rounded-xl p-6 flex flex-col justify-between">
+<div>
+<div class="flex items-center gap-2 mb-4">
+<span class="material-symbols-outlined text-secondary">verified</span>
+<span class="font-section-header text-[12px] text-primary">ECOSYSTEM_PARTNER</span>
+</div>
+<div class="w-12 h-12 bg-white rounded shadow-inner flex items-center justify-center mb-4 overflow-hidden border border-outline-variant">
+<img alt="Partner" data-alt="A macro photograph of an integrated circuit or high-tech semiconductor, representing a corporate partnership with a hardware or infrastructure provider. The lighting is deep and moody with cool blue highlights, emphasizing technical precision and industrial power." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAQUJPv-0IM5qQ7cb712EX-aP09E7Jlle_8dxwjVrs1dByeGRgGOOFNV6MbP7I65ikKewj3DL6l3WdtejDwcfmM2u-acJ5-hdgSEal7OrfG4dPhFgebZkQt9QFwCdfhaARvp-Y3thdzGWiewWiDuVqd9NoL7vPXUm6IIpGnVlKkPrxg2cEBe4u3kcG1I--zBb2QDvEN36fJsDul_Pt_X35JYn8BVJznKWxKXnD9VUkVwApj0RM9cNmNgHDo1Sh_ZHK3K12rRsV6mfA"/>
+</div>
+<p class="font-body-sm text-slate-gray">Certified hardware acceleration for the VAIBREPORT core stack.</p>
+</div>
+<a class="font-mono-data text-[10px] text-secondary uppercase hover:underline mt-4" href="#">VISIT_PORTAL</a>
+</div>
+</div>
+<!-- Signal Indicators Grid -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8">
+<div class="flex items-center gap-4 bg-white p-4 rounded-lg border border-outline-variant">
+<div class="w-3 h-3 bg-tertiary-fixed-dim rounded-full shadow-[0_0_8px_rgba(0,228,117,0.5)] animate-pulse"></div>
+<div class="flex-1">
+<span class="block font-section-header text-[12px] text-primary uppercase">SIGNAL_RISING</span>
+<span class="text-[10px] font-mono-data text-slate-gray">NET_AFFINITY: 0.982</span>
+</div>
+</div>
+<div class="flex items-center gap-4 bg-white p-4 rounded-lg border border-outline-variant">
+<div class="w-3 h-3 bg-secondary rounded-full shadow-[0_0_8px_rgba(0,82,208,0.5)]"></div>
+<div class="flex-1">
+<span class="block font-section-header text-[12px] text-primary uppercase">SIGNAL_STABLE</span>
+<span class="text-[10px] font-mono-data text-slate-gray">LATENCY: 14MS</span>
+</div>
+</div>
+<div class="flex items-center gap-4 bg-white p-4 rounded-lg border border-outline-variant">
+<div class="w-3 h-3 bg-error rounded-full shadow-[0_0_8px_rgba(186,26,26,0.5)] animate-ping"></div>
+<div class="flex-1">
+<span class="block font-section-header text-[12px] text-primary uppercase">SIGNAL_CRITICAL</span>
+<span class="text-[10px] font-mono-data text-slate-gray">PACKET_LOSS: 12%</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Section 5: Typography & Colors -->
+<section class="mb-20">
+<div class="flex items-center gap-4 mb-8">
+<span class="font-mono-data text-secondary">05.00</span>
+<h2 class="font-headline-lg text-headline-lg">VISUAL_TOKENS</h2>
+<div class="flex-1 h-[1px] bg-outline-variant"></div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+<!-- Typography Reference -->
+<div class="space-y-8">
+<h3 class="font-section-header text-section-header text-slate-gray mb-6">TYPOGRAPHY_HIERARCHY</h3>
+<div>
+<p class="text-label-md font-mono-data text-slate-gray uppercase mb-2">Display_Lg / Chivo 800</p>
+<p class="font-display-lg text-display-lg text-primary">VAIBREPORT SYSTEM</p>
+</div>
+<div>
+<p class="text-label-md font-mono-data text-slate-gray uppercase mb-2">Headline_Lg / Chivo 700</p>
+<p class="font-headline-lg text-headline-lg text-primary">Command and Control Dashboard</p>
+</div>
+<div>
+<p class="text-label-md font-mono-data text-slate-gray uppercase mb-2">Body_Md / Inter 400</p>
+<p class="font-body-md text-body-md text-on-surface">Precision data delivery for institutional network operators and high-frequency analysts.</p>
+</div>
+<div>
+<p class="text-label-md font-mono-data text-slate-gray uppercase mb-2">Mono_Data / JetBrains Mono</p>
+<p class="font-mono-data text-mono-data text-slate-gray">0x4F3A 127.0.0.1 SYSTEM_READY [OK]</p>
+</div>
+</div>
+<!-- Color Palette -->
+<div class="space-y-8">
+<h3 class="font-section-header text-section-header text-slate-gray mb-6">BRAND_PALETTE</h3>
+<div class="grid grid-cols-2 gap-4">
+<div class="space-y-2">
+<div class="h-16 w-full bg-primary border border-outline rounded-lg"></div>
+<p class="font-mono-data text-[10px] uppercase">PRIMARY_BLACK / #000000</p>
+</div>
+<div class="space-y-2">
+<div class="h-16 w-full bg-secondary border border-outline rounded-lg"></div>
+<p class="font-mono-data text-[10px] uppercase">ACCENT_BLUE / #0052D0</p>
+</div>
+<div class="space-y-2">
+<div class="h-16 w-full bg-surface-container-high border border-outline rounded-lg"></div>
+<p class="font-mono-data text-[10px] uppercase">SURFACE_HIGH / #E8E8E3</p>
+</div>
+<div class="space-y-2">
+<div class="h-16 w-full bg-tertiary-fixed-dim border border-outline rounded-lg"></div>
+<p class="font-mono-data text-[10px] uppercase">STATUS_GREEN / #00E475</p>
+</div>
+<div class="space-y-2">
+<div class="h-16 w-full bg-slate-gray border border-outline rounded-lg"></div>
+<p class="font-mono-data text-[10px] uppercase">SLATE_GRAY / #5E6780</p>
+</div>
+<div class="space-y-2">
+<div class="h-16 w-full bg-error border border-outline rounded-lg"></div>
+<p class="font-mono-data text-[10px] uppercase">ERROR_RED / #BA1A1A</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer Shell -->
+<footer class="w-full py-8 px-margin-desktop bg-surface-container-highest border-t border-outline-variant flex flex-col md:flex-row justify-between items-center gap-6">
+<div class="flex flex-col gap-2">
+<span class="font-mono-data text-mono-data font-bold text-primary">VAIBREPORT TERMINAL</span>
+<span class="font-label-md text-label-md uppercase tracking-widest text-slate-gray">© 2024 VAIBREPORT TERMINAL. ALL RIGHTS RESERVED.</span>
+</div>
+<div class="flex flex-wrap justify-center gap-8">
+<a class="font-label-md text-label-md uppercase tracking-widest text-slate-gray hover:text-secondary hover:underline decoration-secondary underline-offset-4 transition-all" href="#">PRIVACY_POLICY</a>
+<a class="font-label-md text-label-md uppercase tracking-widest text-slate-gray hover:text-secondary hover:underline decoration-secondary underline-offset-4 transition-all" href="#">SYSTEM_STATUS</a>
+<a class="font-label-md text-label-md uppercase tracking-widest text-slate-gray hover:text-secondary hover:underline decoration-secondary underline-offset-4 transition-all" href="#">API_DOCS</a>
+<a class="font-label-md text-label-md uppercase tracking-widest text-slate-gray hover:text-secondary hover:underline decoration-secondary underline-offset-4 transition-all" href="#">LICENSE</a>
+</div>
+<div class="flex items-center gap-4">
+<div class="flex items-center gap-2">
+<span class="w-2 h-2 bg-tertiary-fixed-dim rounded-full"></span>
+<span class="font-mono-data text-[10px] text-slate-gray uppercase">ALL_SYSTEMS_OPERATIONAL</span>
+</div>
+<div class="h-4 w-[1px] bg-outline-variant"></div>
+<span class="font-mono-data text-[10px] text-slate-gray uppercase">V4.0.22_STABLE</span>
+</div>
+</footer>
+<!-- Theme Toggle (Floating) -->
+<button class="fixed bottom-6 right-6 p-4 bg-primary text-on-primary rounded-full shadow-xl hover:scale-105 transition-all z-50" id="themeToggle">
+<span class="material-symbols-outlined">dark_mode</span>
+</button>
+<script>
+        // Simple micro-interactions
+        const themeToggle = document.getElementById('themeToggle');
+        themeToggle.addEventListener('click', () => {
+            document.documentElement.classList.toggle('dark');
+            const icon = themeToggle.querySelector('.material-symbols-outlined');
+            icon.innerText = document.documentElement.classList.contains('dark') ? 'light_mode' : 'dark_mode';
+        });
+
+        // Hover effects for the grid visualizer
+        document.querySelectorAll('.group.cursor-crosshair').forEach(el => {
+            el.addEventListener('mousemove', (e) => {
+                const rect = el.getBoundingClientRect();
+                const x = e.clientX - rect.left;
+                const y = e.clientY - rect.top;
+                el.style.boxShadow = `inset 0 0 40px rgba(0, 82, 208, 0.05)`;
+            });
+            el.addEventListener('mouseleave', () => {
+                el.style.boxShadow = 'none';
+            });
+        });
+    </script>
+</body></html>

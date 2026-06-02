@@ -1,0 +1,1166 @@
+﻿2026-03-10T14:42:37.5239263Z Current runner version: '2.332.0'
+2026-03-10T14:42:37.5262271Z ##[group]Runner Image Provisioner
+2026-03-10T14:42:37.5263476Z Hosted Compute Agent
+2026-03-10T14:42:37.5264406Z Version: 20260213.493
+2026-03-10T14:42:37.5265322Z Commit: 5c115507f6dd24b8de37d8bbe0bb4509d0cc0fa3
+2026-03-10T14:42:37.5266363Z Build Date: 2026-02-13T00:28:41Z
+2026-03-10T14:42:37.5267381Z Worker ID: {c7146f52-6ade-4999-b193-71d30dfb63d3}
+2026-03-10T14:42:37.5268506Z Azure Region: westus
+2026-03-10T14:42:37.5269275Z ##[endgroup]
+2026-03-10T14:42:37.5271567Z ##[group]Operating System
+2026-03-10T14:42:37.5272553Z Ubuntu
+2026-03-10T14:42:37.5273211Z 24.04.3
+2026-03-10T14:42:37.5274065Z LTS
+2026-03-10T14:42:37.5274763Z ##[endgroup]
+2026-03-10T14:42:37.5275515Z ##[group]Runner Image
+2026-03-10T14:42:37.5276451Z Image: ubuntu-24.04
+2026-03-10T14:42:37.5277253Z Version: 20260302.42.1
+2026-03-10T14:42:37.5279078Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20260302.42/images/ubuntu/Ubuntu2404-Readme.md
+2026-03-10T14:42:37.5281872Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20260302.42
+2026-03-10T14:42:37.5283601Z ##[endgroup]
+2026-03-10T14:42:37.5285353Z ##[group]GITHUB_TOKEN Permissions
+2026-03-10T14:42:37.5287231Z Contents: write
+2026-03-10T14:42:37.5287745Z Metadata: read
+2026-03-10T14:42:37.5288450Z ##[endgroup]
+2026-03-10T14:42:37.5291441Z Secret source: Actions
+2026-03-10T14:42:37.5292404Z Prepare workflow directory
+2026-03-10T14:42:37.5625927Z Prepare all required actions
+2026-03-10T14:42:37.5663437Z Getting action download info
+2026-03-10T14:42:38.0716622Z Download action repository 'actions/checkout@v4' (SHA:34e114876b0b11c390a56381ad16ebd13914f8d5)
+2026-03-10T14:42:38.2533086Z Download action repository 'actions/setup-node@v4' (SHA:49933ea5288caeca8642d1e84afbd3f7d6820020)
+2026-03-10T14:42:38.4841426Z Complete job name: generate
+2026-03-10T14:42:38.5585173Z ##[group]Run actions/checkout@v4
+2026-03-10T14:42:38.5586494Z with:
+2026-03-10T14:42:38.5587078Z   repository: CHAOSAiGENT/VaiBReport
+2026-03-10T14:42:38.5587893Z   token: ***
+2026-03-10T14:42:38.5588318Z   ssh-strict: true
+2026-03-10T14:42:38.5588771Z   ssh-user: git
+2026-03-10T14:42:38.5589209Z   persist-credentials: true
+2026-03-10T14:42:38.5589970Z   clean: true
+2026-03-10T14:42:38.5590418Z   sparse-checkout-cone-mode: true
+2026-03-10T14:42:38.5590948Z   fetch-depth: 1
+2026-03-10T14:42:38.5591368Z   fetch-tags: false
+2026-03-10T14:42:38.5591816Z   show-progress: true
+2026-03-10T14:42:38.5592257Z   lfs: false
+2026-03-10T14:42:38.5592678Z   submodules: false
+2026-03-10T14:42:38.5593126Z   set-safe-directory: true
+2026-03-10T14:42:38.5593951Z ##[endgroup]
+2026-03-10T14:42:38.6673853Z Syncing repository: CHAOSAiGENT/VaiBReport
+2026-03-10T14:42:38.6675835Z ##[group]Getting Git version info
+2026-03-10T14:42:38.6676639Z Working directory is '/home/runner/work/VaiBReport/VaiBReport'
+2026-03-10T14:42:38.6677865Z [command]/usr/bin/git version
+2026-03-10T14:42:38.6765517Z git version 2.53.0
+2026-03-10T14:42:38.6792029Z ##[endgroup]
+2026-03-10T14:42:38.6808077Z Temporarily overriding HOME='/home/runner/work/_temp/c69bb5ee-c2c3-48c6-a1b7-ce072fe7e332' before making global git config changes
+2026-03-10T14:42:38.6811150Z Adding repository directory to the temporary git global config as a safe directory
+2026-03-10T14:42:38.6822240Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/VaiBReport/VaiBReport
+2026-03-10T14:42:38.6862595Z Deleting the contents of '/home/runner/work/VaiBReport/VaiBReport'
+2026-03-10T14:42:38.6866399Z ##[group]Initializing the repository
+2026-03-10T14:42:38.6871607Z [command]/usr/bin/git init /home/runner/work/VaiBReport/VaiBReport
+2026-03-10T14:42:38.6988929Z hint: Using 'master' as the name for the initial branch. This default branch name
+2026-03-10T14:42:38.6990764Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+2026-03-10T14:42:38.6991773Z hint: to use in all of your new repositories, which will suppress this warning,
+2026-03-10T14:42:38.6992923Z hint: call:
+2026-03-10T14:42:38.6993899Z hint:
+2026-03-10T14:42:38.6994567Z hint: 	git config --global init.defaultBranch <name>
+2026-03-10T14:42:38.6995774Z hint:
+2026-03-10T14:42:38.6996946Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+2026-03-10T14:42:38.6998824Z hint: 'development'. The just-created branch can be renamed via this command:
+2026-03-10T14:42:38.7000699Z hint:
+2026-03-10T14:42:38.7001452Z hint: 	git branch -m <name>
+2026-03-10T14:42:38.7002296Z hint:
+2026-03-10T14:42:38.7003423Z hint: Disable this message with "git config set advice.defaultBranchName false"
+2026-03-10T14:42:38.7005502Z Initialized empty Git repository in /home/runner/work/VaiBReport/VaiBReport/.git/
+2026-03-10T14:42:38.7008771Z [command]/usr/bin/git remote add origin https://github.com/CHAOSAiGENT/VaiBReport
+2026-03-10T14:42:38.7043291Z ##[endgroup]
+2026-03-10T14:42:38.7044665Z ##[group]Disabling automatic garbage collection
+2026-03-10T14:42:38.7048274Z [command]/usr/bin/git config --local gc.auto 0
+2026-03-10T14:42:38.7078303Z ##[endgroup]
+2026-03-10T14:42:38.7080074Z ##[group]Setting up auth
+2026-03-10T14:42:38.7086254Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-03-10T14:42:38.7118808Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-03-10T14:42:38.7477249Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-03-10T14:42:38.7509877Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-03-10T14:42:38.7740624Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-03-10T14:42:38.7772209Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-03-10T14:42:38.8017048Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+2026-03-10T14:42:38.8051555Z ##[endgroup]
+2026-03-10T14:42:38.8053025Z ##[group]Fetching the repository
+2026-03-10T14:42:38.8061125Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +73ae207c54ced34fc57a2964f6623df143cea0ca:refs/remotes/origin/main
+2026-03-10T14:42:39.3860290Z From https://github.com/CHAOSAiGENT/VaiBReport
+2026-03-10T14:42:39.3861977Z  * [new ref]         73ae207c54ced34fc57a2964f6623df143cea0ca -> origin/main
+2026-03-10T14:42:39.3894753Z ##[endgroup]
+2026-03-10T14:42:39.3896664Z ##[group]Determining the checkout info
+2026-03-10T14:42:39.3898688Z ##[endgroup]
+2026-03-10T14:42:39.3903188Z [command]/usr/bin/git sparse-checkout disable
+2026-03-10T14:42:39.3946108Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+2026-03-10T14:42:39.3974466Z ##[group]Checking out the ref
+2026-03-10T14:42:39.3978770Z [command]/usr/bin/git checkout --progress --force -B main refs/remotes/origin/main
+2026-03-10T14:42:39.4177054Z Switched to a new branch 'main'
+2026-03-10T14:42:39.4179899Z branch 'main' set up to track 'origin/main'.
+2026-03-10T14:42:39.4188117Z ##[endgroup]
+2026-03-10T14:42:39.4222996Z [command]/usr/bin/git log -1 --format=%H
+2026-03-10T14:42:39.4246173Z 73ae207c54ced34fc57a2964f6623df143cea0ca
+2026-03-10T14:42:39.4579384Z ##[group]Run actions/setup-node@v4
+2026-03-10T14:42:39.4580700Z with:
+2026-03-10T14:42:39.4581504Z   node-version: 20
+2026-03-10T14:42:39.4582418Z   always-auth: false
+2026-03-10T14:42:39.4583365Z   check-latest: false
+2026-03-10T14:42:39.4584605Z   token: ***
+2026-03-10T14:42:39.4585451Z ##[endgroup]
+2026-03-10T14:42:39.6410340Z Found in cache @ /opt/hostedtoolcache/node/20.20.0/x64
+2026-03-10T14:42:39.6417188Z ##[group]Environment details
+2026-03-10T14:42:41.9677331Z node: v20.20.0
+2026-03-10T14:42:41.9677785Z npm: 10.8.2
+2026-03-10T14:42:41.9678495Z yarn: 1.22.22
+2026-03-10T14:42:41.9680271Z ##[endgroup]
+2026-03-10T14:42:41.9798133Z ##[group]Run node --input-type=module << 'SCRIPT'
+2026-03-10T14:42:41.9799352Z [36;1mnode --input-type=module << 'SCRIPT'[0m
+2026-03-10T14:42:41.9799968Z [36;1mimport fs from 'fs';[0m
+2026-03-10T14:42:41.9800190Z [36;1m[0m
+2026-03-10T14:42:41.9800448Z [36;1m// ── Helpers ────────────────────────────────────────[0m
+2026-03-10T14:42:41.9800775Z [36;1mfunction formatStars(n) {[0m
+2026-03-10T14:42:41.9801129Z [36;1m  if (n >= 1000) return `${(n / 1000).toFixed(1).replace(/\.0$/, '')}k★`;[0m
+2026-03-10T14:42:41.9801483Z [36;1m  return `${n}★`;[0m
+2026-03-10T14:42:41.9801682Z [36;1m}[0m
+2026-03-10T14:42:41.9801843Z [36;1m[0m
+2026-03-10T14:42:41.9802050Z [36;1mfunction formatDownloads(n) {[0m
+2026-03-10T14:42:41.9802366Z [36;1m  if (n >= 1000000) return `${(n / 1000000).toFixed(1)}M`;[0m
+2026-03-10T14:42:41.9802707Z [36;1m  if (n >= 1000) return `${(n / 1000).toFixed(0)}K`;[0m
+2026-03-10T14:42:41.9803015Z [36;1m  return `${n}`;[0m
+2026-03-10T14:42:41.9803240Z [36;1m}[0m
+2026-03-10T14:42:41.9803405Z [36;1m[0m
+2026-03-10T14:42:41.9803603Z [36;1mfunction monthsAgo(dateStr, months) {[0m
+2026-03-10T14:42:41.9803886Z [36;1m  if (!dateStr) return true;[0m
+2026-03-10T14:42:41.9804133Z [36;1m  const d = new Date(dateStr);[0m
+2026-03-10T14:42:41.9804393Z [36;1m  const cutoff = new Date();[0m
+2026-03-10T14:42:41.9804687Z [36;1m  cutoff.setMonth(cutoff.getMonth() - months);[0m
+2026-03-10T14:42:41.9804992Z [36;1m  return d >= cutoff;[0m
+2026-03-10T14:42:41.9805211Z [36;1m}[0m
+2026-03-10T14:42:41.9805368Z [36;1m[0m
+2026-03-10T14:42:41.9805570Z [36;1mfunction loadLatestDataFile(prefix) {[0m
+2026-03-10T14:42:41.9805855Z [36;1m  try {[0m
+2026-03-10T14:42:41.9806104Z [36;1m    const files = fs.readdirSync('data')[0m
+2026-03-10T14:42:41.9806520Z [36;1m      .filter(f => f.match(new RegExp(`^${prefix}-\\d{4}-\\d{2}-\\d{2}\\.json$`)))[0m
+2026-03-10T14:42:41.9806887Z [36;1m      .sort()[0m
+2026-03-10T14:42:41.9807095Z [36;1m      .reverse();[0m
+2026-03-10T14:42:41.9807319Z [36;1m    if (files.length > 0) {[0m
+2026-03-10T14:42:41.9807676Z [36;1m      const data = JSON.parse(fs.readFileSync(`data/${files[0]}`, 'utf8'));[0m
+2026-03-10T14:42:41.9808125Z [36;1m      console.log(`Loaded ${prefix} data from ${files[0]}`);[0m
+2026-03-10T14:42:41.9808451Z [36;1m      return data;[0m
+2026-03-10T14:42:41.9808652Z [36;1m    }[0m
+2026-03-10T14:42:41.9808827Z [36;1m  } catch (e) {[0m
+2026-03-10T14:42:41.9809071Z [36;1m    console.log(`No ${prefix} data available`);[0m
+2026-03-10T14:42:41.9809350Z [36;1m  }[0m
+2026-03-10T14:42:41.9809840Z [36;1m  return null;[0m
+2026-03-10T14:42:41.9810054Z [36;1m}[0m
+2026-03-10T14:42:41.9810219Z [36;1m[0m
+2026-03-10T14:42:41.9810420Z [36;1mfunction loadSeenLedger(filename) {[0m
+2026-03-10T14:42:41.9810683Z [36;1m  try {[0m
+2026-03-10T14:42:41.9810977Z [36;1m    return JSON.parse(fs.readFileSync(`data/${filename}`, 'utf8'));[0m
+2026-03-10T14:42:41.9811329Z [36;1m  } catch (e) {[0m
+2026-03-10T14:42:41.9811542Z [36;1m    return { featured: {} };[0m
+2026-03-10T14:42:41.9811769Z [36;1m  }[0m
+2026-03-10T14:42:41.9811923Z [36;1m}[0m
+2026-03-10T14:42:41.9812079Z [36;1m[0m
+2026-03-10T14:42:41.9812333Z [36;1mfunction isOnCooldown(seenLedger, id, today, cooldownDays) {[0m
+2026-03-10T14:42:41.9812710Z [36;1m  const entry = seenLedger.featured[id];[0m
+2026-03-10T14:42:41.9812998Z [36;1m  if (!entry) return false;[0m
+2026-03-10T14:42:41.9813287Z [36;1m  const lastDate = new Date(entry.last_featured);[0m
+2026-03-10T14:42:41.9813649Z [36;1m  const diff = (today - lastDate) / (1000 * 60 * 60 * 24);[0m
+2026-03-10T14:42:41.9813997Z [36;1m  return diff < cooldownDays;[0m
+2026-03-10T14:42:41.9814230Z [36;1m}[0m
+2026-03-10T14:42:41.9814387Z [36;1m[0m
+2026-03-10T14:42:41.9814602Z [36;1mfunction markSeen(seenLedger, id, digestDate) {[0m
+2026-03-10T14:42:41.9814992Z [36;1m  const entry = seenLedger.featured[id] || { times_featured: 0 };[0m
+2026-03-10T14:42:41.9815686Z [36;1m  entry.last_featured = digestDate;[0m
+2026-03-10T14:42:41.9816035Z [36;1m  entry.times_featured = (entry.times_featured || 0) + 1;[0m
+2026-03-10T14:42:41.9816398Z [36;1m  seenLedger.featured[id] = entry;[0m
+2026-03-10T14:42:41.9816681Z [36;1m}[0m
+2026-03-10T14:42:41.9816837Z [36;1m[0m
+2026-03-10T14:42:41.9817062Z [36;1m// ── Category assignment ────────────────────────────[0m
+2026-03-10T14:42:41.9817862Z [36;1mconst UGC_EXCLUSIONS = /public.apis|awesome-|free-for-dev|fastapi|playwright|puppeteer|firecrawl|web.scraping|headless.browser|http.client|api.framework|web.framework/i;[0m
+2026-03-10T14:42:41.9818598Z [36;1m[0m
+2026-03-10T14:42:41.9818795Z [36;1mfunction assignCategory(repo) {[0m
+2026-03-10T14:42:41.9819147Z [36;1m  const t = (repo.topics || []).join(' ').toLowerCase();[0m
+2026-03-10T14:42:41.9819687Z [36;1m  const d = (repo.description || '').toLowerCase();[0m
+2026-03-10T14:42:41.9820062Z [36;1m  const g = (repo._query_group || '').toLowerCase();[0m
+2026-03-10T14:42:41.9820399Z [36;1m  const all = `${t} ${d} ${g}`;[0m
+2026-03-10T14:42:41.9820631Z [36;1m[0m
+2026-03-10T14:42:41.9820820Z [36;1m  if (!UGC_EXCLUSIONS.test(all) &&[0m
+2026-03-10T14:42:41.9821098Z [36;1m      (g.includes('ugc_social') ||[0m
+2026-03-10T14:42:41.9822146Z [36;1m       all.match(/social.media.(?:schedul|manag|post|automat)|content.creat(?:ion|or).tool|video.generat|video.edit|ai.art|ai.image|image.generat|digital.twin|avatar.generat|ugc.platform|creator.econom|tiktok.(?:bot|tool|schedul)|instagram.(?:bot|tool|schedul)/)))[0m
+2026-03-10T14:42:41.9823276Z [36;1m    return 'UGC, social media and creator tools';[0m
+2026-03-10T14:42:41.9823805Z [36;1m  if (all.match(/llm|agent|rag|vector|mlops|ai.infra|lm.studio|openai|anthropic|langchain|embedding/))[0m
+2026-03-10T14:42:41.9824319Z [36;1m    return 'AI agents, LLM infra and RAG';[0m
+2026-03-10T14:42:41.9824799Z [36;1m  if (all.match(/saas.*(boilerplate|starter|template|kit)|boilerplate.*saas|starter.*saas/))[0m
+2026-03-10T14:42:41.9825307Z [36;1m    return 'SaaS starters and templates';[0m
+2026-03-10T14:42:41.9825886Z [36;1m  if (all.match(/billing|subscription|analytics|dashboard|project.manage|workflow|automation|ops|monitoring|devtool/))[0m
+2026-03-10T14:42:41.9826496Z [36;1m    return 'Ops, analytics and automation';[0m
+2026-03-10T14:42:41.9826957Z [36;1m  if (all.match(/marketing|landing.page|email|crm|sales|seo|gtm|outreach|newsletter/))[0m
+2026-03-10T14:42:41.9827423Z [36;1m    return 'Marketing, sales and GTM tools';[0m
+2026-03-10T14:42:41.9827878Z [36;1m  if (all.match(/template|boilerplate|starter|scaffold|ui.component|design.system/))[0m
+2026-03-10T14:42:41.9828336Z [36;1m    return 'SaaS starters and templates';[0m
+2026-03-10T14:42:41.9828614Z [36;1m  return null;[0m
+2026-03-10T14:42:41.9828812Z [36;1m}[0m
+2026-03-10T14:42:41.9828975Z [36;1m[0m
+2026-03-10T14:42:41.9829207Z [36;1m// ── Gemini API editorial blurbs ────────────────────[0m
+2026-03-10T14:42:41.9829743Z [36;1masync function generateEditorialBlurbs(repos, sections) {[0m
+2026-03-10T14:42:41.9830149Z [36;1m  const apiKey = process.env.GEMINI_API_KEY;[0m
+2026-03-10T14:42:41.9830443Z [36;1m  if (!apiKey) {[0m
+2026-03-10T14:42:41.9830776Z [36;1m    console.log('No GEMINI_API_KEY — falling back to template blurbs');[0m
+2026-03-10T14:42:41.9831137Z [36;1m    return null;[0m
+2026-03-10T14:42:41.9831335Z [36;1m  }[0m
+2026-03-10T14:42:41.9831500Z [36;1m[0m
+2026-03-10T14:42:41.9831671Z [36;1m  let repoList = '';[0m
+2026-03-10T14:42:41.9831991Z [36;1m  for (const [section, items] of Object.entries(sections)) {[0m
+2026-03-10T14:42:41.9832348Z [36;1m    if (items.length === 0) continue;[0m
+2026-03-10T14:42:41.9832640Z [36;1m    repoList += `\n## ${section}\n`;[0m
+2026-03-10T14:42:41.9832910Z [36;1m    for (const r of items) {[0m
+2026-03-10T14:42:41.9833428Z [36;1m      repoList += `- ${r.full_name} (${r.language || 'Multi'}, ${r.stargazers_count}★): ${r.description || 'No description'}\n`;[0m
+2026-03-10T14:42:41.9834141Z [36;1m      if (r.topics && r.topics.length > 0) {[0m
+2026-03-10T14:42:41.9834633Z [36;1m        repoList += `  Topics: ${r.topics.slice(0, 8).join(', ')}\n`;[0m
+2026-03-10T14:42:41.9834971Z [36;1m      }[0m
+2026-03-10T14:42:41.9835149Z [36;1m    }[0m
+2026-03-10T14:42:41.9835321Z [36;1m  }[0m
+2026-03-10T14:42:41.9835479Z [36;1m[0m
+2026-03-10T14:42:41.9835655Z [36;1m  const prompt = [[0m
+2026-03-10T14:42:41.9836454Z [36;1m    'You are writing one-liner editorial blurbs for a daily GitHub digest blog called VaiBReport. The audience is solo founders, AI/B2B SaaS builders, small business tool seekers, and content creators.',[0m
+2026-03-10T14:42:41.9837277Z [36;1m    '',[0m
+2026-03-10T14:42:41.9838669Z [36;1m    'Your voice: casual, dry humor, opinionated. You are a fellow builder who has seen a lot of repos and knows what matters. Think "the friend who texts you hey check this out with actually good stuff." Be concise - each blurb is ONE sentence, max two. No fluff, no hype words like "revolutionary" or "game-changing." Say what it actually does and why someone building a product would care.',[0m
+2026-03-10T14:42:41.9840208Z [36;1m    '',[0m
+2026-03-10T14:42:41.9840840Z [36;1m    'Here are the items grouped by section. Write a blurb for each one. Return ONLY a JSON object mapping the item identifier to blurb string. No markdown, no explanation.',[0m
+2026-03-10T14:42:41.9841540Z [36;1m    '',[0m
+2026-03-10T14:42:41.9841723Z [36;1m    repoList,[0m
+2026-03-10T14:42:41.9841915Z [36;1m    '',[0m
+2026-03-10T14:42:41.9842098Z [36;1m    'Return format:',[0m
+2026-03-10T14:42:41.9842389Z [36;1m    '{"owner/repo": "Your one-liner blurb here.", ...}'[0m
+2026-03-10T14:42:41.9842692Z [36;1m  ].join('\n');[0m
+2026-03-10T14:42:41.9842889Z [36;1m[0m
+2026-03-10T14:42:41.9843133Z [36;1m  const models = ['gemini-2.5-flash', 'gemini-2.0-flash'];[0m
+2026-03-10T14:42:41.9843479Z [36;1m  for (const model of models) {[0m
+2026-03-10T14:42:41.9843728Z [36;1m    try {[0m
+2026-03-10T14:42:41.9843980Z [36;1m      console.log(`Trying Gemini model: ${model}`);[0m
+2026-03-10T14:42:41.9844304Z [36;1m      const res = await fetch([0m
+2026-03-10T14:42:41.9844907Z [36;1m        `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${apiKey}`,[0m
+2026-03-10T14:42:41.9845408Z [36;1m        {[0m
+2026-03-10T14:42:41.9845600Z [36;1m          method: 'POST',[0m
+2026-03-10T14:42:41.9845903Z [36;1m          headers: { 'Content-Type': 'application/json' },[0m
+2026-03-10T14:42:41.9846231Z [36;1m          body: JSON.stringify({[0m
+2026-03-10T14:42:41.9846537Z [36;1m            contents: [{ parts: [{ text: prompt }] }],[0m
+2026-03-10T14:42:41.9846843Z [36;1m            generationConfig: {[0m
+2026-03-10T14:42:41.9847098Z [36;1m              temperature: 0.7,[0m
+2026-03-10T14:42:41.9847360Z [36;1m              maxOutputTokens: 4096[0m
+2026-03-10T14:42:41.9847604Z [36;1m            }[0m
+2026-03-10T14:42:41.9847794Z [36;1m          })[0m
+2026-03-10T14:42:41.9847979Z [36;1m        }[0m
+2026-03-10T14:42:41.9848160Z [36;1m      );[0m
+2026-03-10T14:42:41.9848340Z [36;1m[0m
+2026-03-10T14:42:41.9848504Z [36;1m      if (!res.ok) {[0m
+2026-03-10T14:42:41.9848747Z [36;1m        const body = await res.text();[0m
+2026-03-10T14:42:41.9849171Z [36;1m        console.error(`Gemini API error (${model}): ${res.status} ${res.statusText}`);[0m
+2026-03-10T14:42:41.9849709Z [36;1m        console.error(body);[0m
+2026-03-10T14:42:41.9849981Z [36;1m        if (res.status === 404) continue;[0m
+2026-03-10T14:42:41.9850243Z [36;1m        return null;[0m
+2026-03-10T14:42:41.9850454Z [36;1m      }[0m
+2026-03-10T14:42:41.9850626Z [36;1m[0m
+2026-03-10T14:42:41.9850809Z [36;1m      const data = await res.json();[0m
+2026-03-10T14:42:41.9851151Z [36;1m      const text = data.candidates[0].content.parts[0].text;[0m
+2026-03-10T14:42:41.9851618Z [36;1m      const cleaned = text.replace(/```json\n?/g, '').replace(/```\n?/g, '').trim();[0m
+2026-03-10T14:42:41.9852039Z [36;1m      const blurbs = JSON.parse(cleaned);[0m
+2026-03-10T14:42:41.9852803Z [36;1m      console.log(`Got ${Object.keys(blurbs).length} editorial blurbs from Gemini (${model})`);[0m
+2026-03-10T14:42:41.9853258Z [36;1m      return blurbs;[0m
+2026-03-10T14:42:41.9853469Z [36;1m    } catch (e) {[0m
+2026-03-10T14:42:41.9853787Z [36;1m      console.error(`Gemini API call failed (${model}):`, e.message);[0m
+2026-03-10T14:42:41.9854131Z [36;1m    }[0m
+2026-03-10T14:42:41.9854299Z [36;1m  }[0m
+2026-03-10T14:42:41.9854475Z [36;1m  return null;[0m
+2026-03-10T14:42:41.9854708Z [36;1m}[0m
+2026-03-10T14:42:41.9854871Z [36;1m[0m
+2026-03-10T14:42:41.9855065Z [36;1mfunction writeOneLiner(repo, blurbs) {[0m
+2026-03-10T14:42:41.9855385Z [36;1m  const lang = repo.language || 'Multi';[0m
+2026-03-10T14:42:41.9855730Z [36;1m  const stars = formatStars(repo.stargazers_count);[0m
+2026-03-10T14:42:41.9856085Z [36;1m  const blurb = (blurbs && blurbs[repo.full_name])[0m
+2026-03-10T14:42:41.9917623Z [36;1m    ? blurbs[repo.full_name][0m
+2026-03-10T14:42:41.9918067Z [36;1m    : (repo.description || 'No description provided.');[0m
+2026-03-10T14:42:41.9918590Z [36;1m  return `- [${repo.full_name}](${repo.html_url}) – ${blurb} (${lang}, ${stars})`;[0m
+2026-03-10T14:42:41.9919061Z [36;1m}[0m
+2026-03-10T14:42:41.9919269Z [36;1m[0m
+2026-03-10T14:42:41.9919643Z [36;1m// ── Repo catalog entry creator ─────────────────────[0m
+2026-03-10T14:42:41.9920040Z [36;1mfunction toSlug(id) {[0m
+2026-03-10T14:42:41.9920410Z [36;1m  return id.toLowerCase().replace(/\//g, '--').replace(/[^a-z0-9-]/g, '');[0m
+2026-03-10T14:42:41.9920777Z [36;1m}[0m
+2026-03-10T14:42:41.9920939Z [36;1m[0m
+2026-03-10T14:42:41.9921137Z [36;1mfunction parseFrontMatter(content) {[0m
+2026-03-10T14:42:41.9921481Z [36;1m  const match = content.match(/^---\n([\s\S]*?)\n---/);[0m
+2026-03-10T14:42:41.9921811Z [36;1m  if (!match) return {};[0m
+2026-03-10T14:42:41.9922038Z [36;1m  const fm = {};[0m
+2026-03-10T14:42:41.9922299Z [36;1m  for (const line of match[1].split('\n')) {[0m
+2026-03-10T14:42:41.9922649Z [36;1m    const m = line.match(/^(\w[\w_]*)\s*:\s*(.+)$/);[0m
+2026-03-10T14:42:41.9922940Z [36;1m    if (m) {[0m
+2026-03-10T14:42:41.9923145Z [36;1m      let val = m[2].trim();[0m
+2026-03-10T14:42:41.9923493Z [36;1m      if (val.startsWith('"') && val.endsWith('"')) val = val.slice(1, -1);[0m
+2026-03-10T14:42:41.9923925Z [36;1m      if (/^\d+$/.test(val)) val = parseInt(val, 10);[0m
+2026-03-10T14:42:41.9924232Z [36;1m      fm[m[1]] = val;[0m
+2026-03-10T14:42:41.9924442Z [36;1m    }[0m
+2026-03-10T14:42:41.9924638Z [36;1m  }[0m
+2026-03-10T14:42:41.9924806Z [36;1m  return fm;[0m
+2026-03-10T14:42:41.9924993Z [36;1m}[0m
+2026-03-10T14:42:41.9925147Z [36;1m[0m
+2026-03-10T14:42:41.9925452Z [36;1mfunction createRepoEntry(item, source, category, blurbs, hotness) {[0m
+2026-03-10T14:42:41.9925912Z [36;1m  const id = item.id || item.full_name || item.name || '';[0m
+2026-03-10T14:42:41.9926238Z [36;1m  const slug = toSlug(id);[0m
+2026-03-10T14:42:41.9926493Z [36;1m  if (!slug) return null;[0m
+2026-03-10T14:42:41.9926718Z [36;1m[0m
+2026-03-10T14:42:41.9926920Z [36;1m  const filePath = `_repos/${slug}.md`;[0m
+2026-03-10T14:42:41.9927325Z [36;1m  const blurb = (blurbs && blurbs[id]) || item.description || item.name || id;[0m
+2026-03-10T14:42:41.9927756Z [36;1m  const safeBlurb = blurb.replace(/"/g, '\\"');[0m
+2026-03-10T14:42:41.9928172Z [36;1m  const safeName = (item.name || item.full_name || id).replace(/"/g, '\\"');[0m
+2026-03-10T14:42:41.9928560Z [36;1m[0m
+2026-03-10T14:42:41.9928779Z [36;1m  // Platform-specific field mapping[0m
+2026-03-10T14:42:41.9929183Z [36;1m  let url = '', stars = 0, downloads = 0, likes = 0, og_image = '';[0m
+2026-03-10T14:42:41.9929685Z [36;1m  const lang = item.language || '';[0m
+2026-03-10T14:42:41.9930061Z [36;1m  const tags = (item.topics || item.tags || item.keywords || []).slice(0, 8);[0m
+2026-03-10T14:42:41.9930465Z [36;1m  tags.unshift(source.split('-')[0]);[0m
+2026-03-10T14:42:41.9930897Z [36;1m[0m
+2026-03-10T14:42:41.9931177Z [36;1m  switch (source) {[0m
+2026-03-10T14:42:41.9931413Z [36;1m    case 'github':[0m
+2026-03-10T14:42:41.9931739Z [36;1m      url = item.html_url || `https://github.com/${item.full_name}`;[0m
+2026-03-10T14:42:41.9932164Z [36;1m      stars = item.stargazers_count || 0;[0m
+2026-03-10T14:42:41.9932569Z [36;1m      og_image = `https://opengraph.githubassets.com/1/${item.full_name}`;[0m
+2026-03-10T14:42:41.9932948Z [36;1m      break;[0m
+2026-03-10T14:42:41.9933166Z [36;1m    case 'huggingface-space':[0m
+2026-03-10T14:42:41.9933499Z [36;1m      url = item.url || `https://huggingface.co/spaces/${id}`;[0m
+2026-03-10T14:42:41.9933844Z [36;1m      likes = item.likes || 0;[0m
+2026-03-10T14:42:41.9934192Z [36;1m      og_image = `https://huggingface.co/api/spaces/${id}/screenshot`;[0m
+2026-03-10T14:42:41.9934539Z [36;1m      break;[0m
+2026-03-10T14:42:41.9934746Z [36;1m    case 'huggingface-model':[0m
+2026-03-10T14:42:41.9935065Z [36;1m      url = item.url || `https://huggingface.co/${id}`;[0m
+2026-03-10T14:42:41.9935428Z [36;1m      downloads = item.downloads || 0;[0m
+2026-03-10T14:42:41.9935713Z [36;1m      likes = item.likes || 0;[0m
+2026-03-10T14:42:41.9935951Z [36;1m      break;[0m
+2026-03-10T14:42:41.9936166Z [36;1m    case 'huggingface-dataset':[0m
+2026-03-10T14:42:41.9936513Z [36;1m      url = item.url || `https://huggingface.co/datasets/${id}`;[0m
+2026-03-10T14:42:41.9936878Z [36;1m      downloads = item.downloads || 0;[0m
+2026-03-10T14:42:41.9937127Z [36;1m      break;[0m
+2026-03-10T14:42:41.9937327Z [36;1m    case 'replicate':[0m
+2026-03-10T14:42:41.9937554Z [36;1m      url = item.url || '';[0m
+2026-03-10T14:42:41.9937822Z [36;1m      og_image = item.cover_image_url || '';[0m
+2026-03-10T14:42:41.9938090Z [36;1m      break;[0m
+2026-03-10T14:42:41.9938292Z [36;1m    case 'paperswithcode':[0m
+2026-03-10T14:42:41.9938537Z [36;1m      url = item.url || '';[0m
+2026-03-10T14:42:41.9938787Z [36;1m      stars = item.github_stars || 0;[0m
+2026-03-10T14:42:41.9939053Z [36;1m      break;[0m
+2026-03-10T14:42:41.9939244Z [36;1m    case 'npm':[0m
+2026-03-10T14:42:41.9939661Z [36;1m      url = item.url || `https://www.npmjs.com/package/${id}`;[0m
+2026-03-10T14:42:41.9940038Z [36;1m      downloads = item.weekly_downloads || 0;[0m
+2026-03-10T14:42:41.9940316Z [36;1m      break;[0m
+2026-03-10T14:42:41.9940507Z [36;1m    case 'pypi':[0m
+2026-03-10T14:42:41.9940797Z [36;1m      url = item.url || `https://pypi.org/project/${id}/`;[0m
+2026-03-10T14:42:41.9941155Z [36;1m      downloads = item.recent_downloads || 0;[0m
+2026-03-10T14:42:41.9941422Z [36;1m      break;[0m
+2026-03-10T14:42:41.9941618Z [36;1m    case 'gitlab':[0m
+2026-03-10T14:42:41.9941836Z [36;1m      url = item.url || '';[0m
+2026-03-10T14:42:41.9942091Z [36;1m      stars = item.star_count || 0;[0m
+2026-03-10T14:42:41.9942342Z [36;1m      break;[0m
+2026-03-10T14:42:41.9942528Z [36;1m    case 'ollama':[0m
+2026-03-10T14:42:41.9942812Z [36;1m      url = item.url || `https://ollama.com/library/${id}`;[0m
+2026-03-10T14:42:41.9943130Z [36;1m      break;[0m
+2026-03-10T14:42:41.9943322Z [36;1m    case 'launch':[0m
+2026-03-10T14:42:41.9943542Z [36;1m      url = item.url || '';[0m
+2026-03-10T14:42:41.9943784Z [36;1m      likes = item.upvotes || 0;[0m
+2026-03-10T14:42:41.9944026Z [36;1m      break;[0m
+2026-03-10T14:42:41.9944206Z [36;1m  }[0m
+2026-03-10T14:42:41.9944365Z [36;1m[0m
+2026-03-10T14:42:41.9944551Z [36;1m  const hKey = item.full_name || id;[0m
+2026-03-10T14:42:41.9944859Z [36;1m  const hEntry = (hotness && hotness[hKey]) || {};[0m
+2026-03-10T14:42:41.9945182Z [36;1m  const streak = hEntry.streak || 0;[0m
+2026-03-10T14:42:41.9945503Z [36;1m  const appearances = hEntry.appearances || 0;[0m
+2026-03-10T14:42:41.9945844Z [36;1m  const starVelocity = hEntry.star_velocity || 0;[0m
+2026-03-10T14:42:41.9946123Z [36;1m[0m
+2026-03-10T14:42:41.9946303Z [36;1m  if (fs.existsSync(filePath)) {[0m
+2026-03-10T14:42:41.9946555Z [36;1m    // Update existing entry[0m
+2026-03-10T14:42:41.9947092Z [36;1m    const existing = fs.readFileSync(filePath, 'utf8');[0m
+2026-03-10T14:42:41.9947445Z [36;1m    const fm = parseFrontMatter(existing);[0m
+2026-03-10T14:42:41.9947801Z [36;1m    const firstFeatured = fm.first_featured || digestDate;[0m
+2026-03-10T14:42:41.9948216Z [36;1m    const timesFeatured = (parseInt(fm.times_featured) || 0) + 1;[0m
+2026-03-10T14:42:41.9948565Z [36;1m    const updatedFm = [[0m
+2026-03-10T14:42:41.9948790Z [36;1m      '---',[0m
+2026-03-10T14:42:41.9948983Z [36;1m      'layout: repo',[0m
+2026-03-10T14:42:41.9949205Z [36;1m      `name: "${safeName}"`,[0m
+2026-03-10T14:42:41.9949447Z [36;1m      `source: ${source}`,[0m
+2026-03-10T14:42:41.9949783Z [36;1m      `item_url: "${url}"`,[0m
+2026-03-10T14:42:41.9950037Z [36;1m      `description: "${safeBlurb}"`,[0m
+2026-03-10T14:42:41.9950346Z [36;1m      `category: "${category || fm.category || ''}"`,[0m
+2026-03-10T14:42:41.9950674Z [36;1m      `language: "${lang || fm.language || ''}"`,[0m
+2026-03-10T14:42:41.9951014Z [36;1m      `stars: ${stars || parseInt(fm.stars) || 0}`,[0m
+2026-03-10T14:42:41.9951388Z [36;1m      `downloads: ${downloads || parseInt(fm.downloads) || 0}`,[0m
+2026-03-10T14:42:41.9951761Z [36;1m      `likes: ${likes || parseInt(fm.likes) || 0}`,[0m
+2026-03-10T14:42:41.9952089Z [36;1m      `og_image: "${og_image || fm.og_image || ''}"`,[0m
+2026-03-10T14:42:41.9952415Z [36;1m      `first_featured: "${firstFeatured}"`,[0m
+2026-03-10T14:42:41.9952709Z [36;1m      `last_featured: "${digestDate}"`,[0m
+2026-03-10T14:42:41.9953007Z [36;1m      `times_featured: ${timesFeatured}`,[0m
+2026-03-10T14:42:41.9953288Z [36;1m      `streak: ${streak}`,[0m
+2026-03-10T14:42:41.9953543Z [36;1m      `appearances: ${appearances}`,[0m
+2026-03-10T14:42:41.9953829Z [36;1m      `star_velocity: ${starVelocity}`,[0m
+2026-03-10T14:42:41.9954103Z [36;1m      `tags: [${tags.join(', ')}]`,[0m
+2026-03-10T14:42:41.9954349Z [36;1m      '---'[0m
+2026-03-10T14:42:41.9954548Z [36;1m    ].join('\n');[0m
+2026-03-10T14:42:41.9954859Z [36;1m    fs.writeFileSync(filePath, updatedFm + '\n\n' + blurb + '\n');[0m
+2026-03-10T14:42:41.9955208Z [36;1m  } else {[0m
+2026-03-10T14:42:41.9955405Z [36;1m    // Create new entry[0m
+2026-03-10T14:42:41.9955632Z [36;1m    const newEntry = [[0m
+2026-03-10T14:42:41.9955850Z [36;1m      '---',[0m
+2026-03-10T14:42:41.9956043Z [36;1m      'layout: repo',[0m
+2026-03-10T14:42:41.9956270Z [36;1m      `name: "${safeName}"`,[0m
+2026-03-10T14:42:41.9956511Z [36;1m      `source: ${source}`,[0m
+2026-03-10T14:42:41.9956742Z [36;1m      `item_url: "${url}"`,[0m
+2026-03-10T14:42:41.9957000Z [36;1m      `description: "${safeBlurb}"`,[0m
+2026-03-10T14:42:41.9957277Z [36;1m      `category: "${category || ''}"`,[0m
+2026-03-10T14:42:41.9957538Z [36;1m      `language: "${lang}"`,[0m
+2026-03-10T14:42:41.9957778Z [36;1m      `stars: ${stars}`,[0m
+2026-03-10T14:42:41.9958017Z [36;1m      `downloads: ${downloads}`,[0m
+2026-03-10T14:42:41.9958275Z [36;1m      `likes: ${likes}`,[0m
+2026-03-10T14:42:41.9958515Z [36;1m      `og_image: "${og_image}"`,[0m
+2026-03-10T14:42:41.9958777Z [36;1m      `first_featured: "${digestDate}"`,[0m
+2026-03-10T14:42:41.9959067Z [36;1m      `last_featured: "${digestDate}"`,[0m
+2026-03-10T14:42:41.9959334Z [36;1m      `times_featured: 1`,[0m
+2026-03-10T14:42:41.9959684Z [36;1m      `streak: ${streak}`,[0m
+2026-03-10T14:42:41.9959941Z [36;1m      `appearances: ${appearances}`,[0m
+2026-03-10T14:42:41.9960221Z [36;1m      `star_velocity: ${starVelocity}`,[0m
+2026-03-10T14:42:41.9960526Z [36;1m      `tags: [${tags.join(', ')}]`,[0m
+2026-03-10T14:42:41.9960770Z [36;1m      '---'[0m
+2026-03-10T14:42:41.9960954Z [36;1m    ].join('\n');[0m
+2026-03-10T14:42:41.9961257Z [36;1m    fs.writeFileSync(filePath, newEntry + '\n\n' + blurb + '\n');[0m
+2026-03-10T14:42:41.9961594Z [36;1m  }[0m
+2026-03-10T14:42:41.9961762Z [36;1m  return slug;[0m
+2026-03-10T14:42:41.9961959Z [36;1m}[0m
+2026-03-10T14:42:41.9962244Z [36;1m[0m
+2026-03-10T14:42:41.9962568Z [36;1m// ── Main ───────────────────────────────────────────[0m
+2026-03-10T14:42:41.9962866Z [36;1m(async () => {[0m
+2026-03-10T14:42:41.9963091Z [36;1m// Find latest GitHub repos data file[0m
+2026-03-10T14:42:41.9963396Z [36;1mconst dataFiles = fs.readdirSync('data')[0m
+2026-03-10T14:42:41.9963738Z [36;1m  .filter(f => f.match(/^repos-\d{4}-\d{2}-\d{2}\.json$/))[0m
+2026-03-10T14:42:41.9964046Z [36;1m  .sort()[0m
+2026-03-10T14:42:41.9964234Z [36;1m  .reverse();[0m
+2026-03-10T14:42:41.9964419Z [36;1m[0m
+2026-03-10T14:42:41.9964599Z [36;1mif (dataFiles.length === 0) {[0m
+2026-03-10T14:42:41.9964902Z [36;1m  console.log('No data files found. Exiting.');[0m
+2026-03-10T14:42:41.9965198Z [36;1m  process.exit(0);[0m
+2026-03-10T14:42:41.9965415Z [36;1m}[0m
+2026-03-10T14:42:41.9965568Z [36;1m[0m
+2026-03-10T14:42:41.9965774Z [36;1mconst latestFile = `data/${dataFiles[0]}`;[0m
+2026-03-10T14:42:41.9966179Z [36;1mconst dateMatch = dataFiles[0].match(/repos-(\d{4}-\d{2}-\d{2})\.json/);[0m
+2026-03-10T14:42:41.9966585Z [36;1mconst digestDate = dateMatch[1];[0m
+2026-03-10T14:42:41.9966828Z [36;1m[0m
+2026-03-10T14:42:41.9967082Z [36;1mconst postPath = `_posts/${digestDate}-github-digest.md`;[0m
+2026-03-10T14:42:41.9967425Z [36;1mif (fs.existsSync(postPath)) {[0m
+2026-03-10T14:42:41.9967795Z [36;1m  console.log(`Digest for ${digestDate} already exists. Skipping.`);[0m
+2026-03-10T14:42:41.9968155Z [36;1m  process.exit(0);[0m
+2026-03-10T14:42:41.9968365Z [36;1m}[0m
+2026-03-10T14:42:41.9968521Z [36;1m[0m
+2026-03-10T14:42:41.9968777Z [36;1mconst data = JSON.parse(fs.readFileSync(latestFile, 'utf8'));[0m
+2026-03-10T14:42:41.9969270Z [36;1mconst prefs = JSON.parse(fs.readFileSync('config/preferences.json', 'utf8'));[0m
+2026-03-10T14:42:41.9969814Z [36;1m[0m
+2026-03-10T14:42:41.9970051Z [36;1m// ── Load all seen ledgers ───────────────────────────[0m
+2026-03-10T14:42:41.9970402Z [36;1mconst seen = loadSeenLedger('seen.json');[0m
+2026-03-10T14:42:41.9970755Z [36;1mconst seenHf = loadSeenLedger('seen-hf.json');[0m
+2026-03-10T14:42:41.9971151Z [36;1mconst seenReplicate = loadSeenLedger('seen-replicate.json');[0m
+2026-03-10T14:42:41.9971599Z [36;1mconst seenPwc = loadSeenLedger('seen-paperswithcode.json');[0m
+2026-03-10T14:42:41.9972033Z [36;1mconst seenNpmPypi = loadSeenLedger('seen-npm-pypi.json');[0m
+2026-03-10T14:42:41.9972448Z [36;1mconst seenGitlab = loadSeenLedger('seen-gitlab.json');[0m
+2026-03-10T14:42:41.9972845Z [36;1mconst seenOllama = loadSeenLedger('seen-ollama.json');[0m
+2026-03-10T14:42:41.9973250Z [36;1mconst seenLaunches = loadSeenLedger('seen-launches.json');[0m
+2026-03-10T14:42:41.9973576Z [36;1m[0m
+2026-03-10T14:42:41.9973760Z [36;1mlet spotlight = { repos: [] };[0m
+2026-03-10T14:42:41.9973998Z [36;1mtry {[0m
+2026-03-10T14:42:41.9974319Z [36;1m  spotlight = JSON.parse(fs.readFileSync('config/spotlight.json', 'utf8'));[0m
+2026-03-10T14:42:41.9974739Z [36;1m} catch (e) { /* no spotlights */ }[0m
+2026-03-10T14:42:41.9974983Z [36;1m[0m
+2026-03-10T14:42:41.9975174Z [36;1mconst today = new Date(digestDate);[0m
+2026-03-10T14:42:41.9975414Z [36;1m[0m
+2026-03-10T14:42:41.9975639Z [36;1m// ── Load all platform data ──────────────────────────[0m
+2026-03-10T14:42:41.9976103Z [36;1mconst hfData = loadLatestDataFile('hf') || { spaces: [], models: [], datasets: [] };[0m
+2026-03-10T14:42:41.9976641Z [36;1mconst replicateData = loadLatestDataFile('replicate') || { models: [] };[0m
+2026-03-10T14:42:41.9977149Z [36;1mconst pwcData = loadLatestDataFile('paperswithcode') || { papers: [] };[0m
+2026-03-10T14:42:41.9977665Z [36;1mconst npmPypiData = loadLatestDataFile('npm-pypi') || { npm: [], pypi: [] };[0m
+2026-03-10T14:42:41.9978157Z [36;1mconst gitlabData = loadLatestDataFile('gitlab') || { repos: [] };[0m
+2026-03-10T14:42:41.9978618Z [36;1mconst ollamaData = loadLatestDataFile('ollama') || { models: [] };[0m
+2026-03-10T14:42:41.9979096Z [36;1mconst launchesData = loadLatestDataFile('launches') || { launches: [] };[0m
+2026-03-10T14:42:41.9979736Z [36;1m[0m
+2026-03-10T14:42:41.9980073Z [36;1m// ── Health check ────────────────────────────────────[0m
+2026-03-10T14:42:41.9980379Z [36;1mconst health = {[0m
+2026-03-10T14:42:41.9980591Z [36;1m  date: digestDate,[0m
+2026-03-10T14:42:41.9980803Z [36;1m  sources: {[0m
+2026-03-10T14:42:41.9981038Z [36;1m    github: { loaded: data.repos?.length || 0 },[0m
+2026-03-10T14:42:41.9981594Z [36;1m    huggingface: { loaded: (hfData.spaces?.length || 0) + (hfData.models?.length || 0) + (hfData.datasets?.length || 0) },[0m
+2026-03-10T14:42:41.9982193Z [36;1m    replicate: { loaded: replicateData.models?.length || 0 },[0m
+2026-03-10T14:42:41.9982604Z [36;1m    paperswithcode: { loaded: pwcData.papers?.length || 0 },[0m
+2026-03-10T14:42:41.9982996Z [36;1m    npm: { loaded: npmPypiData.npm?.length || 0 },[0m
+2026-03-10T14:42:41.9983345Z [36;1m    pypi: { loaded: npmPypiData.pypi?.length || 0 },[0m
+2026-03-10T14:42:41.9983697Z [36;1m    gitlab: { loaded: gitlabData.repos?.length || 0 },[0m
+2026-03-10T14:42:41.9984074Z [36;1m    ollama: { loaded: ollamaData.models?.length || 0 },[0m
+2026-03-10T14:42:41.9984454Z [36;1m    launches: { loaded: launchesData.launches?.length || 0 }[0m
+2026-03-10T14:42:41.9984759Z [36;1m  }[0m
+2026-03-10T14:42:41.9984925Z [36;1m};[0m
+2026-03-10T14:42:41.9985083Z [36;1m[0m
+2026-03-10T14:42:41.9985299Z [36;1m// ── Filter GitHub repos ─────────────────────────────[0m
+2026-03-10T14:42:41.9985642Z [36;1mconst candidates = data.repos.filter(r => {[0m
+2026-03-10T14:42:41.9986067Z [36;1m  if (isOnCooldown(seen, r.full_name, today, prefs.cooldown_days)) return false;[0m
+2026-03-10T14:42:41.9986502Z [36;1m  const minStars = r._source === 'trending'[0m
+2026-03-10T14:42:41.9986792Z [36;1m    ? prefs.min_stars_trending[0m
+2026-03-10T14:42:41.9987038Z [36;1m    : prefs.min_stars;[0m
+2026-03-10T14:42:41.9987333Z [36;1m  if ((r.stargazers_count || 0) < minStars) return false;[0m
+2026-03-10T14:42:41.9987746Z [36;1m  if (!monthsAgo(r.pushed_at, prefs.recent_months)) return false;[0m
+2026-03-10T14:42:41.9988101Z [36;1m  return true;[0m
+2026-03-10T14:42:41.9988297Z [36;1m});[0m
+2026-03-10T14:42:41.9988458Z [36;1m[0m
+2026-03-10T14:42:41.9988642Z [36;1mfor (const sr of spotlight.repos) {[0m
+2026-03-10T14:42:41.9989023Z [36;1m  if (!isOnCooldown(seen, sr.full_name, today, prefs.cooldown_days)) {[0m
+2026-03-10T14:42:41.9989390Z [36;1m    candidates.push({[0m
+2026-03-10T14:42:41.9989722Z [36;1m      ...sr,[0m
+2026-03-10T14:42:41.9989971Z [36;1m      stargazers_count: sr.stargazers_count || 0,[0m
+2026-03-10T14:42:41.9990280Z [36;1m      language: sr.language || null,[0m
+2026-03-10T14:42:41.9990548Z [36;1m      topics: sr.topics || [],[0m
+2026-03-10T14:42:41.9990799Z [36;1m      _source: 'spotlight',[0m
+2026-03-10T14:42:41.9991044Z [36;1m      _query_group: 'spotlight'[0m
+2026-03-10T14:42:41.9991278Z [36;1m    });[0m
+2026-03-10T14:42:41.9991444Z [36;1m  }[0m
+2026-03-10T14:42:41.9991600Z [36;1m}[0m
+2026-03-10T14:42:41.9991764Z [36;1m[0m
+2026-03-10T14:42:41.9991940Z [36;1mif (candidates.length === 0) {[0m
+2026-03-10T14:42:41.9992318Z [36;1m  console.log('No interesting repos after filtering. No digest today.');[0m
+2026-03-10T14:42:41.9992703Z [36;1m  process.exit(0);[0m
+2026-03-10T14:42:41.9992909Z [36;1m}[0m
+2026-03-10T14:42:41.9993066Z [36;1m[0m
+2026-03-10T14:42:41.9993284Z [36;1m// ── Categorize GitHub repos ─────────────────────────[0m
+2026-03-10T14:42:41.9993590Z [36;1mconst sections = {[0m
+2026-03-10T14:42:41.9993828Z [36;1m  'SaaS starters and templates': [],[0m
+2026-03-10T14:42:41.9994105Z [36;1m  'AI agents, LLM infra and RAG': [],[0m
+2026-03-10T14:42:41.9994391Z [36;1m  'Ops, analytics and automation': [],[0m
+2026-03-10T14:42:41.9994675Z [36;1m  'Marketing, sales and GTM tools': [],[0m
+2026-03-10T14:42:41.9994980Z [36;1m  'UGC, social media and creator tools': [],[0m
+2026-03-10T14:42:41.9995242Z [36;1m};[0m
+2026-03-10T14:42:41.9995420Z [36;1mconst trendingPool = [];[0m
+2026-03-10T14:42:41.9995790Z [36;1mconst uncategorized = [];[0m
+2026-03-10T14:42:41.9996111Z [36;1m[0m
+2026-03-10T14:42:41.9996285Z [36;1mfor (const r of candidates) {[0m
+2026-03-10T14:42:41.9996546Z [36;1m  if (r._source === 'trending') {[0m
+2026-03-10T14:42:41.9996798Z [36;1m    trendingPool.push(r);[0m
+2026-03-10T14:42:41.9997031Z [36;1m    continue;[0m
+2026-03-10T14:42:41.9997221Z [36;1m  }[0m
+2026-03-10T14:42:41.9997404Z [36;1m  const cat = assignCategory(r);[0m
+2026-03-10T14:42:41.9997665Z [36;1m  if (cat && sections[cat]) {[0m
+2026-03-10T14:42:41.9997908Z [36;1m    sections[cat].push(r);[0m
+2026-03-10T14:42:41.9998136Z [36;1m  } else {[0m
+2026-03-10T14:42:41.9998335Z [36;1m    uncategorized.push(r);[0m
+2026-03-10T14:42:41.9998556Z [36;1m  }[0m
+2026-03-10T14:42:41.9998722Z [36;1m}[0m
+2026-03-10T14:42:41.9998879Z [36;1m[0m
+2026-03-10T14:42:41.9999075Z [36;1mfor (const key of Object.keys(sections)) {[0m
+2026-03-10T14:42:41.9999609Z [36;1m  sections[key].sort((a, b) => b.stargazers_count - a.stargazers_count);[0m
+2026-03-10T14:42:42.0000114Z [36;1m  sections[key] = sections[key].slice(0, prefs.max_repos_per_section);[0m
+2026-03-10T14:42:42.0000467Z [36;1m}[0m
+2026-03-10T14:42:42.0000623Z [36;1m[0m
+2026-03-10T14:42:42.0000837Z [36;1mconst TWO_YEARS_MS = 2 * 365 * 24 * 60 * 60 * 1000;[0m
+2026-03-10T14:42:42.0001203Z [36;1mconst trendingFiltered = trendingPool.filter(r => {[0m
+2026-03-10T14:42:42.0001531Z [36;1m  if (r.stargazers_count > 80000) {[0m
+2026-03-10T14:42:42.0001873Z [36;1m    const created = r.created_at ? new Date(r.created_at) : null;[0m
+2026-03-10T14:42:42.0002272Z [36;1m    if (!created || (today - created) > TWO_YEARS_MS) {[0m
+2026-03-10T14:42:42.0002806Z [36;1m      console.log(`Skipping perennial mega-repo from trending: ${r.full_name} (${r.stargazers_count}★)`);[0m
+2026-03-10T14:42:42.0003291Z [36;1m      return false;[0m
+2026-03-10T14:42:42.0003493Z [36;1m    }[0m
+2026-03-10T14:42:42.0003654Z [36;1m  }[0m
+2026-03-10T14:42:42.0003834Z [36;1m  return true;[0m
+2026-03-10T14:42:42.0004033Z [36;1m});[0m
+2026-03-10T14:42:42.0004189Z [36;1m[0m
+2026-03-10T14:42:42.0004491Z [36;1mtrendingFiltered.sort((a, b) => b.stargazers_count - a.stargazers_count);[0m
+2026-03-10T14:42:42.0005070Z [36;1mconst trendingCandidates = trendingFiltered.slice(0, prefs.max_trending_candidates);[0m
+2026-03-10T14:42:42.0005685Z [36;1mconst trendingFeatured = trendingCandidates.slice(0, prefs.max_trending_featured);[0m
+2026-03-10T14:42:42.0006173Z [36;1mconst trendingAlso = trendingCandidates.slice([0m
+2026-03-10T14:42:42.0006487Z [36;1m  prefs.max_trending_featured,[0m
+2026-03-10T14:42:42.0006807Z [36;1m  prefs.max_trending_featured + prefs.max_trending_also[0m
+2026-03-10T14:42:42.0007111Z [36;1m);[0m
+2026-03-10T14:42:42.0007266Z [36;1m[0m
+2026-03-10T14:42:42.0007441Z [36;1mconst trendingOddballs = [];[0m
+2026-03-10T14:42:42.0007708Z [36;1mfor (const r of trendingFeatured) {[0m
+2026-03-10T14:42:42.0007977Z [36;1m  const cat = assignCategory(r);[0m
+2026-03-10T14:42:42.0008375Z [36;1m  if (cat && sections[cat] && sections[cat].length < prefs.max_repos_per_section) {[0m
+2026-03-10T14:42:42.0008779Z [36;1m    sections[cat].push(r);[0m
+2026-03-10T14:42:42.0009003Z [36;1m  } else {[0m
+2026-03-10T14:42:42.0009206Z [36;1m    trendingOddballs.push(r);[0m
+2026-03-10T14:42:42.0009435Z [36;1m  }[0m
+2026-03-10T14:42:42.0009734Z [36;1m}[0m
+2026-03-10T14:42:42.0009888Z [36;1m[0m
+2026-03-10T14:42:42.0010105Z [36;1m// ── Velocity-boosted trending ─────────────────────[0m
+2026-03-10T14:42:42.0010412Z [36;1mconst hotness = (() => {[0m
+2026-03-10T14:42:42.0010761Z [36;1m  try { return JSON.parse(fs.readFileSync('data/hotness.json', 'utf8')); }[0m
+2026-03-10T14:42:42.0011146Z [36;1m  catch (e) { return {}; }[0m
+2026-03-10T14:42:42.0011371Z [36;1m})();[0m
+2026-03-10T14:42:42.0011530Z [36;1m[0m
+2026-03-10T14:42:42.0011718Z [36;1mconst alreadyAssigned = new Set();[0m
+2026-03-10T14:42:42.0012029Z [36;1mfor (const items of Object.values(sections)) {[0m
+2026-03-10T14:42:42.0012623Z [36;1m  for (const r of items) alreadyAssigned.add(r.full_name);[0m
+2026-03-10T14:42:42.0012937Z [36;1m}[0m
+2026-03-10T14:42:42.0013212Z [36;1mfor (const r of trendingOddballs) alreadyAssigned.add(r.full_name);[0m
+2026-03-10T14:42:42.0013660Z [36;1mfor (const r of trendingAlso) alreadyAssigned.add(r.full_name);[0m
+2026-03-10T14:42:42.0013991Z [36;1m[0m
+2026-03-10T14:42:42.0014173Z [36;1mconst velocityTrending = candidates[0m
+2026-03-10T14:42:42.0014434Z [36;1m  .filter(r => {[0m
+2026-03-10T14:42:42.0014661Z [36;1m    const h = hotness[r.full_name];[0m
+2026-03-10T14:42:42.0014976Z [36;1m    return h && h.star_velocity && h.star_velocity >= 50;[0m
+2026-03-10T14:42:42.0015277Z [36;1m  })[0m
+2026-03-10T14:42:42.0015505Z [36;1m  .filter(r => !alreadyAssigned.has(r.full_name))[0m
+2026-03-10T14:42:42.0015916Z [36;1m  .filter(r => !isOnCooldown(seen, r.full_name, today, prefs.cooldown_days))[0m
+2026-03-10T14:42:42.0016296Z [36;1m  .sort((a, b) => {[0m
+2026-03-10T14:42:42.0016592Z [36;1m    const va = (hotness[a.full_name] || {}).star_velocity || 0;[0m
+2026-03-10T14:42:42.0016986Z [36;1m    const vb = (hotness[b.full_name] || {}).star_velocity || 0;[0m
+2026-03-10T14:42:42.0017310Z [36;1m    return vb - va;[0m
+2026-03-10T14:42:42.0017509Z [36;1m  })[0m
+2026-03-10T14:42:42.0017689Z [36;1m  .slice(0, 3);[0m
+2026-03-10T14:42:42.0017886Z [36;1m[0m
+2026-03-10T14:42:42.0018173Z [36;1mconst trendingNames = new Set(trendingOddballs.map(r => r.full_name));[0m
+2026-03-10T14:42:42.0018571Z [36;1mfor (const r of velocityTrending) {[0m
+2026-03-10T14:42:42.0018856Z [36;1m  if (!trendingNames.has(r.full_name)) {[0m
+2026-03-10T14:42:42.0019145Z [36;1m    trendingOddballs.push(r);[0m
+2026-03-10T14:42:42.0019384Z [36;1m  }[0m
+2026-03-10T14:42:42.0020026Z [36;1m}[0m
+2026-03-10T14:42:42.0020194Z [36;1m[0m
+2026-03-10T14:42:42.0020422Z [36;1m// ── Trim to global max ──────────────────────────────[0m
+2026-03-10T14:42:42.0020830Z [36;1mlet totalPicks = trendingOddballs.length + trendingAlso.length;[0m
+2026-03-10T14:42:42.0021244Z [36;1mfor (const key of Object.keys(sections)) {[0m
+2026-03-10T14:42:42.0021547Z [36;1m  totalPicks += sections[key].length;[0m
+2026-03-10T14:42:42.0021802Z [36;1m}[0m
+2026-03-10T14:42:42.0021959Z [36;1m[0m
+2026-03-10T14:42:42.0022165Z [36;1mwhile (totalPicks > prefs.max_repos_total) {[0m
+2026-03-10T14:42:42.0022457Z [36;1m  let largestSection = null;[0m
+2026-03-10T14:42:42.0022703Z [36;1m  let largestCount = 0;[0m
+2026-03-10T14:42:42.0022965Z [36;1m  for (const key of Object.keys(sections)) {[0m
+2026-03-10T14:42:42.0023281Z [36;1m    if (sections[key].length > largestCount) {[0m
+2026-03-10T14:42:42.0023586Z [36;1m      largestCount = sections[key].length;[0m
+2026-03-10T14:42:42.0023864Z [36;1m      largestSection = key;[0m
+2026-03-10T14:42:42.0024089Z [36;1m    }[0m
+2026-03-10T14:42:42.0024248Z [36;1m  }[0m
+2026-03-10T14:42:42.0024474Z [36;1m  if (!largestSection || largestCount <= 1) break;[0m
+2026-03-10T14:42:42.0024799Z [36;1m  sections[largestSection].pop();[0m
+2026-03-10T14:42:42.0025055Z [36;1m  totalPicks--;[0m
+2026-03-10T14:42:42.0025250Z [36;1m}[0m
+2026-03-10T14:42:42.0025400Z [36;1m[0m
+2026-03-10T14:42:42.0025623Z [36;1m// ── Filter HuggingFace items ────────────────────────[0m
+2026-03-10T14:42:42.0025958Z [36;1mconst hfSpaces = (hfData.spaces || [])[0m
+2026-03-10T14:42:42.0026386Z [36;1m  .filter(s => !isOnCooldown(seenHf, s.id, today, prefs.cooldown_days) && s.likes >= 10)[0m
+2026-03-10T14:42:42.0026831Z [36;1m  .sort((a, b) => b.likes - a.likes)[0m
+2026-03-10T14:42:42.0027108Z [36;1m  .slice(0, prefs.max_hf_spaces);[0m
+2026-03-10T14:42:42.0027345Z [36;1m[0m
+2026-03-10T14:42:42.0027539Z [36;1mconst hfModels = (hfData.models || [])[0m
+2026-03-10T14:42:42.0027981Z [36;1m  .filter(m => !isOnCooldown(seenHf, m.id, today, prefs.cooldown_days) && m.downloads >= 1000)[0m
+2026-03-10T14:42:42.0028447Z [36;1m  .sort((a, b) => b.downloads - a.downloads)[0m
+2026-03-10T14:42:42.0028873Z [36;1m  .slice(0, prefs.max_hf_models);[0m
+2026-03-10T14:42:42.0029232Z [36;1m[0m
+2026-03-10T14:42:42.0029442Z [36;1mconst hfDatasets = (hfData.datasets || [])[0m
+2026-03-10T14:42:42.0030010Z [36;1m  .filter(d => !isOnCooldown(seenHf, d.id, today, prefs.cooldown_days) && d.downloads >= 500)[0m
+2026-03-10T14:42:42.0030469Z [36;1m  .sort((a, b) => b.downloads - a.downloads)[0m
+2026-03-10T14:42:42.0030763Z [36;1m  .slice(0, prefs.max_hf_datasets);[0m
+2026-03-10T14:42:42.0031009Z [36;1m[0m
+2026-03-10T14:42:42.0031442Z [36;1mconsole.log(`HuggingFace: ${hfSpaces.length} spaces, ${hfModels.length} models, ${hfDatasets.length} datasets`);[0m
+2026-03-10T14:42:42.0031951Z [36;1m[0m
+2026-03-10T14:42:42.0032175Z [36;1m// ── Filter Replicate models ─────────────────────────[0m
+2026-03-10T14:42:42.0032553Z [36;1mconst replicateModels = (replicateData.models || [])[0m
+2026-03-10T14:42:42.0033007Z [36;1m  .filter(m => !isOnCooldown(seenReplicate, m.id, today, prefs.cooldown_days))[0m
+2026-03-10T14:42:42.0033477Z [36;1m  .sort((a, b) => (b.run_count || 0) - (a.run_count || 0))[0m
+2026-03-10T14:42:42.0033824Z [36;1m  .slice(0, prefs.max_replicate_models);[0m
+2026-03-10T14:42:42.0034194Z [36;1mconsole.log(`Replicate: ${replicateModels.length} models`);[0m
+2026-03-10T14:42:42.0034519Z [36;1m[0m
+2026-03-10T14:42:42.0034748Z [36;1m// ── Filter Papers with Code ─────────────────────────[0m
+2026-03-10T14:42:42.0035086Z [36;1mconst papers = (pwcData.papers || [])[0m
+2026-03-10T14:42:42.0035468Z [36;1m  .filter(p => !isOnCooldown(seenPwc, p.id, today, prefs.cooldown_days))[0m
+2026-03-10T14:42:42.0035913Z [36;1m  .sort((a, b) => (b.github_stars || 0) - (a.github_stars || 0))[0m
+2026-03-10T14:42:42.0036255Z [36;1m  .slice(0, prefs.max_papers);[0m
+2026-03-10T14:42:42.0036595Z [36;1mconsole.log(`Papers with Code: ${papers.length} papers`);[0m
+2026-03-10T14:42:42.0036921Z [36;1m[0m
+2026-03-10T14:42:42.0037142Z [36;1m// ── Filter npm packages ─────────────────────────────[0m
+2026-03-10T14:42:42.0037484Z [36;1mconst npmPkgs = (npmPypiData.npm || [])[0m
+2026-03-10T14:42:42.0037939Z [36;1m  .filter(p => !isOnCooldown(seenNpmPypi, `npm-${p.id}`, today, prefs.cooldown_days))[0m
+2026-03-10T14:42:42.0038449Z [36;1m  .sort((a, b) => (b.weekly_downloads || 0) - (a.weekly_downloads || 0))[0m
+2026-03-10T14:42:42.0038806Z [36;1m  .slice(0, prefs.max_npm);[0m
+2026-03-10T14:42:42.0039107Z [36;1mconsole.log(`npm: ${npmPkgs.length} packages`);[0m
+2026-03-10T14:42:42.0039394Z [36;1m[0m
+2026-03-10T14:42:42.0039753Z [36;1m// ── Filter PyPI packages ────────────────────────────[0m
+2026-03-10T14:42:42.0040114Z [36;1mconst pypiPkgs = (npmPypiData.pypi || [])[0m
+2026-03-10T14:42:42.0040574Z [36;1m  .filter(p => !isOnCooldown(seenNpmPypi, `pypi-${p.id}`, today, prefs.cooldown_days))[0m
+2026-03-10T14:42:42.0041111Z [36;1m  .sort((a, b) => (b.recent_downloads || 0) - (a.recent_downloads || 0))[0m
+2026-03-10T14:42:42.0041482Z [36;1m  .slice(0, prefs.max_pypi);[0m
+2026-03-10T14:42:42.0041793Z [36;1mconsole.log(`PyPI: ${pypiPkgs.length} packages`);[0m
+2026-03-10T14:42:42.0042355Z [36;1m[0m
+2026-03-10T14:42:42.0042581Z [36;1m// ── Filter GitLab repos ─────────────────────────────[0m
+2026-03-10T14:42:42.0042934Z [36;1mconst gitlabRepos = (gitlabData.repos || [])[0m
+2026-03-10T14:42:42.0043358Z [36;1m  .filter(r => !isOnCooldown(seenGitlab, r.id, today, prefs.cooldown_days))[0m
+2026-03-10T14:42:42.0043803Z [36;1m  .sort((a, b) => (b.star_count || 0) - (a.star_count || 0))[0m
+2026-03-10T14:42:42.0044130Z [36;1m  .slice(0, prefs.max_gitlab);[0m
+2026-03-10T14:42:42.0044453Z [36;1mconsole.log(`GitLab: ${gitlabRepos.length} repos`);[0m
+2026-03-10T14:42:42.0044750Z [36;1m[0m
+2026-03-10T14:42:42.0044972Z [36;1m// ── Filter Ollama models ────────────────────────────[0m
+2026-03-10T14:42:42.0045323Z [36;1mconst ollamaModels = (ollamaData.models || [])[0m
+2026-03-10T14:42:42.0045737Z [36;1m  .filter(m => !isOnCooldown(seenOllama, m.id, today, prefs.cooldown_days))[0m
+2026-03-10T14:42:42.0046131Z [36;1m  .sort((a, b) => {[0m
+2026-03-10T14:42:42.0046424Z [36;1m    const pa = (a.pull_count || '').replace(/[+,]/g, '');[0m
+2026-03-10T14:42:42.0046787Z [36;1m    const pb = (b.pull_count || '').replace(/[+,]/g, '');[0m
+2026-03-10T14:42:42.0047163Z [36;1m    return (parseFloat(pb) || 0) - (parseFloat(pa) || 0);[0m
+2026-03-10T14:42:42.0047464Z [36;1m  })[0m
+2026-03-10T14:42:42.0047656Z [36;1m  .slice(0, prefs.max_ollama);[0m
+2026-03-10T14:42:42.0047980Z [36;1mconsole.log(`Ollama: ${ollamaModels.length} models`);[0m
+2026-03-10T14:42:42.0048287Z [36;1m[0m
+2026-03-10T14:42:42.0048513Z [36;1m// ── Filter Launches ─────────────────────────────────[0m
+2026-03-10T14:42:42.0048870Z [36;1mconst launches = (launchesData.launches || [])[0m
+2026-03-10T14:42:42.0049295Z [36;1m  .filter(l => !isOnCooldown(seenLaunches, l.id, today, prefs.cooldown_days))[0m
+2026-03-10T14:42:42.0049893Z [36;1m  .sort((a, b) => (b.upvotes || 0) - (a.upvotes || 0))[0m
+2026-03-10T14:42:42.0050207Z [36;1m  .slice(0, prefs.max_launches);[0m
+2026-03-10T14:42:42.0050709Z [36;1mconsole.log(`Launches: ${launches.length} items`);[0m
+2026-03-10T14:42:42.0051246Z [36;1m[0m
+2026-03-10T14:42:42.0051708Z [36;1m// ── Generate Gemini editorial blurbs ────────────────[0m
+2026-03-10T14:42:42.0052353Z [36;1mconst allSectioned = { ...sections };[0m
+2026-03-10T14:42:42.0053163Z [36;1mif (trendingOddballs.length > 0) allSectioned['Trending oddballs'] = trendingOddballs;[0m
+2026-03-10T14:42:42.0053774Z [36;1mif (trendingAlso.length > 0) allSectioned['Also trending'] = trendingAlso;[0m
+2026-03-10T14:42:42.0054166Z [36;1m[0m
+2026-03-10T14:42:42.0054508Z [36;1mif (hfSpaces.length > 0) allSectioned['HuggingFace Spaces'] = hfSpaces.map(s => ({[0m
+2026-03-10T14:42:42.0055053Z [36;1m  full_name: s.id, description: s.description, language: s.sdk || 'Space',[0m
+2026-03-10T14:42:42.0055475Z [36;1m  stargazers_count: s.likes, topics: s.tags[0m
+2026-03-10T14:42:42.0055753Z [36;1m}));[0m
+2026-03-10T14:42:42.0056100Z [36;1mif (hfModels.length > 0) allSectioned['HuggingFace Models'] = hfModels.map(m => ({[0m
+2026-03-10T14:42:42.0056643Z [36;1m  full_name: m.id, description: m.description, language: m.pipeline_tag,[0m
+2026-03-10T14:42:42.0057074Z [36;1m  stargazers_count: m.downloads, topics: m.tags[0m
+2026-03-10T14:42:42.0057352Z [36;1m}));[0m
+2026-03-10T14:42:42.0057723Z [36;1mif (hfDatasets.length > 0) allSectioned['HuggingFace Datasets'] = hfDatasets.map(d => ({[0m
+2026-03-10T14:42:42.0058275Z [36;1m  full_name: d.id, description: d.description, language: 'Dataset',[0m
+2026-03-10T14:42:42.0058676Z [36;1m  stargazers_count: d.downloads, topics: d.tags[0m
+2026-03-10T14:42:42.0058957Z [36;1m}));[0m
+2026-03-10T14:42:42.0059114Z [36;1m[0m
+2026-03-10T14:42:42.0059663Z [36;1mif (replicateModels.length > 0) allSectioned['Replicate Models'] = replicateModels.map(m => ({[0m
+2026-03-10T14:42:42.0060233Z [36;1m  full_name: m.id, description: m.description, language: 'Model',[0m
+2026-03-10T14:42:42.0060657Z [36;1m  stargazers_count: m.run_count || 0, topics: [][0m
+2026-03-10T14:42:42.0061218Z [36;1m}));[0m
+2026-03-10T14:42:42.0061528Z [36;1mif (papers.length > 0) allSectioned['Papers to Code'] = papers.map(p => ({[0m
+2026-03-10T14:42:42.0062045Z [36;1m  full_name: p.id, description: p.title + ': ' + (p.abstract || '').slice(0, 100),[0m
+2026-03-10T14:42:42.0062593Z [36;1m  language: 'Paper', stargazers_count: p.github_stars || 0, topics: p.tasks || [][0m
+2026-03-10T14:42:42.0062992Z [36;1m}));[0m
+2026-03-10T14:42:42.0063294Z [36;1mif (npmPkgs.length > 0) allSectioned['npm Packages'] = npmPkgs.map(p => ({[0m
+2026-03-10T14:42:42.0063792Z [36;1m  full_name: p.id, description: p.description, language: 'JavaScript',[0m
+2026-03-10T14:42:42.0064278Z [36;1m  stargazers_count: p.weekly_downloads || 0, topics: p.keywords || [][0m
+2026-03-10T14:42:42.0064627Z [36;1m}));[0m
+2026-03-10T14:42:42.0064948Z [36;1mif (pypiPkgs.length > 0) allSectioned['PyPI Packages'] = pypiPkgs.map(p => ({[0m
+2026-03-10T14:42:42.0065483Z [36;1m  full_name: p.id, description: p.description, language: 'Python',[0m
+2026-03-10T14:42:42.0065950Z [36;1m  stargazers_count: p.recent_downloads || 0, topics: p.keywords || [][0m
+2026-03-10T14:42:42.0066303Z [36;1m}));[0m
+2026-03-10T14:42:42.0066635Z [36;1mif (gitlabRepos.length > 0) allSectioned['GitLab Repos'] = gitlabRepos.map(r => ({[0m
+2026-03-10T14:42:42.0067217Z [36;1m  full_name: r.full_name, description: r.description, language: r.language || 'Multi',[0m
+2026-03-10T14:42:42.0067728Z [36;1m  stargazers_count: r.star_count || 0, topics: r.topics || [][0m
+2026-03-10T14:42:42.0068051Z [36;1m}));[0m
+2026-03-10T14:42:42.0068400Z [36;1mif (ollamaModels.length > 0) allSectioned['Ollama Models'] = ollamaModels.map(m => ({[0m
+2026-03-10T14:42:42.0068919Z [36;1m  full_name: m.id, description: m.description, language: 'Model',[0m
+2026-03-10T14:42:42.0069301Z [36;1m  stargazers_count: 0, topics: m.tags || [][0m
+2026-03-10T14:42:42.0069710Z [36;1m}));[0m
+2026-03-10T14:42:42.0070026Z [36;1mif (launches.length > 0) allSectioned['New Launches'] = launches.map(l => ({[0m
+2026-03-10T14:42:42.0070494Z [36;1m  full_name: l.id, description: l.description || l.name,[0m
+2026-03-10T14:42:42.0070918Z [36;1m  language: l._source, stargazers_count: l.upvotes || 0, topics: [][0m
+2026-03-10T14:42:42.0071266Z [36;1m}));[0m
+2026-03-10T14:42:42.0071425Z [36;1m[0m
+2026-03-10T14:42:42.0071727Z [36;1mconst blurbs = await generateEditorialBlurbs(candidates, allSectioned);[0m
+2026-03-10T14:42:42.0072102Z [36;1m[0m
+2026-03-10T14:42:42.0072341Z [36;1m// ── Build Markdown ──────────────────────────────────[0m
+2026-03-10T14:42:42.0072654Z [36;1mconst sep = '---';[0m
+2026-03-10T14:42:42.0072998Z [36;1mconst hfCount = hfSpaces.length + hfModels.length + hfDatasets.length;[0m
+2026-03-10T14:42:42.0073542Z [36;1mconst platformCount = replicateModels.length + papers.length + npmPkgs.length +[0m
+2026-03-10T14:42:42.0074121Z [36;1m  pypiPkgs.length + gitlabRepos.length + ollamaModels.length + launches.length;[0m
+2026-03-10T14:42:42.0074598Z [36;1mconst extraNote = (hfCount + platformCount) > 0[0m
+2026-03-10T14:42:42.0075259Z [36;1m  ? ` Plus ${hfCount + platformCount} picks from HuggingFace, Replicate, Papers with Code, npm, PyPI, GitLab, Ollama, and launch platforms.`[0m
+2026-03-10T14:42:42.0075860Z [36;1m  : '';[0m
+2026-03-10T14:42:42.0076031Z [36;1m[0m
+2026-03-10T14:42:42.0076591Z [36;1mconst allTags = ['github', 'huggingface', 'replicate', 'paperswithcode', 'npm', 'pypi', 'gitlab', 'ollama', 'launches', 'digest', 'ai', 'saas', 'solopreneur', 'ugc'];[0m
+2026-03-10T14:42:42.0077227Z [36;1m[0m
+2026-03-10T14:42:42.0078280Z [36;1mlet md = `${sep}\nlayout: post\ntitle: "Daily Digest – ${digestDate}"\ndate: ${digestDate}\ntags: [${allTags.join(', ')}]\n${sep}\n\nDaily curated repos and tools for solo founders, AI/B2B SaaS builders, and small business tools. ${candidates.length} repos evaluated, ${totalPicks} made the cut.${extraNote}\n\n`;[0m
+2026-03-10T14:42:42.0079421Z [36;1m[0m
+2026-03-10T14:42:42.0079951Z [36;1mconst sectionOrder = [[0m
+2026-03-10T14:42:42.0080303Z [36;1m  'SaaS starters and templates',[0m
+2026-03-10T14:42:42.0080588Z [36;1m  'AI agents, LLM infra and RAG',[0m
+2026-03-10T14:42:42.0080862Z [36;1m  'Ops, analytics and automation',[0m
+2026-03-10T14:42:42.0081135Z [36;1m  'Marketing, sales and GTM tools',[0m
+2026-03-10T14:42:42.0081424Z [36;1m  'UGC, social media and creator tools',[0m
+2026-03-10T14:42:42.0081683Z [36;1m];[0m
+2026-03-10T14:42:42.0081836Z [36;1m[0m
+2026-03-10T14:42:42.0082003Z [36;1mconst featured = [];[0m
+2026-03-10T14:42:42.0082210Z [36;1m[0m
+2026-03-10T14:42:42.0082400Z [36;1mfor (const name of sectionOrder) {[0m
+2026-03-10T14:42:42.0082698Z [36;1m  if (sections[name].length === 0) continue;[0m
+2026-03-10T14:42:42.0083003Z [36;1m  md += `## ${name}\n\n`;[0m
+2026-03-10T14:42:42.0083269Z [36;1m  for (const r of sections[name]) {[0m
+2026-03-10T14:42:42.0083555Z [36;1m    md += writeOneLiner(r, blurbs) + '\n\n';[0m
+2026-03-10T14:42:42.0083850Z [36;1m    featured.push(r.full_name);[0m
+2026-03-10T14:42:42.0084097Z [36;1m  }[0m
+2026-03-10T14:42:42.0084254Z [36;1m}[0m
+2026-03-10T14:42:42.0084412Z [36;1m[0m
+2026-03-10T14:42:42.0084594Z [36;1mif (trendingOddballs.length > 0) {[0m
+2026-03-10T14:42:42.0084903Z [36;1m  md += `## Trending oddballs worth a look\n\n`;[0m
+2026-03-10T14:42:42.0085216Z [36;1m  for (const r of trendingOddballs) {[0m
+2026-03-10T14:42:42.0085494Z [36;1m    const h = hotness[r.full_name];[0m
+2026-03-10T14:42:42.0085904Z [36;1m    const velocityNote = (h && h.star_velocity > 0) ? ` ⚡${h.star_velocity}★/day` : '';[0m
+2026-03-10T14:42:42.0086339Z [36;1m    const lang = r.language || 'Multi';[0m
+2026-03-10T14:42:42.0086660Z [36;1m    const stars = formatStars(r.stargazers_count);[0m
+2026-03-10T14:42:42.0087004Z [36;1m    const blurb = (blurbs && blurbs[r.full_name])[0m
+2026-03-10T14:42:42.0087298Z [36;1m      ? blurbs[r.full_name][0m
+2026-03-10T14:42:42.0087596Z [36;1m      : (r.description || 'No description provided.');[0m
+2026-03-10T14:42:42.0088073Z [36;1m    md += `- [${r.full_name}](${r.html_url}) – ${blurb} (${lang}, ${stars}${velocityNote})\n\n`;[0m
+2026-03-10T14:42:42.0088495Z [36;1m    featured.push(r.full_name);[0m
+2026-03-10T14:42:42.0088734Z [36;1m  }[0m
+2026-03-10T14:42:42.0088892Z [36;1m}[0m
+2026-03-10T14:42:42.0089042Z [36;1m[0m
+2026-03-10T14:42:42.0089222Z [36;1mif (trendingAlso.length > 0) {[0m
+2026-03-10T14:42:42.0089634Z [36;1m  md += `### Also trending today\n\n`;[0m
+2026-03-10T14:42:42.0089915Z [36;1m  for (const r of trendingAlso) {[0m
+2026-03-10T14:42:42.0090193Z [36;1m    const lang = r.language || 'Multi';[0m
+2026-03-10T14:42:42.0090475Z [36;1m    const h = hotness[r.full_name];[0m
+2026-03-10T14:42:42.0090875Z [36;1m    const velocityNote = (h && h.star_velocity > 0) ? ` ⚡${h.star_velocity}★/day` : '';[0m
+2026-03-10T14:42:42.0091330Z [36;1m    const blurb = (blurbs && blurbs[r.full_name])[0m
+2026-03-10T14:42:42.0091618Z [36;1m      ? blurbs[r.full_name][0m
+2026-03-10T14:42:42.0091899Z [36;1m      : (r.description || '').slice(0, 60);[0m
+2026-03-10T14:42:42.0092398Z [36;1m    md += `- [${r.full_name}](${r.html_url}) – ${blurb} (${lang}, ${formatStars(r.stargazers_count)}${velocityNote})\n`;[0m
+2026-03-10T14:42:42.0092887Z [36;1m    featured.push(r.full_name);[0m
+2026-03-10T14:42:42.0093124Z [36;1m  }[0m
+2026-03-10T14:42:42.0093294Z [36;1m  md += '\n';[0m
+2026-03-10T14:42:42.0093477Z [36;1m}[0m
+2026-03-10T14:42:42.0093630Z [36;1m[0m
+2026-03-10T14:42:42.0093854Z [36;1m// ── GitLab Repos section ────────────────────────────[0m
+2026-03-10T14:42:42.0094167Z [36;1mconst gitlabFeatured = [];[0m
+2026-03-10T14:42:42.0094423Z [36;1mif (gitlabRepos.length > 0) {[0m
+2026-03-10T14:42:42.0094674Z [36;1m  md += `## GitLab Repos\n\n`;[0m
+2026-03-10T14:42:42.0094931Z [36;1m  for (const r of gitlabRepos) {[0m
+2026-03-10T14:42:42.0095384Z [36;1m    const blurb = (blurbs && blurbs[r.full_name]) ? blurbs[r.full_name] : (r.description || r.full_name);[0m
+2026-03-10T14:42:42.0096269Z [36;1m    md += `- [${r.full_name}](${r.url}) – ${blurb} (${r.language || 'Multi'}, ${formatStars(r.star_count || 0)})\n\n`;[0m
+2026-03-10T14:42:42.0096740Z [36;1m    gitlabFeatured.push(r.id);[0m
+2026-03-10T14:42:42.0096977Z [36;1m  }[0m
+2026-03-10T14:42:42.0097135Z [36;1m}[0m
+2026-03-10T14:42:42.0097287Z [36;1m[0m
+2026-03-10T14:42:42.0097504Z [36;1m// ── Papers to Code section ──────────────────────────[0m
+2026-03-10T14:42:42.0097816Z [36;1mconst papersFeatured = [];[0m
+2026-03-10T14:42:42.0098060Z [36;1mif (papers.length > 0) {[0m
+2026-03-10T14:42:42.0098298Z [36;1m  md += `## Papers to Code\n\n`;[0m
+2026-03-10T14:42:42.0098554Z [36;1m  for (const p of papers) {[0m
+2026-03-10T14:42:42.0098914Z [36;1m    const blurb = (blurbs && blurbs[p.id]) ? blurbs[p.id] : (p.title || p.id);[0m
+2026-03-10T14:42:42.0099587Z [36;1m    md += `- [${p.title}](${p.url}) – ${blurb} ([code](${p.github_url}), ${formatStars(p.github_stars || 0)})\n\n`;[0m
+2026-03-10T14:42:42.0100085Z [36;1m    papersFeatured.push(p.id);[0m
+2026-03-10T14:42:42.0100336Z [36;1m  }[0m
+2026-03-10T14:42:42.0100494Z [36;1m}[0m
+2026-03-10T14:42:42.0100649Z [36;1m[0m
+2026-03-10T14:42:42.0100870Z [36;1m// ── Replicate Models section ────────────────────────[0m
+2026-03-10T14:42:42.0101192Z [36;1mconst replicateFeatured = [];[0m
+2026-03-10T14:42:42.0101461Z [36;1mif (replicateModels.length > 0) {[0m
+2026-03-10T14:42:42.0101730Z [36;1m  md += `## Replicate Models\n\n`;[0m
+2026-03-10T14:42:42.0102006Z [36;1m  for (const m of replicateModels) {[0m
+2026-03-10T14:42:42.0102410Z [36;1m    const blurb = (blurbs && blurbs[m.id]) ? blurbs[m.id] : (m.description || m.id);[0m
+2026-03-10T14:42:42.0102909Z [36;1m    const runs = m.run_count ? `${formatDownloads(m.run_count)} runs` : '';[0m
+2026-03-10T14:42:42.0103357Z [36;1m    md += `- [${m.id}](${m.url}) – ${blurb}${runs ? ` (${runs})` : ''}\n\n`;[0m
+2026-03-10T14:42:42.0103708Z [36;1m    replicateFeatured.push(m.id);[0m
+2026-03-10T14:42:42.0103958Z [36;1m  }[0m
+2026-03-10T14:42:42.0104115Z [36;1m}[0m
+2026-03-10T14:42:42.0104272Z [36;1m[0m
+2026-03-10T14:42:42.0104507Z [36;1m// ── Ollama Models section ───────────────────────────[0m
+2026-03-10T14:42:42.0104822Z [36;1mconst ollamaFeatured = [];[0m
+2026-03-10T14:42:42.0105072Z [36;1mif (ollamaModels.length > 0) {[0m
+2026-03-10T14:42:42.0105331Z [36;1m  md += `## Ollama Models\n\n`;[0m
+2026-03-10T14:42:42.0105595Z [36;1m  for (const m of ollamaModels) {[0m
+2026-03-10T14:42:42.0105976Z [36;1m    const blurb = (blurbs && blurbs[m.id]) ? blurbs[m.id] : (m.description || m.id);[0m
+2026-03-10T14:42:42.0106448Z [36;1m    const pulls = m.pull_count ? `${m.pull_count} pulls` : '';[0m
+2026-03-10T14:42:42.0106892Z [36;1m    md += `- [${m.id}](${m.url}) – ${blurb}${pulls ? ` (${pulls})` : ''}\n\n`;[0m
+2026-03-10T14:42:42.0107240Z [36;1m    ollamaFeatured.push(m.id);[0m
+2026-03-10T14:42:42.0107478Z [36;1m  }[0m
+2026-03-10T14:42:42.0107634Z [36;1m}[0m
+2026-03-10T14:42:42.0107800Z [36;1m[0m
+2026-03-10T14:42:42.0108037Z [36;1m// ── npm Packages section ────────────────────────────[0m
+2026-03-10T14:42:42.0108339Z [36;1mconst npmFeatured = [];[0m
+2026-03-10T14:42:42.0108576Z [36;1mif (npmPkgs.length > 0) {[0m
+2026-03-10T14:42:42.0108818Z [36;1m  md += `## npm Packages\n\n`;[0m
+2026-03-10T14:42:42.0109073Z [36;1m  for (const p of npmPkgs) {[0m
+2026-03-10T14:42:42.0109454Z [36;1m    const blurb = (blurbs && blurbs[p.id]) ? blurbs[p.id] : (p.description || p.id);[0m
+2026-03-10T14:42:42.0110113Z [36;1m    md += `- [${p.id}](${p.url}) – ${blurb} (${formatDownloads(p.weekly_downloads || 0)}/wk)\n\n`;[0m
+2026-03-10T14:42:42.0110569Z [36;1m    npmFeatured.push(`npm-${p.id}`);[0m
+2026-03-10T14:42:42.0110827Z [36;1m  }[0m
+2026-03-10T14:42:42.0110984Z [36;1m}[0m
+2026-03-10T14:42:42.0111143Z [36;1m[0m
+2026-03-10T14:42:42.0111372Z [36;1m// ── PyPI Packages section ───────────────────────────[0m
+2026-03-10T14:42:42.0111685Z [36;1mconst pypiFeatured = [];[0m
+2026-03-10T14:42:42.0112061Z [36;1mif (pypiPkgs.length > 0) {[0m
+2026-03-10T14:42:42.0112411Z [36;1m  md += `## PyPI Packages\n\n`;[0m
+2026-03-10T14:42:42.0112676Z [36;1m  for (const p of pypiPkgs) {[0m
+2026-03-10T14:42:42.0113064Z [36;1m    const blurb = (blurbs && blurbs[p.id]) ? blurbs[p.id] : (p.description || p.id);[0m
+2026-03-10T14:42:42.0113661Z [36;1m    md += `- [${p.id}](${p.url}) – ${blurb} (${formatDownloads(p.recent_downloads || 0)} recent downloads)\n\n`;[0m
+2026-03-10T14:42:42.0114157Z [36;1m    pypiFeatured.push(`pypi-${p.id}`);[0m
+2026-03-10T14:42:42.0114420Z [36;1m  }[0m
+2026-03-10T14:42:42.0114575Z [36;1m}[0m
+2026-03-10T14:42:42.0114731Z [36;1m[0m
+2026-03-10T14:42:42.0114951Z [36;1m// ── HuggingFace sections ────────────────────────────[0m
+2026-03-10T14:42:42.0115260Z [36;1mconst hfFeatured = [];[0m
+2026-03-10T14:42:42.0115477Z [36;1m[0m
+2026-03-10T14:42:42.0115647Z [36;1mif (hfSpaces.length > 0) {[0m
+2026-03-10T14:42:42.0115910Z [36;1m  md += `## HuggingFace Spaces\n\n`;[0m
+2026-03-10T14:42:42.0116191Z [36;1m  for (const s of hfSpaces) {[0m
+2026-03-10T14:42:42.0116575Z [36;1m    const blurb = (blurbs && blurbs[s.id]) ? blurbs[s.id] : (s.description || s.id);[0m
+2026-03-10T14:42:42.0117081Z [36;1m    md += `- [${s.id}](${s.url}) – ${blurb} (${s.sdk || 'Space'}, ${s.likes} likes)\n\n`;[0m
+2026-03-10T14:42:42.0117462Z [36;1m    hfFeatured.push(s.id);[0m
+2026-03-10T14:42:42.0117688Z [36;1m  }[0m
+2026-03-10T14:42:42.0117852Z [36;1m}[0m
+2026-03-10T14:42:42.0118006Z [36;1m[0m
+2026-03-10T14:42:42.0118180Z [36;1mif (hfModels.length > 0) {[0m
+2026-03-10T14:42:42.0118439Z [36;1m  md += `## HuggingFace Models\n\n`;[0m
+2026-03-10T14:42:42.0118703Z [36;1m  for (const m of hfModels) {[0m
+2026-03-10T14:42:42.0119086Z [36;1m    const blurb = (blurbs && blurbs[m.id]) ? blurbs[m.id] : (m.description || m.id);[0m
+2026-03-10T14:42:42.0119773Z [36;1m    md += `- [${m.id}](${m.url}) – ${blurb} (${m.pipeline_tag}, ${formatDownloads(m.downloads)} downloads)\n\n`;[0m
+2026-03-10T14:42:42.0120234Z [36;1m    hfFeatured.push(m.id);[0m
+2026-03-10T14:42:42.0120474Z [36;1m  }[0m
+2026-03-10T14:42:42.0120632Z [36;1m}[0m
+2026-03-10T14:42:42.0120793Z [36;1m[0m
+2026-03-10T14:42:42.0120973Z [36;1mif (hfDatasets.length > 0) {[0m
+2026-03-10T14:42:42.0121240Z [36;1m  md += `## HuggingFace Datasets\n\n`;[0m
+2026-03-10T14:42:42.0121524Z [36;1m  for (const d of hfDatasets) {[0m
+2026-03-10T14:42:42.0121907Z [36;1m    const blurb = (blurbs && blurbs[d.id]) ? blurbs[d.id] : (d.description || d.id);[0m
+2026-03-10T14:42:42.0122423Z [36;1m    md += `- [${d.id}](${d.url}) – ${blurb} (${formatDownloads(d.downloads)} downloads)\n\n`;[0m
+2026-03-10T14:42:42.0122826Z [36;1m    hfFeatured.push(d.id);[0m
+2026-03-10T14:42:42.0123053Z [36;1m  }[0m
+2026-03-10T14:42:42.0123210Z [36;1m}[0m
+2026-03-10T14:42:42.0123364Z [36;1m[0m
+2026-03-10T14:42:42.0123581Z [36;1m// ── New Launches section ────────────────────────────[0m
+2026-03-10T14:42:42.0123893Z [36;1mconst launchesFeatured = [];[0m
+2026-03-10T14:42:42.0124153Z [36;1mif (launches.length > 0) {[0m
+2026-03-10T14:42:42.0124394Z [36;1m  md += `## New Launches\n\n`;[0m
+2026-03-10T14:42:42.0124645Z [36;1m  for (const l of launches) {[0m
+2026-03-10T14:42:42.0125023Z [36;1m    const blurb = (blurbs && blurbs[l.id]) ? blurbs[l.id] : (l.description || l.name);[0m
+2026-03-10T14:42:42.0125492Z [36;1m    const votes = l.upvotes ? ` (${l.upvotes} upvotes)` : '';[0m
+2026-03-10T14:42:42.0125869Z [36;1m    const src = l._source ? ` [${l._source}]` : '';[0m
+2026-03-10T14:42:42.0126216Z [36;1m    md += `- [${l.name}](${l.url}) – ${blurb}${votes}${src}\n\n`;[0m
+2026-03-10T14:42:42.0126551Z [36;1m    launchesFeatured.push(l.id);[0m
+2026-03-10T14:42:42.0126799Z [36;1m  }[0m
+2026-03-10T14:42:42.0126954Z [36;1m}[0m
+2026-03-10T14:42:42.0127109Z [36;1m[0m
+2026-03-10T14:42:42.0127329Z [36;1m// ── Write post ──────────────────────────────────────[0m
+2026-03-10T14:42:42.0127744Z [36;1mif (!fs.existsSync('_posts')) fs.mkdirSync('_posts', { recursive: true });[0m
+2026-03-10T14:42:42.0128265Z [36;1mfs.writeFileSync(postPath, md);[0m
+2026-03-10T14:42:42.0128928Z [36;1mconsole.log(`Created ${postPath} with ${featured.length} repos + ${hfFeatured.length} HF + ${platformCount} platform items`);[0m
+2026-03-10T14:42:42.0129571Z [36;1m[0m
+2026-03-10T14:42:42.0129805Z [36;1m// ── Update all seen ledgers ─────────────────────────[0m
+2026-03-10T14:42:42.0130211Z [36;1mfor (const name of featured) { markSeen(seen, name, digestDate); }[0m
+2026-03-10T14:42:42.0130679Z [36;1mfs.writeFileSync('data/seen.json', JSON.stringify(seen, null, 2));[0m
+2026-03-10T14:42:42.0131030Z [36;1m[0m
+2026-03-10T14:42:42.0131281Z [36;1mfor (const id of hfFeatured) { markSeen(seenHf, id, digestDate); }[0m
+2026-03-10T14:42:42.0131756Z [36;1mfs.writeFileSync('data/seen-hf.json', JSON.stringify(seenHf, null, 2));[0m
+2026-03-10T14:42:42.0132119Z [36;1m[0m
+2026-03-10T14:42:42.0132430Z [36;1mfor (const id of replicateFeatured) { markSeen(seenReplicate, id, digestDate); }[0m
+2026-03-10T14:42:42.0133053Z [36;1mfs.writeFileSync('data/seen-replicate.json', JSON.stringify(seenReplicate, null, 2));[0m
+2026-03-10T14:42:42.0133477Z [36;1m[0m
+2026-03-10T14:42:42.0133756Z [36;1mfor (const id of papersFeatured) { markSeen(seenPwc, id, digestDate); }[0m
+2026-03-10T14:42:42.0134311Z [36;1mfs.writeFileSync('data/seen-paperswithcode.json', JSON.stringify(seenPwc, null, 2));[0m
+2026-03-10T14:42:42.0134730Z [36;1m[0m
+2026-03-10T14:42:42.0135079Z [36;1mfor (const id of [...npmFeatured, ...pypiFeatured]) { markSeen(seenNpmPypi, id, digestDate); }[0m
+2026-03-10T14:42:42.0135695Z [36;1mfs.writeFileSync('data/seen-npm-pypi.json', JSON.stringify(seenNpmPypi, null, 2));[0m
+2026-03-10T14:42:42.0136111Z [36;1m[0m
+2026-03-10T14:42:42.0136399Z [36;1mfor (const id of gitlabFeatured) { markSeen(seenGitlab, id, digestDate); }[0m
+2026-03-10T14:42:42.0136942Z [36;1mfs.writeFileSync('data/seen-gitlab.json', JSON.stringify(seenGitlab, null, 2));[0m
+2026-03-10T14:42:42.0137335Z [36;1m[0m
+2026-03-10T14:42:42.0137632Z [36;1mfor (const id of ollamaFeatured) { markSeen(seenOllama, id, digestDate); }[0m
+2026-03-10T14:42:42.0138176Z [36;1mfs.writeFileSync('data/seen-ollama.json', JSON.stringify(seenOllama, null, 2));[0m
+2026-03-10T14:42:42.0138567Z [36;1m[0m
+2026-03-10T14:42:42.0138877Z [36;1mfor (const id of launchesFeatured) { markSeen(seenLaunches, id, digestDate); }[0m
+2026-03-10T14:42:42.0139448Z [36;1mfs.writeFileSync('data/seen-launches.json', JSON.stringify(seenLaunches, null, 2));[0m
+2026-03-10T14:42:42.0139957Z [36;1m[0m
+2026-03-10T14:42:42.0140195Z [36;1m// ── Clean spotlight ──────────────────────────────────[0m
+2026-03-10T14:42:42.0140533Z [36;1mif (spotlight.repos.length > 0) {[0m
+2026-03-10T14:42:42.0140836Z [36;1m  spotlight.repos = spotlight.repos.filter([0m
+2026-03-10T14:42:42.0141161Z [36;1m    sr => !featured.includes(sr.full_name)[0m
+2026-03-10T14:42:42.0141418Z [36;1m  );[0m
+2026-03-10T14:42:42.0141602Z [36;1m  fs.writeFileSync([0m
+2026-03-10T14:42:42.0141834Z [36;1m    'config/spotlight.json',[0m
+2026-03-10T14:42:42.0142116Z [36;1m    JSON.stringify(spotlight, null, 2)[0m
+2026-03-10T14:42:42.0142376Z [36;1m  );[0m
+2026-03-10T14:42:42.0142538Z [36;1m}[0m
+2026-03-10T14:42:42.0142693Z [36;1m[0m
+2026-03-10T14:42:42.0142919Z [36;1m// ── Create _repos/ catalog entries ─────────────────[0m
+2026-03-10T14:42:42.0143339Z [36;1mif (!fs.existsSync('_repos')) fs.mkdirSync('_repos', { recursive: true });[0m
+2026-03-10T14:42:42.0143703Z [36;1m[0m
+2026-03-10T14:42:42.0143876Z [36;1mlet hotnessData = {};[0m
+2026-03-10T14:42:42.0144089Z [36;1mtry {[0m
+2026-03-10T14:42:42.0144395Z [36;1m  hotnessData = JSON.parse(fs.readFileSync('data/hotness.json', 'utf8'));[0m
+2026-03-10T14:42:42.0144795Z [36;1m} catch (e) { /* no hotness data */ }[0m
+2026-03-10T14:42:42.0145043Z [36;1m[0m
+2026-03-10T14:42:42.0145211Z [36;1mlet repoSlugs = 0;[0m
+2026-03-10T14:42:42.0145466Z [36;1m// GitHub repos (from sections + trending)[0m
+2026-03-10T14:42:42.0145804Z [36;1mfor (const sectionName of Object.keys(sections)) {[0m
+2026-03-10T14:42:42.0146376Z [36;1m  for (const r of sections[sectionName]) {[0m
+2026-03-10T14:42:42.0146802Z [36;1m    if (createRepoEntry(r, 'github', sectionName, blurbs, hotnessData)) repoSlugs++;[0m
+2026-03-10T14:42:42.0147201Z [36;1m  }[0m
+2026-03-10T14:42:42.0147367Z [36;1m}[0m
+2026-03-10T14:42:42.0147555Z [36;1mfor (const r of trendingOddballs) {[0m
+2026-03-10T14:42:42.0147964Z [36;1m  if (createRepoEntry(r, 'github', 'Trending', blurbs, hotnessData)) repoSlugs++;[0m
+2026-03-10T14:42:42.0148343Z [36;1m}[0m
+2026-03-10T14:42:42.0148529Z [36;1mfor (const r of trendingAlso) {[0m
+2026-03-10T14:42:42.0148920Z [36;1m  if (createRepoEntry(r, 'github', 'Trending', blurbs, hotnessData)) repoSlugs++;[0m
+2026-03-10T14:42:42.0149297Z [36;1m}[0m
+2026-03-10T14:42:42.0149461Z [36;1m// GitLab[0m
+2026-03-10T14:42:42.0149771Z [36;1mfor (const r of gitlabRepos) {[0m
+2026-03-10T14:42:42.0150285Z [36;1m  if (createRepoEntry({ ...r, full_name: r.full_name, id: r.id }, 'gitlab', 'GitLab Repos', blurbs, hotnessData)) repoSlugs++;[0m
+2026-03-10T14:42:42.0150806Z [36;1m}[0m
+2026-03-10T14:42:42.0150972Z [36;1m// Papers[0m
+2026-03-10T14:42:42.0151171Z [36;1mfor (const p of papers) {[0m
+2026-03-10T14:42:42.0151622Z [36;1m  if (createRepoEntry(p, 'paperswithcode', 'Papers to Code', blurbs, hotnessData)) repoSlugs++;[0m
+2026-03-10T14:42:42.0152064Z [36;1m}[0m
+2026-03-10T14:42:42.0152233Z [36;1m// Replicate[0m
+2026-03-10T14:42:42.0152461Z [36;1mfor (const m of replicateModels) {[0m
+2026-03-10T14:42:42.0152905Z [36;1m  if (createRepoEntry(m, 'replicate', 'Replicate Models', blurbs, hotnessData)) repoSlugs++;[0m
+2026-03-10T14:42:42.0153338Z [36;1m}[0m
+2026-03-10T14:42:42.0153502Z [36;1m// Ollama[0m
+2026-03-10T14:42:42.0153700Z [36;1mfor (const m of ollamaModels) {[0m
+2026-03-10T14:42:42.0154115Z [36;1m  if (createRepoEntry(m, 'ollama', 'Ollama Models', blurbs, hotnessData)) repoSlugs++;[0m
+2026-03-10T14:42:42.0154510Z [36;1m}[0m
+2026-03-10T14:42:42.0154676Z [36;1m// npm[0m
+2026-03-10T14:42:42.0154879Z [36;1mfor (const p of npmPkgs) {[0m
+2026-03-10T14:42:42.0155300Z [36;1m  if (createRepoEntry({ ...p, id: p.id }, 'npm', 'npm Packages', blurbs, hotnessData)) repoSlugs++;[0m
+2026-03-10T14:42:42.0155725Z [36;1m}[0m
+2026-03-10T14:42:42.0155886Z [36;1m// PyPI[0m
+2026-03-10T14:42:42.0156078Z [36;1mfor (const p of pypiPkgs) {[0m
+2026-03-10T14:42:42.0156509Z [36;1m  if (createRepoEntry({ ...p, id: p.id }, 'pypi', 'PyPI Packages', blurbs, hotnessData)) repoSlugs++;[0m
+2026-03-10T14:42:42.0156938Z [36;1m}[0m
+2026-03-10T14:42:42.0157101Z [36;1m// HuggingFace[0m
+2026-03-10T14:42:42.0157318Z [36;1mfor (const s of hfSpaces) {[0m
+2026-03-10T14:42:42.0157820Z [36;1m  if (createRepoEntry({ ...s, name: s.id }, 'huggingface-space', 'HuggingFace Spaces', blurbs, hotnessData)) repoSlugs++;[0m
+2026-03-10T14:42:42.0158331Z [36;1m}[0m
+2026-03-10T14:42:42.0158508Z [36;1mfor (const m of hfModels) {[0m
+2026-03-10T14:42:42.0159120Z [36;1m  if (createRepoEntry({ ...m, name: m.id }, 'huggingface-model', 'HuggingFace Models', blurbs, hotnessData)) repoSlugs++;[0m
+2026-03-10T14:42:42.0159833Z [36;1m}[0m
+2026-03-10T14:42:42.0160010Z [36;1mfor (const d of hfDatasets) {[0m
+2026-03-10T14:42:42.0160558Z [36;1m  if (createRepoEntry({ ...d, name: d.id }, 'huggingface-dataset', 'HuggingFace Datasets', blurbs, hotnessData)) repoSlugs++;[0m
+2026-03-10T14:42:42.0161085Z [36;1m}[0m
+2026-03-10T14:42:42.0161246Z [36;1m// Launches[0m
+2026-03-10T14:42:42.0161445Z [36;1mfor (const l of launches) {[0m
+2026-03-10T14:42:42.0161836Z [36;1m  if (createRepoEntry(l, 'launch', 'New Launches', blurbs, hotnessData)) repoSlugs++;[0m
+2026-03-10T14:42:42.0162224Z [36;1m}[0m
+2026-03-10T14:42:42.0162509Z [36;1mconsole.log(`Created/updated ${repoSlugs} _repos/ catalog entries`);[0m
+2026-03-10T14:42:42.0162864Z [36;1m[0m
+2026-03-10T14:42:42.0163085Z [36;1m// ── Write health check ──────────────────────────────[0m
+2026-03-10T14:42:42.0163463Z [36;1mhealth.sources.github.featured = featured.length;[0m
+2026-03-10T14:42:42.0163897Z [36;1mhealth.sources.huggingface.featured = hfFeatured.length;[0m
+2026-03-10T14:42:42.0164353Z [36;1mhealth.sources.replicate.featured = replicateFeatured.length;[0m
+2026-03-10T14:42:42.0164846Z [36;1mhealth.sources.paperswithcode.featured = papersFeatured.length;[0m
+2026-03-10T14:42:42.0165293Z [36;1mhealth.sources.npm.featured = npmFeatured.length;[0m
+2026-03-10T14:42:42.0165680Z [36;1mhealth.sources.pypi.featured = pypiFeatured.length;[0m
+2026-03-10T14:42:42.0166095Z [36;1mhealth.sources.gitlab.featured = gitlabFeatured.length;[0m
+2026-03-10T14:42:42.0166513Z [36;1mhealth.sources.ollama.featured = ollamaFeatured.length;[0m
+2026-03-10T14:42:42.0166952Z [36;1mhealth.sources.launches.featured = launchesFeatured.length;[0m
+2026-03-10T14:42:42.0167494Z [36;1mhealth.total_featured = featured.length + hfFeatured.length + replicateFeatured.length +[0m
+2026-03-10T14:42:42.0168064Z [36;1m  papersFeatured.length + npmFeatured.length + pypiFeatured.length +[0m
+2026-03-10T14:42:42.0168593Z [36;1m  gitlabFeatured.length + ollamaFeatured.length + launchesFeatured.length;[0m
+2026-03-10T14:42:42.0169090Z [36;1mhealth.gemini_blurbs = blurbs ? Object.keys(blurbs).length : 0;[0m
+2026-03-10T14:42:42.0183452Z [36;1m[0m
+2026-03-10T14:42:42.0183895Z [36;1mfs.writeFileSync(`data/health-${digestDate}.json`, JSON.stringify(health, null, 2));[0m
+2026-03-10T14:42:42.0184469Z [36;1mconsole.log(`Health check: ${JSON.stringify(health.sources)}`);[0m
+2026-03-10T14:42:42.0184813Z [36;1m[0m
+2026-03-10T14:42:42.0186381Z [36;1mconsole.log(`Updated seen ledgers. Total entries: GH=${Object.keys(seen.featured).length} HF=${Object.keys(seenHf.featured).length} Replicate=${Object.keys(seenReplicate.featured).length} PwC=${Object.keys(seenPwc.featured).length} npm/PyPI=${Object.keys(seenNpmPypi.featured).length} GitLab=${Object.keys(seenGitlab.featured).length} Ollama=${Object.keys(seenOllama.featured).length} Launches=${Object.keys(seenLaunches.featured).length}`);[0m
+2026-03-10T14:42:42.0188040Z [36;1m})().catch(err => {[0m
+2026-03-10T14:42:42.0188272Z [36;1m  console.error(err);[0m
+2026-03-10T14:42:42.0188497Z [36;1m  process.exit(1);[0m
+2026-03-10T14:42:42.0188705Z [36;1m});[0m
+2026-03-10T14:42:42.0188869Z [36;1mSCRIPT[0m
+2026-03-10T14:42:42.0257395Z shell: /usr/bin/bash -e {0}
+2026-03-10T14:42:42.0257659Z env:
+2026-03-10T14:42:42.0258029Z   GEMINI_API_KEY: ***
+2026-03-10T14:42:42.0258288Z ##[endgroup]
+2026-03-10T14:42:42.0682842Z Loaded hf data from hf-2026-03-10.json
+2026-03-10T14:42:42.0683700Z Loaded replicate data from replicate-2026-03-10.json
+2026-03-10T14:42:42.0685312Z Loaded paperswithcode data from paperswithcode-2026-03-10.json
+2026-03-10T14:42:42.0689747Z Loaded npm-pypi data from npm-pypi-2026-03-10.json
+2026-03-10T14:42:42.0692282Z Loaded gitlab data from gitlab-2026-03-10.json
+2026-03-10T14:42:42.0712319Z Loaded ollama data from ollama-2026-03-10.json
+2026-03-10T14:42:42.0718563Z Loaded launches data from launches-2026-03-09.json
+2026-03-10T14:42:42.0758688Z Skipping perennial mega-repo from trending: f/prompts.chat (151287★)
+2026-03-10T14:42:42.0760600Z Skipping perennial mega-repo from trending: trekhleb/javascript-algorithms (195826★)
+2026-03-10T14:42:42.0761588Z Skipping perennial mega-repo from trending: n8n-io/n8n (178489★)
+2026-03-10T14:42:42.0780059Z HuggingFace: 5 spaces, 5 models, 3 datasets
+2026-03-10T14:42:42.0780937Z Replicate: 5 models
+2026-03-10T14:42:42.0781548Z Papers with Code: 0 papers
+2026-03-10T14:42:42.0782569Z npm: 5 packages
+2026-03-10T14:42:42.0784501Z PyPI: 5 packages
+2026-03-10T14:42:42.0785031Z GitLab: 0 repos
+2026-03-10T14:42:42.0788397Z Ollama: 5 models
+2026-03-10T14:42:42.0789229Z Launches: 8 items
+2026-03-10T14:42:42.0796049Z Trying Gemini model: gemini-2.5-flash
+2026-03-10T14:43:03.1716159Z Gemini API call failed (gemini-2.5-flash): Unterminated string in JSON at position 1511
+2026-03-10T14:43:03.1718950Z Trying Gemini model: gemini-2.0-flash
+2026-03-10T14:43:03.2764346Z Gemini API error (gemini-2.0-flash): 429 Too Many Requests
+2026-03-10T14:43:03.2765098Z {
+2026-03-10T14:43:03.2765453Z   "error": {
+2026-03-10T14:43:03.2765797Z     "code": 429,
+2026-03-10T14:43:03.2771075Z     "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\nPlease retry in 56.75716017s.",
+2026-03-10T14:43:03.2775855Z     "status": "RESOURCE_EXHAUSTED",
+2026-03-10T14:43:03.2776402Z     "details": [
+2026-03-10T14:43:03.2776831Z       {
+2026-03-10T14:43:03.2777406Z         "@type": "type.googleapis.com/google.rpc.Help",
+2026-03-10T14:43:03.2777974Z         "links": [
+2026-03-10T14:43:03.2778358Z           {
+2026-03-10T14:43:03.2778920Z             "description": "Learn more about Gemini API quotas",
+2026-03-10T14:43:03.2779951Z             "url": "https://ai.google.dev/gemini-api/docs/rate-limits"
+2026-03-10T14:43:03.2780605Z           }
+2026-03-10T14:43:03.2780972Z         ]
+2026-03-10T14:43:03.2781280Z       },
+2026-03-10T14:43:03.2781615Z       {
+2026-03-10T14:43:03.2782190Z         "@type": "type.googleapis.com/google.rpc.QuotaFailure",
+2026-03-10T14:43:03.2782869Z         "violations": [
+2026-03-10T14:43:03.2783281Z           {
+2026-03-10T14:43:03.2784154Z             "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count",
+2026-03-10T14:43:03.2785396Z             "quotaId": "GenerateContentInputTokensPerModelPerMinute-FreeTier",
+2026-03-10T14:43:03.2786164Z             "quotaDimensions": {
+2026-03-10T14:43:03.2786681Z               "location": "global",
+2026-03-10T14:43:03.2787254Z               "model": "gemini-2.0-flash"
+2026-03-10T14:43:03.2787679Z             }
+2026-03-10T14:43:03.2788026Z           },
+2026-03-10T14:43:03.2788423Z           {
+2026-03-10T14:43:03.2789222Z             "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_requests",
+2026-03-10T14:43:03.2790618Z             "quotaId": "GenerateRequestsPerMinutePerProjectPerModel-FreeTier",
+2026-03-10T14:43:03.2791421Z             "quotaDimensions": {
+2026-03-10T14:43:03.2791877Z               "location": "global",
+2026-03-10T14:43:03.2792395Z               "model": "gemini-2.0-flash"
+2026-03-10T14:43:03.2792850Z             }
+2026-03-10T14:43:03.2793146Z           },
+2026-03-10T14:43:03.2793435Z           {
+2026-03-10T14:43:03.2794243Z             "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_requests",
+2026-03-10T14:43:03.2795403Z             "quotaId": "GenerateRequestsPerDayPerProjectPerModel-FreeTier",
+2026-03-10T14:43:03.2796583Z             "quotaDimensions": {
+2026-03-10T14:43:03.2797043Z               "location": "global",
+2026-03-10T14:43:03.2797573Z               "model": "gemini-2.0-flash"
+2026-03-10T14:43:03.2798031Z             }
+2026-03-10T14:43:03.2798316Z           }
+2026-03-10T14:43:03.2798636Z         ]
+2026-03-10T14:43:03.2798920Z       },
+2026-03-10T14:43:03.2799205Z       {
+2026-03-10T14:43:03.2799831Z         "@type": "type.googleapis.com/google.rpc.RetryInfo",
+2026-03-10T14:43:03.2800409Z         "retryDelay": "56s"
+2026-03-10T14:43:03.2800737Z       }
+2026-03-10T14:43:03.2800995Z     ]
+2026-03-10T14:43:03.2801296Z   }
+2026-03-10T14:43:03.2801576Z }
+2026-03-10T14:43:03.2801778Z 
+2026-03-10T14:43:03.2802468Z Created _posts/2026-03-10-github-digest.md with 19 repos + 13 HF + 28 platform items
+2026-03-10T14:43:03.2818144Z ReferenceError: digestDate is not defined
+2026-03-10T14:43:03.2820353Z     at createRepoEntry (file:///home/runner/work/VaiBReport/VaiBReport/[eval1]:307:27)
+2026-03-10T14:43:03.2821478Z     at file:///home/runner/work/VaiBReport/VaiBReport/[eval1]:877:9
+2026-03-10T14:43:03.2822470Z     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-03-10T14:43:03.2900753Z ##[error]Process completed with exit code 1.
+2026-03-10T14:43:03.3068810Z Post job cleanup.
+2026-03-10T14:43:03.4117987Z [command]/usr/bin/git version
+2026-03-10T14:43:03.4154226Z git version 2.53.0
+2026-03-10T14:43:03.4200025Z Temporarily overriding HOME='/home/runner/work/_temp/7bb380fa-ae17-4ca1-be56-b1f77e2d1dac' before making global git config changes
+2026-03-10T14:43:03.4201140Z Adding repository directory to the temporary git global config as a safe directory
+2026-03-10T14:43:03.4205419Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/VaiBReport/VaiBReport
+2026-03-10T14:43:03.4241769Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-03-10T14:43:03.4274386Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-03-10T14:43:03.4515024Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-03-10T14:43:03.4535774Z http.https://github.com/.extraheader
+2026-03-10T14:43:03.4548179Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+2026-03-10T14:43:03.4579652Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-03-10T14:43:03.4811333Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-03-10T14:43:03.4843241Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-03-10T14:43:03.5210750Z Cleaning up orphan processes
