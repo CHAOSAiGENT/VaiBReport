@@ -12,8 +12,8 @@ likes: 0
 readme_image: "https://github.com/user-attachments/assets/1d10da4a-aba9-4ac1-ab02-cd0dfce8d35b"
 og_image: "https://opengraph.githubassets.com/1/PKU-YuanGroup/Helios"
 first_featured: "2026-04-22"
-last_featured: "2026-05-20"
-times_featured: 3
+last_featured: "2026-06-03"
+times_featured: 4
 streak: 46
 appearances: 46
 star_velocity: 5

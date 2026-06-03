@@ -9,11 +9,11 @@ language: "TypeScript"
 stars: 150
 downloads: 0
 likes: 0
-readme_image: "https://github.com/user-attachments/assets/7da9ef06-cc47-4aa5-94b1-2108a302439c"
+readme_image: "https://github.com/user-attachments/assets/407a8b4e-3ba0-4ed9-ae8a-f39dee861e56"
 og_image: "https://opengraph.githubassets.com/1/choyiny/saasmail"
 first_featured: "2026-04-22"
-last_featured: "2026-05-20"
-times_featured: 3
+last_featured: "2026-06-03"
+times_featured: 4
 streak: 9
 appearances: 9
 star_velocity: 6

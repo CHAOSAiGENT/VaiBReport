@@ -12,8 +12,8 @@ likes: 0
 readme_image: "https://github.com/user-attachments/assets/107c9607-e99b-4493-b715-3e194fcb3933"
 og_image: "https://opengraph.githubassets.com/1/KlingAIResearch/ReCamMaster"
 first_featured: "2026-04-21"
-last_featured: "2026-05-20"
-times_featured: 3
+last_featured: "2026-06-03"
+times_featured: 4
 streak: 49
 appearances: 49
 star_velocity: 2

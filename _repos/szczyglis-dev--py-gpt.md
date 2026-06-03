@@ -12,8 +12,8 @@ likes: 0
 readme_image: "https://github.com/szczyglis-dev/py-gpt/raw/master/docs/source/images/v2_main.png"
 og_image: "https://opengraph.githubassets.com/1/szczyglis-dev/py-gpt"
 first_featured: "2026-04-21"
-last_featured: "2026-05-20"
-times_featured: 3
+last_featured: "2026-06-03"
+times_featured: 4
 streak: 49
 appearances: 49
 star_velocity: 1

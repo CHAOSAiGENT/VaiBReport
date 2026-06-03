@@ -7,12 +7,12 @@ description: "jat-dataset-tokenized"
 category: "HuggingFace Datasets"
 language: ""
 stars: 0
-downloads: 743500
+downloads: 756833
 likes: 0
 og_image: ""
 first_featured: "2026-05-06"
-last_featured: "2026-05-20"
-times_featured: 2
+last_featured: "2026-06-03"
+times_featured: 3
 streak: 0
 appearances: 0
 star_velocity: 0
