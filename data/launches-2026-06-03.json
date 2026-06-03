@@ -1,0 +1,114 @@
+{
+  "generated_at": "2026-06-03T11:49:25.624Z",
+  "source": "launches",
+  "counts": {
+    "producthunt": 13,
+    "total": 13
+  },
+  "launches": [
+    {
+      "id": "ph-1153634",
+      "name": "Brief",
+      "description": "Navigate your agents to product-market fit",
+      "url": "https://www.producthunt.com/r/FIAII7GV3TFM4P?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 236,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1159756",
+      "name": "InsForge Backend Branching",
+      "description": "Git style branching for your backend",
+      "url": "https://www.producthunt.com/r/QFEQQG4XV2YKOJ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 206,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1159547",
+      "name": "PawPause",
+      "description": "Lock your keyboard and prevent cats from causing chaos",
+      "url": "https://www.producthunt.com/r/K3ABT7ECQMNFDU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 142,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1161070",
+      "name": "superlog",
+      "description": "Autonomous observability tool that finds & fixes bugs",
+      "url": "https://www.producthunt.com/r/KQWSEFIXSXKGGW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 140,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1159331",
+      "name": "Enshittifier",
+      "description": "Chrome extension that replaces \"AI\" with 💩",
+      "url": "https://www.producthunt.com/r/S3YSAXE6JWY37C?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 139,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1146478",
+      "name": "Rodeo by TwelveLabs",
+      "description": "Describe your shot. Rodeo builds your first cut.",
+      "url": "https://www.producthunt.com/r/DIKJVDXPFYHT6H?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 131,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1159972",
+      "name": "choclift",
+      "description": "Use iPhone to open apps, Apple Shortcuts and websites on Mac",
+      "url": "https://www.producthunt.com/r/KI46OMTZ5VN7JA?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 120,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1161141",
+      "name": "Branda",
+      "description": "A fun new way to create & manage brands.",
+      "url": "https://www.producthunt.com/r/CN6ECHJIWDPHTY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 119,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1160971",
+      "name": "Franz 6",
+      "description": "All your messaging apps in one window — with private AI",
+      "url": "https://www.producthunt.com/r/FS4OANAZV3TTIP?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 114,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1162051",
+      "name": "Replicas",
+      "description": "Run Claude Code and Codex in the cloud",
+      "url": "https://www.producthunt.com/r/D44IQTTKSR3U2U?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 107,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1159865",
+      "name": "GlowPulse",
+      "description": "Your Mac's camera is now a heart-rate sensor",
+      "url": "https://www.producthunt.com/r/5D2VDYFG6BCL5Y?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 107,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1158104",
+      "name": "Knock agent for Slack",
+      "description": "Build, manage, and ship customer messaging from Slack",
+      "url": "https://www.producthunt.com/r/HLPDZ4CZXGT3XJ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 101,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1161963",
+      "name": "Hermes Desktop",
+      "description": "The agent that grows with you",
+      "url": "https://www.producthunt.com/r/T2RBMD4EF5MIAF?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 98,
+      "_source": "producthunt"
+    }
+  ]
+}
