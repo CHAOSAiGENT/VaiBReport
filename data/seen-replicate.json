@@ -121,8 +121,8 @@
       "last_featured": "2026-03-28"
     },
     "nelsonjchen/op-replay-clipper-beta": {
-      "times_featured": 4,
-      "last_featured": "2026-05-18"
+      "times_featured": 5,
+      "last_featured": "2026-06-04"
     },
     "prunaai/hidream-l1-fast": {
       "times_featured": 1,
@@ -531,6 +531,18 @@
     "xai/grok-imagine-video-1.5": {
       "times_featured": 1,
       "last_featured": "2026-06-01"
+    },
+    "prunaai/p-video-replace": {
+      "times_featured": 1,
+      "last_featured": "2026-06-04"
+    },
+    "ideogram-ai/ideogram-v4-quality": {
+      "times_featured": 1,
+      "last_featured": "2026-06-04"
+    },
+    "ideogram-ai/ideogram-v4-balanced": {
+      "times_featured": 1,
+      "last_featured": "2026-06-04"
     }
   }
 }

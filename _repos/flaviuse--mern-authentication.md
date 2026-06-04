@@ -11,8 +11,8 @@ downloads: 0
 likes: 0
 og_image: "https://opengraph.githubassets.com/1/flaviuse/mern-authentication"
 first_featured: "2026-03-23"
-last_featured: "2026-05-21"
-times_featured: 5
+last_featured: "2026-06-04"
+times_featured: 6
 streak: 49
 appearances: 49
 star_velocity: 0

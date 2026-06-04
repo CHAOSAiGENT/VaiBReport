@@ -3,7 +3,7 @@ layout: repo
 name: "kriasoft/react-starter-kit"
 source: github
 item_url: "https://github.com/kriasoft/react-starter-kit"
-description: "Modern React starter kit"
+description: "React starter kit with TypeScript and Cloudflare Workers"
 category: "SaaS starters and templates"
 language: "TypeScript"
 stars: 23561
@@ -12,8 +12,8 @@ likes: 0
 readme_image: "https://reactstarter.com/s/1.png"
 og_image: "https://opengraph.githubassets.com/1/kriasoft/react-starter-kit"
 first_featured: "2026-03-23"
-last_featured: "2026-05-21"
-times_featured: 5
+last_featured: "2026-06-04"
+times_featured: 6
 streak: 49
 appearances: 49
 star_velocity: 0
@@ -25,4 +25,4 @@ compare_to_source: "llm"
 compare_to_validated: false
 ---
 
-Modern React starter kit
+React starter kit with TypeScript and Cloudflare Workers

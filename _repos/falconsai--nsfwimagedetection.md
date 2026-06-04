@@ -7,12 +7,12 @@ description: "nsfw_image_detection"
 category: "HuggingFace Models"
 language: ""
 stars: 0
-downloads: 8509399
-likes: 1076
+downloads: 9022262
+likes: 1091
 og_image: ""
 first_featured: "2026-03-23"
-last_featured: "2026-05-21"
-times_featured: 5
+last_featured: "2026-06-04"
+times_featured: 6
 streak: 0
 appearances: 0
 star_velocity: 0

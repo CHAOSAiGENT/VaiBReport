@@ -7,12 +7,12 @@ description: "gpt2"
 category: "HuggingFace Models"
 language: ""
 stars: 0
-downloads: 17539076
-likes: 3251
+downloads: 15994016
+likes: 3282
 og_image: ""
 first_featured: "2026-03-24"
-last_featured: "2026-05-21"
-times_featured: 5
+last_featured: "2026-06-04"
+times_featured: 6
 streak: 0
 appearances: 0
 star_velocity: 0

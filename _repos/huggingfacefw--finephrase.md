@@ -3,16 +3,16 @@ layout: repo
 name: "HuggingFaceFW/finephrase"
 source: huggingface-dataset
 item_url: "https://huggingface.co/datasets/HuggingFaceFW/finephrase"
-description: "Text generation dataset"
+description: "finephrase"
 category: "HuggingFace Datasets"
 language: ""
 stars: 0
-downloads: 453612
+downloads: 463473
 likes: 0
 og_image: ""
 first_featured: "2026-03-30"
-last_featured: "2026-05-06"
-times_featured: 3
+last_featured: "2026-06-04"
+times_featured: 4
 streak: 0
 appearances: 0
 star_velocity: 0
@@ -21,7 +21,7 @@ icp_tags: ["founding-team", "pre-mvp"]
 replaces: []
 similar_to: []
 compare_to_source: "manual"
-compare_to_validated: true
+compare_to_validated: false
 ---
 
-Text generation dataset
+finephrase
