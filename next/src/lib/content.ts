@@ -2,10 +2,13 @@ import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
 
-/** Path to the Jekyll content root on the NAS volume */
+/**
+ * Path to the Jekyll content root (_posts, _repos, data).
+ * Defaults to the repo root (parent of next/) so builds work on any machine
+ * and in CI; override with CONTENT_ROOT when content lives elsewhere.
+ */
 const CONTENT_ROOT =
-  process.env.CONTENT_ROOT ??
-  "/Volumes/100.96.142.54/Chaos_Skunkworks/Apps/VaiBReport";
+  process.env.CONTENT_ROOT ?? path.resolve(process.cwd(), "..");
 
 // ─── Digest Posts ──────────────────────────────────
 
