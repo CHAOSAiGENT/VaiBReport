@@ -9,6 +9,9 @@ const nextConfig: NextConfig = {
   trailingSlash: true,
   // GitHub Pages can't run the Next image optimizer.
   images: { unoptimized: true },
+  // Pin the workspace root to next/ so Next doesn't walk up to the
+  // pipeline's lockfile in the repo root.
+  turbopack: { root: import.meta.dirname },
 };
 
 export default nextConfig;

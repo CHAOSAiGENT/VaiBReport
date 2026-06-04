@@ -1,0 +1,72 @@
+name: Deploy Site (Next.js)
+
+# Builds the Next.js redesign in next/ as a static export and publishes it
+# to GitHub Pages (project page: https://chaosaigent.github.io/VaiBReport).
+# Replaces the previous Jekyll deploy. Rebuilds on app changes, on new
+# content (daily digest / repo / data updates), and on manual dispatch.
+
+on:
+  workflow_run:
+    workflows: ["Generate daily digest"]
+    types: [completed]
+  push:
+    branches: [main]
+    paths:
+      - "next/**"
+      - "_posts/**"
+      - "_repos/**"
+      - "data/**"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Allow one concurrent deployment; don't cancel an in-flight publish.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    # Run for push / manual dispatch, or only when the digest run succeeded.
+    if: ${{ github.event_name == 'push' || github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success' }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: "1.2.18"
+
+      - name: Install dependencies
+        working-directory: next
+        run: bun install --frozen-lockfile
+
+      - name: Build static export
+        working-directory: next
+        env:
+          # Content (_posts, _repos, data) lives at the repo root.
+          CONTENT_ROOT: ${{ github.workspace }}
+        run: bun run build
+
+      - name: Disable Jekyll processing on Pages
+        run: touch next/out/.nojekyll
+
+      - uses: actions/configure-pages@v4
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: next/out
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
