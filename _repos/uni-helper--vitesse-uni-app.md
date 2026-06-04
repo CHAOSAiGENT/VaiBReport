@@ -12,13 +12,17 @@ likes: 0
 readme_image: "https://github.com/uni-helper/vitesse-uni-app/raw/main/.github/images/preview.png"
 og_image: "https://opengraph.githubassets.com/1/uni-helper/vitesse-uni-app"
 first_featured: "2026-04-17"
-last_featured: "2026-05-01"
-times_featured: 2
+last_featured: "2026-05-29"
+times_featured: 4
 streak: 49
 appearances: 49
 star_velocity: 0
 tags: [github, template, uni-app, uniapp, vite]
 icp_tags: ["founding-team", "solopreneur", "pre-mvp"]
+replaces: [{"name":"Vite","url":"https://vitejs.dev","note":"development server"}]
+similar_to: []
+compare_to_source: "llm"
+compare_to_validated: false
 ---
 
 Vite uni-app template

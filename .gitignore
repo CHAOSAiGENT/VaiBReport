@@ -36,3 +36,7 @@ designs-2/
 
 # Logs
 logs_*/
+
+# Next.js build artifacts
+next/.next/
+next/out/

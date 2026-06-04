@@ -1,0 +1,138 @@
+{
+  "generated_at": "2026-05-25T11:03:57.874Z",
+  "source": "launches",
+  "counts": {
+    "producthunt": 16,
+    "total": 16
+  },
+  "launches": [
+    {
+      "id": "ph-1151377",
+      "name": "Stitch 3.0 by Google",
+      "description": "Generate and iterate UI screens with AI on a live canvas",
+      "url": "https://www.producthunt.com/r/2WIQLRJ4DNSJF5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 451,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1153508",
+      "name": "ModelHub",
+      "description": "The missing menu bar app for local LLMs on Mac.",
+      "url": "https://www.producthunt.com/r/VKVZCCO3WNW46P?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 297,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1150296",
+      "name": "Freu AI",
+      "description": "Automate any Mac app with $0 recurring run cost",
+      "url": "https://www.producthunt.com/r/OOZSQ3C37HINID?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 282,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1152875",
+      "name": "Edgee Fallback Models",
+      "description": "Claude Code that never stops",
+      "url": "https://www.producthunt.com/r/NIC3RMP2EUNMB6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 177,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1140898",
+      "name": "Unabyss",
+      "description": "MCP-native self-updating context layer for your AI",
+      "url": "https://www.producthunt.com/r/3EY2VAEXSWTXAR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 163,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1154343",
+      "name": "Yansu",
+      "description": "AI that learns how you work and turns it into software",
+      "url": "https://www.producthunt.com/r/YAPEOVBKBZUMNZ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 140,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1154221",
+      "name": "DynamicNotch",
+      "description": "Dynamic island for macOS",
+      "url": "https://www.producthunt.com/r/KYKE27TJFPFYP5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 139,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1154237",
+      "name": "DockFlow",
+      "description": "Save, switch, and automate Dock layouts for every workflow",
+      "url": "https://www.producthunt.com/r/JAC6ZQ4L7XHTKA?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 129,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1145066",
+      "name": "Supaboard 3.0",
+      "description": "AI data analysts that understand your business",
+      "url": "https://www.producthunt.com/r/AV6HLWXM6B3HLF?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 124,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1153202",
+      "name": "tweet.md",
+      "description": "X posts as clean Markdown",
+      "url": "https://www.producthunt.com/r/UYSS5SCMYBD75O?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 116,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1155059",
+      "name": "Pi Coding Agent",
+      "description": "The coding-agent harness you can make your own",
+      "url": "https://www.producthunt.com/r/4RD3VQNVER7FMF?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 103,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1155045",
+      "name": "Tiny CV",
+      "description": "Resume builder that fits on one page",
+      "url": "https://www.producthunt.com/r/G3B2VM2ALKU6JE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 95,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1153173",
+      "name": "LLMTest",
+      "description": "Use the right LLMs in your apps. Setup fallbacks. Be happy.",
+      "url": "https://www.producthunt.com/r/ZTTNKFQU3IGYRA?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 91,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1153461",
+      "name": "Orchestria",
+      "description": "AI music engine with granular stem control",
+      "url": "https://www.producthunt.com/r/7LPYC7KRXCTWU3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 83,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1154500",
+      "name": "The Incident Challenge",
+      "description": "Production Debugging Games for Software Engineers",
+      "url": "https://www.producthunt.com/r/HWTVXAT7IM6D4O?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 83,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1154745",
+      "name": "tldx",
+      "description": "Fast CLI to bulk-check domains via RDAP & MCP",
+      "url": "https://www.producthunt.com/r/DS4AB4SQPQV6QL?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 80,
+      "_source": "producthunt"
+    }
+  ]
+}

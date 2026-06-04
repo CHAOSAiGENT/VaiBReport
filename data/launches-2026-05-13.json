@@ -1,0 +1,130 @@
+{
+  "generated_at": "2026-05-13T09:35:16.298Z",
+  "source": "launches",
+  "counts": {
+    "producthunt": 15,
+    "total": 15
+  },
+  "launches": [
+    {
+      "id": "ph-1139974",
+      "name": "Kelviq",
+      "description": "Payments, tax, and billing for SaaS & AI companies",
+      "url": "https://www.producthunt.com/r/F6U3WKKQYBLXSI?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 468,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1138787",
+      "name": "Open Vibe",
+      "description": "Ship your SaaS with AI, without getting stuck",
+      "url": "https://www.producthunt.com/r/74MX3XTFNJVI5S?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 280,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1142101",
+      "name": "Jotform Claude App",
+      "description": "Build, edit, and analyze forms directly in Claude",
+      "url": "https://www.producthunt.com/r/DJ3HA5PIVDFYRP?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 228,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1142848",
+      "name": "Hyperswitch Prism",
+      "description": "Library to plug-n-switch payment processors",
+      "url": "https://www.producthunt.com/r/2U7NQ3R7UBKMGD?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 217,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1144296",
+      "name": "display.dev",
+      "description": "Publish agent-generated HTML behind company auth",
+      "url": "https://www.producthunt.com/r/BBOJCGGDUUYHRO?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 168,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1144799",
+      "name": "Free AI SEO Auditor",
+      "description": "Audit your site for the AI search era. 100% Open Source",
+      "url": "https://www.producthunt.com/r/33PH5UXSNNRJ7G?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 154,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1142241",
+      "name": "HeyNews",
+      "description": "Your newsletter, your voice, ready to publish in 5 minutes",
+      "url": "https://www.producthunt.com/r/YPKKHONMNXULCE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 125,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1144488",
+      "name": "FileFlan",
+      "description": "Instant private universal file sharing",
+      "url": "https://www.producthunt.com/r/EZV4ALQI2A44AI?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 114,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1134105",
+      "name": "TrackTalent",
+      "description": "Track jobs, get matched, and land offers faster",
+      "url": "https://www.producthunt.com/r/AXDXZOZXRSLSMH?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 106,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1144858",
+      "name": "MiniCPM-V 4.6",
+      "description": "Ultra-efficient 1.3B vision-language model for mobile",
+      "url": "https://www.producthunt.com/r/5BVGOYMSA4SYFW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 100,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1144389",
+      "name": "knooth",
+      "description": "Screen recording with AI-powered editing for Mac",
+      "url": "https://www.producthunt.com/r/K5JADMCX7VIB5I?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 97,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1143628",
+      "name": "Habitvs",
+      "description": "An Apple Health companion that grows with your habits",
+      "url": "https://www.producthunt.com/r/S7572PLDTD4T4E?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 96,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1144406",
+      "name": "DeepFrame",
+      "description": "Serious security before public exposure",
+      "url": "https://www.producthunt.com/r/FBQEWECCZG4SKZ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 91,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1144683",
+      "name": "Whirr",
+      "description": "Ambient agent activity in your notch",
+      "url": "https://www.producthunt.com/r/DSKBMPE4FTZ2HO?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 88,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1143972",
+      "name": "Hopper",
+      "description": "First agentic development environment for mainframe/COBOL",
+      "url": "https://www.producthunt.com/r/DIQWATFSGWJZWB?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 88,
+      "_source": "producthunt"
+    }
+  ]
+}

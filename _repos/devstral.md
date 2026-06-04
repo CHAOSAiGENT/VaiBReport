@@ -11,8 +11,8 @@ downloads: 0
 likes: 0
 og_image: ""
 first_featured: "2026-03-25"
-last_featured: "2026-05-07"
-times_featured: 4
+last_featured: "2026-06-04"
+times_featured: 6
 streak: 0
 appearances: 0
 star_velocity: 0

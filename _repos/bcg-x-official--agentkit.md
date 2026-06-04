@@ -3,7 +3,7 @@ layout: repo
 name: "BCG-X-Official/agentkit"
 source: github
 item_url: "https://github.com/BCG-X-Official/agentkit"
-description: "Starter-kit to build constrained agents with Nextjs, FastAPI and Langchain"
+description: "Starter kit for building constrained agents with Nextjs"
 category: "AI agents, LLM infra and RAG"
 language: "TypeScript"
 stars: 1944
@@ -12,8 +12,8 @@ likes: 0
 readme_image: "https://api.star-history.com/svg?repos=BCG-X-Official/agentkit&type=Timeline"
 og_image: "https://opengraph.githubassets.com/1/BCG-X-Official/agentkit"
 first_featured: "2026-03-24"
-last_featured: "2026-05-07"
-times_featured: 4
+last_featured: "2026-06-04"
+times_featured: 6
 streak: 39
 appearances: 39
 star_velocity: 0
@@ -25,4 +25,4 @@ compare_to_source: "manual"
 compare_to_validated: false
 ---
 
-Starter-kit to build constrained agents with Nextjs, FastAPI and Langchain
+Starter kit for building constrained agents with Nextjs

@@ -1,0 +1,90 @@
+{
+  "generated_at": "2026-05-28T10:44:24.782Z",
+  "source": "launches",
+  "counts": {
+    "producthunt": 10,
+    "total": 10
+  },
+  "launches": [
+    {
+      "id": "ph-1147823",
+      "name": "Powabase",
+      "description": "Build AI apps with Postgres, RAG, and agents",
+      "url": "https://www.producthunt.com/r/6BBPF3XTDL5C2Y?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 419,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1154630",
+      "name": "Bluedot 2.1",
+      "description": "Record on Apple Watch. Sync with Claude",
+      "url": "https://www.producthunt.com/r/FBQTRS2UMIX3RW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 407,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1156593",
+      "name": "zero.xyz",
+      "description": "Give your AI agent access to ~8k tools, APIs and services",
+      "url": "https://www.producthunt.com/r/FRR5SI6KDCOK4U?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 279,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1146179",
+      "name": "Oasis Browser for Mac",
+      "description": "A privacy-first AI browser you can train anonymously",
+      "url": "https://www.producthunt.com/r/UHWTQ5ARCQU6DH?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 244,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1147138",
+      "name": "Coworker AI",
+      "description": "More AI for less spend with context-aware model routing",
+      "url": "https://www.producthunt.com/r/RDCOGEXDF5HCNW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 209,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1154329",
+      "name": "Layers",
+      "description": "Create beautiful animated code snippet videos for free",
+      "url": "https://www.producthunt.com/r/YCFWJBKFHOTBKL?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 113,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1156195",
+      "name": "Calling Skills for AI Agents",
+      "description": "Add voice and video calling via your coding agent",
+      "url": "https://www.producthunt.com/r/2ADCSZL47YHCEW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 110,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1156203",
+      "name": "Pawse.ai",
+      "description": "An acoustic regulation system for dogs",
+      "url": "https://www.producthunt.com/r/5JER2P2TRVFU6D?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 106,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1143746",
+      "name": "Krater",
+      "description": "All the AI tools you use, one subscription",
+      "url": "https://www.producthunt.com/r/AR2I67IFNJK3Q2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 101,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1153409",
+      "name": "BaseBuddy",
+      "description": "Turn your Supabase database into a WordPress-like editor",
+      "url": "https://www.producthunt.com/r/G7O4ADNKCFOUUQ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 99,
+      "_source": "producthunt"
+    }
+  ]
+}

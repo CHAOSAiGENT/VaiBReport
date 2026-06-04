@@ -7,12 +7,12 @@ description: "An HTTP(s) proxy `http.Agent` implementation for HTTPS"
 category: "npm Packages"
 language: ""
 stars: 0
-downloads: 164572130
+downloads: 210668151
 likes: 0
 og_image: ""
 first_featured: "2026-03-23"
-last_featured: "2026-05-07"
-times_featured: 4
+last_featured: "2026-06-04"
+times_featured: 6
 streak: 0
 appearances: 0
 star_velocity: 0

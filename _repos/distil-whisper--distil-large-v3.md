@@ -3,16 +3,16 @@ layout: repo
 name: "distil-whisper/distil-large-v3"
 source: huggingface-model
 item_url: "https://huggingface.co/distil-whisper/distil-large-v3"
-description: "Automatic speech recognition model"
+description: "distil-large-v3"
 category: "HuggingFace Models"
 language: ""
 stars: 0
-downloads: 1282712
+downloads: 1365999
 likes: 376
 og_image: ""
 first_featured: "2026-04-22"
-last_featured: "2026-05-06"
-times_featured: 2
+last_featured: "2026-05-20"
+times_featured: 3
 streak: 0
 appearances: 0
 star_velocity: 0
@@ -21,7 +21,7 @@ icp_tags: ["founding-team", "pre-mvp"]
 replaces: []
 similar_to: []
 compare_to_source: "manual"
-compare_to_validated: true
+compare_to_validated: false
 ---
 
-Automatic speech recognition model
+distil-large-v3

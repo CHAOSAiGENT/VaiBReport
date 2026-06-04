@@ -1,0 +1,42 @@
+{
+  "generated_at": "2026-05-18T10:57:35.214Z",
+  "source": "launches",
+  "counts": {
+    "producthunt": 4,
+    "total": 4
+  },
+  "launches": [
+    {
+      "id": "ph-1146113",
+      "name": "Vivago Video Agent",
+      "description": "Skip the prompting. Produce consistently compelling videos. ",
+      "url": "https://www.producthunt.com/r/4UYKCH63ZLBZY7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 469,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1136169",
+      "name": "Fere AI",
+      "description": "AI agents that turn signals into crypto + Polymarket trades",
+      "url": "https://www.producthunt.com/r/5IJWOH2H3DJIER?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 463,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-942860",
+      "name": "SUN-to-Spotify ",
+      "description": "Generate audio with SUN and send it to your Spotify library",
+      "url": "https://www.producthunt.com/r/ANMWQJRL3VEODH?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 332,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1144087",
+      "name": "Files SDK",
+      "description": "A unified storage SDK for object and blob backends",
+      "url": "https://www.producthunt.com/r/WCFEM6ZQGND5C5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 219,
+      "_source": "producthunt"
+    }
+  ]
+}

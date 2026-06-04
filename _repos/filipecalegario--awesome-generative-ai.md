@@ -3,7 +3,7 @@ layout: repo
 name: "filipecalegario/awesome-generative-ai"
 source: github
 item_url: "https://github.com/filipecalegario/awesome-generative-ai"
-description: "A curated list of Generative AI tools, works, models, and references"
+description: "Curated list of Generative AI tools and models"
 category: "AI agents, LLM infra and RAG"
 language: ""
 stars: 3430
@@ -12,8 +12,8 @@ likes: 0
 readme_image: "https://starchart.cc/filipecalegario/awesome-generative-ai.svg"
 og_image: "https://opengraph.githubassets.com/1/filipecalegario/awesome-generative-ai"
 first_featured: "2026-03-23"
-last_featured: "2026-05-07"
-times_featured: 4
+last_featured: "2026-06-04"
+times_featured: 6
 streak: 49
 appearances: 49
 star_velocity: 1
@@ -25,4 +25,4 @@ compare_to_source: "manual"
 compare_to_validated: false
 ---
 
-A curated list of Generative AI tools, works, models, and references
+Curated list of Generative AI tools and models

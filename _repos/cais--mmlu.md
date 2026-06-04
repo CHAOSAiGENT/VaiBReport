@@ -3,16 +3,16 @@ layout: repo
 name: "cais/mmlu"
 source: huggingface-dataset
 item_url: "https://huggingface.co/datasets/cais/mmlu"
-description: "mmlu"
+description: "Multiple-choice question answering dataset"
 category: "HuggingFace Datasets"
 language: ""
 stars: 0
-downloads: 473085
+downloads: 553464
 likes: 0
 og_image: ""
 first_featured: "2026-04-18"
-last_featured: "2026-05-02"
-times_featured: 2
+last_featured: "2026-05-31"
+times_featured: 4
 streak: 0
 appearances: 0
 star_velocity: 0
@@ -24,4 +24,4 @@ compare_to_source: "manual"
 compare_to_validated: false
 ---
 
-mmlu
+Multiple-choice question answering dataset

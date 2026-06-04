@@ -3,21 +3,25 @@ layout: repo
 name: "docling"
 source: pypi
 item_url: "https://pypi.org/project/docling/"
-description: "SDK and CLI for parsing PDF, DOCX, HTML, and more, to a unified document representation for powering downstream workflows such as gen AI applications."
+description: "SDK for document parsing"
 category: "PyPI Packages"
 language: ""
 stars: 0
-downloads: 1301640
+downloads: 1972347
 likes: 0
 og_image: ""
 first_featured: "2026-03-28"
-last_featured: "2026-04-29"
-times_featured: 3
+last_featured: "2026-05-29"
+times_featured: 5
 streak: 0
 appearances: 0
 star_velocity: 0
 tags: [pypi, convert, docling, document, docx, html, layout, model, markdown]
 icp_tags: ["founding-team", "solopreneur"]
+replaces: [{"name":"Tesseract OCR","url":"https://github.com/tesseract-ocr/tesseract","note":"OCR engine"}]
+similar_to: []
+compare_to_source: "llm"
+compare_to_validated: false
 ---
 
-SDK and CLI for parsing PDF, DOCX, HTML, and more, to a unified document representation for powering downstream workflows such as gen AI applications.
+SDK for document parsing

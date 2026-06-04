@@ -3,21 +3,25 @@ layout: repo
 name: "KingNish/OpenGPT-4o"
 source: huggingface-space
 item_url: "https://huggingface.co/spaces/KingNish/OpenGPT-4o"
-description: "An open version of GPT-4o. Test it out before committing to the real deal."
+description: "Open-source GPT-4 model"
 category: "HuggingFace Spaces"
 language: ""
 stars: 0
 downloads: 0
-likes: 4311
+likes: 4310
 og_image: "https://huggingface.co/api/spaces/KingNish/OpenGPT-4o/screenshot"
 first_featured: "2026-03-25"
-last_featured: "2026-04-25"
-times_featured: 3
+last_featured: "2026-05-23"
+times_featured: 5
 streak: 0
 appearances: 0
 star_velocity: 0
 tags: [huggingface, gradio, region:us]
 icp_tags: ["non-technical", "solopreneur", "entreprecurious"]
+replaces: []
+similar_to: []
+compare_to_source: "manual"
+compare_to_validated: false
 ---
 
-An open version of GPT-4o. Test it out before committing to the real deal.
+Open-source GPT-4 model

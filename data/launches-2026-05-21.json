@@ -1,0 +1,114 @@
+{
+  "generated_at": "2026-05-21T10:30:39.199Z",
+  "source": "launches",
+  "counts": {
+    "producthunt": 13,
+    "total": 13
+  },
+  "launches": [
+    {
+      "id": "ph-1144771",
+      "name": "StoreClaw",
+      "description": "Grow your store profits with agents that know how to sell",
+      "url": "https://www.producthunt.com/r/PVXOOJINEBKKUA?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 603,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1134267",
+      "name": "mailX by mailwarm",
+      "description": "Email deliverability toolkit for humans and AI agents",
+      "url": "https://www.producthunt.com/r/H2XLXASAORMP7Z?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 485,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1150124",
+      "name": "Emdash",
+      "description": "One app. Every coding agent. Open-source.",
+      "url": "https://www.producthunt.com/r/U7NUCTTEX6BM3I?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 362,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1151095",
+      "name": "Gemini Omni",
+      "description": "Create anything from any input – starting with video",
+      "url": "https://www.producthunt.com/r/ENOAWGG27PYBQE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 341,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1151120",
+      "name": "Runtime",
+      "description": "Sandboxed coding agents for everyone on your team",
+      "url": "https://www.producthunt.com/r/TOZOGOJYMEHTNQ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 260,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1146902",
+      "name": "Re_gent",
+      "description": "Version Control for AI agent Activity",
+      "url": "https://www.producthunt.com/r/YYIC7WP7TME3QF?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 161,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1150811",
+      "name": "Supercut for Agents",
+      "description": "Permission-aware AI access to recordings and metadata",
+      "url": "https://www.producthunt.com/r/IMCJSAWBQKCT3R?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 147,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1150068",
+      "name": "Manus Scheduled Tasks 2.0 ",
+      "description": "Run recurring Manus work inside the same task context",
+      "url": "https://www.producthunt.com/r/MGXUKSO7J5UVRJ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 140,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1150430",
+      "name": "Viberia",
+      "description": "Command AI agents like you're playing Civilization",
+      "url": "https://www.producthunt.com/r/EQOGZXTYHXDDA2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 137,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1150840",
+      "name": "Glia",
+      "description": "Local-first AI memory bridge between browser chats and IDEs",
+      "url": "https://www.producthunt.com/r/ZJAI6VMV2IIXAG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 102,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1150627",
+      "name": "Owlish",
+      "description": "Reduce support volume with AI agents trained on your docs",
+      "url": "https://www.producthunt.com/r/V4HSR6OBJZKCT6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 102,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1150797",
+      "name": "GhostSnap",
+      "description": "Multiple screenshots - Single paste - Auto compressed for AI",
+      "url": "https://www.producthunt.com/r/MDGMERPU35FMB5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 98,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1143265",
+      "name": "Contextberg",
+      "description": "Turn your work into AI agent memory, served over MCP",
+      "url": "https://www.producthunt.com/r/GJQVZJRTUERLY7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 95,
+      "_source": "producthunt"
+    }
+  ]
+}

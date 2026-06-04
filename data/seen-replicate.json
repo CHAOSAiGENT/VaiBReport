@@ -1,8 +1,8 @@
 {
   "featured": {
     "prunaai/p-image-edit": {
-      "times_featured": 2,
-      "last_featured": "2026-04-24"
+      "times_featured": 3,
+      "last_featured": "2026-05-28"
     },
     "black-forest-labs/flux-2-pro": {
       "times_featured": 2,
@@ -69,8 +69,8 @@
       "last_featured": "2026-04-09"
     },
     "qwen/qwen3-tts": {
-      "times_featured": 2,
-      "last_featured": "2026-04-10"
+      "times_featured": 4,
+      "last_featured": "2026-05-23"
     },
     "prunaai/firered-image-edit-1.1": {
       "times_featured": 1,
@@ -81,16 +81,16 @@
       "last_featured": "2026-03-26"
     },
     "bytedance/seedream-4.5": {
-      "times_featured": 2,
-      "last_featured": "2026-04-10"
+      "times_featured": 3,
+      "last_featured": "2026-06-01"
     },
     "lucataco/sam3-video": {
       "times_featured": 2,
       "last_featured": "2026-04-12"
     },
     "nelsonjchen/op-replay-clipper": {
-      "times_featured": 3,
-      "last_featured": "2026-04-26"
+      "times_featured": 5,
+      "last_featured": "2026-05-26"
     },
     "xai/grok-imagine-r2v": {
       "times_featured": 1,
@@ -121,8 +121,8 @@
       "last_featured": "2026-03-28"
     },
     "nelsonjchen/op-replay-clipper-beta": {
-      "times_featured": 3,
-      "last_featured": "2026-05-04"
+      "times_featured": 5,
+      "last_featured": "2026-06-04"
     },
     "prunaai/hidream-l1-fast": {
       "times_featured": 1,
@@ -153,16 +153,16 @@
       "last_featured": "2026-04-11"
     },
     "bytedance/seedance-2.0": {
-      "times_featured": 2,
-      "last_featured": "2026-04-25"
+      "times_featured": 3,
+      "last_featured": "2026-06-01"
     },
     "wan-video/wan-2.7-image-pro": {
       "times_featured": 1,
       "last_featured": "2026-04-12"
     },
     "prunaai/p-image-upscale": {
-      "times_featured": 2,
-      "last_featured": "2026-04-26"
+      "times_featured": 3,
+      "last_featured": "2026-05-10"
     },
     "google/veo-3.1-lite": {
       "times_featured": 1,
@@ -345,8 +345,8 @@
       "last_featured": "2026-04-29"
     },
     "prunaai/p-video-avatar": {
-      "times_featured": 1,
-      "last_featured": "2026-04-30"
+      "times_featured": 3,
+      "last_featured": "2026-05-29"
     },
     "topogoogles/topogoogles5": {
       "times_featured": 1,
@@ -369,44 +369,180 @@
       "last_featured": "2026-05-04"
     },
     "deepseek-ai/deepseek-v3": {
-      "times_featured": 1,
-      "last_featured": "2026-05-06"
+      "times_featured": 2,
+      "last_featured": "2026-05-20"
     },
     "meta/llama-4-maverick-instruct": {
-      "times_featured": 1,
-      "last_featured": "2026-05-06"
+      "times_featured": 2,
+      "last_featured": "2026-05-20"
     },
     "meta/llama-4-scout-instruct": {
-      "times_featured": 1,
-      "last_featured": "2026-05-06"
+      "times_featured": 2,
+      "last_featured": "2026-05-20"
     },
     "deepseek-ai/deepseek-r1": {
-      "times_featured": 1,
-      "last_featured": "2026-05-06"
+      "times_featured": 2,
+      "last_featured": "2026-05-20"
     },
     "qwen/qwen3-235b-a22b-instruct-2507": {
-      "times_featured": 1,
-      "last_featured": "2026-05-06"
+      "times_featured": 2,
+      "last_featured": "2026-05-20"
     },
     "deepseek-ai/deepseek-v3.1": {
-      "times_featured": 1,
-      "last_featured": "2026-05-07"
+      "times_featured": 2,
+      "last_featured": "2026-05-21"
     },
     "openai/gpt-oss-20b": {
-      "times_featured": 1,
-      "last_featured": "2026-05-07"
+      "times_featured": 2,
+      "last_featured": "2026-05-21"
     },
     "openai/gpt-oss-120b": {
-      "times_featured": 1,
-      "last_featured": "2026-05-07"
+      "times_featured": 2,
+      "last_featured": "2026-05-21"
     },
     "xai/grok-4": {
       "times_featured": 1,
       "last_featured": "2026-05-07"
     },
     "meta/llama-guard-4-12b": {
+      "times_featured": 2,
+      "last_featured": "2026-05-21"
+    },
+    "sync/lipsync-2-pro": {
+      "times_featured": 2,
+      "last_featured": "2026-05-22"
+    },
+    "moonshotai/kimi-k2-thinking": {
+      "times_featured": 2,
+      "last_featured": "2026-05-22"
+    },
+    "philz1337x/clarity-pro-upscaler": {
       "times_featured": 1,
-      "last_featured": "2026-05-07"
+      "last_featured": "2026-05-08"
+    },
+    "xai/grok-imagine-image-quality": {
+      "times_featured": 2,
+      "last_featured": "2026-05-22"
+    },
+    "inworld/realtime-tts-2": {
+      "times_featured": 1,
+      "last_featured": "2026-05-08"
+    },
+    "prunaai/p-image": {
+      "times_featured": 2,
+      "last_featured": "2026-05-23"
+    },
+    "ibm-granite/granite-4.1-8b": {
+      "times_featured": 2,
+      "last_featured": "2026-05-23"
+    },
+    "lucataco/glm-ocr": {
+      "times_featured": 1,
+      "last_featured": "2026-05-09"
+    },
+    "prunaai/z-image-turbo": {
+      "times_featured": 1,
+      "last_featured": "2026-05-11"
+    },
+    "victor-upmeet/whisperx": {
+      "times_featured": 1,
+      "last_featured": "2026-05-13"
+    },
+    "victor-upmeet/whisperx-a40-large": {
+      "times_featured": 1,
+      "last_featured": "2026-05-13"
+    },
+    "prunaai/z-image-turbo-img2img": {
+      "times_featured": 1,
+      "last_featured": "2026-05-13"
+    },
+    "elevenlabs/scribe-v2": {
+      "times_featured": 1,
+      "last_featured": "2026-05-13"
+    },
+    "recraft-ai/recraft-v4.1": {
+      "times_featured": 1,
+      "last_featured": "2026-05-15"
+    },
+    "recraft-ai/recraft-v4.1-pro": {
+      "times_featured": 1,
+      "last_featured": "2026-05-16"
+    },
+    "recraft-ai/recraft-v4.1-svg": {
+      "times_featured": 1,
+      "last_featured": "2026-05-16"
+    },
+    "ibm-granite/granite-vision-4.1-4b": {
+      "times_featured": 2,
+      "last_featured": "2026-06-02"
+    },
+    "recraft-ai/recraft-v4.1-utility-pro": {
+      "times_featured": 1,
+      "last_featured": "2026-05-19"
+    },
+    "recraft-ai/recraft-v4.1-pro-svg": {
+      "times_featured": 1,
+      "last_featured": "2026-05-19"
+    },
+    "google/gemini-3.5-flash": {
+      "times_featured": 1,
+      "last_featured": "2026-05-21"
+    },
+    "google/gemini-3-pro": {
+      "times_featured": 1,
+      "last_featured": "2026-05-22"
+    },
+    "google/gemini-3.1-pro": {
+      "times_featured": 1,
+      "last_featured": "2026-05-22"
+    },
+    "bytedance/seedance-1-lite": {
+      "times_featured": 1,
+      "last_featured": "2026-05-23"
+    },
+    "mptamilselvan/download-media": {
+      "times_featured": 1,
+      "last_featured": "2026-05-23"
+    },
+    "google/gemini-3-flash": {
+      "times_featured": 1,
+      "last_featured": "2026-05-26"
+    },
+    "arsocekaj/anime-sdxl-v17": {
+      "times_featured": 1,
+      "last_featured": "2026-05-26"
+    },
+    "prunaai/p-video-animate": {
+      "times_featured": 1,
+      "last_featured": "2026-05-28"
+    },
+    "anthropic/claude-sonnet-4.6": {
+      "times_featured": 1,
+      "last_featured": "2026-05-28"
+    },
+    "krea/krea-2-medium": {
+      "times_featured": 1,
+      "last_featured": "2026-05-29"
+    },
+    "krea/krea-2-large": {
+      "times_featured": 1,
+      "last_featured": "2026-05-29"
+    },
+    "xai/grok-imagine-video-1.5": {
+      "times_featured": 1,
+      "last_featured": "2026-06-01"
+    },
+    "prunaai/p-video-replace": {
+      "times_featured": 1,
+      "last_featured": "2026-06-04"
+    },
+    "ideogram-ai/ideogram-v4-quality": {
+      "times_featured": 1,
+      "last_featured": "2026-06-04"
+    },
+    "ideogram-ai/ideogram-v4-balanced": {
+      "times_featured": 1,
+      "last_featured": "2026-06-04"
     }
   }
 }

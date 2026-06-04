@@ -3,21 +3,25 @@ layout: repo
 name: "reliverse/relivator"
 source: github
 item_url: "https://github.com/reliverse/relivator"
-description: "Next.js e-commerce template with auth and payments."
+description: "Ecommerce template for Next.js"
 category: "SaaS starters and templates"
 language: "TypeScript"
-stars: 1549
+stars: 1552
 downloads: 0
 likes: 0
 og_image: "https://opengraph.githubassets.com/1/reliverse/relivator"
 first_featured: "2026-03-27"
-last_featured: "2026-04-27"
-times_featured: 3
-streak: 46
-appearances: 46
-star_velocity: 0
+last_featured: "2026-05-25"
+times_featured: 5
+streak: 49
+appearances: 49
+star_velocity: 1
 tags: [github, drizzle-orm, e-commerce, ecommerce, next-auth, nextauthjs, nextjs, nextjs-boilerplate, nextjs-example]
 icp_tags: ["founding-team", "solopreneur", "pre-mvp"]
+replaces: [{"name":"Shopify","url":"https://www.shopify.com"},{"name":"Saleor","url":"https://saleor.io"}]
+similar_to: []
+compare_to_source: "llm"
+compare_to_validated: false
 ---
 
-Next.js e-commerce template with auth and payments.
+Ecommerce template for Next.js

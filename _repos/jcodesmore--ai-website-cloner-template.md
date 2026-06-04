@@ -3,22 +3,26 @@ layout: repo
 name: "JCodesMore/ai-website-cloner-template"
 source: github
 item_url: "https://github.com/JCodesMore/ai-website-cloner-template"
-description: "Clone any website with a single command using AI agents for quick prototyping."
+description: "Clone websites with AI coding agents"
 category: "AI agents, LLM infra and RAG"
 language: "TypeScript"
-stars: 12540
+stars: 13563
 downloads: 0
 likes: 0
 readme_image: "https://youtu.be/O669pVZ_qr0"
 og_image: "https://opengraph.githubassets.com/1/JCodesMore/ai-website-cloner-template"
 first_featured: "2026-03-29"
-last_featured: "2026-04-26"
-times_featured: 3
-streak: 22
-appearances: 22
-star_velocity: 86
+last_featured: "2026-05-24"
+times_featured: 5
+streak: 26
+appearances: 26
+star_velocity: 179
 tags: [github, ai, ai-agents, ai-tools, automation, boilerplate, claude, claude-code, clone]
 icp_tags: ["founding-team", "pre-mvp", "entreprecurious"]
+replaces: []
+similar_to: []
+compare_to_source: "manual"
+compare_to_validated: false
 ---
 
-Clone any website with a single command using AI agents for quick prototyping.
+Clone websites with AI coding agents

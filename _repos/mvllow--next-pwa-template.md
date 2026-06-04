@@ -12,13 +12,17 @@ likes: 0
 readme_image: "https://github.com/mvllow/next-pwa-template/assets/1474821/889bef1b-af58-4efa-b1f3-3ea021ec9760"
 og_image: "https://opengraph.githubassets.com/1/mvllow/next-pwa-template"
 first_featured: "2026-04-17"
-last_featured: "2026-05-01"
-times_featured: 2
+last_featured: "2026-05-29"
+times_featured: 4
 streak: 49
 appearances: 49
 star_velocity: 0
 tags: [github, eslint, nextjs, prettier, pwa, react, tailwindcss, template, typescript]
 icp_tags: ["founding-team", "solopreneur", "pre-mvp"]
+replaces: [{"name":"PWA Builder","url":"https://www.pwabuilder.com","note":"PWA toolkit"}]
+similar_to: []
+compare_to_source: "llm"
+compare_to_validated: false
 ---
 
 Next.js PWA template

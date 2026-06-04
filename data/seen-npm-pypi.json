@@ -1,256 +1,256 @@
 {
   "featured": {
     "npm-agent-base": {
-      "times_featured": 4,
-      "last_featured": "2026-05-07"
+      "times_featured": 6,
+      "last_featured": "2026-06-04"
     },
     "npm-https-proxy-agent": {
-      "times_featured": 4,
-      "last_featured": "2026-05-07"
+      "times_featured": 6,
+      "last_featured": "2026-06-04"
     },
     "npm-telecom-mas-agent": {
       "times_featured": 4,
       "last_featured": "2026-05-07"
     },
     "npm-http-proxy-agent": {
-      "times_featured": 4,
-      "last_featured": "2026-05-07"
+      "times_featured": 6,
+      "last_featured": "2026-06-04"
     },
     "npm-socks-proxy-agent": {
-      "times_featured": 4,
-      "last_featured": "2026-05-07"
+      "times_featured": 6,
+      "last_featured": "2026-06-04"
     },
     "pypi-pydantic": {
-      "times_featured": 3,
-      "last_featured": "2026-04-24"
+      "times_featured": 5,
+      "last_featured": "2026-05-23"
     },
     "pypi-fastapi": {
-      "times_featured": 3,
-      "last_featured": "2026-04-24"
+      "times_featured": 5,
+      "last_featured": "2026-05-23"
     },
     "pypi-langchain": {
-      "times_featured": 3,
-      "last_featured": "2026-04-26"
+      "times_featured": 5,
+      "last_featured": "2026-05-24"
     },
     "pypi-openai": {
-      "times_featured": 3,
-      "last_featured": "2026-04-24"
+      "times_featured": 5,
+      "last_featured": "2026-05-22"
     },
     "pypi-tokenizers": {
-      "times_featured": 3,
-      "last_featured": "2026-04-25"
+      "times_featured": 5,
+      "last_featured": "2026-05-23"
     },
     "npm-proxy-agent": {
-      "times_featured": 3,
-      "last_featured": "2026-04-24"
+      "times_featured": 5,
+      "last_featured": "2026-05-22"
     },
     "npm-pac-proxy-agent": {
-      "times_featured": 3,
-      "last_featured": "2026-04-24"
+      "times_featured": 5,
+      "last_featured": "2026-05-22"
     },
     "npm-superagent": {
-      "times_featured": 3,
-      "last_featured": "2026-04-24"
+      "times_featured": 5,
+      "last_featured": "2026-05-22"
     },
     "npm-puppeteer-core": {
-      "times_featured": 3,
-      "last_featured": "2026-04-24"
+      "times_featured": 5,
+      "last_featured": "2026-05-22"
     },
     "npm-puppeteer": {
-      "times_featured": 3,
-      "last_featured": "2026-04-24"
+      "times_featured": 5,
+      "last_featured": "2026-05-22"
     },
     "pypi-transformers": {
-      "times_featured": 3,
-      "last_featured": "2026-04-26"
+      "times_featured": 5,
+      "last_featured": "2026-05-24"
     },
     "pypi-anthropic": {
-      "times_featured": 3,
-      "last_featured": "2026-04-26"
+      "times_featured": 5,
+      "last_featured": "2026-05-24"
     },
     "pypi-datasets": {
-      "times_featured": 3,
-      "last_featured": "2026-04-26"
+      "times_featured": 5,
+      "last_featured": "2026-05-24"
     },
     "pypi-playwright": {
-      "times_featured": 4,
-      "last_featured": "2026-05-07"
+      "times_featured": 5,
+      "last_featured": "2026-05-23"
     },
     "pypi-weaviate-client": {
-      "times_featured": 3,
-      "last_featured": "2026-04-24"
+      "times_featured": 5,
+      "last_featured": "2026-05-23"
     },
     "npm-cypress": {
-      "times_featured": 3,
-      "last_featured": "2026-04-25"
+      "times_featured": 5,
+      "last_featured": "2026-05-23"
     },
     "npm-global-agent": {
-      "times_featured": 3,
-      "last_featured": "2026-04-25"
+      "times_featured": 5,
+      "last_featured": "2026-05-23"
     },
     "npm-@opentelemetry/instrumentation-openai": {
-      "times_featured": 3,
-      "last_featured": "2026-04-27"
+      "times_featured": 5,
+      "last_featured": "2026-05-30"
     },
     "npm-selenium-webdriver": {
-      "times_featured": 3,
-      "last_featured": "2026-04-25"
+      "times_featured": 5,
+      "last_featured": "2026-05-23"
     },
     "npm-@appium/support": {
-      "times_featured": 3,
-      "last_featured": "2026-04-26"
+      "times_featured": 5,
+      "last_featured": "2026-05-24"
     },
     "pypi-litellm": {
-      "times_featured": 3,
-      "last_featured": "2026-04-25"
+      "times_featured": 5,
+      "last_featured": "2026-05-24"
     },
     "pypi-sentence-transformers": {
-      "times_featured": 3,
-      "last_featured": "2026-04-24"
+      "times_featured": 5,
+      "last_featured": "2026-05-22"
     },
     "pypi-streamlit": {
-      "times_featured": 3,
-      "last_featured": "2026-04-27"
+      "times_featured": 5,
+      "last_featured": "2026-05-28"
     },
     "pypi-accelerate": {
-      "times_featured": 3,
-      "last_featured": "2026-04-27"
+      "times_featured": 5,
+      "last_featured": "2026-05-27"
     },
     "pypi-cohere": {
-      "times_featured": 3,
-      "last_featured": "2026-04-27"
+      "times_featured": 5,
+      "last_featured": "2026-05-28"
     },
     "npm-semantic-release": {
-      "times_featured": 3,
-      "last_featured": "2026-04-25"
+      "times_featured": 5,
+      "last_featured": "2026-05-23"
     },
     "npm-@appium/schema": {
-      "times_featured": 3,
-      "last_featured": "2026-04-30"
+      "times_featured": 5,
+      "last_featured": "2026-05-28"
     },
     "npm-agent-browser": {
       "times_featured": 1,
       "last_featured": "2026-03-26"
     },
     "npm-@genkit-ai/core": {
-      "times_featured": 3,
-      "last_featured": "2026-04-26"
+      "times_featured": 5,
+      "last_featured": "2026-05-24"
     },
     "npm-@genkit-ai/ai": {
-      "times_featured": 3,
-      "last_featured": "2026-04-26"
+      "times_featured": 5,
+      "last_featured": "2026-05-24"
     },
     "pypi-mistralai": {
-      "times_featured": 3,
-      "last_featured": "2026-04-26"
+      "times_featured": 5,
+      "last_featured": "2026-05-28"
     },
     "pypi-gradio": {
-      "times_featured": 3,
-      "last_featured": "2026-04-28"
+      "times_featured": 5,
+      "last_featured": "2026-05-28"
     },
     "pypi-groq": {
-      "times_featured": 3,
-      "last_featured": "2026-04-25"
+      "times_featured": 5,
+      "last_featured": "2026-05-28"
     },
     "pypi-ollama": {
-      "times_featured": 3,
-      "last_featured": "2026-04-28"
+      "times_featured": 5,
+      "last_featured": "2026-05-27"
     },
     "pypi-chromadb": {
-      "times_featured": 3,
-      "last_featured": "2026-04-28"
+      "times_featured": 5,
+      "last_featured": "2026-05-29"
     },
     "npm-genkit": {
-      "times_featured": 3,
-      "last_featured": "2026-04-26"
+      "times_featured": 5,
+      "last_featured": "2026-05-24"
     },
     "npm-@genkit-ai/firebase": {
-      "times_featured": 3,
-      "last_featured": "2026-04-26"
+      "times_featured": 5,
+      "last_featured": "2026-05-24"
     },
     "npm-@genkit-ai/google-cloud": {
-      "times_featured": 3,
-      "last_featured": "2026-04-27"
+      "times_featured": 5,
+      "last_featured": "2026-05-25"
     },
     "npm-@genkit-ai/google-genai": {
-      "times_featured": 3,
-      "last_featured": "2026-04-28"
+      "times_featured": 5,
+      "last_featured": "2026-05-26"
     },
     "npm-genkit-cli": {
-      "times_featured": 3,
-      "last_featured": "2026-04-28"
+      "times_featured": 5,
+      "last_featured": "2026-05-26"
     },
     "pypi-qdrant-client": {
-      "times_featured": 3,
-      "last_featured": "2026-04-27"
+      "times_featured": 5,
+      "last_featured": "2026-05-27"
     },
     "pypi-llama-index": {
-      "times_featured": 3,
-      "last_featured": "2026-04-28"
+      "times_featured": 5,
+      "last_featured": "2026-05-27"
     },
     "pypi-instructor": {
-      "times_featured": 3,
-      "last_featured": "2026-04-28"
+      "times_featured": 5,
+      "last_featured": "2026-05-27"
     },
     "pypi-vllm": {
-      "times_featured": 3,
-      "last_featured": "2026-04-29"
+      "times_featured": 5,
+      "last_featured": "2026-05-29"
     },
     "pypi-diffusers": {
-      "times_featured": 3,
-      "last_featured": "2026-04-30"
+      "times_featured": 5,
+      "last_featured": "2026-05-30"
     },
     "npm-@genkit-ai/telemetry-server": {
-      "times_featured": 3,
-      "last_featured": "2026-04-28"
+      "times_featured": 5,
+      "last_featured": "2026-05-26"
     },
     "npm-repomix": {
-      "times_featured": 3,
-      "last_featured": "2026-04-29"
+      "times_featured": 5,
+      "last_featured": "2026-05-27"
     },
     "npm-@genkit-ai/next": {
-      "times_featured": 3,
-      "last_featured": "2026-04-29"
+      "times_featured": 5,
+      "last_featured": "2026-05-27"
     },
     "npm-@genkit-ai/vertexai": {
-      "times_featured": 3,
-      "last_featured": "2026-04-29"
+      "times_featured": 5,
+      "last_featured": "2026-05-28"
     },
     "npm-@google/stitch-sdk": {
-      "times_featured": 3,
-      "last_featured": "2026-04-29"
+      "times_featured": 5,
+      "last_featured": "2026-05-27"
     },
     "pypi-crewai": {
-      "times_featured": 3,
-      "last_featured": "2026-04-29"
+      "times_featured": 5,
+      "last_featured": "2026-05-29"
     },
     "pypi-docling": {
-      "times_featured": 3,
-      "last_featured": "2026-04-29"
+      "times_featured": 5,
+      "last_featured": "2026-05-29"
     },
     "pypi-together": {
-      "times_featured": 3,
-      "last_featured": "2026-04-27"
+      "times_featured": 5,
+      "last_featured": "2026-05-31"
     },
     "pypi-unstructured": {
-      "times_featured": 3,
-      "last_featured": "2026-04-29"
+      "times_featured": 5,
+      "last_featured": "2026-05-29"
     },
     "pypi-agno": {
-      "times_featured": 3,
-      "last_featured": "2026-04-29"
+      "times_featured": 5,
+      "last_featured": "2026-05-31"
     },
     "npm-scrivito": {
-      "times_featured": 3,
-      "last_featured": "2026-04-30"
+      "times_featured": 5,
+      "last_featured": "2026-05-29"
     },
     "npm-@m2d/core": {
       "times_featured": 2,
       "last_featured": "2026-04-16"
     },
     "npm-@genkit-ai/compat-oai": {
-      "times_featured": 3,
-      "last_featured": "2026-04-30"
+      "times_featured": 5,
+      "last_featured": "2026-05-28"
     },
     "npm-@m2d/html": {
       "times_featured": 2,
@@ -261,104 +261,104 @@
       "last_featured": "2026-04-16"
     },
     "pypi-dspy-ai": {
-      "times_featured": 3,
-      "last_featured": "2026-05-02"
+      "times_featured": 5,
+      "last_featured": "2026-05-30"
     },
     "pypi-Crawl4AI": {
-      "times_featured": 3,
-      "last_featured": "2026-05-01"
+      "times_featured": 5,
+      "last_featured": "2026-05-30"
     },
     "pypi-outlines": {
-      "times_featured": 3,
-      "last_featured": "2026-05-01"
+      "times_featured": 5,
+      "last_featured": "2026-05-30"
     },
     "pypi-pinecone-client": {
-      "times_featured": 3,
-      "last_featured": "2026-04-30"
+      "times_featured": 5,
+      "last_featured": "2026-05-30"
     },
     "pypi-replicate": {
-      "times_featured": 3,
-      "last_featured": "2026-05-01"
+      "times_featured": 5,
+      "last_featured": "2026-05-31"
     },
     "npm-@appium/types": {
-      "times_featured": 3,
-      "last_featured": "2026-04-29"
+      "times_featured": 5,
+      "last_featured": "2026-05-27"
     },
     "npm-@appium/logger": {
-      "times_featured": 2,
-      "last_featured": "2026-04-13"
+      "times_featured": 4,
+      "last_featured": "2026-05-28"
     },
     "npm-@applitools/utils": {
       "times_featured": 1,
       "last_featured": "2026-03-30"
     },
     "npm-genkitx-openai": {
-      "times_featured": 3,
-      "last_featured": "2026-05-01"
+      "times_featured": 5,
+      "last_featured": "2026-05-29"
     },
     "npm-genkitx-anthropic": {
-      "times_featured": 3,
-      "last_featured": "2026-05-01"
+      "times_featured": 5,
+      "last_featured": "2026-05-29"
     },
     "pypi-marvin": {
-      "times_featured": 3,
-      "last_featured": "2026-04-30"
+      "times_featured": 5,
+      "last_featured": "2026-06-01"
     },
     "pypi-smolagents": {
-      "times_featured": 2,
-      "last_featured": "2026-05-02"
+      "times_featured": 4,
+      "last_featured": "2026-05-31"
     },
     "npm-@appium/base-driver": {
-      "times_featured": 2,
-      "last_featured": "2026-04-30"
+      "times_featured": 4,
+      "last_featured": "2026-05-28"
     },
     "npm-@appium/tsconfig": {
-      "times_featured": 2,
-      "last_featured": "2026-04-28"
+      "times_featured": 4,
+      "last_featured": "2026-05-26"
     },
     "npm-@appium/base-plugin": {
-      "times_featured": 2,
-      "last_featured": "2026-04-28"
+      "times_featured": 4,
+      "last_featured": "2026-06-02"
     },
     "pypi-firecrawl": {
-      "times_featured": 2,
-      "last_featured": "2026-04-30"
+      "times_featured": 4,
+      "last_featured": "2026-05-31"
     },
     "pypi-autogen": {
-      "times_featured": 2,
-      "last_featured": "2026-05-04"
+      "times_featured": 4,
+      "last_featured": "2026-06-02"
     },
     "pypi-guidance": {
-      "times_featured": 2,
-      "last_featured": "2026-05-01"
+      "times_featured": 4,
+      "last_featured": "2026-06-02"
     },
     "pypi-Swarm": {
       "times_featured": 2,
       "last_featured": "2026-05-01"
     },
     "npm-genkitx-azure-openai": {
-      "times_featured": 2,
-      "last_featured": "2026-05-01"
+      "times_featured": 4,
+      "last_featured": "2026-05-29"
     },
     "npm-ai-sdk-provider-gemini-cli": {
-      "times_featured": 2,
-      "last_featured": "2026-05-01"
+      "times_featured": 3,
+      "last_featured": "2026-05-15"
     },
     "npm-genkitx-aws-bedrock": {
-      "times_featured": 2,
-      "last_featured": "2026-05-01"
+      "times_featured": 4,
+      "last_featured": "2026-05-29"
     },
     "npm-@cdklabs/generative-ai-cdk-constructs": {
-      "times_featured": 2,
-      "last_featured": "2026-05-02"
+      "times_featured": 4,
+      "last_featured": "2026-05-30"
     },
     "pypi-phidata": {
-      "times_featured": 2,
-      "last_featured": "2026-05-02"
+      "times_featured": 4,
+      "last_featured": "2026-06-01"
     },
     "npm-neo.mjs": {
-      "times_featured": 2,
-      "last_featured": "2026-05-02"
+      "times_featured": 3,
+      "last_featured": "2026-05-16"
     },
     "npm-@whiskeysockets/baileys": {
       "times_featured": 1,
@@ -369,16 +369,36 @@
       "last_featured": "2026-04-30"
     },
     "npm-appium": {
-      "times_featured": 1,
-      "last_featured": "2026-05-04"
+      "times_featured": 2,
+      "last_featured": "2026-05-19"
     },
     "npm-@appium/docutils": {
       "times_featured": 1,
       "last_featured": "2026-05-06"
     },
     "npm-@promptbook/anthropic-claude": {
+      "times_featured": 3,
+      "last_featured": "2026-06-03"
+    },
+    "npm-@promptbook/vercel": {
+      "times_featured": 2,
+      "last_featured": "2026-06-02"
+    },
+    "npm-@genkit-ai/anthropic": {
+      "times_featured": 2,
+      "last_featured": "2026-06-03"
+    },
+    "npm-@tanstack/ai": {
       "times_featured": 1,
-      "last_featured": "2026-05-06"
+      "last_featured": "2026-05-23"
+    },
+    "npm-@tanstack/ai-client": {
+      "times_featured": 1,
+      "last_featured": "2026-05-25"
+    },
+    "npm-@tanstack/ai-openrouter": {
+      "times_featured": 1,
+      "last_featured": "2026-05-25"
     }
   }
 }

@@ -3,21 +3,26 @@ layout: repo
 name: "microsoft/qlib"
 source: github
 item_url: "https://github.com/microsoft/qlib"
-description: "Microsoft's AI-powered Quant investment platform; for serious financial modeling."
-category: "Trending"
+description: "AI quant investment platform"
+category: "AI agents, LLM infra and RAG"
 language: "Python"
-stars: 41584
+stars: 41710
 downloads: 0
 likes: 0
+readme_image: "https://readthedocs.org/projects/qlib/badge/?version=latest"
 og_image: "https://opengraph.githubassets.com/1/microsoft/qlib"
 first_featured: "2026-03-30"
-last_featured: "2026-04-30"
-times_featured: 3
-streak: 1
-appearances: 9
-star_velocity: 0
+last_featured: "2026-05-28"
+times_featured: 5
+streak: 2
+appearances: 10
+star_velocity: 126
 tags: [github]
-icp_tags: ["founding-team", "entreprecurious"]
+icp_tags: ["founding-team", "pre-mvp", "entreprecurious"]
+replaces: [{"name":"Zipline","url":"https://zipline.io","note":"backtesting"}]
+similar_to: []
+compare_to_source: "llm"
+compare_to_validated: false
 ---
 
-Microsoft's AI-powered Quant investment platform; for serious financial modeling.
+AI quant investment platform

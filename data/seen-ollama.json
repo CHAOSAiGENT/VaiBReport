@@ -53,8 +53,8 @@
       "last_featured": "2026-03-25"
     },
     "devstral": {
-      "times_featured": 4,
-      "last_featured": "2026-05-07"
+      "times_featured": 6,
+      "last_featured": "2026-06-04"
     },
     "moondream": {
       "times_featured": 1,
@@ -69,8 +69,8 @@
       "last_featured": "2026-03-26"
     },
     "granite3.2-vision": {
-      "times_featured": 4,
-      "last_featured": "2026-05-07"
+      "times_featured": 6,
+      "last_featured": "2026-06-04"
     },
     "wizard-vicuna-uncensored": {
       "times_featured": 1,
@@ -117,8 +117,8 @@
       "last_featured": "2026-04-11"
     },
     "deepcoder": {
-      "times_featured": 3,
-      "last_featured": "2026-05-02"
+      "times_featured": 5,
+      "last_featured": "2026-05-30"
     },
     "ministral-3": {
       "times_featured": 2,
@@ -137,280 +137,284 @@
       "last_featured": "2026-04-26"
     },
     "phi3.5": {
-      "times_featured": 3,
-      "last_featured": "2026-04-29"
+      "times_featured": 5,
+      "last_featured": "2026-05-27"
     },
     "aya": {
-      "times_featured": 3,
-      "last_featured": "2026-04-27"
+      "times_featured": 5,
+      "last_featured": "2026-05-25"
     },
     "llama2-chinese": {
-      "times_featured": 3,
-      "last_featured": "2026-04-27"
+      "times_featured": 5,
+      "last_featured": "2026-05-25"
     },
     "neural-chat": {
-      "times_featured": 3,
-      "last_featured": "2026-04-27"
+      "times_featured": 5,
+      "last_featured": "2026-05-25"
     },
     "stable-code": {
-      "times_featured": 3,
-      "last_featured": "2026-04-27"
+      "times_featured": 5,
+      "last_featured": "2026-05-25"
     },
     "nous-hermes2": {
-      "times_featured": 3,
-      "last_featured": "2026-04-27"
+      "times_featured": 5,
+      "last_featured": "2026-05-25"
     },
     "sqlcoder": {
-      "times_featured": 3,
-      "last_featured": "2026-05-07"
+      "times_featured": 5,
+      "last_featured": "2026-06-04"
     },
     "wizardcoder": {
-      "times_featured": 3,
-      "last_featured": "2026-05-07"
+      "times_featured": 5,
+      "last_featured": "2026-06-04"
     },
     "yi-coder": {
-      "times_featured": 2,
-      "last_featured": "2026-04-24"
+      "times_featured": 4,
+      "last_featured": "2026-05-22"
     },
     "stablelm2": {
-      "times_featured": 2,
-      "last_featured": "2026-04-25"
+      "times_featured": 4,
+      "last_featured": "2026-05-23"
     },
     "llama3-chatqa": {
-      "times_featured": 2,
-      "last_featured": "2026-04-26"
+      "times_featured": 4,
+      "last_featured": "2026-05-24"
     },
     "granite3-dense": {
-      "times_featured": 2,
-      "last_featured": "2026-04-28"
+      "times_featured": 4,
+      "last_featured": "2026-05-26"
     },
     "granite3.1-dense": {
-      "times_featured": 2,
-      "last_featured": "2026-04-28"
+      "times_featured": 4,
+      "last_featured": "2026-05-26"
     },
     "dolphincoder": {
-      "times_featured": 2,
-      "last_featured": "2026-04-28"
+      "times_featured": 4,
+      "last_featured": "2026-05-26"
     },
     "wizard-math": {
-      "times_featured": 2,
-      "last_featured": "2026-04-28"
+      "times_featured": 4,
+      "last_featured": "2026-05-26"
     },
     "llama3-gradient": {
-      "times_featured": 2,
-      "last_featured": "2026-04-28"
+      "times_featured": 4,
+      "last_featured": "2026-05-26"
     },
     "samantha-mistral": {
-      "times_featured": 2,
-      "last_featured": "2026-04-29"
+      "times_featured": 4,
+      "last_featured": "2026-05-27"
     },
     "llama-guard3": {
-      "times_featured": 2,
-      "last_featured": "2026-04-29"
+      "times_featured": 4,
+      "last_featured": "2026-05-27"
     },
     "llama3-groq-tool-use": {
-      "times_featured": 2,
-      "last_featured": "2026-04-29"
+      "times_featured": 4,
+      "last_featured": "2026-05-27"
     },
     "internlm2": {
-      "times_featured": 2,
-      "last_featured": "2026-04-29"
+      "times_featured": 4,
+      "last_featured": "2026-05-27"
     },
     "medgemma1.5": {
       "times_featured": 1,
       "last_featured": "2026-04-16"
     },
     "starling-lm": {
-      "times_featured": 2,
-      "last_featured": "2026-04-30"
+      "times_featured": 4,
+      "last_featured": "2026-05-28"
     },
     "solar": {
-      "times_featured": 2,
-      "last_featured": "2026-04-30"
+      "times_featured": 4,
+      "last_featured": "2026-05-28"
     },
     "phind-codellama": {
-      "times_featured": 2,
-      "last_featured": "2026-04-30"
+      "times_featured": 4,
+      "last_featured": "2026-05-28"
     },
     "aya-expanse": {
-      "times_featured": 2,
-      "last_featured": "2026-04-30"
+      "times_featured": 4,
+      "last_featured": "2026-05-28"
     },
     "xwinlm": {
-      "times_featured": 2,
-      "last_featured": "2026-05-01"
+      "times_featured": 4,
+      "last_featured": "2026-05-29"
     },
     "granite3-moe": {
-      "times_featured": 2,
-      "last_featured": "2026-05-01"
+      "times_featured": 4,
+      "last_featured": "2026-05-29"
     },
     "yarn-llama2": {
-      "times_featured": 2,
-      "last_featured": "2026-05-01"
+      "times_featured": 4,
+      "last_featured": "2026-05-29"
     },
     "orca2": {
-      "times_featured": 2,
-      "last_featured": "2026-05-01"
+      "times_featured": 4,
+      "last_featured": "2026-05-29"
     },
     "medgemma": {
       "times_featured": 1,
       "last_featured": "2026-04-18"
     },
     "stable-beluga": {
-      "times_featured": 2,
-      "last_featured": "2026-05-02"
+      "times_featured": 4,
+      "last_featured": "2026-05-30"
     },
     "reader-lm": {
-      "times_featured": 2,
-      "last_featured": "2026-05-02"
+      "times_featured": 4,
+      "last_featured": "2026-05-30"
     },
     "shieldgemma": {
-      "times_featured": 2,
-      "last_featured": "2026-05-02"
+      "times_featured": 4,
+      "last_featured": "2026-05-30"
     },
     "llama-pro": {
-      "times_featured": 2,
-      "last_featured": "2026-05-02"
+      "times_featured": 4,
+      "last_featured": "2026-05-30"
     },
     "bakllava": {
-      "times_featured": 2,
-      "last_featured": "2026-05-03"
+      "times_featured": 4,
+      "last_featured": "2026-05-31"
     },
     "paraphrase-multilingual": {
-      "times_featured": 2,
-      "last_featured": "2026-05-03"
+      "times_featured": 4,
+      "last_featured": "2026-05-31"
     },
     "yarn-mistral": {
-      "times_featured": 2,
-      "last_featured": "2026-05-03"
+      "times_featured": 4,
+      "last_featured": "2026-05-31"
     },
     "nexusraven": {
-      "times_featured": 2,
-      "last_featured": "2026-05-03"
+      "times_featured": 4,
+      "last_featured": "2026-05-31"
     },
     "wizardlm": {
-      "times_featured": 2,
-      "last_featured": "2026-05-03"
+      "times_featured": 4,
+      "last_featured": "2026-05-31"
     },
     "devstral-small-2": {
-      "times_featured": 2,
-      "last_featured": "2026-05-04"
+      "times_featured": 4,
+      "last_featured": "2026-06-01"
     },
     "command-r-plus": {
-      "times_featured": 2,
-      "last_featured": "2026-05-04"
+      "times_featured": 4,
+      "last_featured": "2026-06-01"
     },
     "mistral-small3.1": {
-      "times_featured": 2,
-      "last_featured": "2026-05-04"
+      "times_featured": 4,
+      "last_featured": "2026-06-01"
     },
     "exaone-deep": {
-      "times_featured": 2,
-      "last_featured": "2026-05-04"
+      "times_featured": 4,
+      "last_featured": "2026-06-01"
     },
     "meditron": {
-      "times_featured": 2,
-      "last_featured": "2026-05-04"
+      "times_featured": 4,
+      "last_featured": "2026-06-01"
     },
     "kimi-k2.6": {
       "times_featured": 1,
       "last_featured": "2026-04-21"
     },
     "tinydolphin": {
-      "times_featured": 2,
-      "last_featured": "2026-05-05"
+      "times_featured": 4,
+      "last_featured": "2026-06-02"
     },
     "deepseek-v3.1": {
-      "times_featured": 2,
-      "last_featured": "2026-05-05"
+      "times_featured": 4,
+      "last_featured": "2026-06-02"
     },
     "codegeex4": {
-      "times_featured": 2,
-      "last_featured": "2026-05-05"
+      "times_featured": 4,
+      "last_featured": "2026-06-02"
     },
     "mistral-openorca": {
-      "times_featured": 2,
-      "last_featured": "2026-05-05"
+      "times_featured": 4,
+      "last_featured": "2026-06-02"
     },
     "nemotron-mini": {
-      "times_featured": 2,
-      "last_featured": "2026-05-06"
+      "times_featured": 4,
+      "last_featured": "2026-06-03"
     },
     "wizardlm-uncensored": {
-      "times_featured": 2,
-      "last_featured": "2026-05-06"
+      "times_featured": 4,
+      "last_featured": "2026-06-03"
     },
     "opencoder": {
-      "times_featured": 2,
-      "last_featured": "2026-05-06"
+      "times_featured": 4,
+      "last_featured": "2026-06-03"
     },
     "reflection": {
-      "times_featured": 2,
-      "last_featured": "2026-05-06"
+      "times_featured": 4,
+      "last_featured": "2026-06-03"
     },
     "nemotron": {
-      "times_featured": 2,
-      "last_featured": "2026-05-06"
+      "times_featured": 4,
+      "last_featured": "2026-06-03"
     },
     "athene-v2": {
-      "times_featured": 1,
-      "last_featured": "2026-04-24"
+      "times_featured": 3,
+      "last_featured": "2026-05-22"
     },
     "nous-hermes2-mixtral": {
-      "times_featured": 1,
-      "last_featured": "2026-04-24"
+      "times_featured": 3,
+      "last_featured": "2026-05-22"
     },
     "codeup": {
-      "times_featured": 1,
-      "last_featured": "2026-04-24"
+      "times_featured": 3,
+      "last_featured": "2026-05-22"
     },
     "qwen3-next": {
-      "times_featured": 1,
-      "last_featured": "2026-04-24"
+      "times_featured": 3,
+      "last_featured": "2026-05-22"
     },
     "megadolphin": {
-      "times_featured": 1,
-      "last_featured": "2026-04-25"
+      "times_featured": 3,
+      "last_featured": "2026-05-23"
     },
     "medllama2": {
-      "times_featured": 1,
-      "last_featured": "2026-04-25"
+      "times_featured": 3,
+      "last_featured": "2026-05-23"
     },
     "everythinglm": {
-      "times_featured": 1,
-      "last_featured": "2026-04-25"
+      "times_featured": 3,
+      "last_featured": "2026-05-23"
     },
     "solar-pro": {
-      "times_featured": 1,
-      "last_featured": "2026-04-25"
+      "times_featured": 3,
+      "last_featured": "2026-05-23"
     },
     "qwen3.6": {
-      "times_featured": 1,
-      "last_featured": "2026-04-26"
+      "times_featured": 3,
+      "last_featured": "2026-05-24"
     },
     "magicoder": {
-      "times_featured": 1,
-      "last_featured": "2026-04-26"
+      "times_featured": 3,
+      "last_featured": "2026-05-24"
     },
     "mathstral": {
-      "times_featured": 1,
-      "last_featured": "2026-04-26"
+      "times_featured": 3,
+      "last_featured": "2026-05-24"
     },
     "laguna-xs.2": {
-      "times_featured": 1,
-      "last_featured": "2026-04-30"
+      "times_featured": 3,
+      "last_featured": "2026-05-28"
     },
     "granite4.1": {
-      "times_featured": 1,
-      "last_featured": "2026-05-01"
+      "times_featured": 3,
+      "last_featured": "2026-05-29"
     },
     "mistral-medium-3.5": {
-      "times_featured": 1,
-      "last_featured": "2026-05-05"
+      "times_featured": 3,
+      "last_featured": "2026-06-02"
     },
     "notus": {
-      "times_featured": 1,
-      "last_featured": "2026-05-07"
+      "times_featured": 3,
+      "last_featured": "2026-06-04"
+    },
+    "notux": {
+      "times_featured": 2,
+      "last_featured": "2026-05-24"
     }
   }
 }

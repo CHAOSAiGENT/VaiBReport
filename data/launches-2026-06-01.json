@@ -1,0 +1,138 @@
+{
+  "generated_at": "2026-06-01T12:28:09.102Z",
+  "source": "launches",
+  "counts": {
+    "producthunt": 16,
+    "total": 16
+  },
+  "launches": [
+    {
+      "id": "ph-1133330",
+      "name": "Clipto",
+      "description": "Fully local, natural language search over terabytes of media",
+      "url": "https://www.producthunt.com/r/Y5E7U6HB2KB5NG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 433,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1151393",
+      "name": "Second Brain for AI",
+      "description": "Persistent memory for Claude, ChatGPT & Cursor. Free.",
+      "url": "https://www.producthunt.com/r/DHJEGKLQBKHAGY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 258,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1159008",
+      "name": "TabTasker",
+      "description": "Zero servers. Total privacy. Your new favorite toolbox.",
+      "url": "https://www.producthunt.com/r/S6D5ZCV6OE5UPW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 220,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1156590",
+      "name": "Mina",
+      "description": "Your AI Teammate now responds and executes during your calls",
+      "url": "https://www.producthunt.com/r/BPRGIOPD7QOOVH?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 206,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1157332",
+      "name": "SocialEcho 2.0",
+      "description": "AI social media copilot for teams and agents",
+      "url": "https://www.producthunt.com/r/CRXS4B2XRMZLD2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 193,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1159225",
+      "name": "Marqly 5.0",
+      "description": "Your AI-powered bookmark manager",
+      "url": "https://www.producthunt.com/r/S663NU4CVUKEEA?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 173,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1152602",
+      "name": "Dune Keypad",
+      "description": "Context-aware Mac keypad, w/ Claude + community extensions ",
+      "url": "https://www.producthunt.com/r/7TXQTNQWP6ELW7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 171,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1150693",
+      "name": "Databox MCP",
+      "description": "Chat with your business data inside Claude, ChatGPT and more",
+      "url": "https://www.producthunt.com/r/QOQ2YENIDC56TM?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 152,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1155758",
+      "name": "folk",
+      "description": "the AI in your texts that gets stuff done",
+      "url": "https://www.producthunt.com/r/UH6J63SRBAI3YO?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 140,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1143223",
+      "name": "Web Clipper for NotebookLM",
+      "description": "Your ultimate NotebookLM's Chrome Extension",
+      "url": "https://www.producthunt.com/r/ADVROJUYQ6XJHX?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 134,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1159599",
+      "name": "Typeahead",
+      "description": "AI autocomplete for every app on your Mac",
+      "url": "https://www.producthunt.com/r/G2V2YZAFH5VK2F?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 120,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1156624",
+      "name": "Trippple Club",
+      "description": "Advertise together on Meta Ads and pay 3x less",
+      "url": "https://www.producthunt.com/r/5ADGADBENO7VBT?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 99,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1160317",
+      "name": "Open Caffeine",
+      "description": "Keep your Mac awake",
+      "url": "https://www.producthunt.com/r/33DIGF6JTFR3M3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 95,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1160309",
+      "name": "Mistral Vibe",
+      "description": "I agent for long-running, multi-step work and coding",
+      "url": "https://www.producthunt.com/r/3IEP3NNQHZCXSG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 92,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1159957",
+      "name": "Tokenwise",
+      "description": "A smart LLM proxy that shows where you're overpaying",
+      "url": "https://www.producthunt.com/r/NZCYBSG4NREZXK?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 90,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1160106",
+      "name": "R0Y OMNI 1.0",
+      "description": "Generate more accurate investment dashboards and reports",
+      "url": "https://www.producthunt.com/r/AFSFGUZHSO5D6Z?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 83,
+      "_source": "producthunt"
+    }
+  ]
+}

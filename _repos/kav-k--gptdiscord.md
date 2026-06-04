@@ -3,7 +3,7 @@ layout: repo
 name: "Kav-K/GPTDiscord"
 source: github
 item_url: "https://github.com/Kav-K/GPTDiscord"
-description: "GPT interface for Discord with various features"
+description: "A robust, all-in-one GPT interface for Discord. ChatGPT-style conversations, image generation, AI-moderation, custom indexes/knowledgebase, youtube summarizer, and more!"
 category: "UGC, social media and creator tools"
 language: "Python"
 stars: 1854
@@ -12,17 +12,17 @@ likes: 0
 readme_image: "https://i.imgur.com/BZdORTL.png"
 og_image: "https://opengraph.githubassets.com/1/Kav-K/GPTDiscord"
 first_featured: "2026-04-21"
-last_featured: "2026-05-05"
-times_featured: 2
+last_featured: "2026-06-03"
+times_featured: 4
 streak: 49
 appearances: 49
 star_velocity: 0
 tags: [github, artificial-intelligence, asyncio, chatbot, code-interpreter, collaborate, dalle2, digitalocean, discord]
 icp_tags: ["solopreneur", "non-technical", "entreprecurious"]
-replaces: [{"name":"Dialogflow","url":"https://cloud.google.com/dialogflow","note":"chatbot"}]
+replaces: []
 similar_to: []
-compare_to_source: "llm"
+compare_to_source: "manual"
 compare_to_validated: false
 ---
 
-GPT interface for Discord with various features
+A robust, all-in-one GPT interface for Discord. ChatGPT-style conversations, image generation, AI-moderation, custom indexes/knowledgebase, youtube summarizer, and more!

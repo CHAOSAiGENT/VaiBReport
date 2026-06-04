@@ -3,21 +3,26 @@ layout: repo
 name: "yt-dlp/yt-dlp"
 source: github
 item_url: "https://github.com/yt-dlp/yt-dlp"
-description: "Feature-rich command-line audio/video downloader."
+description: "Command-line video downloader"
 category: "Trending"
 language: "Python"
-stars: 158872
+stars: 160009
 downloads: 0
 likes: 0
+readme_image: "https://raw.githubusercontent.com/yt-dlp/yt-dlp/master/.github/banner.svg"
 og_image: "https://opengraph.githubassets.com/1/yt-dlp/yt-dlp"
 first_featured: "2026-03-23"
-last_featured: "2026-04-27"
-times_featured: 3
-streak: 2
-appearances: 12
-star_velocity: 184
+last_featured: "2026-05-25"
+times_featured: 5
+streak: 5
+appearances: 15
+star_velocity: 264
 tags: [github]
 icp_tags: ["founding-team", "entreprecurious"]
+replaces: [{"name":"YouTube-DL","url":"https://ytdl-org.github.io/youtube-dl/about.html"}]
+similar_to: []
+compare_to_source: "llm"
+compare_to_validated: false
 ---
 
-Feature-rich command-line audio/video downloader.
+Command-line video downloader

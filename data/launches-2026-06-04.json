@@ -1,0 +1,74 @@
+{
+  "generated_at": "2026-06-04T10:32:54.500Z",
+  "source": "launches",
+  "counts": {
+    "producthunt": 8,
+    "total": 8
+  },
+  "launches": [
+    {
+      "id": "ph-1119517",
+      "name": "Spectron",
+      "description": "Agent memory you can trust",
+      "url": "https://www.producthunt.com/r/4TGR6AA6CJ6U7H?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 174,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1160559",
+      "name": "Uselink",
+      "description": "host your html, share the link, and get comments",
+      "url": "https://www.producthunt.com/r/D4YQ3R4NJ5JHI3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 141,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1162181",
+      "name": "Composer",
+      "description": "Multiplayer markdown for you, your team, and your agents.",
+      "url": "https://www.producthunt.com/r/DQVHE2OCJEC7RE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 117,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1161388",
+      "name": "Brand Context API",
+      "description": "Ship AI that stays on-brand",
+      "url": "https://www.producthunt.com/r/MGLNG4FWENN4R4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 106,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1161872",
+      "name": "Devin Desktop",
+      "description": "Manage fleets of local and cloud agents from one surface",
+      "url": "https://www.producthunt.com/r/NG6BZD7FNUESY4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 104,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1161835",
+      "name": "FolderPlus",
+      "description": "Peek inside any folder without opening it",
+      "url": "https://www.producthunt.com/r/7D4XT2F5L5AXP5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 101,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1161524",
+      "name": "Forward",
+      "description": "Installs your API into a customer's codebase in one command",
+      "url": "https://www.producthunt.com/r/FVQ726U6FWBKGH?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 101,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1162093",
+      "name": "Dropstone 1.5",
+      "description": "2× Claude Code Pro's usage at $15/mo",
+      "url": "https://www.producthunt.com/r/RSRH54C7JBIDRE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 99,
+      "_source": "producthunt"
+    }
+  ]
+}

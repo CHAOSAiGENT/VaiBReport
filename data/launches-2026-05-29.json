@@ -1,0 +1,138 @@
+{
+  "generated_at": "2026-05-29T10:37:31.745Z",
+  "source": "launches",
+  "counts": {
+    "producthunt": 16,
+    "total": 16
+  },
+  "launches": [
+    {
+      "id": "ph-1152111",
+      "name": "Pancake",
+      "description": "OpenClaw in Slack that makes your company autonomous",
+      "url": "https://www.producthunt.com/r/AYXK7CGT2LEPGB?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 518,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1155361",
+      "name": "Pitch Agent",
+      "description": "On-brand presentations, generated in seconds",
+      "url": "https://www.producthunt.com/r/KZA5WLLQAI4WGZ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 296,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1145256",
+      "name": "Revolte",
+      "description": "AI for Software Engineering",
+      "url": "https://www.producthunt.com/r/CNX6O53DMUYXTF?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 257,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1157197",
+      "name": "Buffer API",
+      "description": "One API to publish across every social platform.",
+      "url": "https://www.producthunt.com/r/NIXIFPYZYBK72W?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 205,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1157577",
+      "name": "Angel Match 4.0",
+      "description": "A database of 125K+ angels and VCs to raise your seed round",
+      "url": "https://www.producthunt.com/r/UFDMWSV7LMTERU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 168,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1157637",
+      "name": "Robinhood Agentic Trading",
+      "description": "Let your agent trade",
+      "url": "https://www.producthunt.com/r/2WKA7D5WT4WPAS?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 159,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1141931",
+      "name": "Memori",
+      "description": "Persistent memory from agent trace, not just conversation",
+      "url": "https://www.producthunt.com/r/WUSBFK3XM4IHA4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 149,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1157043",
+      "name": "Marked 3",
+      "description": "Preview and Publish your Markdown",
+      "url": "https://www.producthunt.com/r/KOIFCZ7IR4YJ2A?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 136,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1157172",
+      "name": "Growati",
+      "description": "The autopilot for YouTube post-production",
+      "url": "https://www.producthunt.com/r/JHUFCGCSSRTR7I?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 132,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1157102",
+      "name": "Granite",
+      "description": "A vault for every document that matters",
+      "url": "https://www.producthunt.com/r/TGYQJKLEGRZYIA?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 117,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1156789",
+      "name": "Stage",
+      "description": "Screen recording for demos, bugs, and updates",
+      "url": "https://www.producthunt.com/r/IATUFVMZ4OFCEG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 114,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1157293",
+      "name": "Compartment",
+      "description": "Open-source runtime for internal team software",
+      "url": "https://www.producthunt.com/r/MZZ72Y3Y6CXZWG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 111,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1153540",
+      "name": "AccountyCat",
+      "description": "A focus companion that actually gets context",
+      "url": "https://www.producthunt.com/r/4YDH24I7OKE3FU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 111,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1157452",
+      "name": "KugelAudio",
+      "description": "Real-time text-to-speech model you can self-host",
+      "url": "https://www.producthunt.com/r/LVU2A75YS3JBN4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 99,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1156976",
+      "name": "Kim Personal Health Assistant",
+      "description": "The intelligence layer for Apple Health",
+      "url": "https://www.producthunt.com/r/UMCBCKRMO2LD5O?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 97,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1156940",
+      "name": "Crew44",
+      "description": "Turn coding agents into specialist teams",
+      "url": "https://www.producthunt.com/r/4EWN6TTBGHNB2P?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 97,
+      "_source": "producthunt"
+    }
+  ]
+}

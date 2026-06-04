@@ -3,21 +3,25 @@ layout: repo
 name: "@appium/support"
 source: npm
 item_url: "https://www.npmjs.com/package/@appium/support"
-description: "Core support libraries for Appium. Relevant if you're deep into mobile automation testing."
+description: "Appium support libraries"
 category: "npm Packages"
 language: ""
 stars: 0
-downloads: 1659493
+downloads: 2158889
 likes: 0
 og_image: ""
 first_featured: "2026-03-25"
-last_featured: "2026-04-26"
-times_featured: 3
+last_featured: "2026-05-24"
+times_featured: 5
 streak: 0
 appearances: 0
 star_velocity: 0
 tags: [npm, automation, javascript, selenium, webdriver, ios, android, firefoxos, testing]
 icp_tags: ["founding-team", "solopreneur"]
+replaces: [{"name":"Selenium","url":"https://www.selenium.dev"}]
+similar_to: []
+compare_to_source: "llm"
+compare_to_validated: false
 ---
 
-Core support libraries for Appium. Relevant if you're deep into mobile automation testing.
+Appium support libraries

@@ -7,12 +7,12 @@ description: "bge-small-en-v1.5"
 category: "HuggingFace Models"
 language: ""
 stars: 0
-downloads: 36279732
-likes: 454
+downloads: 55386535
+likes: 480
 og_image: ""
 first_featured: "2026-03-24"
-last_featured: "2026-05-07"
-times_featured: 4
+last_featured: "2026-06-04"
+times_featured: 6
 streak: 0
 appearances: 0
 star_velocity: 0

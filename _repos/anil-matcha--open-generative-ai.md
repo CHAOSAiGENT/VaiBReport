@@ -3,21 +3,25 @@ layout: repo
 name: "Anil-matcha/Open-Generative-AI"
 source: github
 item_url: "https://github.com/Anil-matcha/Open-Generative-AI"
-description: "Open-source AI image and video generation studio."
+description: "Open-source AI image generator"
 category: "UGC, social media and creator tools"
 language: "JavaScript"
-stars: 9196
+stars: 10562
 downloads: 0
 likes: 0
 og_image: "https://opengraph.githubassets.com/1/Anil-matcha/Open-Generative-AI"
 first_featured: "2026-04-13"
-last_featured: "2026-04-27"
-times_featured: 2
-streak: 15
-appearances: 15
-star_velocity: 607
+last_featured: "2026-05-25"
+times_featured: 4
+streak: 18
+appearances: 18
+star_velocity: 420
 tags: [github, ai-art-generator, ai-image-generation, ai-video-generation, creative-tools, flux-1, generative-ai, higgsfield, higgsfield-ai]
 icp_tags: ["solopreneur", "non-technical", "entreprecurious"]
+replaces: [{"name":"DALL-E","url":"https://dallemini.com"}]
+similar_to: []
+compare_to_source: "llm"
+compare_to_validated: false
 ---
 
-Open-source AI image and video generation studio.
+Open-source AI image generator

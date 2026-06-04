@@ -10,8 +10,9 @@ Run `bundle exec jekyll build` in the VaiBReport repo and report any errors.
 ## Your task
 
 1. Run the Jekyll build:
+
 ```bash
-cd /Users/peterledgrowth/CHAOS/CHAOSAiGENT/VaiBReport && bundle exec jekyll build --trace 2>&1
+bundle exec jekyll build --trace 2>&1
 ```
 
 2. Analyze the output and report:
@@ -40,6 +41,7 @@ cd /Users/peterledgrowth/CHAOS/CHAOSAiGENT/VaiBReport && bundle exec jekyll buil
 ## Output format
 
 Return a concise report:
+
 ```
 STATUS: [PASS | FAIL]
 BUILD TIME: [seconds if available]

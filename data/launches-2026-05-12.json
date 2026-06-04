@@ -1,0 +1,98 @@
+{
+  "generated_at": "2026-05-12T09:29:04.276Z",
+  "source": "launches",
+  "counts": {
+    "producthunt": 11,
+    "total": 11
+  },
+  "launches": [
+    {
+      "id": "ph-1052099",
+      "name": "Graphbit PRFlow",
+      "description": "AI code reviewer that catches what others miss",
+      "url": "https://www.producthunt.com/r/K4W36ZSYF7WPLV?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 357,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1050396",
+      "name": "Genpire",
+      "description": "Make Real Products with AI, literally.",
+      "url": "https://www.producthunt.com/r/SBMCMSDZBENDWN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 329,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1137004",
+      "name": "ClawSecure",
+      "description": "The AI-Powered Antivirus for AI Agents",
+      "url": "https://www.producthunt.com/r/CBB34LD6UL5TT2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 286,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1131047",
+      "name": "Weavable",
+      "description": "Give every AI agent persistent work context",
+      "url": "https://www.producthunt.com/r/33OUNMSCT7MK3F?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 201,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1141439",
+      "name": "Warp Open-Source",
+      "description": "Agentic development environment built with the community",
+      "url": "https://www.producthunt.com/r/RXPBBH5AYSU33A?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 194,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1140367",
+      "name": "MiroMiro v2",
+      "description": "Inspect, edit, and export any website's design",
+      "url": "https://www.producthunt.com/r/FZXHZAPXMQHI2M?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 172,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1140142",
+      "name": "ChatGPT for Google Sheets",
+      "description": " Chat with your spreadsheet, edit cell with natural language",
+      "url": "https://www.producthunt.com/r/XBVQBUBSD7SPHT?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 112,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1143252",
+      "name": "Web Speed",
+      "description": "Kill the 'Token Tax.' 90% cheaper agents.",
+      "url": "https://www.producthunt.com/r/EORFJWPOR7CX6S?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 106,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1143938",
+      "name": "Grok Connectors",
+      "description": "Bring your daily apps into Grok",
+      "url": "https://www.producthunt.com/r/QAHXOFLHYKAOJT?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 93,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1137013",
+      "name": "onBeacon",
+      "description": "Your AI Growth PM, on call 24/7",
+      "url": "https://www.producthunt.com/r/RJL6755GM2XZSW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 92,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1134590",
+      "name": "Known Agents",
+      "description": "Track the bots and AI agents crawling your website",
+      "url": "https://www.producthunt.com/r/K56IE2TRUY7CJD?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 87,
+      "_source": "producthunt"
+    }
+  ]
+}

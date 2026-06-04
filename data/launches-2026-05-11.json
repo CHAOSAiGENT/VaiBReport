@@ -1,0 +1,66 @@
+{
+  "generated_at": "2026-05-11T10:27:48.281Z",
+  "source": "launches",
+  "counts": {
+    "producthunt": 7,
+    "total": 7
+  },
+  "launches": [
+    {
+      "id": "ph-1137273",
+      "name": "Tailgrids 3.0",
+      "description": "Open-source React UI library for Tailwind and AI Workflow",
+      "url": "https://www.producthunt.com/r/SRA36BX2QALQPN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 322,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1139500",
+      "name": "deepsec",
+      "description": "Open-source coding security harness",
+      "url": "https://www.producthunt.com/r/T5UPS2CJT3MEUS?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 230,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1142580",
+      "name": "Adject 2.0",
+      "description": "Create hyperrealistic product visuals with AI",
+      "url": "https://www.producthunt.com/r/BPB5EVZOROWIVC?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 188,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1111280",
+      "name": "Notion 3.4",
+      "description": "New dashboards, connectors, sidebar & smarter AI agents",
+      "url": "https://www.producthunt.com/r/EG2MLTEVHABTRD?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 157,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1143278",
+      "name": "AgentPeek",
+      "description": "Claude Code and Codex in your Mac notch",
+      "url": "https://www.producthunt.com/r/I5VUUCMKZ6ZLDB?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 142,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1136403",
+      "name": "Keel",
+      "description": "An AI assistant whose memory belongs to you",
+      "url": "https://www.producthunt.com/r/MHKCZ5OJ47MKOE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 121,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1140273",
+      "name": "LumiChats Offline(free)",
+      "description": "Your AI, fully offline with Zero data collection & 100% free",
+      "url": "https://www.producthunt.com/r/D2CFOVK7DPCEEE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 119,
+      "_source": "producthunt"
+    }
+  ]
+}

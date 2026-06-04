@@ -1,0 +1,98 @@
+{
+  "generated_at": "2026-05-19T10:31:24.865Z",
+  "source": "launches",
+  "counts": {
+    "producthunt": 11,
+    "total": 11
+  },
+  "launches": [
+    {
+      "id": "ph-1147569",
+      "name": "LobeHub",
+      "description": "Your Chief Agent Operator for multi-agent work",
+      "url": "https://www.producthunt.com/r/GDRCLPANDCILEI?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 460,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1149049",
+      "name": "ReactVision Studio",
+      "description": "Build AR/VR Apps in React Native + ship directly to devices",
+      "url": "https://www.producthunt.com/r/NULQJX32QZRBB6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 245,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1142097",
+      "name": "Shadow",
+      "description": "AI computer screen and voice control with custom automation",
+      "url": "https://www.producthunt.com/r/RTMG35ETHSLUIL?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 191,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1149482",
+      "name": "M1 by Montage",
+      "description": "Agentic UI that scales on demand",
+      "url": "https://www.producthunt.com/r/VUCSAOSHPZW43W?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 157,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1149111",
+      "name": "Moody",
+      "description": "Your Mac wallpaper that listens to your music & weather",
+      "url": "https://www.producthunt.com/r/L6ZHX2NQKSS2BU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 117,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1149478",
+      "name": "Polarity",
+      "description": "The Self-Improvement Stack For agents",
+      "url": "https://www.producthunt.com/r/MBSEB3EEIR42ZC?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 115,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1149496",
+      "name": "Krea 2",
+      "description": "An image model built for style control and moodboards",
+      "url": "https://www.producthunt.com/r/5K3FWTBN3F54S5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 111,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1135610",
+      "name": "Draft",
+      "description": "Capture AI chats into your knowledge base",
+      "url": "https://www.producthunt.com/r/EQGJGHML3A6QDZ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 109,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1115546",
+      "name": "Triggered Agents by Adaptive",
+      "description": "AI agents that run automatically on business events",
+      "url": "https://www.producthunt.com/r/7SJYKI7DMRLEJH?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 104,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1148331",
+      "name": "pixserp",
+      "description": "Your LLM on the live web. One endpoint, ten answer shapes.",
+      "url": "https://www.producthunt.com/r/GFZC3DIHHFZ2DD?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 100,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1149543",
+      "name": "Voiser AI",
+      "description": " Human-like AI voiceovers in 140+ languages",
+      "url": "https://www.producthunt.com/r/2DF26ZQOW5BWRA?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 99,
+      "_source": "producthunt"
+    }
+  ]
+}
