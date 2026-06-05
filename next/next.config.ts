@@ -3,8 +3,7 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   // Static export for GitHub Pages (no Node server at runtime).
   output: "export",
-  // Project page served under https://chaosaigent.github.io/VaiBReport
-  basePath: "/VaiBReport",
+  // Served at the root of custom domain https://report.vaibos.com (no basePath).
   // Emit each route as a folder/index.html — plays nicely with Pages routing.
   trailingSlash: true,
   // GitHub Pages can't run the Next image optimizer.
