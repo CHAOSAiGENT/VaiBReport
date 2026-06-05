@@ -1,0 +1,122 @@
+{
+  "generated_at": "2026-06-05T10:39:53.315Z",
+  "source": "launches",
+  "counts": {
+    "producthunt": 14,
+    "total": 14
+  },
+  "launches": [
+    {
+      "id": "ph-1160486",
+      "name": "Astra Autonomous Pentest",
+      "description": "AI agents that find, validate, and fix every vulnerability",
+      "url": "https://www.producthunt.com/r/O3VSUJJCCKGPCG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 392,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1160862",
+      "name": "Empromptu AI",
+      "description": "Train Fine Tuned Models With AI Apps You're Already Building",
+      "url": "https://www.producthunt.com/r/XU4A6F5XDOW3N5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 319,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1162613",
+      "name": "Google Gemma 4 12B",
+      "description": "Run multimodal AI locally with an encoder-free architecture",
+      "url": "https://www.producthunt.com/r/PUMUEYI4RLRRTW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 272,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1155557",
+      "name": "AppWizzy",
+      "description": "Rent a private VM with Codex to build production apps",
+      "url": "https://www.producthunt.com/r/NECI5AIKGC3BCC?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 199,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1160879",
+      "name": "Build Club Campus ",
+      "description": "Virtual AI School: Upskill in AI and Become Great at it Fast",
+      "url": "https://www.producthunt.com/r/N5IVYXL754L4A4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 190,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1161160",
+      "name": "Novus",
+      "description": "Catch and fix usability issues automatically as you ship",
+      "url": "https://www.producthunt.com/r/37RC6NHLU3LB3U?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 135,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1162305",
+      "name": "TimeTuna.com",
+      "description": "If Calendly had gorgeous video backgrounds",
+      "url": "https://www.producthunt.com/r/HVRC2ACCPPZ2UU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 134,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1158959",
+      "name": "Koji by Brilliant",
+      "description": "A world-class personal tutor for every home",
+      "url": "https://www.producthunt.com/r/ZTYFWYL2DMNQDR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 120,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1162542",
+      "name": "Keen Code",
+      "description": "A context-efficient CLI coding agent built by agents",
+      "url": "https://www.producthunt.com/r/GYFWAZSVERC2N2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 119,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1162634",
+      "name": "Perplexity Personal Computer for Windows",
+      "description": "Run AI agents across your local files and apps on Windows",
+      "url": "https://www.producthunt.com/r/VY2TBYVZOROXES?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 114,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1162913",
+      "name": "Boxes.dev",
+      "description": "Run Claude Code and Codex in your own cloud environment",
+      "url": "https://www.producthunt.com/r/LVCS6HWCF73THB?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 107,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1162731",
+      "name": "Basedash Semantic Layer",
+      "description": "Define metrics once. Use them everywhere.",
+      "url": "https://www.producthunt.com/r/YIBOKJ5SAN7VTE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 104,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1162444",
+      "name": "Sun",
+      "description": "Collaborative voice API for agents ",
+      "url": "https://www.producthunt.com/r/5RTNRZYJVVDMPZ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 103,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1162720",
+      "name": "Carbon Voice Speed Dial",
+      "description": "Get your whole team (humans and agents!) on speed dial",
+      "url": "https://www.producthunt.com/r/734CGFBF7DENXQ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 98,
+      "_source": "producthunt"
+    }
+  ]
+}
