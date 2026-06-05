@@ -2,6 +2,7 @@
 
 ## Project Context
 
+@.chaosaigent/VaiBReport-roadmap.md
 @.chaosaigent/.session-brief.md
 
 ## Rules
