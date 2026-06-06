@@ -3,7 +3,7 @@ layout: repo
 name: "Tencent-Hunyuan/HunyuanVideo"
 source: github
 item_url: "https://github.com/Tencent-Hunyuan/HunyuanVideo"
-description: "Systematic framework for large video generation"
+description: "Large video generation model framework."
 category: "UGC, social media and creator tools"
 language: "Python"
 stars: 12041
@@ -12,8 +12,8 @@ likes: 0
 readme_image: "https://replicate.com/zsxkib/hunyuan-video/badge"
 og_image: "https://opengraph.githubassets.com/1/Tencent-Hunyuan/HunyuanVideo"
 first_featured: "2026-03-25"
-last_featured: "2026-05-23"
-times_featured: 5
+last_featured: "2026-06-06"
+times_featured: 6
 streak: 49
 appearances: 49
 star_velocity: 5
@@ -25,4 +25,4 @@ compare_to_source: "manual"
 compare_to_validated: false
 ---
 
-Systematic framework for large video generation
+Large video generation model framework.

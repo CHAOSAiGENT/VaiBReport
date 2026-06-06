@@ -3,25 +3,25 @@ layout: repo
 name: "weaviate-client"
 source: pypi
 item_url: "https://pypi.org/project/weaviate-client/"
-description: "Weaviate client library"
+description: "Python native Weaviate client."
 category: "PyPI Packages"
 language: ""
 stars: 0
-downloads: 36558352
+downloads: 36054552
 likes: 0
 og_image: ""
 first_featured: "2026-03-24"
-last_featured: "2026-05-23"
-times_featured: 5
+last_featured: "2026-06-06"
+times_featured: 6
 streak: 0
 appearances: 0
 star_velocity: 0
 tags: [pypi]
 icp_tags: ["founding-team", "solopreneur"]
-replaces: [{"name":"Weaviate Python Client","url":"https://weaviate.io/clients/python"},{"name":"Weaviate JavaScript Client","url":"https://weaviate.io/clients/javascript"}]
+replaces: []
 similar_to: []
-compare_to_source: "llm"
+compare_to_source: "manual"
 compare_to_validated: false
 ---
 
-Weaviate client library
+Python native Weaviate client.

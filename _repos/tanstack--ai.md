@@ -7,12 +7,12 @@ description: "Type-safe TypeScript AI SDK for streaming chat, tool calling, agen
 category: "npm Packages"
 language: ""
 stars: 0
-downloads: 119612
+downloads: 143573
 likes: 0
 og_image: ""
 first_featured: "2026-05-23"
-last_featured: "2026-05-23"
-times_featured: 1
+last_featured: "2026-06-06"
+times_featured: 2
 streak: 0
 appearances: 0
 star_velocity: 0

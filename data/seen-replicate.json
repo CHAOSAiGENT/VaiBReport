@@ -433,8 +433,8 @@
       "last_featured": "2026-05-23"
     },
     "ibm-granite/granite-4.1-8b": {
-      "times_featured": 2,
-      "last_featured": "2026-05-23"
+      "times_featured": 3,
+      "last_featured": "2026-06-06"
     },
     "lucataco/glm-ocr": {
       "times_featured": 1,
@@ -543,6 +543,10 @@
     "ideogram-ai/ideogram-v4-balanced": {
       "times_featured": 1,
       "last_featured": "2026-06-04"
+    },
+    "runwayml/aleph-2": {
+      "times_featured": 1,
+      "last_featured": "2026-06-06"
     }
   }
 }
