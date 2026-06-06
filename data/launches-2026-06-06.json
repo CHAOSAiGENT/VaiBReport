@@ -1,0 +1,130 @@
+{
+  "generated_at": "2026-06-06T09:18:03.317Z",
+  "source": "launches",
+  "counts": {
+    "producthunt": 15,
+    "total": 15
+  },
+  "launches": [
+    {
+      "id": "ph-1155751",
+      "name": "SellerClaw",
+      "description": "A team of AI agents that runs your stores across channels",
+      "url": "https://www.producthunt.com/r/7EVPIJ3T3Q6YW2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 496,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1163169",
+      "name": "Minimi",
+      "description": "Your ambient memory for Claude",
+      "url": "https://www.producthunt.com/r/SIMPLUAHCBBLII?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 467,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1163341",
+      "name": "Leni",
+      "description": "The world’s most accurate AI for investors",
+      "url": "https://www.producthunt.com/r/FFWCFWSDY3ELXY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 379,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1152327",
+      "name": "Veltrix AI",
+      "description": "AI finance copilot for cash flow, margins, and growth",
+      "url": "https://www.producthunt.com/r/E7KCWCLG4TE4Y5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 280,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1162949",
+      "name": "Ideogram 4.0",
+      "description": "Generate design-ready image with open weight, layout control",
+      "url": "https://www.producthunt.com/r/OJNQHSZUNTKVUF?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 238,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1160919",
+      "name": "Agent Mode on Arena",
+      "description": "Get real-world tasks done with autonomous AI agents",
+      "url": "https://www.producthunt.com/r/DMA3X24N4FESP7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 171,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1163741",
+      "name": "Nemotron 3 Ultra by NVIDIA",
+      "description": "Powers faster, efficient reasoning for long-running agents",
+      "url": "https://www.producthunt.com/r/FRQKMP7ZDQB4RR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 155,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1164006",
+      "name": "LocalClicky",
+      "description": "Control your Mac with your voice locally",
+      "url": "https://www.producthunt.com/r/UREOXFHYYUMZVN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 123,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1162995",
+      "name": "FloatPic",
+      "description": "Ultra-minimalist, borderless macOS native image viewer",
+      "url": "https://www.producthunt.com/r/ZQLUO2KBKHPFI4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 115,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1163767",
+      "name": "Agent Browser Shield",
+      "description": "Block prompt inject & cut token costs for AI browser agents",
+      "url": "https://www.producthunt.com/r/F6KGMHVJXZBD7X?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 105,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1163789",
+      "name": "Microsoft MAI-Voice-2",
+      "description": "Expressive TTS with voice cloning in 15 languages",
+      "url": "https://www.producthunt.com/r/TXV2R33T3EPL56?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 101,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1163579",
+      "name": "Treadmill Pro",
+      "description": "Control your treadmill from your iPhone, wirelessly",
+      "url": "https://www.producthunt.com/r/DOVHIDLYUFGZPZ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 99,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1132349",
+      "name": "Lumo Studios",
+      "description": "Build Decks that Speak for Themselves",
+      "url": "https://www.producthunt.com/r/KC4UACPCSLYR3L?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 98,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1163604",
+      "name": "Clarafy",
+      "description": "Type messy and have it instantly polished",
+      "url": "https://www.producthunt.com/r/C3AOI4BETVQ7D3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 97,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1163592",
+      "name": "Recursi",
+      "description": "Self improving vibe coding env with no API fees",
+      "url": "https://www.producthunt.com/r/I4WREISFO2BBDV?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 95,
+      "_source": "producthunt"
+    }
+  ]
+}
