@@ -1,0 +1,42 @@
+{
+  "generated_at": "2026-06-07T09:55:21.662Z",
+  "source": "launches",
+  "counts": {
+    "producthunt": 4,
+    "total": 4
+  },
+  "launches": [
+    {
+      "id": "ph-1163513",
+      "name": "Manus Shopify Connector",
+      "description": "Build and manage Shopify stores from one chat",
+      "url": "https://www.producthunt.com/r/AHXVXQWPR4IL7W?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 237,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1163721",
+      "name": "Gaming services by IFTTT",
+      "description": "Level up the way you play with Steam, Dota 2, and more",
+      "url": "https://www.producthunt.com/r/DXE77O5ZBKOFQG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 141,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1158375",
+      "name": "Fox Issue Tracker 4",
+      "description": "Track, plan, and release.",
+      "url": "https://www.producthunt.com/r/2WJKBSSDQ3SWE7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 108,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1164035",
+      "name": "freddy.",
+      "description": "Plug your wearables into Claude, OpenClaw, and any AI",
+      "url": "https://www.producthunt.com/r/PPCSXURYZ24GLA?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 25,
+      "_source": "producthunt"
+    }
+  ]
+}
