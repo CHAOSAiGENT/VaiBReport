@@ -177,8 +177,8 @@
       "last_featured": "2026-06-06"
     },
     "llama3-chatqa": {
-      "times_featured": 4,
-      "last_featured": "2026-05-24"
+      "times_featured": 5,
+      "last_featured": "2026-06-07"
     },
     "granite3-dense": {
       "times_featured": 4,
@@ -385,16 +385,16 @@
       "last_featured": "2026-06-06"
     },
     "qwen3.6": {
-      "times_featured": 3,
-      "last_featured": "2026-05-24"
+      "times_featured": 4,
+      "last_featured": "2026-06-07"
     },
     "magicoder": {
-      "times_featured": 3,
-      "last_featured": "2026-05-24"
+      "times_featured": 4,
+      "last_featured": "2026-06-07"
     },
     "mathstral": {
-      "times_featured": 3,
-      "last_featured": "2026-05-24"
+      "times_featured": 4,
+      "last_featured": "2026-06-07"
     },
     "laguna-xs.2": {
       "times_featured": 3,
@@ -413,8 +413,8 @@
       "last_featured": "2026-06-04"
     },
     "notux": {
-      "times_featured": 2,
-      "last_featured": "2026-05-24"
+      "times_featured": 3,
+      "last_featured": "2026-06-07"
     }
   }
 }

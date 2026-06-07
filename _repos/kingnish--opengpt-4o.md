@@ -3,25 +3,25 @@ layout: repo
 name: "KingNish/OpenGPT-4o"
 source: huggingface-space
 item_url: "https://huggingface.co/spaces/KingNish/OpenGPT-4o"
-description: "Open-source GPT-4 model"
+description: "OpenGPT-4o for Hugging Face Spaces"
 category: "HuggingFace Spaces"
 language: ""
 stars: 0
 downloads: 0
-likes: 4310
+likes: 4307
 og_image: "https://huggingface.co/api/spaces/KingNish/OpenGPT-4o/screenshot"
 first_featured: "2026-03-25"
-last_featured: "2026-05-23"
-times_featured: 5
+last_featured: "2026-06-07"
+times_featured: 6
 streak: 0
 appearances: 0
 star_velocity: 0
 tags: [huggingface, gradio, region:us]
 icp_tags: ["non-technical", "solopreneur", "entreprecurious"]
-replaces: []
-similar_to: []
-compare_to_source: "manual"
+replaces: [{"name":"Google Docs","url":"https://www.google.com/docs","note":"document editing"}]
+similar_to: ["lmarena-ai--arena-leaderboard"]
+compare_to_source: "llm"
 compare_to_validated: false
 ---
 
-Open-source GPT-4 model
+OpenGPT-4o for Hugging Face Spaces

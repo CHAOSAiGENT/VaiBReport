@@ -12,16 +12,16 @@ likes: 0
 readme_image: "https://youtu.be/O669pVZ_qr0"
 og_image: "https://opengraph.githubassets.com/1/JCodesMore/ai-website-cloner-template"
 first_featured: "2026-03-29"
-last_featured: "2026-05-24"
-times_featured: 5
+last_featured: "2026-06-07"
+times_featured: 6
 streak: 26
 appearances: 26
 star_velocity: 179
 tags: [github, ai, ai-agents, ai-tools, automation, boilerplate, claude, claude-code, clone]
 icp_tags: ["founding-team", "pre-mvp", "entreprecurious"]
-replaces: []
+replaces: [{"name":"WebsiteBuilder","url":"https://www.websitebuilder.com","note":"website cloning"}]
 similar_to: []
-compare_to_source: "manual"
+compare_to_source: "llm"
 compare_to_validated: false
 ---
 

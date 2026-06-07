@@ -12,15 +12,15 @@ likes: 0
 readme_image: "https://vercel.com/button"
 og_image: "https://opengraph.githubassets.com/1/Blazity/next-saas-starter"
 first_featured: "2026-03-26"
-last_featured: "2026-05-24"
-times_featured: 5
+last_featured: "2026-06-07"
+times_featured: 6
 streak: 49
 appearances: 49
 star_velocity: 0
 tags: [github, hacktoberfest, jamstack, jamstack-theme, landing-page, marketing-page, next, next-starter, nextjs]
 icp_tags: ["founding-team", "solopreneur", "pre-mvp"]
-replaces: [{"name":"Webflow","url":"https://webflow.com"},{"name":"Wix","url":"https://wix.com"}]
-similar_to: []
+replaces: [{"name":"Carrd","url":"https://www.carrd.co","note":"landing pages"}]
+similar_to: ["graphile--starter"]
 compare_to_source: "llm"
 compare_to_validated: false
 ---
