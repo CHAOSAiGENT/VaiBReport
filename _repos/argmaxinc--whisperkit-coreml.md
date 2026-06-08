@@ -3,16 +3,16 @@ layout: repo
 name: "argmaxinc/whisperkit-coreml"
 source: huggingface-model
 item_url: "https://huggingface.co/argmaxinc/whisperkit-coreml"
-description: "Whisper AI model for CoreML"
+description: "whisperkit-coreml"
 category: "HuggingFace Models"
 language: ""
 stars: 0
-downloads: 10348317
-likes: 181
+downloads: 9402607
+likes: 189
 og_image: ""
 first_featured: "2026-03-27"
-last_featured: "2026-05-25"
-times_featured: 5
+last_featured: "2026-06-08"
+times_featured: 6
 streak: 0
 appearances: 0
 star_velocity: 0
@@ -24,4 +24,4 @@ compare_to_source: "manual"
 compare_to_validated: false
 ---
 
-Whisper AI model for CoreML
+whisperkit-coreml

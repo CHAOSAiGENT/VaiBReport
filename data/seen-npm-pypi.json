@@ -65,8 +65,8 @@
       "last_featured": "2026-06-07"
     },
     "pypi-anthropic": {
-      "times_featured": 5,
-      "last_featured": "2026-05-24"
+      "times_featured": 6,
+      "last_featured": "2026-06-08"
     },
     "pypi-datasets": {
       "times_featured": 6,
@@ -169,8 +169,8 @@
       "last_featured": "2026-06-07"
     },
     "npm-@genkit-ai/google-cloud": {
-      "times_featured": 5,
-      "last_featured": "2026-05-25"
+      "times_featured": 6,
+      "last_featured": "2026-06-08"
     },
     "npm-@genkit-ai/google-genai": {
       "times_featured": 5,
@@ -393,12 +393,12 @@
       "last_featured": "2026-06-06"
     },
     "npm-@tanstack/ai-client": {
-      "times_featured": 1,
-      "last_featured": "2026-05-25"
+      "times_featured": 2,
+      "last_featured": "2026-06-08"
     },
     "npm-@tanstack/ai-openrouter": {
-      "times_featured": 1,
-      "last_featured": "2026-05-25"
+      "times_featured": 2,
+      "last_featured": "2026-06-08"
     }
   }
 }

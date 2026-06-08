@@ -3,16 +3,16 @@ layout: repo
 name: "Qwen/Qwen3-Embedding-0.6B"
 source: huggingface-model
 item_url: "https://huggingface.co/Qwen/Qwen3-Embedding-0.6B"
-description: "AI model for text embeddings"
+description: "Qwen3-Embedding-0.6B"
 category: "HuggingFace Models"
 language: ""
 stars: 0
-downloads: 7128157
-likes: 1035
+downloads: 9243386
+likes: 1057
 og_image: ""
 first_featured: "2026-03-28"
-last_featured: "2026-05-25"
-times_featured: 5
+last_featured: "2026-06-08"
+times_featured: 6
 streak: 0
 appearances: 0
 star_velocity: 0
@@ -24,4 +24,4 @@ compare_to_source: "manual"
 compare_to_validated: false
 ---
 
-AI model for text embeddings
+Qwen3-Embedding-0.6B

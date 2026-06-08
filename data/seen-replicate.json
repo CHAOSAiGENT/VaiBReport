@@ -547,6 +547,10 @@
     "runwayml/aleph-2": {
       "times_featured": 1,
       "last_featured": "2026-06-06"
+    },
+    "bencevans/megadetector-v5a": {
+      "times_featured": 1,
+      "last_featured": "2026-06-08"
     }
   }
 }
