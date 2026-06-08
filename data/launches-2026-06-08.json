@@ -1,0 +1,130 @@
+{
+  "generated_at": "2026-06-08T11:48:30.938Z",
+  "source": "launches",
+  "counts": {
+    "producthunt": 15,
+    "total": 15
+  },
+  "launches": [
+    {
+      "id": "ph-1162631",
+      "name": "Dreambeans by Google Labs",
+      "description": "Daily AI stories personalised from your Google apps",
+      "url": "https://www.producthunt.com/r/JQLUSYPX7QVIND?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 345,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1127185",
+      "name": "Wave",
+      "description": "Turn your voice into text — local or cloud, your choice",
+      "url": "https://www.producthunt.com/r/USLATFWCNZUTRR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 287,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1165266",
+      "name": "Job Postings API",
+      "description": "View, monitor, and analyze 1.8M+ US jobs",
+      "url": "https://www.producthunt.com/r/BNWVWGJYIBQSCF?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 221,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1163550",
+      "name": "Smmall Cloud for iOS",
+      "description": "Simple file sharing on your iPad or iPhone",
+      "url": "https://www.producthunt.com/r/IU63Q3CJKEUWTQ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 184,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1158759",
+      "name": "Honen",
+      "description": "Automated teaching + learning infrastructure for any company",
+      "url": "https://www.producthunt.com/r/KGWER5KAKVLXHX?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 177,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1152642",
+      "name": "Browse.sh",
+      "description": "Give your agents muscle memory for automating the web",
+      "url": "https://www.producthunt.com/r/INE5ILTLAZIF32?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 162,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1161859",
+      "name": "Supaste",
+      "description": "Clipboard Manager for macOS",
+      "url": "https://www.producthunt.com/r/OUDBSD6IBWNFYL?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 150,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1165495",
+      "name": "Vaani",
+      "description": "Lip-synced AI dubbing for creators, brands and studios",
+      "url": "https://www.producthunt.com/r/PYMO5672CRDMQX?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 125,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1166174",
+      "name": "The Virtual OS Museum",
+      "description": "Relive vintage operating systems right on your desktop",
+      "url": "https://www.producthunt.com/r/MIBXX2H7FRROOC?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 118,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1165846",
+      "name": "Tamadoggo",
+      "description": "A living journal for your pet's life, with AI insights",
+      "url": "https://www.producthunt.com/r/B6X2J7ZBCZZCG7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 117,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1166184",
+      "name": "NTSC-RS",
+      "description": "Open-source video emulation of analog TV and VHS artifacts",
+      "url": "https://www.producthunt.com/r/RQYYBDC3IALPXU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 107,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1165977",
+      "name": "Claude Artifact Player",
+      "description": "Run Claude artifacts locally",
+      "url": "https://www.producthunt.com/r/HDUUY4RDTVMFZ4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 107,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1161635",
+      "name": "Sigma File Manager",
+      "description": "Free, open-source, cross-platform, modern file manager app",
+      "url": "https://www.producthunt.com/r/XFCSIE5NJAAMVU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 98,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1160286",
+      "name": "Slashspace AI",
+      "description": "Canvas first AI agent harness. MCP native. Local first.",
+      "url": "https://www.producthunt.com/r/JNQC7JLKLXZB3X?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 44,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1165507",
+      "name": "Redirectly",
+      "description": "Know which campaigns actually drive your installs",
+      "url": "https://www.producthunt.com/r/ITEBQGW2JETBLI?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 24,
+      "_source": "producthunt"
+    }
+  ]
+}
