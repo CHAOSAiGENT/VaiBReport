@@ -133,12 +133,12 @@
       "last_featured": "2026-04-10"
     },
     "ultralytics/yolo11n": {
-      "times_featured": 2,
-      "last_featured": "2026-04-24"
+      "times_featured": 3,
+      "last_featured": "2026-06-09"
     },
     "ultralytics/yolov8s-worldv2": {
-      "times_featured": 2,
-      "last_featured": "2026-04-24"
+      "times_featured": 3,
+      "last_featured": "2026-06-09"
     },
     "black-forest-labs/flux-fill-pro": {
       "times_featured": 1,
@@ -309,8 +309,8 @@
       "last_featured": "2026-04-20"
     },
     "openai/gpt-image-2": {
-      "times_featured": 1,
-      "last_featured": "2026-04-22"
+      "times_featured": 2,
+      "last_featured": "2026-06-09"
     },
     "heygen/lipsync-precision": {
       "times_featured": 1,
@@ -505,8 +505,8 @@
       "last_featured": "2026-05-23"
     },
     "google/gemini-3-flash": {
-      "times_featured": 1,
-      "last_featured": "2026-05-26"
+      "times_featured": 2,
+      "last_featured": "2026-06-09"
     },
     "arsocekaj/anime-sdxl-v17": {
       "times_featured": 1,
@@ -551,6 +551,10 @@
     "bencevans/megadetector-v5a": {
       "times_featured": 1,
       "last_featured": "2026-06-08"
+    },
+    "google/upscaler": {
+      "times_featured": 1,
+      "last_featured": "2026-06-09"
     }
   }
 }

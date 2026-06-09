@@ -3,16 +3,16 @@ layout: repo
 name: "HuggingFaceTB/smol-training-playbook"
 source: huggingface-space
 item_url: "https://huggingface.co/spaces/HuggingFaceTB/smol-training-playbook"
-description: "Smol training playbook"
+description: "This playbook helps train small, effective AI models; avoid overkill, target efficiency."
 category: "HuggingFace Spaces"
 language: ""
 stars: 0
 downloads: 0
-likes: 3183
+likes: 3200
 og_image: "https://huggingface.co/api/spaces/HuggingFaceTB/smol-training-playbook/screenshot"
 first_featured: "2026-03-26"
-last_featured: "2026-05-24"
-times_featured: 5
+last_featured: "2026-06-09"
+times_featured: 6
 streak: 0
 appearances: 0
 star_velocity: 0
@@ -24,4 +24,4 @@ compare_to_source: "manual"
 compare_to_validated: false
 ---
 
-Smol training playbook
+This playbook helps train small, effective AI models; avoid overkill, target efficiency.

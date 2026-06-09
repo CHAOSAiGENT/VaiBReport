@@ -3,25 +3,25 @@ layout: repo
 name: "@appium/tsconfig"
 source: npm
 item_url: "https://www.npmjs.com/package/@appium/tsconfig"
-description: "Shared TypeScript config for Appium"
+description: "A shared TypeScript config for Appium projects; standardize your test automation setup."
 category: "npm Packages"
 language: ""
 stars: 0
-downloads: 1599026
+downloads: 1547842
 likes: 0
 og_image: ""
 first_featured: "2026-04-14"
-last_featured: "2026-05-26"
-times_featured: 4
+last_featured: "2026-06-09"
+times_featured: 5
 streak: 0
 appearances: 0
 star_velocity: 0
 tags: [npm, automation, javascript, selenium, webdriver, ios, android, firefoxos, testing]
 icp_tags: ["founding-team", "solopreneur"]
-replaces: [{"name":"TSConfig","url":"https://www.typescriptlang.org/docs/handbook/tsconfig-json.html","note":"config"}]
+replaces: []
 similar_to: []
-compare_to_source: "llm"
+compare_to_source: "manual"
 compare_to_validated: false
 ---
 
-Shared TypeScript config for Appium
+A shared TypeScript config for Appium projects; standardize your test automation setup.
