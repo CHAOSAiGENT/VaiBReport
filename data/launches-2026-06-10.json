@@ -1,0 +1,106 @@
+{
+  "generated_at": "2026-06-10T10:47:59.109Z",
+  "source": "launches",
+  "counts": {
+    "producthunt": 12,
+    "total": 12
+  },
+  "launches": [
+    {
+      "id": "ph-1163508",
+      "name": "VC Boom",
+      "description": "Score your deck, meet investors who fit, and raise more",
+      "url": "https://www.producthunt.com/r/NEBXF32UWM4O4P?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 463,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1164545",
+      "name": "ZeroGPU",
+      "description": "The compute efficient layer for AI inference",
+      "url": "https://www.producthunt.com/r/PR7CMHWYTD6JXM?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 328,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1150943",
+      "name": "prostir zvuku",
+      "description": "A spatial nature sound mixer for Mac",
+      "url": "https://www.producthunt.com/r/F4SMKPSTSJHNN4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 256,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1164111",
+      "name": "Krisp Voice Translation API",
+      "description": "Real-time speech-to-speech translation API ",
+      "url": "https://www.producthunt.com/r/4VAYRZFB62SQFY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 246,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1165435",
+      "name": " agmsg",
+      "description": "Stop copy-pasting between your AI coding agents",
+      "url": "https://www.producthunt.com/r/B4AXPCZ72ACZGT?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 221,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1167099",
+      "name": "Kimi Work",
+      "description": "The AI desktop for knowledge work",
+      "url": "https://www.producthunt.com/r/FAJLZHX5Y5I6Q3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 173,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1166907",
+      "name": "Uiverse Design",
+      "description": "De-slop your AI generated websites",
+      "url": "https://www.producthunt.com/r/EJZUZNOI66LAPN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 172,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1164142",
+      "name": "BooBar",
+      "description": "AI Dynamic Island for your Mac",
+      "url": "https://www.producthunt.com/r/NI7IIRK45XBSHH?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 141,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1123558",
+      "name": "hora Calendar",
+      "description": "Google calendar built for the Mac",
+      "url": "https://www.producthunt.com/r/VZYEGPKBWDVKAI?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 131,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1055677",
+      "name": "TravelMind ",
+      "description": "AI-powered city discovery built on taste, not reviews",
+      "url": "https://www.producthunt.com/r/PULBOJS3SSKEEN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 122,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1166576",
+      "name": "Limelight",
+      "description": "Make your screen recordings easy to follow",
+      "url": "https://www.producthunt.com/r/UXYTSLW2JY2VR3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 114,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1157187",
+      "name": "Whistle",
+      "description": "A fitness coach with personalized plans",
+      "url": "https://www.producthunt.com/r/5LN77OJG5IYPGU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 112,
+      "_source": "producthunt"
+    }
+  ]
+}
