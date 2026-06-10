@@ -189,8 +189,8 @@
       "last_featured": "2026-04-27"
     },
     "ultralytics/yoloe-11s": {
-      "times_featured": 2,
-      "last_featured": "2026-04-28"
+      "times_featured": 3,
+      "last_featured": "2026-06-10"
     },
     "google/lyria-3-pro": {
       "times_featured": 1,
@@ -509,8 +509,8 @@
       "last_featured": "2026-06-09"
     },
     "arsocekaj/anime-sdxl-v17": {
-      "times_featured": 1,
-      "last_featured": "2026-05-26"
+      "times_featured": 2,
+      "last_featured": "2026-06-10"
     },
     "prunaai/p-video-animate": {
       "times_featured": 1,
@@ -555,6 +555,18 @@
     "google/upscaler": {
       "times_featured": 1,
       "last_featured": "2026-06-09"
+    },
+    "thomasmol/whisper-diarization": {
+      "times_featured": 1,
+      "last_featured": "2026-06-10"
+    },
+    "anthropic/claude-fable-5": {
+      "times_featured": 1,
+      "last_featured": "2026-06-10"
+    },
+    "oitoito/depth-pro": {
+      "times_featured": 1,
+      "last_featured": "2026-06-10"
     }
   }
 }

@@ -11,16 +11,16 @@ downloads: 0
 likes: 0
 og_image: "https://opengraph.githubassets.com/1/suren-atoyan/react-pwa"
 first_featured: "2026-03-30"
-last_featured: "2026-05-27"
-times_featured: 5
+last_featured: "2026-06-10"
+times_featured: 6
 streak: 49
 appearances: 49
 star_velocity: 0
 tags: [github, boilerplate, pwa, react, template]
 icp_tags: ["founding-team", "solopreneur", "pre-mvp"]
-replaces: []
+replaces: [{"name":"Create React App","url":"https://create-react-app.dev","note":"React starter kit"}]
 similar_to: []
-compare_to_source: "manual"
+compare_to_source: "llm"
 compare_to_validated: false
 ---
 
