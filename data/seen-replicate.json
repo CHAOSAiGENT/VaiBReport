@@ -1,8 +1,8 @@
 {
   "featured": {
     "prunaai/p-image-edit": {
-      "times_featured": 3,
-      "last_featured": "2026-05-28"
+      "times_featured": 4,
+      "last_featured": "2026-06-11"
     },
     "black-forest-labs/flux-2-pro": {
       "times_featured": 2,
@@ -513,12 +513,12 @@
       "last_featured": "2026-06-10"
     },
     "prunaai/p-video-animate": {
-      "times_featured": 1,
-      "last_featured": "2026-05-28"
+      "times_featured": 2,
+      "last_featured": "2026-06-11"
     },
     "anthropic/claude-sonnet-4.6": {
-      "times_featured": 1,
-      "last_featured": "2026-05-28"
+      "times_featured": 2,
+      "last_featured": "2026-06-11"
     },
     "krea/krea-2-medium": {
       "times_featured": 1,
@@ -567,6 +567,10 @@
     "oitoito/depth-pro": {
       "times_featured": 1,
       "last_featured": "2026-06-10"
+    },
+    "luma/ray-3.2": {
+      "times_featured": 1,
+      "last_featured": "2026-06-11"
     }
   }
 }
