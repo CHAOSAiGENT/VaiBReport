@@ -1,0 +1,122 @@
+{
+  "generated_at": "2026-06-11T11:17:15.770Z",
+  "source": "launches",
+  "counts": {
+    "producthunt": 14,
+    "total": 14
+  },
+  "launches": [
+    {
+      "id": "ph-1152641",
+      "name": "Publora",
+      "description": "A publishing API for agents to post on 10 social platforms",
+      "url": "https://www.producthunt.com/r/FFFDHH6IKSRQWU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 546,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1164840",
+      "name": "TypingMind",
+      "description": "Pay per use, no subscription, 18 model providers supported",
+      "url": "https://www.producthunt.com/r/AET65KN4Y36CK3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 428,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1161477",
+      "name": "Spotlight by Backplanes",
+      "description": "Session reports for Claude Code & Codex to improve your code",
+      "url": "https://www.producthunt.com/r/YZAQ4A3CS6KC4V?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 384,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1166623",
+      "name": "Screen Charm",
+      "description": "Give your screen recordings more charm",
+      "url": "https://www.producthunt.com/r/HIDAJHE7G4FAB3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 297,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1166408",
+      "name": "iArt.ai",
+      "description": "Turn ideas & designs into stunning video/animation.",
+      "url": "https://www.producthunt.com/r/BVZIMZTBT2CLGG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 211,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1168743",
+      "name": "Bond",
+      "description": "The AI to-do list that does itself",
+      "url": "https://www.producthunt.com/r/7SFOLQBBWUEQXW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 194,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1165274",
+      "name": "Respan Gateway",
+      "description": "One AI gateway with built-in observability and evals",
+      "url": "https://www.producthunt.com/r/PZT5PPTBVKBPVT?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 183,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1168506",
+      "name": "Terminal Mode by Even Realities",
+      "description": "Keep coding agents always in sight",
+      "url": "https://www.producthunt.com/r/JP725UN73VRUJN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 166,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1167909",
+      "name": "Axol",
+      "description": "Automate physical work with a powerful robot",
+      "url": "https://www.producthunt.com/r/MA2XPJNWOIIKHL?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 127,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1156179",
+      "name": "SeaTicket",
+      "description": "Al agent that resolves issues across all your channels",
+      "url": "https://www.producthunt.com/r/VBYGJCKDHUYJ33?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 126,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1167625",
+      "name": "Asmi AI",
+      "description": "AI that handles your personal chores in the real world",
+      "url": "https://www.producthunt.com/r/Y5YVSLCZJ7BZ6I?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 119,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1167299",
+      "name": "veridive",
+      "description": "Find the 30 seconds that matter in any video via chat",
+      "url": "https://www.producthunt.com/r/3E4FWZNWXIXXFT?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 117,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1168019",
+      "name": "Hero Studio Photos",
+      "description": "Snap one photo, get listing-ready shots from every angle",
+      "url": "https://www.producthunt.com/r/VNMX7USPKQFIDY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 116,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1168429",
+      "name": "CrustRecruiter",
+      "description": "Turn Claude into a recruiter that thinks like you",
+      "url": "https://www.producthunt.com/r/6UER3KDCF4DEER?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 114,
+      "_source": "producthunt"
+    }
+  ]
+}
