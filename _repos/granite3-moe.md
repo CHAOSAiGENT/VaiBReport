@@ -3,7 +3,7 @@ layout: repo
 name: "granite3-moe"
 source: ollama
 item_url: "https://ollama.com/library/granite3-moe"
-description: "The IBM Granite 1B and 3B models are the first mixture of experts (MoE) Granite models from IBM designed for low latency usage."
+description: "IBM's low-latency MoE model, ideal for faster local inference on smaller, quick-response tasks."
 category: "Ollama Models"
 language: ""
 stars: 0
@@ -11,8 +11,8 @@ downloads: 0
 likes: 0
 og_image: ""
 first_featured: "2026-04-17"
-last_featured: "2026-05-29"
-times_featured: 4
+last_featured: "2026-06-12"
+times_featured: 5
 streak: 0
 appearances: 0
 star_velocity: 0
@@ -20,10 +20,10 @@ tags: [ollama, tools, 1b, 3b, 880.8K
                  Pulls, 880.8K, Pulls, 33
                  Tags, 33]
 icp_tags: ["non-technical", "pre-mvp", "entreprecurious"]
-replaces: []
+replaces: [{"name":"Smaller Commercial LLM APIs","url":"https://openai.com/","note":"Cost of small LLM API calls"},{"name":"Local Inference of Larger Models","url":"https://ollama.com/library","note":"Slower local LLM inference"}]
 similar_to: []
-compare_to_source: "manual"
+compare_to_source: "llm"
 compare_to_validated: false
 ---
 
-The IBM Granite 1B and 3B models are the first mixture of experts (MoE) Granite models from IBM designed for low latency usage.
+IBM's low-latency MoE model, ideal for faster local inference on smaller, quick-response tasks.

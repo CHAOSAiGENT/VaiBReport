@@ -3,7 +3,7 @@ layout: repo
 name: "krea/krea-2-large"
 source: replicate
 item_url: "https://replicate.com/krea/krea-2-large"
-description: "Krea's flagship foundation image model. Larger and more flexible than Krea 2 Medium, with particular strength in photorealism and expressive artistic styles."
+description: "Krea's flagship image model for photorealism and expressive art, for when \"good enough\" isn't."
 category: "Replicate Models"
 language: ""
 stars: 0
@@ -11,17 +11,17 @@ downloads: 0
 likes: 0
 og_image: ""
 first_featured: "2026-05-29"
-last_featured: "2026-05-29"
-times_featured: 1
+last_featured: "2026-06-12"
+times_featured: 2
 streak: 0
 appearances: 0
 star_velocity: 0
 tags: [replicate]
 icp_tags: ["non-technical", "solopreneur"]
-replaces: []
-similar_to: []
-compare_to_source: "manual"
+replaces: [{"name":"Midjourney","url":"https://www.midjourney.com/","note":"AI image generation"},{"name":"DALL-E 3","url":"https://openai.com/dall-e-3","note":"AI image generation"},{"name":"Stock Photo Sites","url":"https://stock.adobe.com/","note":"Purchasing photorealistic images"}]
+similar_to: ["krea--krea-2-medium", "multimodalart--qwen-image-multiple-angles-3d-camera"]
+compare_to_source: "llm"
 compare_to_validated: false
 ---
 
-Krea's flagship foundation image model. Larger and more flexible than Krea 2 Medium, with particular strength in photorealism and expressive artistic styles.
+Krea's flagship image model for photorealism and expressive art, for when "good enough" isn't.

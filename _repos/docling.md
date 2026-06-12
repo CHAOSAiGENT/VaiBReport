@@ -3,25 +3,25 @@ layout: repo
 name: "docling"
 source: pypi
 item_url: "https://pypi.org/project/docling/"
-description: "SDK for document parsing"
+description: "Parse documents to a unified format for AI applications; finally, structured data from messy PDFs."
 category: "PyPI Packages"
 language: ""
 stars: 0
-downloads: 1972347
+downloads: 2869693
 likes: 0
 og_image: ""
 first_featured: "2026-03-28"
-last_featured: "2026-05-29"
-times_featured: 5
+last_featured: "2026-06-12"
+times_featured: 6
 streak: 0
 appearances: 0
 star_velocity: 0
 tags: [pypi, convert, docling, document, docx, html, layout, model, markdown]
 icp_tags: ["founding-team", "solopreneur"]
-replaces: [{"name":"Tesseract OCR","url":"https://github.com/tesseract-ocr/tesseract","note":"OCR engine"}]
-similar_to: []
+replaces: [{"name":"Adobe PDF Extract API","url":"https://developer.adobe.com/document-services/apis/pdf-extract/","note":"Document parsing"},{"name":"Parseur","url":"https://parseur.com/","note":"Document parsing SaaS"},{"name":"Custom OCR Scripts","url":"https://tesseract-ocr.github.io/","note":"Building own parsing tools"}]
+similar_to: ["llama-index"]
 compare_to_source: "llm"
 compare_to_validated: false
 ---
 
-SDK for document parsing
+Parse documents to a unified format for AI applications; finally, structured data from messy PDFs.
