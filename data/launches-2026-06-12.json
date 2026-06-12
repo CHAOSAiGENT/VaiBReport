@@ -1,0 +1,90 @@
+{
+  "generated_at": "2026-06-12T10:55:59.113Z",
+  "source": "launches",
+  "counts": {
+    "producthunt": 10,
+    "total": 10
+  },
+  "launches": [
+    {
+      "id": "ph-1168118",
+      "name": "Tabstack Structured Extraction",
+      "description": "Extract web data into structured JSON, no scraper required.",
+      "url": "https://www.producthunt.com/r/AE3CWZQGRROXKK?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 183,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1166749",
+      "name": "Juno",
+      "description": "AI Health Companion for Chronic Illness",
+      "url": "https://www.producthunt.com/r/ONMBUHRI6CS6OZ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 143,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1146416",
+      "name": "Nodey",
+      "description": "Your n8n command center, now on your phone",
+      "url": "https://www.producthunt.com/r/WV3N3G32P5KL74?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 142,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1168276",
+      "name": "SlimSnap",
+      "description": "Your AI doesn't know which button you mean",
+      "url": "https://www.producthunt.com/r/EMTEMSQ3XWIRT3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 141,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1168807",
+      "name": "PixelForge",
+      "description": "Turn photos into game assets",
+      "url": "https://www.producthunt.com/r/7E6FYXMBB7KOR2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 120,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1165826",
+      "name": "Lium AI",
+      "description": "AI for Complex Data",
+      "url": "https://www.producthunt.com/r/GUMPVE2VWYQ4LC?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 117,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1168678",
+      "name": "Onpilot",
+      "description": "An AI workforce customized to your business",
+      "url": "https://www.producthunt.com/r/LWKEQO5K6MZCZJ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 116,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1169000",
+      "name": "Cloudskill",
+      "description": "Govern the AI skills your team depends on",
+      "url": "https://www.producthunt.com/r/IGLHASTKKSOJT4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 106,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1168301",
+      "name": "Airbrush Studio",
+      "description": "AI-powered photo editor for pro results w/o manual editing",
+      "url": "https://www.producthunt.com/r/WAOU6BHEL7552M?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 105,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1168304",
+      "name": "OwnClip",
+      "description": "Native macOS screen recorder with local-first AI privacy",
+      "url": "https://www.producthunt.com/r/A7APOZ73I373WT?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 102,
+      "_source": "producthunt"
+    }
+  ]
+}
