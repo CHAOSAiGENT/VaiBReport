@@ -1,0 +1,98 @@
+{
+  "generated_at": "2026-06-13T09:50:26.938Z",
+  "source": "launches",
+  "counts": {
+    "producthunt": 11,
+    "total": 11
+  },
+  "launches": [
+    {
+      "id": "ph-1166716",
+      "name": "Firma.dev",
+      "description": "E-signatures API for your app averaging ~3¢ per envelope",
+      "url": "https://www.producthunt.com/r/MJGLBAKR5ANIUY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 327,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1169842",
+      "name": "Qursor",
+      "description": "Point at any UI to send exact context to your AI",
+      "url": "https://www.producthunt.com/r/UZAN2BZTEQ2HT3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 291,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1166087",
+      "name": "Pond",
+      "description": "Fundraising, GTM, and bounties for startups",
+      "url": "https://www.producthunt.com/r/CTIMFBPUPVXIGE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 234,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1169114",
+      "name": "HyperSleep",
+      "description": "Block social media until you've actually slept",
+      "url": "https://www.producthunt.com/r/OUIBT5QXMTJNMM?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 202,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1169775",
+      "name": "Bob's CLI",
+      "description": "A local-first AI coding CLI that adapts to you",
+      "url": "https://www.producthunt.com/r/EEQXQXCFJJTAFZ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 141,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1169266",
+      "name": "Meet Warren 3.0",
+      "description": "Your voice-supported AI financial planning partner",
+      "url": "https://www.producthunt.com/r/ITHILQTGL6E2JY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 135,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1169557",
+      "name": "ShellMate",
+      "description": "Manage SSH servers, credentials, and teams in one place",
+      "url": "https://www.producthunt.com/r/U2DUIA53LZKYV3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 113,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1169798",
+      "name": "Slack Data Agent",
+      "description": "Ask about your data without leaving Slack",
+      "url": "https://www.producthunt.com/r/MOY3ZCEEEPW3QE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 109,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1169774",
+      "name": " CueBuddy",
+      "description": "Record talking videos without manual scrolling",
+      "url": "https://www.producthunt.com/r/IOURJDAI2Z5LJG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 102,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1169603",
+      "name": "LocIn AI",
+      "description": "Localize your app with tone-aware AI, automated workflows",
+      "url": "https://www.producthunt.com/r/UM66U5554QVAQF?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 97,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1166978",
+      "name": "NODUS PH Radar for Product Hunt",
+      "description": "Product Hunt analytics beyond the daily leaderboard",
+      "url": "https://www.producthunt.com/r/FXQZONNO5ERVJ2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 95,
+      "_source": "producthunt"
+    }
+  ]
+}
