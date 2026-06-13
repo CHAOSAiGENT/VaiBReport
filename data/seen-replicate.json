@@ -571,6 +571,10 @@
     "luma/ray-3.2": {
       "times_featured": 1,
       "last_featured": "2026-06-11"
+    },
+    "ibm-granite/granite-speech-4.1-2b": {
+      "times_featured": 1,
+      "last_featured": "2026-06-13"
     }
   }
 }

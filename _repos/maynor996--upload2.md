@@ -3,16 +3,16 @@ layout: repo
 name: "Maynor996/upload2"
 source: huggingface-dataset
 item_url: "https://huggingface.co/datasets/Maynor996/upload2"
-description: "A simple image folder dataset for quickly testing your image processing or vision models."
+description: "upload2"
 category: "HuggingFace Datasets"
 language: ""
 stars: 0
-downloads: 957832
+downloads: 722879
 likes: 0
 og_image: ""
 first_featured: "2026-03-30"
-last_featured: "2026-05-30"
-times_featured: 5
+last_featured: "2026-06-13"
+times_featured: 6
 streak: 0
 appearances: 0
 star_velocity: 0
@@ -24,4 +24,4 @@ compare_to_source: "manual"
 compare_to_validated: false
 ---
 
-A simple image folder dataset for quickly testing your image processing or vision models.
+upload2

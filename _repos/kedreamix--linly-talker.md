@@ -3,7 +3,7 @@ layout: repo
 name: "Kedreamix/Linly-Talker"
 source: github
 item_url: "https://github.com/Kedreamix/Linly-Talker"
-description: "Create digital talking avatars combining LLMs, speech, and AI-generated talking heads for novel interactions."
+description: "Digital Avatar Conversational System - Linly-Talker. 😄✨ Linly-Talker is an intelligent AI system that combines large language models (LLMs) with visual models to create a novel human-AI interaction method. 🤝🤖 It integrates various technologies like Whisper, Linly, Microsoft Speech Services, and SadTalker talking head generation system. 🌟🔬"
 category: "UGC, social media and creator tools"
 language: "Python"
 stars: 3281
@@ -12,17 +12,17 @@ likes: 0
 readme_image: "https://api.star-history.com/svg?repos=Kedreamix/Linly-Talker&type=Date"
 og_image: "https://opengraph.githubassets.com/1/Kedreamix/Linly-Talker"
 first_featured: "2026-04-17"
-last_featured: "2026-05-30"
-times_featured: 4
+last_featured: "2026-06-13"
+times_featured: 5
 streak: 49
 appearances: 49
 star_velocity: 2
 tags: [github]
 icp_tags: ["solopreneur", "non-technical", "entreprecurious"]
-replaces: [{"name":"HeyGen","url":"https://www.heygen.com/","note":"AI Video Generator with Avatars"},{"name":"Synthesia","url":"https://www.synthesia.io/","note":"AI Video Generation Platform"},{"name":"Descript","url":"https://www.descript.com/","note":"AI video and audio editing with voice cloning"}]
+replaces: []
 similar_to: []
-compare_to_source: "llm"
+compare_to_source: "manual"
 compare_to_validated: false
 ---
 
-Create digital talking avatars combining LLMs, speech, and AI-generated talking heads for novel interactions.
+Digital Avatar Conversational System - Linly-Talker. 😄✨ Linly-Talker is an intelligent AI system that combines large language models (LLMs) with visual models to create a novel human-AI interaction method. 🤝🤖 It integrates various technologies like Whisper, Linly, Microsoft Speech Services, and SadTalker talking head generation system. 🌟🔬

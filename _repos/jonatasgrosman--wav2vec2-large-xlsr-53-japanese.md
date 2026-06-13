@@ -3,16 +3,16 @@ layout: repo
 name: "jonatasgrosman/wav2vec2-large-xlsr-53-japanese"
 source: huggingface-model
 item_url: "https://huggingface.co/jonatasgrosman/wav2vec2-large-xlsr-53-japanese"
-description: "AI model for speech recognition"
+description: "wav2vec2-large-xlsr-53-japanese"
 category: "HuggingFace Models"
 language: ""
 stars: 0
-downloads: 1396198
+downloads: 2432935
 likes: 57
 og_image: ""
 first_featured: "2026-04-17"
-last_featured: "2026-05-25"
-times_featured: 2
+last_featured: "2026-06-13"
+times_featured: 3
 streak: 0
 appearances: 0
 star_velocity: 0
@@ -24,4 +24,4 @@ compare_to_source: "manual"
 compare_to_validated: false
 ---
 
-AI model for speech recognition
+wav2vec2-large-xlsr-53-japanese

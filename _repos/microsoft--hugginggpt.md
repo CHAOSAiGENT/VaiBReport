@@ -11,8 +11,8 @@ downloads: 0
 likes: 2273
 og_image: "https://huggingface.co/api/spaces/microsoft/HuggingGPT/screenshot"
 first_featured: "2026-03-29"
-last_featured: "2026-05-27"
-times_featured: 5
+last_featured: "2026-06-13"
+times_featured: 6
 streak: 0
 appearances: 0
 star_velocity: 0
