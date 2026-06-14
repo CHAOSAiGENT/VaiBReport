@@ -1,0 +1,42 @@
+{
+  "generated_at": "2026-06-14T10:18:32.011Z",
+  "source": "launches",
+  "counts": {
+    "producthunt": 4,
+    "total": 4
+  },
+  "launches": [
+    {
+      "id": "ph-1170432",
+      "name": "Vercel Drop",
+      "description": "Drop it. It's live.",
+      "url": "https://www.producthunt.com/r/RY26DNHYWZFE45?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 403,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1170110",
+      "name": "Kimi K2.7 Code",
+      "description": "Kimi’s most capable coding model yet",
+      "url": "https://www.producthunt.com/r/AOIRMB5BYBIQUR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 301,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1170451",
+      "name": "Prometheus by Firecrawl",
+      "description": "A Forward Deployed Agent for web data.",
+      "url": "https://www.producthunt.com/r/U5BMS7ZYLLSZKS?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 213,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1170418",
+      "name": "CakewordAI",
+      "description": "Point at anything to learn its name in any language",
+      "url": "https://www.producthunt.com/r/UHT22SUFPDVBCG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 181,
+      "_source": "producthunt"
+    }
+  ]
+}
