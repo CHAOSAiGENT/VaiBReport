@@ -7,12 +7,12 @@ description: "Python library for together API"
 category: "PyPI Packages"
 language: ""
 stars: 0
-downloads: 679706
+downloads: 333939
 likes: 0
 og_image: ""
 first_featured: "2026-03-28"
-last_featured: "2026-05-31"
-times_featured: 5
+last_featured: "2026-06-14"
+times_featured: 6
 streak: 0
 appearances: 0
 star_velocity: 0

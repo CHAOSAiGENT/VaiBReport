@@ -11,14 +11,14 @@ downloads: 0
 likes: 0
 og_image: "https://opengraph.githubassets.com/1/gonzalochale/saas-landing-template"
 first_featured: "2026-04-19"
-last_featured: "2026-05-31"
-times_featured: 4
+last_featured: "2026-06-14"
+times_featured: 5
 streak: 49
 appearances: 49
 star_velocity: 0
 tags: [github, nextjs, nextjs16, nextui, nextui-starter, nextui-template, reactjs, saas, saas-boilerplate]
 icp_tags: ["founding-team", "solopreneur", "pre-mvp"]
-replaces: [{"name":"Unbounce","url":"https://unbounce.com"}]
+replaces: [{"name":"Carrd","url":"https://www.carrd.co","note":"landing pages"}]
 similar_to: []
 compare_to_source: "llm"
 compare_to_validated: false

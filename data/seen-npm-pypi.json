@@ -229,16 +229,16 @@
       "last_featured": "2026-06-12"
     },
     "pypi-together": {
-      "times_featured": 5,
-      "last_featured": "2026-05-31"
+      "times_featured": 6,
+      "last_featured": "2026-06-14"
     },
     "pypi-unstructured": {
-      "times_featured": 5,
-      "last_featured": "2026-05-29"
+      "times_featured": 6,
+      "last_featured": "2026-06-14"
     },
     "pypi-agno": {
-      "times_featured": 5,
-      "last_featured": "2026-05-31"
+      "times_featured": 6,
+      "last_featured": "2026-06-14"
     },
     "npm-scrivito": {
       "times_featured": 6,
@@ -265,12 +265,12 @@
       "last_featured": "2026-06-13"
     },
     "pypi-Crawl4AI": {
-      "times_featured": 5,
-      "last_featured": "2026-05-30"
+      "times_featured": 6,
+      "last_featured": "2026-06-14"
     },
     "pypi-outlines": {
-      "times_featured": 5,
-      "last_featured": "2026-05-30"
+      "times_featured": 6,
+      "last_featured": "2026-06-14"
     },
     "pypi-pinecone-client": {
       "times_featured": 6,
@@ -285,8 +285,8 @@
       "last_featured": "2026-06-10"
     },
     "npm-@appium/logger": {
-      "times_featured": 4,
-      "last_featured": "2026-05-28"
+      "times_featured": 5,
+      "last_featured": "2026-06-14"
     },
     "npm-@applitools/utils": {
       "times_featured": 1,
@@ -309,8 +309,8 @@
       "last_featured": "2026-05-31"
     },
     "npm-@appium/base-driver": {
-      "times_featured": 4,
-      "last_featured": "2026-05-28"
+      "times_featured": 5,
+      "last_featured": "2026-06-14"
     },
     "npm-@appium/tsconfig": {
       "times_featured": 5,
@@ -399,6 +399,14 @@
     "npm-@tanstack/ai-openrouter": {
       "times_featured": 2,
       "last_featured": "2026-06-08"
+    },
+    "npm-appium-android-driver": {
+      "times_featured": 1,
+      "last_featured": "2026-06-14"
+    },
+    "npm-@heymantle/react": {
+      "times_featured": 1,
+      "last_featured": "2026-06-14"
     }
   }
 }

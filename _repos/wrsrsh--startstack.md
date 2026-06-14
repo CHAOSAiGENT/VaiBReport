@@ -11,15 +11,15 @@ downloads: 0
 likes: 0
 og_image: "https://opengraph.githubassets.com/1/wrsrsh/startstack"
 first_featured: "2026-04-19"
-last_featured: "2026-05-31"
-times_featured: 4
+last_featured: "2026-06-14"
+times_featured: 5
 streak: 49
 appearances: 49
 star_velocity: 0
 tags: [github, better-auth, boilerplate, drizzle-orm, nextjs-starter, saas, saas-starter-kit, shadcn-ui, typescript]
 icp_tags: ["founding-team", "solopreneur", "pre-mvp"]
-replaces: [{"name":"Create React App","url":"https://create-react-app.dev"}]
-similar_to: ["auth0-developer-hub--auth0-b2b-saas-starter"]
+replaces: [{"name":"Vercel","url":"https://vercel.com","note":"platform"}]
+similar_to: []
 compare_to_source: "llm"
 compare_to_validated: false
 ---
