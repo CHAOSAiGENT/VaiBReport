@@ -1,0 +1,130 @@
+{
+  "generated_at": "2026-06-15T12:57:03.160Z",
+  "source": "launches",
+  "counts": {
+    "producthunt": 15,
+    "total": 15
+  },
+  "launches": [
+    {
+      "id": "ph-1171217",
+      "name": "Slashy",
+      "description": "The AI assistant that does email for you",
+      "url": "https://www.producthunt.com/r/723Q6GNIWDBMQM?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 426,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1170971",
+      "name": "Taste Lab",
+      "description": "Extract any website's design DNA",
+      "url": "https://www.producthunt.com/r/KOJGXLNJOQGWQI?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 354,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1169612",
+      "name": "Novu Connect",
+      "description": "Ship agents where your users already work",
+      "url": "https://www.producthunt.com/r/YKCLFF3LPLDFWW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 186,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1171008",
+      "name": "Cloudback for Linear",
+      "description": "Automated backup and restore for Linear workspaces",
+      "url": "https://www.producthunt.com/r/AJD3WYKDXZTMGK?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 168,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1166979",
+      "name": "Wobo 2.0",
+      "description": "Tinder for jobs: swipe right and AI applies for you",
+      "url": "https://www.producthunt.com/r/4YVEDAOI6CJSFN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 134,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1165939",
+      "name": "Conan",
+      "description": "A native Mac cockpit for Claude Code",
+      "url": "https://www.producthunt.com/r/YCRXMCPH3NBX33?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 129,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1170951",
+      "name": "Memoriq",
+      "description": "Your private AI memory for ChatGPT, Claude, Gemini and Grok",
+      "url": "https://www.producthunt.com/r/FGPLN55XYVVARV?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 128,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1172037",
+      "name": "Kickbacks.ai",
+      "description": "Get paid to wait for Claude Code to finish",
+      "url": "https://www.producthunt.com/r/6UFCMNIYCIPIVY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 117,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1167474",
+      "name": "Notra Image Generation",
+      "description": "Turn merged PRs into on-brand marketing visuals",
+      "url": "https://www.producthunt.com/r/K25AMX5IAKYYMJ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 115,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1163285",
+      "name": "AutoEdit",
+      "description": "Your Claude AI Video Editor for Premiere Pro",
+      "url": "https://www.producthunt.com/r/FKEBR24CKXQXUO?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 98,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1158258",
+      "name": "Sulsaly",
+      "description": "#1 Agentic AI sales leads &outreach platform for MENA Region",
+      "url": "https://www.producthunt.com/r/3JHSMSEQPY6EEK?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 90,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1168340",
+      "name": "MockPilot",
+      "description": "Turn live websites into editable mockups",
+      "url": "https://www.producthunt.com/r/D65V7XL2EQS53Y?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 90,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1169095",
+      "name": "Synopsule",
+      "description": "On device private AI meeting transcripts",
+      "url": "https://www.producthunt.com/r/EO44MRSZGFO2ED?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 90,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1166106",
+      "name": "PandaProbe Cloud",
+      "description": "agent engineering, fully managed.",
+      "url": "https://www.producthunt.com/r/EFZITJ632XZJX3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 88,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1171461",
+      "name": "Dropmatico",
+      "description": "Drop. Pick. Done.",
+      "url": "https://www.producthunt.com/r/CZC6HFUJFJLART?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 88,
+      "_source": "producthunt"
+    }
+  ]
+}
