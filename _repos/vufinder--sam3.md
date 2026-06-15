@@ -1,18 +1,18 @@
 ---
 layout: repo
-name: "xai/grok-imagine-video-1.5"
+name: "vufinder/sam3"
 source: replicate
-item_url: "https://replicate.com/xai/grok-imagine-video-1.5"
-description: "Grok imagine video 1.5"
+item_url: "https://replicate.com/vufinder/sam3"
+description: "SAM3 segment anything model"
 category: "Replicate Models"
 language: ""
 stars: 0
 downloads: 0
 likes: 0
 og_image: ""
-first_featured: "2026-06-01"
+first_featured: "2026-06-15"
 last_featured: "2026-06-15"
-times_featured: 2
+times_featured: 1
 streak: 0
 appearances: 0
 star_velocity: 0
@@ -24,4 +24,4 @@ compare_to_source: "manual"
 compare_to_validated: false
 ---
 
-Grok imagine video 1.5
+SAM3 segment anything model

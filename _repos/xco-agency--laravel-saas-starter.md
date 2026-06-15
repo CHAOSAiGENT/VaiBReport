@@ -12,14 +12,14 @@ likes: 0
 readme_image: "https://web-platforms.sfo2.cdn.digitaloceanspaces.com/WWW/Badge%201.svg"
 og_image: "https://opengraph.githubassets.com/1/XCO-Agency/Laravel-SAAS-Starter"
 first_featured: "2026-05-04"
-last_featured: "2026-06-01"
-times_featured: 3
+last_featured: "2026-06-15"
+times_featured: 4
 streak: 3
 appearances: 3
 star_velocity: 1
 tags: [github, laravel, saas, saas-api, saas-application, saas-boilerplate, saas-template]
 icp_tags: ["founding-team", "solopreneur", "pre-mvp"]
-replaces: [{"name":"Stripe Atlas","url":"https://atlas.stripe.com/","note":"saas template"}]
+replaces: [{"name":"Bubble","url":"https://bubble.io","note":"no-code saas"},{"name":"Adalo","url":"https://www.adalo.com","note":"no-code saas"}]
 similar_to: []
 compare_to_source: "llm"
 compare_to_validated: false

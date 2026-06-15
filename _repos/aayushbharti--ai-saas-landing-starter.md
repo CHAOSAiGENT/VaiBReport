@@ -12,14 +12,14 @@ likes: 0
 readme_image: "https://custom-icon-badges.demolab.com/badge/made%20by%20-aayushbharti-556bf2?logo=github&logoColor=white&labelColor=101827"
 og_image: "https://opengraph.githubassets.com/1/AayushBharti/ai-saas-landing-starter"
 first_featured: "2026-04-20"
-last_featured: "2026-06-01"
-times_featured: 4
+last_featured: "2026-06-15"
+times_featured: 5
 streak: 49
 appearances: 49
 star_velocity: 0
 tags: [github, design, homepage, javascript, landing-page, react, reactjs, saas, saas-boilerplate]
 icp_tags: ["founding-team", "solopreneur", "pre-mvp"]
-replaces: [{"name":"Carrd","url":"https://www.carrd.co/","note":"landing page"}]
+replaces: [{"name":"Carrd","url":"https://www.carrd.co","note":"landing pages"}]
 similar_to: []
 compare_to_source: "llm"
 compare_to_validated: false

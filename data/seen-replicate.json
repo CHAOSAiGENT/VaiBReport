@@ -81,8 +81,8 @@
       "last_featured": "2026-03-26"
     },
     "bytedance/seedream-4.5": {
-      "times_featured": 3,
-      "last_featured": "2026-06-01"
+      "times_featured": 4,
+      "last_featured": "2026-06-15"
     },
     "lucataco/sam3-video": {
       "times_featured": 2,
@@ -153,8 +153,8 @@
       "last_featured": "2026-04-11"
     },
     "bytedance/seedance-2.0": {
-      "times_featured": 3,
-      "last_featured": "2026-06-01"
+      "times_featured": 4,
+      "last_featured": "2026-06-15"
     },
     "wan-video/wan-2.7-image-pro": {
       "times_featured": 1,
@@ -529,8 +529,8 @@
       "last_featured": "2026-06-12"
     },
     "xai/grok-imagine-video-1.5": {
-      "times_featured": 1,
-      "last_featured": "2026-06-01"
+      "times_featured": 2,
+      "last_featured": "2026-06-15"
     },
     "prunaai/p-video-replace": {
       "times_featured": 1,
@@ -575,6 +575,10 @@
     "ibm-granite/granite-speech-4.1-2b": {
       "times_featured": 1,
       "last_featured": "2026-06-13"
+    },
+    "vufinder/sam3": {
+      "times_featured": 1,
+      "last_featured": "2026-06-15"
     }
   }
 }

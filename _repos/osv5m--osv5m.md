@@ -3,16 +3,16 @@ layout: repo
 name: "osv5m/osv5m"
 source: huggingface-dataset
 item_url: "https://huggingface.co/datasets/osv5m/osv5m"
-description: "Dataset"
+description: "OSV5M dataset"
 category: "HuggingFace Datasets"
 language: ""
 stars: 0
-downloads: 535770
+downloads: 1305346
 likes: 0
 og_image: ""
 first_featured: "2026-06-01"
-last_featured: "2026-06-01"
-times_featured: 1
+last_featured: "2026-06-15"
+times_featured: 2
 streak: 0
 appearances: 0
 star_velocity: 0
@@ -24,4 +24,4 @@ compare_to_source: "manual"
 compare_to_validated: false
 ---
 
-Dataset
+OSV5M dataset
