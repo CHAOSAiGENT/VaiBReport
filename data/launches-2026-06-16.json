@@ -1,0 +1,74 @@
+{
+  "generated_at": "2026-06-16T12:02:55.074Z",
+  "source": "launches",
+  "counts": {
+    "producthunt": 8,
+    "total": 8
+  },
+  "launches": [
+    {
+      "id": "ph-1153772",
+      "name": "Goldfish",
+      "description": "Press Option. It knows your work and replies like you",
+      "url": "https://www.producthunt.com/r/P4WFRWL26YL6CK?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 178,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1162447",
+      "name": "Invoko",
+      "description": "A little hand on your Mac",
+      "url": "https://www.producthunt.com/r/CKKHYA5Y262PSX?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 163,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1161568",
+      "name": "MakersClaw",
+      "description": "Hire AI employees that live in your Slack, Teams, Telegram",
+      "url": "https://www.producthunt.com/r/7T4D2IUJO2CB3U?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 148,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1169084",
+      "name": "AEVS",
+      "description": "proof-of-execution for AI agents",
+      "url": "https://www.producthunt.com/r/RNU637CB76TRTW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 128,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1171876",
+      "name": "Reignat",
+      "description": "Privacy-friendly web analytics platform built for makers",
+      "url": "https://www.producthunt.com/r/YWE5HSZ4L4O2HI?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 124,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1171550",
+      "name": "Fonda",
+      "description": "Your AI co-founder that remembers decisions + plans for you",
+      "url": "https://www.producthunt.com/r/IUSWOJD46TP74Z?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 123,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1171967",
+      "name": "MiMo Code",
+      "description": "A coding agent with explicit long-term memory architecture",
+      "url": "https://www.producthunt.com/r/FIW46O6GVDDJZP?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 114,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1166511",
+      "name": "Verol",
+      "description": "Stop AI hallucinations",
+      "url": "https://www.producthunt.com/r/MW5E43FOUBRG6R?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 95,
+      "_source": "producthunt"
+    }
+  ]
+}
