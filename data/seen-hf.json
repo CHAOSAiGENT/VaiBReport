@@ -529,8 +529,8 @@
       "last_featured": "2026-06-12"
     },
     "Emmyc2/psp": {
-      "times_featured": 4,
-      "last_featured": "2026-05-31"
+      "times_featured": 5,
+      "last_featured": "2026-06-16"
     },
     "Gustavosta/MagicPrompt-Stable-Diffusion": {
       "times_featured": 5,
@@ -617,8 +617,8 @@
       "last_featured": "2026-06-01"
     },
     "jonatasgrosman/wav2vec2-large-xlsr-53-polish": {
-      "times_featured": 4,
-      "last_featured": "2026-06-02"
+      "times_featured": 5,
+      "last_featured": "2026-06-16"
     },
     "stable-diffusion-v1-5/stable-diffusion-v1-5": {
       "times_featured": 4,
@@ -645,8 +645,8 @@
       "last_featured": "2026-06-02"
     },
     "timm/resnet50.a1_in1k": {
-      "times_featured": 4,
-      "last_featured": "2026-06-02"
+      "times_featured": 5,
+      "last_featured": "2026-06-16"
     },
     "Salesforce/blip-image-captioning-large": {
       "times_featured": 1,
@@ -883,6 +883,26 @@
     "jonatasgrosman/wav2vec2-large-xlsr-53-dutch": {
       "times_featured": 1,
       "last_featured": "2026-06-15"
+    },
+    "jonatasgrosman/wav2vec2-large-xlsr-53-greek": {
+      "times_featured": 1,
+      "last_featured": "2026-06-16"
+    },
+    "jonatasgrosman/wav2vec2-large-xlsr-53-arabic": {
+      "times_featured": 1,
+      "last_featured": "2026-06-16"
+    },
+    "jonatasgrosman/wav2vec2-large-xlsr-53-hungarian": {
+      "times_featured": 1,
+      "last_featured": "2026-06-16"
+    },
+    "genrobot2025/10Kh-RealOmin-OpenData": {
+      "times_featured": 1,
+      "last_featured": "2026-06-16"
+    },
+    "Dagonulca/figofigofigofigo": {
+      "times_featured": 1,
+      "last_featured": "2026-06-16"
     }
   }
 }

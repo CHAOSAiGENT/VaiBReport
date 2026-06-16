@@ -473,8 +473,8 @@
       "last_featured": "2026-05-16"
     },
     "ibm-granite/granite-vision-4.1-4b": {
-      "times_featured": 2,
-      "last_featured": "2026-06-02"
+      "times_featured": 3,
+      "last_featured": "2026-06-16"
     },
     "recraft-ai/recraft-v4.1-utility-pro": {
       "times_featured": 1,
@@ -579,6 +579,10 @@
     "vufinder/sam3": {
       "times_featured": 1,
       "last_featured": "2026-06-15"
+    },
+    "sourceful/riverflow-v2.5-fast": {
+      "times_featured": 1,
+      "last_featured": "2026-06-16"
     }
   }
 }

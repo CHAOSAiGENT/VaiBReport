@@ -7,12 +7,12 @@ description: "Python SDK for Firecrawl API"
 category: "PyPI Packages"
 language: ""
 stars: 0
-downloads: 220981
+downloads: 346685
 likes: 0
 og_image: ""
 first_featured: "2026-04-15"
-last_featured: "2026-05-31"
-times_featured: 4
+last_featured: "2026-06-16"
+times_featured: 5
 streak: 0
 appearances: 0
 star_velocity: 0
