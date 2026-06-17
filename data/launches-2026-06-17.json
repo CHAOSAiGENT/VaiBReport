@@ -1,0 +1,130 @@
+{
+  "generated_at": "2026-06-17T11:26:37.945Z",
+  "source": "launches",
+  "counts": {
+    "producthunt": 15,
+    "total": 15
+  },
+  "launches": [
+    {
+      "id": "ph-1172494",
+      "name": "Edgee Turbo Models",
+      "description": "Use Claude Code with Kimi K2.7 Code, MiniMax M2.7, and more",
+      "url": "https://www.producthunt.com/r/RA45EQ767HXQGH?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 188,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1163192",
+      "name": "Zoona AI",
+      "description": "Automated support that learns from docs + past conversations",
+      "url": "https://www.producthunt.com/r/NOKJBALHGBNUSR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 182,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1173151",
+      "name": "Framer 3.0",
+      "description": "With Agents, Branching, Community, and an all-new design",
+      "url": "https://www.producthunt.com/r/64HL7FCICRJ4CQ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 161,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1167590",
+      "name": "GitHits beta 0.9",
+      "description": "Give your AI coding agent access to open-source code",
+      "url": "https://www.producthunt.com/r/MKOAUFLRC2WD5V?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 153,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1164965",
+      "name": "Stride",
+      "description": "The AI workspace that plans, designs and ships with you.",
+      "url": "https://www.producthunt.com/r/G5J5MQCMRAFBSI?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 134,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1170091",
+      "name": "MindReader v1",
+      "description": "Read minds (simulated fMRI data, channeled to neuro-metrics)",
+      "url": "https://www.producthunt.com/r/HEBBP5MHRLOSYY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 127,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1167329",
+      "name": "Dirac",
+      "description": "The AI inbox that briefs founders every morning",
+      "url": "https://www.producthunt.com/r/HR3TS5ETG3GBID?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 115,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1166945",
+      "name": "Revyl",
+      "description": "The mobile source of truth",
+      "url": "https://www.producthunt.com/r/JPD7O7CLK67XUG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 112,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1170857",
+      "name": "Swytchcode CLI",
+      "description": "Give agents reliable access to 2,000+ APIs w/ durable state",
+      "url": "https://www.producthunt.com/r/XGLQDUQRILY2VD?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 111,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1169578",
+      "name": "DevCleaner",
+      "description": "Free the gigabytes your dev tools and AI apps hoard",
+      "url": "https://www.producthunt.com/r/WKPVLESQQFBACY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 108,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1170244",
+      "name": "Vidrunner",
+      "description": "Publish YouTube videos faster with AI",
+      "url": "https://www.producthunt.com/r/XW2HIETNMEUAVB?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 102,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1164563",
+      "name": "Daemons by Charlie Labs",
+      "description": "Keep PRs, issues, CI, and docs moving with AI agents",
+      "url": "https://www.producthunt.com/r/6N2SY23DZALOT6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 101,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1172904",
+      "name": "Voice Calls in Chatwoot",
+      "description": "Calls, chats, and emails all in one support inbox",
+      "url": "https://www.producthunt.com/r/BALOCG7OXRTTET?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 100,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1173899",
+      "name": "Android 17",
+      "description": "Android becomes an intelligence system",
+      "url": "https://www.producthunt.com/r/DPQ4UERYTICR5L?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 97,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1171684",
+      "name": "Glint",
+      "description": "Claude Code activity, right where you want it.",
+      "url": "https://www.producthunt.com/r/KNUFFPZKPUJI5O?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 95,
+      "_source": "producthunt"
+    }
+  ]
+}
