@@ -12,8 +12,8 @@ likes: 0
 readme_image: "https://static.pepy.tech/badge/image-reward"
 og_image: "https://opengraph.githubassets.com/1/zai-org/ImageReward"
 first_featured: "2026-04-22"
-last_featured: "2026-06-03"
-times_featured: 4
+last_featured: "2026-06-17"
+times_featured: 5
 streak: 49
 appearances: 49
 star_velocity: 0

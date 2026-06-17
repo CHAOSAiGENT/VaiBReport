@@ -7,12 +7,12 @@ description: "Promptbook: Create persistent AI agents that turn your company's s
 category: "npm Packages"
 language: ""
 stars: 0
-downloads: 30792
+downloads: 2487
 likes: 0
 og_image: ""
 first_featured: "2026-05-06"
-last_featured: "2026-06-03"
-times_featured: 3
+last_featured: "2026-06-17"
+times_featured: 4
 streak: 0
 appearances: 0
 star_velocity: 0

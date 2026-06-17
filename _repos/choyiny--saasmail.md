@@ -12,8 +12,8 @@ likes: 0
 readme_image: "https://github.com/user-attachments/assets/407a8b4e-3ba0-4ed9-ae8a-f39dee861e56"
 og_image: "https://opengraph.githubassets.com/1/choyiny/saasmail"
 first_featured: "2026-04-22"
-last_featured: "2026-06-03"
-times_featured: 4
+last_featured: "2026-06-17"
+times_featured: 5
 streak: 9
 appearances: 9
 star_velocity: 6

@@ -325,12 +325,12 @@
       "last_featured": "2026-06-16"
     },
     "pypi-autogen": {
-      "times_featured": 4,
-      "last_featured": "2026-06-02"
+      "times_featured": 5,
+      "last_featured": "2026-06-17"
     },
     "pypi-guidance": {
-      "times_featured": 4,
-      "last_featured": "2026-06-02"
+      "times_featured": 5,
+      "last_featured": "2026-06-17"
     },
     "pypi-Swarm": {
       "times_featured": 2,
@@ -377,16 +377,16 @@
       "last_featured": "2026-06-13"
     },
     "npm-@promptbook/anthropic-claude": {
-      "times_featured": 3,
-      "last_featured": "2026-06-03"
+      "times_featured": 4,
+      "last_featured": "2026-06-17"
     },
     "npm-@promptbook/vercel": {
       "times_featured": 3,
       "last_featured": "2026-06-16"
     },
     "npm-@genkit-ai/anthropic": {
-      "times_featured": 2,
-      "last_featured": "2026-06-03"
+      "times_featured": 3,
+      "last_featured": "2026-06-17"
     },
     "npm-@tanstack/ai": {
       "times_featured": 2,
@@ -407,6 +407,10 @@
     "npm-@heymantle/react": {
       "times_featured": 1,
       "last_featured": "2026-06-14"
+    },
+    "npm-@agentclientprotocol/claude-agent-acp": {
+      "times_featured": 1,
+      "last_featured": "2026-06-17"
     }
   }
 }

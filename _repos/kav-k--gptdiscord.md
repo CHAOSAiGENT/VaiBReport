@@ -12,8 +12,8 @@ likes: 0
 readme_image: "https://i.imgur.com/BZdORTL.png"
 og_image: "https://opengraph.githubassets.com/1/Kav-K/GPTDiscord"
 first_featured: "2026-04-21"
-last_featured: "2026-06-03"
-times_featured: 4
+last_featured: "2026-06-17"
+times_featured: 5
 streak: 49
 appearances: 49
 star_velocity: 0

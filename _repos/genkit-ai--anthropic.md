@@ -7,12 +7,12 @@ description: "Genkit AI framework plugin for Anthropic APIs."
 category: "npm Packages"
 language: ""
 stars: 0
-downloads: 18287
+downloads: 11120
 likes: 0
 og_image: ""
 first_featured: "2026-05-20"
-last_featured: "2026-06-03"
-times_featured: 2
+last_featured: "2026-06-17"
+times_featured: 3
 streak: 0
 appearances: 0
 star_velocity: 0

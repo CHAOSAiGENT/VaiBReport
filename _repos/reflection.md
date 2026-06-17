@@ -3,7 +3,7 @@ layout: repo
 name: "reflection"
 source: ollama
 item_url: "https://ollama.com/library/reflection"
-description: "A high-performing model trained with a new technique called Reflection-tuning that teaches a LLM to detect mistakes in its reasoning and correct course."
+description: "High-performing model with Reflection-tuning technique"
 category: "Ollama Models"
 language: ""
 stars: 0
@@ -11,8 +11,8 @@ downloads: 0
 likes: 0
 og_image: ""
 first_featured: "2026-04-22"
-last_featured: "2026-06-03"
-times_featured: 4
+last_featured: "2026-06-17"
+times_featured: 5
 streak: 0
 appearances: 0
 star_velocity: 0
@@ -26,4 +26,4 @@ compare_to_source: "manual"
 compare_to_validated: false
 ---
 
-A high-performing model trained with a new technique called Reflection-tuning that teaches a LLM to detect mistakes in its reasoning and correct course.
+High-performing model with Reflection-tuning technique
