@@ -1,0 +1,114 @@
+{
+  "generated_at": "2026-06-18T11:03:55.806Z",
+  "source": "launches",
+  "counts": {
+    "producthunt": 13,
+    "total": 13
+  },
+  "launches": [
+    {
+      "id": "ph-1157294",
+      "name": "Quartz",
+      "description": "AI email client built for focus. Runs locally on your Mac",
+      "url": "https://www.producthunt.com/r/34MN5LM7CS4KI2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 234,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1150612",
+      "name": "Upstream",
+      "description": "The inbox designed for humans and agents",
+      "url": "https://www.producthunt.com/r/RWE7MKUX4XZRYA?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 171,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1172451",
+      "name": "Dopami",
+      "description": "Household chores without the mental load for ADHD",
+      "url": "https://www.producthunt.com/r/FBPTZIGWMZDYLT?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 162,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1173475",
+      "name": "Tabstack Dev Tools",
+      "description": "Ditch your scraper. Make one API call with any tool.",
+      "url": "https://www.producthunt.com/r/BTEFHM3YD7BEYD?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 154,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1170885",
+      "name": "Tapfree for Chrome",
+      "description": "Voice dictation that adapts to what’s on your screen",
+      "url": "https://www.producthunt.com/r/JWZ6X5DYJU2KA2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 125,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1170423",
+      "name": "Agentic videos by D-ID",
+      "description": "Interactive videos that talk back ",
+      "url": "https://www.producthunt.com/r/U6TALWDWNUDFNC?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 119,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1169635",
+      "name": "Elvin",
+      "description": "Proactive AI that finds and finishes work before you ask",
+      "url": "https://www.producthunt.com/r/B4Z3RFN4UB4DP6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 118,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1169279",
+      "name": "Viktor for Microsoft Teams",
+      "description": "The most powerful AI employee, now in Microsoft Teams",
+      "url": "https://www.producthunt.com/r/2YO4MFPVTIMJC6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 112,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1171884",
+      "name": "Deep Work Plan",
+      "description": "Models matter. Context matters more. Give your agent a plan.",
+      "url": "https://www.producthunt.com/r/TNPX5PAZNXT24I?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 112,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1143160",
+      "name": "memi",
+      "description": "The AI agent harness for product design teams",
+      "url": "https://www.producthunt.com/r/DEFEOZOV5TL4MK?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 106,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1167122",
+      "name": "Jesse",
+      "description": "Stop building Apollo/Clay lists. Search the live internet.",
+      "url": "https://www.producthunt.com/r/5ZOJC6SLGDVPKM?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 105,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1160816",
+      "name": "Typerino",
+      "description": "Screenwriting and playwriting for movies, television, stage.",
+      "url": "https://www.producthunt.com/r/7RVXX2IGKRAB3W?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 103,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1169590",
+      "name": "Juno",
+      "description": "Free, local AI powered Voice to Text w/ live transcriptions",
+      "url": "https://www.producthunt.com/r/733D7655G5YMUK?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 98,
+      "_source": "producthunt"
+    }
+  ]
+}
