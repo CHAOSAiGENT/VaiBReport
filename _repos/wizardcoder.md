@@ -11,8 +11,8 @@ downloads: 0
 likes: 0
 og_image: ""
 first_featured: "2026-04-09"
-last_featured: "2026-06-04"
-times_featured: 5
+last_featured: "2026-06-18"
+times_featured: 6
 streak: 0
 appearances: 0
 star_velocity: 0
@@ -20,9 +20,9 @@ tags: [ollama, 33b, 957.6K
                  Pulls, 957.6K, Pulls, 67
                  Tags, 67, Tags, Updated]
 icp_tags: ["non-technical", "pre-mvp", "entreprecurious"]
-replaces: []
+replaces: [{"name":"Kite","url":"https://kite.com/","note":"Code completion"}]
 similar_to: []
-compare_to_source: "manual"
+compare_to_source: "llm"
 compare_to_validated: false
 ---
 

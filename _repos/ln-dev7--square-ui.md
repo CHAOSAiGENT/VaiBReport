@@ -3,7 +3,7 @@ layout: repo
 name: "ln-dev7/square-ui"
 source: github
 item_url: "https://github.com/ln-dev7/square-ui"
-description: "UI layouts built with Shadcn UI"
+description: "Open-source layouts UI"
 category: "SaaS starters and templates"
 language: "TypeScript"
 stars: 5195
@@ -12,8 +12,8 @@ likes: 0
 readme_image: "https://api.star-history.com/svg?repos=ln-dev7/square-ui&type=Date"
 og_image: "https://opengraph.githubassets.com/1/ln-dev7/square-ui"
 first_featured: "2026-03-23"
-last_featured: "2026-06-04"
-times_featured: 6
+last_featured: "2026-06-18"
+times_featured: 7
 streak: 49
 appearances: 49
 star_velocity: 2
@@ -25,4 +25,4 @@ compare_to_source: "manual"
 compare_to_validated: false
 ---
 
-UI layouts built with Shadcn UI
+Open-source layouts UI

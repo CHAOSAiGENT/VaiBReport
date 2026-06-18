@@ -11,8 +11,8 @@ downloads: 0
 likes: 0
 og_image: "https://opengraph.githubassets.com/1/invoke-ai/InvokeAI"
 first_featured: "2026-03-23"
-last_featured: "2026-06-04"
-times_featured: 6
+last_featured: "2026-06-18"
+times_featured: 7
 streak: 49
 appearances: 49
 star_velocity: 6

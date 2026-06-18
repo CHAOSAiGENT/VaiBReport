@@ -93,12 +93,12 @@
       "last_featured": "2026-05-26"
     },
     "xai/grok-imagine-r2v": {
-      "times_featured": 1,
-      "last_featured": "2026-03-27"
+      "times_featured": 2,
+      "last_featured": "2026-06-18"
     },
     "xai/grok-imagine-video-extension": {
-      "times_featured": 1,
-      "last_featured": "2026-03-27"
+      "times_featured": 2,
+      "last_featured": "2026-06-18"
     },
     "nicolascoutureau/video-utils": {
       "times_featured": 2,
@@ -537,12 +537,12 @@
       "last_featured": "2026-06-04"
     },
     "ideogram-ai/ideogram-v4-quality": {
-      "times_featured": 1,
-      "last_featured": "2026-06-04"
+      "times_featured": 2,
+      "last_featured": "2026-06-18"
     },
     "ideogram-ai/ideogram-v4-balanced": {
-      "times_featured": 1,
-      "last_featured": "2026-06-04"
+      "times_featured": 2,
+      "last_featured": "2026-06-18"
     },
     "runwayml/aleph-2": {
       "times_featured": 1,
@@ -591,6 +591,10 @@
     "sprited/birefnet": {
       "times_featured": 1,
       "last_featured": "2026-06-17"
+    },
+    "xai/grok-imagine-video": {
+      "times_featured": 1,
+      "last_featured": "2026-06-18"
     }
   }
 }

@@ -1,24 +1,24 @@
 {
   "featured": {
     "npm-agent-base": {
-      "times_featured": 6,
-      "last_featured": "2026-06-04"
+      "times_featured": 7,
+      "last_featured": "2026-06-18"
     },
     "npm-https-proxy-agent": {
-      "times_featured": 6,
-      "last_featured": "2026-06-04"
+      "times_featured": 7,
+      "last_featured": "2026-06-18"
     },
     "npm-telecom-mas-agent": {
       "times_featured": 4,
       "last_featured": "2026-05-07"
     },
     "npm-http-proxy-agent": {
-      "times_featured": 6,
-      "last_featured": "2026-06-04"
+      "times_featured": 7,
+      "last_featured": "2026-06-18"
     },
     "npm-socks-proxy-agent": {
-      "times_featured": 6,
-      "last_featured": "2026-06-04"
+      "times_featured": 7,
+      "last_featured": "2026-06-18"
     },
     "pypi-pydantic": {
       "times_featured": 6,
@@ -277,8 +277,8 @@
       "last_featured": "2026-06-13"
     },
     "pypi-replicate": {
-      "times_featured": 5,
-      "last_featured": "2026-05-31"
+      "times_featured": 6,
+      "last_featured": "2026-06-18"
     },
     "npm-@appium/types": {
       "times_featured": 6,
@@ -411,6 +411,10 @@
     "npm-@agentclientprotocol/claude-agent-acp": {
       "times_featured": 1,
       "last_featured": "2026-06-17"
+    },
+    "npm-tokenjuice": {
+      "times_featured": 1,
+      "last_featured": "2026-06-18"
     }
   }
 }

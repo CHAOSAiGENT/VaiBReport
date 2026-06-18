@@ -3,7 +3,7 @@ layout: repo
 name: "openai/openai-cookbook"
 source: github
 item_url: "https://github.com/openai/openai-cookbook"
-description: "Examples and guides for using the OpenAI API"
+description: "Examples for using OpenAI API"
 category: "AI agents, LLM infra and RAG"
 language: "Jupyter Notebook"
 stars: 73167
@@ -11,8 +11,8 @@ downloads: 0
 likes: 0
 og_image: "https://opengraph.githubassets.com/1/openai/openai-cookbook"
 first_featured: "2026-04-23"
-last_featured: "2026-06-04"
-times_featured: 4
+last_featured: "2026-06-18"
+times_featured: 5
 streak: 2
 appearances: 4
 star_velocity: 30
@@ -24,4 +24,4 @@ compare_to_source: "manual"
 compare_to_validated: false
 ---
 
-Examples and guides for using the OpenAI API
+Examples for using OpenAI API

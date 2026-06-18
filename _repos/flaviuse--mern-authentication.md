@@ -11,14 +11,14 @@ downloads: 0
 likes: 0
 og_image: "https://opengraph.githubassets.com/1/flaviuse/mern-authentication"
 first_featured: "2026-03-23"
-last_featured: "2026-06-04"
-times_featured: 6
+last_featured: "2026-06-18"
+times_featured: 7
 streak: 49
 appearances: 49
 star_velocity: 0
 tags: [github, authentication, backend, boilerplate, docker, docker-compose, email-verification, express, frontend]
 icp_tags: ["solopreneur", "small-business", "non-technical"]
-replaces: [{"name":"Auth0","url":"https://auth0.com","note":"Authentication platform"}]
+replaces: [{"name":"Auth0","url":"https://auth0.com/","note":"Authentication"}]
 similar_to: []
 compare_to_source: "llm"
 compare_to_validated: false
