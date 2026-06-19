@@ -1,0 +1,82 @@
+{
+  "generated_at": "2026-06-19T11:13:15.381Z",
+  "source": "launches",
+  "counts": {
+    "producthunt": 9,
+    "total": 9
+  },
+  "launches": [
+    {
+      "id": "ph-1172763",
+      "name": "VoiceOS",
+      "description": "Say it and it's done. JARVIS for your computer",
+      "url": "https://www.producthunt.com/r/UWVLVNXZGBLPDS?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 178,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1174501",
+      "name": "Retool",
+      "description": "Build anywhere. Govern in Retool.",
+      "url": "https://www.producthunt.com/r/UYZGXGCDJD22K6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 147,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1169772",
+      "name": "Otty",
+      "description": "A Mac native and beautiful terminal emulator",
+      "url": "https://www.producthunt.com/r/2MC43OD6SYQ37P?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 136,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1169393",
+      "name": "Zernio WhatsApp API",
+      "description": "One API for WhatsApp: messaging, calling, and AI agents",
+      "url": "https://www.producthunt.com/r/RMPHN65GSOSYIO?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 128,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1174117",
+      "name": "Adapt",
+      "description": "The AI company brain that does work for you",
+      "url": "https://www.producthunt.com/r/KAFR42VPDW36WZ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 128,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1175474",
+      "name": "Claude Code Artifacts",
+      "description": "Preview and share your coding work live as it happens",
+      "url": "https://www.producthunt.com/r/ZKUSXUIDPQQBDF?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 111,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1174815",
+      "name": "Cliptop",
+      "description": "Clipboard history for Mac, right under the notch.",
+      "url": "https://www.producthunt.com/r/I2U3QKRDNBKL6C?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 109,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1173865",
+      "name": "Locofy: design-to-code agents",
+      "description": "Agentic frontend layer between Figma and Cursor & Claude",
+      "url": "https://www.producthunt.com/r/JE4ZUKK4BNVZBB?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 108,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1174820",
+      "name": "Genie Mentions",
+      "description": "AI that gets you *and* the people in your life, together",
+      "url": "https://www.producthunt.com/r/EOHUM3X33AV6WR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 104,
+      "_source": "producthunt"
+    }
+  ]
+}
