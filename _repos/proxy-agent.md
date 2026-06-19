@@ -7,18 +7,18 @@ description: "Proxy agent for HTTP requests"
 category: "npm Packages"
 language: ""
 stars: 0
-downloads: 27531626
+downloads: 29674808
 likes: 0
 og_image: ""
 first_featured: "2026-03-24"
-last_featured: "2026-06-05"
-times_featured: 6
+last_featured: "2026-06-19"
+times_featured: 7
 streak: 0
 appearances: 0
 star_velocity: 0
 tags: [npm, http, https, socks, agent, mapping, proxy]
 icp_tags: ["founding-team", "solopreneur"]
-replaces: [{"name":"Axios","url":"https://axios-http.com/","note":"HTTP client"}]
+replaces: [{"name":"Axios","url":"https://axios-http.com/","note":"library"}]
 similar_to: []
 compare_to_source: "llm"
 compare_to_validated: false

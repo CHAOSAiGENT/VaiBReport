@@ -11,14 +11,14 @@ downloads: 0
 likes: 0
 og_image: "https://opengraph.githubassets.com/1/BeyteFlow/ReadmeGenAI"
 first_featured: "2026-03-25"
-last_featured: "2026-06-05"
-times_featured: 6
+last_featured: "2026-06-19"
+times_featured: 7
 streak: 47
 appearances: 47
 star_velocity: 1
 tags: [github, ai, automation, developer-tool, github-api, markdown, open-source, react, readme-generator]
 icp_tags: ["solopreneur", "small-business", "founding-team"]
-replaces: [{"name":"Readme.io","url":"https://readme.io/","note":"documentation tool"}]
+replaces: [{"name":"Readme.md Generator","url":"https://www.readme.md/","note":"tool"}]
 similar_to: []
 compare_to_source: "llm"
 compare_to_validated: false

@@ -12,8 +12,8 @@ likes: 0
 readme_image: "https://github.com/user-attachments/assets/590de304-e2c4-4935-9814-c18ade52fd8e"
 og_image: "https://opengraph.githubassets.com/1/cawa-93/vite-electron-builder"
 first_featured: "2026-03-24"
-last_featured: "2026-06-05"
-times_featured: 6
+last_featured: "2026-06-19"
+times_featured: 7
 streak: 49
 appearances: 49
 star_velocity: 0

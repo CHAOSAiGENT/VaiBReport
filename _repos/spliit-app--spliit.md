@@ -12,14 +12,14 @@ likes: 0
 readme_image: "https://vercel.com/button"
 og_image: "https://opengraph.githubassets.com/1/spliit-app/spliit"
 first_featured: "2026-03-25"
-last_featured: "2026-06-05"
-times_featured: 6
+last_featured: "2026-06-19"
+times_featured: 7
 streak: 49
 appearances: 49
 star_velocity: 1
 tags: [github, nextjs, react, shadcn-ui, splitwise, tailwindcss, template, tricount, vercel]
 icp_tags: ["founding-team", "solopreneur", "pre-mvp"]
-replaces: [{"name":"Splitwise","url":"https://splitwise.com/","note":"expense sharing"}]
+replaces: [{"name":"Splitwise","url":"https://splitwise.com/","note":"app"}]
 similar_to: []
 compare_to_source: "llm"
 compare_to_validated: false

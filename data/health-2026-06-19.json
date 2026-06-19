@@ -1,0 +1,46 @@
+{
+  "date": "2026-06-19",
+  "sources": {
+    "github": {
+      "loaded": 307,
+      "featured": 18
+    },
+    "huggingface": {
+      "loaded": 260,
+      "featured": 13
+    },
+    "replicate": {
+      "loaded": 35,
+      "featured": 5
+    },
+    "paperswithcode": {
+      "loaded": 0,
+      "featured": 0
+    },
+    "npm": {
+      "loaded": 40,
+      "featured": 5
+    },
+    "pypi": {
+      "loaded": 13,
+      "featured": 1
+    },
+    "gitlab": {
+      "loaded": 0,
+      "featured": 0
+    },
+    "ollama": {
+      "loaded": 229,
+      "featured": 5
+    },
+    "launches": {
+      "loaded": 9,
+      "featured": 8
+    }
+  },
+  "total_featured": 55,
+  "compare_to_generated": 47,
+  "compare_to_validated": 0,
+  "compare_to_disputed_pct": 100,
+  "gemini_blurbs": 47
+}

@@ -193,12 +193,12 @@
       "last_featured": "2026-06-10"
     },
     "google/lyria-3-pro": {
-      "times_featured": 1,
-      "last_featured": "2026-04-14"
+      "times_featured": 2,
+      "last_featured": "2026-06-19"
     },
     "google/lyria-3": {
-      "times_featured": 1,
-      "last_featured": "2026-04-14"
+      "times_featured": 2,
+      "last_featured": "2026-06-19"
     },
     "wan-video/wan-2.7-videoedit": {
       "times_featured": 2,
@@ -429,8 +429,8 @@
       "last_featured": "2026-05-08"
     },
     "prunaai/p-image": {
-      "times_featured": 2,
-      "last_featured": "2026-05-23"
+      "times_featured": 3,
+      "last_featured": "2026-06-19"
     },
     "ibm-granite/granite-4.1-8b": {
       "times_featured": 3,
@@ -595,6 +595,14 @@
     "xai/grok-imagine-video": {
       "times_featured": 1,
       "last_featured": "2026-06-18"
+    },
+    "google/nano-banana-2": {
+      "times_featured": 1,
+      "last_featured": "2026-06-19"
+    },
+    "google/gemini-2.5-flash": {
+      "times_featured": 1,
+      "last_featured": "2026-06-19"
     }
   }
 }

@@ -11,8 +11,8 @@ downloads: 0
 likes: 0
 og_image: ""
 first_featured: "2026-04-10"
-last_featured: "2026-06-05"
-times_featured: 5
+last_featured: "2026-06-19"
+times_featured: 6
 streak: 0
 appearances: 0
 star_velocity: 0
@@ -20,7 +20,7 @@ tags: [ollama, 1.5b, 9b, 953.3K
                  Pulls, 953.3K, Pulls, 67
                  Tags, 67, Tags]
 icp_tags: ["non-technical", "pre-mvp", "entreprecurious"]
-replaces: [{"name":"Codex","url":"https://www.microsoft.com/en-us/research/project/codex/","note":"code generator"}]
+replaces: [{"name":"Codex","url":"https://github.com/microsoft/codex","note":"model"}]
 similar_to: []
 compare_to_source: "llm"
 compare_to_validated: false

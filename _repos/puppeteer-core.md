@@ -7,18 +7,18 @@ description: "Headless Chrome automation library"
 category: "npm Packages"
 language: ""
 stars: 0
-downloads: 18014723
+downloads: 19976607
 likes: 0
 og_image: ""
 first_featured: "2026-03-24"
-last_featured: "2026-06-05"
-times_featured: 6
+last_featured: "2026-06-19"
+times_featured: 7
 streak: 0
 appearances: 0
 star_velocity: 0
 tags: [npm, puppeteer, chrome, headless, automation]
 icp_tags: ["founding-team", "solopreneur"]
-replaces: [{"name":"Selenium","url":"https://www.selenium.dev/","note":"automation tool"}]
+replaces: [{"name":"Selenium","url":"https://www.selenium.dev/","note":"tool"}]
 similar_to: []
 compare_to_source: "llm"
 compare_to_validated: false

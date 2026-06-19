@@ -12,8 +12,8 @@ likes: 0
 readme_image: "https://www.deploytodo.com/do-btn-blue.svg"
 og_image: "https://opengraph.githubassets.com/1/digitalocean/sea-notes-saas-starter-kit"
 first_featured: "2026-03-25"
-last_featured: "2026-06-05"
-times_featured: 6
+last_featured: "2026-06-19"
+times_featured: 7
 streak: 49
 appearances: 49
 star_velocity: 0
