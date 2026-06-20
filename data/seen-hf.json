@@ -157,8 +157,8 @@
       "last_featured": "2026-06-09"
     },
     "Qwen/Qwen3-1.7B": {
-      "times_featured": 4,
-      "last_featured": "2026-06-03"
+      "times_featured": 5,
+      "last_featured": "2026-06-20"
     },
     "ropedia-ai/xperience-10m": {
       "times_featured": 3,
@@ -577,16 +577,16 @@
       "last_featured": "2026-04-18"
     },
     "cais/mmlu": {
-      "times_featured": 4,
-      "last_featured": "2026-05-31"
+      "times_featured": 5,
+      "last_featured": "2026-06-20"
     },
     "pyannote/voice-activity-detection": {
       "times_featured": 5,
       "last_featured": "2026-06-15"
     },
     "Qwen/Qwen3-Embedding-8B": {
-      "times_featured": 4,
-      "last_featured": "2026-06-01"
+      "times_featured": 5,
+      "last_featured": "2026-06-20"
     },
     "BAAI/bge-small-zh-v1.5": {
       "times_featured": 5,
@@ -697,8 +697,8 @@
       "last_featured": "2026-06-03"
     },
     "nvidia/PhysicalAI-Robotics-GR00T-X-Embodiment-Sim": {
-      "times_featured": 1,
-      "last_featured": "2026-04-22"
+      "times_featured": 2,
+      "last_featured": "2026-06-20"
     },
     "Maynor996/img_upload": {
       "times_featured": 5,
@@ -745,8 +745,8 @@
       "last_featured": "2026-06-15"
     },
     "WhereIsAI/UAE-Large-V1": {
-      "times_featured": 3,
-      "last_featured": "2026-06-03"
+      "times_featured": 4,
+      "last_featured": "2026-06-20"
     },
     "jat-project/jat-dataset-tokenized": {
       "times_featured": 3,
@@ -903,6 +903,18 @@
     "Dagonulca/figofigofigofigo": {
       "times_featured": 1,
       "last_featured": "2026-06-16"
+    },
+    "Qwen/Qwen2.5-Coder-14B-Instruct": {
+      "times_featured": 1,
+      "last_featured": "2026-06-20"
+    },
+    "anuragshas/wav2vec2-large-xlsr-53-telugu": {
+      "times_featured": 1,
+      "last_featured": "2026-06-20"
+    },
+    "Chelsea707/arxiv-cs-2020-2025-pdfs": {
+      "times_featured": 1,
+      "last_featured": "2026-06-20"
     }
   }
 }

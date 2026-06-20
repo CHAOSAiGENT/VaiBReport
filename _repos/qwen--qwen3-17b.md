@@ -3,25 +3,25 @@ layout: repo
 name: "Qwen/Qwen3-1.7B"
 source: huggingface-model
 item_url: "https://huggingface.co/Qwen/Qwen3-1.7B"
-description: "Qwen3-1.7B"
+description: "Text generation model"
 category: "HuggingFace Models"
 language: ""
 stars: 0
-downloads: 4644195
-likes: 479
+downloads: 5729967
+likes: 486
 og_image: ""
 first_featured: "2026-03-25"
-last_featured: "2026-06-03"
-times_featured: 4
+last_featured: "2026-06-20"
+times_featured: 5
 streak: 0
 appearances: 0
 star_velocity: 0
 tags: [huggingface, transformers, safetensors, qwen3, text-generation, conversational, arxiv:2505.09388, base_model:Qwen/Qwen3-1.7B-Base, base_model:finetune:Qwen/Qwen3-1.7B-Base]
 icp_tags: ["founding-team", "pre-mvp"]
-replaces: []
+replaces: [{"name":"Language Tool","url":"https://www.languagetool.org/","note":"writing assistant"}]
 similar_to: []
-compare_to_source: "manual"
+compare_to_source: "llm"
 compare_to_validated: false
 ---
 
-Qwen3-1.7B
+Text generation model
