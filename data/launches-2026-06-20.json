@@ -1,0 +1,98 @@
+{
+  "generated_at": "2026-06-20T09:56:56.252Z",
+  "source": "launches",
+  "counts": {
+    "producthunt": 11,
+    "total": 11
+  },
+  "launches": [
+    {
+      "id": "ph-1175559",
+      "name": "Firecrawl Research Index",
+      "description": "An index for agents pushing the frontier of AI/ML research",
+      "url": "https://www.producthunt.com/r/WV2Z2GVPLLUUE3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 216,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1166336",
+      "name": "API to MCP",
+      "description": "Turn any API into an MCP server for AI agents",
+      "url": "https://www.producthunt.com/r/IE7RIXXZEK4WSO?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 194,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1172956",
+      "name": "frontpage.sh",
+      "description": "A perpetual auction for eight ad squares",
+      "url": "https://www.producthunt.com/r/DUI4XR4AMJQUZK?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 157,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1175263",
+      "name": "Unreal Engine 5.8",
+      "description": "Build unreal games with AI agents",
+      "url": "https://www.producthunt.com/r/3FHIEYAZL5HDRV?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 155,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1175510",
+      "name": "just f***ing send it",
+      "description": "Send any file, any size, straight from browser to browser",
+      "url": "https://www.producthunt.com/r/V6QE5VS5YMFTVZ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 150,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1175497",
+      "name": "Ask Ad Manager by Google Ads",
+      "description": "Gemini-powered AI agent for insights & faster ad decisions",
+      "url": "https://www.producthunt.com/r/3M4IRQFW4PZQEO?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 142,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1174661",
+      "name": "MeshPilot",
+      "description": "Your AI workspace for terminals, tasks, and agents",
+      "url": "https://www.producthunt.com/r/SWHLL43IMABPKD?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 99,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1175244",
+      "name": "Screen Ruler",
+      "description": "Edit anything on the web with change tracking",
+      "url": "https://www.producthunt.com/r/ZUN64WP6WVM4J6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 96,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1175418",
+      "name": "Foglamp",
+      "description": "Ship AI agents you can actually see",
+      "url": "https://www.producthunt.com/r/AEJPWN3FQVSSGD?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 95,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1175199",
+      "name": "Darkmoon",
+      "description": "Autonomous penetration testing platform",
+      "url": "https://www.producthunt.com/r/IGCLIJUOUCKHWR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 94,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1138276",
+      "name": "Narration Room",
+      "description": "Turn source text into editable multi-voice scripts",
+      "url": "https://www.producthunt.com/r/E2XGH7YXKZDAJE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 88,
+      "_source": "producthunt"
+    }
+  ]
+}
