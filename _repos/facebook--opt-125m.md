@@ -3,25 +3,25 @@ layout: repo
 name: "facebook/opt-125m"
 source: huggingface-model
 item_url: "https://huggingface.co/facebook/opt-125m"
-description: "OPT-125M text generation model"
+description: "A small Facebook text generation model, great for quick experiments or resource-constrained inference."
 category: "HuggingFace Models"
 language: ""
 stars: 0
-downloads: 11260357
-likes: 263
+downloads: 11767662
+likes: 267
 og_image: ""
 first_featured: "2026-03-25"
-last_featured: "2026-06-07"
-times_featured: 6
+last_featured: "2026-06-21"
+times_featured: 7
 streak: 0
 appearances: 0
 star_velocity: 0
 tags: [huggingface, transformers, pytorch, tf, jax, opt, text-generation, en, arxiv:2205.01068]
 icp_tags: ["founding-team", "pre-mvp"]
-replaces: [{"name":"WordLift","url":"https://wordlift.com","note":"content optimization"}]
+replaces: []
 similar_to: []
-compare_to_source: "llm"
+compare_to_source: "manual"
 compare_to_validated: false
 ---
 
-OPT-125M text generation model
+A small Facebook text generation model, great for quick experiments or resource-constrained inference.
