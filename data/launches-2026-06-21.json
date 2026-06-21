@@ -1,0 +1,98 @@
+{
+  "generated_at": "2026-06-21T10:24:17.649Z",
+  "source": "launches",
+  "counts": {
+    "producthunt": 11,
+    "total": 11
+  },
+  "launches": [
+    {
+      "id": "ph-1157988",
+      "name": "WorkClaw",
+      "description": "Collaborative, proactive AI coworkers who work in Slack",
+      "url": "https://www.producthunt.com/r/ZQTLJJWTPLMI3Z?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 333,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1175694",
+      "name": "Reframe",
+      "description": "Surf like it's 1999",
+      "url": "https://www.producthunt.com/r/TMRUV63DOAKQ46?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 237,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1175513",
+      "name": "Slackbot’s MCP Client",
+      "description": "Work across 20+ apps in Slack with multiplayer collaboration",
+      "url": "https://www.producthunt.com/r/36XRGPIO7B2ANE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 204,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1169248",
+      "name": "Mellum by JetBrains",
+      "description": "Fast LLMs for low-latency and high-performance workflows",
+      "url": "https://www.producthunt.com/r/PKS6C7XUTUS4GS?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 177,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1175700",
+      "name": "pumaDB",
+      "description": "a small hosted memory layer for AI agents",
+      "url": "https://www.producthunt.com/r/FMMENGK6LLSHMT?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 153,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1176437",
+      "name": "Are you in the Weights?",
+      "description": "Find out if you live forever in the brain of the LLMs",
+      "url": "https://www.producthunt.com/r/ZON3VWOEVCG74W?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 121,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1169971",
+      "name": "Foyer",
+      "description": "Build a room of ambient sound that lives in your notch",
+      "url": "https://www.producthunt.com/r/NZNMBFU7RM75HD?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 118,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1176207",
+      "name": "Basedash Access Controls",
+      "description": "Control exactly who can access your company data",
+      "url": "https://www.producthunt.com/r/VS5LCFCWY6QOLH?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 116,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1176012",
+      "name": "Pixlie",
+      "description": "AI video studio: text & image to video, with real control",
+      "url": "https://www.producthunt.com/r/XE3XQRF2QDPSVC?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 110,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1173457",
+      "name": "ReleaseDock",
+      "description": "AI support agent, help center & changelogs in a single inbox",
+      "url": "https://www.producthunt.com/r/GISQRZ3MJ3BU57?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 107,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1176393",
+      "name": "GitSync for macOS",
+      "description": "Visual GitHub management directly from a graphical interface",
+      "url": "https://www.producthunt.com/r/DPDOVH7UCL2KWF?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 85,
+      "_source": "producthunt"
+    }
+  ]
+}
