@@ -1,0 +1,162 @@
+{
+  "generated_at": "2026-06-22T12:42:53.078Z",
+  "source": "launches",
+  "counts": {
+    "producthunt": 19,
+    "total": 19
+  },
+  "launches": [
+    {
+      "id": "ph-1176905",
+      "name": "Agent 37 Cloud",
+      "description": "Give every customer their own Hermes or OpenClaw agent",
+      "url": "https://www.producthunt.com/r/G7ASKEML5CLFTD?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 396,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1162357",
+      "name": "Skybridge",
+      "description": "The full-stack open source React framework for MCP Apps",
+      "url": "https://www.producthunt.com/r/WYDUMMA2RJODS7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 217,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1177141",
+      "name": "AgentX",
+      "description": "Evaluate AI agent, pinpoint issues, and fix with one click.",
+      "url": "https://www.producthunt.com/r/MAKIXB6C4DMJG6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 208,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1175569",
+      "name": "Grok by SpaceXAI for Word",
+      "description": "Draft, restructure & tighten wording from panel inside Word",
+      "url": "https://www.producthunt.com/r/UWES5GXBNLEAZI?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 205,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1173525",
+      "name": "Backgrind",
+      "description": "Run your AI agents over any app, even games.",
+      "url": "https://www.producthunt.com/r/LXT3GGWXGWH6H4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 189,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1176778",
+      "name": "oioi ",
+      "description": "a fast, glassy clipboard manager for macOS, Windows & Linux",
+      "url": "https://www.producthunt.com/r/TDS5MARXK3TUNM?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 179,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1176880",
+      "name": "Alai 2.0",
+      "description": "AI design partner for presentations, social posts, and more",
+      "url": "https://www.producthunt.com/r/FXYXCM6UIMQ5YE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 155,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1176776",
+      "name": "Laguna by Poolside",
+      "description": "Foundation models for agentic coding and long-horizon work",
+      "url": "https://www.producthunt.com/r/UWCINA5GZHP76J?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 151,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1176945",
+      "name": "Cloudback MCP Server",
+      "description": "Manage your backups from Claude, Cursor, and VS Code",
+      "url": "https://www.producthunt.com/r/DLNZ4A3NGRTL7U?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 137,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1176991",
+      "name": "Notchkin",
+      "description": "A notes app that lives in your MacBook's notch.",
+      "url": "https://www.producthunt.com/r/BOMWSMV6EJ3SWJ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 135,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1169990",
+      "name": "readywhen",
+      "description": "Your 24/7 AI Chief of Staff for commitments and follow-ups",
+      "url": "https://www.producthunt.com/r/STOAZFU5CH6INJ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 126,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1175760",
+      "name": "Plansera AI",
+      "description": "E-2 visa business plans, drafted by an AI",
+      "url": "https://www.producthunt.com/r/HPZMF2PNOBV76S?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 118,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1177735",
+      "name": "Cloudflare Temporary Accounts",
+      "description": "Let agents deploy before signup",
+      "url": "https://www.producthunt.com/r/WFEAPNZTIKAUTV?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 117,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1086254",
+      "name": "HAQQ Legal AI on Mobile",
+      "description": "Bringing legal understanding to anyone with a phone",
+      "url": "https://www.producthunt.com/r/ICAKRVUKEN25TG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 115,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1173104",
+      "name": "uwait",
+      "description": "Get paid while AI thinks",
+      "url": "https://www.producthunt.com/r/ET2VD6UMZ3BTIB?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 105,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1135009",
+      "name": "AirJelly",
+      "description": "Your Proactive, Self-Organizing Second Brain",
+      "url": "https://www.producthunt.com/r/PMQKFXXQ5WQB2C?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 98,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1177680",
+      "name": "MediaSeg",
+      "description": "Split large media files into upload-ready chunks on macOS",
+      "url": "https://www.producthunt.com/r/CDZ6CXPO4JXUDC?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 97,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1174174",
+      "name": "Clawd",
+      "description": "A context-aware browser mascot with 100% local offline AI",
+      "url": "https://www.producthunt.com/r/YMDF4CNQMIWJYC?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 96,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1177323",
+      "name": "Selector Forge",
+      "description": "Browser extension for AI-generated resilient selectors",
+      "url": "https://www.producthunt.com/r/JB3WOBST7RHX4L?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 95,
+      "_source": "producthunt"
+    }
+  ]
+}
