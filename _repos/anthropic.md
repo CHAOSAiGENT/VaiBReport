@@ -3,16 +3,16 @@ layout: repo
 name: "anthropic"
 source: pypi
 item_url: "https://pypi.org/project/anthropic/"
-description: "The official Python library for the anthropic API"
+description: "Python library for anthropic API"
 category: "PyPI Packages"
 language: ""
 stars: 0
-downloads: 34230221
+downloads: 36153459
 likes: 0
 og_image: ""
 first_featured: "2026-03-24"
-last_featured: "2026-06-08"
-times_featured: 6
+last_featured: "2026-06-22"
+times_featured: 7
 streak: 0
 appearances: 0
 star_velocity: 0
@@ -24,4 +24,4 @@ compare_to_source: "manual"
 compare_to_validated: false
 ---
 
-The official Python library for the anthropic API
+Python library for anthropic API

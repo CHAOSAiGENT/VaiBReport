@@ -1,8 +1,8 @@
 {
   "featured": {
     "enzostvs/deepsite": {
-      "times_featured": 2,
-      "last_featured": "2026-06-08"
+      "times_featured": 3,
+      "last_featured": "2026-06-22"
     },
     "open-llm-leaderboard/open_llm_leaderboard": {
       "times_featured": 8,
@@ -173,16 +173,16 @@
       "last_featured": "2026-03-25"
     },
     "InstantX/InstantID": {
-      "times_featured": 6,
-      "last_featured": "2026-06-08"
+      "times_featured": 7,
+      "last_featured": "2026-06-22"
     },
     "tencent/Hunyuan3D-2": {
-      "times_featured": 6,
-      "last_featured": "2026-06-08"
+      "times_featured": 7,
+      "last_featured": "2026-06-22"
     },
     "hexgrad/Kokoro-TTS": {
-      "times_featured": 6,
-      "last_featured": "2026-06-08"
+      "times_featured": 7,
+      "last_featured": "2026-06-22"
     },
     "akhaliq/anycoder": {
       "times_featured": 6,
@@ -197,8 +197,8 @@
       "last_featured": "2026-04-14"
     },
     "trl-internal-testing/tiny-Qwen2ForCausalLM-2.5": {
-      "times_featured": 6,
-      "last_featured": "2026-06-08"
+      "times_featured": 7,
+      "last_featured": "2026-06-22"
     },
     "Qwen/Qwen3-4B": {
       "times_featured": 7,
@@ -217,8 +217,8 @@
       "last_featured": "2026-04-25"
     },
     "openai/gsm8k": {
-      "times_featured": 6,
-      "last_featured": "2026-06-08"
+      "times_featured": 7,
+      "last_featured": "2026-06-22"
     },
     "princeton-nlp/SWE-bench_Verified": {
       "times_featured": 6,
@@ -257,8 +257,8 @@
       "last_featured": "2026-06-14"
     },
     "argmaxinc/whisperkit-coreml": {
-      "times_featured": 6,
-      "last_featured": "2026-06-08"
+      "times_featured": 7,
+      "last_featured": "2026-06-22"
     },
     "Marqo/nsfw-image-detection-384": {
       "times_featured": 4,
@@ -293,16 +293,16 @@
       "last_featured": "2026-06-11"
     },
     "mrfakename/Z-Image-Turbo": {
-      "times_featured": 6,
-      "last_featured": "2026-06-08"
+      "times_featured": 7,
+      "last_featured": "2026-06-22"
     },
     "Qwen/Qwen3-Embedding-0.6B": {
-      "times_featured": 6,
-      "last_featured": "2026-06-08"
+      "times_featured": 7,
+      "last_featured": "2026-06-22"
     },
     "BAAI/bge-base-en-v1.5": {
-      "times_featured": 6,
-      "last_featured": "2026-06-08"
+      "times_featured": 7,
+      "last_featured": "2026-06-22"
     },
     "jonatasgrosman/wav2vec2-large-xlsr-53-chinese-zh-cn": {
       "times_featured": 2,
@@ -445,12 +445,12 @@
       "last_featured": "2026-05-11"
     },
     "xlangai/ubuntu_osworld_file_cache": {
-      "times_featured": 5,
-      "last_featured": "2026-06-08"
+      "times_featured": 6,
+      "last_featured": "2026-06-22"
     },
     "mteb/results": {
-      "times_featured": 5,
-      "last_featured": "2026-06-08"
+      "times_featured": 6,
+      "last_featured": "2026-06-22"
     },
     "ayuo/hd_tmp": {
       "times_featured": 5,
@@ -825,8 +825,8 @@
       "last_featured": "2026-05-24"
     },
     "google/gemma-3-270m": {
-      "times_featured": 2,
-      "last_featured": "2026-06-08"
+      "times_featured": 3,
+      "last_featured": "2026-06-22"
     },
     "SulphurAI/Sulphur-2-base": {
       "times_featured": 1,

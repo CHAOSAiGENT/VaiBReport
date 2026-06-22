@@ -3,25 +3,25 @@ layout: repo
 name: "@tanstack/ai-openrouter"
 source: npm
 item_url: "https://www.npmjs.com/package/@tanstack/ai-openrouter"
-description: "TanStack AI adapter for OpenRouter chat, provider tools, structured outputs, and access to hundreds of LLMs."
+description: "Adapter for OpenRouter chat"
 category: "npm Packages"
 language: ""
 stars: 0
-downloads: 9992
+downloads: 28649
 likes: 0
 og_image: ""
 first_featured: "2026-05-25"
-last_featured: "2026-06-08"
-times_featured: 2
+last_featured: "2026-06-22"
+times_featured: 3
 streak: 0
 appearances: 0
 star_velocity: 0
 tags: [npm, ai, ai-sdk, typescript, llm, generative-ai, openrouter, tanstack, adapter]
 icp_tags: ["founding-team", "solopreneur"]
-replaces: []
+replaces: [{"name":"Rasa","url":"https://rasa.com"}]
 similar_to: []
-compare_to_source: "manual"
+compare_to_source: "llm"
 compare_to_validated: false
 ---
 
-TanStack AI adapter for OpenRouter chat, provider tools, structured outputs, and access to hundreds of LLMs.
+Adapter for OpenRouter chat

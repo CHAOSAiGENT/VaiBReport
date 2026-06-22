@@ -549,8 +549,8 @@
       "last_featured": "2026-06-21"
     },
     "bencevans/megadetector-v5a": {
-      "times_featured": 1,
-      "last_featured": "2026-06-08"
+      "times_featured": 2,
+      "last_featured": "2026-06-22"
     },
     "google/upscaler": {
       "times_featured": 1,
@@ -611,6 +611,22 @@
     "sourceful/riverflow-v2.5-pro": {
       "times_featured": 1,
       "last_featured": "2026-06-21"
+    },
+    "dashed/whisperx-subtitles-replicate": {
+      "times_featured": 1,
+      "last_featured": "2026-06-22"
+    },
+    "sprited/birefnet-toonout": {
+      "times_featured": 1,
+      "last_featured": "2026-06-22"
+    },
+    "sprited/birefnet-video": {
+      "times_featured": 1,
+      "last_featured": "2026-06-22"
+    },
+    "lxcxsito/stargirlz": {
+      "times_featured": 1,
+      "last_featured": "2026-06-22"
     }
   }
 }

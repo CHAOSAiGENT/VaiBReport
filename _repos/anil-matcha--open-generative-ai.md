@@ -3,7 +3,7 @@ layout: repo
 name: "Anil-matcha/Open-Generative-AI"
 source: github
 item_url: "https://github.com/Anil-matcha/Open-Generative-AI"
-description: "Uncensored, open-source alternative to Higgsfield AI, Freepik AI, Krea AI, Openart AI — Free, unrestricted AI image & video generation studio with 200+ models (Flux, Midjourney, Kling, Sora, Veo). No content filters. Self-hosted, MIT licensed."
+description: "Open-source AI image/video generator"
 category: "UGC, social media and creator tools"
 language: "JavaScript"
 stars: 10562
@@ -11,17 +11,17 @@ downloads: 0
 likes: 0
 og_image: "https://opengraph.githubassets.com/1/Anil-matcha/Open-Generative-AI"
 first_featured: "2026-04-13"
-last_featured: "2026-06-08"
-times_featured: 5
+last_featured: "2026-06-22"
+times_featured: 6
 streak: 18
 appearances: 18
 star_velocity: 420
 tags: [github, ai-art-generator, ai-image-generation, ai-video-generation, creative-tools, flux-1, generative-ai, higgsfield, higgsfield-ai]
 icp_tags: ["solopreneur", "non-technical", "entreprecurious"]
-replaces: []
+replaces: [{"name":"DALL-E","url":"https://dallemini.com"}]
 similar_to: []
-compare_to_source: "manual"
+compare_to_source: "llm"
 compare_to_validated: false
 ---
 
-Uncensored, open-source alternative to Higgsfield AI, Freepik AI, Krea AI, Openart AI — Free, unrestricted AI image & video generation studio with 200+ models (Flux, Midjourney, Kling, Sora, Veo). No content filters. Self-hosted, MIT licensed.
+Open-source AI image/video generator
