@@ -1,0 +1,42 @@
+{
+  "generated_at": "2026-06-23T10:27:23.317Z",
+  "source": "launches",
+  "counts": {
+    "producthunt": 4,
+    "total": 4
+  },
+  "launches": [
+    {
+      "id": "ph-1177821",
+      "name": "MD+HTML Reader",
+      "description": "Review AI-generated Markdown and HTML in a focused workspace",
+      "url": "https://www.producthunt.com/r/KENNVT4AGFQKXV?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 116,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1175131",
+      "name": "OnBrand by SlideSpeak",
+      "description": "Design context for AI agents",
+      "url": "https://www.producthunt.com/r/5XUO6E5A7ZZRXC?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 108,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1174696",
+      "name": "Agentic Document Extraction",
+      "description": "Make the world's documents computable ",
+      "url": "https://www.producthunt.com/r/NRV6TH5TKJQAN5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 101,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1177354",
+      "name": "AlgoFly AI",
+      "description": "The all-in-one place to build and deploy vision AI",
+      "url": "https://www.producthunt.com/r/CNFAF6CYJHSC6J?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 95,
+      "_source": "producthunt"
+    }
+  ]
+}
