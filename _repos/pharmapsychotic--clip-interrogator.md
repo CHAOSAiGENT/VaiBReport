@@ -3,25 +3,25 @@ layout: repo
 name: "pharmapsychotic/CLIP-Interrogator"
 source: huggingface-space
 item_url: "https://huggingface.co/spaces/pharmapsychotic/CLIP-Interrogator"
-description: "Turn images into text prompts; reverse-engineer AI art or get better descriptions."
+description: "Describe images with text using CLIP, great for getting prompts for AI art or understanding visuals."
 category: "HuggingFace Spaces"
 language: ""
 stars: 0
 downloads: 0
-likes: 2973
+likes: 2972
 og_image: "https://huggingface.co/api/spaces/pharmapsychotic/CLIP-Interrogator/screenshot"
 first_featured: "2026-03-27"
-last_featured: "2026-06-09"
-times_featured: 6
+last_featured: "2026-06-23"
+times_featured: 7
 streak: 0
 appearances: 0
 star_velocity: 0
 tags: [huggingface, gradio, region:us]
 icp_tags: ["non-technical", "solopreneur", "entreprecurious"]
-replaces: [{"name":"Azure Computer Vision","url":"https://azure.microsoft.com/en-us/products/ai-services/ai-vision","note":"Image-to-text APIs"},{"name":"Google Cloud Vision AI","url":"https://cloud.google.com/vision","note":"Image-to-text APIs"}]
+replaces: [{"name":"Google Cloud Vision AI","url":"https://cloud.google.com/vision","note":"Image analysis API"},{"name":"Amazon Rekognition","url":"https://aws.amazon.com/rekognition/","note":"Image analysis service"}]
 similar_to: []
 compare_to_source: "llm"
-compare_to_validated: false
+compare_to_validated: true
 ---
 
-Turn images into text prompts; reverse-engineer AI art or get better descriptions.
+Describe images with text using CLIP, great for getting prompts for AI art or understanding visuals.

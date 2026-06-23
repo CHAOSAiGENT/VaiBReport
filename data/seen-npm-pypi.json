@@ -73,8 +73,8 @@
       "last_featured": "2026-06-07"
     },
     "pypi-playwright": {
-      "times_featured": 6,
-      "last_featured": "2026-06-09"
+      "times_featured": 7,
+      "last_featured": "2026-06-23"
     },
     "pypi-weaviate-client": {
       "times_featured": 7,
@@ -173,12 +173,12 @@
       "last_featured": "2026-06-22"
     },
     "npm-@genkit-ai/google-genai": {
-      "times_featured": 6,
-      "last_featured": "2026-06-09"
+      "times_featured": 7,
+      "last_featured": "2026-06-23"
     },
     "npm-genkit-cli": {
-      "times_featured": 6,
-      "last_featured": "2026-06-09"
+      "times_featured": 7,
+      "last_featured": "2026-06-23"
     },
     "pypi-qdrant-client": {
       "times_featured": 6,
@@ -313,12 +313,12 @@
       "last_featured": "2026-06-14"
     },
     "npm-@appium/tsconfig": {
-      "times_featured": 5,
-      "last_featured": "2026-06-09"
+      "times_featured": 6,
+      "last_featured": "2026-06-23"
     },
     "npm-@appium/base-plugin": {
-      "times_featured": 4,
-      "last_featured": "2026-06-02"
+      "times_featured": 5,
+      "last_featured": "2026-06-23"
     },
     "pypi-firecrawl": {
       "times_featured": 5,
@@ -415,6 +415,10 @@
     "npm-tokenjuice": {
       "times_featured": 1,
       "last_featured": "2026-06-18"
+    },
+    "npm-@clawdbot/lobster": {
+      "times_featured": 1,
+      "last_featured": "2026-06-23"
     }
   }
 }

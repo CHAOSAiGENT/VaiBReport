@@ -3,25 +3,25 @@ layout: repo
 name: "playwright"
 source: pypi
 item_url: "https://pypi.org/project/playwright/"
-description: "Automate web browsers for testing or scraping; reliable, cross-browser, and headless."
+description: "Automate browser tasks with ease; perfect for scraping, testing, or building bot workflows."
 category: "PyPI Packages"
 language: ""
 stars: 0
-downloads: 17646836
+downloads: 20788266
 likes: 0
 og_image: ""
 first_featured: "2026-03-24"
-last_featured: "2026-06-09"
-times_featured: 6
+last_featured: "2026-06-23"
+times_featured: 7
 streak: 0
 appearances: 0
 star_velocity: 0
 tags: [pypi]
 icp_tags: ["founding-team", "solopreneur"]
-replaces: [{"name":"Selenium","url":"https://www.selenium.dev","note":"Older browser automation tool"},{"name":"Cypress","url":"https://www.cypress.io","note":"JavaScript end-to-end testing framework"},{"name":"Puppeteer","url":"https://pptr.dev","note":"Chrome-only browser automation"}]
+replaces: [{"name":"Selenium WebDriver","url":"https://www.selenium.dev","note":"Web browser automation"},{"name":"Puppeteer","url":"https://pptr.dev","note":"Node.js browser automation"},{"name":"Beautiful Soup","url":"https://www.crummy.com/software/BeautifulSoup/bs4/doc/","note":"Web scraping (less full browser automation)"},{"name":"Apify","url":"https://apify.com","note":"Cloud-based web scraping & automation"}]
 similar_to: []
 compare_to_source: "llm"
-compare_to_validated: false
+compare_to_validated: true
 ---
 
-Automate web browsers for testing or scraping; reliable, cross-browser, and headless.
+Automate browser tasks with ease; perfect for scraping, testing, or building bot workflows.
