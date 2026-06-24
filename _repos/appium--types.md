@@ -7,12 +7,12 @@ description: "Type declarations for Appium"
 category: "npm Packages"
 language: ""
 stars: 0
-downloads: 2458558
+downloads: 2861713
 likes: 0
 og_image: ""
 first_featured: "2026-03-30"
-last_featured: "2026-06-10"
-times_featured: 6
+last_featured: "2026-06-24"
+times_featured: 7
 streak: 0
 appearances: 0
 star_velocity: 0

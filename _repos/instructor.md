@@ -7,12 +7,12 @@ description: "Structured outputs for LLM"
 category: "PyPI Packages"
 language: ""
 stars: 0
-downloads: 3272352
+downloads: 3995896
 likes: 0
 og_image: ""
 first_featured: "2026-03-27"
-last_featured: "2026-06-10"
-times_featured: 6
+last_featured: "2026-06-24"
+times_featured: 7
 streak: 0
 appearances: 0
 star_velocity: 0

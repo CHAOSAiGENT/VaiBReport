@@ -521,8 +521,8 @@
       "last_featured": "2026-06-13"
     },
     "Salesforce/blip-image-captioning-base": {
-      "times_featured": 4,
-      "last_featured": "2026-05-29"
+      "times_featured": 5,
+      "last_featured": "2026-06-24"
     },
     "ryanmarten/OpenThoughts-1k-sample": {
       "times_featured": 5,
@@ -569,8 +569,8 @@
       "last_featured": "2026-06-15"
     },
     "Qwen/Qwen3-Embedding-4B": {
-      "times_featured": 4,
-      "last_featured": "2026-05-30"
+      "times_featured": 5,
+      "last_featured": "2026-06-24"
     },
     "rtrm/debug": {
       "times_featured": 1,
@@ -797,8 +797,8 @@
       "last_featured": "2026-06-13"
     },
     "BAAI/bge-reranker-large": {
-      "times_featured": 2,
-      "last_featured": "2026-06-03"
+      "times_featured": 3,
+      "last_featured": "2026-06-24"
     },
     "mistralai/Voxtral-Mini-4B-Realtime-2602": {
       "times_featured": 1,
@@ -817,8 +817,8 @@
       "last_featured": "2026-06-21"
     },
     "SWE-bench/SWE-bench_Multilingual": {
-      "times_featured": 2,
-      "last_featured": "2026-06-07"
+      "times_featured": 3,
+      "last_featured": "2026-06-24"
     },
     "japanese-asr/whisper_transcriptions.reazon_speech_all": {
       "times_featured": 1,
@@ -853,8 +853,8 @@
       "last_featured": "2026-06-15"
     },
     "ibm-granite/granite-embedding-small-english-r2": {
-      "times_featured": 1,
-      "last_featured": "2026-06-02"
+      "times_featured": 2,
+      "last_featured": "2026-06-24"
     },
     "permutans/arxiv-papers-by-subject": {
       "times_featured": 1,
@@ -927,6 +927,18 @@
     "antirez/deepseek-v4-gguf": {
       "times_featured": 1,
       "last_featured": "2026-06-23"
+    },
+    "gigant/romanian-wav2vec2": {
+      "times_featured": 1,
+      "last_featured": "2026-06-24"
+    },
+    "mvp-lab/LLaVA-OneVision-1.5-Mid-Training-85M": {
+      "times_featured": 1,
+      "last_featured": "2026-06-24"
+    },
+    "jacobbieker/eumetsat-rss": {
+      "times_featured": 1,
+      "last_featured": "2026-06-24"
     }
   }
 }

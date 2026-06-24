@@ -189,8 +189,8 @@
       "last_featured": "2026-04-27"
     },
     "ultralytics/yoloe-11s": {
-      "times_featured": 3,
-      "last_featured": "2026-06-10"
+      "times_featured": 4,
+      "last_featured": "2026-06-24"
     },
     "google/lyria-3-pro": {
       "times_featured": 2,
@@ -557,16 +557,16 @@
       "last_featured": "2026-06-23"
     },
     "thomasmol/whisper-diarization": {
-      "times_featured": 1,
-      "last_featured": "2026-06-10"
+      "times_featured": 2,
+      "last_featured": "2026-06-24"
     },
     "anthropic/claude-fable-5": {
-      "times_featured": 1,
-      "last_featured": "2026-06-10"
+      "times_featured": 2,
+      "last_featured": "2026-06-24"
     },
     "oitoito/depth-pro": {
-      "times_featured": 1,
-      "last_featured": "2026-06-10"
+      "times_featured": 2,
+      "last_featured": "2026-06-24"
     },
     "luma/ray-3.2": {
       "times_featured": 1,
@@ -627,6 +627,10 @@
     "lxcxsito/stargirlz": {
       "times_featured": 1,
       "last_featured": "2026-06-22"
+    },
+    "alibaba/happyhorse-1.1": {
+      "times_featured": 1,
+      "last_featured": "2026-06-24"
     }
   }
 }

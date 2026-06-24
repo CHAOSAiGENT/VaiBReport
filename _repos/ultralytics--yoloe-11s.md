@@ -11,16 +11,16 @@ downloads: 0
 likes: 0
 og_image: ""
 first_featured: "2026-04-14"
-last_featured: "2026-06-10"
-times_featured: 3
+last_featured: "2026-06-24"
+times_featured: 4
 streak: 0
 appearances: 0
 star_velocity: 0
 tags: [replicate]
 icp_tags: ["non-technical", "solopreneur"]
-replaces: []
+replaces: [{"name":"YOLO","url":"https://pjreddie.com/darknet/yolo/","note":"object detection"}]
 similar_to: []
-compare_to_source: "manual"
+compare_to_source: "llm"
 compare_to_validated: false
 ---
 

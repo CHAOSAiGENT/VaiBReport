@@ -12,14 +12,14 @@ likes: 0
 readme_image: "https://github.com/scaffdog/artwork/raw/main/repo-banner.png"
 og_image: "https://opengraph.githubassets.com/1/scaffdog/scaffdog"
 first_featured: "2026-03-29"
-last_featured: "2026-06-10"
-times_featured: 6
+last_featured: "2026-06-24"
+times_featured: 7
 streak: 49
 appearances: 49
 star_velocity: 0
 tags: [github, cli, generator, markdown, nodejs, scaffdog, scaffold, template]
 icp_tags: ["founding-team", "solopreneur", "pre-mvp"]
-replaces: [{"name":"Yeoman","url":"https://yeoman.io","note":"Scaffolding tool"}]
+replaces: [{"name":"Yeoman","url":"https://yeoman.io/","note":"scaffolding tool"}]
 similar_to: []
 compare_to_source: "llm"
 compare_to_validated: false

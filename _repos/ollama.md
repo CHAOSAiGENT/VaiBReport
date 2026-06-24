@@ -3,16 +3,16 @@ layout: repo
 name: "ollama"
 source: pypi
 item_url: "https://pypi.org/project/ollama/"
-description: "Official Python client for Ollama"
+description: "Ollama Python client"
 category: "PyPI Packages"
 language: ""
 stars: 0
-downloads: 4163237
+downloads: 5588313
 likes: 0
 og_image: ""
 first_featured: "2026-03-26"
-last_featured: "2026-06-10"
-times_featured: 6
+last_featured: "2026-06-24"
+times_featured: 7
 streak: 0
 appearances: 0
 star_velocity: 0
@@ -24,4 +24,4 @@ compare_to_source: "manual"
 compare_to_validated: false
 ---
 
-Official Python client for Ollama
+Ollama Python client

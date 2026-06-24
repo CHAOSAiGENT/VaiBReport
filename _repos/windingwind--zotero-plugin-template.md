@@ -12,8 +12,8 @@ likes: 0
 readme_image: "https://user-images.githubusercontent.com/33902321/211739774-cc5c2df8-5fd9-42f0-9cdf-0f2e5946d427.png"
 og_image: "https://opengraph.githubassets.com/1/windingwind/zotero-plugin-template"
 first_featured: "2026-03-29"
-last_featured: "2026-06-10"
-times_featured: 6
+last_featured: "2026-06-24"
+times_featured: 7
 streak: 49
 appearances: 49
 star_velocity: 0
