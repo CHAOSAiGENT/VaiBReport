@@ -1,0 +1,114 @@
+{
+  "generated_at": "2026-06-24T10:13:13.602Z",
+  "source": "launches",
+  "counts": {
+    "producthunt": 13,
+    "total": 13
+  },
+  "launches": [
+    {
+      "id": "ph-1178153",
+      "name": "Bluerails Discovery ",
+      "description": "The rails AI agents use to find and pay you",
+      "url": "https://www.producthunt.com/r/SES4UURPNBOQ2O?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 585,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1167541",
+      "name": "OpenArt Director",
+      "description": "Direct cinematic videos through chat",
+      "url": "https://www.producthunt.com/r/VR33AZJYNUFI26?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 404,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1172491",
+      "name": "Cotypist",
+      "description": "Local AI Autocomplete in your voice, anywhere on your Mac",
+      "url": "https://www.producthunt.com/r/DAOKZ2ZPDUPEKT?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 375,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1177824",
+      "name": "Latitude",
+      "description": "Fix what's breaking in your AI agent",
+      "url": "https://www.producthunt.com/r/HIY25VKCAQE45I?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 349,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1167249",
+      "name": "Hush",
+      "description": "Open-source noise suppression for voice AI agents",
+      "url": "https://www.producthunt.com/r/4MK3CBM4G3CRUM?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 183,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1173364",
+      "name": "Jotform AI App Builder",
+      "description": "Turn ideas into powerful apps within seconds",
+      "url": "https://www.producthunt.com/r/RYTOCBF7AC7ESQ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 169,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1178238",
+      "name": "Blazly SEO",
+      "description": "Dominate SEO with an AI content operating system",
+      "url": "https://www.producthunt.com/r/BBXVXSGQVORSYG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 140,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1178555",
+      "name": "Sipcode",
+      "description": "Keep Claude Code's context clean for sharper answers",
+      "url": "https://www.producthunt.com/r/UPJLB2WHEJ42IF?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 135,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1170883",
+      "name": "jebi",
+      "description": "A supercharged terminal for Mac with built-in local AI",
+      "url": "https://www.producthunt.com/r/7C4DCG63GC7CZR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 135,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1176837",
+      "name": "Conduit",
+      "description": "Fix the tool-list bloat slowing your AI agent",
+      "url": "https://www.producthunt.com/r/E7YKWOOJTW5GQE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 132,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1176251",
+      "name": "BestDefense.io",
+      "description": "Pentest and patch every deploy with AI",
+      "url": "https://www.producthunt.com/r/GSVGJJLZJK5VKU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 130,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1172894",
+      "name": "prepros",
+      "description": "Run your brand shoots from start to finish",
+      "url": "https://www.producthunt.com/r/NSI466FJIDPTUT?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 106,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1177644",
+      "name": "NeuralAgent 3.0",
+      "description": "AI that executes UI actions on your computer in ~285ms",
+      "url": "https://www.producthunt.com/r/WG2FDIRSMKGHGR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 103,
+      "_source": "producthunt"
+    }
+  ]
+}
