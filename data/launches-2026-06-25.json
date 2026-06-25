@@ -1,0 +1,114 @@
+{
+  "generated_at": "2026-06-25T10:11:26.984Z",
+  "source": "launches",
+  "counts": {
+    "producthunt": 13,
+    "total": 13
+  },
+  "launches": [
+    {
+      "id": "ph-1173176",
+      "name": "Tencent EdgeOne Makers",
+      "description": "Ship AI agents like web apps, in minutes.",
+      "url": "https://www.producthunt.com/r/F44CDFG34U37A3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 546,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1174350",
+      "name": "Propane ",
+      "description": "Automatic customer context for product teams and agents",
+      "url": "https://www.producthunt.com/r/3IPLBPLEC7J35W?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 507,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1178240",
+      "name": "Crewdle AI",
+      "description": "Use every business AI tool without every subscription",
+      "url": "https://www.producthunt.com/r/L4PREZKBAKAZYE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 303,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1178443",
+      "name": "Stripe.Directory",
+      "description": "New way for you & agents to search for businesses on Stripe",
+      "url": "https://www.producthunt.com/r/ZRMWJBK7PEAKQ3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 281,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1178409",
+      "name": "Customer Relationship Agents by Clarify",
+      "description": "The M in CRM shouldn't be you",
+      "url": "https://www.producthunt.com/r/SYIA53AFDR3GPE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 199,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1178423",
+      "name": "Mindstone Rebel",
+      "description": "AI workspace for agents that know your work and ask first",
+      "url": "https://www.producthunt.com/r/AIENRBZHILH3YP?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 183,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1176284",
+      "name": "Buy by Agentcard",
+      "description": "Order DoorDash from Claude",
+      "url": "https://www.producthunt.com/r/OYV6A53YD3NOX7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 172,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1178877",
+      "name": "StaleMate PR",
+      "description": "Your menu bar turns red when PRs pile up",
+      "url": "https://www.producthunt.com/r/F34P2GOIRK3EBU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 136,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1179684",
+      "name": "Ruby",
+      "description": "Ask better questions, live on every call",
+      "url": "https://www.producthunt.com/r/YEMCTCUYJDIQ2T?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 130,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1179599",
+      "name": "FUTO Swipe",
+      "description": "Open models for on-device swipe typing",
+      "url": "https://www.producthunt.com/r/N2BVTQ5XIEHUH2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 127,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1178962",
+      "name": "React UI Kit V7",
+      "description": "All the chat components you need. None of the complexity",
+      "url": "https://www.producthunt.com/r/ZHP7NRALZUCM7O?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 119,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1179668",
+      "name": "Swimio",
+      "description": "AI swim coach with Apple Watch tracking & smart workouts",
+      "url": "https://www.producthunt.com/r/PSDRLULFS2GUS5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 118,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1179087",
+      "name": "Nimt",
+      "description": "Your AI Search Coworker in Slack",
+      "url": "https://www.producthunt.com/r/W6JEWRUDRSZ3DB?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 117,
+      "_source": "producthunt"
+    }
+  ]
+}
