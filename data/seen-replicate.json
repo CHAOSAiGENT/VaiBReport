@@ -1,8 +1,8 @@
 {
   "featured": {
     "prunaai/p-image-edit": {
-      "times_featured": 4,
-      "last_featured": "2026-06-11"
+      "times_featured": 5,
+      "last_featured": "2026-06-25"
     },
     "black-forest-labs/flux-2-pro": {
       "times_featured": 2,
@@ -569,8 +569,8 @@
       "last_featured": "2026-06-24"
     },
     "luma/ray-3.2": {
-      "times_featured": 1,
-      "last_featured": "2026-06-11"
+      "times_featured": 2,
+      "last_featured": "2026-06-25"
     },
     "ibm-granite/granite-speech-4.1-2b": {
       "times_featured": 1,
@@ -631,6 +631,10 @@
     "alibaba/happyhorse-1.1": {
       "times_featured": 1,
       "last_featured": "2026-06-24"
+    },
+    "bytedance/seedance-2.0-mini": {
+      "times_featured": 1,
+      "last_featured": "2026-06-25"
     }
   }
 }

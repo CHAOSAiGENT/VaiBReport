@@ -3,25 +3,25 @@ layout: repo
 name: "google/vit-base-patch16-224"
 source: huggingface-model
 item_url: "https://huggingface.co/google/vit-base-patch16-224"
-description: "A Vision Transformer model for image classification, a solid base for any computer vision task."
+description: "vit-base-patch16-224"
 category: "HuggingFace Models"
 language: ""
 stars: 0
-downloads: 4748560
-likes: 969
+downloads: 5799401
+likes: 980
 og_image: ""
 first_featured: "2026-03-30"
-last_featured: "2026-06-11"
-times_featured: 6
+last_featured: "2026-06-25"
+times_featured: 7
 streak: 0
 appearances: 0
 star_velocity: 0
 tags: [huggingface, transformers, pytorch, tf, jax, safetensors, vit, image-classification, vision]
 icp_tags: ["founding-team", "pre-mvp"]
-replaces: [{"name":"AWS Rekognition","url":"https://aws.amazon.com/rekognition/","note":"Image analysis service"},{"name":"Google Cloud Vision API","url":"https://cloud.google.com/vision","note":"Image analysis service"},{"name":"Azure Cognitive Services","url":"https://azure.microsoft.com/en-us/products/ai/ai-vision","note":"Image analysis service"}]
+replaces: []
 similar_to: []
-compare_to_source: "llm"
+compare_to_source: "manual"
 compare_to_validated: false
 ---
 
-A Vision Transformer model for image classification, a solid base for any computer vision task.
+vit-base-patch16-224

@@ -3,25 +3,25 @@ layout: repo
 name: "mistralai"
 source: pypi
 item_url: "https://pypi.org/project/mistralai/"
-description: "Interact with Mistral AI models directly in Python, simplifying integration for your projects."
+description: "Mistral AI client SDK"
 category: "PyPI Packages"
 language: ""
 stars: 0
-downloads: 12005214
+downloads: 10943666
 likes: 0
 og_image: ""
 first_featured: "2026-03-26"
-last_featured: "2026-06-11"
-times_featured: 6
+last_featured: "2026-06-25"
+times_featured: 7
 streak: 0
 appearances: 0
 star_velocity: 0
 tags: [pypi]
 icp_tags: ["founding-team", "solopreneur"]
-replaces: [{"name":"Requests library","url":"https://requests.readthedocs.io/","note":"HTTP client for custom API calls"},{"name":"LangChain","url":"https://www.langchain.com/","note":"LLM orchestration framework"}]
-similar_to: ["cohere", "groq"]
+replaces: [{"name":"Mistral AI API","url":"https://mistral.ai/api","note":"AI API"}]
+similar_to: []
 compare_to_source: "llm"
 compare_to_validated: false
 ---
 
-Interact with Mistral AI models directly in Python, simplifying integration for your projects.
+Mistral AI client SDK
