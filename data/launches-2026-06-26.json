@@ -1,0 +1,114 @@
+{
+  "generated_at": "2026-06-26T10:13:30.401Z",
+  "source": "launches",
+  "counts": {
+    "producthunt": 13,
+    "total": 13
+  },
+  "launches": [
+    {
+      "id": "ph-1173214",
+      "name": "BrowserAct",
+      "description": "Web browser automation for AI agents",
+      "url": "https://www.producthunt.com/r/37BT52WEVJQBND?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 517,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1169408",
+      "name": "Oxlo.ai",
+      "description": "Scale across AI models without scaling your bill",
+      "url": "https://www.producthunt.com/r/DUYNVE7KZKA72Z?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 486,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1180059",
+      "name": "Zaro",
+      "description": "Build agents & apps on top of your context with one prompt.",
+      "url": "https://www.producthunt.com/r/KBOJHU4IKBULO7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 439,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1176406",
+      "name": "Brain² by ClickUp",
+      "description": "One AI that knows your entire company and acts on it",
+      "url": "https://www.producthunt.com/r/5JKEC5B27QQILZ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 214,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1155431",
+      "name": "Tough Tongue AI for Sales",
+      "description": "Live AI teammate for every tough sales conversation",
+      "url": "https://www.producthunt.com/r/74BUTAACNQOEDS?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 201,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1173662",
+      "name": "Samepage Signals",
+      "description": "Your second brain for product management",
+      "url": "https://www.producthunt.com/r/MEQY53KOIDX3KX?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 184,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1179782",
+      "name": "Polygraph",
+      "description": "Let AI agents see cross repo and maintain session memory.",
+      "url": "https://www.producthunt.com/r/U65YPKSE4GA2EW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 150,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1180086",
+      "name": "Papermark Agents",
+      "description": "Let AI agents run your next deal, fundraise or data room",
+      "url": "https://www.producthunt.com/r/W3JWP477L6XTBY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 129,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1179935",
+      "name": "Grass 2.0",
+      "description": "The always-on computer for your coding agents",
+      "url": "https://www.producthunt.com/r/A3E2L7TLCNTMKM?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 115,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1179713",
+      "name": "Nashra",
+      "description": "Turn followers into clients.",
+      "url": "https://www.producthunt.com/r/X6MXYEI6OLKE7M?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 107,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1136080",
+      "name": "Milestones",
+      "description": "Native project planning app, now on Mac & with an MCP server",
+      "url": "https://www.producthunt.com/r/DD3PFGQJZGRNYR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 106,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1179833",
+      "name": "Heron ",
+      "description": "Wireshark for AI Agents: passive eBPF observability",
+      "url": "https://www.producthunt.com/r/6ZK6UDOOVAAWXF?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 103,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1172238",
+      "name": "SendTidings",
+      "description": "Turn your analytics into beautiful monthly email reports",
+      "url": "https://www.producthunt.com/r/LYF7GT243WMDPC?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 96,
+      "_source": "producthunt"
+    }
+  ]
+}
