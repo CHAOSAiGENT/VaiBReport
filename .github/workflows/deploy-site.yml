@@ -60,6 +60,10 @@ jobs:
       - uses: actions/upload-pages-artifact@v5
         with:
           path: next/out
+          # The Pages build artifact is consumed by deploy-pages immediately;
+          # it has no value after the deploy. Expire it next day so these
+          # ~13 MB blobs don't accumulate against the account storage quota.
+          retention-days: 1
 
   deploy:
     needs: build

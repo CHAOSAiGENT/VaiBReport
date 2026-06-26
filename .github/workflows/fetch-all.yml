@@ -1,0 +1,1377 @@
+name: Fetch all data sources
+
+# Consolidated daily data pipeline. Replaces 9 separate fetch-*.yml workflows.
+# Each source runs as its own step (continue-on-error so one dead API can't
+# block the others), then a SINGLE commit lands all of the day's snapshots at
+# once — one commit/day instead of nine, one push race instead of nine.
+#
+# Order matters in one spot: fetch-launches writes data/launches-<date>.json
+# and Product Hunt MERGES into that same file, so launches must run first.
+
+on:
+  schedule:
+    - cron: "0 13 * * *"   # daily at 13:00 UTC; digest runs at 14:00
+  workflow_dispatch:
+
+jobs:
+  fetch-all:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Set up Node
+        uses: actions/setup-node@v5
+        with:
+          node-version: "24"
+
+      # cheerio is used by the HTML-scraping sources (repos, ollama, launches).
+      # Installed once for the whole job instead of three times.
+      - name: Install deps
+        run: npm install cheerio@1
+
+
+      # ===== repos =====
+      - name: Fetch repos
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          node --input-type=module << 'SCRIPT'
+          import fs from 'fs';
+          import { load } from 'cheerio';
+
+          const delay = (ms) => new Promise(r => setTimeout(r, ms));
+
+          // ── Read config ──────────────────────────────────
+          function readQueries() {
+            const raw = fs.readFileSync('config/queries.json', 'utf8');
+            const parsed = JSON.parse(raw);
+            return {
+              default_queries: parsed.default_queries || [],
+              extra_queries: parsed.extra_queries || [],
+              ugc_social_queries: parsed.ugc_social_queries || []
+            };
+          }
+
+          // ── GitHub Search API ────────────────────────────
+          async function searchGithub(q) {
+            const url = new URL('https://api.github.com/search/repositories');
+            url.searchParams.set('q', q);
+            url.searchParams.set('sort', 'stars');
+            url.searchParams.set('order', 'desc');
+            url.searchParams.set('per_page', '50');
+
+            const res = await fetch(url, {
+              headers: {
+                'Accept': 'application/vnd.github+json',
+                'Authorization': `Bearer ${process.env.GH_TOKEN}`,
+                'X-GitHub-Api-Version': '2022-11-28'
+              }
+            });
+
+            if (!res.ok) {
+              console.error(`Search failed for "${q}": ${res.status}`);
+              return [];
+            }
+            const json = await res.json();
+            return json.items || [];
+          }
+
+          // ── Scrape GitHub Trending ───────────────────────
+          async function scrapeTrending() {
+            try {
+              const res = await fetch(
+                'https://github.com/trending?since=daily&spoken_language_code=en'
+              );
+              if (!res.ok) {
+                console.error(`Trending scrape failed: ${res.status}`);
+                return [];
+              }
+              const html = await res.text();
+              const $ = load(html);
+              const repos = [];
+
+              $('article.Box-row').each((_, el) => {
+                const titleEl = $(el).find('h2 a');
+                const slug = titleEl.attr('href')?.replace(/^\//, '') || '';
+                if (!slug.includes('/')) return;
+
+                const desc = $(el).find('p.col-9').text().trim() || null;
+                const lang = $(el).find('[itemprop="programmingLanguage"]')
+                  .text().trim() || null;
+                const starsText = $(el).find('a[href$="/stargazers"]')
+                  .text().trim().replace(/,/g, '');
+                const stars = parseInt(starsText, 10) || 0;
+
+                repos.push({
+                  full_name: slug,
+                  html_url: `https://github.com/${slug}`,
+                  description: desc,
+                  stargazers_count: stars,
+                  language: lang,
+                  topics: [],
+                  pushed_at: null,
+                  created_at: null,
+                  forks_count: 0,
+                  _source: 'trending'
+                });
+              });
+
+              return repos;
+            } catch (e) {
+              console.error('Trending scrape error:', e.message);
+              return [];
+            }
+          }
+
+          // ── Slim helper ──────────────────────────────────
+          function slimRepo(r, source = 'search', queryGroup = 'default') {
+            return {
+              full_name: r.full_name,
+              html_url: r.html_url,
+              description: r.description,
+              stargazers_count: r.stargazers_count,
+              language: r.language,
+              topics: r.topics || [],
+              pushed_at: r.pushed_at,
+              created_at: r.created_at,
+              forks_count: r.forks_count,
+              _source: source,
+              _query_group: queryGroup
+            };
+          }
+
+          // ── Main ─────────────────────────────────────────
+          (async () => {
+            const config = readQueries();
+            const allRepos = [];
+
+            // Run each query group with tagging
+            const groups = [
+              ['default', config.default_queries],
+              ['extra', config.extra_queries],
+              ['ugc_social', config.ugc_social_queries]
+            ];
+
+            for (const [groupName, queries] of groups) {
+              for (const q of queries) {
+                const items = await searchGithub(q);
+                allRepos.push(
+                  ...items.map(r => slimRepo(r, 'search', groupName))
+                );
+                await delay(2000);  // rate-limit courtesy
+              }
+            }
+
+            // Trending (best-effort)
+            const trending = await scrapeTrending();
+            allRepos.push(...trending);
+
+            // Deduplicate by full_name, keep higher-star entry
+            const map = {};
+            for (const r of allRepos) {
+              const existing = map[r.full_name];
+              if (!existing ||
+                  (r.stargazers_count || 0) > (existing.stargazers_count || 0)) {
+                // Merge _query_group if both exist
+                if (existing && existing._query_group !== r._query_group) {
+                  r._query_group = `${existing._query_group},${r._query_group}`;
+                }
+                map[r.full_name] = r;
+              }
+            }
+            const deduped = Object.values(map);
+
+            // ── Hotness tracking ──────────────────────────────
+            let hotness = {};
+            try {
+              hotness = JSON.parse(fs.readFileSync('data/hotness.json', 'utf8'));
+            } catch (e) { /* fresh start */ }
+
+            const todayStr = new Date().toISOString().slice(0, 10);
+            const yesterdayStr = hotness._last_run || null;
+
+            for (const r of deduped) {
+              const name = r.full_name;
+              if (!hotness[name]) {
+                hotness[name] = { appearances: 0, streak: 0, last_seen: null, first_seen: todayStr };
+              }
+              const entry = hotness[name];
+              entry.appearances++;
+              entry.last_seen = todayStr;
+
+              if (yesterdayStr && entry.last_seen_prev === yesterdayStr) {
+                entry.streak++;
+              } else {
+                entry.streak = 1;
+              }
+              entry.last_seen_prev = todayStr;
+
+              // Star velocity tracking
+              if (!entry.star_snapshots) entry.star_snapshots = [];
+              entry.star_snapshots.push({ date: todayStr, stars: r.stargazers_count });
+              if (entry.star_snapshots.length > 30) {
+                entry.star_snapshots = entry.star_snapshots.slice(-30);
+              }
+              const recent = entry.star_snapshots.filter(s => {
+                const d = new Date(s.date);
+                const week = new Date();
+                week.setDate(week.getDate() - 7);
+                return d >= week;
+              });
+              if (recent.length >= 2) {
+                const first = recent[0];
+                const last = recent[recent.length - 1];
+                const daysDiff = (new Date(last.date) - new Date(first.date)) / (1000 * 60 * 60 * 24);
+                entry.star_velocity = daysDiff > 0 ? Math.round((last.stars - first.stars) / daysDiff) : 0;
+              } else {
+                entry.star_velocity = 0;
+              }
+            }
+
+            // Decay streaks for repos NOT in today's results
+            for (const [name, entry] of Object.entries(hotness)) {
+              if (name.startsWith('_')) continue;
+              if (typeof entry === 'object' && entry.last_seen !== todayStr) {
+                entry.streak = 0;
+              }
+            }
+
+            hotness._last_run = todayStr;
+            fs.writeFileSync('data/hotness.json', JSON.stringify(hotness, null, 2));
+            console.log(`Updated hotness.json (${Object.keys(hotness).length - 1} repos tracked)`);
+
+            // Write output
+            const date = new Date().toISOString().slice(0, 10);
+            const payload = {
+              generated_at: new Date().toISOString(),
+              config: {
+                default_queries: config.default_queries,
+                extra_queries: config.extra_queries,
+                ugc_social_queries: config.ugc_social_queries
+              },
+              sources: {
+                github_search: {
+                  query_count:
+                    config.default_queries.length +
+                    config.extra_queries.length +
+                    config.ugc_social_queries.length,
+                  repo_count: allRepos.filter(
+                    r => r._source === 'search'
+                  ).length
+                },
+                trending: {
+                  method: 'cheerio-scrape',
+                  repo_count: trending.length
+                }
+              },
+              repos: deduped
+            };
+
+            if (!fs.existsSync('data')) {
+              fs.mkdirSync('data', { recursive: true });
+            }
+            fs.writeFileSync(
+              `data/repos-${date}.json`,
+              JSON.stringify(payload, null, 2)
+            );
+
+            console.log(
+              `Wrote ${deduped.length} repos ` +
+              `(${allRepos.filter(r => r._source === 'search').length} search, ` +
+              `${trending.length} trending)`
+            );
+          })().catch(err => {
+            console.error(err);
+            process.exit(1);
+          });
+          SCRIPT
+
+      # ===== hf =====
+      - name: Fetch HuggingFace content
+        continue-on-error: true
+        env:
+          HF_TOKEN: ${{ secrets.HF_API_TOKEN }}
+        run: |
+          node --input-type=module << 'SCRIPT'
+          import fs from 'fs';
+
+          const delay = (ms) => new Promise(r => setTimeout(r, ms));
+          const headers = {};
+          if (process.env.HF_TOKEN) {
+            headers['Authorization'] = `Bearer ${process.env.HF_TOKEN}`;
+          }
+
+          // ── Fetch Spaces ────────────────────────────────
+          async function fetchSpaces() {
+            const spaces = [];
+            try {
+              const res = await fetch(
+                'https://huggingface.co/api/spaces?sort=likes&direction=-1&limit=50',
+                { headers }
+              );
+              if (res.ok) {
+                const data = await res.json();
+                spaces.push(...data.map(s => ({
+                  id: s.id,
+                  url: `https://huggingface.co/spaces/${s.id}`,
+                  description: s.cardData?.short_description || s.id.split('/')[1] || '',
+                  likes: s.likes || 0,
+                  created_at: s.createdAt,
+                  last_modified: s.lastModified,
+                  sdk: s.sdk || null,
+                  tags: s.tags || [],
+                  _source: 'huggingface',
+                  _hf_type: 'space'
+                })));
+              } else {
+                console.error(`Spaces fetch failed: ${res.status}`);
+              }
+            } catch (e) {
+              console.error('Spaces fetch error:', e.message);
+            }
+            await delay(1000);
+            return spaces;
+          }
+
+          // ── Fetch Models ────────────────────────────────
+          async function fetchModels() {
+            const pipelines = [
+              'text-generation', 'text-to-image', 'image-to-text',
+              'text-to-video', 'text-to-audio', 'feature-extraction',
+              'automatic-speech-recognition', 'image-classification'
+            ];
+            const models = [];
+
+            for (const pipeline of pipelines) {
+              try {
+                const res = await fetch(
+                  `https://huggingface.co/api/models?pipeline_tag=${pipeline}&sort=downloads&direction=-1&limit=20`,
+                  { headers }
+                );
+                if (res.ok) {
+                  const data = await res.json();
+                  models.push(...data.map(m => ({
+                    id: m.id,
+                    url: `https://huggingface.co/${m.id}`,
+                    description: m.cardData?.short_description || m.id.split('/').pop() || '',
+                    downloads: m.downloads || 0,
+                    likes: m.likes || 0,
+                    pipeline_tag: m.pipeline_tag || pipeline,
+                    created_at: m.createdAt,
+                    last_modified: m.lastModified,
+                    tags: m.tags || [],
+                    _source: 'huggingface',
+                    _hf_type: 'model'
+                  })));
+                } else {
+                  console.error(`Models fetch failed (${pipeline}): ${res.status}`);
+                }
+              } catch (e) {
+                console.error(`Models fetch error (${pipeline}):`, e.message);
+              }
+              await delay(1000);
+            }
+
+            // Dedup by id
+            const seen = new Set();
+            return models.filter(m => {
+              if (seen.has(m.id)) return false;
+              seen.add(m.id);
+              return true;
+            });
+          }
+
+          // ── Fetch Datasets ──────────────────────────────
+          async function fetchDatasets() {
+            const datasets = [];
+            try {
+              const res = await fetch(
+                'https://huggingface.co/api/datasets?sort=downloads&direction=-1&limit=50',
+                { headers }
+              );
+              if (res.ok) {
+                const data = await res.json();
+                datasets.push(...data.map(d => ({
+                  id: d.id,
+                  url: `https://huggingface.co/datasets/${d.id}`,
+                  description: d.cardData?.short_description || d.id.split('/').pop() || '',
+                  downloads: d.downloads || 0,
+                  likes: d.likes || 0,
+                  created_at: d.createdAt,
+                  last_modified: d.lastModified,
+                  tags: d.tags || [],
+                  _source: 'huggingface',
+                  _hf_type: 'dataset'
+                })));
+              } else {
+                console.error(`Datasets fetch failed: ${res.status}`);
+              }
+            } catch (e) {
+              console.error('Datasets fetch error:', e.message);
+            }
+            return datasets;
+          }
+
+          // ── Main ────────────────────────────────────────
+          (async () => {
+            const spaces = await fetchSpaces();
+            const models = await fetchModels();
+            const datasets = await fetchDatasets();
+
+            const date = new Date().toISOString().slice(0, 10);
+            const payload = {
+              generated_at: new Date().toISOString(),
+              source: 'huggingface',
+              counts: {
+                spaces: spaces.length,
+                models: models.length,
+                datasets: datasets.length
+              },
+              spaces,
+              models,
+              datasets
+            };
+
+            if (!fs.existsSync('data')) {
+              fs.mkdirSync('data', { recursive: true });
+            }
+            fs.writeFileSync(
+              `data/hf-${date}.json`,
+              JSON.stringify(payload, null, 2)
+            );
+
+            console.log(
+              `Wrote ${spaces.length} spaces, ${models.length} models, ${datasets.length} datasets`
+            );
+          })().catch(err => {
+            console.error(err);
+            process.exit(1);
+          });
+          SCRIPT
+
+      # ===== replicate =====
+      - name: Fetch Replicate models
+        continue-on-error: true
+        env:
+          REPLICATE_API_TOKEN: ${{ secrets.REPLICATE_API_TOKEN }}
+        run: |
+          node --input-type=module << 'SCRIPT'
+          import fs from 'fs';
+
+          const delay = (ms) => new Promise(r => setTimeout(r, ms));
+          const token = process.env.REPLICATE_API_TOKEN;
+          if (!token) {
+            console.log('No REPLICATE_API_TOKEN — skipping');
+            process.exit(0);
+          }
+          const headers = { 'Authorization': `Bearer ${token}` };
+
+          const SIX_MONTHS_AGO = new Date();
+          SIX_MONTHS_AGO.setMonth(SIX_MONTHS_AGO.getMonth() - 6);
+
+          async function fetchModels() {
+            const allModels = [];
+            let url = 'https://api.replicate.com/v1/models?cursor=';
+            for (let page = 0; page < 2; page++) {
+              try {
+                const res = await fetch(url, { headers });
+                if (!res.ok) {
+                  console.error(`Replicate API error: ${res.status}`);
+                  break;
+                }
+                const data = await res.json();
+                if (data.results) allModels.push(...data.results);
+                if (data.next) {
+                  url = data.next;
+                } else {
+                  break;
+                }
+              } catch (e) {
+                console.error('Replicate fetch error:', e.message);
+                break;
+              }
+              await delay(1000);
+            }
+            return allModels;
+          }
+
+          (async () => {
+            const raw = await fetchModels();
+
+            const models = raw
+              .filter(m => {
+                if (!m.owner || m.owner === 'replicate') return false;
+                if ((m.run_count || 0) < 100) return false;
+                const updated = m.latest_version?.created_at || m.created_at;
+                if (updated && new Date(updated) < SIX_MONTHS_AGO) return false;
+                return true;
+              })
+              .map(m => ({
+                id: `${m.owner}/${m.name}`,
+                url: m.url || `https://replicate.com/${m.owner}/${m.name}`,
+                description: m.description || '',
+                run_count: m.run_count || 0,
+                likes: m.github_stars || 0,
+                created_at: m.created_at,
+                last_modified: m.latest_version?.created_at || m.created_at,
+                tags: [],
+                _source: 'replicate',
+                _platform: 'replicate'
+              }))
+              .sort((a, b) => b.run_count - a.run_count);
+
+            const date = new Date().toISOString().slice(0, 10);
+            const payload = {
+              generated_at: new Date().toISOString(),
+              source: 'replicate',
+              counts: { models: models.length },
+              models
+            };
+
+            if (!fs.existsSync('data')) fs.mkdirSync('data', { recursive: true });
+            fs.writeFileSync(`data/replicate-${date}.json`, JSON.stringify(payload, null, 2));
+            console.log(`Wrote ${models.length} Replicate models`);
+          })().catch(err => { console.error(err); process.exit(1); });
+          SCRIPT
+
+      # ===== paperswithcode =====
+      - name: Fetch Papers with Code
+        continue-on-error: true
+        run: |
+          node --input-type=module << 'SCRIPT'
+          import fs from 'fs';
+
+          const delay = (ms) => new Promise(r => setTimeout(r, ms));
+
+          const RELEVANT_TASKS = [
+            'text-generation', 'image-generation', 'video-generation',
+            'object-detection', 'question-answering', 'summarization',
+            'text-to-image', 'image-to-text', 'text-to-video',
+            'language-modelling', 'code-generation', 'sentiment-analysis',
+            'named-entity-recognition', 'machine-translation'
+          ];
+
+          async function fetchPapers() {
+            const papers = [];
+            try {
+              const res = await fetch(
+                'https://paperswithcode.com/api/v1/papers/?ordering=-proceeding&items_per_page=50'
+              );
+              if (!res.ok) {
+                console.error(`PwC papers API error: ${res.status}`);
+                return [];
+              }
+              const data = await res.json();
+              papers.push(...(data.results || []));
+            } catch (e) {
+              console.error('PwC papers fetch error:', e.message);
+            }
+            return papers;
+          }
+
+          async function getRepos(paperId) {
+            try {
+              await delay(1000);
+              const res = await fetch(
+                `https://paperswithcode.com/api/v1/papers/${paperId}/repositories/`
+              );
+              if (!res.ok) return [];
+              const data = await res.json();
+              return data.results || data || [];
+            } catch (e) {
+              return [];
+            }
+          }
+
+          (async () => {
+            const rawPapers = await fetchPapers();
+            console.log(`Fetched ${rawPapers.length} papers from PwC`);
+
+            const results = [];
+            for (const paper of rawPapers) {
+              const repos = await getRepos(paper.id);
+              const bestRepo = repos
+                .filter(r => r.url && r.url.includes('github.com'))
+                .sort((a, b) => (b.stars || 0) - (a.stars || 0))[0];
+
+              if (!bestRepo || (bestRepo.stars || 0) < 50) continue;
+
+              const tasks = (paper.tasks || []).map(t =>
+                typeof t === 'string' ? t : (t.name || t.slug || '')
+              ).map(t => t.toLowerCase());
+
+              const isRelevant = tasks.length === 0 ||
+                tasks.some(t => RELEVANT_TASKS.some(rt => t.includes(rt)));
+              if (!isRelevant) continue;
+
+              results.push({
+                id: paper.id,
+                title: paper.title,
+                url: paper.url_abs || `https://paperswithcode.com/paper/${paper.id}`,
+                abstract: (paper.abstract || '').slice(0, 300),
+                github_url: bestRepo.url,
+                github_stars: bestRepo.stars || 0,
+                published: paper.published,
+                tasks,
+                _source: 'paperswithcode',
+                _platform: 'paperswithcode'
+              });
+
+              if (results.length >= 20) break;
+            }
+
+            const date = new Date().toISOString().slice(0, 10);
+            const payload = {
+              generated_at: new Date().toISOString(),
+              source: 'paperswithcode',
+              counts: { papers: results.length },
+              papers: results
+            };
+
+            if (!fs.existsSync('data')) fs.mkdirSync('data', { recursive: true });
+            fs.writeFileSync(`data/paperswithcode-${date}.json`, JSON.stringify(payload, null, 2));
+            console.log(`Wrote ${results.length} papers with linked repos`);
+          })().catch(err => { console.error(err); process.exit(1); });
+          SCRIPT
+
+      # ===== npm-pypi =====
+      - name: Fetch npm and PyPI packages
+        continue-on-error: true
+        run: |
+          node --input-type=module << 'SCRIPT'
+          import fs from 'fs';
+
+          const delay = (ms) => new Promise(r => setTimeout(r, ms));
+
+          const SIX_MONTHS_AGO = new Date();
+          SIX_MONTHS_AGO.setMonth(SIX_MONTHS_AGO.getMonth() - 6);
+
+          // ── npm ─────────────────────────────────────────
+          async function fetchNpm() {
+            const keywords = ['ai', 'llm', 'agent', 'generative-ai', 'saas', 'cli', 'automation'];
+            const seen = new Set();
+            const results = [];
+
+            for (const kw of keywords) {
+              try {
+                const res = await fetch(
+                  `https://registry.npmjs.org/-/v1/search?text=keywords:${kw}&size=30&popularity=1.0`
+                );
+                if (!res.ok) {
+                  console.error(`npm search error (${kw}): ${res.status}`);
+                  continue;
+                }
+                const data = await res.json();
+                for (const obj of (data.objects || [])) {
+                  const pkg = obj.package;
+                  if (seen.has(pkg.name)) continue;
+                  seen.add(pkg.name);
+
+                  const modified = pkg.date ? new Date(pkg.date) : null;
+                  if (modified && modified < SIX_MONTHS_AGO) continue;
+
+                  results.push({
+                    id: pkg.name,
+                    url: `https://www.npmjs.com/package/${pkg.name}`,
+                    description: (pkg.description || '').slice(0, 200),
+                    weekly_downloads: 0,
+                    version: pkg.version || '',
+                    published: pkg.date || '',
+                    keywords: pkg.keywords || [],
+                    _source: 'npm',
+                    _platform: 'npm',
+                    _score: obj.score?.final || 0
+                  });
+                }
+              } catch (e) {
+                console.error(`npm fetch error (${kw}):`, e.message);
+              }
+              await delay(1000);
+            }
+
+            // Fetch download counts for top candidates (by score)
+            const top = results.sort((a, b) => b._score - a._score).slice(0, 50);
+            for (const pkg of top) {
+              try {
+                const res = await fetch(
+                  `https://api.npmjs.org/downloads/point/last-week/${pkg.id}`
+                );
+                if (res.ok) {
+                  const data = await res.json();
+                  pkg.weekly_downloads = data.downloads || 0;
+                }
+              } catch (e) { /* skip */ }
+              await delay(200);
+            }
+
+            return top
+              .filter(p => p.weekly_downloads >= 1000)
+              .sort((a, b) => b.weekly_downloads - a.weekly_downloads);
+          }
+
+          // ── PyPI ────────────────────────────────────────
+          async function fetchPypi() {
+            const packages = [
+              'langchain', 'openai', 'anthropic', 'transformers', 'diffusers',
+              'gradio', 'streamlit', 'fastapi', 'pydantic', 'instructor',
+              'crewai', 'autogen', 'llama-index', 'chromadb', 'pinecone-client',
+              'qdrant-client', 'weaviate-client', 'ollama', 'litellm', 'guidance',
+              'dspy-ai', 'marvin', 'lmql', 'outlines', 'vllm',
+              'sentence-transformers', 'tokenizers', 'datasets', 'accelerate',
+              'unstructured', 'docling', 'crawl4ai', 'firecrawl', 'playwright',
+              'replicate', 'together', 'groq', 'cohere', 'mistralai',
+              'smolagents', 'pocketgroq', 'agno', 'phidata', 'swarm'
+            ];
+            const results = [];
+
+            for (const name of packages) {
+              try {
+                const res = await fetch(`https://pypi.org/pypi/${name}/json`);
+                if (!res.ok) continue;
+                const data = await res.json();
+                const info = data.info;
+
+                results.push({
+                  id: info.name,
+                  url: info.project_url || `https://pypi.org/project/${info.name}/`,
+                  description: (info.summary || '').slice(0, 200),
+                  recent_downloads: 0,
+                  version: info.version || '',
+                  published: info.requires_dist ? '' : '',
+                  keywords: (info.keywords || '').split(/[,\s]+/).filter(Boolean).slice(0, 10),
+                  _source: 'pypi',
+                  _platform: 'pypi'
+                });
+              } catch (e) { /* skip */ }
+              await delay(300);
+            }
+
+            // Fetch download stats
+            for (const pkg of results) {
+              try {
+                const res = await fetch(
+                  `https://pypistats.org/api/packages/${pkg.id.toLowerCase()}/recent`
+                );
+                if (res.ok) {
+                  const data = await res.json();
+                  pkg.recent_downloads = data.data?.last_week || data.data?.last_month || 0;
+                }
+              } catch (e) { /* skip */ }
+              await delay(300);
+            }
+
+            return results
+              .filter(p => p.recent_downloads >= 500)
+              .sort((a, b) => b.recent_downloads - a.recent_downloads);
+          }
+
+          // ── Main ────────────────────────────────────────
+          (async () => {
+            const npm = await fetchNpm();
+            const pypi = await fetchPypi();
+
+            const date = new Date().toISOString().slice(0, 10);
+            const payload = {
+              generated_at: new Date().toISOString(),
+              source: 'npm-pypi',
+              counts: { npm: npm.length, pypi: pypi.length },
+              npm,
+              pypi
+            };
+
+            if (!fs.existsSync('data')) fs.mkdirSync('data', { recursive: true });
+            fs.writeFileSync(`data/npm-pypi-${date}.json`, JSON.stringify(payload, null, 2));
+            console.log(`Wrote ${npm.length} npm + ${pypi.length} pypi packages`);
+          })().catch(err => { console.error(err); process.exit(1); });
+          SCRIPT
+
+      # ===== ollama =====
+      - name: Fetch Ollama models
+        continue-on-error: true
+        run: |
+          node --input-type=module << 'SCRIPT'
+          import fs from 'fs';
+          import { load } from 'cheerio';
+
+          const delay = (ms) => new Promise(r => setTimeout(r, ms));
+
+          async function fetchLibrary() {
+            const models = [];
+            try {
+              const res = await fetch('https://ollama.com/library', {
+                headers: { 'User-Agent': 'VaiBReport-digest/1.0' }
+              });
+              if (!res.ok) {
+                console.error(`Ollama library fetch failed: ${res.status}`);
+                return [];
+              }
+              const html = await res.text();
+              const $ = load(html);
+
+              $('li a[href^="/library/"]').each((_, el) => {
+                const href = $(el).attr('href') || '';
+                const name = href.replace('/library/', '').split('/')[0];
+                if (!name) return;
+
+                const desc = $(el).find('p').first().text().trim() || '';
+                const metaText = $(el).text();
+                const pullMatch = metaText.match(/([\d.]+[KMB]?\+?)\s*Pull/i);
+                const pullCount = pullMatch ? pullMatch[1] : '';
+                const tagEls = $(el).find('span');
+                const tags = [];
+                tagEls.each((_, t) => {
+                  const text = $(t).text().trim();
+                  if (text && text !== name && text.length < 30) tags.push(text);
+                });
+                const updateMatch = metaText.match(/Updated\s+(.+?)(?:\s|$)/i);
+                const updated = updateMatch ? updateMatch[1].trim() : '';
+
+                models.push({
+                  id: name,
+                  url: `https://ollama.com/library/${name}`,
+                  description: desc,
+                  pull_count: pullCount,
+                  tags: tags.slice(0, 10),
+                  updated,
+                  _source: 'ollama',
+                  _platform: 'ollama'
+                });
+              });
+            } catch (e) {
+              console.error('Ollama scrape error:', e.message);
+            }
+            return models;
+          }
+
+          (async () => {
+            const models = await fetchLibrary();
+            const date = new Date().toISOString().slice(0, 10);
+            const payload = {
+              generated_at: new Date().toISOString(),
+              source: 'ollama',
+              counts: { models: models.length },
+              models
+            };
+
+            if (!fs.existsSync('data')) fs.mkdirSync('data', { recursive: true });
+            fs.writeFileSync(`data/ollama-${date}.json`, JSON.stringify(payload, null, 2));
+            console.log(`Wrote ${models.length} Ollama models`);
+          })().catch(err => { console.error(err); process.exit(1); });
+          SCRIPT
+
+      # ===== gitlab =====
+      - name: Fetch GitLab repos
+        continue-on-error: true
+        run: |
+          node --input-type=module << 'SCRIPT'
+          import fs from 'fs';
+
+          const delay = (ms) => new Promise(r => setTimeout(r, ms));
+
+          const SIX_MONTHS_AGO = new Date();
+          SIX_MONTHS_AGO.setMonth(SIX_MONTHS_AGO.getMonth() - 6);
+          const sinceDate = SIX_MONTHS_AGO.toISOString().slice(0, 10);
+
+          async function fetchGitlab() {
+            const allRepos = [];
+            const seen = new Set();
+
+            // Top starred repos with recent activity
+            const queries = [
+              `https://gitlab.com/api/v4/projects?order_by=stars&sort=desc&per_page=50&last_activity_after=${sinceDate}`,
+              `https://gitlab.com/api/v4/projects?topic=ai&order_by=stars&sort=desc&per_page=30`,
+              `https://gitlab.com/api/v4/projects?topic=machine-learning&order_by=stars&sort=desc&per_page=30`,
+              `https://gitlab.com/api/v4/projects?topic=saas&order_by=stars&sort=desc&per_page=20`,
+              `https://gitlab.com/api/v4/projects?topic=automation&order_by=stars&sort=desc&per_page=20`,
+              `https://gitlab.com/api/v4/projects?topic=devops&order_by=stars&sort=desc&per_page=20`
+            ];
+
+            for (const url of queries) {
+              try {
+                const res = await fetch(url);
+                if (!res.ok) {
+                  console.error(`GitLab API error: ${res.status} for ${url}`);
+                  continue;
+                }
+                const data = await res.json();
+                for (const p of data) {
+                  const name = p.path_with_namespace;
+                  if (seen.has(name)) continue;
+                  seen.add(name);
+
+                  if ((p.star_count || 0) < 20) continue;
+
+                  const lastActivity = p.last_activity_at ? new Date(p.last_activity_at) : null;
+                  if (lastActivity && lastActivity < SIX_MONTHS_AGO) continue;
+
+                  allRepos.push({
+                    id: name,
+                    full_name: name,
+                    url: p.web_url || `https://gitlab.com/${name}`,
+                    description: (p.description || '').slice(0, 300),
+                    star_count: p.star_count || 0,
+                    forks_count: p.forks_count || 0,
+                    language: null,
+                    topics: p.topics || p.tag_list || [],
+                    created_at: p.created_at,
+                    last_activity_at: p.last_activity_at,
+                    _source: 'gitlab',
+                    _platform: 'gitlab'
+                  });
+                }
+              } catch (e) {
+                console.error('GitLab fetch error:', e.message);
+              }
+              await delay(1000);
+            }
+
+            return allRepos.sort((a, b) => b.star_count - a.star_count);
+          }
+
+          (async () => {
+            const repos = await fetchGitlab();
+            const date = new Date().toISOString().slice(0, 10);
+            const payload = {
+              generated_at: new Date().toISOString(),
+              source: 'gitlab',
+              counts: { repos: repos.length },
+              repos
+            };
+
+            if (!fs.existsSync('data')) fs.mkdirSync('data', { recursive: true });
+            fs.writeFileSync(`data/gitlab-${date}.json`, JSON.stringify(payload, null, 2));
+            console.log(`Wrote ${repos.length} GitLab repos`);
+          })().catch(err => { console.error(err); process.exit(1); });
+          SCRIPT
+
+      # ===== launches =====
+      - name: Fetch product launches
+        continue-on-error: true
+        run: |
+          node --input-type=module << 'SCRIPT'
+          import fs from 'fs';
+          import { load } from 'cheerio';
+
+          const delay = (ms) => new Promise(r => setTimeout(r, ms));
+          const today = new Date().toISOString().slice(0, 10);
+
+          // ── Hacker News Show HN ─────────────────────────
+          async function fetchShowHN() {
+            const results = [];
+            try {
+              const res = await fetch('https://hacker-news.firebaseio.com/v0/showstories.json');
+              if (!res.ok) {
+                console.error(`HN API error: ${res.status}`);
+                return [];
+              }
+              const ids = await res.json();
+              const top = ids.slice(0, 30);
+
+              for (const id of top) {
+                try {
+                  const itemRes = await fetch(
+                    `https://hacker-news.firebaseio.com/v0/item/${id}.json`
+                  );
+                  if (!itemRes.ok) continue;
+                  const item = await itemRes.json();
+                  if (!item || (item.score || 0) < 10) continue;
+                  if (!item.url && !item.title) continue;
+
+                  results.push({
+                    id: `showhn-${item.id}`,
+                    name: (item.title || '').replace(/^Show HN:\s*/i, ''),
+                    url: item.url || `https://news.ycombinator.com/item?id=${item.id}`,
+                    description: item.title || '',
+                    upvotes: item.score || 0,
+                    launch_date: today,
+                    platform_url: `https://news.ycombinator.com/item?id=${item.id}`,
+                    _source: 'hackernews_showhn',
+                    _platform: 'launches'
+                  });
+                } catch (e) { /* skip item */ }
+                await delay(200);
+              }
+            } catch (e) {
+              console.error('HN Show HN error:', e.message);
+            }
+            return results;
+          }
+
+          // ── DevHunt ─────────────────────────────────────
+          async function fetchDevHunt() {
+            const results = [];
+            try {
+              const res = await fetch('https://devhunt.org', {
+                headers: { 'User-Agent': 'VaiBReport-digest/1.0' }
+              });
+              if (!res.ok) {
+                console.error(`DevHunt fetch failed: ${res.status}`);
+                return [];
+              }
+              const html = await res.text();
+              const $ = load(html);
+
+              $('a[href*="/tool/"]').each((_, el) => {
+                const href = $(el).attr('href') || '';
+                const slug = href.split('/tool/')[1]?.split(/[?#/]/)[0];
+                if (!slug) return;
+                const name = $(el).find('h3, h2, [class*="name"], [class*="title"]')
+                  .first().text().trim() ||
+                  slug.replace(/-/g, ' ');
+                const desc = $(el).find('p').first().text().trim() || '';
+                const voteText = $(el).text().match(/(\d+)\s*(?:vote|upvote|point)/i);
+                const upvotes = voteText ? parseInt(voteText[1], 10) : 0;
+
+                if (results.some(r => r.id === `devhunt-${slug}`)) return;
+                results.push({
+                  id: `devhunt-${slug}`,
+                  name,
+                  url: `https://devhunt.org/tool/${slug}`,
+                  description: desc,
+                  upvotes,
+                  launch_date: today,
+                  platform_url: `https://devhunt.org/tool/${slug}`,
+                  _source: 'devhunt',
+                  _platform: 'launches'
+                });
+              });
+            } catch (e) {
+              console.error('DevHunt scrape error:', e.message);
+            }
+            return results;
+          }
+
+          // ── BetaList (RSS) ──────────────────────────────
+          async function fetchBetaList() {
+            const results = [];
+            try {
+              const res = await fetch('https://betalist.com/feed', {
+                headers: { 'User-Agent': 'VaiBReport-digest/1.0' }
+              });
+              if (!res.ok) {
+                console.error(`BetaList RSS failed: ${res.status}`);
+                return [];
+              }
+              const xml = await res.text();
+              const $ = load(xml, { xmlMode: true });
+
+              $('item').each((i, el) => {
+                if (i >= 20) return false;
+                const title = $(el).find('title').text().trim();
+                const link = $(el).find('link').text().trim();
+                const desc = $(el).find('description').text().trim()
+                  .replace(/<[^>]+>/g, '').slice(0, 200);
+                const slug = link.split('/').pop() || title.toLowerCase().replace(/\s+/g, '-');
+
+                results.push({
+                  id: `betalist-${slug}`,
+                  name: title,
+                  url: link,
+                  description: desc,
+                  upvotes: 0,
+                  launch_date: today,
+                  platform_url: link,
+                  _source: 'betalist',
+                  _platform: 'launches'
+                });
+              });
+            } catch (e) {
+              console.error('BetaList RSS error:', e.message);
+            }
+            return results;
+          }
+
+          // ── Uneed ───────────────────────────────────────
+          async function fetchUneed() {
+            const results = [];
+            try {
+              const res = await fetch('https://www.uneed.best', {
+                headers: { 'User-Agent': 'VaiBReport-digest/1.0' }
+              });
+              if (!res.ok) {
+                console.error(`Uneed fetch failed: ${res.status}`);
+                return [];
+              }
+              const html = await res.text();
+              const $ = load(html);
+
+              $('a[href*="/tool/"]').each((i, el) => {
+                if (i >= 20) return false;
+                const href = $(el).attr('href') || '';
+                const slug = href.split('/tool/')[1]?.split(/[?#/]/)[0];
+                if (!slug) return;
+                const name = $(el).find('h3, h2, [class*="name"]')
+                  .first().text().trim() ||
+                  slug.replace(/-/g, ' ');
+                const desc = $(el).find('p').first().text().trim() || '';
+
+                if (results.some(r => r.id === `uneed-${slug}`)) return;
+                results.push({
+                  id: `uneed-${slug}`,
+                  name,
+                  url: `https://www.uneed.best/tool/${slug}`,
+                  description: desc,
+                  upvotes: 0,
+                  launch_date: today,
+                  platform_url: `https://www.uneed.best/tool/${slug}`,
+                  _source: 'uneed',
+                  _platform: 'launches'
+                });
+              });
+            } catch (e) {
+              console.error('Uneed scrape error:', e.message);
+            }
+            return results;
+          }
+
+          // ── Main ────────────────────────────────────────
+          (async () => {
+            const showhn = await fetchShowHN();
+            console.log(`Show HN: ${showhn.length}`);
+            await delay(1000);
+            const devhunt = await fetchDevHunt();
+            console.log(`DevHunt: ${devhunt.length}`);
+            await delay(1000);
+            const betalist = await fetchBetaList();
+            console.log(`BetaList: ${betalist.length}`);
+            await delay(1000);
+            const uneed = await fetchUneed();
+            console.log(`Uneed: ${uneed.length}`);
+
+            const all = [...showhn, ...devhunt, ...betalist, ...uneed];
+            const date = new Date().toISOString().slice(0, 10);
+            const payload = {
+              generated_at: new Date().toISOString(),
+              source: 'launches',
+              counts: {
+                hackernews_showhn: showhn.length,
+                devhunt: devhunt.length,
+                betalist: betalist.length,
+                uneed: uneed.length,
+                total: all.length
+              },
+              launches: all
+            };
+
+            if (!fs.existsSync('data')) fs.mkdirSync('data', { recursive: true });
+            fs.writeFileSync(`data/launches-${date}.json`, JSON.stringify(payload, null, 2));
+            console.log(`Wrote ${all.length} total launches`);
+          })().catch(err => { console.error(err); process.exit(1); });
+          SCRIPT
+
+      # ===== producthunt =====
+      - name: Fetch Product Hunt launches
+        continue-on-error: true
+        env:
+          PH_DEV_TOKEN2: ${{ secrets.PH_DEV_TOKEN2 }}
+        run: |
+          node --input-type=module << 'SCRIPT'
+          import fs from 'fs';
+
+          const token = process.env.PH_DEV_TOKEN2 || '';
+
+          const now = new Date();
+          const today = now.toISOString().slice(0, 10);
+          // Look back 30 hours so we always catch yesterday's top PH posts
+          // (PH resets at midnight Pacific = 07-08 UTC; running at 07 UTC may miss today's)
+          const lookbackDate = new Date(now - 30 * 60 * 60 * 1000).toISOString().slice(0, 10);
+
+          const RELEVANT_TOPICS = [
+            'developer tools',
+            'artificial intelligence',
+            'saas',
+            'productivity',
+            'maker tools',
+            'open source'
+          ];
+          const MIN_UPVOTES = 20;
+
+          // ── Product Hunt ────────────────────────────────
+          async function fetchProductHunt() {
+            if (!token) {
+              console.warn('PH_DEV_TOKEN not set — skipping Product Hunt fetch');
+              return [];
+            }
+
+            const query = `
+              query {
+                posts(order: VOTES, postedAfter: "${lookbackDate}T00:00:00Z", first: 50) {
+                  edges {
+                    node {
+                      id
+                      name
+                      tagline
+                      votesCount
+                      website
+                      topics {
+                        edges {
+                          node { name }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            `;
+
+            let data;
+            try {
+              const res = await fetch('https://api.producthunt.com/v2/api/graphql', {
+                method: 'POST',
+                headers: {
+                  'Content-Type': 'application/json',
+                  'Authorization': `Bearer ${token}`,
+                  'User-Agent': 'VaiBReport-digest/1.0'
+                },
+                body: JSON.stringify({ query })
+              });
+
+              if (!res.ok) {
+                console.warn(`Product Hunt API returned ${res.status} — skipping`);
+                return [];
+              }
+
+              data = await res.json();
+            } catch (e) {
+              console.warn('Product Hunt fetch error:', e.message, '— skipping');
+              return [];
+            }
+
+            if (data.errors) {
+              console.warn('Product Hunt GraphQL errors:', JSON.stringify(data.errors), '— skipping');
+              return [];
+            }
+
+            const edges = data?.data?.posts?.edges || [];
+            console.log(`PH raw posts returned: ${edges.length}`);
+            const results = [];
+
+            for (const { node } of edges) {
+              const postTopics = (node.topics?.edges || [])
+                .map(e => (e.node?.name || '').toLowerCase());
+              // Debug: log first 5 posts with their topics
+              if (results.length === 0 && edges.indexOf({ node }) < 5) {
+                console.log(`  sample: "${node.name}" votes=${node.votesCount} topics=[${postTopics.join(', ')}]`);
+              }
+
+              if ((node.votesCount || 0) < MIN_UPVOTES) continue;
+
+              const isRelevant = RELEVANT_TOPICS.some(t => postTopics.includes(t));
+              if (!isRelevant) {
+                if (edges.length <= 10) console.log(`  skipped (topic): "${node.name}" [${postTopics.join(', ')}]`);
+                continue;
+              }
+
+              results.push({
+                id: `ph-${node.id}`,
+                name: node.name || '',
+                description: node.tagline || '',
+                url: node.website || `https://www.producthunt.com/posts/${node.id}`,
+                upvotes: node.votesCount || 0,
+                _source: 'producthunt'
+              });
+            }
+
+            return results;
+          }
+
+          // ── Main ────────────────────────────────────────
+          (async () => {
+            const phItems = await fetchProductHunt();
+            console.log(`Product Hunt: ${phItems.length} relevant items`);
+
+            if (phItems.length === 0) {
+              console.log('No Product Hunt items — nothing to write');
+              process.exit(0);
+            }
+
+            // Load seen-producthunt.json
+            const seenPath = 'data/seen-producthunt.json';
+            let seen = {};
+            if (fs.existsSync(seenPath)) {
+              try {
+                seen = JSON.parse(fs.readFileSync(seenPath, 'utf8'));
+              } catch (e) {
+                console.warn('Could not parse seen-producthunt.json — starting fresh');
+                seen = {};
+              }
+            }
+
+            // Dedup: skip items seen within last 7 days
+            const sevenDaysAgo = new Date();
+            sevenDaysAgo.setDate(sevenDaysAgo.getDate() - 7);
+
+            const newItems = phItems.filter(item => {
+              const seenDate = seen[item.id];
+              if (!seenDate) return true;
+              return new Date(seenDate) < sevenDaysAgo;
+            });
+
+            console.log(`After dedup: ${newItems.length} new items`);
+
+            // Load existing launches file and strip old PH entries
+            const launchesPath = `data/launches-${today}.json`;
+            let payload = {
+              generated_at: new Date().toISOString(),
+              source: 'launches',
+              counts: {},
+              launches: []
+            };
+
+            if (fs.existsSync(launchesPath)) {
+              try {
+                payload = JSON.parse(fs.readFileSync(launchesPath, 'utf8'));
+              } catch (e) {
+                console.warn('Could not parse existing launches file — starting fresh');
+              }
+              // Remove stale PH entries so we replace with fresh data
+              payload.launches = (payload.launches || []).filter(
+                item => item._source !== 'producthunt'
+              );
+            }
+
+            // Append new PH items
+            payload.launches = [...(payload.launches || []), ...newItems];
+            payload.generated_at = new Date().toISOString();
+
+            // Rebuild counts
+            const countsBySrc = {};
+            for (const item of payload.launches) {
+              const src = item._source || 'unknown';
+              countsBySrc[src] = (countsBySrc[src] || 0) + 1;
+            }
+            payload.counts = {
+              ...countsBySrc,
+              total: payload.launches.length
+            };
+
+            if (!fs.existsSync('data')) fs.mkdirSync('data', { recursive: true });
+            fs.writeFileSync(launchesPath, JSON.stringify(payload, null, 2));
+            console.log(`Wrote ${payload.launches.length} total launches to ${launchesPath}`);
+
+            // Update seen-producthunt.json
+            for (const item of newItems) {
+              seen[item.id] = today;
+            }
+            fs.writeFileSync(seenPath, JSON.stringify(seen, null, 2));
+            console.log(`Updated ${seenPath} with ${newItems.length} new entries`);
+          })().catch(err => { console.error(err); process.exit(1); });
+          SCRIPT
+
+      - name: Commit and push
+        run: |
+          date=$(date -u +"%Y-%m-%d")
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/
+          git diff --cached --quiet && echo "No changes" && exit 0
+          git commit -m "Add daily data snapshots for ${date}"
+          for i in 1 2 3 4 5; do
+            git pull --rebase origin main && git push && break
+            echo "Push attempt $i failed, retrying in 10s..."
+            sleep 10
+          done
