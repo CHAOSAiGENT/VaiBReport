@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-26T15:29:14.601Z",
+  "generated_at": "2026-06-26T23:22:37.232Z",
   "source": "huggingface",
   "counts": {
     "spaces": 50,
@@ -46,7 +46,7 @@
       "id": "jbilcke-hf/ai-comic-factory",
       "url": "https://huggingface.co/spaces/jbilcke-hf/ai-comic-factory",
       "description": "ai-comic-factory",
-      "likes": 11143,
+      "likes": 11144,
       "created_at": "2023-08-25T14:46:47.000Z",
       "sdk": "docker",
       "tags": [
@@ -145,7 +145,7 @@
       "id": "facebook/MusicGen",
       "url": "https://huggingface.co/spaces/facebook/MusicGen",
       "description": "MusicGen",
-      "likes": 5074,
+      "likes": 5075,
       "created_at": "2023-06-08T18:00:26.000Z",
       "sdk": "gradio",
       "tags": [
@@ -267,7 +267,7 @@
       "id": "mrfakename/Z-Image-Turbo",
       "url": "https://huggingface.co/spaces/mrfakename/Z-Image-Turbo",
       "description": "Z-Image-Turbo",
-      "likes": 3442,
+      "likes": 3446,
       "created_at": "2025-11-26T19:54:05.000Z",
       "sdk": "gradio",
       "tags": [
@@ -282,7 +282,7 @@
       "id": "hexgrad/Kokoro-TTS",
       "url": "https://huggingface.co/spaces/hexgrad/Kokoro-TTS",
       "description": "Kokoro-TTS",
-      "likes": 3380,
+      "likes": 3381,
       "created_at": "2024-11-02T08:32:25.000Z",
       "sdk": "gradio",
       "tags": [
@@ -339,7 +339,7 @@
       "id": "HuggingFaceTB/smol-training-playbook",
       "url": "https://huggingface.co/spaces/HuggingFaceTB/smol-training-playbook",
       "description": "smol-training-playbook",
-      "likes": 3215,
+      "likes": 3216,
       "created_at": "2025-09-12T15:07:42.000Z",
       "sdk": "docker",
       "tags": [
@@ -442,7 +442,7 @@
       "id": "r3gm/wan2-2-fp8da-aoti-preview",
       "url": "https://huggingface.co/spaces/r3gm/wan2-2-fp8da-aoti-preview",
       "description": "wan2-2-fp8da-aoti-preview",
-      "likes": 2810,
+      "likes": 2811,
       "created_at": "2025-10-27T03:20:43.000Z",
       "sdk": "gradio",
       "tags": [
@@ -485,7 +485,7 @@
       "id": "tonyassi/voice-clone",
       "url": "https://huggingface.co/spaces/tonyassi/voice-clone",
       "description": "voice-clone",
-      "likes": 2653,
+      "likes": 2655,
       "created_at": "2024-04-10T15:59:14.000Z",
       "sdk": "gradio",
       "tags": [
@@ -499,7 +499,7 @@
       "id": "multimodalart/qwen-image-multiple-angles-3d-camera",
       "url": "https://huggingface.co/spaces/multimodalart/qwen-image-multiple-angles-3d-camera",
       "description": "qwen-image-multiple-angles-3d-camera",
-      "likes": 2576,
+      "likes": 2577,
       "created_at": "2026-01-07T21:46:29.000Z",
       "sdk": "gradio",
       "tags": [
@@ -678,7 +678,7 @@
       "id": "yanze/PuLID-FLUX",
       "url": "https://huggingface.co/spaces/yanze/PuLID-FLUX",
       "description": "PuLID-FLUX",
-      "likes": 2098,
+      "likes": 2099,
       "created_at": "2024-09-10T13:02:43.000Z",
       "sdk": "gradio",
       "tags": [
@@ -706,7 +706,7 @@
       "id": "selfit-camera/Omni-Image-Editor",
       "url": "https://huggingface.co/spaces/selfit-camera/Omni-Image-Editor",
       "description": "Omni-Image-Editor",
-      "likes": 2024,
+      "likes": 2027,
       "created_at": "2025-12-13T03:04:18.000Z",
       "sdk": "gradio",
       "tags": [
@@ -752,7 +752,7 @@
       "url": "https://huggingface.co/Qwen/Qwen3-0.6B",
       "description": "Qwen3-0.6B",
       "downloads": 27816622,
-      "likes": 1361,
+      "likes": 1362,
       "pipeline_tag": "text-generation",
       "created_at": "2025-04-27T03:40:08.000Z",
       "tags": [
@@ -829,7 +829,7 @@
       "url": "https://huggingface.co/openai-community/gpt2",
       "description": "gpt2",
       "downloads": 13053751,
-      "likes": 3314,
+      "likes": 3315,
       "pipeline_tag": "text-generation",
       "created_at": "2022-03-02T23:29:04.000Z",
       "tags": [
@@ -860,7 +860,7 @@
       "url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct",
       "description": "Qwen2.5-7B-Instruct",
       "downloads": 12722347,
-      "likes": 1383,
+      "likes": 1384,
       "pipeline_tag": "text-generation",
       "created_at": "2024-09-16T11:55:40.000Z",
       "tags": [
@@ -916,7 +916,7 @@
       "url": "https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct",
       "description": "Qwen2.5-1.5B-Instruct",
       "downloads": 11470944,
-      "likes": 748,
+      "likes": 749,
       "pipeline_tag": "text-generation",
       "created_at": "2024-09-17T14:10:29.000Z",
       "tags": [
@@ -982,7 +982,7 @@
       "url": "https://huggingface.co/Qwen/Qwen2.5-3B-Instruct",
       "description": "Qwen2.5-3B-Instruct",
       "downloads": 8619750,
-      "likes": 510,
+      "likes": 511,
       "pipeline_tag": "text-generation",
       "created_at": "2024-09-17T14:08:52.000Z",
       "tags": [
@@ -1069,7 +1069,7 @@
       "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1",
       "description": "DeepSeek-R1",
       "downloads": 7204777,
-      "likes": 13415,
+      "likes": 13416,
       "pipeline_tag": "text-generation",
       "created_at": "2025-01-20T03:46:07.000Z",
       "tags": [
@@ -1095,7 +1095,7 @@
       "url": "https://huggingface.co/openai/gpt-oss-20b",
       "description": "gpt-oss-20b",
       "downloads": 7004700,
-      "likes": 4729,
+      "likes": 4730,
       "pipeline_tag": "text-generation",
       "created_at": "2025-08-04T22:33:29.000Z",
       "tags": [
@@ -1179,7 +1179,7 @@
       "url": "https://huggingface.co/antirez/deepseek-v4-gguf",
       "description": "deepseek-v4-gguf",
       "downloads": 6122758,
-      "likes": 274,
+      "likes": 275,
       "pipeline_tag": "text-generation",
       "created_at": "2026-04-26T07:54:05.000Z",
       "tags": [
@@ -1215,7 +1215,7 @@
       "url": "https://huggingface.co/Qwen/Qwen3-1.7B",
       "description": "Qwen3-1.7B",
       "downloads": 5729599,
-      "likes": 488,
+      "likes": 489,
       "pipeline_tag": "text-generation",
       "created_at": "2025-04-27T03:41:05.000Z",
       "tags": [
@@ -1320,7 +1320,7 @@
       "url": "https://huggingface.co/nvidia/Qwen3.6-35B-A3B-NVFP4",
       "description": "Qwen3.6-35B-A3B-NVFP4",
       "downloads": 4812629,
-      "likes": 357,
+      "likes": 361,
       "pipeline_tag": "text-generation",
       "created_at": "2026-05-27T18:09:46.000Z",
       "tags": [
@@ -1376,7 +1376,7 @@
       "url": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0",
       "description": "stable-diffusion-xl-base-1.0",
       "downloads": 1363484,
-      "likes": 7857,
+      "likes": 7860,
       "pipeline_tag": "text-to-image",
       "created_at": "2023-07-25T13:25:51.000Z",
       "tags": [
@@ -1403,7 +1403,7 @@
       "url": "https://huggingface.co/black-forest-labs/FLUX.1-dev",
       "description": "FLUX.1-dev",
       "downloads": 1097961,
-      "likes": 13361,
+      "likes": 13365,
       "pipeline_tag": "text-to-image",
       "created_at": "2024-07-31T21:13:44.000Z",
       "tags": [
@@ -1453,7 +1453,7 @@
       "url": "https://huggingface.co/Tongyi-MAI/Z-Image-Turbo",
       "description": "Z-Image-Turbo",
       "downloads": 891452,
-      "likes": 4882,
+      "likes": 4883,
       "pipeline_tag": "text-to-image",
       "created_at": "2025-11-25T15:09:48.000Z",
       "tags": [
@@ -1536,7 +1536,7 @@
       "url": "https://huggingface.co/tencent/HunyuanImage-3.0",
       "description": "HunyuanImage-3.0",
       "downloads": 512881,
-      "likes": 1093,
+      "likes": 1094,
       "pipeline_tag": "text-to-image",
       "created_at": "2025-09-25T06:28:28.000Z",
       "tags": [
@@ -1761,7 +1761,7 @@
       "url": "https://huggingface.co/black-forest-labs/FLUX.1-schnell",
       "description": "FLUX.1-schnell",
       "downloads": 220849,
-      "likes": 5218,
+      "likes": 5220,
       "pipeline_tag": "text-to-image",
       "created_at": "2024-07-31T19:58:05.000Z",
       "tags": [
@@ -1785,7 +1785,7 @@
       "url": "https://huggingface.co/RunDiffusion/Juggernaut-XL-v9",
       "description": "Juggernaut-XL-v9",
       "downloads": 217280,
-      "likes": 366,
+      "likes": 367,
       "pipeline_tag": "text-to-image",
       "created_at": "2024-02-18T21:05:03.000Z",
       "tags": [
@@ -2287,7 +2287,7 @@
       "url": "https://huggingface.co/SulphurAI/Sulphur-2-base",
       "description": "Sulphur-2-base",
       "downloads": 865503,
-      "likes": 1779,
+      "likes": 1782,
       "pipeline_tag": "text-to-video",
       "created_at": "2026-05-03T00:33:24.000Z",
       "tags": [
@@ -2332,7 +2332,7 @@
       "url": "https://huggingface.co/Abiray/Sulphur-2-base-GGUF",
       "description": "Sulphur-2-base-GGUF",
       "downloads": 150686,
-      "likes": 69,
+      "likes": 70,
       "pipeline_tag": "text-to-video",
       "created_at": "2026-05-10T15:01:12.000Z",
       "tags": [
@@ -2372,7 +2372,7 @@
       "url": "https://huggingface.co/ali-vilab/text-to-video-ms-1.7b",
       "description": "text-to-video-ms-1.7b",
       "downloads": 108744,
-      "likes": 665,
+      "likes": 666,
       "pipeline_tag": "text-to-video",
       "created_at": "2023-03-22T13:23:33.000Z",
       "tags": [
@@ -3262,7 +3262,7 @@
       "url": "https://huggingface.co/Qwen/Qwen3-Embedding-0.6B",
       "description": "Qwen3-Embedding-0.6B",
       "downloads": 10417901,
-      "likes": 1083,
+      "likes": 1085,
       "pipeline_tag": "feature-extraction",
       "created_at": "2025-06-03T14:25:32.000Z",
       "tags": [
@@ -3767,7 +3767,7 @@
       "url": "https://huggingface.co/Qwen/Qwen3-Embedding-8B",
       "description": "Qwen3-Embedding-8B",
       "downloads": 2433309,
-      "likes": 720,
+      "likes": 721,
       "pipeline_tag": "feature-extraction",
       "created_at": "2025-06-03T14:39:10.000Z",
       "tags": [
@@ -4146,7 +4146,7 @@
       "url": "https://huggingface.co/pyannote/speaker-diarization-3.1",
       "description": "speaker-diarization-3.1",
       "downloads": 8416441,
-      "likes": 2492,
+      "likes": 2496,
       "pipeline_tag": "automatic-speech-recognition",
       "created_at": "2023-11-16T08:19:01.000Z",
       "tags": [
@@ -4972,7 +4972,7 @@
       "url": "https://huggingface.co/pyannote/speaker-diarization-community-1",
       "description": "speaker-diarization-community-1",
       "downloads": 3352726,
-      "likes": 621,
+      "likes": 623,
       "pipeline_tag": "automatic-speech-recognition",
       "created_at": "2025-04-15T21:31:35.000Z",
       "tags": [
@@ -5126,7 +5126,7 @@
       "url": "https://huggingface.co/openai/whisper-small",
       "description": "whisper-small",
       "downloads": 2670004,
-      "likes": 569,
+      "likes": 570,
       "pipeline_tag": "automatic-speech-recognition",
       "created_at": "2022-09-26T06:51:27.000Z",
       "tags": [
@@ -5762,7 +5762,7 @@
       "downloads": 1736068,
       "likes": 57,
       "created_at": "2023-05-12T13:31:56.000Z",
-      "last_modified": "2026-06-26T15:27:01.000Z",
+      "last_modified": "2026-06-26T23:17:45.000Z",
       "tags": [
         "task_categories:text-classification",
         "language:ja",
@@ -6885,9 +6885,9 @@
       "url": "https://huggingface.co/datasets/XDOF/ABC-130k",
       "description": "ABC-130k",
       "downloads": 339698,
-      "likes": 55,
+      "likes": 57,
       "created_at": "2026-06-15T22:33:18.000Z",
-      "last_modified": "2026-06-22T17:53:22.000Z",
+      "last_modified": "2026-06-26T22:13:45.000Z",
       "tags": [
         "task_categories:robotics",
         "language:en",

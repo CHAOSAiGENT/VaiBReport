@@ -1,113 +1,245 @@
 {
-  "generated_at": "2026-06-26T10:13:30.401Z",
+  "generated_at": "2026-06-26T23:23:41.540Z",
   "source": "launches",
   "counts": {
-    "producthunt": 13,
-    "total": 13
+    "hackernews_showhn": 17,
+    "producthunt": 6,
+    "total": 23
   },
   "launches": [
     {
-      "id": "ph-1173214",
-      "name": "BrowserAct",
-      "description": "Web browser automation for AI agents",
-      "url": "https://www.producthunt.com/r/37BT52WEVJQBND?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 517,
+      "id": "showhn-48688700",
+      "name": "Smart model routing directly in Claude, Codex and Cursor",
+      "url": "https://github.com/workweave/router",
+      "description": "Show HN: Smart model routing directly in Claude, Codex and Cursor",
+      "upvotes": 131,
+      "launch_date": "2026-06-26",
+      "platform_url": "https://news.ycombinator.com/item?id=48688700",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48673527",
+      "name": "Autofit2 – End-to-end pipeline for multilingual text classification",
+      "url": "https://github.com/neospe/autofit2",
+      "description": "Show HN: Autofit2 – End-to-end pipeline for multilingual text classification",
+      "upvotes": 11,
+      "launch_date": "2026-06-26",
+      "platform_url": "https://news.ycombinator.com/item?id=48673527",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48656986",
+      "name": "WebBase-III – dBASE III rebuilt in the browser with its own interpreter",
+      "url": "https://github.com/DDecoene/WebBaseIII",
+      "description": "Show HN: WebBase-III – dBASE III rebuilt in the browser with its own interpreter",
+      "upvotes": 76,
+      "launch_date": "2026-06-26",
+      "platform_url": "https://news.ycombinator.com/item?id=48656986",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48675435",
+      "name": "OpenKnowledge – open source AI-first alternative to Obsidian/Notion",
+      "url": "https://github.com/inkeep/open-knowledge",
+      "description": "Show HN: OpenKnowledge – open source AI-first alternative to Obsidian/Notion",
+      "upvotes": 360,
+      "launch_date": "2026-06-26",
+      "platform_url": "https://news.ycombinator.com/item?id=48675435",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48644463",
+      "name": "Overfitted a 900KB Transformer to Compress a 100MB CSV into 7MB",
+      "url": "https://news.ycombinator.com/item?id=48644463",
+      "description": "Show HN: Overfitted a 900KB Transformer to Compress a 100MB CSV into 7MB",
+      "upvotes": 97,
+      "launch_date": "2026-06-26",
+      "platform_url": "https://news.ycombinator.com/item?id=48644463",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48616304",
+      "name": "Chess-Inspired Roguelike",
+      "url": "https://princechazz.com",
+      "description": "Show HN: Chess-Inspired Roguelike",
+      "upvotes": 422,
+      "launch_date": "2026-06-26",
+      "platform_url": "https://news.ycombinator.com/item?id=48616304",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48673671",
+      "name": "I made Google Trends for Hacker News by indexing 18 years of comments",
+      "url": "https://hackernewstrends.com",
+      "description": "Show HN: I made Google Trends for Hacker News by indexing 18 years of comments",
+      "upvotes": 760,
+      "launch_date": "2026-06-26",
+      "platform_url": "https://news.ycombinator.com/item?id=48673671",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48689891",
+      "name": "I built a hardware quantum RNG and wired it into a Magic 8-Ball",
+      "url": "https://dnhkng.github.io/posts/building-the-beam-universe-splitter/",
+      "description": "Show HN: I built a hardware quantum RNG and wired it into a Magic 8-Ball",
+      "upvotes": 10,
+      "launch_date": "2026-06-26",
+      "platform_url": "https://news.ycombinator.com/item?id=48689891",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48671886",
+      "name": "Turn native language audio into flashcards and shadowing practice",
+      "url": "https://lingochunk.com/try",
+      "description": "Show HN: Turn native language audio into flashcards and shadowing practice",
+      "upvotes": 87,
+      "launch_date": "2026-06-26",
+      "platform_url": "https://news.ycombinator.com/item?id=48671886",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48612432",
+      "name": "MiniPCs.zip – Charting the Pareto frontier of Mini PCs",
+      "url": "https://minipcs.zip",
+      "description": "Show HN: MiniPCs.zip – Charting the Pareto frontier of Mini PCs",
+      "upvotes": 113,
+      "launch_date": "2026-06-26",
+      "platform_url": "https://news.ycombinator.com/item?id=48612432",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48598051",
+      "name": "Brain Frog – Can you be random enough for 11 lines of JavaScript?",
+      "url": "https://brainfrog.lol",
+      "description": "Show HN: Brain Frog – Can you be random enough for 11 lines of JavaScript?",
+      "upvotes": 48,
+      "launch_date": "2026-06-26",
+      "platform_url": "https://news.ycombinator.com/item?id=48598051",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48667807",
+      "name": "Bible as RAG Database",
+      "url": "https://www.crosscanon.com/",
+      "description": "Show HN: Bible as RAG Database",
+      "upvotes": 152,
+      "launch_date": "2026-06-26",
+      "platform_url": "https://news.ycombinator.com/item?id=48667807",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48600369",
+      "name": "StartupsBR – A map of Brazilian startups",
+      "url": "https://www.startupsbr.com/sao-paulo",
+      "description": "Show HN: StartupsBR – A map of Brazilian startups",
+      "upvotes": 54,
+      "launch_date": "2026-06-26",
+      "platform_url": "https://news.ycombinator.com/item?id=48600369",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48630318",
+      "name": "Monolisa v3 – a typeface for developers and creatives",
+      "url": "https://www.monolisa.dev/",
+      "description": "Show HN: Monolisa v3 – a typeface for developers and creatives",
+      "upvotes": 189,
+      "launch_date": "2026-06-26",
+      "platform_url": "https://news.ycombinator.com/item?id=48630318",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48646239",
+      "name": "Nimic – Pure Python as a systems language with AOT compilation",
+      "url": "https://github.com/dima-quant/nimic",
+      "description": "Show HN: Nimic – Pure Python as a systems language with AOT compilation",
+      "upvotes": 42,
+      "launch_date": "2026-06-26",
+      "platform_url": "https://news.ycombinator.com/item?id=48646239",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48649697",
+      "name": "Wordit – Change One Letter, Keep the Chain Going",
+      "url": "https://victorribeiro.com/wordit/",
+      "description": "Show HN: Wordit – Change One Letter, Keep the Chain Going",
+      "upvotes": 43,
+      "launch_date": "2026-06-26",
+      "platform_url": "https://news.ycombinator.com/item?id=48649697",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48660267",
+      "name": "Nub – A Bun-like all-in-one toolkit for Node.js",
+      "url": "https://github.com/nubjs/nub",
+      "description": "Show HN: Nub – A Bun-like all-in-one toolkit for Node.js",
+      "upvotes": 271,
+      "launch_date": "2026-06-26",
+      "platform_url": "https://news.ycombinator.com/item?id=48660267",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "ph-1173517",
+      "name": "Agent Arena",
+      "description": "The first public arena for AI agents",
+      "url": "https://www.producthunt.com/r/PQURIKQJDPEHES?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 303,
       "_source": "producthunt"
     },
     {
-      "id": "ph-1169408",
-      "name": "Oxlo.ai",
-      "description": "Scale across AI models without scaling your bill",
-      "url": "https://www.producthunt.com/r/DUYNVE7KZKA72Z?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 486,
+      "id": "ph-1180522",
+      "name": "Gemini Spark",
+      "description": "Your 24/7 personal AI agent",
+      "url": "https://www.producthunt.com/r/ECJULI3OMLYN7K?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 263,
       "_source": "producthunt"
     },
     {
-      "id": "ph-1180059",
-      "name": "Zaro",
-      "description": "Build agents & apps on top of your context with one prompt.",
-      "url": "https://www.producthunt.com/r/KBOJHU4IKBULO7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 439,
+      "id": "ph-1179055",
+      "name": "note.md",
+      "description": "your notes and research documentation now a local LLM Memory",
+      "url": "https://www.producthunt.com/r/XM7DC5XU7LD633?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 226,
       "_source": "producthunt"
     },
     {
-      "id": "ph-1176406",
-      "name": "Brain² by ClickUp",
-      "description": "One AI that knows your entire company and acts on it",
-      "url": "https://www.producthunt.com/r/5JKEC5B27QQILZ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 214,
+      "id": "ph-1176131",
+      "name": "Atlas",
+      "description": "Every AI tool you use should know how your company works",
+      "url": "https://www.producthunt.com/r/ZOTQUJNUZ5T2VX?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 178,
       "_source": "producthunt"
     },
     {
-      "id": "ph-1155431",
-      "name": "Tough Tongue AI for Sales",
-      "description": "Live AI teammate for every tough sales conversation",
-      "url": "https://www.producthunt.com/r/74BUTAACNQOEDS?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 201,
+      "id": "ph-1171509",
+      "name": "ModuleX",
+      "description": "AI workspace that’s already connected to everything",
+      "url": "https://www.producthunt.com/r/7WXNQFN5XHXFPH?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 138,
       "_source": "producthunt"
     },
     {
-      "id": "ph-1173662",
-      "name": "Samepage Signals",
-      "description": "Your second brain for product management",
-      "url": "https://www.producthunt.com/r/MEQY53KOIDX3KX?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 184,
-      "_source": "producthunt"
-    },
-    {
-      "id": "ph-1179782",
-      "name": "Polygraph",
-      "description": "Let AI agents see cross repo and maintain session memory.",
-      "url": "https://www.producthunt.com/r/U65YPKSE4GA2EW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 150,
-      "_source": "producthunt"
-    },
-    {
-      "id": "ph-1180086",
-      "name": "Papermark Agents",
-      "description": "Let AI agents run your next deal, fundraise or data room",
-      "url": "https://www.producthunt.com/r/W3JWP477L6XTBY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 129,
-      "_source": "producthunt"
-    },
-    {
-      "id": "ph-1179935",
-      "name": "Grass 2.0",
-      "description": "The always-on computer for your coding agents",
-      "url": "https://www.producthunt.com/r/A3E2L7TLCNTMKM?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 115,
-      "_source": "producthunt"
-    },
-    {
-      "id": "ph-1179713",
-      "name": "Nashra",
-      "description": "Turn followers into clients.",
-      "url": "https://www.producthunt.com/r/X6MXYEI6OLKE7M?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 107,
-      "_source": "producthunt"
-    },
-    {
-      "id": "ph-1136080",
-      "name": "Milestones",
-      "description": "Native project planning app, now on Mac & with an MCP server",
-      "url": "https://www.producthunt.com/r/DD3PFGQJZGRNYR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 106,
-      "_source": "producthunt"
-    },
-    {
-      "id": "ph-1179833",
-      "name": "Heron ",
-      "description": "Wireshark for AI Agents: passive eBPF observability",
-      "url": "https://www.producthunt.com/r/6ZK6UDOOVAAWXF?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 103,
-      "_source": "producthunt"
-    },
-    {
-      "id": "ph-1172238",
-      "name": "SendTidings",
-      "description": "Turn your analytics into beautiful monthly email reports",
-      "url": "https://www.producthunt.com/r/LYF7GT243WMDPC?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
-      "upvotes": 96,
+      "id": "ph-1181329",
+      "name": "Basedash for Excel",
+      "description": "Turn any Excel file into a live dashboard",
+      "url": "https://www.producthunt.com/r/4KGGF45V2RVECD?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 127,
       "_source": "producthunt"
     }
   ]
