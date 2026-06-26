@@ -3,25 +3,25 @@ layout: repo
 name: "HennyPr/ps2_hf2"
 source: huggingface-dataset
 item_url: "https://huggingface.co/datasets/HennyPr/ps2_hf2"
-description: "Another text dataset for training or experimentation, because quality data is hard to find."
+description: "A small text dataset for quick experiments or fine-tuning language models."
 category: "HuggingFace Datasets"
 language: ""
 stars: 0
-downloads: 761818
+downloads: 734816
 likes: 0
 og_image: ""
 first_featured: "2026-04-30"
-last_featured: "2026-06-12"
-times_featured: 4
+last_featured: "2026-06-26"
+times_featured: 5
 streak: 0
 appearances: 0
 star_velocity: 0
 tags: [huggingface, size_categories:n<1K, format:text, modality:text, library:datasets, library:mlcroissant, region:us]
 icp_tags: ["founding-team", "pre-mvp"]
-replaces: [{"name":"Custom Data Collection","url":"https://data.gov/","note":"Time/effort of gathering training data"}]
+replaces: []
 similar_to: []
-compare_to_source: "llm"
+compare_to_source: "manual"
 compare_to_validated: false
 ---
 
-Another text dataset for training or experimentation, because quality data is hard to find.
+A small text dataset for quick experiments or fine-tuning language models.

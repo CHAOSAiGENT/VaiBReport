@@ -209,8 +209,8 @@
       "last_featured": "2026-06-13"
     },
     "Qwen/Qwen2.5-0.5B-Instruct": {
-      "times_featured": 6,
-      "last_featured": "2026-06-12"
+      "times_featured": 7,
+      "last_featured": "2026-06-26"
     },
     "nvidia/PhysicalAI-Autonomous-Vehicles": {
       "times_featured": 3,
@@ -285,8 +285,8 @@
       "last_featured": "2026-06-25"
     },
     "coqui/xtts": {
-      "times_featured": 6,
-      "last_featured": "2026-06-12"
+      "times_featured": 7,
+      "last_featured": "2026-06-26"
     },
     "openai/whisper": {
       "times_featured": 7,
@@ -329,12 +329,12 @@
       "last_featured": "2026-03-28"
     },
     "tonyassi/voice-clone": {
-      "times_featured": 6,
-      "last_featured": "2026-06-12"
+      "times_featured": 7,
+      "last_featured": "2026-06-26"
     },
     "fffiloni/diffusers-image-outpaint": {
-      "times_featured": 6,
-      "last_featured": "2026-06-12"
+      "times_featured": 7,
+      "last_featured": "2026-06-26"
     },
     "suno/bark": {
       "times_featured": 6,
@@ -469,8 +469,8 @@
       "last_featured": "2026-05-27"
     },
     "multimodalart/qwen-image-multiple-angles-3d-camera": {
-      "times_featured": 5,
-      "last_featured": "2026-06-12"
+      "times_featured": 6,
+      "last_featured": "2026-06-26"
     },
     "mixedbread-ai/mxbai-embed-large-v1": {
       "times_featured": 6,
@@ -489,8 +489,8 @@
       "last_featured": "2026-04-16"
     },
     "r3gm/wan2-2-fp8da-aoti-preview": {
-      "times_featured": 5,
-      "last_featured": "2026-06-12"
+      "times_featured": 6,
+      "last_featured": "2026-06-26"
     },
     "finegrain/finegrain-image-enhancer": {
       "times_featured": 5,
@@ -505,8 +505,8 @@
       "last_featured": "2026-06-14"
     },
     "facebook/w2v-bert-2.0": {
-      "times_featured": 5,
-      "last_featured": "2026-06-12"
+      "times_featured": 6,
+      "last_featured": "2026-06-26"
     },
     "jinaai/jina-embeddings-v3": {
       "times_featured": 5,
@@ -525,8 +525,8 @@
       "last_featured": "2026-06-24"
     },
     "ryanmarten/OpenThoughts-1k-sample": {
-      "times_featured": 5,
-      "last_featured": "2026-06-12"
+      "times_featured": 6,
+      "last_featured": "2026-06-26"
     },
     "Emmyc2/psp": {
       "times_featured": 5,
@@ -621,8 +621,8 @@
       "last_featured": "2026-06-16"
     },
     "stable-diffusion-v1-5/stable-diffusion-v1-5": {
-      "times_featured": 4,
-      "last_featured": "2026-06-02"
+      "times_featured": 5,
+      "last_featured": "2026-06-26"
     },
     "Xenova/bge-base-en-v1.5": {
       "times_featured": 4,
@@ -717,8 +717,8 @@
       "last_featured": "2026-05-28"
     },
     "HennyPr/ps2_hf2": {
-      "times_featured": 4,
-      "last_featured": "2026-06-12"
+      "times_featured": 5,
+      "last_featured": "2026-06-26"
     },
     "AdamCodd/vit-base-nsfw-detector": {
       "times_featured": 1,
@@ -833,8 +833,8 @@
       "last_featured": "2026-05-26"
     },
     "deepseek-ai/DeepSeek-R1-0528": {
-      "times_featured": 2,
-      "last_featured": "2026-06-12"
+      "times_featured": 3,
+      "last_featured": "2026-06-26"
     },
     "huggingface-projects/QR-code-AI-art-generator": {
       "times_featured": 1,
@@ -869,8 +869,8 @@
       "last_featured": "2026-06-12"
     },
     "Benjy/typed_digital_signatures": {
-      "times_featured": 1,
-      "last_featured": "2026-06-12"
+      "times_featured": 2,
+      "last_featured": "2026-06-26"
     },
     "indonesian-nlp/wav2vec2-indonesian-javanese-sundanese": {
       "times_featured": 1,
@@ -943,6 +943,10 @@
     "ad1t7a/10Kh-RealOmin-OpenData": {
       "times_featured": 1,
       "last_featured": "2026-06-25"
+    },
+    "nvidia/Qwen3.6-35B-A3B-NVFP4": {
+      "times_featured": 1,
+      "last_featured": "2026-06-26"
     }
   }
 }
