@@ -16,6 +16,8 @@ updated: 2026-06-05
 - Switched the live site to the custom domain **report.vaibos.com** (basePath dropped, CNAME set, DNS live).
 - CI maintenance: bumped Pages actions to Node-24-native versions; removed the recurring git-128 warning.
 - Verified the automated XSS finding on `markdown.ts` is a false positive (remark-html sanitizes by default).
+- 2026-06-26: Fixed the GitHub storage "ding" — purged 30 accumulated `github-pages` artifacts (399 MB → 0) and added `retention-days: 1` to the Pages deploy so build blobs stop piling against the account's 500 MB shared quota. (Public repo ⇒ Actions _minutes_ were never the cost; storage was.)
+- 2026-06-26: Consolidated 9 daily `fetch-*.yml` workflows into one `fetch-all.yml` (one job, 9 continue-on-error steps, one commit/day, one push race). Fetch JS preserved verbatim; cheerio installed once `--no-save`; `pull --rebase --autostash` + loud `exit 1` on push failure. Bumped to checkout@v6 / setup-node@v5 / node 24. Verified green end-to-end via workflow_dispatch (run 28270724211).
 
 ## In Progress
 
@@ -25,7 +27,7 @@ updated: 2026-06-05
 
 - Address redesign content gaps: compare-to backfill (hero cards / Replaces / Similar render nothing), feature-flag-with-empty-data heroes.
 - Add `.gitattributes` EOL normalization to stop CRLF churn and spurious merge conflicts.
-- Sweep the ~15 data-pipeline workflows to Node-24 action versions before 2026-06-16.
+- Bump remaining 6 workflows from `@v4` to current action versions (capture-screenshots, capture-tool-screenshots, generate-digest, parse-submission, research-report, tool-page-generate). Not urgent — `@v4` runs on Node-20 and still works; only `@v3`/Node-16 was the hard cutover, and none remain. fetch-all + deploy-site are already current.
 - Consider pausing/locking the external auto-sync daemon during multi-commit work.
 - 3 missing Stitch screens (Research, Picks, Sponsor) — build as Next.js pages if still wanted.
 
