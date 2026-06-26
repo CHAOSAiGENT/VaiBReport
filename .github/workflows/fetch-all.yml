@@ -10,7 +10,7 @@ name: Fetch all data sources
 
 on:
   schedule:
-    - cron: "0 13 * * *"   # daily at 13:00 UTC; digest runs at 14:00
+    - cron: "0 13 * * *" # daily at 13:00 UTC; digest runs at 14:00
   workflow_dispatch:
 
 jobs:
@@ -29,9 +29,11 @@ jobs:
 
       # cheerio is used by the HTML-scraping sources (repos, ollama, launches).
       # Installed once for the whole job instead of three times.
+      # --no-save: keep it in node_modules (gitignored) without writing it into
+      # the tracked root package.json, which would dirty the tree and break the
+      # rebase-before-push below.
       - name: Install deps
-        run: npm install cheerio@1
-
+        run: npm install cheerio@1 --no-save
 
       # ===== repos =====
       - name: Fetch repos
@@ -1370,8 +1372,12 @@ jobs:
           git add data/
           git diff --cached --quiet && echo "No changes" && exit 0
           git commit -m "Add daily data snapshots for ${date}"
+          # --autostash: tolerate any stray non-data working-tree changes (e.g.
+          # an unsaved dep) when rebasing onto whatever the daemon/CI just pushed.
           for i in 1 2 3 4 5; do
-            git pull --rebase origin main && git push && break
+            git pull --rebase --autostash origin main && git push && exit 0
             echo "Push attempt $i failed, retrying in 10s..."
             sleep 10
           done
+          echo "::error::All push attempts failed — data commit not published."
+          exit 1
