@@ -40,3 +40,6 @@ logs_*/
 # Next.js build artifacts
 next/.next/
 next/out/
+
+# git worktrees (isolated workspaces)
+.worktrees/
