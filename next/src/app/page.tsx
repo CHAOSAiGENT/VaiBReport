@@ -1,58 +1,39 @@
 import Link from "next/link";
-import { getDigestPosts, getRepoCount, getDigestCount } from "@/lib/content";
+import {
+  getDigestPosts,
+  getRepoCount,
+  getDigestCount,
+  getTopItems,
+  getItemsBySource,
+  type DisplayItem,
+} from "@/lib/content";
+import { SOURCES } from "@/lib/normalize";
 
-const HERO_REPO = {
-  name: "Neural_Flow v2.4",
-  signal: 98.4,
-  description:
-    "High-density inference clusters with optimized memory allocation",
-  tags: ["CHAOS_DESKTOP_READY", "MIT"],
-};
-
-const CHAOS_RELEASES = [
-  {
-    name: "Stream_Monitor",
-    desc: "Real-time pipeline observability",
-    version: "v3.1",
-  },
-  { name: "Repo_Sync", desc: "Local repo pull aggregation", version: "v2.0" },
-  {
-    name: "Identity_Auth",
-    desc: "Multi-platform token federation",
-    version: "v1.4",
-  },
-];
-
-const PETERS_PICKS = [
-  {
-    name: "Qwen3-Coder",
-    blurb: "Code generation with 128K context",
-    signal: 97.1,
-  },
-  {
-    name: "Llama-Guard-4",
-    blurb: "Safety classifier for LLM outputs",
-    signal: 94.8,
-  },
-  { name: "DeepSite-R1", blurb: "One-click deployable AI apps", signal: 92.3 },
-];
-
-const PLATFORM_SOURCES = [
-  "GitHub",
-  "HuggingFace",
-  "Replicate",
-  "Papers",
-  "npm",
-  "PyPI",
-  "GitLab",
-  "Ollama",
-  "Launches",
-];
+// Link target for an item: its article if enriched, else the source URL.
+function itemHref(it: DisplayItem): string {
+  return it.hasArticle ? `/articles/${it.slug}` : it.url;
+}
 
 export default function HomePage() {
   const recentDigests = getDigestPosts(5);
   const repoCount = getRepoCount();
   const digestCount = getDigestCount();
+
+  const top = getTopItems(7);
+  const hero = top[0]; // today's top-signal item (may be undefined on empty data)
+  const picks = top.slice(1, 4); // next three as "picks"
+  const releases = top.slice(4, 7); // following three as "fresh"
+
+  // platform health = real presence + freshness per source
+  const platforms = SOURCES.map((s) => {
+    const items = getItemsBySource(s);
+    return {
+      source: s,
+      label: items[0]?.platform ?? s,
+      count: items.length,
+      live: items.length > 0,
+    };
+  });
 
   return (
     <div className="px-4 md:px-[var(--spacing-margin-desktop)] max-w-[var(--width-container-max)] mx-auto py-12">
@@ -95,47 +76,45 @@ export default function HomePage() {
       {/* ─── Hero Stream Card + Platform Health ───── */}
       <section className="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-16">
         <div className="lg:col-span-2 bg-surface-container-lowest border border-outline-variant rounded-lg p-6 shadow-[0px_4px_20px_rgba(0,0,0,0.04)] border-l-4 border-l-primary">
-          <div className="flex justify-between items-start mb-4">
-            <div>
-              <div className="flex gap-2 mb-2">
-                {HERO_REPO.tags.map((tag) => (
-                  <span
-                    key={tag}
-                    className={`font-mono text-[10px] px-2 py-0.5 rounded-full uppercase ${
-                      tag.includes("CHAOS")
-                        ? "bg-tertiary-fixed text-on-tertiary-fixed"
-                        : "bg-surface-container-high text-on-surface-variant"
-                    }`}
-                  >
-                    {tag}
-                  </span>
-                ))}
+          {hero ? (
+            <>
+              <div className="flex justify-between items-start mb-4">
+                <div>
+                  <div className="flex gap-2 mb-2">
+                    <span className="font-mono text-[10px] px-2 py-0.5 rounded-full uppercase bg-surface-container-high text-on-surface-variant">
+                      {hero.platform}
+                    </span>
+                    <span className="font-mono text-[10px] px-2 py-0.5 rounded-full uppercase bg-tertiary-fixed text-on-tertiary-fixed">
+                      {hero.metricValue.toLocaleString()} {hero.metricLabel}
+                    </span>
+                  </div>
+                  <h2 className="font-display text-2xl font-bold text-primary">
+                    <Link
+                      href={itemHref(hero)}
+                      className="hover:text-secondary transition-colors"
+                    >
+                      {hero.name}
+                    </Link>
+                  </h2>
+                  <p className="font-body text-sm text-on-surface-variant mt-1 line-clamp-2">
+                    {hero.description}
+                  </p>
+                </div>
+                <span className="font-mono text-3xl font-bold text-primary">
+                  {hero.signal}
+                </span>
               </div>
-              <h2 className="font-display text-2xl font-bold text-primary">
-                {HERO_REPO.name}
-              </h2>
-              <p className="font-body text-sm text-on-surface-variant mt-1">
-                {HERO_REPO.description}
-              </p>
-            </div>
-            <span className="font-mono text-3xl font-bold text-primary">
-              {HERO_REPO.signal}
-            </span>
-          </div>
-          <div className="h-40 bg-surface-container rounded-lg flex items-center justify-center">
-            <span className="font-mono text-xs text-slate-gray uppercase">
-              VISUALIZATION_PLACEHOLDER
-            </span>
-          </div>
-          <div className="flex flex-wrap gap-4 mt-4 font-mono text-[10px] text-slate-gray uppercase">
-            <span>VAIBREPORT // PIPELINE_OK</span>
-            <span className="text-tertiary-fixed-dim flex items-center gap-1">
-              <span className="w-1.5 h-1.5 rounded-full bg-tertiary-fixed-dim" />{" "}
-              STATUS: LIVE
-            </span>
-            <span>SOURCES: {PLATFORM_SOURCES.length}</span>
-            <span>REPOS: {repoCount.toLocaleString()}</span>
-          </div>
+              <div className="flex flex-wrap gap-4 mt-4 font-mono text-[10px] text-slate-gray uppercase">
+                <span>VAIBREPORT // PIPELINE_OK</span>
+                <span>SOURCES: {platforms.filter((p) => p.live).length}</span>
+                <span>REPOS: {repoCount.toLocaleString()}</span>
+              </div>
+            </>
+          ) : (
+            <p className="font-mono text-xs text-slate-gray uppercase">
+              AWAITING_TODAY_SIGNAL
+            </p>
+          )}
         </div>
 
         <div className="flex flex-col gap-6">
@@ -144,11 +123,16 @@ export default function HomePage() {
               PLATFORM_HEALTH
             </p>
             <div className="grid grid-cols-3 gap-2">
-              {PLATFORM_SOURCES.map((src) => (
-                <div key={src} className="flex flex-col items-center gap-1 p-2">
-                  <span className="w-2 h-2 rounded-full bg-tertiary-fixed-dim" />
+              {platforms.map((p) => (
+                <div
+                  key={p.source}
+                  className="flex flex-col items-center gap-1 p-2"
+                >
+                  <span
+                    className={`w-2 h-2 rounded-full ${p.live ? "bg-tertiary-fixed-dim" : "bg-muted-border"}`}
+                  />
                   <span className="font-mono text-[9px] text-slate-gray uppercase">
-                    {src}
+                    {p.label}
                   </span>
                 </div>
               ))}
@@ -189,23 +173,24 @@ export default function HomePage() {
           </Link>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          {CHAOS_RELEASES.map((release) => (
-            <div
-              key={release.name}
-              className="bg-surface-container-lowest border border-outline-variant rounded-lg p-5"
+          {releases.map((r) => (
+            <Link
+              key={r.slug}
+              href={itemHref(r)}
+              className="bg-surface-container-lowest border border-outline-variant rounded-lg p-5 hover:border-primary transition-colors"
             >
               <div className="flex justify-between items-start mb-2">
-                <h3 className="font-mono text-sm font-bold text-primary uppercase">
-                  {release.name}
+                <h3 className="font-mono text-sm font-bold text-primary uppercase truncate">
+                  {r.name}
                 </h3>
                 <span className="font-mono text-[10px] text-slate-gray">
-                  {release.version}
+                  {r.platform}
                 </span>
               </div>
-              <p className="font-body text-sm text-on-surface-variant">
-                {release.desc}
+              <p className="font-body text-sm text-on-surface-variant line-clamp-2">
+                {r.description}
               </p>
-            </div>
+            </Link>
           ))}
         </div>
       </section>
@@ -216,26 +201,27 @@ export default function HomePage() {
           PETER&apos;S PICKS // EDITOR_CURATED
         </p>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          {PETERS_PICKS.map((pick) => (
-            <div
-              key={pick.name}
-              className="bg-surface-container-lowest border border-outline-variant rounded-lg p-5 flex flex-col"
+          {picks.map((pick) => (
+            <Link
+              key={pick.slug}
+              href={itemHref(pick)}
+              className="bg-surface-container-lowest border border-outline-variant rounded-lg p-5 flex flex-col hover:border-primary transition-colors"
             >
               <div className="flex justify-between items-start mb-2">
-                <h3 className="font-display text-xl font-bold text-primary">
+                <h3 className="font-display text-xl font-bold text-primary truncate">
                   {pick.name}
                 </h3>
                 <span className="font-mono text-[10px] bg-secondary text-on-secondary px-2 py-0.5 rounded-full uppercase">
                   PICK
                 </span>
               </div>
-              <p className="font-body text-sm text-on-surface-variant flex-1">
-                {pick.blurb}
+              <p className="font-body text-sm text-on-surface-variant flex-1 line-clamp-2">
+                {pick.description}
               </p>
               <p className="font-mono text-sm text-primary mt-3">
                 SIGNAL: {pick.signal}
               </p>
-            </div>
+            </Link>
           ))}
         </div>
       </section>
