@@ -1,5 +1,6 @@
 import { SponsorCard } from "@/components/common/sponsor-card";
 import { SubscribeStrip } from "@/components/common/subscribe-strip";
+import { getItemsBySource } from "@/lib/content";
 
 const PLATFORMS: Record<
   string,
@@ -61,6 +62,19 @@ const PLATFORMS: Record<
   },
 };
 
+// platform page id → snapshot source key
+const SOURCE_FOR: Record<string, string> = {
+  github: "repos",
+  huggingface: "hf",
+  replicate: "replicate",
+  paperswithcode: "paperswithcode",
+  npm: "npm-pypi",
+  pypi: "npm-pypi",
+  gitlab: "gitlab",
+  ollama: "ollama",
+  launches: "launches",
+};
+
 const PLATFORM_IDS = Object.keys(PLATFORMS);
 
 export async function generateStaticParams() {
@@ -99,11 +113,24 @@ export default async function PlatformPage({
     );
   }
 
+  const items = getItemsBySource(SOURCE_FOR[id] ?? id).filter((it) =>
+    id === "npm"
+      ? it.source === "npm"
+      : id === "pypi"
+        ? it.source === "pypi"
+        : true,
+  );
+  const avgSignal = items.length
+    ? Math.round(items.reduce((a, it) => a + it.signal, 0) / items.length)
+    : 0;
   const metrics = [
-    { label: "REPOS_TRACKED", value: "--" },
-    { label: "DAILY_NEW", value: "--" },
-    { label: "AVG_SIGNAL", value: "--" },
-    { label: "UPTIME", value: "99.9%" },
+    {
+      label: "ITEMS_TRACKED",
+      value: items.length ? items.length.toLocaleString() : "--",
+    },
+    { label: "TOP_SIGNAL", value: items[0] ? String(items[0].signal) : "--" },
+    { label: "AVG_SIGNAL", value: items.length ? String(avgSignal) : "--" },
+    { label: "STATUS", value: items.length ? "LIVE" : "IDLE" },
   ];
 
   return (
@@ -182,6 +209,36 @@ export default async function PlatformPage({
                 <span className="font-mono text-xs text-slate-gray">0.0%</span>
               </div>
             </div>
+          </div>
+
+          <div className="bg-surface-container-lowest border border-outline-variant rounded-lg p-6 mt-8">
+            <p className="font-mono text-sm font-bold uppercase tracking-widest text-slate-gray mb-3">
+              TOP_ON_{id.toUpperCase()}
+            </p>
+            {items.length === 0 ? (
+              <p className="font-mono text-xs text-slate-gray uppercase">
+                NO_DATA_TODAY
+              </p>
+            ) : (
+              <ul className="space-y-2">
+                {items.slice(0, 10).map((it) => (
+                  <li
+                    key={it.slug}
+                    className="flex justify-between items-center gap-3 py-1 border-b border-outline-variant last:border-none"
+                  >
+                    <a
+                      href={it.hasArticle ? `/articles/${it.slug}` : it.url}
+                      className="font-body text-sm text-primary hover:text-secondary truncate"
+                    >
+                      {it.name}
+                    </a>
+                    <span className="font-mono text-[10px] text-slate-gray whitespace-nowrap">
+                      {it.metricValue.toLocaleString()} {it.metricLabel}
+                    </span>
+                  </li>
+                ))}
+              </ul>
+            )}
           </div>
         </div>
 
