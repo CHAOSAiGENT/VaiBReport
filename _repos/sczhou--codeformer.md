@@ -8,11 +8,11 @@ category: "HuggingFace Spaces"
 language: ""
 stars: 0
 downloads: 0
-likes: 2392
+likes: 2393
 og_image: "https://huggingface.co/api/spaces/sczhou/CodeFormer/screenshot"
 first_featured: "2026-03-29"
-last_featured: "2026-06-13"
-times_featured: 6
+last_featured: "2026-06-27"
+times_featured: 7
 streak: 0
 appearances: 0
 star_velocity: 0

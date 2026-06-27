@@ -7,12 +7,12 @@ description: "OpenTelemetry instrumentation for the `openai` OpenAI client libra
 category: "npm Packages"
 language: ""
 stars: 0
-downloads: 4078090
+downloads: 4280090
 likes: 0
 og_image: ""
 first_featured: "2026-03-25"
-last_featured: "2026-06-13"
-times_featured: 6
+last_featured: "2026-06-27"
+times_featured: 7
 streak: 0
 appearances: 0
 star_velocity: 0

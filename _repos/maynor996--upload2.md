@@ -7,12 +7,12 @@ description: "upload2"
 category: "HuggingFace Datasets"
 language: ""
 stars: 0
-downloads: 722879
+downloads: 485845
 likes: 0
 og_image: ""
 first_featured: "2026-03-30"
-last_featured: "2026-06-13"
-times_featured: 6
+last_featured: "2026-06-27"
+times_featured: 7
 streak: 0
 appearances: 0
 star_velocity: 0

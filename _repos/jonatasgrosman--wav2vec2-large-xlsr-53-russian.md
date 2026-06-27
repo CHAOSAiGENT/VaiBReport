@@ -7,12 +7,12 @@ description: "wav2vec2-large-xlsr-53-russian"
 category: "HuggingFace Models"
 language: ""
 stars: 0
-downloads: 2486564
+downloads: 3191676
 likes: 75
 og_image: ""
 first_featured: "2026-03-26"
-last_featured: "2026-06-13"
-times_featured: 6
+last_featured: "2026-06-27"
+times_featured: 7
 streak: 0
 appearances: 0
 star_velocity: 0

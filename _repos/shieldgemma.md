@@ -11,13 +11,13 @@ downloads: 0
 likes: 0
 og_image: ""
 first_featured: "2026-04-18"
-last_featured: "2026-06-13"
-times_featured: 5
+last_featured: "2026-06-27"
+times_featured: 6
 streak: 0
 appearances: 0
 star_velocity: 0
-tags: [ollama, 2b, 9b, 27b, 849.6K
-                 Pulls, 849.6K, Pulls, 49
+tags: [ollama, 2b, 9b, 27b, 881K
+                 Pulls, 881K, Pulls, 49
                  Tags, 49]
 icp_tags: ["non-technical", "pre-mvp", "entreprecurious"]
 replaces: []

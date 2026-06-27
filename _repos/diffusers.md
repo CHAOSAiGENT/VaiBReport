@@ -7,12 +7,12 @@ description: "State-of-the-art diffusion in PyTorch and JAX."
 category: "PyPI Packages"
 language: ""
 stars: 0
-downloads: 1673656
+downloads: 1592180
 likes: 0
 og_image: ""
 first_featured: "2026-03-27"
-last_featured: "2026-06-13"
-times_featured: 6
+last_featured: "2026-06-27"
+times_featured: 7
 streak: 0
 appearances: 0
 star_velocity: 0

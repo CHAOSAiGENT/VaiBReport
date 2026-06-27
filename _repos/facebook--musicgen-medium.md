@@ -7,12 +7,12 @@ description: "musicgen-medium"
 category: "HuggingFace Models"
 language: ""
 stars: 0
-downloads: 1468160
-likes: 162
+downloads: 1831551
+likes: 163
 og_image: ""
 first_featured: "2026-04-21"
-last_featured: "2026-06-03"
-times_featured: 4
+last_featured: "2026-06-27"
+times_featured: 5
 streak: 0
 appearances: 0
 star_velocity: 0

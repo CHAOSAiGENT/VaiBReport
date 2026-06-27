@@ -7,12 +7,12 @@ description: "AWS Generative AI CDK Constructs is a library for well-architected
 category: "npm Packages"
 language: ""
 stars: 0
-downloads: 14485
+downloads: 12217
 likes: 0
 og_image: ""
 first_featured: "2026-04-17"
-last_featured: "2026-06-13"
-times_featured: 5
+last_featured: "2026-06-27"
+times_featured: 6
 streak: 0
 appearances: 0
 star_velocity: 0

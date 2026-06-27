@@ -29,8 +29,8 @@
       "times_featured": 8
     },
     "makeplane/plane": {
-      "last_featured": "2026-04-18",
-      "times_featured": 2
+      "last_featured": "2026-06-27",
+      "times_featured": 3
     },
     "PostHog/posthog": {
       "last_featured": "2026-04-23",
@@ -209,8 +209,8 @@
       "last_featured": "2026-03-24"
     },
     "build-canaries/nevergreen": {
-      "times_featured": 3,
-      "last_featured": "2026-04-10"
+      "times_featured": 4,
+      "last_featured": "2026-06-27"
     },
     "argus-sight/refund-swatter-lite": {
       "times_featured": 8,
@@ -369,8 +369,8 @@
       "last_featured": "2026-04-16"
     },
     "SimplifyJobs/Summer2026-Internships": {
-      "times_featured": 1,
-      "last_featured": "2026-03-24"
+      "times_featured": 2,
+      "last_featured": "2026-06-27"
     },
     "vllm-project/vllm-omni": {
       "times_featured": 7,
@@ -385,8 +385,8 @@
       "last_featured": "2026-04-17"
     },
     "directus/directus": {
-      "times_featured": 2,
-      "last_featured": "2026-04-17"
+      "times_featured": 3,
+      "last_featured": "2026-06-27"
     },
     "k3s-io/k3s": {
       "times_featured": 2,
@@ -453,8 +453,8 @@
       "last_featured": "2026-06-22"
     },
     "nestjs/nest": {
-      "times_featured": 1,
-      "last_featured": "2026-03-26"
+      "times_featured": 2,
+      "last_featured": "2026-06-27"
     },
     "ossrs/srs": {
       "times_featured": 1,
@@ -565,8 +565,8 @@
       "last_featured": "2026-06-24"
     },
     "SandAI-org/MAGI-1": {
-      "times_featured": 6,
-      "last_featured": "2026-06-10"
+      "times_featured": 7,
+      "last_featured": "2026-06-27"
     },
     "Hunyuan-PromptEnhancer/PromptEnhancer": {
       "times_featured": 7,
@@ -721,8 +721,8 @@
       "last_featured": "2026-03-30"
     },
     "jesseduffield/lazygit": {
-      "times_featured": 1,
-      "last_featured": "2026-04-09"
+      "times_featured": 2,
+      "last_featured": "2026-06-27"
     },
     "traefik/traefik": {
       "times_featured": 2,
@@ -913,12 +913,12 @@
       "last_featured": "2026-04-17"
     },
     "thisismydesign/next-nest": {
-      "times_featured": 5,
-      "last_featured": "2026-06-13"
+      "times_featured": 6,
+      "last_featured": "2026-06-27"
     },
     "mantinedev/next-pages-template": {
-      "times_featured": 5,
-      "last_featured": "2026-06-13"
+      "times_featured": 6,
+      "last_featured": "2026-06-27"
     },
     "pjborowiecki/saasyland.com": {
       "times_featured": 5,
@@ -937,8 +937,8 @@
       "last_featured": "2026-04-18"
     },
     "SamurAIGPT/Generative-Media-Skills": {
-      "times_featured": 5,
-      "last_featured": "2026-06-13"
+      "times_featured": 6,
+      "last_featured": "2026-06-27"
     },
     "Tencent-Hunyuan/HunyuanImage-3.0": {
       "times_featured": 5,
@@ -1253,8 +1253,8 @@
       "last_featured": "2026-04-28"
     },
     "IceWhaleTech/CasaOS": {
-      "times_featured": 1,
-      "last_featured": "2026-04-29"
+      "times_featured": 2,
+      "last_featured": "2026-06-27"
     },
     "microsoft/playwright": {
       "times_featured": 1,
@@ -1327,6 +1327,70 @@
     "XCO-Agency/Laravel-SAAS-Starter": {
       "times_featured": 4,
       "last_featured": "2026-06-15"
+    },
+    "zerostaticthemes/square-ui": {
+      "times_featured": 1,
+      "last_featured": "2026-06-27"
+    },
+    "Anil-matcha/awesome-generative-ai-apps": {
+      "times_featured": 1,
+      "last_featured": "2026-06-27"
+    },
+    "nextacular/nextacular": {
+      "times_featured": 1,
+      "last_featured": "2026-06-27"
+    },
+    "supabase-community/nextjs-openai-doc-search": {
+      "times_featured": 1,
+      "last_featured": "2026-06-27"
+    },
+    "kadevin/ilab-gpt-conjure": {
+      "times_featured": 1,
+      "last_featured": "2026-06-27"
+    },
+    "velobase/velobase-harness": {
+      "times_featured": 1,
+      "last_featured": "2026-06-27"
+    },
+    "myapihq/myapi": {
+      "times_featured": 1,
+      "last_featured": "2026-06-27"
+    },
+    "YouMind-OpenLab/awesome-seedance-2-prompts": {
+      "times_featured": 1,
+      "last_featured": "2026-06-27"
+    },
+    "lissy93/domain-locker": {
+      "times_featured": 1,
+      "last_featured": "2026-06-27"
+    },
+    "dodopayments/billingsdk": {
+      "times_featured": 1,
+      "last_featured": "2026-06-27"
+    },
+    "customermates/customermates": {
+      "times_featured": 1,
+      "last_featured": "2026-06-27"
+    },
+    "slymnoyann/hey-1": {
+      "times_featured": 1,
+      "last_featured": "2026-06-27"
+    },
+    "waooAI/waoowaoo": {
+      "times_featured": 1,
+      "last_featured": "2026-06-27"
+    },
+    "nexu-io/html-video": {
+      "times_featured": 1,
+      "last_featured": "2026-06-27"
+    },
+    "simplex-chat/simplex-chat": {
+      "times_featured": 1,
+      "last_featured": "2026-06-27"
+    },
+    "ripienaar/free-for-dev": {
+      "times_featured": 1,
+      "last_featured": "2026-06-27"
     }
   }
 }
