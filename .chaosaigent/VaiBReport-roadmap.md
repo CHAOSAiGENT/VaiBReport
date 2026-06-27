@@ -23,7 +23,7 @@ updated: 2026-06-05
 ## In Progress
 
 - HTTPS enforcement on report.vaibos.com — waiting on GitHub's Let's Encrypt cert; background poller `btfu5uk4z` will enable Enforce HTTPS automatically when it issues.
-- **Content Engine Phase #2 — enrichment worker (#4):** TheStudio worker generating articles (Ollama draft → local editor all, cloud editor for featured) + Playwright screenshots → R2, voice referenced live from JPW26 canon. Spec written (`docs/superpowers/specs/2026-06-26-vaibreport-content-engine-design.md` §4); plan not yet written. Fills the `_articles/`+image slots Phase #1 already reads.
+- **Content Engine Phase #2 — enrichment worker (#4):** TheStudio worker generating articles (Ollama draft → local editor all, cloud editor for featured) + Playwright screenshots → R2, voice referenced live from JPW26 canon. Spec written (`docs/superpowers/specs/2026-06-26-vaibreport-content-engine-design.md` §4); plan not yet written. Fills the `_articles/`+image slots Phase #1 already reads. **To be built ON TheStudio** — cold-start carryover doc: `docs/superpowers/2026-06-26-phase2-thestudio-handoff.md` (read it first; resolves O-1..O-5 + env prereqs + the git-pull-vs-Tailscale voice-canon blocker).
 
 ## To Do
 
