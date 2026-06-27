@@ -54,6 +54,18 @@ const str = (v: unknown): string => (typeof v === "string" ? v : "");
 const tags = (v: unknown): string[] =>
   Array.isArray(v) ? (v as string[]) : [];
 
+// launches items carry the real platform in `_source` (`_platform` is always
+// the literal "launches"); map it to a human label for display badges.
+const LAUNCH_LABELS: Record<string, string> = {
+  hackernews_showhn: "Hacker News",
+  producthunt: "Product Hunt",
+  devhunt: "DevHunt",
+  betalist: "BetaList",
+  uneed: "Uneed",
+};
+const launchLabel = (source: unknown): string =>
+  LAUNCH_LABELS[str(source)] || "Launches";
+
 const adapters: Record<string, Adapter> = {
   repos: (s) =>
     arr(s.repos).map((r) =>
@@ -212,7 +224,7 @@ const adapters: Record<string, Adapter> = {
         url: str(l.url),
         description: str(l.description),
         source: "launches",
-        platform: str(l._platform) || "launches",
+        platform: launchLabel(l._source),
         metricLabel: "upvotes",
         metricValue: toNumber(l.upvotes),
         date: str(l.launch_date),

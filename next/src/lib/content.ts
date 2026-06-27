@@ -237,7 +237,11 @@ function toDisplay(items: NormalizedItem[]): DisplayItem[] {
 
 export function getItemsBySource(source: string): DisplayItem[] {
   const snap = getLatestDataSnapshot(source);
-  return snap ? toDisplay(rankBySource(normalizeSnapshot(source, snap))) : [];
+  if (!snap) return [];
+  // Sort by signal desc so callers can treat items[0] as the top item and
+  // slice(0, n) as the top n (snapshots are not all pre-sorted, e.g. launches).
+  const ranked = rankBySource(normalizeSnapshot(source, snap));
+  return toDisplay(topItems(ranked, ranked.length));
 }
 
 export function getAllItems(): DisplayItem[] {

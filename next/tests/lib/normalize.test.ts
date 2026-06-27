@@ -65,3 +65,17 @@ test("unknown source and empty/missing arrays return []", () => {
   assert.deepEqual(normalizeSnapshot("paperswithcode", { papers: [] }), []);
   assert.deepEqual(normalizeSnapshot("gitlab", {}), []);
 });
+
+test("launches adapter labels platform from _source, not _platform", () => {
+  const snap = {
+    launches: [
+      { id: "a", name: "A", url: "ua", _platform: "launches", _source: "producthunt", upvotes: 5 },
+      { id: "b", name: "B", url: "ub", _platform: "launches", _source: "hackernews_showhn", upvotes: 9 },
+      { id: "c", name: "C", url: "uc", _platform: "launches", upvotes: 1 },
+    ],
+  };
+  const items = normalizeSnapshot("launches", snap);
+  assert.equal(items.find((i) => i.id === "a").platform, "Product Hunt");
+  assert.equal(items.find((i) => i.id === "b").platform, "Hacker News");
+  assert.equal(items.find((i) => i.id === "c").platform, "Launches");
+});
