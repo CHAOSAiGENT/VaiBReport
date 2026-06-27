@@ -1,6 +1,14 @@
 import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
+import {
+  normalizeSnapshot,
+  rankBySource,
+  topItems,
+  SOURCES,
+  type NormalizedItem,
+} from "./normalize";
+import { itemSlug } from "./slug";
 
 /**
  * Path to the Jekyll content root (_posts, _repos, data).
@@ -165,4 +173,81 @@ export function getDigestCount(): number {
   const postsDir = path.join(CONTENT_ROOT, "_posts");
   if (!fs.existsSync(postsDir)) return 0;
   return fs.readdirSync(postsDir).filter((f) => f.endsWith(".md")).length;
+}
+
+// ─── Articles (Plan 2 enrichment output; optional/graceful) ───
+
+export interface Article {
+  slug: string;
+  title: string;
+  source: string;
+  itemId: string;
+  imageUrls: string[];
+  newsletterCut: string;
+  content: string;
+}
+
+// Read one enrichment article if it exists; null otherwise. _articles/<source>/<slug>.md
+export function getArticleBySlug(slug: string): Article | null {
+  const sep = slug.indexOf("__");
+  if (sep < 0) return null;
+  const source = slug.slice(0, sep);
+  const filePath = path.join(CONTENT_ROOT, "_articles", source, `${slug}.md`);
+  if (!fs.existsSync(filePath)) return null;
+  const raw = fs.readFileSync(filePath, "utf-8");
+  const { data, content } = matter(raw);
+  return {
+    slug,
+    title: data.title ?? slug,
+    source: data.source ?? source,
+    itemId: data.item_id ?? "",
+    imageUrls: data.image_urls ?? [],
+    newsletterCut: data.newsletter_cut ?? "",
+    content,
+  };
+}
+
+export function getAllArticleSlugs(): string[] {
+  const dir = path.join(CONTENT_ROOT, "_articles");
+  if (!fs.existsSync(dir)) return [];
+  const slugs: string[] = [];
+  for (const source of fs.readdirSync(dir)) {
+    const sub = path.join(dir, source);
+    if (!fs.statSync(sub).isDirectory()) continue;
+    for (const f of fs.readdirSync(sub)) {
+      if (f.endsWith(".md")) slugs.push(f.replace(/\.md$/, ""));
+    }
+  }
+  return slugs;
+}
+
+// ─── Items (live snapshots) joined to slug + article presence ───
+
+export interface DisplayItem extends NormalizedItem {
+  slug: string;
+  hasArticle: boolean;
+}
+
+function toDisplay(items: NormalizedItem[]): DisplayItem[] {
+  return items.map((it) => {
+    const slug = itemSlug(it.source, it.id);
+    return { ...it, slug, hasArticle: getArticleBySlug(slug) !== null };
+  });
+}
+
+export function getItemsBySource(source: string): DisplayItem[] {
+  const snap = getLatestDataSnapshot(source);
+  return snap ? toDisplay(rankBySource(normalizeSnapshot(source, snap))) : [];
+}
+
+export function getAllItems(): DisplayItem[] {
+  const all = SOURCES.flatMap((s) => {
+    const snap = getLatestDataSnapshot(s);
+    return snap ? normalizeSnapshot(s, snap) : [];
+  });
+  return toDisplay(rankBySource(all));
+}
+
+export function getTopItems(limit = 12): DisplayItem[] {
+  return topItems(getAllItems(), limit) as DisplayItem[];
 }
