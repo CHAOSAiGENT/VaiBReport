@@ -18,14 +18,16 @@ updated: 2026-06-05
 - Verified the automated XSS finding on `markdown.ts` is a false positive (remark-html sanitizes by default).
 - 2026-06-26: Fixed the GitHub storage "ding" — purged 30 accumulated `github-pages` artifacts (399 MB → 0) and added `retention-days: 1` to the Pages deploy so build blobs stop piling against the account's 500 MB shared quota. (Public repo ⇒ Actions _minutes_ were never the cost; storage was.)
 - 2026-06-26: Consolidated 9 daily `fetch-*.yml` workflows into one `fetch-all.yml` (one job, 9 continue-on-error steps, one commit/day, one push race). Fetch JS preserved verbatim; cheerio installed once `--no-save`; `pull --rebase --autostash` + loud `exit 1` on push failure. Bumped to checkout@v6 / setup-node@v5 / node 24. Verified green end-to-end via workflow_dispatch (run 28270724211).
+- 2026-06-26: **Real home (Content Engine Phase #1) shipped.** Home + platform pages now read live daily snapshots instead of hardcoded Stitch mock data: pure `normalize.ts` (8 source adapters + per-source percentile `signal`), `slug.ts` (stable item slugs), `content.ts` readers with an optional `_articles/` join, and an `articles/[slug]` route sitting empty for Phase #2. Native `node --test` suite (10 tests, zero new deps). Spec + plan in `docs/superpowers/{specs,plans}/2026-06-26-*`. Hero/picks/releases/platform-health verified live (signal 100, 6 live sources, real Hacker News/Product Hunt labels).
 
 ## In Progress
 
 - HTTPS enforcement on report.vaibos.com — waiting on GitHub's Let's Encrypt cert; background poller `btfu5uk4z` will enable Enforce HTTPS automatically when it issues.
+- **Content Engine Phase #2 — enrichment worker (#4):** TheStudio worker generating articles (Ollama draft → local editor all, cloud editor for featured) + Playwright screenshots → R2, voice referenced live from JPW26 canon. Spec written (`docs/superpowers/specs/2026-06-26-vaibreport-content-engine-design.md` §4); plan not yet written. Fills the `_articles/`+image slots Phase #1 already reads.
 
 ## To Do
 
-- Address redesign content gaps: compare-to backfill (hero cards / Replaces / Similar render nothing), feature-flag-with-empty-data heroes.
+- Address remaining redesign content gaps: compare-to backfill on repo pages (Replaces / Similar render nothing). (The mock-data home heroes + empty-data heroes were resolved by Content Engine Phase #1 on 2026-06-26.)
 - Add `.gitattributes` EOL normalization to stop CRLF churn and spurious merge conflicts.
 - Bump remaining 6 workflows from `@v4` to current action versions (capture-screenshots, capture-tool-screenshots, generate-digest, parse-submission, research-report, tool-page-generate). Not urgent — `@v4` runs on Node-20 and still works; only `@v3`/Node-16 was the hard cutover, and none remain. fetch-all + deploy-site are already current.
 - Consider pausing/locking the external auto-sync daemon during multi-commit work.
