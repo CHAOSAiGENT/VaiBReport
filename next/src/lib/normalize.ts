@@ -243,3 +243,31 @@ export function normalizeSnapshot(
     (it) => it.id && it.url,
   );
 }
+
+// Percentile rank (0..100) of each item within its own source, by metricValue.
+// "Signal" is cross-source comparable: 100 = the top item in its category.
+export function rankBySource(items: NormalizedItem[]): NormalizedItem[] {
+  const groups = new Map<string, NormalizedItem[]>();
+  for (const it of items) {
+    const g = groups.get(it.source);
+    if (g) g.push(it);
+    else groups.set(it.source, [it]);
+  }
+  for (const group of groups.values()) {
+    const sorted = [...group].sort((a, b) => a.metricValue - b.metricValue);
+    const n = sorted.length;
+    sorted.forEach((it, i) => {
+      it.signal = n <= 1 ? 100 : Math.round((i / (n - 1)) * 100);
+    });
+  }
+  return items;
+}
+
+export function topItems(
+  items: NormalizedItem[],
+  limit: number,
+): NormalizedItem[] {
+  return [...items]
+    .sort((a, b) => b.signal - a.signal || b.metricValue - a.metricValue)
+    .slice(0, limit);
+}
