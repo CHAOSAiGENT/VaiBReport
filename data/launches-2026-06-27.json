@@ -1,0 +1,281 @@
+{
+  "generated_at": "2026-06-27T14:24:12.248Z",
+  "source": "launches",
+  "counts": {
+    "hackernews_showhn": 18,
+    "producthunt": 9,
+    "total": 27
+  },
+  "launches": [
+    {
+      "id": "showhn-48693912",
+      "name": "Hacker News on a train station-style flip board",
+      "url": "https://popflame.quickish.space/hn-flipboard/",
+      "description": "Show HN: Hacker News on a train station-style flip board",
+      "upvotes": 88,
+      "launch_date": "2026-06-27",
+      "platform_url": "https://news.ycombinator.com/item?id=48693912",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48688700",
+      "name": "Smart model routing directly in Claude, Codex and Cursor",
+      "url": "https://github.com/workweave/router",
+      "description": "Show HN: Smart model routing directly in Claude, Codex and Cursor",
+      "upvotes": 185,
+      "launch_date": "2026-06-27",
+      "platform_url": "https://news.ycombinator.com/item?id=48688700",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48662988",
+      "name": "DBOSify – Drop-in Temporal replacement built on Postgres",
+      "url": "https://github.com/dbos-inc/dbosify-py",
+      "description": "Show HN: DBOSify – Drop-in Temporal replacement built on Postgres",
+      "upvotes": 69,
+      "launch_date": "2026-06-27",
+      "platform_url": "https://news.ycombinator.com/item?id=48662988",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48673527",
+      "name": "Autofit2 – End-to-end pipeline for multilingual text classification",
+      "url": "https://github.com/neospe/autofit2",
+      "description": "Show HN: Autofit2 – End-to-end pipeline for multilingual text classification",
+      "upvotes": 24,
+      "launch_date": "2026-06-27",
+      "platform_url": "https://news.ycombinator.com/item?id=48673527",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48656986",
+      "name": "WebBase-III – dBASE III rebuilt in the browser with its own interpreter",
+      "url": "https://github.com/DDecoene/WebBaseIII",
+      "description": "Show HN: WebBase-III – dBASE III rebuilt in the browser with its own interpreter",
+      "upvotes": 92,
+      "launch_date": "2026-06-27",
+      "platform_url": "https://news.ycombinator.com/item?id=48656986",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48673671",
+      "name": "I made Google Trends for Hacker News by indexing 18 years of comments",
+      "url": "https://hackernewstrends.com",
+      "description": "Show HN: I made Google Trends for Hacker News by indexing 18 years of comments",
+      "upvotes": 788,
+      "launch_date": "2026-06-27",
+      "platform_url": "https://news.ycombinator.com/item?id=48673671",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48644463",
+      "name": "Overfitted a 900KB Transformer to Compress a 100MB CSV into 7MB",
+      "url": "https://news.ycombinator.com/item?id=48644463",
+      "description": "Show HN: Overfitted a 900KB Transformer to Compress a 100MB CSV into 7MB",
+      "upvotes": 105,
+      "launch_date": "2026-06-27",
+      "platform_url": "https://news.ycombinator.com/item?id=48644463",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48671886",
+      "name": "Turn native language audio into flashcards and shadowing practice",
+      "url": "https://lingochunk.com/try",
+      "description": "Show HN: Turn native language audio into flashcards and shadowing practice",
+      "upvotes": 90,
+      "launch_date": "2026-06-27",
+      "platform_url": "https://news.ycombinator.com/item?id=48671886",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48675435",
+      "name": "OpenKnowledge – open source AI-first alternative to Obsidian/Notion",
+      "url": "https://github.com/inkeep/open-knowledge",
+      "description": "Show HN: OpenKnowledge – open source AI-first alternative to Obsidian/Notion",
+      "upvotes": 370,
+      "launch_date": "2026-06-27",
+      "platform_url": "https://news.ycombinator.com/item?id=48675435",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48667807",
+      "name": "Bible as RAG Database",
+      "url": "https://www.crosscanon.com/",
+      "description": "Show HN: Bible as RAG Database",
+      "upvotes": 155,
+      "launch_date": "2026-06-27",
+      "platform_url": "https://news.ycombinator.com/item?id=48667807",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48660267",
+      "name": "Nub – A Bun-like all-in-one toolkit for Node.js",
+      "url": "https://github.com/nubjs/nub",
+      "description": "Show HN: Nub – A Bun-like all-in-one toolkit for Node.js",
+      "upvotes": 272,
+      "launch_date": "2026-06-27",
+      "platform_url": "https://news.ycombinator.com/item?id=48660267",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48649697",
+      "name": "Wordit – Change One Letter, Keep the Chain Going",
+      "url": "https://victorribeiro.com/wordit/",
+      "description": "Show HN: Wordit – Change One Letter, Keep the Chain Going",
+      "upvotes": 43,
+      "launch_date": "2026-06-27",
+      "platform_url": "https://news.ycombinator.com/item?id=48649697",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48646165",
+      "name": "peerd – AI agent harness that runs entirely in your browser",
+      "url": "https://github.com/NotASithLord/peerd",
+      "description": "Show HN: peerd – AI agent harness that runs entirely in your browser",
+      "upvotes": 73,
+      "launch_date": "2026-06-27",
+      "platform_url": "https://news.ycombinator.com/item?id=48646165",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48646239",
+      "name": "Nimic – Pure Python as a systems language with AOT compilation",
+      "url": "https://github.com/dima-quant/nimic",
+      "description": "Show HN: Nimic – Pure Python as a systems language with AOT compilation",
+      "upvotes": 42,
+      "launch_date": "2026-06-27",
+      "platform_url": "https://news.ycombinator.com/item?id=48646239",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48659483",
+      "name": "LookAway, a Mac break reminder that knows when not to interrupt",
+      "url": "https://lookaway.com",
+      "description": "Show HN: LookAway, a Mac break reminder that knows when not to interrupt",
+      "upvotes": 72,
+      "launch_date": "2026-06-27",
+      "platform_url": "https://news.ycombinator.com/item?id=48659483",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48645437",
+      "name": "TikZ Editor – WYSIWYG editor for figures in LaTeX",
+      "url": "https://tikz.dev/editor/",
+      "description": "Show HN: TikZ Editor – WYSIWYG editor for figures in LaTeX",
+      "upvotes": 447,
+      "launch_date": "2026-06-27",
+      "platform_url": "https://news.ycombinator.com/item?id=48645437",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48672389",
+      "name": "Secs-man, a secrets manager you can (not) rely on",
+      "url": "https://github.com/Fran314/secrets-manager-rs",
+      "description": "Show HN: Secs-man, a secrets manager you can (not) rely on",
+      "upvotes": 30,
+      "launch_date": "2026-06-27",
+      "platform_url": "https://news.ycombinator.com/item?id=48672389",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48689891",
+      "name": "I built a hardware quantum RNG and wired it into a Magic 8-Ball",
+      "url": "https://dnhkng.github.io/posts/building-the-beam-universe-splitter/",
+      "description": "Show HN: I built a hardware quantum RNG and wired it into a Magic 8-Ball",
+      "upvotes": 10,
+      "launch_date": "2026-06-27",
+      "platform_url": "https://news.ycombinator.com/item?id=48689891",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "ph-1174693",
+      "name": "QApilot's CoWork",
+      "description": "3x Mobile Automation. Same QE Team.",
+      "url": "https://www.producthunt.com/r/NSPNNAO4TQVQUD?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 165,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1181124",
+      "name": "Folio AI",
+      "description": "Claude for PowerPoint, on steroids",
+      "url": "https://www.producthunt.com/r/334A7LA6L6NHLW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 160,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1173375",
+      "name": "SquidHub",
+      "description": "Multiplayer mode for humans and AI",
+      "url": "https://www.producthunt.com/r/YIDGKNYDEY6JRL?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 121,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1181332",
+      "name": "RetroMac",
+      "description": "Turn your Mac into a time machine.",
+      "url": "https://www.producthunt.com/r/WTMDXV5MSCWOU3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 120,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1180675",
+      "name": "LockIn MCP",
+      "description": "Let AI block distractions for you when you need to lock in",
+      "url": "https://www.producthunt.com/r/L5ILCMB6R6IZ67?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 116,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1177352",
+      "name": "Cloud World Model",
+      "description": "Simulate AWS, GCP & DigitalOcean without paying the bill",
+      "url": "https://www.producthunt.com/r/XMLOOUK5PH6Y6V?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 115,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1180381",
+      "name": "AI Slide Editor by CubeOne",
+      "description": "The editor PowerPoint should've shipped",
+      "url": "https://www.producthunt.com/r/AX6UG3MY6VGLQ6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 113,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1175512",
+      "name": "DMV by Agent Community",
+      "description": "A community-governed namespace for AI agents",
+      "url": "https://www.producthunt.com/r/4O4YHSKDVPIHTZ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 111,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1181993",
+      "name": "Supra Player",
+      "description": "Compare & Sync Videos Fast",
+      "url": "https://www.producthunt.com/r/NPGMW74A6LPDM3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 104,
+      "_source": "producthunt"
+    }
+  ]
+}
