@@ -253,8 +253,8 @@
       "last_featured": "2026-06-23"
     },
     "jonatasgrosman/wav2vec2-large-xlsr-53-portuguese": {
-      "times_featured": 6,
-      "last_featured": "2026-06-14"
+      "times_featured": 7,
+      "last_featured": "2026-06-28"
     },
     "argmaxinc/whisperkit-coreml": {
       "times_featured": 7,
@@ -381,20 +381,20 @@
       "last_featured": "2026-06-27"
     },
     "jbilcke-hf/FacePoke_CLONE-THIS-REPO-TO-USE-IT": {
-      "times_featured": 6,
-      "last_featured": "2026-06-14"
+      "times_featured": 7,
+      "last_featured": "2026-06-28"
     },
     "tencent/Hunyuan3D-2.1": {
-      "times_featured": 6,
-      "last_featured": "2026-06-14"
+      "times_featured": 7,
+      "last_featured": "2026-06-28"
     },
     "linoyts/Qwen-Image-Edit-Angles": {
       "times_featured": 7,
       "last_featured": "2026-06-27"
     },
     "yisol/IDM-VTON": {
-      "times_featured": 6,
-      "last_featured": "2026-06-14"
+      "times_featured": 7,
+      "last_featured": "2026-06-28"
     },
     "google/vit-base-patch16-224": {
       "times_featured": 7,
@@ -493,16 +493,16 @@
       "last_featured": "2026-06-26"
     },
     "finegrain/finegrain-image-enhancer": {
-      "times_featured": 5,
-      "last_featured": "2026-06-14"
+      "times_featured": 6,
+      "last_featured": "2026-06-28"
     },
     "yanze/PuLID-FLUX": {
       "times_featured": 5,
       "last_featured": "2026-06-15"
     },
     "Wan-AI/Wan2.1": {
-      "times_featured": 5,
-      "last_featured": "2026-06-14"
+      "times_featured": 6,
+      "last_featured": "2026-06-28"
     },
     "facebook/w2v-bert-2.0": {
       "times_featured": 6,
@@ -553,8 +553,8 @@
       "last_featured": "2026-06-15"
     },
     "pyannote/speaker-diarization-community-1": {
-      "times_featured": 5,
-      "last_featured": "2026-06-14"
+      "times_featured": 6,
+      "last_featured": "2026-06-28"
     },
     "facebook/mms-1b-all": {
       "times_featured": 1,
@@ -589,8 +589,8 @@
       "last_featured": "2026-06-20"
     },
     "BAAI/bge-small-zh-v1.5": {
-      "times_featured": 5,
-      "last_featured": "2026-06-14"
+      "times_featured": 6,
+      "last_featured": "2026-06-28"
     },
     "Xenova/all-MiniLM-L6-v2": {
       "times_featured": 5,
@@ -761,8 +761,8 @@
       "last_featured": "2026-05-23"
     },
     "IPEC-COMMUNITY/droid_lerobot": {
-      "times_featured": 3,
-      "last_featured": "2026-06-14"
+      "times_featured": 4,
+      "last_featured": "2026-06-28"
     },
     "YiboZhang2001/TexVerse": {
       "times_featured": 3,
@@ -845,8 +845,8 @@
       "last_featured": "2026-05-30"
     },
     "IPEC-COMMUNITY/bridge_orig_lerobot": {
-      "times_featured": 2,
-      "last_featured": "2026-06-14"
+      "times_featured": 3,
+      "last_featured": "2026-06-28"
     },
     "osv5m/osv5m": {
       "times_featured": 2,
@@ -873,8 +873,8 @@
       "last_featured": "2026-06-26"
     },
     "indonesian-nlp/wav2vec2-indonesian-javanese-sundanese": {
-      "times_featured": 1,
-      "last_featured": "2026-06-14"
+      "times_featured": 2,
+      "last_featured": "2026-06-28"
     },
     "PsiBotAI/SynData": {
       "times_featured": 1,
@@ -947,6 +947,14 @@
     "nvidia/Qwen3.6-35B-A3B-NVFP4": {
       "times_featured": 1,
       "last_featured": "2026-06-26"
+    },
+    "hmellor/tiny-random-LlamaForCausalLM": {
+      "times_featured": 1,
+      "last_featured": "2026-06-28"
+    },
+    "codeparrot/github-code": {
+      "times_featured": 1,
+      "last_featured": "2026-06-28"
     }
   }
 }

@@ -153,8 +153,8 @@
       "last_featured": "2026-06-25"
     },
     "rustdesk/rustdesk": {
-      "times_featured": 2,
-      "last_featured": "2026-04-14"
+      "times_featured": 3,
+      "last_featured": "2026-06-28"
     },
     "nlohmann/json": {
       "times_featured": 3,
@@ -317,8 +317,8 @@
       "last_featured": "2026-03-06"
     },
     "termux/termux-packages": {
-      "times_featured": 1,
-      "last_featured": "2026-03-06"
+      "times_featured": 2,
+      "last_featured": "2026-06-28"
     },
     "projectdiscovery/katana": {
       "times_featured": 1,
@@ -889,16 +889,16 @@
       "last_featured": "2026-06-26"
     },
     "Kedreamix/Linly-Talker": {
-      "times_featured": 5,
-      "last_featured": "2026-06-13"
+      "times_featured": 6,
+      "last_featured": "2026-06-28"
     },
     "SamurAIGPT/AI-Youtube-Shorts-Generator": {
       "times_featured": 6,
       "last_featured": "2026-06-26"
     },
     "symfony/asset": {
-      "times_featured": 5,
-      "last_featured": "2026-06-13"
+      "times_featured": 6,
+      "last_featured": "2026-06-28"
     },
     "jgraph/drawio-desktop": {
       "times_featured": 1,
@@ -921,16 +921,16 @@
       "last_featured": "2026-06-27"
     },
     "pjborowiecki/saasyland.com": {
-      "times_featured": 5,
-      "last_featured": "2026-06-13"
+      "times_featured": 6,
+      "last_featured": "2026-06-28"
     },
     "get-convex/convex-saas": {
-      "times_featured": 5,
-      "last_featured": "2026-06-13"
+      "times_featured": 6,
+      "last_featured": "2026-06-28"
     },
     "PaddleHQ/paddle-nextjs-starter-kit": {
-      "times_featured": 5,
-      "last_featured": "2026-06-13"
+      "times_featured": 6,
+      "last_featured": "2026-06-28"
     },
     "rclone/rclone": {
       "times_featured": 1,
@@ -953,8 +953,8 @@
       "last_featured": "2026-06-14"
     },
     "HKUDS/ViMax": {
-      "times_featured": 5,
-      "last_featured": "2026-06-14"
+      "times_featured": 6,
+      "last_featured": "2026-06-28"
     },
     "trpc/trpc": {
       "times_featured": 1,
@@ -973,12 +973,12 @@
       "last_featured": "2026-04-18"
     },
     "NextJSTemplates/solid-nextjs": {
-      "times_featured": 5,
-      "last_featured": "2026-06-14"
+      "times_featured": 6,
+      "last_featured": "2026-06-28"
     },
     "wrsrsh/startstack": {
-      "times_featured": 5,
-      "last_featured": "2026-06-14"
+      "times_featured": 6,
+      "last_featured": "2026-06-28"
     },
     "auth0-developer-hub/auth0-b2b-saas-starter": {
       "times_featured": 5,
@@ -997,8 +997,8 @@
       "last_featured": "2026-04-19"
     },
     "GVCLab/PersonaLive": {
-      "times_featured": 5,
-      "last_featured": "2026-06-14"
+      "times_featured": 6,
+      "last_featured": "2026-06-28"
     },
     "Tencent/MimicMotion": {
       "times_featured": 5,
@@ -1021,8 +1021,8 @@
       "last_featured": "2026-04-19"
     },
     "pydantic/pydantic": {
-      "times_featured": 1,
-      "last_featured": "2026-04-19"
+      "times_featured": 2,
+      "last_featured": "2026-06-28"
     },
     "resend/react-email": {
       "times_featured": 1,
@@ -1069,8 +1069,8 @@
       "last_featured": "2026-04-20"
     },
     "DioxusLabs/dioxus": {
-      "times_featured": 1,
-      "last_featured": "2026-04-20"
+      "times_featured": 2,
+      "last_featured": "2026-06-28"
     },
     "mnfst/manifest": {
       "times_featured": 1,
@@ -1391,6 +1391,18 @@
     "ripienaar/free-for-dev": {
       "times_featured": 1,
       "last_featured": "2026-06-27"
+    },
+    "wuyoscar/GPT-Image2-Skill": {
+      "times_featured": 1,
+      "last_featured": "2026-06-28"
+    },
+    "sharkdp/fd": {
+      "times_featured": 1,
+      "last_featured": "2026-06-28"
+    },
+    "tokio-rs/tokio": {
+      "times_featured": 1,
+      "last_featured": "2026-06-28"
     }
   }
 }

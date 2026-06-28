@@ -3,16 +3,16 @@ layout: repo
 name: "tencent/Hunyuan3D-2.1"
 source: huggingface-space
 item_url: "https://huggingface.co/spaces/tencent/Hunyuan3D-2.1"
-description: "3D model for Hugging Face Spaces"
+description: "Hunyuan 3D model"
 category: "HuggingFace Spaces"
 language: ""
 stars: 0
 downloads: 0
-likes: 2142
+likes: 2143
 og_image: "https://huggingface.co/api/spaces/tencent/Hunyuan3D-2.1/screenshot"
 first_featured: "2026-03-30"
-last_featured: "2026-06-14"
-times_featured: 6
+last_featured: "2026-06-28"
+times_featured: 7
 streak: 0
 appearances: 0
 star_velocity: 0
@@ -24,4 +24,4 @@ compare_to_source: "manual"
 compare_to_validated: false
 ---
 
-3D model for Hugging Face Spaces
+Hunyuan 3D model

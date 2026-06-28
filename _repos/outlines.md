@@ -7,12 +7,12 @@ description: "Probabilistic generative model programming"
 category: "PyPI Packages"
 language: ""
 stars: 0
-downloads: 424710
+downloads: 441525
 likes: 0
 og_image: ""
 first_featured: "2026-03-29"
-last_featured: "2026-06-14"
-times_featured: 6
+last_featured: "2026-06-28"
+times_featured: 7
 streak: 0
 appearances: 0
 star_velocity: 0

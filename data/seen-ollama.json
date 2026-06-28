@@ -273,20 +273,20 @@
       "last_featured": "2026-06-27"
     },
     "bakllava": {
-      "times_featured": 5,
-      "last_featured": "2026-06-14"
+      "times_featured": 6,
+      "last_featured": "2026-06-28"
     },
     "paraphrase-multilingual": {
-      "times_featured": 5,
-      "last_featured": "2026-06-14"
+      "times_featured": 6,
+      "last_featured": "2026-06-28"
     },
     "yarn-mistral": {
-      "times_featured": 5,
-      "last_featured": "2026-06-14"
+      "times_featured": 6,
+      "last_featured": "2026-06-28"
     },
     "nexusraven": {
-      "times_featured": 5,
-      "last_featured": "2026-06-14"
+      "times_featured": 6,
+      "last_featured": "2026-06-28"
     },
     "wizardlm": {
       "times_featured": 5,
@@ -415,6 +415,10 @@
     "notux": {
       "times_featured": 4,
       "last_featured": "2026-06-21"
+    },
+    "minicpm-v4.6": {
+      "times_featured": 1,
+      "last_featured": "2026-06-28"
     }
   }
 }
