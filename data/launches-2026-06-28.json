@@ -1,0 +1,273 @@
+{
+  "generated_at": "2026-06-28T14:44:03.671Z",
+  "source": "launches",
+  "counts": {
+    "hackernews_showhn": 18,
+    "producthunt": 8,
+    "total": 26
+  },
+  "launches": [
+    {
+      "id": "showhn-48703412",
+      "name": "Decomp Academy – Learn to decompile GameCube games into matching C",
+      "url": "https://decomp-academy.dev",
+      "description": "Show HN: Decomp Academy – Learn to decompile GameCube games into matching C",
+      "upvotes": 160,
+      "launch_date": "2026-06-28",
+      "platform_url": "https://news.ycombinator.com/item?id=48703412",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48662264",
+      "name": "Metaspec: The DpANS3R Common Lisp Spec in S-Expr and HTML Format",
+      "url": "https://metaspec.dev/#",
+      "description": "Show HN: Metaspec: The DpANS3R Common Lisp Spec in S-Expr and HTML Format",
+      "upvotes": 13,
+      "launch_date": "2026-06-28",
+      "platform_url": "https://news.ycombinator.com/item?id=48662264",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48701512",
+      "name": "Adrafinil – keep a lid-closed Mac awake only while agents work",
+      "url": "https://github.com/kageroumado/adrafinil",
+      "description": "Show HN: Adrafinil – keep a lid-closed Mac awake only while agents work",
+      "upvotes": 113,
+      "launch_date": "2026-06-28",
+      "platform_url": "https://news.ycombinator.com/item?id=48701512",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48703559",
+      "name": "FSM – an advanced system monitor for Linux",
+      "url": "https://github.com/mskrasnov/FSM",
+      "description": "Show HN: FSM – an advanced system monitor for Linux",
+      "upvotes": 19,
+      "launch_date": "2026-06-28",
+      "platform_url": "https://news.ycombinator.com/item?id=48703559",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48702104",
+      "name": "Starglyphs - A constellation puzzle game based on Euler paths",
+      "url": "https://starglyphs.com",
+      "description": "Show HN: Starglyphs - A constellation puzzle game based on Euler paths",
+      "upvotes": 25,
+      "launch_date": "2026-06-28",
+      "platform_url": "https://news.ycombinator.com/item?id=48702104",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48703194",
+      "name": "Engye – transfer files between any two devices by scanning a QR code",
+      "url": "https://engye.fuzzyworld.net/",
+      "description": "Show HN: Engye – transfer files between any two devices by scanning a QR code",
+      "upvotes": 12,
+      "launch_date": "2026-06-28",
+      "platform_url": "https://news.ycombinator.com/item?id=48703194",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48693912",
+      "name": "Hacker News on a train station-style flip board",
+      "url": "https://popflame.quickish.space/hn-flipboard/",
+      "description": "Show HN: Hacker News on a train station-style flip board",
+      "upvotes": 109,
+      "launch_date": "2026-06-28",
+      "platform_url": "https://news.ycombinator.com/item?id=48693912",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48701771",
+      "name": "Kiso, an open-source publishing engine for Open Knowledge Format",
+      "url": "https://oak-invest.github.io/kiso/",
+      "description": "Show HN: Kiso, an open-source publishing engine for Open Knowledge Format",
+      "upvotes": 16,
+      "launch_date": "2026-06-28",
+      "platform_url": "https://news.ycombinator.com/item?id=48701771",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48662988",
+      "name": "DBOSify – Drop-in Temporal replacement built on Postgres",
+      "url": "https://github.com/dbos-inc/dbosify-py",
+      "description": "Show HN: DBOSify – Drop-in Temporal replacement built on Postgres",
+      "upvotes": 87,
+      "launch_date": "2026-06-28",
+      "platform_url": "https://news.ycombinator.com/item?id=48662988",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48656986",
+      "name": "WebBase-III – dBASE III rebuilt in the browser with its own interpreter",
+      "url": "https://github.com/DDecoene/WebBaseIII",
+      "description": "Show HN: WebBase-III – dBASE III rebuilt in the browser with its own interpreter",
+      "upvotes": 95,
+      "launch_date": "2026-06-28",
+      "platform_url": "https://news.ycombinator.com/item?id=48656986",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48688700",
+      "name": "Smart model routing directly in Claude, Codex and Cursor",
+      "url": "https://github.com/workweave/router",
+      "description": "Show HN: Smart model routing directly in Claude, Codex and Cursor",
+      "upvotes": 205,
+      "launch_date": "2026-06-28",
+      "platform_url": "https://news.ycombinator.com/item?id=48688700",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48673527",
+      "name": "Autofit2 – End-to-end pipeline for multilingual text classification",
+      "url": "https://github.com/neospe/autofit2",
+      "description": "Show HN: Autofit2 – End-to-end pipeline for multilingual text classification",
+      "upvotes": 28,
+      "launch_date": "2026-06-28",
+      "platform_url": "https://news.ycombinator.com/item?id=48673527",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48673671",
+      "name": "I made Google Trends for Hacker News by indexing 18 years of comments",
+      "url": "https://hackernewstrends.com",
+      "description": "Show HN: I made Google Trends for Hacker News by indexing 18 years of comments",
+      "upvotes": 802,
+      "launch_date": "2026-06-28",
+      "platform_url": "https://news.ycombinator.com/item?id=48673671",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48671886",
+      "name": "Turn native language audio into flashcards and shadowing practice",
+      "url": "https://lingochunk.com/try",
+      "description": "Show HN: Turn native language audio into flashcards and shadowing practice",
+      "upvotes": 91,
+      "launch_date": "2026-06-28",
+      "platform_url": "https://news.ycombinator.com/item?id=48671886",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48644463",
+      "name": "Overfitted a 900KB Transformer to Compress a 100MB CSV into 7MB",
+      "url": "https://news.ycombinator.com/item?id=48644463",
+      "description": "Show HN: Overfitted a 900KB Transformer to Compress a 100MB CSV into 7MB",
+      "upvotes": 110,
+      "launch_date": "2026-06-28",
+      "platform_url": "https://news.ycombinator.com/item?id=48644463",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48675435",
+      "name": "OpenKnowledge – open source AI-first alternative to Obsidian/Notion",
+      "url": "https://github.com/inkeep/open-knowledge",
+      "description": "Show HN: OpenKnowledge – open source AI-first alternative to Obsidian/Notion",
+      "upvotes": 373,
+      "launch_date": "2026-06-28",
+      "platform_url": "https://news.ycombinator.com/item?id=48675435",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48667807",
+      "name": "Bible as RAG Database",
+      "url": "https://www.crosscanon.com/",
+      "description": "Show HN: Bible as RAG Database",
+      "upvotes": 160,
+      "launch_date": "2026-06-28",
+      "platform_url": "https://news.ycombinator.com/item?id=48667807",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48660267",
+      "name": "Nub – A Bun-like all-in-one toolkit for Node.js",
+      "url": "https://github.com/nubjs/nub",
+      "description": "Show HN: Nub – A Bun-like all-in-one toolkit for Node.js",
+      "upvotes": 275,
+      "launch_date": "2026-06-28",
+      "platform_url": "https://news.ycombinator.com/item?id=48660267",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "ph-1103513",
+      "name": "discode.ai",
+      "description": "100+ AI models, one interface. ECO friendly.",
+      "url": "https://www.producthunt.com/r/FBBEAOCYJDEVTT?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 227,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1180034",
+      "name": "GetCompress",
+      "description": "Lossless media compression without context switching",
+      "url": "https://www.producthunt.com/r/YBS7GXRQPIEDZS?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 183,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1178202",
+      "name": "Persona.js",
+      "description": "Add WebMCP-native AI chat to any Frontend",
+      "url": "https://www.producthunt.com/r/4BWHM7CAXUKOUV?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 168,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1182736",
+      "name": "Dotient",
+      "description": "Your local semantic search app",
+      "url": "https://www.producthunt.com/r/RWRX52GMAZRU3H?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 145,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1182460",
+      "name": "Lyto",
+      "description": "\"One AI agent across your browser, tools, and messages \"",
+      "url": "https://www.producthunt.com/r/53QUDXZGRRT6SK?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 120,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1182753",
+      "name": "Wirable",
+      "description": "Can AI agents use your product?",
+      "url": "https://www.producthunt.com/r/MML7K5NFBG2HVE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 45,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1181949",
+      "name": "OpenBot",
+      "description": "Tag specialized agents like friends or employees",
+      "url": "https://www.producthunt.com/r/XMZR7WZF2F55B6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 40,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1181854",
+      "name": "Velocity 2.0 Prompt Co-Pilot",
+      "description": "One click prompt enhancement for any AI tool, with context!",
+      "url": "https://www.producthunt.com/r/CWMVTSF4W2H6PR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 21,
+      "_source": "producthunt"
+    }
+  ]
+}
