@@ -1,0 +1,327 @@
+{
+  "generated_at": "2026-06-29T16:34:25.706Z",
+  "source": "launches",
+  "counts": {
+    "hackernews_showhn": 20,
+    "producthunt": 12,
+    "total": 32
+  },
+  "launches": [
+    {
+      "id": "showhn-48709186",
+      "name": "DRM-Free Books",
+      "url": "https://frequal.com/Perspectives/DrmFreeAuthors.html",
+      "description": "Show HN: DRM-Free Books",
+      "upvotes": 109,
+      "launch_date": "2026-06-29",
+      "platform_url": "https://news.ycombinator.com/item?id=48709186",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48718498",
+      "name": "Running a vision model on every screenshot on-device",
+      "url": "https://github.com/ayushh0110/ScreenMind/blob/main/README.md",
+      "description": "Show HN: Running a vision model on every screenshot on-device",
+      "upvotes": 16,
+      "launch_date": "2026-06-29",
+      "platform_url": "https://news.ycombinator.com/item?id=48718498",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48708182",
+      "name": "Zanagrams",
+      "url": "https://zanagrams.com/",
+      "description": "Show HN: Zanagrams",
+      "upvotes": 359,
+      "launch_date": "2026-06-29",
+      "platform_url": "https://news.ycombinator.com/item?id=48708182",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48710827",
+      "name": "Bash4LLM+ – A lightweight, dependency-free Bash wrapper for LLM APIs",
+      "url": "https://github.com/kamaludu/bash4llm/",
+      "description": "Show HN: Bash4LLM+ – A lightweight, dependency-free Bash wrapper for LLM APIs",
+      "upvotes": 54,
+      "launch_date": "2026-06-29",
+      "platform_url": "https://news.ycombinator.com/item?id=48710827",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48710778",
+      "name": "NanoEuler – GPT-2 scale model in pure C/CUDA from scratch",
+      "url": "https://github.com/JustVugg/nanoeuler",
+      "description": "Show HN: NanoEuler – GPT-2 scale model in pure C/CUDA from scratch",
+      "upvotes": 52,
+      "launch_date": "2026-06-29",
+      "platform_url": "https://news.ycombinator.com/item?id=48710778",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48703412",
+      "name": "Decomp Academy – Learn to decompile GameCube games into matching C",
+      "url": "https://decomp-academy.dev",
+      "description": "Show HN: Decomp Academy – Learn to decompile GameCube games into matching C",
+      "upvotes": 194,
+      "launch_date": "2026-06-29",
+      "platform_url": "https://news.ycombinator.com/item?id=48703412",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48703559",
+      "name": "FSM – an advanced system monitor for Linux",
+      "url": "https://github.com/mskrasnov/FSM",
+      "description": "Show HN: FSM – an advanced system monitor for Linux",
+      "upvotes": 26,
+      "launch_date": "2026-06-29",
+      "platform_url": "https://news.ycombinator.com/item?id=48703559",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48662988",
+      "name": "DBOSify – Drop-in Temporal replacement built on Postgres",
+      "url": "https://github.com/dbos-inc/dbosify-py",
+      "description": "Show HN: DBOSify – Drop-in Temporal replacement built on Postgres",
+      "upvotes": 90,
+      "launch_date": "2026-06-29",
+      "platform_url": "https://news.ycombinator.com/item?id=48662988",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48693912",
+      "name": "Hacker News on a train station-style flip board",
+      "url": "https://popflame.quickish.space/hn-flipboard/",
+      "description": "Show HN: Hacker News on a train station-style flip board",
+      "upvotes": 110,
+      "launch_date": "2026-06-29",
+      "platform_url": "https://news.ycombinator.com/item?id=48693912",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48662264",
+      "name": "Metaspec: The DpANS3R Common Lisp Spec in S-Expr and HTML Format",
+      "url": "https://metaspec.dev/#",
+      "description": "Show HN: Metaspec: The DpANS3R Common Lisp Spec in S-Expr and HTML Format",
+      "upvotes": 16,
+      "launch_date": "2026-06-29",
+      "platform_url": "https://news.ycombinator.com/item?id=48662264",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48701512",
+      "name": "Adrafinil – keep a lid-closed Mac awake only while agents work",
+      "url": "https://github.com/kageroumado/adrafinil",
+      "description": "Show HN: Adrafinil – keep a lid-closed Mac awake only while agents work",
+      "upvotes": 123,
+      "launch_date": "2026-06-29",
+      "platform_url": "https://news.ycombinator.com/item?id=48701512",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48682461",
+      "name": "Appaca – AI Workspace for Operators",
+      "url": "https://www.appaca.ai/",
+      "description": "Show HN: Appaca – AI Workspace for Operators",
+      "upvotes": 19,
+      "launch_date": "2026-06-29",
+      "platform_url": "https://news.ycombinator.com/item?id=48682461",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48656986",
+      "name": "WebBase-III – dBASE III rebuilt in the browser with its own interpreter",
+      "url": "https://github.com/DDecoene/WebBaseIII",
+      "description": "Show HN: WebBase-III – dBASE III rebuilt in the browser with its own interpreter",
+      "upvotes": 95,
+      "launch_date": "2026-06-29",
+      "platform_url": "https://news.ycombinator.com/item?id=48656986",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48702104",
+      "name": "Starglyphs - A constellation puzzle game based on Euler paths",
+      "url": "https://starglyphs.com",
+      "description": "Show HN: Starglyphs - A constellation puzzle game based on Euler paths",
+      "upvotes": 26,
+      "launch_date": "2026-06-29",
+      "platform_url": "https://news.ycombinator.com/item?id=48702104",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48673671",
+      "name": "I made Google Trends for Hacker News by indexing 18 years of comments",
+      "url": "https://hackernewstrends.com",
+      "description": "Show HN: I made Google Trends for Hacker News by indexing 18 years of comments",
+      "upvotes": 810,
+      "launch_date": "2026-06-29",
+      "platform_url": "https://news.ycombinator.com/item?id=48673671",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48701771",
+      "name": "Kiso, an open-source publishing engine for Open Knowledge Format",
+      "url": "https://oak-invest.github.io/kiso/",
+      "description": "Show HN: Kiso, an open-source publishing engine for Open Knowledge Format",
+      "upvotes": 20,
+      "launch_date": "2026-06-29",
+      "platform_url": "https://news.ycombinator.com/item?id=48701771",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48688700",
+      "name": "Smart model routing directly in Claude, Codex and Cursor",
+      "url": "https://github.com/workweave/router",
+      "description": "Show HN: Smart model routing directly in Claude, Codex and Cursor",
+      "upvotes": 212,
+      "launch_date": "2026-06-29",
+      "platform_url": "https://news.ycombinator.com/item?id=48688700",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48671886",
+      "name": "Turn native language audio into flashcards and shadowing practice",
+      "url": "https://lingochunk.com/try",
+      "description": "Show HN: Turn native language audio into flashcards and shadowing practice",
+      "upvotes": 91,
+      "launch_date": "2026-06-29",
+      "platform_url": "https://news.ycombinator.com/item?id=48671886",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48673527",
+      "name": "Autofit2 – End-to-end pipeline for multilingual text classification",
+      "url": "https://github.com/neospe/autofit2",
+      "description": "Show HN: Autofit2 – End-to-end pipeline for multilingual text classification",
+      "upvotes": 28,
+      "launch_date": "2026-06-29",
+      "platform_url": "https://news.ycombinator.com/item?id=48673527",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48675435",
+      "name": "OpenKnowledge – open source AI-first alternative to Obsidian/Notion",
+      "url": "https://github.com/inkeep/open-knowledge",
+      "description": "Show HN: OpenKnowledge – open source AI-first alternative to Obsidian/Notion",
+      "upvotes": 376,
+      "launch_date": "2026-06-29",
+      "platform_url": "https://news.ycombinator.com/item?id=48675435",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "ph-1175520",
+      "name": "Spira",
+      "description": "Social media growth agents that build your momentum ",
+      "url": "https://www.producthunt.com/r/T7AK4DSW7OYURG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 293,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1182365",
+      "name": "Agent Mode by Receiptor AI",
+      "description": "Bookkeeping assistant that runs receipt workflows end-to-end",
+      "url": "https://www.producthunt.com/r/DVSAWE2SN72E2P?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 279,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1181198",
+      "name": "ClinePass",
+      "description": "Run the best open-weights models in Cline",
+      "url": "https://www.producthunt.com/r/4XBT2KCNTOUDKC?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 233,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1133685",
+      "name": "VisibAI",
+      "description": "Are you in AI answers? Find out and fix it in minutes",
+      "url": "https://www.producthunt.com/r/RZKKIOKZE7VJEC?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 171,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1182762",
+      "name": "PMB",
+      "description": "Stop re-explaining your project to AI coding agents",
+      "url": "https://www.producthunt.com/r/XHBXGWG3FHAQJZ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 162,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1183216",
+      "name": "Crest",
+      "description": "System stats and translation on your Mac's notch",
+      "url": "https://www.producthunt.com/r/HLYRDPGX2RV3IF?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 126,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1180072",
+      "name": "Outpaint - Ad Reframe",
+      "description": "AI to turn vertical UGC into widescreen ads",
+      "url": "https://www.producthunt.com/r/A7GDUKYZTIZURJ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 118,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1179811",
+      "name": "Intelli",
+      "description": "Convert leads into customers with AI conversations",
+      "url": "https://www.producthunt.com/r/IPQVVBWWY4JTR5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 100,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1181462",
+      "name": "Upstream FTP",
+      "description": "A fast, beautiful, and native FTP/SFTP client for macOS",
+      "url": "https://www.producthunt.com/r/4HSMRCNLO57MWW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 90,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1182335",
+      "name": "Mailgent",
+      "description": " AI agents that can email, pay APIs, sign, and store secrets",
+      "url": "https://www.producthunt.com/r/GLB7W37ZZMHG6V?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 41,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1176725",
+      "name": "Schema Source by Tabstack",
+      "description": "Turn any URL into a JSON Schema, Zod, or Pydantic model",
+      "url": "https://www.producthunt.com/r/IUW642OQKI6O6A?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 39,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1115189",
+      "name": "kodwai",
+      "description": "The first platform that scores how you Vibe Code",
+      "url": "https://www.producthunt.com/r/SBWH2HP45E2D6Q?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 29,
+      "_source": "producthunt"
+    }
+  ]
+}
