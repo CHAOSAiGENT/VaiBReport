@@ -229,8 +229,8 @@
       "last_featured": "2026-06-26"
     },
     "pypi-together": {
-      "times_featured": 6,
-      "last_featured": "2026-06-14"
+      "times_featured": 7,
+      "last_featured": "2026-06-29"
     },
     "pypi-unstructured": {
       "times_featured": 7,
@@ -301,8 +301,8 @@
       "last_featured": "2026-05-29"
     },
     "pypi-marvin": {
-      "times_featured": 6,
-      "last_featured": "2026-06-15"
+      "times_featured": 7,
+      "last_featured": "2026-06-29"
     },
     "pypi-smolagents": {
       "times_featured": 5,
@@ -353,8 +353,8 @@
       "last_featured": "2026-06-27"
     },
     "pypi-phidata": {
-      "times_featured": 5,
-      "last_featured": "2026-06-15"
+      "times_featured": 6,
+      "last_featured": "2026-06-29"
     },
     "npm-neo.mjs": {
       "times_featured": 3,
@@ -423,6 +423,14 @@
     "npm-@promptbook/browser": {
       "times_featured": 1,
       "last_featured": "2026-06-26"
+    },
+    "npm-@promptbook/remote-client": {
+      "times_featured": 1,
+      "last_featured": "2026-06-29"
+    },
+    "npm-@payloadcms/plugin-stripe": {
+      "times_featured": 1,
+      "last_featured": "2026-06-29"
     }
   }
 }

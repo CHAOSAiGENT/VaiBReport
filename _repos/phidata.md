@@ -3,16 +3,16 @@ layout: repo
 name: "phidata"
 source: pypi
 item_url: "https://pypi.org/project/phidata/"
-description: "Build multi-modal agents"
+description: "Library for building multimodal agents"
 category: "PyPI Packages"
 language: ""
 stars: 0
-downloads: 45695
+downloads: 40923
 likes: 0
 og_image: ""
 first_featured: "2026-04-17"
-last_featured: "2026-06-15"
-times_featured: 5
+last_featured: "2026-06-29"
+times_featured: 6
 streak: 0
 appearances: 0
 star_velocity: 0
@@ -24,4 +24,4 @@ compare_to_source: "llm"
 compare_to_validated: false
 ---
 
-Build multi-modal agents
+Library for building multimodal agents

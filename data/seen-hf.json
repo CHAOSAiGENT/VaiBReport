@@ -357,8 +357,8 @@
       "last_featured": "2026-06-12"
     },
     "MahmoudAshraf/mms-300m-1130-forced-aligner": {
-      "times_featured": 6,
-      "last_featured": "2026-06-15"
+      "times_featured": 7,
+      "last_featured": "2026-06-29"
     },
     "openai/gpt-oss-120b": {
       "times_featured": 5,
@@ -497,8 +497,8 @@
       "last_featured": "2026-06-28"
     },
     "yanze/PuLID-FLUX": {
-      "times_featured": 5,
-      "last_featured": "2026-06-15"
+      "times_featured": 6,
+      "last_featured": "2026-06-29"
     },
     "Wan-AI/Wan2.1": {
       "times_featured": 6,
@@ -533,20 +533,20 @@
       "last_featured": "2026-06-16"
     },
     "Gustavosta/MagicPrompt-Stable-Diffusion": {
-      "times_featured": 5,
-      "last_featured": "2026-06-15"
+      "times_featured": 6,
+      "last_featured": "2026-06-29"
     },
     "google/sdxl": {
       "times_featured": 3,
       "last_featured": "2026-05-16"
     },
     "deepseek-ai/Janus-Pro-7B": {
-      "times_featured": 5,
-      "last_featured": "2026-06-15"
+      "times_featured": 6,
+      "last_featured": "2026-06-29"
     },
     "multimodalart/stable-video-diffusion": {
-      "times_featured": 5,
-      "last_featured": "2026-06-15"
+      "times_featured": 6,
+      "last_featured": "2026-06-29"
     },
     "stabilityai/stable-diffusion-3.5-large": {
       "times_featured": 5,
@@ -565,8 +565,8 @@
       "last_featured": "2026-05-31"
     },
     "openai/whisper-small": {
-      "times_featured": 5,
-      "last_featured": "2026-06-15"
+      "times_featured": 6,
+      "last_featured": "2026-06-29"
     },
     "Qwen/Qwen3-Embedding-4B": {
       "times_featured": 5,
@@ -581,8 +581,8 @@
       "last_featured": "2026-06-20"
     },
     "pyannote/voice-activity-detection": {
-      "times_featured": 5,
-      "last_featured": "2026-06-15"
+      "times_featured": 6,
+      "last_featured": "2026-06-29"
     },
     "Qwen/Qwen3-Embedding-8B": {
       "times_featured": 5,
@@ -609,8 +609,8 @@
       "last_featured": "2026-05-03"
     },
     "openai/whisper-base": {
-      "times_featured": 5,
-      "last_featured": "2026-06-15"
+      "times_featured": 6,
+      "last_featured": "2026-06-29"
     },
     "Qwen/Qwen3-ASR-1.7B": {
       "times_featured": 4,
@@ -741,8 +741,8 @@
       "last_featured": "2026-06-15"
     },
     "Maximilians/ps2_hf1": {
-      "times_featured": 4,
-      "last_featured": "2026-06-15"
+      "times_featured": 5,
+      "last_featured": "2026-06-29"
     },
     "WhereIsAI/UAE-Large-V1": {
       "times_featured": 4,
@@ -849,8 +849,8 @@
       "last_featured": "2026-06-28"
     },
     "osv5m/osv5m": {
-      "times_featured": 2,
-      "last_featured": "2026-06-15"
+      "times_featured": 3,
+      "last_featured": "2026-06-29"
     },
     "ibm-granite/granite-embedding-small-english-r2": {
       "times_featured": 2,
@@ -881,8 +881,8 @@
       "last_featured": "2026-06-14"
     },
     "jonatasgrosman/wav2vec2-large-xlsr-53-dutch": {
-      "times_featured": 1,
-      "last_featured": "2026-06-15"
+      "times_featured": 2,
+      "last_featured": "2026-06-29"
     },
     "jonatasgrosman/wav2vec2-large-xlsr-53-greek": {
       "times_featured": 1,
@@ -955,6 +955,14 @@
     "codeparrot/github-code": {
       "times_featured": 1,
       "last_featured": "2026-06-28"
+    },
+    "selfit-camera/Omni-Image-Editor": {
+      "times_featured": 1,
+      "last_featured": "2026-06-29"
+    },
+    "hallucinations-leaderboard/results": {
+      "times_featured": 1,
+      "last_featured": "2026-06-29"
     }
   }
 }

@@ -3,16 +3,16 @@ layout: repo
 name: "openai/whisper-base"
 source: huggingface-model
 item_url: "https://huggingface.co/openai/whisper-base"
-description: "Whisper base speech recognition"
+description: "Speech recognition model"
 category: "HuggingFace Models"
 language: ""
 stars: 0
-downloads: 3575591
-likes: 271
+downloads: 6211871
+likes: 274
 og_image: ""
 first_featured: "2026-04-20"
-last_featured: "2026-06-15"
-times_featured: 5
+last_featured: "2026-06-29"
+times_featured: 6
 streak: 0
 appearances: 0
 star_velocity: 0
@@ -24,4 +24,4 @@ compare_to_source: "llm"
 compare_to_validated: false
 ---
 
-Whisper base speech recognition
+Speech recognition model

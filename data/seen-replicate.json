@@ -153,8 +153,8 @@
       "last_featured": "2026-04-11"
     },
     "bytedance/seedance-2.0": {
-      "times_featured": 4,
-      "last_featured": "2026-06-15"
+      "times_featured": 5,
+      "last_featured": "2026-06-29"
     },
     "wan-video/wan-2.7-image-pro": {
       "times_featured": 1,
@@ -529,8 +529,8 @@
       "last_featured": "2026-06-12"
     },
     "xai/grok-imagine-video-1.5": {
-      "times_featured": 2,
-      "last_featured": "2026-06-15"
+      "times_featured": 3,
+      "last_featured": "2026-06-29"
     },
     "prunaai/p-video-replace": {
       "times_featured": 1,
@@ -639,6 +639,14 @@
     "veed/fabric-1.0": {
       "times_featured": 1,
       "last_featured": "2026-06-26"
+    },
+    "rafaelgalle/whisper-diarization-advanced": {
+      "times_featured": 1,
+      "last_featured": "2026-06-29"
+    },
+    "qwen/qwen3-7-plus": {
+      "times_featured": 1,
+      "last_featured": "2026-06-29"
     }
   }
 }

@@ -249,8 +249,8 @@
       "last_featured": "2026-04-16"
     },
     "fastify/fastify": {
-      "times_featured": 2,
-      "last_featured": "2026-04-17"
+      "times_featured": 3,
+      "last_featured": "2026-06-29"
     },
     "aquasecurity/trivy": {
       "times_featured": 4,
@@ -737,8 +737,8 @@
       "last_featured": "2026-04-10"
     },
     "ClickHouse/ClickHouse": {
-      "times_featured": 1,
-      "last_featured": "2026-04-10"
+      "times_featured": 2,
+      "last_featured": "2026-06-29"
     },
     "f/prompts.chat": {
       "times_featured": 2,
@@ -941,16 +941,16 @@
       "last_featured": "2026-06-27"
     },
     "Tencent-Hunyuan/HunyuanImage-3.0": {
-      "times_featured": 5,
-      "last_featured": "2026-06-13"
+      "times_featured": 6,
+      "last_featured": "2026-06-29"
     },
     "nygardk/react-share": {
-      "times_featured": 5,
-      "last_featured": "2026-06-13"
+      "times_featured": 6,
+      "last_featured": "2026-06-29"
     },
     "FurkanGozukara/Stable-Diffusion": {
-      "times_featured": 5,
-      "last_featured": "2026-06-14"
+      "times_featured": 6,
+      "last_featured": "2026-06-29"
     },
     "HKUDS/ViMax": {
       "times_featured": 6,
@@ -981,16 +981,16 @@
       "last_featured": "2026-06-28"
     },
     "auth0-developer-hub/auth0-b2b-saas-starter": {
-      "times_featured": 5,
-      "last_featured": "2026-06-14"
+      "times_featured": 6,
+      "last_featured": "2026-06-29"
     },
     "SaaSBold/saasbold-lite": {
-      "times_featured": 5,
-      "last_featured": "2026-06-14"
+      "times_featured": 6,
+      "last_featured": "2026-06-29"
     },
     "gonzalochale/saas-landing-template": {
-      "times_featured": 5,
-      "last_featured": "2026-06-14"
+      "times_featured": 6,
+      "last_featured": "2026-06-29"
     },
     "Lissy93/dashy": {
       "times_featured": 1,
@@ -1005,8 +1005,8 @@
       "last_featured": "2026-06-14"
     },
     "langchain-ai/social-media-agent": {
-      "times_featured": 5,
-      "last_featured": "2026-06-14"
+      "times_featured": 6,
+      "last_featured": "2026-06-29"
     },
     "Stability-AI/stability-sdk": {
       "times_featured": 5,
@@ -1029,16 +1029,16 @@
       "last_featured": "2026-04-19"
     },
     "NixOS/nixpkgs": {
-      "times_featured": 1,
-      "last_featured": "2026-04-19"
+      "times_featured": 2,
+      "last_featured": "2026-06-29"
     },
     "DarkFlippers/unleashed-firmware": {
       "times_featured": 1,
       "last_featured": "2026-04-19"
     },
     "AayushBharti/ai-saas-landing-starter": {
-      "times_featured": 5,
-      "last_featured": "2026-06-15"
+      "times_featured": 6,
+      "last_featured": "2026-06-29"
     },
     "ggml-org/whisper.cpp": {
       "times_featured": 1,
@@ -1053,8 +1053,8 @@
       "last_featured": "2026-06-15"
     },
     "leaperone/MultiPost-Extension": {
-      "times_featured": 5,
-      "last_featured": "2026-06-15"
+      "times_featured": 6,
+      "last_featured": "2026-06-29"
     },
     "SkyworkAI/Matrix-Game": {
       "times_featured": 5,
@@ -1325,8 +1325,8 @@
       "last_featured": "2026-06-14"
     },
     "XCO-Agency/Laravel-SAAS-Starter": {
-      "times_featured": 4,
-      "last_featured": "2026-06-15"
+      "times_featured": 5,
+      "last_featured": "2026-06-29"
     },
     "zerostaticthemes/square-ui": {
       "times_featured": 1,
@@ -1403,6 +1403,22 @@
     "tokio-rs/tokio": {
       "times_featured": 1,
       "last_featured": "2026-06-28"
+    },
+    "vlang/v": {
+      "times_featured": 1,
+      "last_featured": "2026-06-29"
+    },
+    "veracrypt/VeraCrypt": {
+      "times_featured": 1,
+      "last_featured": "2026-06-29"
+    },
+    "sveltejs/svelte": {
+      "times_featured": 1,
+      "last_featured": "2026-06-29"
+    },
+    "simple-icons/simple-icons": {
+      "times_featured": 1,
+      "last_featured": "2026-06-29"
     }
   }
 }
