@@ -313,8 +313,8 @@
       "last_featured": "2026-04-15"
     },
     "containerd/containerd": {
-      "times_featured": 1,
-      "last_featured": "2026-03-06"
+      "times_featured": 2,
+      "last_featured": "2026-06-30"
     },
     "termux/termux-packages": {
       "times_featured": 2,
@@ -725,8 +725,8 @@
       "last_featured": "2026-06-27"
     },
     "traefik/traefik": {
-      "times_featured": 2,
-      "last_featured": "2026-04-30"
+      "times_featured": 3,
+      "last_featured": "2026-06-30"
     },
     "cli/cli": {
       "times_featured": 2,
@@ -1001,8 +1001,8 @@
       "last_featured": "2026-06-28"
     },
     "Tencent/MimicMotion": {
-      "times_featured": 5,
-      "last_featured": "2026-06-14"
+      "times_featured": 6,
+      "last_featured": "2026-06-30"
     },
     "langchain-ai/social-media-agent": {
       "times_featured": 6,
@@ -1049,8 +1049,8 @@
       "last_featured": "2026-06-15"
     },
     "ModelTC/LightX2V": {
-      "times_featured": 5,
-      "last_featured": "2026-06-15"
+      "times_featured": 6,
+      "last_featured": "2026-06-30"
     },
     "leaperone/MultiPost-Extension": {
       "times_featured": 6,
@@ -1085,16 +1085,16 @@
       "last_featured": "2026-04-20"
     },
     "Anil-matcha/Awesome-GPT-Image-2-API-Prompts": {
-      "times_featured": 5,
-      "last_featured": "2026-06-16"
+      "times_featured": 6,
+      "last_featured": "2026-06-30"
     },
     "antirez/iris.c": {
       "times_featured": 5,
       "last_featured": "2026-06-16"
     },
     "ArcReel/ArcReel": {
-      "times_featured": 5,
-      "last_featured": "2026-06-16"
+      "times_featured": 6,
+      "last_featured": "2026-06-30"
     },
     "Kav-K/GPTDiscord": {
       "times_featured": 5,
@@ -1419,6 +1419,30 @@
     "simple-icons/simple-icons": {
       "times_featured": 1,
       "last_featured": "2026-06-29"
+    },
+    "yuanzhongqiao/printfilm": {
+      "times_featured": 1,
+      "last_featured": "2026-06-30"
+    },
+    "Light-Heart-Labs/ODS": {
+      "times_featured": 1,
+      "last_featured": "2026-06-30"
+    },
+    "psf/black": {
+      "times_featured": 1,
+      "last_featured": "2026-06-30"
+    },
+    "StevenBlack/hosts": {
+      "times_featured": 1,
+      "last_featured": "2026-06-30"
+    },
+    "vinta/awesome-python": {
+      "times_featured": 1,
+      "last_featured": "2026-06-30"
+    },
+    "airbnb/lottie-ios": {
+      "times_featured": 1,
+      "last_featured": "2026-06-30"
     }
   }
 }

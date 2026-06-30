@@ -1,18 +1,18 @@
 ---
 layout: repo
-name: "@promptbook/vercel"
+name: "@promptbook/azure-openai"
 source: npm
-item_url: "https://www.npmjs.com/package/@promptbook/vercel"
-description: "Promptbook builds persistent AI agents from your company's knowledge, easily deployable on Vercel for quick iteration."
+item_url: "https://www.npmjs.com/package/@promptbook/azure-openai"
+description: "Promptbook builds persistent AI agents that leverage your company's knowledge base and connect to Azure OpenAI services."
 category: "npm Packages"
 language: ""
 stars: 0
-downloads: 7677
+downloads: 18299
 likes: 0
 og_image: ""
-first_featured: "2026-05-19"
+first_featured: "2026-06-30"
 last_featured: "2026-06-30"
-times_featured: 4
+times_featured: 1
 streak: 0
 appearances: 0
 star_velocity: 0
@@ -24,4 +24,4 @@ compare_to_source: "llm"
 compare_to_validated: false
 ---
 
-Promptbook builds persistent AI agents from your company's knowledge, easily deployable on Vercel for quick iteration.
+Promptbook builds persistent AI agents that leverage your company's knowledge base and connect to Azure OpenAI services.

@@ -3,25 +3,25 @@ layout: repo
 name: "jonatasgrosman/wav2vec2-large-xlsr-53-polish"
 source: huggingface-model
 item_url: "https://huggingface.co/jonatasgrosman/wav2vec2-large-xlsr-53-polish"
-description: "wav2vec2-large-xlsr-53-polish"
+description: "This Wav2Vec2 model offers state-of-the-art automatic speech recognition for Polish, useful for transcribing tricky audio."
 category: "HuggingFace Models"
 language: ""
 stars: 0
-downloads: 3002567
+downloads: 4706670
 likes: 12
 og_image: ""
 first_featured: "2026-04-20"
-last_featured: "2026-06-16"
-times_featured: 5
+last_featured: "2026-06-30"
+times_featured: 6
 streak: 0
 appearances: 0
 star_velocity: 0
 tags: [huggingface, transformers, pytorch, jax, wav2vec2, automatic-speech-recognition, audio, hf-asr-leaderboard, mozilla-foundation/common_voice_6_0]
 icp_tags: ["founding-team", "pre-mvp"]
-replaces: []
-similar_to: []
-compare_to_source: "manual"
+replaces: [{"name":"Google Cloud Speech-to-Text","url":"https://cloud.google.com/speech-to-text","note":"Commercial ASR API"},{"name":"Azure Speech-to-Text","url":"https://azure.microsoft.com/en-us/products/ai-services/ai-speech/","note":"Commercial ASR API"},{"name":"AWS Transcribe","url":"https://aws.amazon.com/transcribe/","note":"Commercial ASR API"},{"name":"OpenAI Whisper API","url":"https://openai.com/research/whisper","note":"Commercial ASR API"}]
+similar_to: ["jonatasgrosman--wav2vec2-large-xlsr-53-greek", "jonatasgrosman--wav2vec2-large-xlsr-53-arabic", "jonatasgrosman--wav2vec2-large-xlsr-53-hungarian"]
+compare_to_source: "llm"
 compare_to_validated: false
 ---
 
-wav2vec2-large-xlsr-53-polish
+This Wav2Vec2 model offers state-of-the-art automatic speech recognition for Polish, useful for transcribing tricky audio.
