@@ -1,0 +1,190 @@
+{
+  "generated_at": "2026-06-30T15:24:35.001Z",
+  "source": "launches",
+  "counts": {
+    "hackernews_showhn": 9,
+    "producthunt": 10,
+    "total": 19
+  },
+  "launches": [
+    {
+      "id": "showhn-48729230",
+      "name": "PDFMergely – In-browser PDF tools that never upload your files",
+      "url": "https://pdfmergely.com",
+      "description": "Show HN: PDFMergely – In-browser PDF tools that never upload your files",
+      "upvotes": 12,
+      "launch_date": "2026-06-30",
+      "platform_url": "https://news.ycombinator.com/item?id=48729230",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48727448",
+      "name": "Agentic Orchestrator, a TUI for long-running coding agents",
+      "url": "https://github.com/doordash-oss/agentic-orchestrator",
+      "description": "Show HN: Agentic Orchestrator, a TUI for long-running coding agents",
+      "upvotes": 13,
+      "launch_date": "2026-06-30",
+      "platform_url": "https://news.ycombinator.com/item?id=48727448",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48709186",
+      "name": "DRM-Free Books",
+      "url": "https://frequal.com/Perspectives/DrmFreeAuthors.html",
+      "description": "Show HN: DRM-Free Books",
+      "upvotes": 118,
+      "launch_date": "2026-06-30",
+      "platform_url": "https://news.ycombinator.com/item?id=48709186",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48708182",
+      "name": "Zanagrams",
+      "url": "https://zanagrams.com/",
+      "description": "Show HN: Zanagrams",
+      "upvotes": 387,
+      "launch_date": "2026-06-30",
+      "platform_url": "https://news.ycombinator.com/item?id=48708182",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48710827",
+      "name": "Bash4LLM+ – A lightweight, dependency-free Bash wrapper for LLM APIs",
+      "url": "https://github.com/kamaludu/bash4llm/",
+      "description": "Show HN: Bash4LLM+ – A lightweight, dependency-free Bash wrapper for LLM APIs",
+      "upvotes": 59,
+      "launch_date": "2026-06-30",
+      "platform_url": "https://news.ycombinator.com/item?id=48710827",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48710778",
+      "name": "NanoEuler – GPT-2 scale model in pure C/CUDA from scratch",
+      "url": "https://github.com/JustVugg/nanoeuler",
+      "description": "Show HN: NanoEuler – GPT-2 scale model in pure C/CUDA from scratch",
+      "upvotes": 53,
+      "launch_date": "2026-06-30",
+      "platform_url": "https://news.ycombinator.com/item?id=48710778",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48703412",
+      "name": "Decomp Academy – Learn to decompile GameCube games into matching C",
+      "url": "https://decomp-academy.dev",
+      "description": "Show HN: Decomp Academy – Learn to decompile GameCube games into matching C",
+      "upvotes": 195,
+      "launch_date": "2026-06-30",
+      "platform_url": "https://news.ycombinator.com/item?id=48703412",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48662988",
+      "name": "DBOSify – Drop-in Temporal replacement built on Postgres",
+      "url": "https://github.com/dbos-inc/dbosify-py",
+      "description": "Show HN: DBOSify – Drop-in Temporal replacement built on Postgres",
+      "upvotes": 91,
+      "launch_date": "2026-06-30",
+      "platform_url": "https://news.ycombinator.com/item?id=48662988",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48693912",
+      "name": "Hacker News on a train station-style flip board",
+      "url": "https://popflame.quickish.space/hn-flipboard/",
+      "description": "Show HN: Hacker News on a train station-style flip board",
+      "upvotes": 113,
+      "launch_date": "2026-06-30",
+      "platform_url": "https://news.ycombinator.com/item?id=48693912",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "ph-1184233",
+      "name": "Cursor for iOS",
+      "description": "Build with coding agents from anywhere",
+      "url": "https://www.producthunt.com/r/KBJ3E75U6E6GTF?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 304,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1178152",
+      "name": "Skills Marketplace by Databox",
+      "description": "Ready-made AI analytics skills for your business data",
+      "url": "https://www.producthunt.com/r/EH536KOIRGF4MD?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 245,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1178224",
+      "name": "Foresight by Lightning Rod",
+      "description": "Predict anything with AI",
+      "url": "https://www.producthunt.com/r/ERAFMCUYCEPACK?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 221,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1181514",
+      "name": "Akiflow",
+      "description": "Manage tasks and calendars from Claude, ChatGPT or Cursor",
+      "url": "https://www.producthunt.com/r/J3YXH74BARWKOC?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 182,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1153385",
+      "name": "Supafax",
+      "description": "Email-native assistant that learns how you work",
+      "url": "https://www.producthunt.com/r/ZNXSPMJDBC3WIA?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 166,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1184126",
+      "name": "v0 Design Systems 2.0",
+      "description": "Build with your components, colors, fonts, and patterns",
+      "url": "https://www.producthunt.com/r/WP5F37BOUYFY2M?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 130,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1179591",
+      "name": "Dayflow",
+      "description": "Open source tools that help you get promoted",
+      "url": "https://www.producthunt.com/r/HN53MKBPHQIQHU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 130,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1184157",
+      "name": "AgentPeek",
+      "description": "Claude Code & Codex in your Mac notch",
+      "url": "https://www.producthunt.com/r/UJNQOTAPSSLD2L?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 129,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1183935",
+      "name": "Pluno",
+      "description": "Browser agent that’s 10x faster than Claude",
+      "url": "https://www.producthunt.com/r/M23VGVAYQ55RCX?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 124,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1172045",
+      "name": "Load Nova",
+      "description": "An AI co-pilot and dashboard built for dispatcher speed",
+      "url": "https://www.producthunt.com/r/ZO5W62UUSV5IXI?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 120,
+      "_source": "producthunt"
+    }
+  ]
+}
