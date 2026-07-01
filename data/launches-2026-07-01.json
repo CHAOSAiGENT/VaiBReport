@@ -1,0 +1,234 @@
+{
+  "generated_at": "2026-07-01T15:36:22.900Z",
+  "source": "launches",
+  "counts": {
+    "hackernews_showhn": 13,
+    "producthunt": 10,
+    "total": 23
+  },
+  "launches": [
+    {
+      "id": "showhn-48745434",
+      "name": "Frond – a frontend runtime for your app's dependency graph",
+      "url": "https://frondruntime.dev",
+      "description": "Show HN: Frond – a frontend runtime for your app's dependency graph",
+      "upvotes": 14,
+      "launch_date": "2026-07-01",
+      "platform_url": "https://news.ycombinator.com/item?id=48745434",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48735446",
+      "name": "My 13-year-old built an ant colony tracker",
+      "url": "https://formicarium.es",
+      "description": "Show HN: My 13-year-old built an ant colony tracker",
+      "upvotes": 69,
+      "launch_date": "2026-07-01",
+      "platform_url": "https://news.ycombinator.com/item?id=48735446",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48732953",
+      "name": "C++, Java and C# light-weight-logger",
+      "url": "https://github.com/PenguineDavid/light-weight-logger",
+      "description": "Show HN: C++, Java and C# light-weight-logger",
+      "upvotes": 10,
+      "launch_date": "2026-07-01",
+      "platform_url": "https://news.ycombinator.com/item?id=48732953",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48741332",
+      "name": "Coding agent that compiles intent into deterministic DAG before running",
+      "url": "https://github.com/arman-jalili/rigorix-oss",
+      "description": "Show HN: Coding agent that compiles intent into deterministic DAG before running",
+      "upvotes": 11,
+      "launch_date": "2026-07-01",
+      "platform_url": "https://news.ycombinator.com/item?id=48741332",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48709186",
+      "name": "DRM-Free Books",
+      "url": "https://frequal.com/Perspectives/DrmFreeAuthors.html",
+      "description": "Show HN: DRM-Free Books",
+      "upvotes": 118,
+      "launch_date": "2026-07-01",
+      "platform_url": "https://news.ycombinator.com/item?id=48709186",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48708182",
+      "name": "Zanagrams",
+      "url": "https://zanagrams.com/",
+      "description": "Show HN: Zanagrams",
+      "upvotes": 392,
+      "launch_date": "2026-07-01",
+      "platform_url": "https://news.ycombinator.com/item?id=48708182",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48737302",
+      "name": "I made a heatmap of 3400 VCs who are open to cold emails",
+      "url": "https://apparent.social/heat-map",
+      "description": "Show HN: I made a heatmap of 3400 VCs who are open to cold emails",
+      "upvotes": 24,
+      "launch_date": "2026-07-01",
+      "platform_url": "https://news.ycombinator.com/item?id=48737302",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48727448",
+      "name": "Agentic Orchestrator, a TUI for long-running coding agents",
+      "url": "https://github.com/doordash-oss/agentic-orchestrator",
+      "description": "Show HN: Agentic Orchestrator, a TUI for long-running coding agents",
+      "upvotes": 17,
+      "launch_date": "2026-07-01",
+      "platform_url": "https://news.ycombinator.com/item?id=48727448",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48730006",
+      "name": "Classic Minesweeper",
+      "url": "https://guokai.dev/minesweeper/",
+      "description": "Show HN: Classic Minesweeper",
+      "upvotes": 12,
+      "launch_date": "2026-07-01",
+      "platform_url": "https://news.ycombinator.com/item?id=48730006",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48710827",
+      "name": "Bash4LLM+ – A lightweight, dependency-free Bash wrapper for LLM APIs",
+      "url": "https://github.com/kamaludu/bash4llm/",
+      "description": "Show HN: Bash4LLM+ – A lightweight, dependency-free Bash wrapper for LLM APIs",
+      "upvotes": 60,
+      "launch_date": "2026-07-01",
+      "platform_url": "https://news.ycombinator.com/item?id=48710827",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48729230",
+      "name": "PDFMergely – In-browser PDF tools that never upload your files",
+      "url": "https://pdfmergely.com",
+      "description": "Show HN: PDFMergely – In-browser PDF tools that never upload your files",
+      "upvotes": 17,
+      "launch_date": "2026-07-01",
+      "platform_url": "https://news.ycombinator.com/item?id=48729230",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48710778",
+      "name": "NanoEuler – GPT-2 scale model in pure C/CUDA from scratch",
+      "url": "https://github.com/JustVugg/nanoeuler",
+      "description": "Show HN: NanoEuler – GPT-2 scale model in pure C/CUDA from scratch",
+      "upvotes": 55,
+      "launch_date": "2026-07-01",
+      "platform_url": "https://news.ycombinator.com/item?id=48710778",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48703412",
+      "name": "Decomp Academy – Learn to decompile GameCube games into matching C",
+      "url": "https://decomp-academy.dev",
+      "description": "Show HN: Decomp Academy – Learn to decompile GameCube games into matching C",
+      "upvotes": 195,
+      "launch_date": "2026-07-01",
+      "platform_url": "https://news.ycombinator.com/item?id=48703412",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "ph-1177976",
+      "name": "Acti",
+      "description": "Agentic keyboard for mobile commands and search",
+      "url": "https://www.producthunt.com/r/JTS2SCFXSWS3V4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 307,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1168382",
+      "name": "Humalike",
+      "description": "Give your AI agents the social intelligence they're missing",
+      "url": "https://www.producthunt.com/r/TY3X5USLILWUEC?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 292,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1184924",
+      "name": "Adam CAD Copilot",
+      "description": "AI CAD inside Onshape and Fusion",
+      "url": "https://www.producthunt.com/r/C3XKT5HJFJ6DCB?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 248,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1184883",
+      "name": "Claude Sonnet 5",
+      "description": "AI that plans, acts, and gets work done",
+      "url": "https://www.producthunt.com/r/KYMQLGSVRHYC5P?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 236,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1173357",
+      "name": "Tabstack Browser Automation",
+      "description": "Automate the web in your app or agent, no browser to host",
+      "url": "https://www.producthunt.com/r/W6V3FEODFM73TJ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 234,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1144256",
+      "name": "MailAdept by mailwarm",
+      "description": "AI Agents & Email deliverability experts on your team",
+      "url": "https://www.producthunt.com/r/34EIEQTO7G36GF?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 205,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1179515",
+      "name": "Modelence Mobile Builder",
+      "description": "Build mobile apps by chatting with AI",
+      "url": "https://www.producthunt.com/r/R4S3JFOM7MRYH6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 177,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1183031",
+      "name": "Sequence Agentic",
+      "description": "Money movement for AI agents",
+      "url": "https://www.producthunt.com/r/BS6VJLBZGKTDO4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 171,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1181925",
+      "name": "Mark by Airtop",
+      "description": "Vibe automation for solo marketers",
+      "url": "https://www.producthunt.com/r/XXL23H4EOY7LNQ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 163,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1184881",
+      "name": "Claude Science",
+      "description": "Your research partner for rigorous science",
+      "url": "https://www.producthunt.com/r/KNJ5BA4PRFN3KM?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 142,
+      "_source": "producthunt"
+    }
+  ]
+}
