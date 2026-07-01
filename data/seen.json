@@ -161,8 +161,8 @@
       "last_featured": "2026-04-11"
     },
     "apache/airflow": {
-      "times_featured": 3,
-      "last_featured": "2026-04-23"
+      "times_featured": 4,
+      "last_featured": "2026-07-01"
     },
     "microsoft/qlib": {
       "times_featured": 8,
@@ -365,8 +365,8 @@
       "last_featured": "2026-06-19"
     },
     "coollabsio/coolify": {
-      "times_featured": 2,
-      "last_featured": "2026-04-16"
+      "times_featured": 3,
+      "last_featured": "2026-07-01"
     },
     "SimplifyJobs/Summer2026-Internships": {
       "times_featured": 2,
@@ -577,8 +577,8 @@
       "last_featured": "2026-04-11"
     },
     "ultralytics/yolov5": {
-      "times_featured": 2,
-      "last_featured": "2026-04-15"
+      "times_featured": 3,
+      "last_featured": "2026-07-01"
     },
     "run-llama/llama_index": {
       "times_featured": 2,
@@ -829,8 +829,8 @@
       "last_featured": "2026-04-14"
     },
     "juanfont/headscale": {
-      "times_featured": 1,
-      "last_featured": "2026-04-14"
+      "times_featured": 2,
+      "last_featured": "2026-07-01"
     },
     "schollz/croc": {
       "times_featured": 6,
@@ -1009,12 +1009,12 @@
       "last_featured": "2026-06-29"
     },
     "Stability-AI/stability-sdk": {
-      "times_featured": 5,
-      "last_featured": "2026-06-15"
+      "times_featured": 6,
+      "last_featured": "2026-07-01"
     },
     "Yutong-Zhou-cv/Awesome-Text-to-Image": {
-      "times_featured": 5,
-      "last_featured": "2026-06-15"
+      "times_featured": 6,
+      "last_featured": "2026-07-01"
     },
     "ajeetdsouza/zoxide": {
       "times_featured": 1,
@@ -1045,8 +1045,8 @@
       "last_featured": "2026-04-20"
     },
     "pydn/ComfyUI-to-Python-Extension": {
-      "times_featured": 5,
-      "last_featured": "2026-06-15"
+      "times_featured": 6,
+      "last_featured": "2026-07-01"
     },
     "ModelTC/LightX2V": {
       "times_featured": 6,
@@ -1109,8 +1109,8 @@
       "last_featured": "2026-06-17"
     },
     "siyuan-note/siyuan": {
-      "times_featured": 5,
-      "last_featured": "2026-06-16"
+      "times_featured": 6,
+      "last_featured": "2026-07-01"
     },
     "qdrant/qdrant": {
       "times_featured": 1,
@@ -1125,8 +1125,8 @@
       "last_featured": "2026-04-22"
     },
     "choyiny/saasmail": {
-      "times_featured": 5,
-      "last_featured": "2026-06-17"
+      "times_featured": 6,
+      "last_featured": "2026-07-01"
     },
     "PKU-YuanGroup/Helios": {
       "times_featured": 5,
@@ -1443,6 +1443,18 @@
     "airbnb/lottie-ios": {
       "times_featured": 1,
       "last_featured": "2026-06-30"
+    },
+    "ATH-MaaS/Pixelle-Video": {
+      "times_featured": 1,
+      "last_featured": "2026-07-01"
+    },
+    "NVlabs/LongLive": {
+      "times_featured": 1,
+      "last_featured": "2026-07-01"
+    },
+    "abnormal-codex/Ai-Pixel-Design-Archive": {
+      "times_featured": 1,
+      "last_featured": "2026-07-01"
     }
   }
 }

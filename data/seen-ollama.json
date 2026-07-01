@@ -333,12 +333,12 @@
       "last_featured": "2026-06-30"
     },
     "nemotron-mini": {
-      "times_featured": 5,
-      "last_featured": "2026-06-17"
+      "times_featured": 6,
+      "last_featured": "2026-07-01"
     },
     "wizardlm-uncensored": {
-      "times_featured": 5,
-      "last_featured": "2026-06-17"
+      "times_featured": 6,
+      "last_featured": "2026-07-01"
     },
     "opencoder": {
       "times_featured": 5,
@@ -419,6 +419,18 @@
     "minicpm-v4.6": {
       "times_featured": 1,
       "last_featured": "2026-06-28"
+    },
+    "minicpm-v4.5": {
+      "times_featured": 1,
+      "last_featured": "2026-07-01"
+    },
+    "granite4.1-guardian": {
+      "times_featured": 1,
+      "last_featured": "2026-07-01"
+    },
+    "nemotron3": {
+      "times_featured": 1,
+      "last_featured": "2026-07-01"
     }
   }
 }

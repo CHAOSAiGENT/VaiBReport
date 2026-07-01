@@ -3,25 +3,25 @@ layout: repo
 name: "pydn/ComfyUI-to-Python-Extension"
 source: github
 item_url: "https://github.com/pydn/ComfyUI-to-Python-Extension"
-description: "Translates ComfyUI to Python"
+description: "Convert ComfyUI workflows into Python code, bringing your visual AI flows into production."
 category: "UGC, social media and creator tools"
 language: "Python"
-stars: 2316
+stars: 2355
 downloads: 0
 likes: 0
 og_image: "https://opengraph.githubassets.com/1/pydn/ComfyUI-to-Python-Extension"
 first_featured: "2026-04-20"
-last_featured: "2026-06-15"
-times_featured: 5
-streak: 49
-appearances: 49
-star_velocity: 1
+last_featured: "2026-07-01"
+times_featured: 6
+streak: 55
+appearances: 55
+star_velocity: 0
 tags: [github, ai-art, comfyui, generative-art, image-generation, pytorch, stable-diffusion]
 icp_tags: ["solopreneur", "non-technical", "entreprecurious"]
-replaces: [{"name":"Zapier","url":"https://zapier.com","note":"automation"}]
+replaces: []
 similar_to: []
-compare_to_source: "llm"
+compare_to_source: "manual"
 compare_to_validated: false
 ---
 
-Translates ComfyUI to Python
+Convert ComfyUI workflows into Python code, bringing your visual AI flows into production.

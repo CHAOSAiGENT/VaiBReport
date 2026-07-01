@@ -585,12 +585,12 @@
       "last_featured": "2026-06-16"
     },
     "naimish-gami/face-swapper": {
-      "times_featured": 1,
-      "last_featured": "2026-06-17"
+      "times_featured": 2,
+      "last_featured": "2026-07-01"
     },
     "sprited/birefnet": {
-      "times_featured": 1,
-      "last_featured": "2026-06-17"
+      "times_featured": 2,
+      "last_featured": "2026-07-01"
     },
     "xai/grok-imagine-video": {
       "times_featured": 1,
@@ -647,6 +647,10 @@
     "qwen/qwen3-7-plus": {
       "times_featured": 1,
       "last_featured": "2026-06-29"
+    },
+    "0xdino/cyberrealistic-pony-v18": {
+      "times_featured": 1,
+      "last_featured": "2026-07-01"
     }
   }
 }

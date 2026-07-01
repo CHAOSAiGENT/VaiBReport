@@ -3,21 +3,26 @@ layout: repo
 name: "apache/airflow"
 source: github
 item_url: "https://github.com/apache/airflow"
-description: "Airflow: because managing complex data pipelines manually is for masochists."
-category: "Trending"
+description: "If your cron jobs are a mess, Airflow orchestrates complex data pipelines reliably."
+category: "Ops, analytics and automation"
 language: "Python"
-stars: 45149
+stars: 45990
 downloads: 0
 likes: 0
+readme_image: "https://insights.linuxfoundation.org/api/badge/health-score?project=apache-airflow"
 og_image: "https://opengraph.githubassets.com/1/apache/airflow"
 first_featured: "2026-04-09"
-last_featured: "2026-04-23"
-times_featured: 2
+last_featured: "2026-07-01"
+times_featured: 3
 streak: 1
-appearances: 5
-star_velocity: 0
+appearances: 8
+star_velocity: 9
 tags: [github]
-icp_tags: ["founding-team", "entreprecurious"]
+icp_tags: ["solopreneur", "small-business", "founding-team"]
+replaces: [{"name":"AWS Step Functions","url":"https://aws.amazon.com/step-functions/","note":"Serverless workflow orchestration"},{"name":"Prefect","url":"https://www.prefect.io/","note":"Dataflow automation"},{"name":"Dagster","url":"https://dagster.io/","note":"Data orchestrator for ML, analytics, and ETL"},{"name":"Luigi","url":"https://luigi.readthedocs.io/","note":"Python module for building complex pipelines"}]
+similar_to: []
+compare_to_source: "llm"
+compare_to_validated: false
 ---
 
-Airflow: because managing complex data pipelines manually is for masochists.
+If your cron jobs are a mess, Airflow orchestrates complex data pipelines reliably.
