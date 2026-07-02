@@ -3,25 +3,25 @@ layout: repo
 name: "openai-community/gpt2"
 source: huggingface-model
 item_url: "https://huggingface.co/openai-community/gpt2"
-description: "Pre-trained language model"
+description: "gpt2"
 category: "HuggingFace Models"
 language: ""
 stars: 0
-downloads: 10125941
-likes: 3302
+downloads: 13253362
+likes: 3325
 og_image: ""
 first_featured: "2026-03-24"
-last_featured: "2026-06-18"
-times_featured: 7
+last_featured: "2026-07-02"
+times_featured: 8
 streak: 0
 appearances: 0
 star_velocity: 0
 tags: [huggingface, transformers, pytorch, tf, jax, tflite, rust, onnx, safetensors]
 icp_tags: ["founding-team", "pre-mvp"]
-replaces: [{"name":"Language Tool","url":"https://www.languagetool.org/","note":"Language checking"}]
+replaces: []
 similar_to: []
-compare_to_source: "llm"
+compare_to_source: "manual"
 compare_to_validated: false
 ---
 
-Pre-trained language model
+gpt2

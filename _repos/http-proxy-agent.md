@@ -3,25 +3,25 @@ layout: repo
 name: "http-proxy-agent"
 source: npm
 item_url: "https://www.npmjs.com/package/http-proxy-agent"
-description: "HTTP proxy agent"
+description: "An HTTP(s) proxy `http.Agent` implementation for HTTP"
 category: "npm Packages"
 language: ""
 stars: 0
-downloads: 146929873
+downloads: 136187149
 likes: 0
 og_image: ""
 first_featured: "2026-03-23"
-last_featured: "2026-06-18"
-times_featured: 7
+last_featured: "2026-07-02"
+times_featured: 8
 streak: 0
 appearances: 0
 star_velocity: 0
 tags: [npm, http, proxy, endpoint, agent]
 icp_tags: ["founding-team", "solopreneur"]
-replaces: [{"name":"HTTP Proxy","url":"https://http-proxy.com/","note":"Proxy server"}]
+replaces: []
 similar_to: []
-compare_to_source: "llm"
+compare_to_source: "manual"
 compare_to_validated: false
 ---
 
-HTTP proxy agent
+An HTTP(s) proxy `http.Agent` implementation for HTTP

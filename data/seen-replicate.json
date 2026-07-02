@@ -93,12 +93,12 @@
       "last_featured": "2026-05-26"
     },
     "xai/grok-imagine-r2v": {
-      "times_featured": 2,
-      "last_featured": "2026-06-18"
+      "times_featured": 3,
+      "last_featured": "2026-07-02"
     },
     "xai/grok-imagine-video-extension": {
-      "times_featured": 2,
-      "last_featured": "2026-06-18"
+      "times_featured": 3,
+      "last_featured": "2026-07-02"
     },
     "nicolascoutureau/video-utils": {
       "times_featured": 2,
@@ -593,8 +593,8 @@
       "last_featured": "2026-07-01"
     },
     "xai/grok-imagine-video": {
-      "times_featured": 1,
-      "last_featured": "2026-06-18"
+      "times_featured": 2,
+      "last_featured": "2026-07-02"
     },
     "google/nano-banana-2": {
       "times_featured": 1,
@@ -651,6 +651,14 @@
     "0xdino/cyberrealistic-pony-v18": {
       "times_featured": 1,
       "last_featured": "2026-07-01"
+    },
+    "myaiteam2/websitescraper2": {
+      "times_featured": 1,
+      "last_featured": "2026-07-02"
+    },
+    "ifaas-uk/bge-m3": {
+      "times_featured": 1,
+      "last_featured": "2026-07-02"
     }
   }
 }

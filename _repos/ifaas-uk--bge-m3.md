@@ -1,18 +1,18 @@
 ---
 layout: repo
-name: "xai/grok-imagine-r2v"
+name: "ifaas-uk/bge-m3"
 source: replicate
-item_url: "https://replicate.com/xai/grok-imagine-r2v"
-description: "Generate videos guided by reference images using xAI's Grok Imagine Video model"
+item_url: "https://replicate.com/ifaas-uk/bge-m3"
+description: "Multilingual BGE-M3 embedding model for dense and sparse hybrid retrieval."
 category: "Replicate Models"
 language: ""
 stars: 0
 downloads: 0
 likes: 0
 og_image: ""
-first_featured: "2026-03-27"
+first_featured: "2026-07-02"
 last_featured: "2026-07-02"
-times_featured: 3
+times_featured: 1
 streak: 0
 appearances: 0
 star_velocity: 0
@@ -24,4 +24,4 @@ compare_to_source: "manual"
 compare_to_validated: false
 ---
 
-Generate videos guided by reference images using xAI's Grok Imagine Video model
+Multilingual BGE-M3 embedding model for dense and sparse hybrid retrieval.

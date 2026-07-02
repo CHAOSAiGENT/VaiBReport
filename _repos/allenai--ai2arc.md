@@ -7,12 +7,12 @@ description: "ai2_arc"
 category: "HuggingFace Datasets"
 language: ""
 stars: 0
-downloads: 481704
+downloads: 420836
 likes: 0
 og_image: ""
 first_featured: "2026-04-20"
-last_featured: "2026-06-03"
-times_featured: 4
+last_featured: "2026-07-02"
+times_featured: 5
 streak: 0
 appearances: 0
 star_velocity: 0

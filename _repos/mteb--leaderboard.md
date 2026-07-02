@@ -3,16 +3,16 @@ layout: repo
 name: "mteb/leaderboard"
 source: huggingface-space
 item_url: "https://huggingface.co/spaces/mteb/leaderboard"
-description: "Leaderboard for AI models"
+description: "leaderboard"
 category: "HuggingFace Spaces"
 language: ""
 stars: 0
 downloads: 0
-likes: 7482
+likes: 7525
 og_image: "https://huggingface.co/api/spaces/mteb/leaderboard/screenshot"
 first_featured: "2026-03-23"
-last_featured: "2026-06-18"
-times_featured: 7
+last_featured: "2026-07-02"
+times_featured: 8
 streak: 0
 appearances: 0
 star_velocity: 0
@@ -24,4 +24,4 @@ compare_to_source: "manual"
 compare_to_validated: false
 ---
 
-Leaderboard for AI models
+leaderboard
