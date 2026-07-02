@@ -1,0 +1,229 @@
+{
+  "generated_at": "2026-07-02T15:05:29.943Z",
+  "source": "launches",
+  "counts": {
+    "hackernews_showhn": 14,
+    "producthunt": 8,
+    "total": 22
+  },
+  "launches": [
+    {
+      "id": "showhn-48761493",
+      "name": "ZeroFS – A log-structured filesystem for S3",
+      "url": "https://www.zerofs.net/",
+      "description": "Show HN: ZeroFS – A log-structured filesystem for S3",
+      "upvotes": 47,
+      "launch_date": "2026-07-02",
+      "platform_url": "https://news.ycombinator.com/item?id=48761493",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48762000",
+      "name": "Mail Memories – A desktop app to rescue photos from Gmail",
+      "url": "https://mailmemories.com",
+      "description": "Show HN: Mail Memories – A desktop app to rescue photos from Gmail",
+      "upvotes": 13,
+      "launch_date": "2026-07-02",
+      "platform_url": "https://news.ycombinator.com/item?id=48762000",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48745590",
+      "name": "Claudoro, Pomodoro timer embedded in the Claude Code statusline",
+      "url": "https://github.com/emson/claudoro",
+      "description": "Show HN: Claudoro, Pomodoro timer embedded in the Claude Code statusline",
+      "upvotes": 18,
+      "launch_date": "2026-07-02",
+      "platform_url": "https://news.ycombinator.com/item?id=48745590",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48696218",
+      "name": "Cyclearchive.com – search vintage cycling magazines",
+      "url": "https://cyclearchive.com/search/",
+      "description": "Show HN: Cyclearchive.com – search vintage cycling magazines",
+      "upvotes": 13,
+      "launch_date": "2026-07-02",
+      "platform_url": "https://news.ycombinator.com/item?id=48696218",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48752905",
+      "name": "Searchable directory of 22k+ products from worker-owned co-ops",
+      "url": "https://www.workerowned.info/",
+      "description": "Show HN: Searchable directory of 22k+ products from worker-owned co-ops",
+      "upvotes": 379,
+      "launch_date": "2026-07-02",
+      "platform_url": "https://news.ycombinator.com/item?id=48752905",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48759838",
+      "name": "I measured the half-life of 41,301 Show HN launches. It's 7 hours",
+      "url": "https://jonno.nz/posts/your-show-hn-dies-in-7-hours/",
+      "description": "Show HN: I measured the half-life of 41,301 Show HN launches. It's 7 hours",
+      "upvotes": 10,
+      "launch_date": "2026-07-02",
+      "platform_url": "https://news.ycombinator.com/item?id=48759838",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48750008",
+      "name": "Salt – a systems language with Z3 theorem proving in the compiler",
+      "url": "https://salt-lang.dev",
+      "description": "Show HN: Salt – a systems language with Z3 theorem proving in the compiler",
+      "upvotes": 41,
+      "launch_date": "2026-07-02",
+      "platform_url": "https://news.ycombinator.com/item?id=48750008",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48748182",
+      "name": "GolemUI – Declarative Form Engine",
+      "url": "https://golemui.com",
+      "description": "Show HN: GolemUI – Declarative Form Engine",
+      "upvotes": 44,
+      "launch_date": "2026-07-02",
+      "platform_url": "https://news.ycombinator.com/item?id=48748182",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48708602",
+      "name": "Unobin compiles Infrastructure as Code to one binary",
+      "url": "https://cloudboss.co/docs/unobin",
+      "description": "Show HN: Unobin compiles Infrastructure as Code to one binary",
+      "upvotes": 17,
+      "launch_date": "2026-07-02",
+      "platform_url": "https://news.ycombinator.com/item?id=48708602",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48749752",
+      "name": "Pglayers – PostgreSQL extensions as stackable Docker layers",
+      "url": "https://github.com/pglayers/pglayers",
+      "description": "Show HN: Pglayers – PostgreSQL extensions as stackable Docker layers",
+      "upvotes": 39,
+      "launch_date": "2026-07-02",
+      "platform_url": "https://news.ycombinator.com/item?id=48749752",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48703200",
+      "name": "QR code renderer in a TrueType font",
+      "url": "https://qr.jim.sh/",
+      "description": "Show HN: QR code renderer in a TrueType font",
+      "upvotes": 81,
+      "launch_date": "2026-07-02",
+      "platform_url": "https://news.ycombinator.com/item?id=48703200",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48733433",
+      "name": "Curvytron 2, I rewrote my browser party game, 10 years later",
+      "url": "https://curvytron2.com/",
+      "description": "Show HN: Curvytron 2, I rewrote my browser party game, 10 years later",
+      "upvotes": 12,
+      "launch_date": "2026-07-02",
+      "platform_url": "https://news.ycombinator.com/item?id=48733433",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48720682",
+      "name": "PMB – local memory for coding agents that shows if it is used",
+      "url": "https://pmbai.dev",
+      "description": "Show HN: PMB – local memory for coding agents that shows if it is used",
+      "upvotes": 25,
+      "launch_date": "2026-07-02",
+      "platform_url": "https://news.ycombinator.com/item?id=48720682",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48735446",
+      "name": "My 13-year-old built an ant colony tracker",
+      "url": "https://formicarium.es",
+      "description": "Show HN: My 13-year-old built an ant colony tracker",
+      "upvotes": 73,
+      "launch_date": "2026-07-02",
+      "platform_url": "https://news.ycombinator.com/item?id=48735446",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "ph-1185115",
+      "name": "Context.dev",
+      "description": "One API to scrape, enrich, and extract the internet",
+      "url": "https://www.producthunt.com/r/XBX6EKSLADLB4V?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 338,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1178752",
+      "name": "Fuser Apps",
+      "description": "Vibecode apps, sites, & games on everyone's favorite canvas",
+      "url": "https://www.producthunt.com/r/3YDD6TL63D6PL7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 199,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1184938",
+      "name": "Gemini Omni Flash",
+      "description": "High-quality video generation and conversational editing",
+      "url": "https://www.producthunt.com/r/DZLAIM4SZO6IL5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 186,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1184640",
+      "name": "Needle",
+      "description": "The proactive GTM agent in Slack and Teams",
+      "url": "https://www.producthunt.com/r/C2GZROB7OFA5HO?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 178,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1168995",
+      "name": "OASIS 1 Ring",
+      "description": "Whisper to write and touch to edit",
+      "url": "https://www.producthunt.com/r/QBLLHQBNZADJ72?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 156,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1127206",
+      "name": "RunInfra",
+      "description": "Describe the AI model you need and get an optimized AI",
+      "url": "https://www.producthunt.com/r/O7X5L5RMIGH76F?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 153,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1179347",
+      "name": "N71",
+      "description": "Give all your AI agents one shared context",
+      "url": "https://www.producthunt.com/r/HEXTTLNKE3WGY7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 140,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1184058",
+      "name": "Stigg 2.0",
+      "description": "The usage runtime for AI products",
+      "url": "https://www.producthunt.com/r/E6E7YYRP67ADR3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 135,
+      "_source": "producthunt"
+    }
+  ]
+}
