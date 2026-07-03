@@ -3,26 +3,26 @@ layout: repo
 name: "alan345/AI-Fullstack-SaaS-Boilerplate"
 source: github
 item_url: "https://github.com/alan345/AI-Fullstack-SaaS-Boilerplate"
-description: "Fullstack SaaS boilerplate with tRPC and React"
+description: "Full-stack SaaS boilerplate with tRPC and React."
 category: "AI agents, LLM infra and RAG"
 language: "TypeScript"
-stars: 1394
+stars: 1405
 downloads: 0
 likes: 0
 readme_image: "https://api.star-history.com/svg?repos=alan345/AI-Fullstack-SaaS-Boilerplate&type=Date"
 og_image: "https://opengraph.githubassets.com/1/alan345/AI-Fullstack-SaaS-Boilerplate"
 first_featured: "2026-03-24"
-last_featured: "2026-06-19"
-times_featured: 7
-streak: 49
-appearances: 49
+last_featured: "2026-07-03"
+times_featured: 8
+streak: 57
+appearances: 57
 star_velocity: 0
 tags: [github, agentic-ai, ai, better-auth, chat, drizzle-orm, fastify, openai, postgres]
 icp_tags: ["founding-team", "pre-mvp", "entreprecurious"]
 replaces: [{"name":"Next.js","url":"https://nextjs.org/","note":"framework"}]
-similar_to: []
+similar_to: ["apocas--restai", "digitalocean--sea-notes-saas-starter-kit"]
 compare_to_source: "llm"
 compare_to_validated: false
 ---
 
-Fullstack SaaS boilerplate with tRPC and React
+Full-stack SaaS boilerplate with tRPC and React.

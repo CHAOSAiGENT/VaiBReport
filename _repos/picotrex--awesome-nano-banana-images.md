@@ -3,20 +3,20 @@ layout: repo
 name: "PicoTrex/Awesome-Nano-Banana-images"
 source: github
 item_url: "https://github.com/PicoTrex/Awesome-Nano-Banana-images"
-description: "Curated images generated with Nano Banana"
+description: "A curated collection of fun and creative examples generated with Nano Banana & Nano Banana Pro🍌, Gemini-2.5-flash-image based model. We also release Nano-consistent-150K openly to support the community's development of image generation and unified models(click to website to see our blog)"
 category: "UGC, social media and creator tools"
 language: ""
-stars: 22499
+stars: 23129
 downloads: 0
 likes: 0
 readme_image: "https://api.star-history.com/svg?repos=PicoTrex/Awesome-Nano-Banana-images&type=Date"
 og_image: "https://opengraph.githubassets.com/1/PicoTrex/Awesome-Nano-Banana-images"
 first_featured: "2026-03-24"
-last_featured: "2026-06-19"
-times_featured: 7
-streak: 49
-appearances: 49
-star_velocity: 19
+last_featured: "2026-07-03"
+times_featured: 8
+streak: 57
+appearances: 57
+star_velocity: 5
 tags: [github, awesome, gemini-2-5-flash-image, nano-banana]
 icp_tags: ["solopreneur", "non-technical", "entreprecurious"]
 replaces: []
@@ -25,4 +25,4 @@ compare_to_source: "manual"
 compare_to_validated: false
 ---
 
-Curated images generated with Nano Banana
+A curated collection of fun and creative examples generated with Nano Banana & Nano Banana Pro🍌, Gemini-2.5-flash-image based model. We also release Nano-consistent-150K openly to support the community's development of image generation and unified models(click to website to see our blog)

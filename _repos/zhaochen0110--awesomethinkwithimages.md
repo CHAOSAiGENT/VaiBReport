@@ -3,26 +3,26 @@ layout: repo
 name: "zhaochen0110/Awesome_Think_With_Images"
 source: github
 item_url: "https://github.com/zhaochen0110/Awesome_Think_With_Images"
-description: "Resources for thinking with images in LVLMs"
+description: "Resources for thinking with images in LVLMs."
 category: "AI agents, LLM infra and RAG"
 language: ""
-stars: 1434
+stars: 1486
 downloads: 0
 likes: 0
 readme_image: "https://api.star-history.com/svg?repos=zhaochen0110/Awesome_Think_With_Images&type=Date"
 og_image: "https://opengraph.githubassets.com/1/zhaochen0110/Awesome_Think_With_Images"
 first_featured: "2026-03-24"
-last_featured: "2026-06-19"
-times_featured: 7
-streak: 49
-appearances: 49
+last_featured: "2026-07-03"
+times_featured: 8
+streak: 57
+appearances: 57
 star_velocity: 0
 tags: [github, large-vision-language-models, multimodal-reasoning-visual-reasoning, survey-awesome-list, thinking-with-images]
 icp_tags: ["founding-team", "pre-mvp", "entreprecurious"]
 replaces: []
-similar_to: []
-compare_to_source: "manual"
+similar_to: ["apocas--restai"]
+compare_to_source: "llm"
 compare_to_validated: false
 ---
 
-Resources for thinking with images in LVLMs
+Resources for thinking with images in LVLMs.

@@ -3,21 +3,25 @@ layout: repo
 name: "freeCodeCamp/freeCodeCamp"
 source: github
 item_url: "https://github.com/freeCodeCamp/freeCodeCamp"
-description: "Learn coding with freeCodeCamp"
+description: "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free."
 category: "Trending"
 language: "TypeScript"
-stars: 443855
+stars: 450981
 downloads: 0
 likes: 0
 og_image: "https://opengraph.githubassets.com/1/freeCodeCamp/freeCodeCamp"
 first_featured: "2026-03-30"
-last_featured: "2026-04-29"
-times_featured: 2
+last_featured: "2026-07-03"
+times_featured: 3
 streak: 2
-appearances: 8
-star_velocity: 70
+appearances: 10
+star_velocity: 131
 tags: [github]
 icp_tags: ["founding-team", "entreprecurious"]
+replaces: []
+similar_to: []
+compare_to_source: "manual"
+compare_to_validated: false
 ---
 
-Learn coding with freeCodeCamp
+freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.
