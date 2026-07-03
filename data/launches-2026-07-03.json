@@ -1,0 +1,340 @@
+{
+  "generated_at": "2026-07-03T15:02:27.172Z",
+  "source": "launches",
+  "counts": {
+    "hackernews_showhn": 19,
+    "producthunt": 15,
+    "total": 34
+  },
+  "launches": [
+    {
+      "id": "showhn-48750402",
+      "name": "Pieces – Social network for people",
+      "url": "https://try.piecesof.me/",
+      "description": "Show HN: Pieces – Social network for people",
+      "upvotes": 46,
+      "launch_date": "2026-07-03",
+      "platform_url": "https://news.ycombinator.com/item?id=48750402",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48763246",
+      "name": "zkGolf – Competitive optimization of formally verified circuits",
+      "url": "https://zk.golf/",
+      "description": "Show HN: zkGolf – Competitive optimization of formally verified circuits",
+      "upvotes": 67,
+      "launch_date": "2026-07-03",
+      "platform_url": "https://news.ycombinator.com/item?id=48763246",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48763222",
+      "name": "Inkwell – An RSS reader for e-ink devices",
+      "url": "https://kendal.codeberg.page/inkwell/",
+      "description": "Show HN: Inkwell – An RSS reader for e-ink devices",
+      "upvotes": 64,
+      "launch_date": "2026-07-03",
+      "platform_url": "https://news.ycombinator.com/item?id=48763222",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48769064",
+      "name": "I made a tool that prevents websites from tracking you",
+      "url": "https://github.com/alex-w-developer/GetBlocked",
+      "description": "Show HN: I made a tool that prevents websites from tracking you",
+      "upvotes": 25,
+      "launch_date": "2026-07-03",
+      "platform_url": "https://news.ycombinator.com/item?id=48769064",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48729404",
+      "name": "Gitstock–Transform you GitHub commit history into K-line and animations",
+      "url": "https://gitstock.org/",
+      "description": "Show HN: Gitstock–Transform you GitHub commit history into K-line and animations",
+      "upvotes": 25,
+      "launch_date": "2026-07-03",
+      "platform_url": "https://news.ycombinator.com/item?id=48729404",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48762038",
+      "name": "CLI tool for detecting non-exact code duplication with embedding models",
+      "url": "https://github.com/rafal-qa/slopo",
+      "description": "Show HN: CLI tool for detecting non-exact code duplication with embedding models",
+      "upvotes": 89,
+      "launch_date": "2026-07-03",
+      "platform_url": "https://news.ycombinator.com/item?id=48762038",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48761294",
+      "name": "A graph paper generator that renders vector PDFs in the browser",
+      "url": "https://freegraphpaper.net/",
+      "description": "Show HN: A graph paper generator that renders vector PDFs in the browser",
+      "upvotes": 104,
+      "launch_date": "2026-07-03",
+      "platform_url": "https://news.ycombinator.com/item?id=48761294",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48759838",
+      "name": "I measured the half-life of 41,301 Show HN launches. It's 7 hours",
+      "url": "https://jonno.nz/posts/your-show-hn-dies-in-7-hours/",
+      "description": "Show HN: I measured the half-life of 41,301 Show HN launches. It's 7 hours",
+      "upvotes": 30,
+      "launch_date": "2026-07-03",
+      "platform_url": "https://news.ycombinator.com/item?id=48759838",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48745590",
+      "name": "Claudoro, Pomodoro timer embedded in the Claude Code statusline",
+      "url": "https://github.com/emson/claudoro",
+      "description": "Show HN: Claudoro, Pomodoro timer embedded in the Claude Code statusline",
+      "upvotes": 48,
+      "launch_date": "2026-07-03",
+      "platform_url": "https://news.ycombinator.com/item?id=48745590",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48752948",
+      "name": "CLI that helps AI agents avoid vulnerable dependencies",
+      "url": "https://github.com/clidey/deptrust",
+      "description": "Show HN: CLI that helps AI agents avoid vulnerable dependencies",
+      "upvotes": 12,
+      "launch_date": "2026-07-03",
+      "platform_url": "https://news.ycombinator.com/item?id=48752948",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48761096",
+      "name": "I built an open-source alternative to Claude Cowork",
+      "url": "https://github.com/valmishq/valmis",
+      "description": "Show HN: I built an open-source alternative to Claude Cowork",
+      "upvotes": 33,
+      "launch_date": "2026-07-03",
+      "platform_url": "https://news.ycombinator.com/item?id=48761096",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48766242",
+      "name": "Bramble – Local-first password manager",
+      "url": "https://github.com/flythenimbus/bramble",
+      "description": "Show HN: Bramble – Local-first password manager",
+      "upvotes": 61,
+      "launch_date": "2026-07-03",
+      "platform_url": "https://news.ycombinator.com/item?id=48766242",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48763462",
+      "name": "ctx – Search the coding agent history already on your machine",
+      "url": "https://github.com/ctxrs/ctx",
+      "description": "Show HN: ctx – Search the coding agent history already on your machine",
+      "upvotes": 35,
+      "launch_date": "2026-07-03",
+      "platform_url": "https://news.ycombinator.com/item?id=48763462",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48768421",
+      "name": "GeoSpoof – your VPN hides your IP, but the browser leaks your location",
+      "url": "https://geospoof.com/",
+      "description": "Show HN: GeoSpoof – your VPN hides your IP, but the browser leaks your location",
+      "upvotes": 13,
+      "launch_date": "2026-07-03",
+      "platform_url": "https://news.ycombinator.com/item?id=48768421",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48761493",
+      "name": "ZeroFS – A log-structured filesystem for S3",
+      "url": "https://www.zerofs.net/",
+      "description": "Show HN: ZeroFS – A log-structured filesystem for S3",
+      "upvotes": 125,
+      "launch_date": "2026-07-03",
+      "platform_url": "https://news.ycombinator.com/item?id=48761493",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48748182",
+      "name": "GolemUI – Declarative Form Engine",
+      "url": "https://golemui.com",
+      "description": "Show HN: GolemUI – Declarative Form Engine",
+      "upvotes": 52,
+      "launch_date": "2026-07-03",
+      "platform_url": "https://news.ycombinator.com/item?id=48748182",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48696218",
+      "name": "Cyclearchive.com – search vintage cycling magazines",
+      "url": "https://cyclearchive.com/search/",
+      "description": "Show HN: Cyclearchive.com – search vintage cycling magazines",
+      "upvotes": 22,
+      "launch_date": "2026-07-03",
+      "platform_url": "https://news.ycombinator.com/item?id=48696218",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48750008",
+      "name": "Salt – a systems language with Z3 theorem proving in the compiler",
+      "url": "https://salt-lang.dev",
+      "description": "Show HN: Salt – a systems language with Z3 theorem proving in the compiler",
+      "upvotes": 44,
+      "launch_date": "2026-07-03",
+      "platform_url": "https://news.ycombinator.com/item?id=48750008",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48752905",
+      "name": "Searchable directory of 22k+ products from worker-owned co-ops",
+      "url": "https://www.workerowned.info/",
+      "description": "Show HN: Searchable directory of 22k+ products from worker-owned co-ops",
+      "upvotes": 390,
+      "launch_date": "2026-07-03",
+      "platform_url": "https://news.ycombinator.com/item?id=48752905",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "ph-1186480",
+      "name": "Glaze by Raycast",
+      "description": "Create your own Mac apps by chatting with AI",
+      "url": "https://www.producthunt.com/r/5O23FOO5ATZ5QC?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 327,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1186410",
+      "name": "Tamamon",
+      "description": "A desktop pet that grows as you code with Claude Code",
+      "url": "https://www.producthunt.com/r/H465OWNR3Z225E?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 207,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1181934",
+      "name": "Macro",
+      "description": "Unifies your work into one app with shared memory",
+      "url": "https://www.producthunt.com/r/F2JPCQ5746WUFS?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 188,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1186689",
+      "name": "Osloq",
+      "description": "An AI agent that reproduces GitHub issues for you",
+      "url": "https://www.producthunt.com/r/AQBTECY2JSGAXZ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 169,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1184961",
+      "name": "Solaris",
+      "description": "Your company’s AI adoption and upskilling platform",
+      "url": "https://www.producthunt.com/r/IM2X7KS5EUXQGF?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 158,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1185939",
+      "name": "Banger Mail",
+      "description": "Shared mailboxes for teams and AI agents",
+      "url": "https://www.producthunt.com/r/ROUEJOAWUF7RFP?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 148,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1178256",
+      "name": "Archify ",
+      "description": "understand software",
+      "url": "https://www.producthunt.com/r/AHD5Q4A67VZICO?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 147,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1185396",
+      "name": "nxt",
+      "description": "Talk to your to do list and get what's next",
+      "url": "https://www.producthunt.com/r/GMW4GGOTHFJ4PL?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 134,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1185825",
+      "name": "PieterPost MCP",
+      "description": "Connect your AI agent to postal mail",
+      "url": "https://www.producthunt.com/r/VLSRVNIXY4YBJX?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 134,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1186717",
+      "name": "Vox",
+      "description": "Talk to GitHub Copilot out loud",
+      "url": "https://www.producthunt.com/r/UTKQTP2P3IW4SI?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 126,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1185930",
+      "name": "scritty",
+      "description": "Shared, searchable memory for every AI coding agent",
+      "url": "https://www.producthunt.com/r/BOSLVJYFBR5RDQ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 124,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1186036",
+      "name": "Sidedoor",
+      "description": "Paste any job, find who in your network can refer you",
+      "url": "https://www.producthunt.com/r/OMXU6N5ZT2FVVI?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 121,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1185869",
+      "name": "html.contact",
+      "description": "A full form backend you can test before paying",
+      "url": "https://www.producthunt.com/r/77SVE24MWE5MFS?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 119,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1185234",
+      "name": "EasyAR Mega",
+      "description": "Turn entire cities into your AR canvas.",
+      "url": "https://www.producthunt.com/r/KPVM3HDQYYLGP7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 118,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1185322",
+      "name": "Macuse",
+      "description": "Give Your AI Superpowers on macOS",
+      "url": "https://www.producthunt.com/r/NNTKCUKMKNTN74?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 118,
+      "_source": "producthunt"
+    }
+  ]
+}
