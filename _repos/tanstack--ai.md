@@ -3,16 +3,16 @@ layout: repo
 name: "@tanstack/ai"
 source: npm
 item_url: "https://www.npmjs.com/package/@tanstack/ai"
-description: "Type-safe TypeScript AI SDK for streaming chat, tool calling, agents, structured outputs, and multimodal generation."
+description: "Type-safe AI SDK for TypeScript; build reliable LLM apps with streaming, tool calling, and structured outputs."
 category: "npm Packages"
 language: ""
 stars: 0
-downloads: 167526
+downloads: 180120
 likes: 0
 og_image: ""
 first_featured: "2026-05-23"
-last_featured: "2026-06-20"
-times_featured: 3
+last_featured: "2026-07-04"
+times_featured: 4
 streak: 0
 appearances: 0
 star_velocity: 0
@@ -24,4 +24,4 @@ compare_to_source: "manual"
 compare_to_validated: false
 ---
 
-Type-safe TypeScript AI SDK for streaming chat, tool calling, agents, structured outputs, and multimodal generation.
+Type-safe AI SDK for TypeScript; build reliable LLM apps with streaming, tool calling, and structured outputs.

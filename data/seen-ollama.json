@@ -173,8 +173,8 @@
       "last_featured": "2026-07-03"
     },
     "stablelm2": {
-      "times_featured": 6,
-      "last_featured": "2026-06-20"
+      "times_featured": 7,
+      "last_featured": "2026-07-04"
     },
     "llama3-chatqa": {
       "times_featured": 6,
@@ -353,8 +353,8 @@
       "last_featured": "2026-07-03"
     },
     "athene-v2": {
-      "times_featured": 5,
-      "last_featured": "2026-06-19"
+      "times_featured": 6,
+      "last_featured": "2026-07-04"
     },
     "nous-hermes2-mixtral": {
       "times_featured": 6,
@@ -369,12 +369,12 @@
       "last_featured": "2026-07-03"
     },
     "megadolphin": {
-      "times_featured": 5,
-      "last_featured": "2026-06-20"
+      "times_featured": 6,
+      "last_featured": "2026-07-04"
     },
     "medllama2": {
-      "times_featured": 5,
-      "last_featured": "2026-06-20"
+      "times_featured": 6,
+      "last_featured": "2026-07-04"
     },
     "everythinglm": {
       "times_featured": 5,
@@ -431,6 +431,10 @@
     "nemotron3": {
       "times_featured": 1,
       "last_featured": "2026-07-01"
+    },
+    "nemotron-3-nano": {
+      "times_featured": 1,
+      "last_featured": "2026-07-04"
     }
   }
 }

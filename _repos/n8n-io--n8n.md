@@ -3,22 +3,25 @@ layout: repo
 name: "n8n-io/n8n"
 source: github
 item_url: "https://github.com/n8n-io/n8n"
-description: "Self-host your own Zapier with n8n; integrate 400+ services and add AI."
+description: "Automate workflows visually or with code; connect 400+ services and add AI, self-hosted or cloud."
 category: "Trending"
 language: "TypeScript"
-stars: 186236
+stars: 195128
 downloads: 0
 likes: 0
-readme_image: "https://user-images.githubusercontent.com/10284570/173569848-c624317f-42b1-45a6-ab09-f0ea3c247648.png"
 og_image: "https://opengraph.githubassets.com/1/n8n-io/n8n"
 first_featured: "2026-03-26"
-last_featured: "2026-04-30"
-times_featured: 3
+last_featured: "2026-07-04"
+times_featured: 4
 streak: 1
-appearances: 15
-star_velocity: 133
+appearances: 17
+star_velocity: 117
 tags: [github]
 icp_tags: ["founding-team", "entreprecurious"]
+replaces: [{"name":"Zapier","url":"https://zapier.com","note":"no-code workflow automation"},{"name":"Make.com","url":"https://www.make.com","note":"visual workflow automation"},{"name":"Tray.io","url":"https://tray.io","note":"enterprise automation platform"},{"name":"IFTTT","url":"https://ifttt.com","note":"simple applet automation"}]
+similar_to: []
+compare_to_source: "llm"
+compare_to_validated: false
 ---
 
-Self-host your own Zapier with n8n; integrate 400+ services and add AI.
+Automate workflows visually or with code; connect 400+ services and add AI, self-hosted or cloud.

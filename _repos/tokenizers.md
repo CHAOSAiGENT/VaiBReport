@@ -3,25 +3,25 @@ layout: repo
 name: "tokenizers"
 source: pypi
 item_url: "https://pypi.org/project/tokenizers/"
-description: "Tokenization library for NLP"
+description: "Fast tokenization for NLP models; preprocess text efficiently for better LLM performance."
 category: "PyPI Packages"
 language: ""
 stars: 0
-downloads: 48628564
+downloads: 47165084
 likes: 0
 og_image: ""
 first_featured: "2026-03-23"
-last_featured: "2026-06-20"
-times_featured: 7
+last_featured: "2026-07-04"
+times_featured: 8
 streak: 0
 appearances: 0
 star_velocity: 0
 tags: [pypi, NLP, tokenizer, BPE, transformer, deep, learning]
 icp_tags: ["founding-team", "solopreneur"]
-replaces: [{"name":"NLTK","url":"https://www.nltk.org/","note":"popular NLP library"}]
+replaces: [{"name":"NLTK","url":"https://www.nltk.org","note":"traditional NLP tokenization (slower)"},{"name":"SpaCy","url":"https://spacy.io","note":"production-ready NLP (different approach)"}]
 similar_to: []
 compare_to_source: "llm"
 compare_to_validated: false
 ---
 
-Tokenization library for NLP
+Fast tokenization for NLP models; preprocess text efficiently for better LLM performance.

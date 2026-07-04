@@ -157,8 +157,8 @@
       "last_featured": "2026-06-23"
     },
     "Qwen/Qwen3-1.7B": {
-      "times_featured": 5,
-      "last_featured": "2026-06-20"
+      "times_featured": 6,
+      "last_featured": "2026-07-04"
     },
     "ropedia-ai/xperience-10m": {
       "times_featured": 3,
@@ -549,8 +549,8 @@
       "last_featured": "2026-06-29"
     },
     "stabilityai/stable-diffusion-3.5-large": {
-      "times_featured": 5,
-      "last_featured": "2026-06-15"
+      "times_featured": 6,
+      "last_featured": "2026-07-04"
     },
     "pyannote/speaker-diarization-community-1": {
       "times_featured": 6,
@@ -585,8 +585,8 @@
       "last_featured": "2026-06-29"
     },
     "Qwen/Qwen3-Embedding-8B": {
-      "times_featured": 5,
-      "last_featured": "2026-06-20"
+      "times_featured": 6,
+      "last_featured": "2026-07-04"
     },
     "BAAI/bge-small-zh-v1.5": {
       "times_featured": 6,
@@ -697,8 +697,8 @@
       "last_featured": "2026-06-03"
     },
     "nvidia/PhysicalAI-Robotics-GR00T-X-Embodiment-Sim": {
-      "times_featured": 2,
-      "last_featured": "2026-06-20"
+      "times_featured": 3,
+      "last_featured": "2026-07-04"
     },
     "Maynor996/img_upload": {
       "times_featured": 5,
@@ -713,8 +713,8 @@
       "last_featured": "2026-05-12"
     },
     "Qwen/Qwen3-32B": {
-      "times_featured": 3,
-      "last_featured": "2026-05-28"
+      "times_featured": 4,
+      "last_featured": "2026-07-04"
     },
     "HennyPr/ps2_hf2": {
       "times_featured": 5,
@@ -745,8 +745,8 @@
       "last_featured": "2026-06-29"
     },
     "WhereIsAI/UAE-Large-V1": {
-      "times_featured": 4,
-      "last_featured": "2026-06-20"
+      "times_featured": 5,
+      "last_featured": "2026-07-04"
     },
     "jat-project/jat-dataset-tokenized": {
       "times_featured": 3,
@@ -909,12 +909,12 @@
       "last_featured": "2026-06-20"
     },
     "anuragshas/wav2vec2-large-xlsr-53-telugu": {
-      "times_featured": 1,
-      "last_featured": "2026-06-20"
+      "times_featured": 2,
+      "last_featured": "2026-07-04"
     },
     "Chelsea707/arxiv-cs-2020-2025-pdfs": {
-      "times_featured": 1,
-      "last_featured": "2026-06-20"
+      "times_featured": 2,
+      "last_featured": "2026-07-04"
     },
     "daniilakk/nbchr_pdfs": {
       "times_featured": 1,
@@ -983,6 +983,10 @@
     "EssentialAI/essential-web-v1.0": {
       "times_featured": 1,
       "last_featured": "2026-07-03"
+    },
+    "applied-ai-018/pretraining_v1-omega_books": {
+      "times_featured": 1,
+      "last_featured": "2026-07-04"
     }
   }
 }
