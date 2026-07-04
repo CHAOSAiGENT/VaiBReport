@@ -1,0 +1,319 @@
+{
+  "generated_at": "2026-07-04T14:24:11.389Z",
+  "source": "launches",
+  "counts": {
+    "hackernews_showhn": 20,
+    "producthunt": 11,
+    "total": 31
+  },
+  "launches": [
+    {
+      "id": "showhn-48749868",
+      "name": "Classify mechanical faults using Contrastive Language-Audio Pretraining",
+      "url": "https://github.com/adam-s/car-diagnosis",
+      "description": "Show HN: Classify mechanical faults using Contrastive Language-Audio Pretraining",
+      "upvotes": 28,
+      "launch_date": "2026-07-04",
+      "platform_url": "https://news.ycombinator.com/item?id=48749868",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48739038",
+      "name": "Morph Reflexes – Multi-head classifiers for agent traces",
+      "url": "https://news.ycombinator.com/item?id=48739038",
+      "description": "Show HN: Morph Reflexes – Multi-head classifiers for agent traces",
+      "upvotes": 20,
+      "launch_date": "2026-07-04",
+      "platform_url": "https://news.ycombinator.com/item?id=48739038",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48735097",
+      "name": "A statically typed, cross-platform, easily bootstrappable build system",
+      "url": "https://github.com/rochus-keller/BUSY/",
+      "description": "Show HN: A statically typed, cross-platform, easily bootstrappable build system",
+      "upvotes": 39,
+      "launch_date": "2026-07-04",
+      "platform_url": "https://news.ycombinator.com/item?id=48735097",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48766242",
+      "name": "Bramble – Local-first password manager",
+      "url": "https://github.com/flythenimbus/bramble",
+      "description": "Show HN: Bramble – Local-first password manager",
+      "upvotes": 123,
+      "launch_date": "2026-07-04",
+      "platform_url": "https://news.ycombinator.com/item?id=48766242",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48777144",
+      "name": "Mcpsnoop – Wireshark for MCP (transparent proxy and live TUI)",
+      "url": "https://github.com/kerlenton/mcpsnoop",
+      "description": "Show HN: Mcpsnoop – Wireshark for MCP (transparent proxy and live TUI)",
+      "upvotes": 58,
+      "launch_date": "2026-07-04",
+      "platform_url": "https://news.ycombinator.com/item?id=48777144",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48752948",
+      "name": "CLI that helps AI agents avoid vulnerable dependencies",
+      "url": "https://github.com/clidey/deptrust",
+      "description": "Show HN: CLI that helps AI agents avoid vulnerable dependencies",
+      "upvotes": 24,
+      "launch_date": "2026-07-04",
+      "platform_url": "https://news.ycombinator.com/item?id=48752948",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48763462",
+      "name": "ctx – Search the coding agent history already on your machine",
+      "url": "https://github.com/ctxrs/ctx",
+      "description": "Show HN: ctx – Search the coding agent history already on your machine",
+      "upvotes": 65,
+      "launch_date": "2026-07-04",
+      "platform_url": "https://news.ycombinator.com/item?id=48763462",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48778607",
+      "name": "Opbox – CRDT based sync for text files on disk",
+      "url": "https://www.opbox.dev/",
+      "description": "Show HN: Opbox – CRDT based sync for text files on disk",
+      "upvotes": 10,
+      "launch_date": "2026-07-04",
+      "platform_url": "https://news.ycombinator.com/item?id=48778607",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48763246",
+      "name": "zkGolf – Competitive optimization of formally verified circuits",
+      "url": "https://zk.golf/",
+      "description": "Show HN: zkGolf – Competitive optimization of formally verified circuits",
+      "upvotes": 69,
+      "launch_date": "2026-07-04",
+      "platform_url": "https://news.ycombinator.com/item?id=48763246",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48763222",
+      "name": "Inkwell – An RSS reader for e-ink devices",
+      "url": "https://kendal.codeberg.page/inkwell/",
+      "description": "Show HN: Inkwell – An RSS reader for e-ink devices",
+      "upvotes": 73,
+      "launch_date": "2026-07-04",
+      "platform_url": "https://news.ycombinator.com/item?id=48763222",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48750402",
+      "name": "Pieces – Social network for people",
+      "url": "https://try.piecesof.me/",
+      "description": "Show HN: Pieces – Social network for people",
+      "upvotes": 61,
+      "launch_date": "2026-07-04",
+      "platform_url": "https://news.ycombinator.com/item?id=48750402",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48769064",
+      "name": "I made a tool that prevents websites from tracking you",
+      "url": "https://github.com/alex-w-developer/GetBlocked",
+      "description": "Show HN: I made a tool that prevents websites from tracking you",
+      "upvotes": 29,
+      "launch_date": "2026-07-04",
+      "platform_url": "https://news.ycombinator.com/item?id=48769064",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48779933",
+      "name": "ContextCodeCache in Rust",
+      "url": "https://github.com/colwill/ccc",
+      "description": "Show HN: ContextCodeCache in Rust",
+      "upvotes": 11,
+      "launch_date": "2026-07-04",
+      "platform_url": "https://news.ycombinator.com/item?id=48779933",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48761294",
+      "name": "A graph paper generator that renders vector PDFs in the browser",
+      "url": "https://freegraphpaper.net/",
+      "description": "Show HN: A graph paper generator that renders vector PDFs in the browser",
+      "upvotes": 106,
+      "launch_date": "2026-07-04",
+      "platform_url": "https://news.ycombinator.com/item?id=48761294",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48745590",
+      "name": "Claudoro, Pomodoro timer embedded in the Claude Code statusline",
+      "url": "https://github.com/emson/claudoro",
+      "description": "Show HN: Claudoro, Pomodoro timer embedded in the Claude Code statusline",
+      "upvotes": 49,
+      "launch_date": "2026-07-04",
+      "platform_url": "https://news.ycombinator.com/item?id=48745590",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48759838",
+      "name": "I measured the half-life of 41,301 Show HN launches. It's 7 hours",
+      "url": "https://jonno.nz/posts/your-show-hn-dies-in-7-hours/",
+      "description": "Show HN: I measured the half-life of 41,301 Show HN launches. It's 7 hours",
+      "upvotes": 34,
+      "launch_date": "2026-07-04",
+      "platform_url": "https://news.ycombinator.com/item?id=48759838",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48762038",
+      "name": "CLI tool for detecting non-exact code duplication with embedding models",
+      "url": "https://github.com/rafal-qa/slopo",
+      "description": "Show HN: CLI tool for detecting non-exact code duplication with embedding models",
+      "upvotes": 91,
+      "launch_date": "2026-07-04",
+      "platform_url": "https://news.ycombinator.com/item?id=48762038",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48729404",
+      "name": "Gitstock–Transform you GitHub commit history into K-line and animations",
+      "url": "https://gitstock.org/",
+      "description": "Show HN: Gitstock–Transform you GitHub commit history into K-line and animations",
+      "upvotes": 25,
+      "launch_date": "2026-07-04",
+      "platform_url": "https://news.ycombinator.com/item?id=48729404",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48733642",
+      "name": "OM Core – multidimensional models without spreadsheet cell formulas",
+      "url": "https://github.com/cloudcell/om-core",
+      "description": "Show HN: OM Core – multidimensional models without spreadsheet cell formulas",
+      "upvotes": 14,
+      "launch_date": "2026-07-04",
+      "platform_url": "https://news.ycombinator.com/item?id=48733642",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48761096",
+      "name": "I built an open-source alternative to Claude Cowork",
+      "url": "https://github.com/valmishq/valmis",
+      "description": "Show HN: I built an open-source alternative to Claude Cowork",
+      "upvotes": 36,
+      "launch_date": "2026-07-04",
+      "platform_url": "https://news.ycombinator.com/item?id=48761096",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "ph-1174638",
+      "name": "Vida",
+      "description": "Clone yourself. Let AI do the work before you ask",
+      "url": "https://www.producthunt.com/r/NK4KBFW256NNE2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 209,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1187416",
+      "name": "ChecklistFox",
+      "description": "AI Checklist Maker - Beautiful PDFs, Free & Instant",
+      "url": "https://www.producthunt.com/r/USFAL64GSIK5C5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 163,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1162362",
+      "name": "PhoneDeck",
+      "description": " Turn your iPhone into a free Mac controller",
+      "url": "https://www.producthunt.com/r/7L2MEW5KWZWUUC?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 161,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1163471",
+      "name": "CentryAI",
+      "description": "Subscription tracker built by someone who forgot 11 of them",
+      "url": "https://www.producthunt.com/r/S6W2K3J2ADWUN2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 141,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1187434",
+      "name": "Termi Protocol",
+      "description": "Watch your AI coding agents build, live in 3D",
+      "url": "https://www.producthunt.com/r/BDTNVXE532I5H6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 127,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1140698",
+      "name": "ShotLab",
+      "description": "Turn boring screenshots into scroll-stopping content!",
+      "url": "https://www.producthunt.com/r/Y3L6IGHPEJ6VZB?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 26,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1186216",
+      "name": "OneShots",
+      "description": "OneShots - 10s create amazing APP screenshots",
+      "url": "https://www.producthunt.com/r/QQ7HMN5WVG6AZY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 23,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1186621",
+      "name": "AISight",
+      "description": "Understand how AI answer engines see your website",
+      "url": "https://www.producthunt.com/r/SD7FEMXBXVAHLZ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 22,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1186603",
+      "name": "tasktrack",
+      "description": "just type what you did. look back anytime.",
+      "url": "https://www.producthunt.com/r/WLBEDPZWPX2NM6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 22,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1186415",
+      "name": "SyncBooster",
+      "description": "Create and publish social media posts via AI chat",
+      "url": "https://www.producthunt.com/r/RLLZEEBR67SIEA?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 21,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1186213",
+      "name": "Subhive",
+      "description": "Every subscription. One hive.",
+      "url": "https://www.producthunt.com/r/4LD7QQE4OY4IJN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 20,
+      "_source": "producthunt"
+    }
+  ]
+}
