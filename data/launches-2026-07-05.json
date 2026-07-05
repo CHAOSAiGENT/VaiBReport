@@ -1,0 +1,122 @@
+{
+  "generated_at": "2026-07-05T14:26:07.446Z",
+  "source": "launches",
+  "counts": {
+    "hackernews_showhn": 5,
+    "producthunt": 7,
+    "total": 12
+  },
+  "launches": [
+    {
+      "id": "showhn-48793542",
+      "name": "KiCad in the Browser",
+      "url": "https://demo.pcbjam.com/",
+      "description": "Show HN: KiCad in the Browser",
+      "upvotes": 23,
+      "launch_date": "2026-07-05",
+      "platform_url": "https://news.ycombinator.com/item?id=48793542",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48766242",
+      "name": "Bramble – Local-first password manager",
+      "url": "https://github.com/flythenimbus/bramble",
+      "description": "Show HN: Bramble – Local-first password manager",
+      "upvotes": 139,
+      "launch_date": "2026-07-05",
+      "platform_url": "https://news.ycombinator.com/item?id=48766242",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48749868",
+      "name": "Classify mechanical faults using Contrastive Language-Audio Pretraining",
+      "url": "https://github.com/adam-s/car-diagnosis",
+      "description": "Show HN: Classify mechanical faults using Contrastive Language-Audio Pretraining",
+      "upvotes": 35,
+      "launch_date": "2026-07-05",
+      "platform_url": "https://news.ycombinator.com/item?id=48749868",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48735097",
+      "name": "A statically typed, cross-platform, easily bootstrappable build system",
+      "url": "https://github.com/rochus-keller/BUSY/",
+      "description": "Show HN: A statically typed, cross-platform, easily bootstrappable build system",
+      "upvotes": 46,
+      "launch_date": "2026-07-05",
+      "platform_url": "https://news.ycombinator.com/item?id=48735097",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48777144",
+      "name": "Mcpsnoop – Wireshark for MCP (transparent proxy and live TUI)",
+      "url": "https://github.com/kerlenton/mcpsnoop",
+      "description": "Show HN: Mcpsnoop – Wireshark for MCP (transparent proxy and live TUI)",
+      "upvotes": 63,
+      "launch_date": "2026-07-05",
+      "platform_url": "https://news.ycombinator.com/item?id=48777144",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "ph-1184211",
+      "name": "WorkBuddy",
+      "description": "Produce sharpened results faster with a team of AI experts",
+      "url": "https://www.producthunt.com/r/UHHXBJG665CHTW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 197,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1185912",
+      "name": "DocsAlot",
+      "description": "Documentation that works for both humans and AI systems",
+      "url": "https://www.producthunt.com/r/37BR3YBSGSO3IL?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 164,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1166992",
+      "name": "TryCase",
+      "description": "Disposable test environments for AI coding agents",
+      "url": "https://www.producthunt.com/r/HV7ZSLSLVCIH4C?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 122,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1175845",
+      "name": "MentionDrop MCP",
+      "description": "Give your AI agent live market signals",
+      "url": "https://www.producthunt.com/r/5Y46NOSJ2V7MYB?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 110,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1187923",
+      "name": "CircleChat",
+      "description": "Give your AI agents a slack, a task board, and a boss",
+      "url": "https://www.producthunt.com/r/DVLXJJDOM6PG3G?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 98,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1186309",
+      "name": "Qik Office",
+      "description": "AI Office that deploys AI managers across agentic rooms",
+      "url": "https://www.producthunt.com/r/TX7NZFLH2JSMPJ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 28,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1187744",
+      "name": "Claude Sonnet 5 Brand Report",
+      "description": "What does Claude Sonnet 5 say about your brand?",
+      "url": "https://www.producthunt.com/r/6W2VMKZQEXVF46?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 22,
+      "_source": "producthunt"
+    }
+  ]
+}
