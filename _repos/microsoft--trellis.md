@@ -3,7 +3,7 @@ layout: repo
 name: "microsoft/TRELLIS"
 source: huggingface-space
 item_url: "https://huggingface.co/spaces/microsoft/TRELLIS"
-description: "This Gradio space hosts a Microsoft model (Trellis); useful for experimenting with its capabilities directly."
+description: "TRELLIS"
 category: "HuggingFace Spaces"
 language: ""
 stars: 0
@@ -11,8 +11,8 @@ downloads: 0
 likes: 4775
 og_image: "https://huggingface.co/api/spaces/microsoft/TRELLIS/screenshot"
 first_featured: "2026-03-25"
-last_featured: "2026-06-21"
-times_featured: 7
+last_featured: "2026-07-05"
+times_featured: 8
 streak: 0
 appearances: 0
 star_velocity: 0
@@ -24,4 +24,4 @@ compare_to_source: "manual"
 compare_to_validated: false
 ---
 
-This Gradio space hosts a Microsoft model (Trellis); useful for experimenting with its capabilities directly.
+TRELLIS

@@ -659,6 +659,10 @@
     "ifaas-uk/bge-m3": {
       "times_featured": 1,
       "last_featured": "2026-07-02"
+    },
+    "csviverdeia/locateanything-3b-h100": {
+      "times_featured": 1,
+      "last_featured": "2026-07-05"
     }
   }
 }

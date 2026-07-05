@@ -3,16 +3,16 @@ layout: repo
 name: "nanotron/ultrascale-playbook"
 source: huggingface-space
 item_url: "https://huggingface.co/spaces/nanotron/ultrascale-playbook"
-description: "A static playbook for ultrascale; might contain guides or resources for large-scale deployments."
+description: "ultrascale-playbook"
 category: "HuggingFace Spaces"
 language: ""
 stars: 0
 downloads: 0
-likes: 3897
+likes: 3919
 og_image: "https://huggingface.co/api/spaces/nanotron/ultrascale-playbook/screenshot"
 first_featured: "2026-03-25"
-last_featured: "2026-06-21"
-times_featured: 7
+last_featured: "2026-07-05"
+times_featured: 8
 streak: 0
 appearances: 0
 star_velocity: 0
@@ -24,4 +24,4 @@ compare_to_source: "manual"
 compare_to_validated: false
 ---
 
-A static playbook for ultrascale; might contain guides or resources for large-scale deployments.
+ultrascale-playbook

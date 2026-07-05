@@ -3,25 +3,25 @@ layout: repo
 name: "fastapi"
 source: pypi
 item_url: "https://pypi.org/project/fastapi/"
-description: "FastAPI is a modern, fast web framework for building APIs with Python, perfect for LLM backends."
+description: "FastAPI framework, high performance, easy to learn, fast to code, ready for production"
 category: "PyPI Packages"
 language: ""
 stars: 0
-downloads: 118102204
+downloads: 116857150
 likes: 0
 og_image: ""
 first_featured: "2026-03-23"
-last_featured: "2026-06-21"
-times_featured: 7
+last_featured: "2026-07-05"
+times_featured: 8
 streak: 0
 appearances: 0
 star_velocity: 0
 tags: [pypi]
 icp_tags: ["founding-team", "solopreneur"]
-replaces: [{"name":"Flask","url":"https://flask.palletsprojects.com","note":"alternative Python web framework"},{"name":"Django REST Framework","url":"https://www.django-rest-framework.org","note":"alternative Python web framework"}]
+replaces: []
 similar_to: []
-compare_to_source: "llm"
+compare_to_source: "manual"
 compare_to_validated: false
 ---
 
-FastAPI is a modern, fast web framework for building APIs with Python, perfect for LLM backends.
+FastAPI framework, high performance, easy to learn, fast to code, ready for production

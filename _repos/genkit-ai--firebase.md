@@ -3,25 +3,25 @@ layout: repo
 name: "@genkit-ai/firebase"
 source: npm
 item_url: "https://www.npmjs.com/package/@genkit-ai/firebase"
-description: "A Genkit plugin for Firebase, streamlining your genAI apps with Firestore and Cloud Functions."
+description: "Genkit AI framework plugin for Firebase including Firestore trace/state store and deployment helpers for Cloud Functions for Firebase."
 category: "npm Packages"
 language: ""
 stars: 0
-downloads: 222251
+downloads: 195952
 likes: 0
 og_image: ""
 first_featured: "2026-03-27"
-last_featured: "2026-06-21"
-times_featured: 7
+last_featured: "2026-07-05"
+times_featured: 8
 streak: 0
 appearances: 0
 star_velocity: 0
 tags: [npm, genkit, genkit-plugin, genkit-tracestore, genkit-statestore, genkit-deploy, genkit-flow, firestore, ai]
 icp_tags: ["founding-team", "solopreneur"]
 replaces: []
-similar_to: ["genkit"]
-compare_to_source: "llm"
+similar_to: []
+compare_to_source: "manual"
 compare_to_validated: false
 ---
 
-A Genkit plugin for Firebase, streamlining your genAI apps with Firestore and Cloud Functions.
+Genkit AI framework plugin for Firebase including Firestore trace/state store and deployment helpers for Cloud Functions for Firebase.

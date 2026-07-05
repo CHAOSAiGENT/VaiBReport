@@ -3,25 +3,25 @@ layout: repo
 name: "transformers"
 source: pypi
 item_url: "https://pypi.org/project/transformers/"
-description: "Hugging Face Transformers is the standard for accessing and using state-of-the-art ML models."
+description: "Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training."
 category: "PyPI Packages"
 language: ""
 stars: 0
-downloads: 37588373
+downloads: 41814673
 likes: 0
 og_image: ""
 first_featured: "2026-03-24"
-last_featured: "2026-06-21"
-times_featured: 7
+last_featured: "2026-07-05"
+times_featured: 8
 streak: 0
 appearances: 0
 star_velocity: 0
 tags: [pypi, machine-learning, nlp, python, pytorch, transformer, llm, vlm, deep-learning]
 icp_tags: ["founding-team", "solopreneur"]
 replaces: []
-similar_to: ["litellm"]
-compare_to_source: "llm"
+similar_to: []
+compare_to_source: "manual"
 compare_to_validated: false
 ---
 
-Hugging Face Transformers is the standard for accessing and using state-of-the-art ML models.
+Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training.

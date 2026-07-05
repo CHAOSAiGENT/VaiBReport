@@ -3,16 +3,16 @@ layout: repo
 name: "daniilakk/nbchr_pdfs"
 source: huggingface-dataset
 item_url: "https://huggingface.co/datasets/daniilakk/nbchr_pdfs"
-description: "A PDF document dataset; handy for training models on document processing or information extraction."
+description: "nbchr_pdfs"
 category: "HuggingFace Datasets"
 language: ""
 stars: 0
-downloads: 464405
+downloads: 918267
 likes: 0
 og_image: ""
 first_featured: "2026-06-21"
-last_featured: "2026-06-21"
-times_featured: 1
+last_featured: "2026-07-05"
+times_featured: 2
 streak: 0
 appearances: 0
 star_velocity: 0
@@ -24,4 +24,4 @@ compare_to_source: "manual"
 compare_to_validated: false
 ---
 
-A PDF document dataset; handy for training models on document processing or information extraction.
+nbchr_pdfs

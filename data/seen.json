@@ -45,8 +45,8 @@
       "times_featured": 9
     },
     "Blazity/next-saas-starter": {
-      "last_featured": "2026-06-21",
-      "times_featured": 8
+      "last_featured": "2026-07-05",
+      "times_featured": 9
     },
     "inngest/inngest": {
       "last_featured": "2026-03-05",
@@ -157,8 +157,8 @@
       "last_featured": "2026-06-28"
     },
     "nlohmann/json": {
-      "times_featured": 3,
-      "last_featured": "2026-04-11"
+      "times_featured": 4,
+      "last_featured": "2026-07-05"
     },
     "apache/airflow": {
       "times_featured": 4,
@@ -277,12 +277,12 @@
       "last_featured": "2026-07-04"
     },
     "graphile/starter": {
-      "times_featured": 8,
-      "last_featured": "2026-06-21"
+      "times_featured": 9,
+      "last_featured": "2026-07-05"
     },
     "NextJSTemplates/startup-nextjs": {
-      "times_featured": 8,
-      "last_featured": "2026-06-21"
+      "times_featured": 9,
+      "last_featured": "2026-07-05"
     },
     "PicoTrex/Awesome-Nano-Banana-images": {
       "times_featured": 9,
@@ -429,24 +429,24 @@
       "last_featured": "2026-04-22"
     },
     "saas-js/saas-ui": {
-      "times_featured": 7,
-      "last_featured": "2026-06-21"
+      "times_featured": 8,
+      "last_featured": "2026-07-05"
     },
     "QwenLM/Qwen-Image": {
-      "times_featured": 7,
-      "last_featured": "2026-06-21"
+      "times_featured": 8,
+      "last_featured": "2026-07-05"
     },
     "vladmandic/sdnext": {
-      "times_featured": 7,
-      "last_featured": "2026-06-21"
+      "times_featured": 8,
+      "last_featured": "2026-07-05"
     },
     "mylxsw/aidea": {
-      "times_featured": 7,
-      "last_featured": "2026-06-21"
+      "times_featured": 8,
+      "last_featured": "2026-07-05"
     },
     "salesforce/BLIP": {
-      "times_featured": 7,
-      "last_featured": "2026-06-21"
+      "times_featured": 8,
+      "last_featured": "2026-07-05"
     },
     "showlab/Awesome-Video-Diffusion": {
       "times_featured": 7,
@@ -473,8 +473,8 @@
       "last_featured": "2026-03-26"
     },
     "revokslab/ShipFree": {
-      "times_featured": 7,
-      "last_featured": "2026-06-21"
+      "times_featured": 8,
+      "last_featured": "2026-07-05"
     },
     "reliverse/relivator": {
       "times_featured": 7,
@@ -493,8 +493,8 @@
       "last_featured": "2026-06-22"
     },
     "MeiGen-AI/InfiniteTalk": {
-      "times_featured": 7,
-      "last_featured": "2026-06-21"
+      "times_featured": 8,
+      "last_featured": "2026-07-05"
     },
     "AILab-CVC/VideoCrafter": {
       "times_featured": 7,
@@ -609,8 +609,8 @@
       "last_featured": "2026-06-24"
     },
     "JCodesMore/ai-website-cloner-template": {
-      "times_featured": 7,
-      "last_featured": "2026-06-21"
+      "times_featured": 8,
+      "last_featured": "2026-07-05"
     },
     "OpenBB-finance/OpenBB": {
       "times_featured": 2,
@@ -645,8 +645,8 @@
       "last_featured": "2026-04-22"
     },
     "jellyfin/jellyfin": {
-      "times_featured": 2,
-      "last_featured": "2026-04-25"
+      "times_featured": 3,
+      "last_featured": "2026-07-05"
     },
     "upscayl/upscayl": {
       "times_featured": 1,
@@ -1041,8 +1041,8 @@
       "last_featured": "2026-06-29"
     },
     "ggml-org/whisper.cpp": {
-      "times_featured": 1,
-      "last_featured": "2026-04-20"
+      "times_featured": 2,
+      "last_featured": "2026-07-05"
     },
     "pydn/ComfyUI-to-Python-Extension": {
       "times_featured": 6,
@@ -1149,8 +1149,8 @@
       "last_featured": "2026-04-22"
     },
     "nushell/nushell": {
-      "times_featured": 1,
-      "last_featured": "2026-04-22"
+      "times_featured": 2,
+      "last_featured": "2026-07-05"
     },
     "openai/openai-cookbook": {
       "times_featured": 5,
@@ -1487,6 +1487,14 @@
     "SigNoz/signoz": {
       "times_featured": 1,
       "last_featured": "2026-07-04"
+    },
+    "openai/whisper": {
+      "times_featured": 1,
+      "last_featured": "2026-07-05"
+    },
+    "exelban/stats": {
+      "times_featured": 1,
+      "last_featured": "2026-07-05"
     }
   }
 }

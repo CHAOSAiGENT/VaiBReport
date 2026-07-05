@@ -3,25 +3,25 @@ layout: repo
 name: "langchain"
 source: pypi
 item_url: "https://pypi.org/project/langchain/"
-description: "LangChain helps you build complex LLM applications with chains, agents, and tool use, despite the verbosity."
+description: "Building applications with LLMs through composability"
 category: "PyPI Packages"
 language: ""
 stars: 0
-downloads: 78512333
+downloads: 74245269
 likes: 0
 og_image: ""
 first_featured: "2026-03-23"
-last_featured: "2026-06-21"
-times_featured: 7
+last_featured: "2026-07-05"
+times_featured: 8
 streak: 0
 appearances: 0
 star_velocity: 0
 tags: [pypi]
 icp_tags: ["founding-team", "solopreneur"]
 replaces: []
-similar_to: ["litellm", "genkit"]
-compare_to_source: "llm"
+similar_to: []
+compare_to_source: "manual"
 compare_to_validated: false
 ---
 
-LangChain helps you build complex LLM applications with chains, agents, and tool use, despite the verbosity.
+Building applications with LLMs through composability

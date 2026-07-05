@@ -3,25 +3,25 @@ layout: repo
 name: "openai"
 source: pypi
 item_url: "https://pypi.org/project/openai/"
-description: "The official OpenAI Python library; still the go-to for building with OpenAI models."
+description: "The official Python library for the openai API"
 category: "PyPI Packages"
 language: ""
 stars: 0
-downloads: 85062951
+downloads: 86838728
 likes: 0
 og_image: ""
 first_featured: "2026-03-23"
-last_featured: "2026-06-21"
-times_featured: 7
+last_featured: "2026-07-05"
+times_featured: 8
 streak: 0
 appearances: 0
 star_velocity: 0
 tags: [pypi]
 icp_tags: ["founding-team", "solopreneur"]
 replaces: []
-similar_to: ["litellm"]
-compare_to_source: "llm"
+similar_to: []
+compare_to_source: "manual"
 compare_to_validated: false
 ---
 
-The official OpenAI Python library; still the go-to for building with OpenAI models.
+The official Python library for the openai API

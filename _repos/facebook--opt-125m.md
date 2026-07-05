@@ -3,16 +3,16 @@ layout: repo
 name: "facebook/opt-125m"
 source: huggingface-model
 item_url: "https://huggingface.co/facebook/opt-125m"
-description: "A small Facebook text generation model, great for quick experiments or resource-constrained inference."
+description: "opt-125m"
 category: "HuggingFace Models"
 language: ""
 stars: 0
-downloads: 11767662
-likes: 267
+downloads: 13869888
+likes: 271
 og_image: ""
 first_featured: "2026-03-25"
-last_featured: "2026-06-21"
-times_featured: 7
+last_featured: "2026-07-05"
+times_featured: 8
 streak: 0
 appearances: 0
 star_velocity: 0
@@ -24,4 +24,4 @@ compare_to_source: "manual"
 compare_to_validated: false
 ---
 
-A small Facebook text generation model, great for quick experiments or resource-constrained inference.
+opt-125m
