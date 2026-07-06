@@ -1,0 +1,146 @@
+{
+  "generated_at": "2026-07-06T16:14:11.942Z",
+  "source": "launches",
+  "counts": {
+    "hackernews_showhn": 5,
+    "producthunt": 10,
+    "total": 15
+  },
+  "launches": [
+    {
+      "id": "showhn-48804182",
+      "name": "Scan your AI agents for dangerous capabilities",
+      "url": "https://github.com/makerchecker/MakerChecker",
+      "description": "Show HN: Scan your AI agents for dangerous capabilities",
+      "upvotes": 35,
+      "launch_date": "2026-07-06",
+      "platform_url": "https://news.ycombinator.com/item?id=48804182",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48802818",
+      "name": "Paint the Earth on a live, interactive globe (collaborative art.)",
+      "url": "https://earth.tattoo",
+      "description": "Show HN: Paint the Earth on a live, interactive globe (collaborative art.)",
+      "upvotes": 17,
+      "launch_date": "2026-07-06",
+      "platform_url": "https://news.ycombinator.com/item?id=48802818",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48798153",
+      "name": "Homegames. An open-source game platform I've been making for 8 years",
+      "url": "https://homegames.io",
+      "description": "Show HN: Homegames. An open-source game platform I've been making for 8 years",
+      "upvotes": 212,
+      "launch_date": "2026-07-06",
+      "platform_url": "https://news.ycombinator.com/item?id=48798153",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48797656",
+      "name": "Osint tool that finds exposed files on domains",
+      "url": "https://search.cerast-intelligence.com/",
+      "description": "Show HN: Osint tool that finds exposed files on domains",
+      "upvotes": 51,
+      "launch_date": "2026-07-06",
+      "platform_url": "https://news.ycombinator.com/item?id=48797656",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48766556",
+      "name": "Visualize Model Spikiness in 3D",
+      "url": "https://www.modelmap.tech/",
+      "description": "Show HN: Visualize Model Spikiness in 3D",
+      "upvotes": 16,
+      "launch_date": "2026-07-06",
+      "platform_url": "https://news.ycombinator.com/item?id=48766556",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "ph-1185300",
+      "name": "AnySearch",
+      "description": "Real-time structured search trusted by agents and developers",
+      "url": "https://www.producthunt.com/r/XAHTE3V55ECFBX?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 321,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1183905",
+      "name": "Octolens",
+      "description": "Social listening for the agent era",
+      "url": "https://www.producthunt.com/r/26DNQXDCV6O3BU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 244,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1186655",
+      "name": "Typeahead 2.0",
+      "description": "Private AI autocomplete for every app on your Mac",
+      "url": "https://www.producthunt.com/r/Z5R26SULXDA4LD?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 240,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1181072",
+      "name": "Sunrise",
+      "description": "A real planner for Google Tasks",
+      "url": "https://www.producthunt.com/r/QFLOAKOSS4JR7F?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 162,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1186793",
+      "name": "Edgee Claude Code Compressor V2",
+      "description": "Fewer tokens, same context, 50% cost reduction",
+      "url": "https://www.producthunt.com/r/XP65ILK6AEHTCC?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 157,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1187340",
+      "name": "AirKaren",
+      "description": "AI that fights customer service for you",
+      "url": "https://www.producthunt.com/r/HWQDIOXH2G3VA3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 140,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1188554",
+      "name": "CodeMote",
+      "description": "Claude Code, Codex, any CLI agent. Driven from your iPhone",
+      "url": "https://www.producthunt.com/r/ACPBRZ46RAWI7E?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 123,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1188550",
+      "name": "Nixmac",
+      "description": "Nix-darwin that speaks plain English",
+      "url": "https://www.producthunt.com/r/JP4IJONLR6JLA3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 122,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1188511",
+      "name": "Mozaik",
+      "description": "TypeScript runtime for self-organizing AI agents",
+      "url": "https://www.producthunt.com/r/QOCAWBMO77YXAE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 101,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1187160",
+      "name": "Cadence",
+      "description": "Record once, send confidently",
+      "url": "https://www.producthunt.com/r/PITEDFLX3FS24L?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 95,
+      "_source": "producthunt"
+    }
+  ]
+}
