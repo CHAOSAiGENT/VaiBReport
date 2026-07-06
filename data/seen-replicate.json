@@ -613,20 +613,20 @@
       "last_featured": "2026-06-21"
     },
     "dashed/whisperx-subtitles-replicate": {
-      "times_featured": 1,
-      "last_featured": "2026-06-22"
+      "times_featured": 2,
+      "last_featured": "2026-07-06"
     },
     "sprited/birefnet-toonout": {
       "times_featured": 1,
       "last_featured": "2026-06-22"
     },
     "sprited/birefnet-video": {
-      "times_featured": 1,
-      "last_featured": "2026-06-22"
+      "times_featured": 2,
+      "last_featured": "2026-07-06"
     },
     "lxcxsito/stargirlz": {
-      "times_featured": 1,
-      "last_featured": "2026-06-22"
+      "times_featured": 2,
+      "last_featured": "2026-07-06"
     },
     "alibaba/happyhorse-1.1": {
       "times_featured": 1,
@@ -663,6 +663,10 @@
     "csviverdeia/locateanything-3b-h100": {
       "times_featured": 1,
       "last_featured": "2026-07-05"
+    },
+    "google/nano-banana-2-lite": {
+      "times_featured": 1,
+      "last_featured": "2026-07-06"
     }
   }
 }

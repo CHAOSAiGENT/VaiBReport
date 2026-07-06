@@ -409,12 +409,12 @@
       "last_featured": "2026-06-16"
     },
     "notus": {
-      "times_featured": 4,
-      "last_featured": "2026-06-18"
+      "times_featured": 5,
+      "last_featured": "2026-07-06"
     },
     "notux": {
-      "times_featured": 4,
-      "last_featured": "2026-06-21"
+      "times_featured": 5,
+      "last_featured": "2026-07-06"
     },
     "minicpm-v4.6": {
       "times_featured": 1,
@@ -435,6 +435,18 @@
     "nemotron-3-nano": {
       "times_featured": 1,
       "last_featured": "2026-07-04"
+    },
+    "laguna-xs-2.1": {
+      "times_featured": 1,
+      "last_featured": "2026-07-06"
+    },
+    "falcon2": {
+      "times_featured": 1,
+      "last_featured": "2026-07-06"
+    },
+    "exaone3.5": {
+      "times_featured": 1,
+      "last_featured": "2026-07-06"
     }
   }
 }

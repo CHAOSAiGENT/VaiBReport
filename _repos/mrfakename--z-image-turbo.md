@@ -3,16 +3,16 @@ layout: repo
 name: "mrfakename/Z-Image-Turbo"
 source: huggingface-space
 item_url: "https://huggingface.co/spaces/mrfakename/Z-Image-Turbo"
-description: "Gradio app for image turbo"
+description: "Z-Image-Turbo likely offers rapid image processing; good for quick visual asset iteration."
 category: "HuggingFace Spaces"
 language: ""
 stars: 0
 downloads: 0
-likes: 3424
+likes: 3500
 og_image: "https://huggingface.co/api/spaces/mrfakename/Z-Image-Turbo/screenshot"
 first_featured: "2026-03-28"
-last_featured: "2026-06-22"
-times_featured: 7
+last_featured: "2026-07-06"
+times_featured: 8
 streak: 0
 appearances: 0
 star_velocity: 0
@@ -24,4 +24,4 @@ compare_to_source: "manual"
 compare_to_validated: false
 ---
 
-Gradio app for image turbo
+Z-Image-Turbo likely offers rapid image processing; good for quick visual asset iteration.

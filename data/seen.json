@@ -345,8 +345,8 @@
       "last_featured": "2026-06-26"
     },
     "yt-dlp/yt-dlp": {
-      "times_featured": 7,
-      "last_featured": "2026-06-22"
+      "times_featured": 8,
+      "last_featured": "2026-07-06"
     },
     "systemd/systemd": {
       "times_featured": 1,
@@ -449,8 +449,8 @@
       "last_featured": "2026-07-05"
     },
     "showlab/Awesome-Video-Diffusion": {
-      "times_featured": 7,
-      "last_featured": "2026-06-22"
+      "times_featured": 8,
+      "last_featured": "2026-07-06"
     },
     "nestjs/nest": {
       "times_featured": 2,
@@ -477,20 +477,20 @@
       "last_featured": "2026-07-05"
     },
     "reliverse/relivator": {
-      "times_featured": 7,
-      "last_featured": "2026-06-22"
+      "times_featured": 8,
+      "last_featured": "2026-07-06"
     },
     "shadcn-ui/next-template": {
-      "times_featured": 7,
-      "last_featured": "2026-06-22"
+      "times_featured": 8,
+      "last_featured": "2026-07-06"
     },
     "JoshuaKGoldberg/create-typescript-app": {
-      "times_featured": 7,
-      "last_featured": "2026-06-22"
+      "times_featured": 8,
+      "last_featured": "2026-07-06"
     },
     "emonney/QuickApp": {
-      "times_featured": 7,
-      "last_featured": "2026-06-22"
+      "times_featured": 8,
+      "last_featured": "2026-07-06"
     },
     "MeiGen-AI/InfiniteTalk": {
       "times_featured": 8,
@@ -501,8 +501,8 @@
       "last_featured": "2026-06-22"
     },
     "NVlabs/Sana": {
-      "times_featured": 7,
-      "last_featured": "2026-06-22"
+      "times_featured": 8,
+      "last_featured": "2026-07-06"
     },
     "Tencent-Hunyuan/HunyuanVideo-1.5": {
       "times_featured": 7,
@@ -533,8 +533,8 @@
       "last_featured": "2026-03-27"
     },
     "denoland/saaskit": {
-      "times_featured": 7,
-      "last_featured": "2026-06-22"
+      "times_featured": 8,
+      "last_featured": "2026-07-06"
     },
     "JohnBra/vite-web-extension": {
       "times_featured": 7,
@@ -641,8 +641,8 @@
       "last_featured": "2026-03-29"
     },
     "Z4nzu/hackingtool": {
-      "times_featured": 2,
-      "last_featured": "2026-04-22"
+      "times_featured": 3,
+      "last_featured": "2026-07-06"
     },
     "jellyfin/jellyfin": {
       "times_featured": 3,
@@ -673,8 +673,8 @@
       "last_featured": "2026-06-25"
     },
     "getpaykit/paykit": {
-      "times_featured": 7,
-      "last_featured": "2026-06-22"
+      "times_featured": 8,
+      "last_featured": "2026-07-06"
     },
     "AIDC-AI/Pixelle-Video": {
       "times_featured": 7,
@@ -805,8 +805,8 @@
       "last_featured": "2026-04-26"
     },
     "Anil-matcha/Open-Generative-AI": {
-      "times_featured": 6,
-      "last_featured": "2026-06-22"
+      "times_featured": 7,
+      "last_featured": "2026-07-06"
     },
     "usememos/memos": {
       "times_featured": 2,
@@ -1217,24 +1217,24 @@
       "last_featured": "2026-04-27"
     },
     "HBAI-Ltd/Toonflow-app": {
-      "times_featured": 5,
-      "last_featured": "2026-06-22"
+      "times_featured": 6,
+      "last_featured": "2026-07-06"
     },
     "hummingbot/hummingbot": {
       "times_featured": 1,
       "last_featured": "2026-04-27"
     },
     "ConardLi/garden-skills": {
-      "times_featured": 5,
-      "last_featured": "2026-06-22"
+      "times_featured": 6,
+      "last_featured": "2026-07-06"
     },
     "PaperMC/Paper": {
       "times_featured": 1,
       "last_featured": "2026-04-27"
     },
     "seerr-team/seerr": {
-      "times_featured": 1,
-      "last_featured": "2026-04-27"
+      "times_featured": 2,
+      "last_featured": "2026-07-06"
     },
     "TechnitiumSoftware/DnsServer": {
       "times_featured": 1,
@@ -1495,6 +1495,22 @@
     "exelban/stats": {
       "times_featured": 1,
       "last_featured": "2026-07-05"
+    },
+    "lissy93/dashy": {
+      "times_featured": 1,
+      "last_featured": "2026-07-06"
+    },
+    "binwiederhier/ntfy": {
+      "times_featured": 1,
+      "last_featured": "2026-07-06"
+    },
+    "avelino/awesome-go": {
+      "times_featured": 1,
+      "last_featured": "2026-07-06"
+    },
+    "rothgar/awesome-tuis": {
+      "times_featured": 1,
+      "last_featured": "2026-07-06"
     }
   }
 }

@@ -1,8 +1,8 @@
 {
   "featured": {
     "enzostvs/deepsite": {
-      "times_featured": 3,
-      "last_featured": "2026-06-22"
+      "times_featured": 4,
+      "last_featured": "2026-07-06"
     },
     "open-llm-leaderboard/open_llm_leaderboard": {
       "times_featured": 9,
@@ -173,16 +173,16 @@
       "last_featured": "2026-03-25"
     },
     "InstantX/InstantID": {
-      "times_featured": 7,
-      "last_featured": "2026-06-22"
+      "times_featured": 8,
+      "last_featured": "2026-07-06"
     },
     "tencent/Hunyuan3D-2": {
-      "times_featured": 7,
-      "last_featured": "2026-06-22"
+      "times_featured": 8,
+      "last_featured": "2026-07-06"
     },
     "hexgrad/Kokoro-TTS": {
-      "times_featured": 7,
-      "last_featured": "2026-06-22"
+      "times_featured": 8,
+      "last_featured": "2026-07-06"
     },
     "akhaliq/anycoder": {
       "times_featured": 7,
@@ -197,8 +197,8 @@
       "last_featured": "2026-04-14"
     },
     "trl-internal-testing/tiny-Qwen2ForCausalLM-2.5": {
-      "times_featured": 7,
-      "last_featured": "2026-06-22"
+      "times_featured": 8,
+      "last_featured": "2026-07-06"
     },
     "Qwen/Qwen3-4B": {
       "times_featured": 8,
@@ -217,8 +217,8 @@
       "last_featured": "2026-04-25"
     },
     "openai/gsm8k": {
-      "times_featured": 7,
-      "last_featured": "2026-06-22"
+      "times_featured": 8,
+      "last_featured": "2026-07-06"
     },
     "princeton-nlp/SWE-bench_Verified": {
       "times_featured": 7,
@@ -257,8 +257,8 @@
       "last_featured": "2026-06-28"
     },
     "argmaxinc/whisperkit-coreml": {
-      "times_featured": 7,
-      "last_featured": "2026-06-22"
+      "times_featured": 8,
+      "last_featured": "2026-07-06"
     },
     "Marqo/nsfw-image-detection-384": {
       "times_featured": 4,
@@ -293,16 +293,16 @@
       "last_featured": "2026-06-25"
     },
     "mrfakename/Z-Image-Turbo": {
-      "times_featured": 7,
-      "last_featured": "2026-06-22"
+      "times_featured": 8,
+      "last_featured": "2026-07-06"
     },
     "Qwen/Qwen3-Embedding-0.6B": {
-      "times_featured": 7,
-      "last_featured": "2026-06-22"
+      "times_featured": 8,
+      "last_featured": "2026-07-06"
     },
     "BAAI/bge-base-en-v1.5": {
-      "times_featured": 7,
-      "last_featured": "2026-06-22"
+      "times_featured": 8,
+      "last_featured": "2026-07-06"
     },
     "jonatasgrosman/wav2vec2-large-xlsr-53-chinese-zh-cn": {
       "times_featured": 2,
@@ -445,8 +445,8 @@
       "last_featured": "2026-05-11"
     },
     "xlangai/ubuntu_osworld_file_cache": {
-      "times_featured": 6,
-      "last_featured": "2026-06-22"
+      "times_featured": 7,
+      "last_featured": "2026-07-06"
     },
     "mteb/results": {
       "times_featured": 6,
@@ -987,6 +987,14 @@
     "applied-ai-018/pretraining_v1-omega_books": {
       "times_featured": 1,
       "last_featured": "2026-07-04"
+    },
+    "BAAI/bge-base-zh-v1.5": {
+      "times_featured": 1,
+      "last_featured": "2026-07-06"
+    },
+    "angie-chen55/python-github-code": {
+      "times_featured": 1,
+      "last_featured": "2026-07-06"
     }
   }
 }
