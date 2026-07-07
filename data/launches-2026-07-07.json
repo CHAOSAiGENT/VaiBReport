@@ -1,0 +1,226 @@
+{
+  "generated_at": "2026-07-07T15:40:44.318Z",
+  "source": "launches",
+  "counts": {
+    "hackernews_showhn": 13,
+    "producthunt": 9,
+    "total": 22
+  },
+  "launches": [
+    {
+      "id": "showhn-48816900",
+      "name": "PostgreSQL performance and cost across 23 EC2 instance types",
+      "url": "https://postgres.saneengineer.com",
+      "description": "Show HN: PostgreSQL performance and cost across 23 EC2 instance types",
+      "upvotes": 18,
+      "launch_date": "2026-07-07",
+      "platform_url": "https://news.ycombinator.com/item?id=48816900",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48814952",
+      "name": "Fast, native Mac file manager (filters, fuzzy find, 9 MB, no Electron)",
+      "url": "https://whimfiles.com",
+      "description": "Show HN: Fast, native Mac file manager (filters, fuzzy find, 9 MB, no Electron)",
+      "upvotes": 59,
+      "launch_date": "2026-07-07",
+      "platform_url": "https://news.ycombinator.com/item?id=48814952",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48806575",
+      "name": "Pulpie – Models for Cleaning the Web",
+      "url": "https://usefeyn.com/blog/pulpie-pareto-optimal-models-for-cleaning-the-web/",
+      "description": "Show HN: Pulpie – Models for Cleaning the Web",
+      "upvotes": 97,
+      "launch_date": "2026-07-07",
+      "platform_url": "https://news.ycombinator.com/item?id=48806575",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48812045",
+      "name": "InstantVideos.org – short documentaries in ~30 seconds",
+      "url": "https://instantvideos.org/",
+      "description": "Show HN: InstantVideos.org – short documentaries in ~30 seconds",
+      "upvotes": 24,
+      "launch_date": "2026-07-07",
+      "platform_url": "https://news.ycombinator.com/item?id=48812045",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48810528",
+      "name": "Otari: your open-source LLM control plane",
+      "url": "https://github.com/mozilla-ai/otari",
+      "description": "Show HN: Otari: your open-source LLM control plane",
+      "upvotes": 18,
+      "launch_date": "2026-07-07",
+      "platform_url": "https://news.ycombinator.com/item?id=48810528",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48798153",
+      "name": "Homegames. An open-source game platform I've been making for 8 years",
+      "url": "https://homegames.io",
+      "description": "Show HN: Homegames. An open-source game platform I've been making for 8 years",
+      "upvotes": 224,
+      "launch_date": "2026-07-07",
+      "platform_url": "https://news.ycombinator.com/item?id=48798153",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48797656",
+      "name": "Osint tool that finds exposed files on domains",
+      "url": "https://search.cerast-intelligence.com/",
+      "description": "Show HN: Osint tool that finds exposed files on domains",
+      "upvotes": 58,
+      "launch_date": "2026-07-07",
+      "platform_url": "https://news.ycombinator.com/item?id=48797656",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48766242",
+      "name": "Bramble – Local-first password manager",
+      "url": "https://github.com/flythenimbus/bramble",
+      "description": "Show HN: Bramble – Local-first password manager",
+      "upvotes": 149,
+      "launch_date": "2026-07-07",
+      "platform_url": "https://news.ycombinator.com/item?id=48766242",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48805437",
+      "name": "I Built LangGraph for Swift",
+      "url": "https://github.com/christopherkarani/Swarm",
+      "description": "Show HN: I Built LangGraph for Swift",
+      "upvotes": 24,
+      "launch_date": "2026-07-07",
+      "platform_url": "https://news.ycombinator.com/item?id=48805437",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48802818",
+      "name": "Paint the Earth on a live, interactive globe (collaborative art.)",
+      "url": "https://earth.tattoo",
+      "description": "Show HN: Paint the Earth on a live, interactive globe (collaborative art.)",
+      "upvotes": 20,
+      "launch_date": "2026-07-07",
+      "platform_url": "https://news.ycombinator.com/item?id=48802818",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48793542",
+      "name": "KiCad in the Browser",
+      "url": "https://demo.pcbjam.com/",
+      "description": "Show HN: KiCad in the Browser",
+      "upvotes": 108,
+      "launch_date": "2026-07-07",
+      "platform_url": "https://news.ycombinator.com/item?id=48793542",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48805857",
+      "name": "Nectar, a Rust-like React that compiles to WebAssembly",
+      "url": "https://buildnectar.com",
+      "description": "Show HN: Nectar, a Rust-like React that compiles to WebAssembly",
+      "upvotes": 10,
+      "launch_date": "2026-07-07",
+      "platform_url": "https://news.ycombinator.com/item?id=48805857",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48766556",
+      "name": "Visualize Model Spikiness in 3D",
+      "url": "https://www.modelmap.tech/",
+      "description": "Show HN: Visualize Model Spikiness in 3D",
+      "upvotes": 18,
+      "launch_date": "2026-07-07",
+      "platform_url": "https://news.ycombinator.com/item?id=48766556",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "ph-1131659",
+      "name": "Badge",
+      "description": "AI agents collect peer reviews to generate proof of work",
+      "url": "https://www.producthunt.com/r/SJNBNECUTZE3BI?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 362,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1184570",
+      "name": "Scribble Network",
+      "description": "The product that makes AI recommend your brand",
+      "url": "https://www.producthunt.com/r/UC5EA4CAN72QZO?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 259,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1172798",
+      "name": "Katalyst ",
+      "description": "The AI agent that works your Salesforce Pipeline",
+      "url": "https://www.producthunt.com/r/I2QDECZXLT36XU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 223,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1183892",
+      "name": "Mira",
+      "description": "AI moderated interviews that read how people feel",
+      "url": "https://www.producthunt.com/r/QVOBLGCIMXF4AQ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 175,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1189175",
+      "name": "AI Emaily",
+      "description": "Your AI inbox that writes like you + replies on autopilot",
+      "url": "https://www.producthunt.com/r/YDSWN642V7QU7T?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 158,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1180703",
+      "name": "Social Fetch",
+      "description": "Social media scraper API for every major platform",
+      "url": "https://www.producthunt.com/r/64J2C2YZACK3VR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 148,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1153345",
+      "name": "Ellis",
+      "description": "AI notes for in-person meetings",
+      "url": "https://www.producthunt.com/r/77OH47D2XJ2D5C?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 142,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1181363",
+      "name": "Ogment AI",
+      "description": "Your AI coworker, in Slack. Just tag @O.",
+      "url": "https://www.producthunt.com/r/MKGRS2HJKQ6GT5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 135,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1188995",
+      "name": "Zoho Tables",
+      "description": "Smarter way to manage work and data.",
+      "url": "https://www.producthunt.com/r/GVPAU3SBVA32ZX?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 124,
+      "_source": "producthunt"
+    }
+  ]
+}
