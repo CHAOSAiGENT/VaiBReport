@@ -3,7 +3,7 @@ layout: repo
 name: "ultralytics/yolo11n"
 source: replicate
 item_url: "https://replicate.com/ultralytics/yolo11n"
-description: "YOLO11n for real-time object detection, a lightweight and fast model for vision tasks."
+description: "YOLO11n for fast CPU object detection via Replicate; integrate computer vision without heavy GPU infrastructure."
 category: "Replicate Models"
 language: ""
 stars: 0
@@ -11,17 +11,17 @@ downloads: 0
 likes: 0
 og_image: ""
 first_featured: "2026-04-10"
-last_featured: "2026-06-23"
-times_featured: 4
+last_featured: "2026-07-07"
+times_featured: 5
 streak: 0
 appearances: 0
 star_velocity: 0
 tags: [replicate]
 icp_tags: ["non-technical", "solopreneur"]
-replaces: [{"name":"Google Cloud Vision API","url":"https://cloud.google.com/vision","note":"Commercial object detection"},{"name":"Amazon Rekognition","url":"https://aws.amazon.com/rekognition/","note":"Commercial object detection"},{"name":"Azure Custom Vision","url":"https://azure.microsoft.com/en-us/products/ai/azure-ai-vision/","note":"Custom object detection"}]
-similar_to: []
+replaces: [{"name":"AWS Rekognition","url":"https://aws.amazon.com/rekognition","note":"object detection"},{"name":"Google Cloud Vision API","url":"https://cloud.google.com/vision","note":"object detection"}]
+similar_to: ["ultralytics--yolov8s-worldv2"]
 compare_to_source: "llm"
-compare_to_validated: true
+compare_to_validated: false
 ---
 
-YOLO11n for real-time object detection, a lightweight and fast model for vision tasks.
+YOLO11n for fast CPU object detection via Replicate; integrate computer vision without heavy GPU infrastructure.

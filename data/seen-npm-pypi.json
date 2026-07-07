@@ -65,8 +65,8 @@
       "last_featured": "2026-07-05"
     },
     "pypi-anthropic": {
-      "times_featured": 7,
-      "last_featured": "2026-06-22"
+      "times_featured": 8,
+      "last_featured": "2026-07-07"
     },
     "pypi-datasets": {
       "times_featured": 7,
@@ -101,12 +101,12 @@
       "last_featured": "2026-07-05"
     },
     "pypi-litellm": {
-      "times_featured": 7,
-      "last_featured": "2026-06-21"
+      "times_featured": 8,
+      "last_featured": "2026-07-07"
     },
     "pypi-sentence-transformers": {
-      "times_featured": 7,
-      "last_featured": "2026-06-19"
+      "times_featured": 8,
+      "last_featured": "2026-07-07"
     },
     "pypi-streamlit": {
       "times_featured": 7,
@@ -173,8 +173,8 @@
       "last_featured": "2026-07-06"
     },
     "npm-@genkit-ai/google-genai": {
-      "times_featured": 7,
-      "last_featured": "2026-06-23"
+      "times_featured": 8,
+      "last_featured": "2026-07-07"
     },
     "npm-genkit-cli": {
       "times_featured": 7,
@@ -285,8 +285,8 @@
       "last_featured": "2026-06-24"
     },
     "npm-@appium/logger": {
-      "times_featured": 5,
-      "last_featured": "2026-06-14"
+      "times_featured": 6,
+      "last_featured": "2026-07-07"
     },
     "npm-@applitools/utils": {
       "times_featured": 1,
@@ -313,12 +313,12 @@
       "last_featured": "2026-06-14"
     },
     "npm-@appium/tsconfig": {
-      "times_featured": 6,
-      "last_featured": "2026-06-23"
+      "times_featured": 7,
+      "last_featured": "2026-07-07"
     },
     "npm-@appium/base-plugin": {
-      "times_featured": 5,
-      "last_featured": "2026-06-23"
+      "times_featured": 6,
+      "last_featured": "2026-07-07"
     },
     "pypi-firecrawl": {
       "times_featured": 6,
@@ -443,6 +443,10 @@
     "npm-spine-framework": {
       "times_featured": 1,
       "last_featured": "2026-06-30"
+    },
+    "npm-@a2ui/web_core": {
+      "times_featured": 1,
+      "last_featured": "2026-07-07"
     }
   }
 }

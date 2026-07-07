@@ -3,25 +3,25 @@ layout: repo
 name: "litellm"
 source: pypi
 item_url: "https://pypi.org/project/litellm/"
-description: "LiteLLM makes interfacing with many LLM APIs simple, saving you from juggling multiple SDKs."
+description: "A single interface for all LLM API providers; manage models, retries, and costs efficiently across services."
 category: "PyPI Packages"
 language: ""
 stars: 0
-downloads: 132318251
+downloads: 140362975
 likes: 0
 og_image: ""
 first_featured: "2026-03-25"
-last_featured: "2026-06-21"
-times_featured: 7
+last_featured: "2026-07-07"
+times_featured: 8
 streak: 0
 appearances: 0
 star_velocity: 0
 tags: [pypi]
 icp_tags: ["founding-team", "solopreneur"]
-replaces: [{"name":"OpenAI Python client","url":"https://pypi.org/project/openai/","note":"replaces multiple individual API clients"},{"name":"Anthropic Python client","url":"https://pypi.org/project/anthropic/","note":"replaces multiple individual API clients"},{"name":"Cohere Python client","url":"https://pypi.org/project/cohere/","note":"replaces multiple individual API clients"}]
-similar_to: ["langchain"]
+replaces: [{"name":"OpenAI API","url":"https://openai.com/docs/api-reference","note":"direct OpenAI API calls"},{"name":"Anthropic API","url":"https://www.anthropic.com/api","note":"direct Anthropic API calls"},{"name":"Cohere API","url":"https://cohere.com/api","note":"direct Cohere API calls"}]
+similar_to: ["langchain-ai--langchain"]
 compare_to_source: "llm"
 compare_to_validated: false
 ---
 
-LiteLLM makes interfacing with many LLM APIs simple, saving you from juggling multiple SDKs.
+A single interface for all LLM API providers; manage models, retries, and costs efficiently across services.

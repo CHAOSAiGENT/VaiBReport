@@ -373,8 +373,8 @@
       "last_featured": "2026-06-27"
     },
     "vllm-project/vllm-omni": {
-      "times_featured": 7,
-      "last_featured": "2026-06-23"
+      "times_featured": 8,
+      "last_featured": "2026-07-07"
     },
     "saturndec/waoowaoo": {
       "times_featured": 7,
@@ -497,20 +497,20 @@
       "last_featured": "2026-07-05"
     },
     "AILab-CVC/VideoCrafter": {
-      "times_featured": 7,
-      "last_featured": "2026-06-22"
+      "times_featured": 8,
+      "last_featured": "2026-07-07"
     },
     "NVlabs/Sana": {
       "times_featured": 8,
       "last_featured": "2026-07-06"
     },
     "Tencent-Hunyuan/HunyuanVideo-1.5": {
-      "times_featured": 7,
-      "last_featured": "2026-06-23"
+      "times_featured": 8,
+      "last_featured": "2026-07-07"
     },
     "nateraw/stable-diffusion-videos": {
-      "times_featured": 7,
-      "last_featured": "2026-06-23"
+      "times_featured": 8,
+      "last_featured": "2026-07-07"
     },
     "vitejs/vite": {
       "times_featured": 2,
@@ -537,24 +537,24 @@
       "last_featured": "2026-07-06"
     },
     "JohnBra/vite-web-extension": {
-      "times_featured": 7,
-      "last_featured": "2026-06-23"
+      "times_featured": 8,
+      "last_featured": "2026-07-07"
     },
     "mugnavo/tanstarter": {
-      "times_featured": 7,
-      "last_featured": "2026-06-23"
+      "times_featured": 8,
+      "last_featured": "2026-07-07"
     },
     "guigrpa/docx-templates": {
-      "times_featured": 7,
-      "last_featured": "2026-06-23"
+      "times_featured": 8,
+      "last_featured": "2026-07-07"
     },
     "dishait/tov-template": {
       "times_featured": 5,
       "last_featured": "2026-05-26"
     },
     "antgroup/echomimic_v2": {
-      "times_featured": 7,
-      "last_featured": "2026-06-23"
+      "times_featured": 8,
+      "last_featured": "2026-07-07"
     },
     "VectorSpaceLab/OmniGen": {
       "times_featured": 7,
@@ -589,8 +589,8 @@
       "last_featured": "2026-06-25"
     },
     "Skolaczk/next-starter": {
-      "times_featured": 7,
-      "last_featured": "2026-06-23"
+      "times_featured": 8,
+      "last_featured": "2026-07-07"
     },
     "agustinusnathaniel/nextarter-chakra": {
       "times_featured": 7,
@@ -741,8 +741,8 @@
       "last_featured": "2026-06-29"
     },
     "f/prompts.chat": {
-      "times_featured": 2,
-      "last_featured": "2026-04-29"
+      "times_featured": 3,
+      "last_featured": "2026-07-07"
     },
     "codecrafters-io/build-your-own-x": {
       "times_featured": 3,
@@ -761,8 +761,8 @@
       "last_featured": "2026-07-04"
     },
     "Eugeny/tabby": {
-      "times_featured": 1,
-      "last_featured": "2026-04-11"
+      "times_featured": 2,
+      "last_featured": "2026-07-07"
     },
     "Anil-matcha/Open-Higgsfield-AI": {
       "times_featured": 1,
@@ -789,8 +789,8 @@
       "last_featured": "2026-04-12"
     },
     "langchain-ai/langchain": {
-      "times_featured": 1,
-      "last_featured": "2026-04-12"
+      "times_featured": 2,
+      "last_featured": "2026-07-07"
     },
     "supabase/supabase": {
       "times_featured": 2,
@@ -1165,8 +1165,8 @@
       "last_featured": "2026-04-23"
     },
     "nocodb/nocodb": {
-      "times_featured": 1,
-      "last_featured": "2026-04-24"
+      "times_featured": 2,
+      "last_featured": "2026-07-07"
     },
     "lucidrains/vit-pytorch": {
       "times_featured": 1,
@@ -1511,6 +1511,22 @@
     "rothgar/awesome-tuis": {
       "times_featured": 1,
       "last_featured": "2026-07-06"
+    },
+    "jesseduffield/lazydocker": {
+      "times_featured": 1,
+      "last_featured": "2026-07-07"
+    },
+    "Osmantic/ODS": {
+      "times_featured": 1,
+      "last_featured": "2026-07-07"
+    },
+    "jax-ml/jax": {
+      "times_featured": 1,
+      "last_featured": "2026-07-07"
+    },
+    "deepinsight/insightface": {
+      "times_featured": 1,
+      "last_featured": "2026-07-07"
     }
   }
 }

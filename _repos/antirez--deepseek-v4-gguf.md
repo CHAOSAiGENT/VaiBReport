@@ -3,25 +3,25 @@ layout: repo
 name: "antirez/deepseek-v4-gguf"
 source: huggingface-model
 item_url: "https://huggingface.co/antirez/deepseek-v4-gguf"
-description: "A quantized Deepseek-v4 model in GGUF format, perfect for running powerful LLMs efficiently on your hardware."
+description: "Quantized Deepseek-v4 in GGUF for local LLM inference; run powerful models efficiently on your machine."
 category: "HuggingFace Models"
 language: ""
 stars: 0
-downloads: 5162447
-likes: 268
+downloads: 6392626
+likes: 311
 og_image: ""
 first_featured: "2026-06-23"
-last_featured: "2026-06-23"
-times_featured: 1
+last_featured: "2026-07-07"
+times_featured: 2
 streak: 0
 appearances: 0
 star_velocity: 0
 tags: [huggingface, gguf, quantized, deepseek, deepseek-v4, deepseek-v4-flash, moe, mixture-of-experts, 2-bit]
 icp_tags: ["founding-team", "pre-mvp"]
-replaces: [{"name":"OpenAI API","url":"https://openai.com","note":"For local LLM inference"},{"name":"Anthropic API","url":"https://www.anthropic.com","note":"For local LLM inference"},{"name":"Perplexity AI","url":"https://www.perplexity.ai","note":"For local LLM inference"}]
-similar_to: ["granite3-dense", "llama3-gradient"]
+replaces: [{"name":"OpenAI GPT-4 API","url":"https://openai.com/docs/models/gpt-4","note":"advanced text generation"},{"name":"Hugging Face Inference Endpoints","url":"https://huggingface.co/inference-endpoints","note":"cloud LLM inference"}]
+similar_to: ["openai--gpt-oss-20b", "granite3-dense"]
 compare_to_source: "llm"
-compare_to_validated: true
+compare_to_validated: false
 ---
 
-A quantized Deepseek-v4 model in GGUF format, perfect for running powerful LLMs efficiently on your hardware.
+Quantized Deepseek-v4 in GGUF for local LLM inference; run powerful models efficiently on your machine.

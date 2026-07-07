@@ -3,25 +3,25 @@ layout: repo
 name: "nateraw/stable-diffusion-videos"
 source: github
 item_url: "https://github.com/nateraw/stable-diffusion-videos"
-description: "Turn text prompts into cool Stable Diffusion videos; great for generating unique visual content on a budget."
+description: "Morph Stable Diffusion prompts into unique videos; perfect for dynamic AI-generated content."
 category: "UGC, social media and creator tools"
 language: "Python"
-stars: 4684
+stars: 4699
 downloads: 0
 likes: 0
 og_image: "https://opengraph.githubassets.com/1/nateraw/stable-diffusion-videos"
 first_featured: "2026-03-27"
-last_featured: "2026-06-23"
-times_featured: 7
-streak: 49
-appearances: 49
+last_featured: "2026-07-07"
+times_featured: 8
+streak: 61
+appearances: 61
 star_velocity: 0
 tags: [github, ai-art, huggingface, huggingface-diffusers, machine-learning, stable-diffusion]
 icp_tags: ["solopreneur", "non-technical", "entreprecurious"]
-replaces: [{"name":"RunwayML","url":"https://runwayml.com","note":"Text-to-video generation"},{"name":"Pika Labs","url":"https://www.pika.art","note":"Text-to-video generation"},{"name":"Midjourney","url":"https://www.midjourney.com","note":"Image generation, less video focused"}]
+replaces: [{"name":"RunwayML","url":"https://runwayml.com","note":"AI video creation studio"},{"name":"Pika Labs","url":"https://www.pika.art","note":"Text-to-video generation"}]
 similar_to: []
 compare_to_source: "llm"
-compare_to_validated: true
+compare_to_validated: false
 ---
 
-Turn text prompts into cool Stable Diffusion videos; great for generating unique visual content on a budget.
+Morph Stable Diffusion prompts into unique videos; perfect for dynamic AI-generated content.
