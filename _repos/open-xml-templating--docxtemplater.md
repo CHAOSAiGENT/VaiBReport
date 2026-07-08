@@ -3,26 +3,26 @@ layout: repo
 name: "open-xml-templating/docxtemplater"
 source: github
 item_url: "https://github.com/open-xml-templating/docxtemplater"
-description: "Generate Office documents from templates"
+description: "Generate docx, pptx, and xlsx from templates (Word, Powerpoint and Excel documents), from Node.js or the browser. Demo: https://www.docxtemplater.com/demo. #docx #office #generator #templating #report #json #generate #generation #template #create #pptx #docx #xlsx #react #vuejs #angularjs #browser #typescript #image #html #table #chart"
 category: "UGC, social media and creator tools"
 language: "JavaScript"
-stars: 3560
+stars: 3601
 downloads: 0
 likes: 0
 readme_image: "http://img.badgesize.io/https://raw.githubusercontent.com/open-xml-templating/docxtemplater-build/master/build/docxtemplater-latest.min.js?label=size&style=flat-square"
 og_image: "https://opengraph.githubassets.com/1/open-xml-templating/docxtemplater"
 first_featured: "2026-03-29"
-last_featured: "2026-06-24"
-times_featured: 7
-streak: 49
-appearances: 49
+last_featured: "2026-07-08"
+times_featured: 8
+streak: 62
+appearances: 62
 star_velocity: 1
 tags: [github, docx, docx-generation, docx-generator, docx-template, excel, javascript, microsoft, office]
 icp_tags: ["solopreneur", "non-technical", "entreprecurious"]
-replaces: [{"name":"Microsoft Word","url":"https://www.microsoft.com/en-us/microsoft-365/word","note":"document generation"}]
+replaces: []
 similar_to: []
-compare_to_source: "llm"
+compare_to_source: "manual"
 compare_to_validated: false
 ---
 
-Generate Office documents from templates
+Generate docx, pptx, and xlsx from templates (Word, Powerpoint and Excel documents), from Node.js or the browser. Demo: https://www.docxtemplater.com/demo. #docx #office #generator #templating #report #json #generate #generation #template #create #pptx #docx #xlsx #react #vuejs #angularjs #browser #typescript #image #html #table #chart

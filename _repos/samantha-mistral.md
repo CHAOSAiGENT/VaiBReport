@@ -3,7 +3,7 @@ layout: repo
 name: "samantha-mistral"
 source: ollama
 item_url: "https://ollama.com/library/samantha-mistral"
-description: "Companion assistant model"
+description: "Integrate a personalized companion AI for philosophical and psychological interactions, built on Mistral."
 category: "Ollama Models"
 language: ""
 stars: 0
@@ -11,19 +11,19 @@ downloads: 0
 likes: 0
 og_image: ""
 first_featured: "2026-04-15"
-last_featured: "2026-06-24"
-times_featured: 6
+last_featured: "2026-07-08"
+times_featured: 7
 streak: 0
 appearances: 0
 star_velocity: 0
-tags: [ollama, 7b, 915.5K
-                 Pulls, 915.5K, Pulls, 49
+tags: [ollama, 7b, 956.8K
+                 Pulls, 956.8K, Pulls, 49
                  Tags, 49, Tags, Updated]
 icp_tags: ["non-technical", "pre-mvp", "entreprecurious"]
-replaces: [{"name":"Amazon Alexa","url":"https://developer.amazon.com/alexa","note":"virtual assistant"}]
-similar_to: []
+replaces: [{"name":"Replika AI","url":"https://replika.ai","note":"AI companion app"},{"name":"Character.AI","url":"https://character.ai","note":"AI character chat"}]
+similar_to: ["internlm2", "llama3-groq-tool-use"]
 compare_to_source: "llm"
 compare_to_validated: false
 ---
 
-Companion assistant model
+Integrate a personalized companion AI for philosophical and psychological interactions, built on Mistral.

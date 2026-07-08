@@ -221,8 +221,8 @@
       "last_featured": "2026-07-06"
     },
     "princeton-nlp/SWE-bench_Verified": {
-      "times_featured": 7,
-      "last_featured": "2026-06-23"
+      "times_featured": 8,
+      "last_featured": "2026-07-08"
     },
     "mukaist/Midjourney": {
       "times_featured": 8,
@@ -449,8 +449,8 @@
       "last_featured": "2026-07-06"
     },
     "mteb/results": {
-      "times_featured": 6,
-      "last_featured": "2026-06-22"
+      "times_featured": 7,
+      "last_featured": "2026-07-08"
     },
     "ayuo/hd_tmp": {
       "times_featured": 7,
@@ -521,8 +521,8 @@
       "last_featured": "2026-06-27"
     },
     "Salesforce/blip-image-captioning-base": {
-      "times_featured": 5,
-      "last_featured": "2026-06-24"
+      "times_featured": 6,
+      "last_featured": "2026-07-08"
     },
     "ryanmarten/OpenThoughts-1k-sample": {
       "times_featured": 6,
@@ -569,8 +569,8 @@
       "last_featured": "2026-06-29"
     },
     "Qwen/Qwen3-Embedding-4B": {
-      "times_featured": 5,
-      "last_featured": "2026-06-24"
+      "times_featured": 6,
+      "last_featured": "2026-07-08"
     },
     "rtrm/debug": {
       "times_featured": 1,
@@ -797,8 +797,8 @@
       "last_featured": "2026-06-27"
     },
     "BAAI/bge-reranker-large": {
-      "times_featured": 3,
-      "last_featured": "2026-06-24"
+      "times_featured": 4,
+      "last_featured": "2026-07-08"
     },
     "mistralai/Voxtral-Mini-4B-Realtime-2602": {
       "times_featured": 1,
@@ -853,8 +853,8 @@
       "last_featured": "2026-06-29"
     },
     "ibm-granite/granite-embedding-small-english-r2": {
-      "times_featured": 2,
-      "last_featured": "2026-06-24"
+      "times_featured": 3,
+      "last_featured": "2026-07-08"
     },
     "permutans/arxiv-papers-by-subject": {
       "times_featured": 1,
@@ -929,12 +929,12 @@
       "last_featured": "2026-07-07"
     },
     "gigant/romanian-wav2vec2": {
-      "times_featured": 1,
-      "last_featured": "2026-06-24"
+      "times_featured": 2,
+      "last_featured": "2026-07-08"
     },
     "mvp-lab/LLaVA-OneVision-1.5-Mid-Training-85M": {
-      "times_featured": 1,
-      "last_featured": "2026-06-24"
+      "times_featured": 2,
+      "last_featured": "2026-07-08"
     },
     "jacobbieker/eumetsat-rss": {
       "times_featured": 1,
