@@ -1,0 +1,265 @@
+{
+  "generated_at": "2026-07-08T15:09:12.871Z",
+  "source": "launches",
+  "counts": {
+    "hackernews_showhn": 18,
+    "producthunt": 7,
+    "total": 25
+  },
+  "launches": [
+    {
+      "id": "showhn-48786455",
+      "name": "Follow London Trains in 3D",
+      "url": "https://ride.nexttrain.london/",
+      "description": "Show HN: Follow London Trains in 3D",
+      "upvotes": 15,
+      "launch_date": "2026-07-08",
+      "platform_url": "https://news.ycombinator.com/item?id=48786455",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48821848",
+      "name": "Davit, a Apple Containers UI",
+      "url": "https://davit.app",
+      "description": "Show HN: Davit, a Apple Containers UI",
+      "upvotes": 354,
+      "launch_date": "2026-07-08",
+      "platform_url": "https://news.ycombinator.com/item?id=48821848",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48819808",
+      "name": "Rowboat – Open-source, local-first alternative to Claude Desktop",
+      "url": "https://github.com/rowboatlabs/rowboat",
+      "description": "Show HN: Rowboat – Open-source, local-first alternative to Claude Desktop",
+      "upvotes": 195,
+      "launch_date": "2026-07-08",
+      "platform_url": "https://news.ycombinator.com/item?id=48819808",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48794042",
+      "name": "Neil the Seal Game",
+      "url": "https://neiltheseal.app/",
+      "description": "Show HN: Neil the Seal Game",
+      "upvotes": 64,
+      "launch_date": "2026-07-08",
+      "platform_url": "https://news.ycombinator.com/item?id=48794042",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48826094",
+      "name": "Chiptune Radio",
+      "url": "https://chiptune-radio.alephvoid.com/",
+      "description": "Show HN: Chiptune Radio",
+      "upvotes": 63,
+      "launch_date": "2026-07-08",
+      "platform_url": "https://news.ycombinator.com/item?id=48826094",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48825430",
+      "name": "Free Mermaid Diagram Editor",
+      "url": "https://moxiedocs.com/mermaid-diagram-editor",
+      "description": "Show HN: Free Mermaid Diagram Editor",
+      "upvotes": 44,
+      "launch_date": "2026-07-08",
+      "platform_url": "https://news.ycombinator.com/item?id=48825430",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48821500",
+      "name": "Docx-CLI: agents read/edit Word docs using 1/2 the time and tokens",
+      "url": "https://github.com/kklimuk/docx-cli",
+      "description": "Show HN: Docx-CLI: agents read/edit Word docs using 1/2 the time and tokens",
+      "upvotes": 66,
+      "launch_date": "2026-07-08",
+      "platform_url": "https://news.ycombinator.com/item?id=48821500",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48816900",
+      "name": "PostgreSQL performance and cost across 23 EC2 instance types",
+      "url": "https://postgres.saneengineer.com",
+      "description": "Show HN: PostgreSQL performance and cost across 23 EC2 instance types",
+      "upvotes": 90,
+      "launch_date": "2026-07-08",
+      "platform_url": "https://news.ycombinator.com/item?id=48816900",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48818098",
+      "name": "Halo – open-source, tamper-evident runtime evidence for AI agents",
+      "url": "https://github.com/bkuan001/halo-record",
+      "description": "Show HN: Halo – open-source, tamper-evident runtime evidence for AI agents",
+      "upvotes": 37,
+      "launch_date": "2026-07-08",
+      "platform_url": "https://news.ycombinator.com/item?id=48818098",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48814952",
+      "name": "Fast, native Mac file manager (filters, fuzzy find, 9 MB, no Electron)",
+      "url": "https://whimfiles.com",
+      "description": "Show HN: Fast, native Mac file manager (filters, fuzzy find, 9 MB, no Electron)",
+      "upvotes": 90,
+      "launch_date": "2026-07-08",
+      "platform_url": "https://news.ycombinator.com/item?id=48814952",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48825811",
+      "name": "your website as a TUI, over SSH right now",
+      "url": "https://news.ycombinator.com/item?id=48825811",
+      "description": "Show HN: your website as a TUI, over SSH right now",
+      "upvotes": 10,
+      "launch_date": "2026-07-08",
+      "platform_url": "https://news.ycombinator.com/item?id=48825811",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48826330",
+      "name": "Ghostmeet – Self-hosted meeting transcription and summaries",
+      "url": "https://ghostmeet.sshlab.dev/",
+      "description": "Show HN: Ghostmeet – Self-hosted meeting transcription and summaries",
+      "upvotes": 14,
+      "launch_date": "2026-07-08",
+      "platform_url": "https://news.ycombinator.com/item?id=48826330",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48806575",
+      "name": "Pulpie – Models for Cleaning the Web",
+      "url": "https://usefeyn.com/blog/pulpie-pareto-optimal-models-for-cleaning-the-web/",
+      "description": "Show HN: Pulpie – Models for Cleaning the Web",
+      "upvotes": 101,
+      "launch_date": "2026-07-08",
+      "platform_url": "https://news.ycombinator.com/item?id=48806575",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48820295",
+      "name": "Baerly-storage, a document DB that runs per request, no DB server",
+      "url": "https://github.com/Gusto/baerly-storage",
+      "description": "Show HN: Baerly-storage, a document DB that runs per request, no DB server",
+      "upvotes": 16,
+      "launch_date": "2026-07-08",
+      "platform_url": "https://news.ycombinator.com/item?id=48820295",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48798153",
+      "name": "Homegames. An open-source game platform I've been making for 8 years",
+      "url": "https://homegames.io",
+      "description": "Show HN: Homegames. An open-source game platform I've been making for 8 years",
+      "upvotes": 227,
+      "launch_date": "2026-07-08",
+      "platform_url": "https://news.ycombinator.com/item?id=48798153",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48797656",
+      "name": "Osint tool that finds exposed files on domains",
+      "url": "https://search.cerast-intelligence.com/",
+      "description": "Show HN: Osint tool that finds exposed files on domains",
+      "upvotes": 58,
+      "launch_date": "2026-07-08",
+      "platform_url": "https://news.ycombinator.com/item?id=48797656",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48766242",
+      "name": "Bramble – Local-first password manager",
+      "url": "https://github.com/flythenimbus/bramble",
+      "description": "Show HN: Bramble – Local-first password manager",
+      "upvotes": 151,
+      "launch_date": "2026-07-08",
+      "platform_url": "https://news.ycombinator.com/item?id=48766242",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48810528",
+      "name": "Otari: your open-source LLM control plane",
+      "url": "https://github.com/mozilla-ai/otari",
+      "description": "Show HN: Otari: your open-source LLM control plane",
+      "upvotes": 20,
+      "launch_date": "2026-07-08",
+      "platform_url": "https://news.ycombinator.com/item?id=48810528",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "ph-1190010",
+      "name": "ExploreYC",
+      "description": "Open-source API for Y Combinator & a16z company data",
+      "url": "https://www.producthunt.com/r/TXISOCQQFTUHJC?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 235,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1184843",
+      "name": "IvyForms",
+      "description": "A WordPress form builder for real workflows",
+      "url": "https://www.producthunt.com/r/KULROBXS4AW3L4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 222,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1188842",
+      "name": "Glideo",
+      "description": "Screen recordings that edit themselves",
+      "url": "https://www.producthunt.com/r/SLMZ7XAF7EXLY7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 159,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1190692",
+      "name": "Willow Frontier Pro",
+      "description": "The fastest, most accurate dictation model in the world",
+      "url": "https://www.producthunt.com/r/T6BIUDFMEVHOGT?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 158,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1189943",
+      "name": "LongCat-2.0",
+      "description": "1.6T MoE trained entirely on AI ASICs",
+      "url": "https://www.producthunt.com/r/7J7WA67KIEHIFT?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 153,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1189743",
+      "name": "Link Preview API",
+      "description": "Free API to get Open Graph data, title & images for any URL",
+      "url": "https://www.producthunt.com/r/JYQNCESA4NWQSC?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 139,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1190686",
+      "name": "LemonLime",
+      "description": "Automates your existing workflows with a single prompt.",
+      "url": "https://www.producthunt.com/r/CMWWBNDKWL23MO?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 125,
+      "_source": "producthunt"
+    }
+  ]
+}
