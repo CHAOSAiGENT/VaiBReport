@@ -1,0 +1,192 @@
+{
+  "generated_at": "2026-07-09T15:52:53.018Z",
+  "source": "launches",
+  "counts": {
+    "hackernews_showhn": 7,
+    "producthunt": 13,
+    "total": 20
+  },
+  "launches": [
+    {
+      "id": "showhn-48845049",
+      "name": "18 Words",
+      "url": "https://18words.com/",
+      "description": "Show HN: 18 Words",
+      "upvotes": 388,
+      "launch_date": "2026-07-09",
+      "platform_url": "https://news.ycombinator.com/item?id=48845049",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48846510",
+      "name": "Analog Watch",
+      "url": "https://analog.watch",
+      "description": "Show HN: Analog Watch",
+      "upvotes": 29,
+      "launch_date": "2026-07-09",
+      "platform_url": "https://news.ycombinator.com/item?id=48846510",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48847298",
+      "name": "LastShelf – an emergency map of your family's documents bills& contacts",
+      "url": "https://www.lastshelf.ai/",
+      "description": "Show HN: LastShelf – an emergency map of your family's documents bills& contacts",
+      "upvotes": 12,
+      "launch_date": "2026-07-09",
+      "platform_url": "https://news.ycombinator.com/item?id=48847298",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48845422",
+      "name": "FableCut – A browser video editor AI agents can drive (zero deps)",
+      "url": "https://github.com/ronak-create/FableCut",
+      "description": "Show HN: FableCut – A browser video editor AI agents can drive (zero deps)",
+      "upvotes": 64,
+      "launch_date": "2026-07-09",
+      "platform_url": "https://news.ycombinator.com/item?id=48845422",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48816987",
+      "name": "Yamanote.fun – A complete soundscape for Tokyo's Yamanote line",
+      "url": "https://www.yamanote.fun/",
+      "description": "Show HN: Yamanote.fun – A complete soundscape for Tokyo's Yamanote line",
+      "upvotes": 224,
+      "launch_date": "2026-07-09",
+      "platform_url": "https://news.ycombinator.com/item?id=48816987",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48845367",
+      "name": "Kiyeovo 1.0 release- dual network-mode decentralized E2EE P2P messenger",
+      "url": "https://github.com/Realman78/Kiyeovo/releases/tag/kiyeovo-1.0.0",
+      "description": "Show HN: Kiyeovo 1.0 release- dual network-mode decentralized E2EE P2P messenger",
+      "upvotes": 11,
+      "launch_date": "2026-07-09",
+      "platform_url": "https://news.ycombinator.com/item?id=48845367",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "showhn-48834924",
+      "name": "Microsoft releases Flint, a visualization language for AI agents",
+      "url": "https://microsoft.github.io/flint-chart/#/",
+      "description": "Show HN: Microsoft releases Flint, a visualization language for AI agents",
+      "upvotes": 330,
+      "launch_date": "2026-07-09",
+      "platform_url": "https://news.ycombinator.com/item?id=48834924",
+      "_source": "hackernews_showhn",
+      "_platform": "launches"
+    },
+    {
+      "id": "ph-1177933",
+      "name": "Timbal AI",
+      "description": "Build AI agents, workflows, and apps in one stack",
+      "url": "https://www.producthunt.com/r/7YZFBLZ46SL5CJ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 292,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1188837",
+      "name": "Auriko ",
+      "description": "Trading desk for LLM calls",
+      "url": "https://www.producthunt.com/r/SYYO32SE2PLD3X?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 261,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1169754",
+      "name": "Perfai Security",
+      "description": "Find & fix live vulnerabilities in Vibe Apps with 1-prompt.",
+      "url": "https://www.producthunt.com/r/OR3JOQW62RT6YX?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 197,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1189547",
+      "name": "Opper AI",
+      "description": "The european AI gateway for agents",
+      "url": "https://www.producthunt.com/r/F6SWKP44TXAE4D?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 188,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1164597",
+      "name": "Toyo",
+      "description": "Exec assistant who lives in iMessage and calls your phone",
+      "url": "https://www.producthunt.com/r/JR6YTXBV4TJMWG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 170,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1190152",
+      "name": "Cutrix",
+      "description": "AI-powered video translation that preserves speaker's voice",
+      "url": "https://www.producthunt.com/r/5WFMXGTVZ2FQFQ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 166,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1190590",
+      "name": "Lispr",
+      "description": "Hold a key, speak, and Lispr writes it anywhere",
+      "url": "https://www.producthunt.com/r/N3T6HSFUPVW363?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 164,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1190855",
+      "name": "Orbit for Mac",
+      "description": "Every Google account, in a single window",
+      "url": "https://www.producthunt.com/r/624ZVJIHNA4TC6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 150,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1191675",
+      "name": "GPT-Live",
+      "description": "Full-duplex voice for ChatGPT",
+      "url": "https://www.producthunt.com/r/NOIPBXLXWJ62AP?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 146,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1185881",
+      "name": "PopTask for Apple",
+      "description": "Turn to-dos into scheduled tasks",
+      "url": "https://www.producthunt.com/r/TADE3A4SVTORJG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 145,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1190389",
+      "name": "agents-cli",
+      "description": "The CLI your coding agent uses to ship agents",
+      "url": "https://www.producthunt.com/r/J7EARKPXAPORWT?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 139,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1190525",
+      "name": "Aura: Agents + Git + Intent Open Source",
+      "description": "OSS IDE for controlling AI coding agents with built in loops",
+      "url": "https://www.producthunt.com/r/SQ2RGATPKVTIGJ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 130,
+      "_source": "producthunt"
+    },
+    {
+      "id": "ph-1180294",
+      "name": "New small business tools by IFTTT",
+      "description": "Run your business with HubSpot, Figma, and more",
+      "url": "https://www.producthunt.com/r/X66SYKT435MOBS?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+VaiBReport+%28ID%3A+277658%29",
+      "upvotes": 127,
+      "_source": "producthunt"
+    }
+  ]
+}
