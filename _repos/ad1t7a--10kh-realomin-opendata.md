@@ -3,16 +3,16 @@ layout: repo
 name: "ad1t7a/10Kh-RealOmin-OpenData"
 source: huggingface-dataset
 item_url: "https://huggingface.co/datasets/ad1t7a/10Kh-RealOmin-OpenData"
-description: "10Kh-RealOmin-OpenData"
+description: "Video dataset for robotics and RL research; train agents in complex environments."
 category: "HuggingFace Datasets"
 language: ""
 stars: 0
-downloads: 462481
+downloads: 557396
 likes: 0
 og_image: ""
 first_featured: "2026-06-25"
-last_featured: "2026-06-25"
-times_featured: 1
+last_featured: "2026-07-09"
+times_featured: 2
 streak: 0
 appearances: 0
 star_velocity: 0
@@ -24,4 +24,4 @@ compare_to_source: "manual"
 compare_to_validated: false
 ---
 
-10Kh-RealOmin-OpenData
+Video dataset for robotics and RL research; train agents in complex environments.

@@ -221,20 +221,20 @@
       "last_featured": "2026-04-16"
     },
     "starling-lm": {
-      "times_featured": 6,
-      "last_featured": "2026-06-25"
+      "times_featured": 7,
+      "last_featured": "2026-07-09"
     },
     "solar": {
-      "times_featured": 6,
-      "last_featured": "2026-06-25"
+      "times_featured": 7,
+      "last_featured": "2026-07-09"
     },
     "phind-codellama": {
-      "times_featured": 6,
-      "last_featured": "2026-06-25"
+      "times_featured": 7,
+      "last_featured": "2026-07-09"
     },
     "aya-expanse": {
-      "times_featured": 6,
-      "last_featured": "2026-06-25"
+      "times_featured": 7,
+      "last_featured": "2026-07-09"
     },
     "xwinlm": {
       "times_featured": 6,
@@ -447,6 +447,10 @@
     "exaone3.5": {
       "times_featured": 1,
       "last_featured": "2026-07-06"
+    },
+    "stablelm-zephyr": {
+      "times_featured": 1,
+      "last_featured": "2026-07-09"
     }
   }
 }

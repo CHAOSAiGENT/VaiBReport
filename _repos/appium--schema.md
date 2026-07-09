@@ -3,16 +3,16 @@ layout: repo
 name: "@appium/schema"
 source: npm
 item_url: "https://www.npmjs.com/package/@appium/schema"
-description: "Appium Configuration Schema"
+description: "Essential schema for Appium configurations; helps you validate and build robust mobile test automation."
 category: "npm Packages"
 language: ""
 stars: 0
-downloads: 2774698
+downloads: 2361161
 likes: 0
 og_image: ""
 first_featured: "2026-03-26"
-last_featured: "2026-06-25"
-times_featured: 7
+last_featured: "2026-07-09"
+times_featured: 8
 streak: 0
 appearances: 0
 star_velocity: 0
@@ -24,4 +24,4 @@ compare_to_source: "manual"
 compare_to_validated: false
 ---
 
-Appium Configuration Schema
+Essential schema for Appium configurations; helps you validate and build robust mobile test automation.

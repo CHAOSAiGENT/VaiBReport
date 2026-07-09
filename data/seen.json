@@ -389,8 +389,8 @@
       "last_featured": "2026-06-27"
     },
     "k3s-io/k3s": {
-      "times_featured": 2,
-      "last_featured": "2026-04-14"
+      "times_featured": 3,
+      "last_featured": "2026-07-09"
     },
     "BeyteFlow/ReadmeGenAI": {
       "times_featured": 8,
@@ -517,8 +517,8 @@
       "last_featured": "2026-04-10"
     },
     "apache/superset": {
-      "times_featured": 2,
-      "last_featured": "2026-04-11"
+      "times_featured": 3,
+      "last_featured": "2026-07-09"
     },
     "redisson/redisson": {
       "times_featured": 1,
@@ -617,24 +617,24 @@
       "last_featured": "2026-04-21"
     },
     "AiuniAI/Unique3D": {
-      "times_featured": 7,
-      "last_featured": "2026-06-25"
+      "times_featured": 8,
+      "last_featured": "2026-07-09"
     },
     "open-xml-templating/docxtemplater": {
       "times_featured": 8,
       "last_featured": "2026-07-08"
     },
     "Tencent-Hunyuan/Hunyuan3D-1": {
-      "times_featured": 7,
-      "last_featured": "2026-06-25"
+      "times_featured": 8,
+      "last_featured": "2026-07-09"
     },
     "DLR-RM/BlenderProc": {
-      "times_featured": 7,
-      "last_featured": "2026-06-25"
+      "times_featured": 8,
+      "last_featured": "2026-07-09"
     },
     "thu-ml/TurboDiffusion": {
-      "times_featured": 7,
-      "last_featured": "2026-06-25"
+      "times_featured": 8,
+      "last_featured": "2026-07-09"
     },
     "binhnguyennus/awesome-scalability": {
       "times_featured": 1,
@@ -657,20 +657,20 @@
       "last_featured": "2026-07-08"
     },
     "kvnxiao/tauri-nextjs-template": {
-      "times_featured": 7,
-      "last_featured": "2026-06-25"
+      "times_featured": 8,
+      "last_featured": "2026-07-09"
     },
     "zhangyao1990/elegant-admin": {
-      "times_featured": 7,
-      "last_featured": "2026-06-25"
+      "times_featured": 8,
+      "last_featured": "2026-07-09"
     },
     "radishzzz/astro-theme-retypeset": {
-      "times_featured": 7,
-      "last_featured": "2026-06-25"
+      "times_featured": 8,
+      "last_featured": "2026-07-09"
     },
     "KevinNovak/Discord-Bot-TypeScript-Template": {
-      "times_featured": 7,
-      "last_featured": "2026-06-25"
+      "times_featured": 8,
+      "last_featured": "2026-07-09"
     },
     "getpaykit/paykit": {
       "times_featured": 8,
@@ -689,8 +689,8 @@
       "last_featured": "2026-06-26"
     },
     "Robbyant/lingbot-world": {
-      "times_featured": 7,
-      "last_featured": "2026-06-25"
+      "times_featured": 8,
+      "last_featured": "2026-07-09"
     },
     "thu-ml/SageAttention": {
       "times_featured": 7,
@@ -857,8 +857,8 @@
       "last_featured": "2026-04-15"
     },
     "NextJSTemplates/play-nextjs": {
-      "times_featured": 6,
-      "last_featured": "2026-06-25"
+      "times_featured": 7,
+      "last_featured": "2026-07-09"
     },
     "calcom/cal.diy": {
       "times_featured": 1,
@@ -1547,6 +1547,18 @@
     "formbricks/formbricks": {
       "times_featured": 1,
       "last_featured": "2026-07-08"
+    },
+    "GoogleChrome/lighthouse": {
+      "times_featured": 1,
+      "last_featured": "2026-07-09"
+    },
+    "Rem0o/FanControl.Releases": {
+      "times_featured": 1,
+      "last_featured": "2026-07-09"
+    },
+    "bluenviron/mediamtx": {
+      "times_featured": 1,
+      "last_featured": "2026-07-09"
     }
   }
 }
